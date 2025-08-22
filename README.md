@@ -1,4 +1,8 @@
-## Draft Introduction
+## Introduction
+
+> [!NOTE]
+> This project is currently being developed to be released soon.
+
 
 Logical Spirituality is a philosophical project dedicated to exploring and describing the wholeness of nature in detail. Through this project, you will gain deeper insights into your own life and its connection to the world around you.
 
