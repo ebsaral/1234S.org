@@ -16,7 +16,7 @@ By seeing that every being is inherently equal and free in nature, you will deve
 
 - Discovering how luck is formed, shaped, renewed, and dissolved within nature
 
-- Exploring philosophy, psychology, sociology, and related fields within the Master of Arts perspective
+- Exploring philosophy, psychology, sociology, and related fields better in depth.
 
 - Reinterpreting historical events — both on a global scale and within your personal life
 
