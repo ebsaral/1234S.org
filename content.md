@@ -26,7 +26,7 @@ Justice is embedded in nature. Every action, intention, and interaction produces
 
 **Interconnectedness:**
 
-Every being is connected, so we all live in harmony. Our choices, emotions, actions, health, talents and luck are influenced by those around us, and vice versa. The health and well-being of one individual ripple outward, affecting the broader system.
+Every being is connected, so we all live in harmony. Our choices, emotions, actions, health, talents and luck are influenced by those around us, and vice versa. The health and well-being of one individual ripple outward, affecting the broader system. We are all responsible from each other's being both visibly and invisibly.
 
 Respecting equality and freedom of others aligns us with the natural harmony, creating positive effects not only for ourselves but for the collective.
 
