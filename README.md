@@ -26,7 +26,7 @@ By seeing that every being is inherently equal and free in nature, you will deve
 
 ---
 
-This open source project is founded and led by [Emin Buğra Saral](https://ebsaral.vercel.app).
+This open source project is initiated and led by [Emin Buğra Saral](https://ebsaral.vercel.app).
 
 ### Current Supporters
 
