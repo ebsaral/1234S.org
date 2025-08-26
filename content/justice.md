@@ -30,15 +30,15 @@ Spirituality balances both by teaching: All beings are equal in essence. Each be
 
 **In short: Spirituality frames equality and freedom as natural states of existence, not privileges granted by society.**
 
----
 
-## Nature as Justice: The Unseen Logic
+## 4. The Unseen Logic: Nature as Justice
 
 Justice is embedded in nature to balance **equality and freedom**. Every action, intention, and interaction produces both positive and negative consequences. The universe maintains balance as it always has been, and this balance is reflected in the health and luck of all living beings.
 
 By aligning equality and freedom at its interconnected being, nature rewards positive actions such as caring, compassion, honesty, forgiveness, and support for others while it punishes negative or harmful actions.
 
-👉 **Every living being must have a clear path to equality and freedom.** Empowerment leads to positive consequences, while denial leads to negative ones. Nothing is *random* in nature.
+> [!IMPORTANT] 
+> **Every living being must have a clear path to equality and freedom.** Empowerment leads to positive consequences, while denial leads to negative ones. Nothing is *random* in nature.
 
 ### Positive Consequences
 - Nature
