@@ -86,11 +86,11 @@ By aligning equality and freedom at its interconnected being, nature rewards pos
   - Home Accidents
     - Slipping and falling
     - Burns (from hot water, fire, or cooking)
-    ...
+    - ...
   - Outdoor & Environmental Accidents
     - Drowning
     - Hiking or climbing fall
     - Animal bite or attack
     - Avalanche accident
     - Lightning strike
-    ...
+    - ...
