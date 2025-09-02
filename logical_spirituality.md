@@ -23,7 +23,7 @@ Every being is part of a living whole. When one person suffers, the effects rare
 - **Environment:** Acts of caring or cruelty faces positive or negative consequences, shaping the health of entire environment. Torturing animals in a fertile area can cause droughts in time.  
 - **Health:** A contagious illness, such as influenza, can spread far beyond the first infected person. Similarly, the choices and circumstances of others — even those far away — can ripple into and affect your own life.  
 - **Talents:** A person's talent blossoms when parents, teachers, mentors, and communities nurture it. Some talents are naturally given because there is a need in that person's environment and goals.  
-- **Luck:** All beings have a right to access a clear path to indefinite luck and opportunities. The choices and actions of our ancestors shape the ease and opportunities available to future generations.  
+- **Luck:** All beings have a right to access a clear path to infinite luck and opportunities. The choices and actions of our ancestors shape the ease and opportunities available to future generations.  
 - **Social Life:** Acts of kindness or cruelty ripple outward, shaping the tone and behavior of entire communities.  
 
 **Key Takeaway:** Interconnectedness reveals that our choices shape not only our own destiny but the well-being of the entire system.
