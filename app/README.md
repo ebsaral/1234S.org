@@ -39,7 +39,7 @@ A beautiful, responsive single-page React application for presenting the philoso
 ## 🔧 Configuration
 
 ### Theme Customization
-Edit `/app/frontend/src/data/mock.js` to modify:
+Edit `/app/src/data/mock.js` to modify:
 - Color schemes and gradients
 - Typography and spacing
 - Animation settings
@@ -55,7 +55,7 @@ content.tr.sections.interconnectedness = { ... }
 ```
 
 ### Settings Configuration
-Use `/app/frontend/src/config/settings.js` for:
+Use `/app/src/config/settings.js` for:
 - Feature toggles
 - Animation parameters
 - Section visibility
@@ -104,7 +104,7 @@ This app is designed for GitHub Pages deployment:
 
 1. **Build the app**:
    ```bash
-   cd frontend && yarn build
+   yarn build
    ```
 
 2. **Deploy to GitHub Pages**:
@@ -120,7 +120,7 @@ This app is designed for GitHub Pages deployment:
 ### Development
 ```bash
 # Start development server
-cd frontend && yarn start
+yarn start
 
 # Visit http://localhost:3000
 ```
@@ -128,27 +128,26 @@ cd frontend && yarn start
 ### Production Build
 ```bash
 # Create optimized build
-cd frontend && yarn build
+yarn build
 ```
 
 ## 📁 Project Structure
 
 ```
 /app/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ui/ (shadcn components)
-│   │   │   ├── ThemeProvider.jsx
-│   │   │   ├── ParallaxSection.jsx
-│   │   │   └── ScrollReveal.jsx
-│   │   ├── data/
-│   │   │   └── mock.js (all content data)
-│   │   ├── config/
-│   │   │   └── settings.js
-│   │   └── App.js (main application)
-│   ├── package.json
-│   └── tailwind.config.js
+├── src/
+│   ├── components/
+│   │   ├── ui/ (shadcn components)
+│   │   ├── ThemeProvider.jsx
+│   │   ├── ParallaxSection.jsx
+│   │   └── ScrollReveal.jsx
+│   ├── data/
+│   │   └── mock.js (all content data)
+│   ├── config/
+│   │   └── settings.js
+│   └── App.js (main application)
+├── package.json
+└── tailwind.config.js
 └── README.md
 ```
 
