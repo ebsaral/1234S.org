@@ -121,7 +121,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
             {/* Quote */}
             {sectionKey !== "naturesJustice" && hasKey(`${sectionKey}Quote`) &&
               <div className="max-w-4xl mx-auto mb-12">
-                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-light italic text-gray-700 leading-relaxed border-l-4 border-emerald-500 pl-8 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm">
+                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-light italic text-gray-700 leading-relaxed border-l-4 border-emerald-500 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm">
                   {t(`${sectionKey}Quote`)}
                 </blockquote>
               </div>
