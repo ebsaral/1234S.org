@@ -3,6 +3,8 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useScrollEffects } from '../hooks/useScrollEffects';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
+import logo from './logo.png'
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -76,18 +78,19 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div 
-            className="text-2xl font-bold cursor-pointer transition-colors duration-300"
+            className="group flex flex-row items-center text-2xl rounded-md font-bold cursor-pointer transition-colors duration-300"
             onClick={() => scrollToSection('#home')}
             style={{
               background: isScrolled 
-                ? 'linear-gradient(135deg, #2d5a27 0%, #4a7c59 100%)'
-                : 'linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%)',
+                ? 'linear-gradient(135deg, #F9F6E3 0%, #F9F6E3 100%)'
+                : 'none',
+              border: isScrolled && "1px solid rgb(5 150 105)",
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
             }}
           >
-            Logical Spirituality
+            <img src={logo} className='ml-[50px] mr-[50px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[48px] group-hover:mr-[48px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={t("home") + " header logo"} />
           </div>
 
           {/* Desktop Navigation */}
