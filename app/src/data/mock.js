@@ -6,14 +6,14 @@ export const mockData = {
       // Navigation
       home: "Logical Spirituality",
       interconnectedness: "Interconnectedness",
-      naturesJustice: "Nature's Justice",
+      naturesJustice: "Justice in Nature",
       health: "Health",
       examples: "Examples",
       language: "Language",
       
       // Hero Section
       heroTitle: "Logical Spirituality",
-      heroSubtitle: "Expanding Spirituality with Nature's Logic",
+      heroSubtitle: "Expanding Spirituality with Logic in Nature",
       heroDescription: "What if the universe is not random at all? What if every illness, every stroke of luck, every success and failure, even every disaster, follows a deeper pattern?",
       watchVideo: "Watch Video",
       learnMore: "Learn More",
@@ -23,7 +23,7 @@ export const mockData = {
         paragraph1: "Spirituality has long pointed us toward two universal truths: **equality** and **freedom**. Beneath our differences — culture, race, class, or belief — every being shares the same essence. Each life is sacred, carrying intrinsic worth. And alongside this equality is freedom: not just political or economic liberty, but the deeper liberation from fear, ignorance, and attachment.",
         paragraph2: "Equality without freedom becomes restrictive; freedom without equality becomes selfish. Spirituality teaches that all beings are equal in essence, and each is free to live that essence authentically.",
         paragraph3: "But a deeper question arises: *How are equality and freedom maintained in reality?* If they are natural truths, what ensures balance when they are disrupted?",
-        paragraph4: "**Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic of nature**. It demonstrates how these truths unfold in practice through two guiding principles: **Interconnectedness** and **Nature's Justice**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.",
+        paragraph4: "**Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic of nature**. It demonstrates how these truths unfold in practice through two guiding principles: **Interconnectedness** and **Justice in Nature**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.",
         completion: "Logical Spirituality is not a break from spirituality but its completion — a bridge between timeless wisdom and the observable logic of the world we live in."
       },
       
@@ -34,9 +34,9 @@ export const mockData = {
       interconnectednessExperimentText: "Cover your ears to block out distractions, then begin creating—writing, painting, or making music—within a room. Record your process, capturing your computer screen, your environment, or both. While you focus on your work, allow others to move freely through the space, without restrictions. After an hour, review the recordings and your creations carefully. You will notice how the presence of others —their movements, conversations, choices, memories, and even subtle thoughts— has left traces within your work (output), quietly shaping the outcome of your creative expression.",
       interconnectednessKeyTakeaway: "Interconnectedness reveals that our choices shape not only our own destiny but the well-being of the entire system.",
 
-      naturesJusticeTitle: "Nature's Justice: The Unseen Logic",
+      naturesJusticeTitle: "Justice in Nature: The Unseen Logic",
       naturesJusticeDescription: "If interconnectedness describes the web of life, justice is the logic that holds it together. Every being is treated equally under this law, and every being is free to act — but **every action carries consequences**.",
-      naturesJusticeKeyTakeaway: "Justice is not punishment from outside. It is the natural unfolding of balance. By honoring equality and freedom — not just for ourselves, but for every being — we align with nature's logic and invite positive outcomes into the interconnected whole.",
+      naturesJusticeKeyTakeaway: "Justice is not punishment from outside. It is the natural unfolding of balance. By honoring equality and freedom — not just for ourselves, but for every being — we align with Logic in Nature and invite positive outcomes into the interconnected whole.",
       naturesJusticeEqualityTitle: "Equality",
       naturesJusticeEqualityText: "Nature does not play favorites. Gravity, storms, illness, or death apply to all without discrimination.",
       naturesJusticeFreedomTitle: "Freedom",
@@ -88,7 +88,7 @@ export const mockData = {
 
       // Footer
       footerTitle: "Logical Spirituality",
-      footerText: "Expanding Spirituality with Nature's Logic",
+      footerText: "Expanding Spirituality with Logic in Nature",
       copyright: "© 2025 Logical Spirituality: A philosophical movement project.",
       developer: "about the developer"
     },
@@ -96,14 +96,14 @@ export const mockData = {
       // Navigation
       home: "Mantıksal Maneviyat",
       interconnectedness: "Bütünlük",
-      naturesJustice: "Doğanın Adaleti",
+      naturesJustice: "Doğadaki Adalet",
       health: "Sağlık",
       examples: "Örnekler",
       language: "Dil",
       
       // Hero Section
       heroTitle: "Mantıksal Maneviyat",
-      heroSubtitle: "Doğanın Mantığıyla Maneviyatı Derinleştirmek",
+      heroSubtitle: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
       heroDescription: "Ya evrendeki hiçbir şey rastgele değilse? Her hastalık, her şans eseri olay, her başarı ve başarısızlık, hatta her felaket, daha derin bir düzeni mi takip ediyor?",
       watchVideo: "Videoyu İzle",
       learnMore: "Daha Fazla Bilgi",
@@ -113,7 +113,7 @@ export const mockData = {
         paragraph1: "Maneviyat uzun zamandır bize iki evrensel gerçeği işaret ediyor: **eşitlik** ve **özgürlük**. Kültür, ırk, sınıf veya inanç farklarımızın ötesinde her varlık aynı özle birleşir. Her yaşam kutsaldır, içsel bir değere sahiptir. Bu eşitliğin yanında bir de özgürlük vardır: sadece politik veya ekonomik özgürlük değil, korkudan, cehaletten ve bağımlı bağlılıktan kurtulmanın daha derin özgürlüğü.",
         paragraph2: "Özgürlük olmadan eşitlik kısıtlayıcı olur; eşitlik olmadan özgürlük bencilleşir. Maneviyat tüm varlıkların özde eşit olduğunu ve her birinin bu özü özgün şekilde yaşamakta özgür olduğunu öğretir.",
         paragraph3: "Fakat daha derin bir soru ortaya çıkıyor: *Eşitlik ve özgürlük gerçekte nasıl korunuyor?* Eğer bunlar doğal gerçeklerse, dengesizlik olduğunda ne dengeyi sağlar?",
-        paragraph4: "**Mantıksal Maneviyat**, geleneksel maneviyatın üzerine **doğanın görünmeyen mantığını** keşfederek inşa edilir. Bu gerçeklerin pratikte nasıl ortaya çıktığını iki kılavuz ilke aracılığıyla gösterir: **Bütünlük** ve **Doğanın Adaleti**. İlkelerin ilişkileri, **tüm canlıların sağlığını** temel alan *çok boyutlu* bir öğrenme döngüsüyle incelenir.",
+        paragraph4: "**Mantıksal Maneviyat**, geleneksel maneviyatın üzerine **doğanın görünmeyen mantığını** keşfederek inşa edilir. Bu gerçeklerin pratikte nasıl ortaya çıktığını iki kılavuz ilke aracılığıyla gösterir: **Bütünlük** ve **Doğadaki Adalet**. İlkelerin ilişkileri, **tüm canlıların sağlığını** temel alan *çok boyutlu* bir öğrenme döngüsüyle incelenir.",
         completion: "Mantıksal Maneviyat, maneviyattan bir kopuş değil, onun tamamlanmasıdır — zamansız bilgelikle yaşadığımız dünyanın gözlemlenebilir mantığı arasında bir köprüdür."
       },
       
@@ -124,9 +124,9 @@ export const mockData = {
       interconnectednessExperimentText: "Dikkatinizi dağıtan sesleri engellemek için kulaklarınızı kapatın, ardından bir odada yazı, resim veya müzik üretmeye başlayın. Sürecinizi kaydedin; bilgisayar ekranınızı, çevrenizi veya her ikisini birden. Çalışmanıza odaklanırken, başkalarının alanda özgürce hareket etmesine izin verin, onları kısıtlamayın. Bir saat sonra kayıtları ve yaratımlarınızı dikkatle inceleyin. Diğerlerinin varlığının — hareketleri, konuşmaları, seçimleri, anıları ve hatta ince düşünceleri — eserinizin içinde izler bıraktığını, yaratımınızın sonucunu sessizce şekillendirdiğini fark edeceksiniz.",
       interconnectednessKeyTakeaway: "Bütünlük, seçimlerimizin sadece kendi kaderimizi değil, tüm sistemin refahını da şekillendirdiğini ortaya koyar.",
 
-      naturesJusticeTitle: "Doğanın Adaleti: Görünmeyen Mantık",
+      naturesJusticeTitle: "Doğadaki Adalet: Görünmeyen Mantık",
       naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, adalet onu bir arada tutan mantıktır. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama **her eylemin sonuçları vardır**.",
-      naturesJusticeKeyTakeaway: "Adalet dışarıdan gelen bir ceza değildir. Bu, dengenin doğal olarak açığa çıkmasıdır. Eşitliğe ve özgürlüğe — sadece kendimiz için değil, her varlık için — saygı göstererek doğanın mantığıyla uyum sağlar ve bağlantılı bütünün içine olumlu sonuçları davet ederiz.",
+      naturesJusticeKeyTakeaway: "Adalet dışarıdan gelen bir ceza değildir. Bu, dengenin doğal olarak açığa çıkmasıdır. Eşitliğe ve özgürlüğe — sadece kendimiz için değil, her varlık için — saygı göstererek Doğadaki Mantıkla uyum sağlar ve bağlantılı bütünün içine olumlu sonuçları davet ederiz.",
       naturesJusticeEqualityTitle: "Eşitlik",
       naturesJusticeEqualityText: "Doğa kayırmacılık yapmaz. Yerçekimi, fırtınalar, hastalık veya ölüm herkese ayrım gözetmeksizin uygulanır.",
       naturesJusticeFreedomTitle: "Özgürlük",
@@ -145,7 +145,7 @@ export const mockData = {
       },
 
       healthTitle: "Sağlık: Doğadaki Adaletin Aynası Olarak Vücut",
-      healthQuote: "Fiziksel ve zihinsel sağlığımız doğanın adaletine ve ilişkilerimizin kalitesine doğrudan yansır.",
+      healthQuote: "Fiziksel ve zihinsel sağlığımız doğadaki adalete ve ilişkilerimizin kalitesine doğrudan yansır.",
       healthDescription: "Olumlu eylemler — şefkat, dürüstlük, affedicilik ve başkalarını desteklemek — organlarımızı, zihinsel dayanıklılığımızı ve genel sağlığımızı güçlendirir.\nOlumsuz veya zararlı eylemler dengeyi bozar, bedeni zayıflatır ve hastalık veya stres olarak ortaya çıkar.\n\nEylemler hem içe hem dışa dönük olabilir. Kendinizle olan ilişkiniz, başkalarıyla olan ilişkileriniz kadar önemlidir.",
       healthAnalogy: {
         title: "Organ-Eylem-Sonuç Benzetmesi",
@@ -173,12 +173,12 @@ export const mockData = {
       
       // Ending
       ending: {
-        paragraph: "Hayat kaos veya tesadüf değil, yaşayan bir denklemdir: eşitlik ve özgürlük, doğanın adaletiyle ifade edilir ve tüm varlıkların bütünlüğüyle sürdürülür. Doğanın bakış açısından, eşitlik ve özgürlük haklarınızı doğaya saygılı bir şekilde aramanız tartışmasızdır."
+        paragraph: "Hayat kaos veya tesadüf değil, yaşayan bir denklemdir: eşitlik ve özgürlük, doğadaki adaletle ifade edilir ve tüm varlıkların bütünlüğüyle sürdürülür. Doğanın bakış açısından, eşitlik ve özgürlük haklarınızı doğaya saygılı bir şekilde aramanız tartışmasızdır."
       },
 
       // Footer
       footerTitle: "Mantıksal Maneviyat",
-      footerText: "Doğanın Mantığıyla Maneviyatı Derinleştirmek",
+      footerText: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
       copyright: "© 2025 Mantıksal Maneviyat: Felsefi bir hareket projesi.",
       developer: "geliştirici hakkında"
     }
