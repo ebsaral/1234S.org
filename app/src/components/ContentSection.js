@@ -1,17 +1,10 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useScrollEffects, useIntersectionObserver } from '../hooks/useScrollEffects';
-import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
-import { Badge } from './ui/badge';
 import { 
-  Globe, 
-  Scale, 
-  Heart, 
   Lightbulb, 
-  Leaf, 
   Brain,
-  Zap,
   Target,
   CheckCircle,
   XCircle,
@@ -19,21 +12,16 @@ import {
   Shield,
   Sun,
   Cloud,
-  Droplets,
   Wind,
   TreePine,
-  Fish,
   Smile,
-  Frown,
   Activity,
   Eye,
   Stethoscope,
   MapPin,
-  TrendingUp,
   Music,
   Gift
 } from 'lucide-react';
-import { mockData } from '../data/mock';
 
 const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
   const { t, hasKey } = useLanguage();
