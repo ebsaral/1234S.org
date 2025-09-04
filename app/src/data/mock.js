@@ -10,6 +10,7 @@ export const mockData = {
       health: "Health",
       examples: "Examples",
       language: "Language",
+      scrollIndicator: "Scroll to explore",
       
       // Hero Section
       heroTitle: "Logical Spirituality",
@@ -100,6 +101,7 @@ export const mockData = {
       health: "Sağlık",
       examples: "Örnekler",
       language: "Dil",
+      scrollIndicator: "Keşfetmek için kaydırın",
       
       // Hero Section
       heroTitle: "Mantıksal Maneviyat",

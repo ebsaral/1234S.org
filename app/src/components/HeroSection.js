@@ -96,7 +96,7 @@ const HeroSection = () => {
           
           {/* Scroll Indicator */}
           <div className="flex flex-col items-center animate-bounce">
-            <p className="text-white/70 text-sm mb-2">Scroll to explore</p>
+            <p className="text-white/70 text-sm mb-2">{t('scrollIndicator')}</p>
             <ArrowDown className="w-6 h-6 text-white/70" />
           </div>
         </div>
