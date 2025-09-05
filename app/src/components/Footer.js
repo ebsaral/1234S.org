@@ -107,7 +107,7 @@ const Footer = () => {
               {t('copyright')}
             </p>
             <p className="text-gray-400 text-sm m-2">
-              <a className='underline hover:no-underline' href="https://ebsaral.vercel.app">{t('developer')}</a>
+              <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('developer')}</a>
             </p>
             {/* Decorative Icons */}
             <div className="flex justify-center items-center gap-8 mt-8">
