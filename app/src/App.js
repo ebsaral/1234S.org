@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { LanguageProvider } from "./contexts/LanguageContext";
+import Meta from "./components/Meta";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import VideoSection from "./components/VideoSection";
@@ -16,6 +17,7 @@ function App() {
   return (
     <LanguageProvider>
       <div className="App">
+        <Meta />
         <Header />
         
         <main>
