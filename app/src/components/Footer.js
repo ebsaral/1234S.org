@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Heart, Globe, Scale, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
-import logo from './logo.png'
+import { LogoSrc } from '../lib/utils';
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className='flex justify-center'>
-            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src={logo} alt={t("home") + " footer logo"}/>
+            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src={LogoSrc('white')} alt={t("home") + " footer logo"}/>
           </div>
           
           {/* Social Media Icons */}
