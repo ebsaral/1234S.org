@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Heart, Globe, Scale, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Heart, Globe, Scale, Twitter, Youtube, Linkedin } from 'lucide-react';
 import { LogoSrc } from '../lib/utils';
+import MediumSVG from './svg/Medium'; 
 
 const Footer = () => {
   const { t } = useLanguage();
   const [activeSection, setActiveSection] = useState('home');
 
   const socialLinks = [
-    //{ icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
-    //{ icon: Instagram, href: "#", label: "Instagram" },
+    { icon: MediumSVG, href: "https://medium.com/@logical-spirituality", label: "Medium (Blog)" },
     { icon: Youtube, href: "https://www.youtube.com/@0LogicalSpirituality1", label: "YouTube" },
+    { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
     { icon: Linkedin, href: "https://www.linkedin.com/in/logical-spirituality", label: "LinkedIn" }
   ];
 
