@@ -8,9 +8,10 @@ import {
   Target,
   CheckCircle,
   XCircle,
-  Users,
   Shield,
   Sun,
+  LoaderPinwheel,
+  FerrisWheel,
   Cloud,
   Wind,
   TreePine,
@@ -299,7 +300,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-3">
-                        <Shield className="text-purple-600" size={28} />
+                        <LoaderPinwheel className="text-blue-600" size={28} />
                         {t('naturesJusticeEqualityTitle')}
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
@@ -311,7 +312,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-purple-700 mb-4 flex items-center gap-3">
-                        <Users className="text-blue-600" size={28} />
+                        <FerrisWheel className="text-purple-600" size={28} />
                         {t('naturesJusticeFreedomTitle')}
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
