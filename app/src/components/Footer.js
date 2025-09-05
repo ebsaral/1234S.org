@@ -103,10 +103,10 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="pt-8 border-t border-gray-700">
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm whitespace-pre-line">
               {t('copyright')}
             </p>
-            <p className="text-gray-400 text-sm m-2">
+            <p className="text-gray-400 text-sm m-2 underline-offset-4">
               <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('developer')}</a>
             </p>
             {/* Decorative Icons */}
@@ -121,6 +121,9 @@ const Footer = () => {
                 <Heart className="text-green-400" size={24} />
               </div>
             </div>
+            <p className="text-gray-400 text-xs mt-6 underline-offset-4">
+              <a className='underline hover:no-underline' href="https://emergent.sh" target='_blank'>{t('themeCredit')}</a>
+            </p>
           </div>
         </div>
       </div>

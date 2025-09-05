@@ -90,8 +90,9 @@ export const mockData = {
       // Footer
       footerTitle: "Logical Spirituality",
       footerText: "Expanding Spirituality with Logic in Nature",
-      copyright: "© 2025 Logical Spirituality: A philosophical movement project.",
-      developer: "about the developer"
+      copyright: "© 2025\nLogical Spirituality: A philosophical movement project.",
+      developer: "about the developer",
+      themeCredit: "built with Emergent.sh"
     },
     tr: {
       // Navigation
@@ -181,8 +182,9 @@ export const mockData = {
       // Footer
       footerTitle: "Mantıksal Maneviyat",
       footerText: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
-      copyright: "© 2025 Mantıksal Maneviyat: Felsefi bir hareket projesi.",
-      developer: "geliştirici hakkında"
+      copyright: "© 2025\nMantıksal Maneviyat: Felsefi bir hareket projesi.",
+      developer: "geliştirici hakkında",
+      themeCredit: "Emergent.sh ile tasarlandı"
     }
 
 
