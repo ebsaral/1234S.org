@@ -6,7 +6,7 @@
 - **Multi-language Support**: English + Turkish with language switcher dropdown
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Hero Section**: Stunning parallax background with gradient text effects
-- **Video Integration**: YouTube video embedded (https://www.youtube.com/watch?v=54fea7wuV6s)
+- **Video Integration**: YouTube video embedded (placeholder)
 - **Content Sections**: 4 main sections with spiritual background images and parallax effects
 - **Scroll Effects**: Smooth parallax, intersection observer animations
 - **Professional Design**: Following refreshing, energetic, professional color theme

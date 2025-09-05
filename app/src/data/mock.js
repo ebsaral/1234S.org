@@ -198,7 +198,4 @@ export const mockData = {
     health: "https://images.unsplash.com/photo-1539182972012-585804f77548",
     examples: "https://images.unsplash.com/photo-1506126613408-eca07ce68773"
   },
-  
-  // Video
-  videoUrl: "https://www.youtube.com/embed/54fea7wuV6s",
 };
