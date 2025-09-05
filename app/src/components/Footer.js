@@ -8,11 +8,11 @@ const Footer = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" }, 
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Youtube, href: "#", label: "YouTube" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" }
+    //{ icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
+    //{ icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Youtube, href: "https://www.youtube.com/@0LogicalSpirituality1", label: "YouTube" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/logical-spirituality", label: "LinkedIn" }
   ];
 
   const navItems = [
@@ -63,7 +63,6 @@ const Footer = () => {
           </div>
           
           {/* Social Media Icons */}
-          {false &&
           <div className="flex justify-center items-center gap-4 mb-8">
             {socialLinks.map((social, index) => (
               <a
@@ -78,7 +77,6 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          }
           
           {/* Navigation Links */}
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 mb-8 text-sm text-gray-300">
