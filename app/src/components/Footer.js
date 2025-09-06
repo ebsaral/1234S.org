@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Heart, Globe, Scale, Twitter, Youtube, Linkedin } from 'lucide-react';
+import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github } from 'lucide-react';
 import { LogoSrc } from '../lib/utils';
 import MediumSVG from './svg/Medium'; 
 
@@ -13,6 +13,7 @@ const Footer = () => {
     { icon: Youtube, href: "https://www.youtube.com/@0LogicalSpirituality1", label: "YouTube" },
     { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
     { icon: Linkedin, href: "https://www.linkedin.com/in/logical-spirituality", label: "LinkedIn" }
+    { icon: Linkedin, href: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
   ];
 
   const navItems = [
