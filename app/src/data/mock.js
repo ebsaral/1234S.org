@@ -123,7 +123,7 @@ export const mockData = {
       interconnectednessKeyTakeaway: "Bütünlük, seçimlerimizin hem görünür hem de görünmez biçimlerde birbirine bağlı olduğunu ortaya koyar. Daha büyük bir varoluşun içinde yaşayan doğal varlıklar olarak, seçimlerimiz yalnızca kendi kaderimizi değil, birlikte paylaştığımız tüm sistemin iyiliğini de şekillendirir.",
 
       naturesJusticeTitle: "Doğadaki Adalet: Görünmeyen Mantık",
-      naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, **adalet onu bir arada tutan mantıktır**. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama **her eylemin sonuçları vardır**. **Her olumsuz sonuç, doğada sessiz bir çığlıktır.**",
+      naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, **adalet onu bir arada tutan mantıktır**. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama her eylemin sonuçları vardır. **Her olumsuz sonuç, doğada sessiz bir çığlığı anlatır.**",
       naturesJusticeKeyTakeaway: "Adalet, dengenin doğal bir açılımıdır. Sadece kendimiz için değil, her varlık için eşitlik ve özgürlüğe saygı göstererek, Doğadaki Mantıkla uyum içinde olur ve bütünleşik yapıya olumlu sonuçlar davet ederiz. Her türlü uyumsuzluk, doğanın adalet terazisinde adil bir çözüm olarak yok olma eğilimindedir.",
       naturesJusticeEqualityTitle: "Eşitlik",
       naturesJusticeEqualityText: "Doğa kayırmacılık yapmaz. Yerçekimi, fırtınalar, hastalık veya ölüm herkese ayrım gözetmeksizin uğrar.",
