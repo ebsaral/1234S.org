@@ -59,7 +59,7 @@ export const mockData = {
       healthDescription: "Positive actions — compassion, honesty, forgiveness, and support for others — strengthen our organs, mental resilience, and overall well-being.\nNegative or harmful actions disrupt balance, weaken the body, and manifest as illness or stress.\n\nActions can be both inward and outward in any relationship. Your relationship with yourself is equally important as your relationships with others.",
       healthAnalogy: {
         title: "Organ-Action-Consequence Analogy",
-        subtitle: "Body organs function similarly to individuals' roles in a society or environment: Each organ's biological purpose is a silent mirror of your choices of actions in nature.",
+        subtitle: "Body organs function much like individuals’ roles within a society or environment: each organ's biological role (purpose) presents a silent reflection of the choices we make in nature.",
         quote: "The condition of each organ provides us with a natural guidance about the consequences of (y)our choices. Every illness teaches us, through our organs, the outcomes of the choices we make regarding equality and freedom in nature.",
         items: [
           "A healthy heart, brain, or immune system reflects actions that respect equality and freedom.",
@@ -147,7 +147,7 @@ export const mockData = {
       healthDescription: "Olumlu eylemler — şefkat, dürüstlük, affedicilik ve başkalarını desteklemek — organlarımızı, zihinsel dayanıklılığımızı ve genel sağlığımızı güçlendirir.\nOlumsuz veya zararlı eylemler dengeyi bozar, bedeni zayıflatır ve hastalık veya stres olarak ortaya çıkar.\n\nEylemler hem içe hem dışa dönük olabilir. Kendinizle olan ilişkiniz, başkalarıyla olan ilişkileriniz kadar önemlidir.",
       healthAnalogy: {
         title: "Organ-Eylem-Sonuç Benzetmesi",
-        subtitle: "Vücut organları, bir toplumda veya ortamda bireylerin rollerine benzer şekilde işler: Her organın biyolojik görevi, doğadaki eylem seçimlerinizin sessiz bir yansımasıdır.",
+        subtitle: "Vücut organları, bir toplum veya çevredeki bireylerin rollerine çok benzer şekilde işlev görür: Her organın biyolojik rolü (amacı), doğada yaptığımız seçimlerin sessiz bir yansımasını sunar.",
         quote: "Her organın durumu, seçimlerimizin sonuçları hakkında bize doğal bir rehberlik sunar. Her hastalık, doğadaki eşitlik ve özgürlükle ilgili yaptığımız seçimlerin sonuçlarını  organlarımız aracılığıyla ders olarak bize anlatır.",
         items: [
           "Sağlıklı bir kalp, beyin veya bağışıklık sistemi, eşitlik ve özgürlüğe saygı gösteren eylemleri yansıtır.",
