@@ -35,7 +35,7 @@ export const mockData = {
       interconnectednessKeyTakeaway: "Interconnectedness reveals that our choices are all connected to each other both visibly and invisibly. As natural beings living in a greater existence, our choices shape not only our own destiny but the well-being of the entire system we share together.",
 
       naturesJusticeTitle: "Justice in Nature: The Unseen Logic",
-      naturesJusticeDescription: "If interconnectedness describes the web of life, justice is the logic that holds it together. Every being is treated equally under this law, and every being is free to act — but **every action carries consequences**.",
+      naturesJusticeDescription: "If interconnectedness describes the web of life, **justice is the logic that holds it together**. Every being is treated equally under this law, and every being is free to act — but every action carries consequences**. Every negative consequence tells a silent scream in nature.**",
       naturesJusticeKeyTakeaway: "Justice is the natural unfolding of balance. By honoring equality and freedom — not just for ourselves, but for every being — we align with Logic in Nature and invite positive outcomes into the interconnected whole. Every misalignment tends to disappear or disolve in nature's justice scale, as an act of fairness.",
       naturesJusticeEqualityTitle: "Equality",
       naturesJusticeEqualityText: "Nature does not play favorites. Gravity, storms, illness, or death apply to all without discrimination.",
@@ -68,7 +68,7 @@ export const mockData = {
         ]
       },
       examplesTitle: "Examples for Logical Spirituality",
-      examplesDescription: "To understand nature's language, you may lean on human symbols —letters, words, numbers, and songs— as keys. Listen carefully, and you'll find that nature is constantly doing in subtle detailed harmony, revealing the world's hidden rhythms. When you hear a family recount a fatal car accident on the news, you may, in fact, be hearing a quiet confession of an unseen crime. Every negative consequence is a silent scream in nature.",
+      examplesDescription: "To understand nature's language, you may lean on human symbols —letters, words, numbers, and songs— as keys. Listen carefully, and you'll find that nature is constantly doing in subtle detailed harmony, revealing the world's hidden rhythms. When you hear a family recount a fatal car accident on the news, you may, in fact, be hearing a quiet confession of an unseen crime.",
       exampleCases: [
         {title: "Environment", subtitle: "Inflicting suffering on animals in fertile lands may, over time, turn abundance into drought.\n\nIn cases where injustice reaches extreme levels, severe consequences such as earthquakes become inevitable."},
         {title:"Health", subtitle: "A contagious illness, like influenza, can spread far beyond the first infected individual; It is usually the negative consequence of ignoring from a distance and of selfishness.\n\nIf you break your leg, it may symbolize having restricted another being's freedom, preventing them from moving forward."},
@@ -123,7 +123,7 @@ export const mockData = {
       interconnectednessKeyTakeaway: "Bütünlük, seçimlerimizin hem görünür hem de görünmez biçimlerde birbirine bağlı olduğunu ortaya koyar. Daha büyük bir varoluşun içinde yaşayan doğal varlıklar olarak, seçimlerimiz yalnızca kendi kaderimizi değil, birlikte paylaştığımız tüm sistemin iyiliğini de şekillendirir.",
 
       naturesJusticeTitle: "Doğadaki Adalet: Görünmeyen Mantık",
-      naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, adalet onu bir arada tutan mantıktır. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama **her eylemin sonuçları vardır**.",
+      naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, **adalet onu bir arada tutan mantıktır**. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama **her eylemin sonuçları vardır**. **Her olumsuz sonuç, doğada sessiz bir çığlıktır.**",
       naturesJusticeKeyTakeaway: "Adalet, dengenin doğal bir açılımıdır. Sadece kendimiz için değil, her varlık için eşitlik ve özgürlüğe saygı göstererek, Doğadaki Mantıkla uyum içinde olur ve bütünleşik yapıya olumlu sonuçlar davet ederiz. Her türlü uyumsuzluk, doğanın adalet terazisinde adil bir çözüm olarak yok olma eğilimindedir.",
       naturesJusticeEqualityTitle: "Eşitlik",
       naturesJusticeEqualityText: "Doğa kayırmacılık yapmaz. Yerçekimi, fırtınalar, hastalık veya ölüm herkese ayrım gözetmeksizin uğrar.",
@@ -156,7 +156,7 @@ export const mockData = {
         ]
       },
       examplesTitle: "Mantıksal Maneviyata Dair Örnekler",
-      examplesDescription: "Doğanın dilini anlamak için insanlar tarafından kullanılan sembollere —harfler, kelimeler, sayılar ve şarkılar— başvurabilirsiniz. Dikkatlice dinleyin, doğanın sürekli ince bir uyum içinde hareket ettiğini ve dünyanın gizli ritimlerini ortaya çıkardığını göreceksiniz. Haberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duymuş olabilirsiniz. Her olumsuz sonuç, doğada sessiz bir çığlıktır.",
+      examplesDescription: "Doğanın dilini anlamak için insanlar tarafından kullanılan sembollere —harfler, kelimeler, sayılar ve şarkılar— başvurabilirsiniz. Dikkatlice dinleyin, doğanın sürekli ince bir uyum içinde hareket ettiğini ve dünyanın gizli ritimlerini ortaya çıkardığını göreceksiniz. Haberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duymuş olabilirsiniz.",
       exampleCases: [
         {title: "Çevre", subtitle: "Verimli topraklarda hayvanlara acı çektirmek, zamanla bolluğu kuraklığa dönüştürebilir.\n\nAdaletsizliğin uç noktalara ulaştığı hususlarda, deprem gibi ağır sonuçlar kaçınılmaz olur."},
         {title:"Sağlık", subtitle: "Grip gibi bulaşıcı bir hastalık, ilk enfekte kişiden çok daha uzaklara yayılabilir; Genellikle uzak kalınarak görmezden gelmenin ve bencilliğinin olumsuz sonucudur.\n\nBacağınızı kırmanız başka bir varlığın özgürlüğünü kısıtladığınızın ve onun ilerlemesini engellediğinizin sembolü olabilir."},
