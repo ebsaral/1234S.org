@@ -192,7 +192,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                 return (
                   <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
-                      <div className="flex items-start gap-4">
+                      <div className="flex items-start gap-4 whitespace-pre-line">
                         <div className="flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 flex-shrink-0">
                           <IconComponent className="text-amber-600" size={24} />
                         </div>

@@ -35,7 +35,7 @@ const IntroTextSection = ({id}) => {
                   {t('intro').paragraph2}
                 </p>
                 
-                <p className="text-gray-700 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400">
+                <p className="text-gray-700 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line">
                   {t('intro').paragraph3.split('*').map((part, index) => 
                     index % 2 === 1 ? <em key={index} className="text-blue-700 font-medium">{part}</em> : part
                   )}
