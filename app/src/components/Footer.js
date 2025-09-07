@@ -59,28 +59,25 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Logo */}
-          <div className='flex justify-center'>
+          <div className='flex justify-center caret-transparent'>
             <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src={LogoSrc('white')} alt={t("home") + " footer logo"}/>
           </div>
           
-          {/* Social Media Icons */}
-          <div className="flex justify-center items-center gap-4 mb-8">
-            {socialLinks.map((social, index) => (
-              <a
-                key={index}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-emerald-600/20 transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
-                aria-label={social.label}
-              >
-                <social.icon className="text-white hover:text-emerald-400 transition-colors duration-300" size={20} />
-              </a>
-            ))}
+          {/* Decorative Icons */}
+          <div className="flex justify-center items-center gap-8 mb-8">
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
+              <Globe className="text-blue-600" size={24} />
+            </div>
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
+              <Scale className="text-green-600" size={24} />
+            </div>
+            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
+              <Heart className="text-rose-600" size={24} />
+            </div>
           </div>
           
           {/* Navigation Links */}
-          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 mb-8 text-sm text-gray-300">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 mb-8 text-sm text-gray-300 caret-transparent">
             {navItems.map((item) => (
               <button 
                 key={item.key}
@@ -100,26 +97,33 @@ const Footer = () => {
             ))}
           </div>
           
+          
+
           {/* Copyright */}
           <div className="pt-8 border-t border-gray-700">
+            {/* Social Media Icons */}
+            <div className="flex justify-center items-center gap-4 mb-8">
+              {socialLinks.map((social, index) => (
+                <a
+                  key={index}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-emerald-600/20 transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
+                  aria-label={social.label}
+                >
+                  <social.icon className="text-white hover:text-emerald-400 transition-colors duration-300" size={20} />
+                </a>
+              ))}
+            </div>
+
             <p className="text-gray-400 text-sm whitespace-pre-line">
               {t('copyright')}
             </p>
-            <p className="text-gray-400 text-sm m-2 underline-offset-4">
+            <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base">
               <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('developer')}</a>
             </p>
-            {/* Decorative Icons */}
-            <div className="flex justify-center items-center gap-8 mt-8">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-600/20 backdrop-blur-sm">
-                <Globe className="text-green-400" size={24} />
-              </div>
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-600/20 backdrop-blur-sm">
-                <Scale className="text-green-400" size={24} />
-              </div>
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-green-600/20 backdrop-blur-sm">
-                <Heart className="text-green-400" size={24} />
-              </div>
-            </div>
+            
             <p className="text-gray-400 text-xs mt-6 underline-offset-4">
               <a className='underline hover:no-underline' href="https://emergent.sh" target='_blank'>{t('themeCredit')}</a>
             </p>
