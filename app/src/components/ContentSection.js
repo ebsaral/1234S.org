@@ -102,16 +102,10 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div 
-          className={`transition-all duration-1000 delay-200 ${
-            isSectionVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-12'
-          }`}
-        >
+        <div>
           {/* Section Header */}
           <div className="text-center mb-16">
-            <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 ${getIconColor()}`}>
+            <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 ${getIconColor()} transition-all duration-300 hover:scale-105`}>
               <Icon size={40} />
             </div>
             
@@ -216,10 +210,10 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Left Column - Key Points or Lists */}
             <div className="space-y-8">
-                            {/* Nature's Justice - Positive and Negative Cards */}
+              {/* Nature's Justice - Positive and Negative Cards */}
               {sectionKey === 'naturesJustice' && (
                 <div className="space-y-6">
-                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
+                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-3">
                         <CheckCircle className="text-emerald-500" size={28} />
@@ -265,7 +259,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
               )}
               {/* Interconnectedness - Experiment Card */}
               {sectionKey === 'interconnectedness' && (
-                <Card className="bg-gradient-to-br from-blue-50 to-indigo-100 border-0 shadow-xl">
+                <Card className="bg-gradient-to-br from-blue-50 to-indigo-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8">
                     <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
                       <Brain className="text-blue-600" size={28} />
@@ -280,7 +274,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
               {/* Key Takeaway */}
               {[].includes(sectionKey) &&
-                <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl">
+                <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />
                     <h3 className="text-xl font-bold text-emerald-900 mb-4">{t('keyTakeaway')}</h3>
@@ -297,7 +291,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
               {/* Nature's Justice - Equality and Freedom Cards */}
               {sectionKey === 'naturesJustice' && (
                 <div className="space-y-6 mb-8">
-                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
+                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-3">
                         <LoaderPinwheel className="text-blue-600" size={28} />
@@ -309,7 +303,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                     </CardContent>
                   </Card>
                   
-                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
+                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-purple-700 mb-4 flex items-center gap-3">
                         <FerrisWheel className="text-purple-600" size={28} />
@@ -325,7 +319,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
               {/* Key Takeaway */}
               {["interconnectedness", "naturesJustice"].includes(sectionKey) &&
-                <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl">
+                <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />
                     <h3 className="text-xl font-bold text-emerald-900 mb-4">{t('keyTakeaway')}</h3>

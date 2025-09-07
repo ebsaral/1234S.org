@@ -13,13 +13,7 @@ const IntroTextSection = ({id}) => {
       className="bg-gradient-to-b from-gray-50 to-white overflow-hidden py-24"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div 
-          className={`transition-all duration-1000 delay-200 ${
-            isSectionVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-12'
-          }`}
-        >
+        <div>
           {/* Main Content */}
           <div className="mb-16">
             {/* Left Column */}
@@ -35,7 +29,7 @@ const IntroTextSection = ({id}) => {
                   {t('intro').paragraph2}
                 </p>
                 
-                <p className="text-gray-700 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line">
+                <p className="text-gray-700 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line transition-all duration-300 hover:scale-105">
                   {t('intro').paragraph3.split('*').map((part, index) => 
                     index % 2 === 1 ? <em key={index} className="text-blue-700 font-medium">{part}</em> : part
                   )}

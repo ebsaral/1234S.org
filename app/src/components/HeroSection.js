@@ -40,13 +40,7 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div 
-          className={`transition-all duration-1000 delay-300 ${
-            isHeroVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-12'
-          }`}
-        >
+        <div>
           {/* Main Title with generous spacing */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-12 leading-tight">
             <span 
