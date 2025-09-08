@@ -87,7 +87,7 @@ export const mockData = {
       footerTitle: "Logical Spirituality",
       footerText: "Expanding Spirituality with Logic in Nature",
       copyright: "© 2025\nLogical Spirituality: A philosophical movement project.",
-      developer: "about the spirit guide",
+      developer: "The Spirit Guide",
       themeCredit: "built with Emergent.sh"
     },
     tr: {
@@ -175,7 +175,7 @@ export const mockData = {
       footerTitle: "Mantıksal Maneviyat",
       footerText: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
       copyright: "© 2025\nMantıksal Maneviyat: Felsefi bir hareket projesi.",
-      developer: "manevi rehber hakkında",
+      developer: "Maneviyat Rehberi",
       themeCredit: "Emergent.sh ile tasarlandı"
     }
 
