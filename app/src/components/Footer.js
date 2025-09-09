@@ -8,6 +8,7 @@ const Footer = () => {
   const { t } = useLanguage();
   const [activeSection, setActiveSection] = useState('home');
   const lastUpdate = 1757420917572;
+  const githubCommitLink = "https://github.com/ebsaral/Logical-Spirituality/commits/main/";
 
   const socialLinks = [
     { icon: MediumSVG, href: "https://medium.com/@logical-spirituality", label: "Medium (Blog)" },
@@ -122,7 +123,7 @@ const Footer = () => {
               {t('copyright')}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line">
-              {t('lastUpdate')}: {new Date(lastUpdate).toLocaleString()}
+              {t('lastUpdate')}: <a className='underline hover:no-underline underline-offset-2' href={githubCommitLink} target="_blank">{new Date(lastUpdate).toLocaleString()}</a>
             </p>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base">
               <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('developer')}</a>
