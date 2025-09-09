@@ -35,7 +35,7 @@ export const mockData = {
       interconnectednessKeyTakeaway: "Interconnectedness reveals that our choices are all connected to each other both visibly and invisibly. As natural beings living in a greater existence, our choices shape not only our own destiny but the well-being of the entire system we share together.",
 
       naturesJusticeTitle: "Justice in Nature: The Unseen Logic",
-      naturesJusticeDescription: "If interconnectedness describes the web of life, **justice is the logic that holds it together**. Every being is treated equally under this law, and every being is free to act — but every action carries consequences**. Every negative consequence tells a silent scream in nature.**",
+      naturesJusticeDescription: "While interconnectedness principle describes the web of life, **justice is the logic that holds it together**. Every being is treated equally within the natural justice, and every being is free to act — but **every action carries its own consequences**.\n\nEach being in nature brings a means for you to carry out either a good or a bad action. In its details, every negative consequence tells a silent scream in nature.",
       naturesJusticeKeyTakeaway: "Justice is the natural unfolding of balance. By honoring equality and freedom — not just for ourselves, but for every being — we align with Logic in Nature and invite positive outcomes into the interconnected whole. Every misalignment tends to disappear or disolve in nature's justice scale, as an act of fairness.",
       naturesJusticeEqualityTitle: "Equality",
       naturesJusticeEqualityText: "Nature does not play favorites. Gravity, storms, illness, or death apply to all without discrimination.",
@@ -55,20 +55,20 @@ export const mockData = {
       },
 
       healthTitle: "Health: The Body as a Mirror of Nature's Justice",
-      healthQuote: "Our physical and mental health directly reflects alignment with nature's justice and the quality of our relationships.",
-      healthDescription: "Positive actions — compassion, honesty, forgiveness, and support for others — strengthen our organs, mental resilience, and overall well-being.\nNegative or harmful actions disrupt balance, weaken the body, and manifest as illness or stress.\n\nActions can be both inward and outward in any relationship. Your relationship with yourself is equally important as your relationships with others.",
+      healthQuote: "Our physical and mental health directly reflects alignment with nature's justice and the quality of our relationships:\n**EVERY DISEASE** is caused by (y)our actions.",
+      healthDescription: "Positive actions — compassion, honesty, forgiveness, and support for others — strengthen our organs, mental resilience, and overall well-being.\nNegative or harmful actions disrupt balance, weaken the body, and manifest as illness or stress.\n\nActions can be both inward and outward in any relationship. **Your relationship with yourself is equally important as your relationships with others.**",
       healthAnalogy: {
         title: "Organ-Action-Consequence Analogy",
         subtitle: "Body organs function much like individuals’ roles within a society or environment: each organ's biological role (purpose) presents a silent reflection of the choices we make in nature.",
         quote: "The condition of each organ provides us with a natural guidance about the consequences of (y)our choices. Every illness teaches us, through our organs, the outcomes of the choices we make regarding equality and freedom in nature.",
         items: [
           "A healthy heart, brain, or immune system reflects actions that respect equality and freedom.",
-          "Unhealthy organs indicate imbalance, signaling misalignment with nature's law. Balancing your relation with nature can bring health to your organs.",
+          "Unhealthy organs indicate imbalance, signaling misalignment with nature's justice. Balancing your relations with nature (environment) can bring health to your organs — even without a medicine.",
           "At some point, when alignment is complete, nature protects your well-being — you may achieve a state where illness rarely occurs or doesn't occur, as a reward for living in harmony with justice."
         ]
       },
       examplesTitle: "Examples for Logical Spirituality",
-      examplesDescription: "To understand nature's language, you may lean on human symbols —letters, words, numbers, and songs— as keys. Listen carefully, and you'll find that nature is constantly doing in subtle detailed harmony, revealing the world's hidden rhythms. When you hear a family recount a fatal car accident on the news, you may, in fact, be hearing a quiet confession of an unseen crime.",
+      examplesDescription: "To understand nature's language, you may lean on human symbols —letters, words, numbers, and songs— as keys. Listen carefully, and you'll find that nature is constantly doing in subtle detailed harmony, revealing the world's invisible rhythms.\n\n*When you hear a family recount a fatal car accident on the news, you may, in fact, be hearing a quiet confession of an unseen crime.*",
       exampleCases: [
         {title: "Environment", subtitle: "Inflicting suffering on animals in fertile lands may, over time, turn abundance into drought.\n\nIn cases where injustice reaches extreme levels, severe consequences such as earthquakes become inevitable."},
         {title:"Health", subtitle: "A contagious illness, like influenza, can spread far beyond the first infected individual; It is usually the negative consequence of ignoring from a distance and selfishness.\n\nIf you break your leg, it may symbolize having restricted another being's freedom, preventing them from moving forward."},
@@ -87,6 +87,7 @@ export const mockData = {
       footerTitle: "Logical Spirituality",
       footerText: "Expanding Spirituality with Logic in Nature",
       copyright: "© 2025\nLogical Spirituality: A philosophical movement project.",
+      lastUpdate: "Last update",
       developer: "about the developer",
       themeCredit: "built with Emergent.sh"
     },
@@ -123,7 +124,7 @@ export const mockData = {
       interconnectednessKeyTakeaway: "Bütünlük, seçimlerimizin hem görünür hem de görünmez biçimlerde birbirine bağlı olduğunu ortaya koyar. Daha büyük bir varoluşun içinde yaşayan doğal varlıklar olarak, seçimlerimiz yalnızca kendi kaderimizi değil, birlikte paylaştığımız tüm sistemin iyiliğini de şekillendirir.",
 
       naturesJusticeTitle: "Doğadaki Adalet: Görünmeyen Mantık",
-      naturesJusticeDescription: "Eğer bütünlük yaşamın ağını tanımlıyorsa, **adalet onu bir arada tutan mantıktır**. Her varlık bu yasa altında eşit muamele görür ve her varlık eylemde bulunmakta özgürdür — ama her eylemin sonuçları vardır. **Her olumsuz sonuç, doğada sessiz bir çığlığı anlatır.**",
+      naturesJusticeDescription: "Bütünlük ilkesi yaşamın ağını tanımlarken, adalet onu bir arada tutan mantıktır. Doğal adalet içinde her varlık eşit muamele görür ve her varlık özgürce hareket edebilir — ancak **her eylem kendi sonuçlarını taşır.**.\n\nDoğadaki her bir varlık, sizin iyi ya da kötü bir eylem gerçekleştirmenize vesile olan anlamlar barındırır. Detaylarının içinde, her olumsuz sonuç doğadaki sessiz bir çığlığı anlatır.",
       naturesJusticeKeyTakeaway: "Adalet, dengenin doğal bir açılımıdır. Sadece kendimiz için değil, her varlık için eşitlik ve özgürlüğe saygı göstererek, Doğadaki Mantıkla uyum içinde olur ve bütünleşik yapıya olumlu sonuçlar davet ederiz. Her türlü uyumsuzluk, doğanın adalet terazisinde adil bir çözüm olarak yok olma eğilimindedir.",
       naturesJusticeEqualityTitle: "Eşitlik",
       naturesJusticeEqualityText: "Doğa kayırmacılık yapmaz. Yerçekimi, fırtınalar, hastalık veya ölüm herkese ayrım gözetmeksizin uğrar.",
@@ -143,20 +144,20 @@ export const mockData = {
       },
 
       healthTitle: "Sağlık: Doğadaki Adaletin Aynası Olarak Vücut",
-      healthQuote: "Fiziksel ve zihinsel sağlığımız, doğanın adaletiyle ve ilişkilerimizin niteliğiyle olan uyumumuzu doğrudan yansıtır.",
-      healthDescription: "Olumlu eylemler — şefkat, dürüstlük, affedicilik ve başkalarını desteklemek — organlarımızı, zihinsel dayanıklılığımızı ve genel sağlığımızı güçlendirir.\nOlumsuz veya zararlı eylemler dengeyi bozar, bedeni zayıflatır ve hastalık veya stres olarak ortaya çıkar.\n\nEylemler hem içe hem dışa dönük olabilir. Kendinizle olan ilişkiniz, başkalarıyla olan ilişkileriniz kadar önemlidir.",
+      healthQuote: "Fiziksel ve zihinsel sağlığımız, doğanın adaletiyle ve ilişkilerimizin niteliğiyle olan uyumumuzu doğrudan yansıtır:\n**HER HASTALIK** eylemlerimizden kaynaklanır.",
+      healthDescription: "Olumlu eylemler — şefkat, dürüstlük, affedicilik ve başkalarını desteklemek — organlarımızı, zihinsel dayanıklılığımızı ve genel sağlığımızı güçlendirir.\nOlumsuz veya zararlı eylemler dengeyi bozar, bedeni zayıflatır ve hastalık veya stres olarak ortaya çıkar.\n\nEylemler hem içe hem dışa dönük olabilir. **Kendinizle olan ilişkiniz, başkalarıyla olan ilişkileriniz kadar önemlidir.**",
       healthAnalogy: {
         title: "Organ-Eylem-Sonuç Benzetmesi",
         subtitle: "Vücut organları, bir toplum veya çevredeki bireylerin rollerine çok benzer şekilde işlev görür: Her organın biyolojik rolü (amacı), doğada yaptığımız seçimlerin sessiz bir yansımasını sunar.",
         quote: "Her organın durumu, seçimlerimizin sonuçları hakkında bize doğal bir rehberlik sunar. Her hastalık, doğadaki eşitlik ve özgürlükle ilgili yaptığımız seçimlerin sonuçlarını  organlarımız aracılığıyla ders olarak bize anlatır.",
         items: [
           "Sağlıklı bir kalp, beyin veya bağışıklık sistemi, eşitlik ve özgürlüğe saygı gösteren eylemleri yansıtır.",
-          "Sağlıksız organlar, dengesizliği ve doğanın yasasıyla uyumsuzluğu gösterir. Doğayla ilişkinizi dengelemek organlarınıza sağlık getirebilir.",
+          "Sağlıksız organlar, dengesizliği ve doğanın yasasıyla uyumsuzluğu gösterir. Doğayla (çevrenizle) ilişkilerinizi dengelemek, ilaç kullanmadan bile organlarınıza sağlık getirebilir.",
           "Bir noktada, uyum tam olduğunda, doğa sağlığınızı korur — adaletle uyum içinde yaşamanın ödülü olarak hastalık nadiren meydana gelir veya hiç meydana gelmez."
         ]
       },
       examplesTitle: "Mantıksal Maneviyata Dair Örnekler",
-      examplesDescription: "Doğanın dilini anlamak için insanlar tarafından kullanılan sembollere —harfler, kelimeler, sayılar ve şarkılar— başvurabilirsiniz. Dikkatlice dinleyin, doğanın sürekli ince bir uyum içinde hareket ettiğini ve dünyanın gizli ritimlerini ortaya çıkardığını göreceksiniz. Haberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duymuş olabilirsiniz.",
+      examplesDescription: "Doğanın dilini anlamak için insanlar tarafından kullanılan sembollere —harfler, kelimeler, sayılar ve şarkılar— başvurabilirsiniz. Dikkatlice dinleyin, doğanın sürekli ince bir uyum içinde hareket ettiğini ve dünyanın görünmeyen ritimlerini ortaya çıkardığını göreceksiniz.\n\nHaberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duymuş olabilirsiniz.",
       exampleCases: [
         {title: "Çevre", subtitle: "Verimli topraklarda hayvanlara acı çektirmek, zamanla bolluğu kuraklığa dönüştürebilir.\n\nAdaletsizliğin uç noktalara ulaştığı hususlarda, deprem gibi ağır sonuçlar kaçınılmaz olur."},
         {title:"Sağlık", subtitle: "Grip gibi bulaşıcı bir hastalık, ilk enfekte kişiden çok daha uzaklara yayılabilir; Genellikle uzak kalınarak görmezden gelmenin ve bencilliğinin olumsuz sonucudur.\n\nBacağınızı kırmanız başka bir varlığın özgürlüğünü kısıtladığınızın ve onun ilerlemesini engellediğinizin sembolü olabilir."},
@@ -175,6 +176,7 @@ export const mockData = {
       footerTitle: "Mantıksal Maneviyat",
       footerText: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
       copyright: "© 2025\nMantıksal Maneviyat: Felsefi bir hareket projesi.",
+      lastUpdate: "Son güncelleme",
       developer: "geliştirici hakkında",
       themeCredit: "Emergent.sh ile tasarlandı"
     }
