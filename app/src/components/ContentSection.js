@@ -261,6 +261,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
               {/* Interconnectedness - Experiment Card */}
               {sectionKey === 'interconnectedness' && (
+                <div className='grid gap-16'>
                 <Card className="bg-gradient-to-br from-blue-50 to-indigo-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8">
                     <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
@@ -272,6 +273,9 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                     </p>
                   </CardContent>
                 </Card>
+
+                <Description text={t(`${sectionKey}Example`)} />
+                </div>
               )}
 
               {/* Nature's Justice - Equality and Freedom Cards */}
@@ -304,7 +308,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
               )}
 
               {/* Key Takeaway */}
-              {["interconnectedness", "naturesJustice"].includes(sectionKey) &&
+              {["naturesJustice"].includes(sectionKey) &&
                 <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />
