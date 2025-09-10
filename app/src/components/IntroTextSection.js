@@ -10,7 +10,7 @@ const IntroTextSection = ({id}) => {
     <section
       id={id} 
       ref={sectionRef}
-      className="bg-gradient-to-b from-gray-50 to-white overflow-hidden py-24"
+      className="bg-gradient-to-b from-gray-50 to-white overflow-hidden py-24 px-2"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div>

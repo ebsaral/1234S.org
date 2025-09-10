@@ -87,7 +87,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
     <section 
       id={id}
       ref={sectionRef}
-      className="relative py-24 overflow-hidden"
+      className="relative py-24 px-2 overflow-hidden"
     >
       {/* Background Image with Parallax */}
       <div 
