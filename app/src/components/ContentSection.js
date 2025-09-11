@@ -74,14 +74,6 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
     return IconComponent;
   };
 
-  // Get case titles for cards
-  const getCaseTitle = (caseText, currentLanguage) => {
-    if (caseText.includes('Environment:')) return currentLanguage === 'en' ? 'Environment' : 'Çevre';
-    if (caseText.includes('Health:')) return currentLanguage === 'en' ? 'Health' : 'Sağlık';
-    if (caseText.includes('Talents:')) return currentLanguage === 'en' ? 'Talents' : 'Yetenekler';
-    if (caseText.includes('Luck:')) return currentLanguage === 'en' ? 'Luck & Opportunities' : 'Şans ve Fırsatlar';
-    return currentLanguage === 'en' ? 'Case Study' : 'Vaka Çalışması';
-  };
 
   return (
     <section 
