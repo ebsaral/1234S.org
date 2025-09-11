@@ -69,6 +69,13 @@ export const mockData = {
         ]
       },
       healthReasoning: "Every human body begins life as a complex system, carrying the experiences, choices, and imprints of both the individual and their ancestors. Your body is the whole system, with each organ serving as a vital subsystem.\n\n**When a virus, germ or chemical enters a body, the path it follows is shaped by the actions and decisions you make**. Illness is not random — it can be understood as a warning or a consequence given by nature. If you ignore this signal and continue acting in ways harmful to yourself or your environment, the illness may spread deeper into your system, reflecting the direction of your choices. When you begin to understand your own system (your life and environment) and align your actions with healing, responsibility, and renewal, the illness gradually finds its way out. Positive change fosters balance and recovery from within.\n\nSimilarly, **The Organ-Action-Result Analogy also applies to accidents.** Any damage your body sustains as a result of an accident is intended to teach you a lesson, reflecting the actions you took before the incident. Remember, nature always offers the opportunity to make amends for your mistakes, though some errors may lead to irreversible losses.",
+      healthExamples: [
+        "If you had a heart attack before, you probably caused a lot of struggle in someone’s life.",
+        "If your eyes can't see properly, you probably ignored or blocked someone's path.",
+        "If your ears have lost their hearing, you probably ignored somebody's voice or cry for help.",
+        "If you had a form of cancer, you probably caused a living’s death or you tortured them."
+      ],
+
       examplesTitle: "Examples for Logical Spirituality",
       examplesDescription: "To understand nature's language, you may lean on human symbols —letters, words, numbers, and songs— as keys. Listen carefully, and you'll find that nature is constantly doing in subtle detailed harmony, revealing the world's invisible rhythms.\n\n*When you hear a family recount a fatal car accident on the news, you may, in fact, be hearing a quiet confession of an unseen crime.*",
       exampleCases: [
@@ -159,6 +166,13 @@ export const mockData = {
         ]
       },
       healthReasoning: "Her insan bedeni, hem bireyin hem de atalarının deneyimlerini, seçimlerini ve izlerini taşıyan karmaşık bir sistem olarak hayata başlar. Vücudunuz bütün bir sistemdir ve her organ, bu sistemin hayati bir alt sistemi olarak işlev görür. **Bir virüs, mikrop veya kimyasal vücuda girdiğinde, izleyeceği yol yaptığınız eylemler ve aldığınız kararlar tarafından şekillenir.** Hastalık rastgele oluşmaz — doğa tarafından verilen bir uyarı veya sonuç olarak anlaşılabilir. Bu sinyali görmezden gelir ve kendinize ya da çevrenize zarar veren şekilde hareket etmeye devam ederseniz, hastalık sisteminizde daha derinlere yayılabilir ve seçimlerinizin yönünü yansıtabilir. Kendi sisteminizi (hayatınızı ve çevrenizi) anlamaya başladığınızda ve eylemlerinizi iyileşme, sorumluluk ve yenilenme ile uyumlu hale getirdiğinizde, hastalık yavaş yavaş vücudunuzdan çıkış yolunu bulur. İçsel olumlu değişim, dengeyi ve içeriden iyileşmeyi destekler.\n\nBenzer şekilde, **Organ-Eylem-Sonuç Benzetmesi kazalar için de geçerlidir.** Yaşadığınız herhangi bir kaza sonucunda vücudunuzda oluşan hasarlar, kazadan önceki eylemlerinizin bir yansıması olarak size bir ders vermeyi amaçlar.  Unutmayın ki doğa, her zaman hatalarınızı telafi etme fırsatını sunar. Bazı hatalar ise geri dönülemeyecek kayıplara yol açar.",
+      healthExamples: [
+        "Kalp krizi geçirdiyseniz, muhtemelen birinin yaşamında büyük bir zorluk yarattınız.",
+        "Gözleriniz düzgün göremiyorsa, muhtemelen birinin yolunu görmezden geldiniz veya engellediniz.",
+        "Kulaklarınız duyma yetisini kaybettiyse, muhtemelen birinin sesini veya yardım çığlığını duymazdan geldiniz.",
+        "Bir tür kanser geçirdiyseniz, muhtemelen birinin ölümüne sebep oldunuz veya ona işkence ettiniz."
+      ],
+
       examplesTitle: "Mantıksal Maneviyata Dair Örnekler",
       examplesDescription: "Doğanın dilini anlamak için insanlar tarafından kullanılan sembollere —harfler, kelimeler, sayılar ve şarkılar— başvurabilirsiniz. Dikkatlice dinleyin, doğanın sürekli ince bir uyum içinde hareket ettiğini ve dünyanın görünmeyen ritimlerini ortaya çıkardığını göreceksiniz.\n\nHaberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duymuş olabilirsiniz.",
       exampleCases: [

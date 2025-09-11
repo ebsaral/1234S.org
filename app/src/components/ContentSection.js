@@ -23,7 +23,12 @@ import {
   Music,
   Gift,
   Frown,
-  ScanHeart
+  ScanHeart,
+  HeartOff,
+  EyeOff,
+  EarOff,
+  Skull,
+  CircleX
 } from 'lucide-react';
 
 const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
@@ -74,6 +79,11 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
     return IconComponent;
   };
 
+  // Icon mappings for health examples
+  const getHealthExampleIcon = (index) => {
+    const IconComponent = [HeartOff, EyeOff, EarOff, CircleX];
+    return IconComponent[index];
+  }
 
   return (
     <section 
@@ -167,6 +177,30 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
               </Card>
 
               <Description text={t(`${sectionKey}Reasoning`)} />
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {t("healthExamples").map((example, index) => {
+                  const IconComponent = getHealthExampleIcon(index);
+                  const content = example;
+                  
+                  return (
+                    <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                      <CardContent className="p-8">
+                        <div className="flex items-start gap-4 whitespace-pre-line">
+                          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0">
+                            <IconComponent className="text-white" size={24} />
+                          </div>
+                          <div className="flex-1">
+                            <p className="text-gray-700 leading-relaxed">
+                              {content}
+                            </p>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
+              </div>
             </div>
           )}
 
