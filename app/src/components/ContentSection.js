@@ -280,7 +280,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
               {/* Nature's Justice - Equality and Freedom Cards */}
               {sectionKey === 'naturesJustice' && (
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="grid md:grid-cols-2 gap-8 mb-24">
                   <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-3">
@@ -306,13 +306,12 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   </Card>
                 </div>
               )}
-
+              <Description text={t("naturesJusticeExtra")} />
               {/* Key Takeaway */}
               {["naturesJustice"].includes(sectionKey) &&
                 <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />
-                    <h3 className="text-xl font-bold text-emerald-900 mb-4">{t('keyTakeaway')}</h3>
                     <p className="text-emerald-800 leading-relaxed">
                       {t(`${sectionKey}KeyTakeaway`)}
                     </p>

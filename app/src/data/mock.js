@@ -53,6 +53,7 @@ export const mockData = {
         health: "Heart disease, depression, pandemics, and even genetic disorders manifest as part of deeper misalignments.",
         luck: "All accidents in traffic, workplaces, or homes arise as a result of our relationships with beings."
       },
+      naturesJusticeExtra: "Since the beginning of life, justice in nature has always existed, and the laws of nature, though expressed in different forms, have always retained their validity. Every living being represents a unique aspect of this justice. Whenever humanity's approach to nature centered solely on itself, or when governance succumbed to selfishness, the civilizations they built inevitably lost their order —sooner or later— through other communities or through natural interventions. Similar principles of justice operate openly and visibly in the animal world as well.\n\nWhat must be understood is that the common ground shared by all living beings is feelings. When the human mind reduces the symbols of nature solely to its own framework of meaning (out of self-centeredness) and ignores other creatures, it ends up postponing its own well-being. Throughout history, earthquakes, storms, floods, droughts, plagues, animal attacks, conflicts, and wars have compelled our feelings to mature and have forced us to perceive nature as a whole.\n\n**Nature, in order to maintain balance, ***somehow** intervenes in the communication between feelings; it turns events and means into the necessary instruments for balance.** The creative phenomenon that governs these feelings and makes them meaningful within a unity has been expressed throughout human history through different symbols and belief systems. **Logical Spirituality, on the other hand, seeks to explore the logic within the felt dimension of the Creator by grounding itself in nature — the widest circle of this unity.**",
 
       healthTitle: "Health: The Body as a Mirror of Nature's Justice",
       healthQuote: "Our physical and mental health directly reflects alignment with nature's justice and the quality of our relationships:\n**EVERY DISEASE** is caused by (y)our actions.",
@@ -82,7 +83,6 @@ export const mockData = {
       // Lists and examples
       positiveConsequences: "Positive Consequences",
       negativeConsequences: "Negative Consequences",
-      keyTakeaway: "Key Takeaway",
 
       // Footer
       footerTitle: "Logical Spirituality",
@@ -143,6 +143,7 @@ export const mockData = {
         health: "Kalp hastalıkları, depresyon, pandemiler ve hatta genetik bozukluklar daha derin uyumsuzlukların bir parçası yaşamlarımıza yansır.",
         luck: "Trafikte, işyerlerinde veya evlerdeki tüm kazalar, varlıklarla olan ilişkilerimizin sonucu olarak ortaya çıkarlar."
       },
+      naturesJusticeExtra: "Yaşamın başlangıcından beri doğadaki adalet hep var oldu ve doğanın yasaları, farklı biçimlerde de olsa, daima geçerliliğini korudu. Her canlı, bu adaletin kendine özgü bir yönünü temsil eder. Ne zaman ki doğaya yaklaşım yalnızca insanı merkeze aldı ya da yönetimler bencilliğe teslim oldu, o zaman kurulan medeniyetler er ya da geç başka topluluklar veya doğadaki müdahaleler aracılığıyla kendi düzenlerini yitirdiler. Benzer adalet prensipleri, hayvanlar dünyasında da açıkça ve gözle görülür bir şekilde işler.\n\nAsıl anlaşılması gereken, tüm canlıların paylaştığı ortak zeminin hisler olduğudur. İnsan zihni, doğadaki sembolleri yalnızca kendi anlam düzenine indirgediğinde (bencilleştiğinde) ve diğer canlıları görmezden geldiğinde, aslında kendi refahını da ertelemiş olur. Tarih boyunca depremler, fırtınalar, seller, kuraklıklar, salgınlar, hayvan saldırıları, kavgalar ve savaşlar; hislerimizin olgunlaşmasını ve doğayı bir bütün olarak kavramamızı zorunlu kıldı.\n\n**Doğa, dengeyi korumak için hisler arasındaki iletişime ***bir şekilde** müdahale eder; olayları ve araçları denge için gerekli olan vesilelere dönüştürür.** Bu hisleri yöneten ve onları bir bütünlük içinde anlamlı kılan yaratıcı olgu ise, insanlık tarihi boyunca farklı inanış biçimleri tarafından farklı sembollerle ifade edildi. **Mantıksal Maneviyat ise bütünlüğün en geniş halkası olan doğayı temel alarak, yaratıcının hissedilen yönündeki mantığı keşfetmeyi amaçlar.**",
 
       healthTitle: "Sağlık: Doğadaki Adaletin Aynası Olarak Vücut",
       healthQuote: "Fiziksel ve zihinsel sağlığımız, doğanın adaletiyle ve ilişkilerimizin niteliğiyle olan uyumumuzu doğrudan yansıtır:\n**HER HASTALIK** eylemlerimizden kaynaklanır.",
@@ -172,7 +173,6 @@ export const mockData = {
       // Lists and examples
       positiveConsequences: "Olumlu Sonuçlar",
       negativeConsequences: "Olumsuz Sonuçlar",
-      keyTakeaway: "Ana Mesaj",
 
       // Footer
       footerTitle: "Mantıksal Maneviyat",
