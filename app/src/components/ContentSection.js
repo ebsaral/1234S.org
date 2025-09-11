@@ -82,14 +82,14 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
       className="relative py-24 px-2 overflow-hidden"
     >
       {/* Background Image with Parallax */}
-      <div 
+      {bgImage && <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${bgImage})`,
           transform: `translateY(${parallaxOffset}px)`,
           filter: 'brightness(0.2)'
         }}
-      />
+      />}
       
       {/* Gradient Overlay */}
       <div className={`absolute inset-0 bg-gradient-to-br ${getAccentColor()} opacity-95`} />
@@ -301,7 +301,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
               {sectionKey === 'naturesJustice' && (
                 <div className='py-8'>
-              <Description text={t("naturesJusticeExtra")} />
+                  <Description text={t("naturesJusticeExtra")} />
                 </div>
               )}
 
