@@ -306,7 +306,13 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   </Card>
                 </div>
               )}
+
+              {sectionKey === 'naturesJustice' && (
+                <div className='py-8'>
               <Description text={t("naturesJusticeExtra")} />
+                </div>
+              )}
+
               {/* Key Takeaway */}
               {["naturesJustice"].includes(sectionKey) &&
                 <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
