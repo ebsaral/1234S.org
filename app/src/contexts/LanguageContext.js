@@ -30,7 +30,6 @@ export const LanguageProvider = ({ children }) => {
   
   const t = (key) => {
     const keys = key.split('.');
-    console.log(keys)
     var currData = mockData.translations[currentLanguage];
 
     for(var k = 0; k < keys.length; k++){
