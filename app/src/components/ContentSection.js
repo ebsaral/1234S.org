@@ -41,7 +41,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
   const getIconColor = () => {
     switch (sectionKey) {
       case 'interconnectedness': return 'text-blue-600';
-      case 'naturesJustice': return 'text-green-600';
+      case 'justiceInNature': return 'text-green-600';
       case 'health': return 'text-rose-600';
       case 'examples': return 'text-amber-600';
       default: return 'text-gray-600';
@@ -51,7 +51,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
   const getAccentColor = () => {
     switch (sectionKey) {
       case 'interconnectedness': return 'from-blue-50 to-indigo-50';
-      case 'naturesJustice': return 'from-green-50 to-emerald-50';
+      case 'justiceInNature': return 'from-green-50 to-emerald-50';
       case 'health': return 'from-rose-50 to-pink-50';
       case 'examples': return 'from-amber-50 to-yellow-50';
       default: return 'from-gray-50 to-slate-50';
@@ -113,15 +113,15 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
               <Icon size={40} />
             </div>
             
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-tight">
-              {t(`${sectionKey}Title`)}
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-tight whitespace-pre-line">
+              {t(`${sectionKey}.title`)}
             </h2>
             
             {/* Quote */}
-            {sectionKey !== "naturesJustice" && hasKey(`${sectionKey}Quote`) &&
+            {sectionKey !== "justiceInNature" && hasKey(`${sectionKey}.quote`) &&
               <div className="max-w-4xl mx-auto mb-12">
                 <blockquote className="text-xl sm:text-2xl lg:text-3xl font-light italic text-gray-700 leading-relaxed pl-2 pr-2 border-l-4 border-emerald-500 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm whitespace-pre-line">
-                  {t(`${sectionKey}Quote`).split('**').map((part, index) => 
+                  {t(`${sectionKey}.quote`).split('**').map((part, index) => 
                     index % 2 === 1 ? <strong key={index} className="text-bold">{part}</strong> : part
                   ).map((part, index) => 
                     typeof part === 'string' && part.includes('*') 
@@ -135,7 +135,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
             }
             
             {/* Description */}
-            <Description text={t(`${sectionKey}Description`)} />
+            <Description text={t(`${sectionKey}.description`)} />
           </div>
 
           {sectionKey === 'health' && (
@@ -146,40 +146,40 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   
                   <h3 className="text-2xl font-bold text-rose-700 mb-6 flex items-center gap-3">
                     <Stethoscope className="text-rose-500" size={28} />
-                    {t('healthAnalogy').title}
+                    {t('health.analogy.title')}
                   </h3>
                   <div className="grid lg:grid-cols-2 lg:gap-10 gap-2">
                     <div>
                       <p className="text-rose-800 leading-relaxed mb-6">
-                        {t('healthAnalogy').subtitle}  
+                        {t('health.analogy.description')}  
                       </p>
                       
                       <blockquote className="text-rose-800 italic bg-white/60 p-4 rounded-lg border-l-4 border-rose-400 mb-6">
-                        {t('healthAnalogy').quote}  
+                        {t('health.analogy.quote')}  
                       </blockquote>
                     </div>
                     <ul className="space-y-3 text-rose-800">
                       <li className="flex items-start gap-3">
                         <Smile className="text-rose-500 mt-1 flex-shrink-0" size={18} />
-                        <span>{t('healthAnalogy').items[0]}</span>
+                        <span>{t('health.analogy.items')[0]}</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <Eye className="text-rose-500 mt-1 flex-shrink-0" size={18} />
-                        <span>{t('healthAnalogy').items[1]}</span>
+                        <span>{t('health.analogy.items')[1]}</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <Shield className="text-rose-500 mt-1 flex-shrink-0" size={18} />
-                        <span>{t('healthAnalogy').items[2]}</span>
+                        <span>{t('health.analogy.items')[2]}</span>
                       </li>
                     </ul>
                   </div>
                 </CardContent>
               </Card>
 
-              <Description text={t(`${sectionKey}Reasoning`)} />
+              <Description text={t(`${sectionKey}.paragraph1`)} />
 
               <div className="grid md:grid-cols-2 gap-6">
-                {t("healthExamples").map((example, index) => {
+                {t("health.examples").map((example, index) => {
                   const IconComponent = getHealthExampleIcon(index);
                   const content = example;
                   
@@ -206,7 +206,7 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
 
           {sectionKey === 'examples' && (
             <div className="grid md:grid-cols-2 gap-6">
-              {t("exampleCases").map((example, index) => {
+              {t("examples.items").map((example, index) => {
                 const IconComponent = getCaseIcon(index);
                 const title = example.title;
                 const content = example.subtitle;
@@ -238,46 +238,46 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
           <div className="grid lg:grid-cols-1 gap-12 items-start">
             <div className="space-y-8">
               {/* Nature's Justice - Positive and Negative Cards */}
-              {sectionKey === 'naturesJustice' && (
+              {sectionKey === 'justiceInNature' && (
                 <div className="space-y-6">
                   <Card className="grid lg:grid-cols-2 gap-12 bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-3">
                         <CheckCircle className="text-emerald-500" size={28} />
-                        {t('naturesJusticePositiveConsequencesTitle')}
+                        {t('justiceInNature.positiveConsequences.title')}
                       </h3>
                       <ul className="space-y-4">
                         <li className="flex items-start gap-3">
                           {getPositiveIcon(0)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticePositiveConsequencesItems').nature}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.positiveConsequences.nature')}</span>
                         </li>
                         <li className="flex items-start gap-3">
                           {getPositiveIcon(1)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticePositiveConsequencesItems').health}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.positiveConsequences.health')}</span>
                         </li>
                         <li className="flex items-start gap-3">
                           {getPositiveIcon(2)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticePositiveConsequencesItems').luck}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.positiveConsequences.luck')}</span>
                         </li>
                       </ul>
                     </CardContent>
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-red-700 mb-6 flex items-center gap-3">
                         <XCircle className="text-red-500" size={28} />
-                        {t('naturesJusticeNegativeConsequencesTitle')}
+                        {t('justiceInNature.negativeConsequences.title')}
                       </h3>
                       <ul className="space-y-4">
                         <li className="flex items-start gap-3">
                           {getNegativeIcon(0)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticeNegativeConsequencesItems').nature}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.negativeConsequences.nature')}</span>
                         </li>
                         <li className="flex items-start gap-3">
                           {getNegativeIcon(1)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticeNegativeConsequencesItems').health}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.negativeConsequences.health')}</span>
                         </li>
                         <li className="flex items-start gap-3">
                           {getNegativeIcon(2)}
-                          <span className="text-gray-700 leading-relaxed">{t('naturesJusticeNegativeConsequencesItems').luck}</span>
+                          <span className="text-gray-700 leading-relaxed">{t('justiceInNature.negativeConsequences.luck')}</span>
                         </li>
                       </ul>
                     </CardContent>
@@ -292,29 +292,29 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                   <CardContent className="p-8">
                     <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
                       <Brain className="text-blue-600" size={28} />
-                      {t('interconnectednessExperimentTitle')}
+                      {t('interconnectedness.experiment.title')}
                     </h3>
                     <p className="text-blue-800 leading-relaxed italic">
-                      {t('interconnectednessExperimentText')}
+                      {t('interconnectedness.experiment.description')}
                     </p>
                   </CardContent>
                 </Card>
 
-                <Description text={t(`${sectionKey}Example`)} />
+                <Description text={t(`${sectionKey}.paragraph1`)} />
                 </div>
               )}
 
               {/* Nature's Justice - Equality and Freedom Cards */}
-              {sectionKey === 'naturesJustice' && (
+              {sectionKey === 'justiceInNature' && (
                 <div className="grid md:grid-cols-2 gap-8 mb-24">
                   <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-3">
                         <LoaderPinwheel className="text-blue-600" size={28} />
-                        {t('naturesJusticeEqualityTitle')}
+                        {t('justiceInNature.equality.title')}
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        {t('naturesJusticeEqualityText')}  
+                        {t('justiceInNature.equality.description')}  
                       </p>
                     </CardContent>
                   </Card>
@@ -323,29 +323,29 @@ const ContentSection = ({ sectionKey, id, icon: Icon, bgImage }) => {
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-bold text-purple-700 mb-4 flex items-center gap-3">
                         <FerrisWheel className="text-purple-600" size={28} />
-                        {t('naturesJusticeFreedomTitle')}
+                        {t('justiceInNature.freedom.title')}
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        {t('naturesJusticeFreedomText')}
+                        {t('justiceInNature.freedom.description')}
                       </p>
                     </CardContent>
                   </Card>
                 </div>
               )}
 
-              {sectionKey === 'naturesJustice' && (
+              {sectionKey === 'justiceInNature' && (
                 <div className='py-8'>
-                  <Description text={t("naturesJusticeExtra")} />
+                  <Description text={t("justiceInNature.paragraph1")} />
                 </div>
               )}
 
               {/* Key Takeaway */}
-              {["naturesJustice"].includes(sectionKey) &&
+              {["justiceInNature"].includes(sectionKey) &&
                 <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />
                     <p className="text-emerald-800 leading-relaxed">
-                      {t(`${sectionKey}KeyTakeaway`)}
+                      {t(`${sectionKey}.keyTakeaway`)}
                     </p>
                   </CardContent>
                 </Card>

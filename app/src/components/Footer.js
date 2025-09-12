@@ -19,11 +19,11 @@ const Footer = () => {
   ];
 
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'interconnectedness', href: '#interconnectedness' },
-    { key: 'naturesJustice', href: '#natures-justice' },
-    { key: 'health', href: '#health' },
-    { key: 'examples', href: '#examples' }
+    { key: 'navigation.home', href: '#home' },
+    { key: 'navigation.interconnectedness', href: '#interconnectedness' },
+    { key: 'navigation.justiceInNature', href: '#justice-in-nature' },
+    { key: 'navigation.health', href: '#health' },
+    { key: 'navigation.examples', href: '#examples' }
   ];
 
   // Track active section
@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className='flex justify-center caret-transparent'>
-            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src={LogoSrc('white')} alt={t("home") + " footer logo"}/>
+            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src={LogoSrc('white')} alt={t("navigation.home") + " footer logo"}/>
           </div>
           
           {/* Decorative Icons */}
@@ -99,8 +99,6 @@ const Footer = () => {
             ))}
           </div>
           
-          
-
           {/* Copyright */}
           <div className="pt-8 border-t border-gray-700">
             {/* Social Media Icons */}
@@ -120,17 +118,17 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-400 text-sm whitespace-pre-line">
-              {t('copyright')}
+              {t('footer.copyright')}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line">
-              {t('lastUpdate')}: <a className='underline hover:no-underline underline-offset-2' href={githubCommitLink} target="_blank">{new Date(lastUpdate).toLocaleString()}</a>
+              {t('footer.lastUpdate')}: <a className='underline hover:no-underline underline-offset-2' href={githubCommitLink} target="_blank">{new Date(lastUpdate).toLocaleString()}</a>
             </p>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base">
-              <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('developer')}</a>
+              <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('footer.developer')}</a>
             </p>
             
             <p className="text-gray-400 text-xs mt-6 underline-offset-4">
-              <a className='underline hover:no-underline' href="https://emergent.sh" target='_blank'>{t('themeCredit')}</a>
+              <a className='underline hover:no-underline' href="https://emergent.sh" target='_blank'>{t('footer.themeCredit')}</a>
             </p>
           </div>
         </div>

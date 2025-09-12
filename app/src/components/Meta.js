@@ -7,8 +7,8 @@ const Meta = () => {
 
   return (
     <Helmet>
-      <title>{t('home')}</title>
-      <meta name="title" content={t('home')} />
+      <title>{t('navigation.home')}</title>
+      <meta name="title" content={t('navigation.home')} />
       <meta name="description" content="A philosophical movement project." />
     </Helmet>
   );

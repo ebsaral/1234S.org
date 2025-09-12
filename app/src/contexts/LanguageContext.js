@@ -29,11 +29,38 @@ export const LanguageProvider = ({ children }) => {
   };
   
   const t = (key) => {
-    return mockData.translations[currentLanguage]?.[key] || key;
+    const keys = key.split('.');
+    console.log(keys)
+    var currData = mockData.translations[currentLanguage];
+
+    for(var k = 0; k < keys.length; k++){
+      if(k==keys.length-1){
+        return currData?.[keys[k]] || key;
+      }
+      else {
+        currData = currData?.[keys[k]];
+        if(!currData) {
+          return key;
+        }
+      }
+    }
   };
 
   const hasKey = (key) => {
-    return mockData.translations[currentLanguage]?.[key] !== undefined;
+    const keys = key.split('.');
+    var currData = mockData.translations[currentLanguage];
+
+    for(var k = 0; k < keys.length; k++){
+      if(k==keys.length-1){
+        return currData?.[keys[k]] !== undefined
+      }
+      else {
+        currData = currData?.[keys[k]]
+        if(currData == undefined) {
+          return false
+        }
+      }
+    }
   };
   
   const availableLanguages = [

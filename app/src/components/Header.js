@@ -21,11 +21,11 @@ const Header = () => {
   const isScrolled = scrollY > 50;
   
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'interconnectedness', href: '#interconnectedness' },
-    { key: 'naturesJustice', href: '#natures-justice' },
-    { key: 'health', href: '#health' },
-    { key: 'examples', href: '#examples' }
+    { key: 'navigation.home', href: '#home' },
+    { key: 'navigation.interconnectedness', href: '#interconnectedness' },
+    { key: 'navigation.justiceInNature', href: '#justice-in-nature' },
+    { key: 'navigation.health', href: '#health' },
+    { key: 'navigation.examples', href: '#examples' }
   ];
 
   // Track active section based on scroll position

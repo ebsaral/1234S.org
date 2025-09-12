@@ -37,8 +37,8 @@ function App() {
           />
           
           <ContentSection 
-            sectionKey="naturesJustice"
-            id="natures-justice"
+            sectionKey="justiceInNature"
+            id="justice-in-nature"
             icon={Scale}
             bgImage={mockData.images.naturesJustice}
           />

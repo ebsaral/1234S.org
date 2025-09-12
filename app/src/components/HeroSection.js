@@ -52,18 +52,18 @@ const HeroSection = () => {
                 backgroundClip: 'text'
               }}
             >
-              {t('heroTitle').split(':')[0]}
+              {t('hero.title').split(':')[0]}
             </span>
           </h1>
           
           {/* Subtitle with generous spacing */}
           <div className="mb-16 px-4 lg:px-12">
             <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 font-light italic leading-relaxed mb-8">
-              {t('heroSubtitle')}
+              {t('hero.subtitle')}
             </p>
             
             <p className="text-lg sm:text-xl text-white/80 leading-relaxed max-w-4xl mx-auto">
-              {t('heroDescription')}
+              {t('hero.description')}
             </p>
           </div>
           
@@ -75,7 +75,7 @@ const HeroSection = () => {
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Play className="w-5 h-5 mr-2" />
-              {t('watchVideo')}
+              {t('hero.watchVideo')}
             </Button>
             
             <Button
@@ -84,13 +84,13 @@ const HeroSection = () => {
               size="lg"
               className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
             >
-              {t('learnMore')}
+              {t('hero.learnMore')}
             </Button>
           </div>
           
           {/* Scroll Indicator */}
           <div className="flex flex-col items-center animate-bounce">
-            <p className="text-white/70 text-sm mb-2">{t('scrollIndicator')}</p>
+            <p className="text-white/70 text-sm mb-2">{t('navigation.scrollIndicator')}</p>
             <ArrowDown className="w-6 h-6 text-white/70" />
           </div>
         </div>
