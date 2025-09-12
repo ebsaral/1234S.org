@@ -146,7 +146,7 @@ export const mockData = {
       
       interconnectedness: {
         title: "Bütünlük: Birleşik Bir Varlık",
-        quote: "Varlıkta hiçbir şey tek başına durmaz. Her seçim, duygu ve eylem dışarıya dalgalar gönderir, sayısız başkasına dokunur — çoğu zaman kolayca hissedemediğimiz şekillerde.",
+        quote: "Bütünlük, seçimlerimizin hem görünür hem de görünmez bir şekilde birbirine bağlı olduğunu ortaya koyar. Daha büyük bir varoluşta yaşayan doğal varlıklar olarak, seçimlerimiz yalnızca kendi kaderimizi değil, birlikte paylaştığımız tüm sistemin refahını da şekillendirir.",
         description: "Hepimiz, sınırsız evrenin içindeki küçücük bir alan olan Dünya'da yaşıyoruz. Her varlık, doğa denilen yaşayan bir bütünün parçasıdır. Bir varlık acı çektiğinde, etkiler nadiren onunla sınırlı kalır; aileler, topluluklar ve ekosistemler bu dalgaya çekilir. Bir varlık geliştiğinde ise faydalar da dışa doğru yayılır. Bütünlük, yaşamlarımızın özel mülkiyet değil, daha büyük bir akışta paylaşılan akımlar olduğunu ifade eder.\n\nÇevrenizle bağlantınızı hissetmek için hem çevrenize hem de ürettiklerinize odaklanın. Yazı, resim, müzik, fikir, karar, konuşma, sağlık durumu veya hareket olsun, her ifade (çıktı) etrafınızdaki varlıklar tarafından şekillendirilir (ilham alınır). Kendi yaratımlarınızı yakından gözlemleyerek çevrenizle ne kadar uyum içinde olduğunuzu fark edebilirsiniz.",
         experiment: {
           title: "Bu deneyi deneyebilirsiniz",
