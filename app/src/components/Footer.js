@@ -7,7 +7,7 @@ import MediumSVG from './svg/Medium';
 const Footer = () => {
   const { t } = useLanguage();
   const [activeSection, setActiveSection] = useState('home');
-  const lastUpdate = 1757669468578;
+  const lastUpdate = 1757669643764;
   const githubCommitLink = "https://github.com/ebsaral/Logical-Spirituality/commits/main/";
 
   const socialLinks = [
