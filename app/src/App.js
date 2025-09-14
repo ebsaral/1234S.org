@@ -10,7 +10,7 @@ import ContentSection from "./components/ContentSection";
 import EndingSection from "./components/EndingSection";
 import Footer from "./components/Footer";
 import { Globe, Scale, Heart, Lightbulb } from 'lucide-react';
-import { mockData } from "./data/mock";
+import { data } from "./data/data";
 
 
 function App() {
@@ -33,28 +33,28 @@ function App() {
             sectionKey="interconnectedness"
             id="interconnectedness"
             icon={Globe}
-            bgImage={mockData.images.interconnectedness}
+            bgImage={data.images.interconnectedness}
           />
           
           <ContentSection 
             sectionKey="justiceInNature"
             id="justice-in-nature"
             icon={Scale}
-            bgImage={mockData.images.naturesJustice}
+            bgImage={data.images.naturesJustice}
           />
           
           <ContentSection 
             sectionKey="health"
             id="health"
             icon={Heart}
-            bgImage={mockData.images.health}
+            bgImage={data.images.health}
           />
           
           <ContentSection 
             sectionKey="examples"
             id="examples"
             icon={Lightbulb}
-            bgImage={mockData.images.examples}
+            bgImage={data.images.examples}
           />
 
           <EndingSection

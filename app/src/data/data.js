@@ -1,5 +1,5 @@
 // Mock data for Logical Spirituality website
-export const mockData = {
+export const data = {
   // Language content
   translations: {
     en: {

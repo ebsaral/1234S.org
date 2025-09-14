@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { mockData } from '../data/mock';
+import { data } from '../data/data';
 
 const LanguageContext = createContext();
 
@@ -16,13 +16,13 @@ export const LanguageProvider = ({ children }) => {
   
   useEffect(() => {
     const savedLanguage = localStorage.getItem('preferred-language');
-    if (savedLanguage && mockData.translations[savedLanguage]) {
+    if (savedLanguage && data.translations[savedLanguage]) {
       setCurrentLanguage(savedLanguage);
     }
   }, []);
   
   const changeLanguage = (langCode) => {
-    if (mockData.translations[langCode]) {
+    if (data.translations[langCode]) {
       setCurrentLanguage(langCode);
       localStorage.setItem('preferred-language', langCode);
     }
@@ -30,7 +30,7 @@ export const LanguageProvider = ({ children }) => {
   
   const t = (key) => {
     const keys = key.split('.');
-    var currData = mockData.translations[currentLanguage];
+    var currData = data.translations[currentLanguage];
 
     for(var k = 0; k < keys.length; k++){
       if(k==keys.length-1){
@@ -47,7 +47,7 @@ export const LanguageProvider = ({ children }) => {
 
   const hasKey = (key) => {
     const keys = key.split('.');
-    var currData = mockData.translations[currentLanguage];
+    var currData = data.translations[currentLanguage];
 
     for(var k = 0; k < keys.length; k++){
       if(k==keys.length-1){

@@ -3,12 +3,12 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useScrollEffects, useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Button } from './ui/button';
 import { Play, ArrowDown } from 'lucide-react';
-import { mockData } from '../data/mock';
+import { data } from '../data/data';
 
 const HeroSection = () => {
   const { t } = useLanguage();
   const { scrollY } = useScrollEffects();
-  const [heroRef, isHeroVisible] = useIntersectionObserver();
+  const [heroRef, _] = useIntersectionObserver();
   
   const parallaxOffset = scrollY * 0.5;
   
@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${mockData.images.hero})`,
+          backgroundImage: `url(${data.images.hero})`,
           transform: `translateY(${parallaxOffset}px)`,
           filter: 'brightness(0.4)'
         }}
