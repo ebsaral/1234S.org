@@ -167,7 +167,7 @@ export const mockData = {
         negativeConsequences: {
           title: "Olumsuz Sonuçlar",
           nature: "Kuraklıklar, seller, kasırgalar ve küresel ısınma, sömürü ve dengesizlikten kaynaklanır.",
-          health: "Kalp hastalıkları, depresyon, pandemiler ve hatta genetik bozukluklar daha derin uyumsuzlukların bir parçası yaşamlarımıza yansır.",
+          health: "Kalp hastalıkları, depresyon, pandemiler ve hatta genetik bozukluklar daha derin uyumsuzlukların bir parçası olarak yaşamlarımıza yansır.",
           luck: "Trafikte, işyerlerinde veya evlerdeki tüm kazalar, varlıklarla olan ilişkilerimizin sonucu olarak ortaya çıkarlar."
         },
         equality: {
