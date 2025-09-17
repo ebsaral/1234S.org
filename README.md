@@ -32,6 +32,8 @@ This open source project is initiated and led by [Emin Buğra Saral](https://ebs
 
 - None
 
---- 
-
 All forms of contribution are welcome.
+
+---
+
+Web application is initiated with [Emergent](https://emergent.sh) and hosted on [Vercel](https://vercel.com).
