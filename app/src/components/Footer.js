@@ -117,11 +117,11 @@ const Footer = () => {
               ))}
             </div>
 
-            <p className="text-gray-400 text-sm whitespace-pre-line">
+            <p className="text-gray-400 mb-4 text-sm whitespace-pre-line">
               {t('footer.copyright')}
             </p>
-            <p className="text-gray-400 text-xs whitespace-pre-line">
-              {t('footer.lastUpdate')}: <a className='underline hover:no-underline underline-offset-2' href={githubCommitLink} target="_blank">{new Date(lastUpdate).toLocaleString()}</a>
+            <p className="text-gray-400 text-xs whitespace-pre-line my-2">
+              {t('footer.status.label')}: {t('footer.status.text')} {t('footer.lastUpdate')}: <a className='underline hover:no-underline underline-offset-2' href={githubCommitLink} target="_blank">{new Date(lastUpdate).toLocaleString()}</a>
             </p>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base">
               <a className='underline hover:no-underline' href="https://ebsaral.vercel.app" target='_blank'>{t('footer.developer')}</a>

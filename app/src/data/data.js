@@ -1,4 +1,4 @@
-// Mock data for Logical Spirituality website
+// Data for Logical Spirituality website
 export const data = {
   // Language content
   translations: {
@@ -109,10 +109,14 @@ export const data = {
       footer: {
         title: "Logical Spirituality",
         description: "Expanding Spirituality with Logic in Nature",
-        copyright: "© 2025\nLogical Spirituality: A philosophical movement project.",
+        copyright: "© 2025\nLogical Spirituality: A philosophical movement project",
+        status: {
+          label: "Status",
+          text: "In development; alpha version."
+        },
         lastUpdate: "Last update",
         developer: "The Spirit Guide",
-        themeCredit: "built with Emergent.sh"
+        themeCredit: "designed with Emergent.sh"
       }
     },
     tr: {
@@ -222,7 +226,11 @@ export const data = {
       footer:{
         title: "Mantıksal Maneviyat",
         description: "Doğadaki Mantıkla Maneviyatı Derinleştirmek",
-        copyright: "© 2025\nMantıksal Maneviyat: Bir felsefi akım projesi.",
+        copyright: "© 2025\nMantıksal Maneviyat: Bir felsefi akım projesi",
+        status: {
+          label: "Durum",
+          text: "Geliştirilme aşamasında; alpha sürümü."
+        },
         lastUpdate: "Son güncelleme",
         developer: "Maneviyat Rehberi",
         themeCredit: "Emergent.sh ile tasarlandı"
