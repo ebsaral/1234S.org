@@ -1,5 +1,6 @@
+import "@/app/App.css";
+import { Inter, Playfair_Display } from 'next/font/google'
 import { LocalPromiseParams, type NextLayoutIntlayer } from "next-intlayer";
-import { Inter } from "next/font/google";
 import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
 
@@ -41,13 +42,25 @@ export const generateMetadata = async ({
   };
 };
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  weight: ["300", "400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-inter"
+});
+
+const playfair = Playfair_Display({ 
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-playfair"
+})
 
 const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
   return (
-    <html lang={locale} dir={getHTMLTextDir(locale)}>
-      <body className={inter.className}>{children}</body>
+    <html lang={locale} dir={getHTMLTextDir(locale)} className={`${inter.variable} ${playfair.variable}`}>
+      <body>{children}</body>
     </html>
   );
 };
