@@ -37,7 +37,7 @@ const pageContent = {
     }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
-      developer: "https://ebsaral.vercel.app",
+      developer: "https://0.1234s.org",
       theme: "https://emergent.sh"
     }
   },

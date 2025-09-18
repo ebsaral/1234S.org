@@ -29,4 +29,4 @@
 
 ## Credits
 
-This *open source* philosophical movement project is initiated (2019) and led (2025) by [Emin Buğra Saral](https://ebsaral.vercel.app).
+This *open source* philosophical movement project is initiated (2019) and led (2025) by [Emin Buğra Saral](https://0.1234s.org).
