@@ -118,14 +118,14 @@ const Footer = () => {
               ))}
             </div>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base hover:font-semibold h-10">
-              <a className='underline hover:no-underline' href={content.links.developer} target='_blank'>{content.developer}</a>
+              <a className='underline hover:no-underline' href={content.links.developer.value} target='_blank'>{content.developer}</a>
             </p>
             <p className="text-gray-400 mb-4 text-sm whitespace-pre-line">
               {content.title}{' '}{content.copyright.mark}{' '}{new Date().getFullYear()}<br></br>
               {content.description}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line my-2">
-              <b>{content.status.label}:</b> {content.status.text}{" "}<b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits} target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
+              <b>{content.status.label}:</b> {content.status.text}{" "}<b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
             </p>
           </div>
         </div>
