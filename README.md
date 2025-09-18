@@ -21,16 +21,12 @@
 
 ... and more.
 
----
-
-This *open source* philosophical movement project is initiated and led by [Emin Buğra Saral](https://ebsaral.vercel.app).
-
-### Supporters
+## Supporters
 
 - None
 
 *All forms of contribution are welcome.*
 
----
+## Credits
 
-Web application is initiated with [Emergent](https://emergent.sh) and hosted on [Vercel](https://vercel.com).
+This *open source* philosophical movement project is initiated (2019) and led (2025) by [Emin Buğra Saral](https://ebsaral.vercel.app).
