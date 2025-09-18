@@ -125,7 +125,7 @@ const Footer = () => {
               {content.description}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line my-2">
-              <b>{content.status.label}:</b> {content.status.text}{" "}<b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
+              <b>{content.status.label}:</b> {content.status.text}<br></br><b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
             </p>
           </div>
         </div>
