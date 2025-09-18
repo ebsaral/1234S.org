@@ -6,8 +6,14 @@ const config: IntlayerConfig = {
       Locales.ENGLISH,
       Locales.TURKISH,
     ],
-    defaultLocale: Locales.ENGLISH,
+    defaultLocale: Locales.ENGLISH
   },
+  middleware: {
+    prefixDefault: true,
+  },
+  log: {
+    mode: "verbose"
+  }
 };
 
 export default config;

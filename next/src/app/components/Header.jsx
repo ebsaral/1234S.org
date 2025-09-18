@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRouter } from "next/navigation";
-import { useLocale, useIntlayer } from 'next-intlayer';
+import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
 import { getLocalizedUrl, getLocaleName } from "intlayer";
 
 import { Menu, X, ChevronDown } from 'lucide-react';
@@ -18,8 +18,10 @@ import {
 
 const Header = () => {
   const router = useRouter();
+  const { setLocaleCookie } = useLocaleCookie();
   const { locale, availableLocales, setLocale } = useLocale({
     onLocaleChange: (locale) => {
+      setLocaleCookie(locale);
       router.push(getLocalizedUrl("/", locale));
     },
   });
@@ -90,7 +92,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div 
-            className="group flex flex-row items-center text-2xl rounded-md font-bold cursor-pointer transition-colors duration-300"
+            className="group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300"
             onClick={() => scrollToSection('#home')}
             style={{
               background: 'linear-gradient(135deg, #ffffff 0%, #81c784 50%, #4caf50 100%)',
@@ -100,8 +102,8 @@ const Header = () => {
             }}
           >
               
-            <img src='/logos/logo-bg-transparent.png' className='bg-red ml-[50px] mr-[50px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[48px] group-hover:mr-[48px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={content.home.text.value + " header logo"} />
-            <h1 className='text-3xl mb-2'>{"1234s.org"}</h1>
+            <img src='/logos/logo-bg-transparent.png' className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={content.home.text.value + " header logo"} />
+            <p className='grow font-Inter font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
           </div>
 
           {/* Desktop Navigation */}

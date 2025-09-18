@@ -1,10 +1,12 @@
-import "@/app/App.css";
-import { Inter, Playfair_Display } from 'next/font/google'
-import { LocalPromiseParams, type NextLayoutIntlayer } from "next-intlayer";
+import { LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
 import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
 
-export { generateStaticParams } from "next-intlayer";
+import { Inter, Playfair_Display } from 'next/font/google'
+import "../globals.css";
+import "../App.css";
+
+export { generateStaticParams };
 
 export const generateMetadata = async ({
   params,
