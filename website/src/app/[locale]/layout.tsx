@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next';
 import { LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
 import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
@@ -62,7 +63,10 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
   return (
     <html lang={locale} dir={getHTMLTextDir(locale)} className={`${inter.variable} ${playfair.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />  
+      </body>
     </html>
   );
 };
