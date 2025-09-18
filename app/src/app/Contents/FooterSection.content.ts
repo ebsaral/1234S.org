@@ -26,8 +26,8 @@ const pageContent = {
     },
     lastUpdate: {
       label: t({
-        en: "Last update",
-        tr: "Son güncelleme"
+        en: "Last content update",
+        tr: "Son içerik güncelleme"
       }),
       text: 1758207192870
     },
