@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRouter } from "next/navigation";
-import { useLocale, useIntlayer } from 'next-intlayer';
+import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
 import { getLocalizedUrl, getLocaleName } from "intlayer";
 
 import { Menu, X, ChevronDown } from 'lucide-react';
@@ -18,8 +18,10 @@ import {
 
 const Header = () => {
   const router = useRouter();
+  const { setLocaleCookie } = useLocaleCookie();
   const { locale, availableLocales, setLocale } = useLocale({
     onLocaleChange: (locale) => {
+      setLocaleCookie(locale);
       router.push(getLocalizedUrl("/", locale));
     },
   });

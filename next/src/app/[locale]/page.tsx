@@ -8,7 +8,7 @@ import IntroTextSection from "@/app/components/IntroTextSection";
 import ContentSection from "@/app/components/ContentSection";
 import EndingSection from "@/app/components/EndingSection";
 import Footer from "@/app/components/Footer";
-import { data } from "@/app/components/data"
+import { data } from "@/app/components/data";
 
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
