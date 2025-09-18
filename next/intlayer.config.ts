@@ -5,10 +5,11 @@ const config: IntlayerConfig = {
     locales: [
       Locales.ENGLISH,
       Locales.TURKISH,
-    ]
+    ],
+    defaultLocale: Locales.ENGLISH
   },
   middleware: {
-    prefixDefault: false,
+    prefixDefault: true,
   },
   log: {
     mode: "verbose"

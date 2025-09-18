@@ -3,6 +3,13 @@ import { Locales, t, type Dictionary } from "intlayer";
 const pageContent = {
   key: "navigation",
   content: {
+    webpage: {
+        title: t({
+            en: "1234s.org",
+            tr: "1234s.org"
+        }),
+        link: "https://1234s.org"
+    },
     home: {
         name: "home",
         href: "#home", 

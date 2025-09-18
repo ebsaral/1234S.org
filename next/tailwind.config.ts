@@ -10,7 +10,7 @@ const config: Config = {
 		extend: {
 			fontFamily: {
 				"Inter": "var(--font-inter)",
-				"Playfair Display": "var(--font-playfair)",
+				"PlayfairDisplay": "var(--font-playfair)",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
