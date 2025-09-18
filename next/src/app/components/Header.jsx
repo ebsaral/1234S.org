@@ -102,8 +102,8 @@ const Header = () => {
             }}
           >
               
-            <img src='/logos/logo-bg-transparent.png' className='flex-none bg-red ml-[50px] mr-[30px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[48px] group-hover:mr-[28px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={content.home.text.value + " header logo"} />
-            <p className='grow font-Inter font-medium text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
+            <img src='/logos/logo-bg-transparent.png' className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={content.home.text.value + " header logo"} />
+            <p className='grow font-Inter font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
           </div>
 
           {/* Desktop Navigation */}
