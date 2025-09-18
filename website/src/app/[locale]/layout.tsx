@@ -1,4 +1,6 @@
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import { LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
 import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
@@ -65,7 +67,8 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
     <html lang={locale} dir={getHTMLTextDir(locale)} className={`${inter.variable} ${playfair.variable}`}>
       <body>
         {children}
-        <Analytics />  
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
