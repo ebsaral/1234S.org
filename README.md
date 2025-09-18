@@ -1,4 +1,4 @@
-## Introduction
+# Logical Spirituality
 
 > [!NOTE]
 > This project is currently being developed to be released soon. [View Progress](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen)
