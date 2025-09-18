@@ -207,7 +207,7 @@ const Header = () => {
                       : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
                   }`}
                 >
-                  {t(item.key)}
+                  {content[item.key].text}
                 </button>
               ))}
             </nav>
