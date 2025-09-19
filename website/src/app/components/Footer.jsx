@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
 import { useIntlayer } from 'next-intlayer';
@@ -8,7 +9,8 @@ import { useIntlayer } from 'next-intlayer';
 const Footer = () => {
   const navigation = useIntlayer("navigation");
   const content = useIntlayer("footer-section");
-
+  
+  const [sectionRef] = useIntersectionObserver();
   const [activeSection, setActiveSection] = useState('home');
 
   const socialLinks = [
@@ -25,7 +27,8 @@ const Footer = () => {
     { key: 'interconnectedness', href: '#interconnectedness' },
     { key: 'justiceInNature', href: '#justice-in-nature' },
     { key: 'health', href: '#health' },
-    { key: 'examples', href: '#examples' }
+    { key: 'examples', href: '#examples' },
+    { key: 'contact', href: '#contact', extra: "#social-links" }
   ];
 
   // Track active section
@@ -59,7 +62,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-16">
+    <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Logo */}
@@ -85,7 +88,7 @@ const Footer = () => {
             {navItems.map((item) => (
               <button 
                 key={item.key}
-                onClick={() => document.querySelector(item.href)?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.querySelector(item.extra || item.href)?.scrollIntoView({ behavior: 'smooth' })}
                 className={`transition-all duration-300 relative ${
                   isActiveSection(item.key, item.href)
                     ? 'text-emerald-400 font-medium'
@@ -101,7 +104,7 @@ const Footer = () => {
             ))}
           </div>
           
-          <div id="contact" className="pt-8 border-t border-gray-700">
+          <div id="social-links" className="pt-8 border-t border-gray-700">
             {/* Social Media Icons */}
             <div className="flex justify-center items-center gap-4 mb-8">
               {socialLinks.map((social, index) => (

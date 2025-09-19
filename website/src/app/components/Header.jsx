@@ -40,7 +40,7 @@ const Header = () => {
     { key: 'justiceInNature', href: '#justice-in-nature' },
     { key: 'health', href: '#health' },
     { key: 'examples', href: '#examples' },
-    { key: 'contact', href: '#contact'}
+    { key: 'contact', href: '#contact', extra: "#social-links"}
   ];
 
   // Track active section based on scroll position
@@ -112,7 +112,7 @@ const Header = () => {
             {navItems.map((item) => (
               <button
                 key={item.key}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => scrollToSection(item.extra || item.href)}
                 className={`text-sm font-medium transition-all duration-300 relative ${
                   isActiveSection(item.key, item.href)
                     ? isScrolled 
@@ -201,7 +201,7 @@ const Header = () => {
               {navItems.map((item) => (
                 <button
                   key={item.key}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => scrollToSection(item.extra || item.href)}
                   className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                     isActiveSection(item.key, item.href)
                       ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
