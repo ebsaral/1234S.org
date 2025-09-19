@@ -15,7 +15,7 @@ const Footer = () => {
     { icon: MediumSVG, href: "https://medium.com/@logical-spirituality", label: "Medium (Blog)" },
     { icon: Youtube, href: "https://www.youtube.com/@0LogicalSpirituality1", label: "YouTube" },
     { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
-    { icon: Linkedin, href: "https://www.linkedin.com/in/logical-spirituality", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
     { icon: Github, href: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
   ];
 
