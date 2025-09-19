@@ -3,7 +3,6 @@ import { IntlayerServerProvider } from "next-intlayer/server";
 
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
-import VideoSection from "@/app/components/VideoSection";
 import IntroTextSection from "@/app/components/IntroTextSection";
 import ContentSection from "@/app/components/ContentSection";
 import EndingSection from "@/app/components/EndingSection";
@@ -22,7 +21,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
           <main>
             <HeroSection />
             
-            <VideoSection />
+            {/* <VideoSection /> */}
             
             <IntroTextSection
               id="intro"

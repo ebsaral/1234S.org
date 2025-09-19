@@ -2,7 +2,7 @@
 
 import { useScrollEffects, useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Button } from './ui/button.jsx';
-import { Play, ArrowDown } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { data } from './data';
 import { useIntlayer } from "next-intlayer";
 
@@ -70,14 +70,14 @@ const HeroSection  = () => {
           
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <Button
+            {/* <Button
               onClick={scrollToVideo}
               size="lg"
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Play className="w-5 h-5 mr-2" />
               {content.watchVideo}
-            </Button>
+            </Button> */}
             
             <Button
               onClick={() => document.querySelector('#intro')?.scrollIntoView({ behavior: 'smooth' })}
