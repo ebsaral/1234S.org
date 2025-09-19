@@ -11,43 +11,39 @@ const pageContent = {
         link: "https://1234s.org"
     },
     home: {
-        name: "home",
-        href: "#home", 
         text: t({
             en: "Logical Spirituality",
             tr: "Mantıksal Maneviyat"
         }),
     },
-    interconnectedness: {
-        name: "interconnectedness",
-        id: "#interconnectedness", 
+    interconnectedness: { 
         text: t({
             en: "Interconnectedness",
             tr: "Bütünlük"
         }),
     },
-    justiceInNature: {
-        name: "justiceInNature",
-        id: "#justice-in-nature", 
+    justiceInNature: { 
         text: t({
             en: "Justice",
             tr: "Adalet"
         }),
     },
-    health: {
-        name: "health",
-        id: "#health", 
+    health: { 
         text: t({
             en: "Health",
             tr: "Sağlık"
         }),
     },
-    examples: {
-        name: "examples",
-        id: "#examples", 
+    examples: { 
         text: t({
             en: "Examples",
             tr: "Örnekler"
+        }),
+    },
+    contact: {
+        text: t({
+            en: "Contact",
+            tr: "İletişim"
         }),
     },
     language: t({

@@ -101,8 +101,7 @@ const Footer = () => {
             ))}
           </div>
           
-          {/* Copyright */}
-          <div className="pt-8 border-t border-gray-700">
+          <div id="contact" className="pt-8 border-t border-gray-700">
             {/* Social Media Icons */}
             <div className="flex justify-center items-center gap-4 mb-8">
               {socialLinks.map((social, index) => (

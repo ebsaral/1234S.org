@@ -39,7 +39,8 @@ const Header = () => {
     { key: 'interconnectedness', href: '#interconnectedness' },
     { key: 'justiceInNature', href: '#justice-in-nature' },
     { key: 'health', href: '#health' },
-    { key: 'examples', href: '#examples' }
+    { key: 'examples', href: '#examples' },
+    { key: 'contact', href: '#contact'}
   ];
 
   // Track active section based on scroll position
