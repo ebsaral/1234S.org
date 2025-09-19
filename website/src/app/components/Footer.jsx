@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github } from 'lucide-react';
+import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
 import { useIntlayer } from 'next-intlayer';
 
@@ -12,9 +12,10 @@ const Footer = () => {
   const [activeSection, setActiveSection] = useState('home');
 
   const socialLinks = [
-    { icon: MediumSVG, href: "https://medium.com/@logical-spirituality", label: "Medium (Blog)" },
+    { icon: Instagram, href: "https://www.instagram.com/logical.spirituality", label: "Instagram" },
     { icon: Youtube, href: "https://www.youtube.com/@0LogicalSpirituality1", label: "YouTube" },
-    { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X (Twitter)" }, 
+    { icon: Twitter, href: "https://x.com/L_Spirituality", label: "X" }, 
+    { icon: MediumSVG, href: "https://medium.com/@logical-spirituality", label: "Medium" },
     { icon: Linkedin, href: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
     { icon: Github, href: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
   ];
