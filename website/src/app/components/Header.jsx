@@ -112,6 +112,7 @@ const Header = () => {
             {navItems.map((item) => (
               <button
                 key={item.key}
+                aria-label={content[item.key].text.value}
                 onClick={() => scrollToSection(item.extra || item.href)}
                 className={`text-sm font-medium transition-all duration-300 relative ${
                   isActiveSection(item.key, item.href)
@@ -184,6 +185,7 @@ const Header = () => {
 
             {/* Mobile Menu Button */}
             <button
+              aria-label='menu'
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`md:hidden p-2 transition-colors duration-300 ${
                 isScrolled ? 'text-gray-700' : 'text-white'
@@ -201,6 +203,7 @@ const Header = () => {
               {navItems.map((item) => (
                 <button
                   key={item.key}
+                  aria-label={content[item.key].text.value}
                   onClick={() => scrollToSection(item.extra || item.href)}
                   className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                     isActiveSection(item.key, item.href)

@@ -89,6 +89,7 @@ const Footer = () => {
             {navItems.map((item) => (
               <button 
                 key={item.key}
+                aria-label={navigation[item.key].text.value}
                 onClick={() => document.querySelector(item.extra || item.href)?.scrollIntoView({ behavior: 'smooth' })}
                 className={`transition-all duration-300 relative ${
                   isActiveSection(item.key, item.href)
