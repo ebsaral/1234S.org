@@ -8,12 +8,18 @@ const config: IntlayerConfig = {
     ],
     defaultLocale: Locales.ENGLISH
   },
+  content: {
+    contentDir: ["contents"],
+  },
   middleware: {
     prefixDefault: true,
   },
   log: {
     mode: "verbose"
-  }
+  },
+  build: {
+    importMode: "dynamic",
+  },
 };
 
 export default config;
