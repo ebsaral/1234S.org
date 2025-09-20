@@ -71,11 +71,11 @@ const ContentSection = ({ sectionKey, id }) => {
 
   const getBackgroundColor = () => {
     switch (sectionKey) {
-      case 'interconnectedness': return 'text-blue-600';
-      case 'justiceInNature': return 'bg-green-300';
-      case 'health': return 'bg-rose-300';
-      case 'examples': return 'bg-amber-300';
-      default: return 'bg-gray-600';
+      case 'interconnectedness': return 'text-blue-50';
+      case 'justiceInNature': return 'bg-green-50';
+      case 'health': return 'bg-rose-50';
+      case 'examples': return 'bg-amber-50';
+      default: return 'bg-gray-50';
     }
   };
 
