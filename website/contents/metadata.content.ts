@@ -46,10 +46,7 @@ const metadataContent = {
       ]
     },
     twitter: {
-      card: "summary_large_image",
-      site: "@site",
-      creator: "@creator",
-      images:  "https://1234s.org/logos/logo-og.png?v=1"
+      card: "summary_large_image"
     },
     verification: {},
     appleWebApp: {
