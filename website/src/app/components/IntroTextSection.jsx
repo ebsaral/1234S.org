@@ -21,29 +21,29 @@ const IntroTextSection = ({id}) => {
             {/* Left Column */}
             <div className="lg:col-span-2 space-y-8 text-justify">
               <div className="prose prose-lg max-w-none">
-                <p className="text-gray-700 leading-relaxed text-lg mb-6">
+                <p className="text-gray-90 leading-relaxed text-lg mb-6">
                   {content.paragraph1.value.split('**').map((part, index) => 
-                    index % 2 === 1 ? <strong key={index} className="text-emerald-700">{part}</strong> : part
+                    index % 2 === 1 ? <strong key={index} className="text-emerald-900">{part}</strong> : part
                   )}
                 </p>
                 
-                <p className="text-gray-600 leading-relaxed text-lg mb-6">
+                <p className="text-gray-900 leading-relaxed text-lg mb-6">
                   {content.paragraph2}
                 </p>
                 
-                <p className="text-gray-700 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line transition-all duration-300 hover:scale-105">
+                <p className="text-gray-900 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line transition-all duration-300 hover:scale-105">
                   {content.paragraph3.value.split('*').map((part, index) => 
-                    index % 2 === 1 ? <em key={index} className="text-blue-700 font-medium">{part}</em> : part
+                    index % 2 === 1 ? <em key={index} className="text-blue-900 font-medium">{part}</em> : part
                   )}
                 </p>
                 
-                <p className="text-gray-700 leading-relaxed text-lg">
+                <p className="text-gray-900 leading-relaxed text-lg">
                   {content.paragraph4.value.split('**').map((part, index) => 
-                    index % 2 === 1 ? <strong key={index} className="text-emerald-700">{part}</strong> : part
+                    index % 2 === 1 ? <strong key={index} className="text-emerald-900">{part}</strong> : part
                   ).map((part, index) => 
                     typeof part === 'string' && part.includes('*') 
                       ? part.split('*').map((subpart, subindex) => 
-                          subindex % 2 === 1 ? <em key={`${index}-${subindex}`} className="text-gray-800 font-medium">{subpart}</em> : subpart
+                          subindex % 2 === 1 ? <em key={`${index}-${subindex}`} className="text-gray-900 font-medium">{subpart}</em> : subpart
                         )
                       : part
                   )}

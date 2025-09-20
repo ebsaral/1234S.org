@@ -30,25 +30,21 @@ const Page: NextPageIntlayer = async ({ params }) => {
             <ContentSection 
               sectionKey="interconnectedness"
               id="interconnectedness"
-              bgImage={data.images.interconnectedness}
             />
             
             <ContentSection 
               sectionKey="justiceInNature"
               id="justice-in-nature"
-              bgImage={data.images.naturesJustice}
             />
             
             <ContentSection 
               sectionKey="health"
               id="health"
-              bgImage={data.images.health}
             />
             
             <ContentSection 
               sectionKey="examples"
               id="examples"
-              bgImage={data.images.examples}
             />
   
             <EndingSection

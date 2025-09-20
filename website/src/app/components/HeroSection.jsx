@@ -9,7 +9,7 @@ import { useIntlayer } from "next-intlayer";
 const HeroSection  = () => {
   const content = useIntlayer("hero-section");
   const { scrollY } = useScrollEffects();
-  const [heroRef, _] = useIntersectionObserver();
+  const [heroRef] = useIntersectionObserver();
   
   const parallaxOffset = scrollY * 0.5;
   
@@ -30,7 +30,7 @@ const HeroSection  = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${data.images.hero})`,
+          backgroundImage: `url(backgrounds/hero.jpeg)`,
           transform: `translateY(${parallaxOffset}px)`,
           filter: 'brightness(0.4)'
         }}
