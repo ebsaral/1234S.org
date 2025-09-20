@@ -33,7 +33,7 @@ export const generateMetadata = async ({
    *  // }
    * ```
    */
-  const multilingualUrls = getMultilingualUrls("/");
+  const multilingualUrls = getMultilingualUrls("https://1234s.org/");
 
   return {
     ...metadata,
