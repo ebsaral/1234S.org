@@ -4,9 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
-import { useIntlayer } from 'next-intlayer';
+import { useIntlayer, useLocale } from 'next-intlayer';
 
 const Footer = () => {
+  const { locale } = useLocale();
   const navigation = useIntlayer("navigation");
   const content = useIntlayer("footer-section");
   
@@ -129,7 +130,7 @@ const Footer = () => {
               {content.description}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line my-2">
-              <b>{content.status.label}:</b> {content.status.text}<br></br><b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} title="GitHub" target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
+              <b>{content.status.label}:</b> {content.status.text}<br></br><b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} title="GitHub" target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString(locale)}</a>
             </p>
           </div>
         </div>
