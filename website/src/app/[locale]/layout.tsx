@@ -33,7 +33,7 @@ export const generateMetadata = async ({
    *  // }
    * ```
    */
-  const url = "https://1234s.org/"
+  const url = "https://1234s.org/?v=1"
   const multilingualUrls = getMultilingualUrls(url);
 
   return {
