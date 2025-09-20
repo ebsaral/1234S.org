@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from "next/navigation";
 import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
 import { getLocalizedUrl, getLocaleName } from "intlayer";
+import Image from 'next/image'
 
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
@@ -102,8 +103,14 @@ const Header = () => {
               backgroundClip: 'text'
             }}
           >
-              
-            <img src='/logos/logo-bg-transparent.png' title={content.home.text.value} className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] size-[30px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md' alt={content.home.text.value + " header logo"} />
+            <Image 
+              className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md'
+              src='/logos/logo-bg-transparent.png'
+              title={content.home.text.value}
+              alt={content.home.text.value + " header logo"}
+              width={30}
+              height={30}
+            />
             <p className='grow font-Inter font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
           </div>
 

@@ -5,6 +5,7 @@ import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
 import { useIntlayer, useLocale } from 'next-intlayer';
+import Image from 'next/image'
 
 const Footer = () => {
   const { locale } = useLocale();
@@ -68,7 +69,15 @@ const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className='flex justify-center caret-transparent'>
-            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src="/logos/logo-bg-white.png" title={navigation.home.text.value} alt={navigation.home.text.value + " footer logo"}/>
+            <Image 
+              className='m-10 size-[120px] sm:size-[160px] rounded-full'
+              src="/logos/logo-bg-white.png"
+              title={navigation.home.text.value}
+              alt={navigation.home.text.value + " footer logo"}
+              priority={false}
+              width={160}
+              height={160}
+            />
           </div>
           
           {/* Decorative Icons */}
