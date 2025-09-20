@@ -31,6 +31,13 @@ const metadataContent = {
       index: true,
       follow: true
     },
+    alternates: {
+      canonical: "https://1234s.org",
+        languages: {
+          "en": "https://1234s.org/en",
+          "tr": "https://1234s.org/tr"
+        }
+    },
     icons: {
       icon: "https://1234s.org/icon.png",
       apple: "https://1234s.org/apple-icon.png"
