@@ -33,13 +33,14 @@ export const generateMetadata = async ({
    *  // }
    * ```
    */
-  const multilingualUrls = getMultilingualUrls("https://1234s.org/");
+  const url = "https://1234s.org/"
+  const multilingualUrls = getMultilingualUrls(url);
 
   return {
     ...metadata,
     alternates: {
       canonical: multilingualUrls[locale as keyof typeof multilingualUrls],
-      languages: { ...multilingualUrls, "x-default": "/" },
+      languages: { ...multilingualUrls, "x-default": url },
     },
     openGraph: {
       url: multilingualUrls[locale],
