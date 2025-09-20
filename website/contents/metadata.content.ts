@@ -50,7 +50,8 @@ const metadataContent = {
     appleWebApp: {
       capable: true,
       title: "1234S.org"
-    }
+    },
+    pinterest: { richPin: true }
   },
 } satisfies Dictionary<Metadata>;
 
