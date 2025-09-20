@@ -243,9 +243,9 @@ const ContentSection = ({ sectionKey, id, bgImage }) => {
                           <IconComponent className="text-amber-600" size={24} />
                         </div>
                         <div className="flex-1">
-                          <h4 className="text-xl font-bold text-amber-700 mb-3">
+                          <h3 className="text-xl font-bold text-amber-700 mb-3">
                             {title}
-                          </h4>
+                          </h3>
                           <p className="text-gray-700 leading-relaxed">
                             {content}
                           </p>

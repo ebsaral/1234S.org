@@ -5,8 +5,8 @@ const pageContent = {
   content: {
     webpage: {
         title: t({
-            en: "1234s.org",
-            tr: "1234s.org"
+            en: "1234S.org",
+            tr: "1234S.org"
         }),
         link: "https://1234s.org"
     },

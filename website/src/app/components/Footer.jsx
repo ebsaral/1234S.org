@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className='flex justify-center caret-transparent'>
-            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src="/logos/logo-bg-white.png" alt={navigation.home.text.value + " footer logo"}/>
+            <img className='m-10 size-[120px] sm:size-[160px] rounded-full' src="/logos/logo-bg-white.png" title={navigation.home.text.value} alt={navigation.home.text.value + " footer logo"}/>
           </div>
           
           {/* Decorative Icons */}
@@ -115,20 +115,21 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-emerald-600/20 transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
                   aria-label={social.label}
+                  title={social.label}
                 >
                   <social.icon className="text-white hover:text-emerald-400 transition-colors duration-300" size={20} />
                 </a>
               ))}
             </div>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base hover:font-semibold h-10">
-              <a className='underline hover:no-underline' href={content.links.developer.value} target='_blank'>{content.developer}</a>
+              <a className='underline hover:no-underline' href={content.links.developer.value} target='_blank' title={content.developer.value}>{content.developer}</a>
             </p>
             <p className="text-gray-400 mb-4 text-sm whitespace-pre-line">
               {content.title}{' '}{content.copyright.mark}{' '}{new Date().getFullYear()}<br></br>
               {content.description}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line my-2">
-              <b>{content.status.label}:</b> {content.status.text}<br></br><b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
+              <b>{content.status.label}:</b> {content.status.text}<br></br><b>{content.lastUpdate.label}:</b> <a className='underline hover:no-underline underline-offset-2' href={content.links.githubCommits.value} title="GitHub" target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString()}</a>
             </p>
           </div>
         </div>

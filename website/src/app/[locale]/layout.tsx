@@ -65,6 +65,9 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
   return (
     <html lang={locale} dir={getHTMLTextDir(locale)} className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <meta name="robots" content="all" />
+      </head>
       <body>
         {children}
         <Analytics />
