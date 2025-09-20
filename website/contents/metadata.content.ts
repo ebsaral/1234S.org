@@ -36,6 +36,10 @@ const metadataContent = {
       apple: "https://1234s.org/apple-icon.png"
     },
     manifest: "https://1234s.org/manifest.webmanifest",
+    openGraph: {
+      type: "website",
+      images: [{ url: "https://1234s.org/logos/logo-bg-white.png" }]
+    },
     twitter: {
       card: "summary_large_image",
       site: "@site",
