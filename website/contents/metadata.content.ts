@@ -36,23 +36,6 @@ const metadataContent = {
       apple: "https://1234s.org/apple-icon.png"
     },
     manifest: "https://1234s.org/manifest.webmanifest",
-    openGraph: {
-      type: "website",
-      url:  "https://1234s.org",
-      title: t({
-        en: "1234S.org | Logical Spirituality",
-        tr: "1234S.org | Mantıksal Maneviyat",
-      }),
-      description: t({
-        en: "Expanding Spirituality with Logic in Nature.",
-        tr: "Doğadaki Mantıkla Maneviyatı Derinleştirmek.",
-      }),
-      images: [
-        {
-          url: "https://1234s.org/logos/logo-bg-white.png"
-        }
-      ]
-    },
     twitter: {
       card: "summary_large_image",
       site: "@site",
