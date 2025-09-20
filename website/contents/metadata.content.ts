@@ -33,10 +33,10 @@ const metadataContent = {
     },
     alternates: {
       canonical: "https://1234s.org",
-        languages: {
-          "en": "https://1234s.org/en",
-          "tr": "https://1234s.org/tr"
-        }
+      languages: {
+        "en": "https://1234s.org/en",
+        "tr": "https://1234s.org/tr"
+      }
     },
     icons: {
       icon: "https://1234s.org/icon.png",
