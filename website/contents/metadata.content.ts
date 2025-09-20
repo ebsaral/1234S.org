@@ -38,13 +38,13 @@ const metadataContent = {
     manifest: "https://1234s.org/manifest.webmanifest",
     openGraph: {
       type: "website",
-      images: [{ url: "https://1234s.org/logos/logo-og.png" }]
+      images: [{ url: "http://1234s.org/logos/logo-og.png?v=1" }]
     },
     twitter: {
       card: "summary_large_image",
       site: "@site",
       creator: "@creator",
-      images:  "https://1234s.org/logos/logo-og.png"
+      images:  "http://1234s.org/logos/logo-og.png?v=1"
     },
     verification: {},
     appleWebApp: {
