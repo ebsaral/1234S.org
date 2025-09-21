@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
@@ -13,7 +12,6 @@ const Footer = () => {
   const content = useIntlayer("footer-section");
   
   const [sectionRef] = useIntersectionObserver();
-  const [activeSection, setActiveSection] = useState('home');
 
   const socialLinks = [
     { icon: Instagram, href: "https://www.instagram.com/logical.spirituality", label: "Instagram" },
@@ -24,44 +22,6 @@ const Footer = () => {
     { icon: Github, href: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
   ];
 
-  const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'interconnectedness', href: '#interconnectedness' },
-    { key: 'justiceInNature', href: '#justice-in-nature' },
-    { key: 'health', href: '#health' },
-    { key: 'examples', href: '#examples' },
-    { key: 'contact', href: '#contact', extra: "#social-links" }
-  ];
-
-  // Track active section
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = navItems.map(item => ({
-        id: item.href.substring(1),
-        element: document.querySelector(item.href)
-      })).filter(section => section.element);
-
-      const scrollPosition = window.scrollY + 100;
-
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = sections[i];
-        if (section.element.offsetTop <= scrollPosition) {
-          setActiveSection(section.id);
-          break;
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
-    
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const isActiveSection = (itemKey, href) => {
-    const sectionId = href.substring(1);
-    return activeSection === sectionId;
-  };
 
   return (
     <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-16">
@@ -78,28 +38,6 @@ const Footer = () => {
               width={160}
               height={160}
             />
-          </div>
-          
-          {/* Navigation Links */}
-          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 mb-8 text-sm text-gray-300 caret-transparent">
-            {navItems.map((item) => (
-              <button 
-                key={item.key}
-                aria-label={navigation[item.key].text.value}
-                onClick={() => document.querySelector(item.extra || item.href)?.scrollIntoView({ behavior: 'smooth' })}
-                className={`transition-all duration-300 relative ${
-                  isActiveSection(item.key, item.href)
-                    ? 'text-emerald-400 font-medium'
-                    : 'hover:text-emerald-400'
-                }`}
-              >
-                {navigation[item.key].text}
-                {/* Active indicator for footer */}
-                {isActiveSection(item.key, item.href) && (
-                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-emerald-400 rounded-full" />
-                )}
-              </button>
-            ))}
           </div>
           
           <div id="social-links" className="pt-8 border-t border-gray-700">
