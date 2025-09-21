@@ -29,7 +29,7 @@ const pageContent = {
         en: "Last content update",
         tr: "Son içerik güncelleme"
       }),
-      text: 1758467407596
+      text: 1758469608961
     },
     developer: t({
       en: "The Spirit Guide",

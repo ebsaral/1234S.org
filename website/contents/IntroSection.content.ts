@@ -12,12 +12,12 @@ const pageContent = {
       tr: "**Mantıksal Maneviyat**, doğanın *görünmeyen mantığını* ortaya çıkararak geleneksel maneviyat üzerine kuruludur. Bu gerçeklerin pratikte nasıl gözlemlenebileceğini iki yol gösterici ilke aracılığıyla açıklar: **Bütünlük** ve **Doğada Adalet**. Bu iki ilke arasındaki ilişki, **tüm canlıların sağlığı** temel alınarak, *çok boyutlu* bir öğrenme döngüsü aracılığıyla incelenir."
     }),
     paragraph3: t({
-      en: "Viewed through *the lens of health*, equality and freedom are inseparable:\nEquality ensures all beings have the conditions to thrive. Freedom allows each being to act and develop naturally.",
-      tr: "*Sağlık merceğinden* bakıldığında, eşitlik ve özgürlük ayrılmazdır:\nEşitlik, tüm canlıların yeşermeleri için gerekli koşullara sahip olmalarını sağlar. Özgürlük ise her canlının doğal olarak hareket edebilmesine ve gelişebilmesine olanak tanır."
+      en: "*Viewed through the lens of health*, equality and freedom are inseparable: Without equality, freedom can harm health; without freedom, equality stagnates.",
+      tr: "*Sağlık merceğinden bakıldığında*, eşitlik ve özgürlük ayrılmazdır: Eşitlik olmadan özgürlük sağlığa zarar verebilir; özgürlük olmadan ise eşitlik durağanlaşır."
     }),
     paragraph4: t({
-      en: "Without equality, freedom can harm health; without freedom, equality stagnates.",
-      tr: "Eşitlik olmadan özgürlük sağlığa zarar verebilir; özgürlük olmadan ise eşitlik durağanlaşır."
+      en: "Equality ensures all beings have the conditions to thrive. Freedom allows each being to act and develop naturally.",
+      tr: "Eşitlik, tüm canlıların yeşermeleri için gerekli koşullara sahip olmalarını sağlar. Özgürlük ise her canlının doğal olarak hareket edebilmesine ve gelişebilmesine olanak tanır."
     }),
   },
 } satisfies Dictionary;
