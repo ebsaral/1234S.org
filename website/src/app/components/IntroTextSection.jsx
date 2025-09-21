@@ -4,6 +4,8 @@ import React from 'react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { useIntlayer } from 'next-intlayer';
 
+import { Heart, Globe, Scale } from 'lucide-react';
+
 const IntroTextSection = ({id}) => {
   const content = useIntlayer("intro-section");
   const [sectionRef, isSectionVisible] = useIntersectionObserver();
@@ -18,7 +20,19 @@ const IntroTextSection = ({id}) => {
         <div>
           {/* Main Content */}
           <div className="mb-16">
-            {/* Left Column */}
+            
+            {/* Decorative Icons */}
+            <div className="flex justify-center items-center gap-8 mb-8">
+              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 text-blue-600 transition-all duration-300 hover:scale-105`}>
+                <Globe size={40} />
+              </div>
+              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 text-green-600 transition-all duration-300 hover:scale-105`}>
+                <Scale size={40} />
+              </div>
+              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 text-rose-600 transition-all duration-300 hover:scale-105`}>
+                <Heart size={40} />
+              </div>
+            </div>
             <div className="lg:col-span-2 space-y-8 text-justify">
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-90 leading-relaxed text-lg mb-6">
@@ -28,7 +42,15 @@ const IntroTextSection = ({id}) => {
                 </p>
                 
                 <p className="text-gray-900 leading-relaxed text-lg mb-6">
-                  {content.paragraph2}
+                  {content.paragraph2.value.split('**').map((part, index) => 
+                    index % 2 === 1 ? <strong key={index} className="text-emerald-900">{part}</strong> : part
+                  ).map((part, index) => 
+                    typeof part === 'string' && part.includes('*') 
+                      ? part.split('*').map((subpart, subindex) => 
+                          subindex % 2 === 1 ? <em key={`${index}-${subindex}`} className="text-gray-900 font-medium">{subpart}</em> : subpart
+                        )
+                      : part
+                  )}
                 </p>
                 
                 <p className="text-gray-900 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line transition-all duration-300 hover:scale-105">

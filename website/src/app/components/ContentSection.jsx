@@ -112,7 +112,7 @@ const ContentSection = ({ sectionKey, id }) => {
 
   // Icon mappings for health examples
   const getHealthExampleIcon = (index) => {
-    const IconComponent = [HeartOff, EyeOff, EarOff, CircleX];
+    const IconComponent = [EyeOff, EarOff, HeartOff, CircleX];
     return IconComponent[index];
   }
 
@@ -169,17 +169,12 @@ const ContentSection = ({ sectionKey, id }) => {
               {/* Organ-Action-Consequence Analogy Box */}
               <Card className="bg-gradient-to-br from-rose-50 to-pink-100 border-0 shadow-xl">
                 <CardContent className="p-8">
-                  
-                  <h3 className="text-2xl font-bold text-rose-900 mb-6 flex items-center gap-3">
-                    <Stethoscope className="text-rose-500" size={28} />
-                    {content.analogy.title}
-                  </h3>
                   <div className="grid lg:grid-cols-2 lg:gap-10 gap-2">
                     <div>
-                      <p className="text-rose-800 leading-relaxed mb-6">
-                        {content.analogy.description}  
-                      </p>
-                      
+                      <h3 className="text-2xl font-bold text-rose-900 mb-6 flex items-center gap-3">
+                        <Stethoscope className="text-rose-500" size={28} />
+                        {content.analogy.title}
+                      </h3>
                       <blockquote className="text-rose-800 italic bg-white/60 p-4 rounded-lg border-l-4 border-rose-400 mb-6">
                         {content.analogy.quote}  
                       </blockquote>
@@ -199,34 +194,34 @@ const ContentSection = ({ sectionKey, id }) => {
                       </li>
                     </ul>
                   </div>
+                  <div className="grid md:grid-cols-2 gap-6 pt-6">
+                    {content.examples.map((example, index) => {
+                      const IconComponent = getHealthExampleIcon(index);
+                      const content = example;
+                      
+                      return (
+                        <Card key={index} className="bg-white/60 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+                          <CardContent className="p-8">
+                            <div className="flex items-start gap-4 whitespace-pre-line">
+                              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0">
+                                <IconComponent className="text-white" size={24} />
+                              </div>
+                              <div className="flex-1">
+                                <p className="text-rose-900 leading-relaxed">
+                                  {content}
+                                </p>
+                              </div>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      );
+                    })}
+                  </div>
                 </CardContent>
+                             
               </Card>
 
               <Description text={content.paragraph1.value} />
-
-              <div className="grid md:grid-cols-2 gap-6">
-                {content.examples.map((example, index) => {
-                  const IconComponent = getHealthExampleIcon(index);
-                  const content = example;
-                  
-                  return (
-                    <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                      <CardContent className="p-8">
-                        <div className="flex items-start gap-4 whitespace-pre-line">
-                          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0">
-                            <IconComponent className="text-white" size={24} />
-                          </div>
-                          <div className="flex-1">
-                            <p className="text-gray-900 leading-relaxed">
-                              {content}
-                            </p>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  );
-                })}
-              </div>
             </div>
           )}
 
@@ -263,6 +258,44 @@ const ContentSection = ({ sectionKey, id }) => {
           {/* Section-Specific Content */}
           <div className="grid lg:grid-cols-1 gap-12 items-start">
             <div className="space-y-8">
+              {/* Nature's Justice - Equality and Freedom Cards */}
+              {sectionKey === 'justiceInNature' && (
+                <div className="grid md:grid-cols-2 gap-8 mb-4">
+                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
+                    <CardContent className="p-8">
+                      <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
+                        <LoaderPinwheel className="text-blue-600" size={28} />
+                        {content.equality.title}
+                      </h3>
+                      <p className="text-gray-800 text-xl leading-relaxed mb-4">
+                        {content.equality.subtitle}  
+                      </p>
+                        <Description text={content.equality.description.value} size='' />
+                    
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
+                    <CardContent className="p-8">
+                      <h3 className="text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3">
+                        <FerrisWheel className="text-purple-600" size={28} />
+                        {content.freedom.title}
+                      </h3>
+                      <p className="text-gray-800 text-xl leading-relaxed mb-4">
+                        {content.freedom.subtitle}  
+                      </p>
+                        <Description text={content.freedom.description.value} size='' />
+                    </CardContent>
+                  </Card>
+                </div>
+              )}
+
+              {sectionKey === 'justiceInNature' && (
+                <div className='py-8'>
+                  <Description text={content.paragraph1.value} />
+                </div>
+              )}
+
               {/* Nature's Justice - Positive and Negative Cards */}
               {sectionKey === 'justiceInNature' && (
                 <div className="space-y-6">
@@ -330,43 +363,8 @@ const ContentSection = ({ sectionKey, id }) => {
                 </div>
               )}
 
-              {/* Nature's Justice - Equality and Freedom Cards */}
-              {sectionKey === 'justiceInNature' && (
-                <div className="grid md:grid-cols-2 gap-8 mb-24">
-                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
-                    <CardContent className="p-8">
-                      <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
-                        <LoaderPinwheel className="text-blue-600" size={28} />
-                        {content.equality.title}
-                      </h3>
-                      <p className="text-gray-800 leading-relaxed">
-                        {content.equality.description}  
-                      </p>
-                    </CardContent>
-                  </Card>
-                  
-                  <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0 transition-all duration-300 hover:scale-105">
-                    <CardContent className="p-8">
-                      <h3 className="text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3">
-                        <FerrisWheel className="text-purple-600" size={28} />
-                        {content.freedom.title}
-                      </h3>
-                      <p className="text-gray-800 leading-relaxed">
-                        {content.freedom.description}
-                      </p>
-                    </CardContent>
-                  </Card>
-                </div>
-              )}
-
-              {sectionKey === 'justiceInNature' && (
-                <div className='py-8'>
-                  <Description text={content.paragraph1.value} />
-                </div>
-              )}
-
               {/* Key Takeaway */}
-              {["justiceInNature"].includes(sectionKey) &&
+              {[""].includes(sectionKey) &&
                 <Card className="bg-gradient-to-br from-emerald-50 to-teal-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <Target className="text-emerald-600 mx-auto mb-4" size={32} />

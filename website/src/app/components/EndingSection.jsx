@@ -24,7 +24,7 @@ const EndingSection = ({id}) => {
             <CardContent className="p-12">
               <Lightbulb className="text-yellow-400 mx-auto mb-6" size={48} />
               <blockquote className="text-xl sm:text-2xl font-light leading-relaxed italic">
-                "{content.statement}"
+                {content.statement}
               </blockquote>
             </CardContent>
           </Card>

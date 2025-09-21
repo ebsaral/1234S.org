@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
-import { Heart, Globe, Scale, Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
+import { Twitter, Youtube, Linkedin, Github, Instagram } from 'lucide-react';
 import MediumSVG from './svg/Medium'; 
 import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image'
@@ -78,19 +78,6 @@ const Footer = () => {
               width={160}
               height={160}
             />
-          </div>
-          
-          {/* Decorative Icons */}
-          <div className="flex justify-center items-center gap-8 mb-8">
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
-              <Globe className="text-blue-600" size={24} />
-            </div>
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
-              <Scale className="text-green-600" size={24} />
-            </div>
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-all duration-300 transform hover:scale-110">
-              <Heart className="text-rose-600" size={24} />
-            </div>
           </div>
           
           {/* Navigation Links */}
