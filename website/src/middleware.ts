@@ -1,31 +1,55 @@
-import { NextRequest } from 'next/server'
+import { NextRequest, NextResponse  } from 'next/server'
 
 import { intlayerMiddleware } from "next-intlayer/middleware";
+
 import {
-  chainMatch,
-  isPageRequest,
   chain,
-  chainableMiddleware,
-  csp,
-  strictDynamic
+  ChainableMiddleware
 } from "@next-safe/middleware";
 
-const securityMiddleware = [
-  csp({
-      // CSP base configuration with IntelliSense
-      // single quotes for values like 'self' are automatic
-      directives: {
-        "style-src": ["self", "https://fonts.googleapis.com"],
-        "font-src": ["self", "https://fonts.gstatic.com"],
-        "frame-ancestors": ["self"],
-      },
-  }),
-  strictDynamic()
-]
+export function securityMiddleware(request: NextRequest) {
+  const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
+  const cspHeader = `
+    default-src 'self';
+    script-src 'self' 'nonce-${nonce}' 'strict-dynamic';
+    style-src 'self' 'nonce-${nonce}' https://fonts.googleapis.com;
+    img-src 'self' blob: data:;
+    font-src 'self' https://fonts.gstatic.com;
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+    frame-ancestors 'self';
+    upgrade-insecure-requests;
+`
+  // Replace newline characters and spaces
+  const contentSecurityPolicyHeaderValue = cspHeader
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+ 
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-nonce', nonce)
+ 
+  requestHeaders.set(
+    'Content-Security-Policy',
+    contentSecurityPolicyHeaderValue
+  )
+ 
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  })
+  response.headers.set(
+    'Content-Security-Policy',
+    contentSecurityPolicyHeaderValue
+  )
+ 
+  return response
+}
 
 export const middleware = chain(
-  chainableMiddleware((request: NextRequest) => intlayerMiddleware(request)),
-  chainMatch(isPageRequest)(...securityMiddleware)
+  intlayerMiddleware as unknown as ChainableMiddleware,
+  securityMiddleware
 );
 
 export const config = {
