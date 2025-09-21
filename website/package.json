@@ -10,6 +10,7 @@
     "editor": "cross-env NODE_ENV=development yarn intlayer-editor start -e development"
   },
   "dependencies": {
+    "@next-safe/middleware": "^0.10.0",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "class-variance-authority": "^0.7.1",
