@@ -4,7 +4,7 @@
 > This project is currently being developed to be released soon. [View Progress](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen)
 
 
-**Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic in nature**. It demonstrates how these truths unfold in practice through two guiding principles: **Interconnectedness** and **Justice in Nature**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.
+**Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic of nature**. It demonstrates how these truths are observable in practice through two guiding principles: **Interconnectedness** and **Justice in Nature**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.
 
 
 ## Core areas you can master through this project
