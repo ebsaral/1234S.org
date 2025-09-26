@@ -23,9 +23,9 @@ const pageContent = {
         de: "Status"
       }),
       text: t({
-        en: "Beta version.",
-        tr: "Beta sürümü.",
-        de: "Beta-Version."
+        en: "Beta version. Seeking supporters for this project.",
+        tr: "Beta sürümü. Bu proje için destekçiler aranıyor.",
+        de: "Beta-Version. Suche Unterstützer für dieses Projekt."
       }),
     },
     lastUpdate: {
