@@ -6,53 +6,62 @@ const pageContent = {
     webpage: {
         title: t({
             en: "1234S.org",
-            tr: "1234S.org"
+            tr: "1234S.org",
+            de: "1234S.org"
         }),
         link: "https://1234s.org"
     },
     home: {
         text: t({
             en: "Logical Spirituality",
-            tr: "Mantıksal Maneviyat"
+            tr: "Mantıksal Maneviyat",
+            de: "Logische Spiritualität"
         }),
     },
     interconnectedness: { 
         text: t({
             en: "Interconnectedness",
-            tr: "Bütünlük"
+            tr: "Bütünlük",
+            de: "Verbundenheit"
         }),
     },
     justiceInNature: { 
         text: t({
             en: "Justice",
-            tr: "Adalet"
+            tr: "Adalet",
+            de: "Gerechtigkeit"
         }),
     },
     health: { 
         text: t({
             en: "Health",
-            tr: "Sağlık"
+            tr: "Sağlık",
+            de: "Gesundheit"
         }),
     },
     examples: { 
         text: t({
             en: "Examples",
-            tr: "Örnekler"
+            tr: "Örnekler",
+            de: "Beispiele"
         }),
     },
     contact: {
         text: t({
             en: "Contact",
-            tr: "İletişim"
+            tr: "İletişim",
+            de: "Kontakt"
         }),
     },
     language: t({
       en: "Language",
-      tr: "Dil"
+      tr: "Dil",
+      de: "Sprache"
     }),
     flags: {
         [Locales.ENGLISH]: '🇺🇸',
-        [Locales.TURKISH]: '🇹🇷'
+        [Locales.TURKISH]: '🇹🇷',
+        [Locales.GERMAN]: '🇩🇪'
     }
   },
 } satisfies Dictionary;

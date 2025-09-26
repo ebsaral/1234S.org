@@ -7,10 +7,12 @@ const metadataContent = {
     title: t({
       en: "1234S.org | Logical Spirituality",
       tr: "1234S.org | Mantıksal Maneviyat",
+      de: "1234S.org | Logische Spiritualität",
     }),
     description: t({
       en: "Expanding Spirituality with Nature's Logic: Interconnectedness, Justice, Health.",
       tr: "Doğanın Mantığıyla Maneviyatı Derinleştirmek: Bütünlük, Adalet, Sağlık.",
+      de: "Die Spiritualität mit der Logik der Natur erweitern: Verbundenheit, Gerechtigkeit, Gesundheit.",
     }),
     applicationName: "1234S.org",
     authors: [
@@ -22,7 +24,8 @@ const metadataContent = {
     generator: "Next.js",
     keywords: t({
       en: "spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature",
-      tr: "maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa"
+      tr: "maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa",
+      de: "spiritualität, logik, philosophie, logisch, verbundenheit, ganzheit, gesundheit, einheit, gerechtigkeit, natur",
     }),
     referrer: "origin",
     creator: "1234S.org",
