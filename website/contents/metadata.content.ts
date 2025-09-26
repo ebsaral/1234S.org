@@ -9,8 +9,8 @@ const metadataContent = {
       tr: "1234S.org | Mantıksal Maneviyat",
     }),
     description: t({
-      en: "Expanding Spirituality with Logic in Nature: Interconnectedness, Justice, Health.",
-      tr: "Doğadaki Mantıkla Maneviyatı Derinleştirmek: Bütünlük, Adalet, Sağlık.",
+      en: "Expanding Spirituality with Nature's Logic: Interconnectedness, Justice, Health.",
+      tr: "Doğanın Mantığıyla Maneviyatı Derinleştirmek: Bütünlük, Adalet, Sağlık.",
     }),
     applicationName: "1234S.org",
     authors: [

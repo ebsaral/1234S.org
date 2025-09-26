@@ -9,8 +9,8 @@ const pageContent = {
       tr: "Mantıksal Maneviyat"
     }),
     subtitle: t({
-      en: "Expanding Spirituality with Logic in Nature",
-      tr: "Doğadaki Mantıkla Maneviyatı Derinleştirmek"
+      en: "Expanding Spirituality with Nature's Logic",
+      tr: "Doğanın Mantığıyla Maneviyatı Derinleştirmek"
     }),
     description: t({
       en: "What if the universe is not random at all? What if every illness, every stroke of luck, every success and failure, even every disaster, follows a deeper pattern?",
