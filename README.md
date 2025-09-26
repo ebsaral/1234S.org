@@ -1,9 +1,5 @@
 # Logical Spirituality
 
-> [!NOTE]
-> This project is currently being developed to be released soon. [View Progress](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen)
-
-
 **Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic of nature**. It demonstrates how these truths are observable in practice through two guiding principles: **Interconnectedness** and **Justice in Nature**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.
 
 
@@ -30,3 +26,7 @@
 ## Credits
 
 This *open source* philosophical movement project is initiated and led by [Emin Buğra Saral](https://0.1234s.org).
+
+## Notes
+
+You can view the project's progress [here](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen).

@@ -20,8 +20,8 @@ const pageContent = {
         tr: "Durum"
       }),
       text: t({
-        en: "In development; alpha version.",
-        tr: "Geliştirilme aşamasında; alpha sürümü."
+        en: "Beta version.",
+        tr: "Beta sürümü."
       }),
     },
     lastUpdate: {
