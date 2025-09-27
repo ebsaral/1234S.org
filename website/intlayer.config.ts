@@ -39,7 +39,18 @@ const config: IntlayerConfig = {
      * Default as `true`. If `false`, the editor is inactive and cannot be accessed.
      * Can be used to disable the editor for specific environments for security reason, such as production.
      */
-    enabled: Boolean(process.env.INTLAYER_ENABLED || "true")
+    enabled: Boolean(process.env.INTLAYER_ENABLED || "true"),
+    /**
+     * Required
+     *
+     * Client ID and client secret are required to enable the editor.
+     * They allow the identify the user who is editing the content.
+     * They can be obtained by creating a new client in the Intlayer Dashboard - Projects (https://intlayer.org/dashboard/projects).
+     * clientId: process.env.INTLAYER_CLIENT_ID,
+     * clientSecret: process.env.INTLAYER_CLIENT_SECRET,
+     */
+    clientId: process.env.INTLAYER_CLIENT_ID,
+    clientSecret: process.env.INTLAYER_CLIENT_SECRET,
   },
   log: {
     mode: "verbose"
