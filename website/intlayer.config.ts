@@ -4,8 +4,9 @@ const config: IntlayerConfig = {
   internationalization: {
     locales: [
       Locales.ENGLISH,
-      Locales.GERMAN,
       Locales.TURKISH,
+      Locales.FRENCH,
+      Locales.GERMAN
     ],
     defaultLocale: Locales.ENGLISH
   },

@@ -7,7 +7,8 @@ const pageContent = {
         title: t({
             en: "1234S.org",
             tr: "1234S.org",
-            de: "1234S.org"
+            de: "1234S.org",
+            fr: "1234S.org"
         }),
         link: "https://1234s.org"
     },
@@ -15,53 +16,61 @@ const pageContent = {
         text: t({
             en: "Logical Spirituality",
             tr: "Mantıksal Maneviyat",
-            de: "Logische Spiritualität"
+            de: "Logische Spiritualität",
+            fr: "Spiritualité Logique"
         }),
     },
     interconnectedness: { 
         text: t({
             en: "Interconnectedness",
             tr: "Bütünlük",
-            de: "Verbundenheit"
+            de: "Verbundenheit",
+            fr: "Interconnexion"
         }),
     },
     justiceInNature: { 
         text: t({
             en: "Justice",
             tr: "Adalet",
-            de: "Gerechtigkeit"
+            de: "Gerechtigkeit",
+            fr: "Justice"
         }),
     },
     health: { 
         text: t({
             en: "Health",
             tr: "Sağlık",
-            de: "Gesundheit"
+            de: "Gesundheit",
+            fr: "Santé"
         }),
     },
     examples: { 
         text: t({
             en: "Examples",
             tr: "Örnekler",
-            de: "Beispiele"
+            de: "Beispiele",
+            fr: "Exemples"
         }),
     },
     contact: {
         text: t({
             en: "Contact",
             tr: "İletişim",
-            de: "Kontakt"
+            de: "Kontakt",
+            fr: "Contact"
         }),
     },
     language: t({
       en: "Language",
       tr: "Dil",
-      de: "Sprache"
+      de: "Sprache",
+      fr: "Langue"
     }),
     flags: {
         [Locales.ENGLISH]: '🇺🇸',
         [Locales.TURKISH]: '🇹🇷',
-        [Locales.GERMAN]: '🇩🇪'
+        [Locales.GERMAN]: '🇩🇪',
+        [Locales.FRENCH]: '🇫🇷'
     }
   },
 } satisfies Dictionary;

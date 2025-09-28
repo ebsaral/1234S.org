@@ -6,12 +6,14 @@ const pageContent = {
     title: t({
       en: "Logical Spirituality",
       tr: "Mantıksal Maneviyat",
-      de: "Logische Spiritualität"
+      de: "Logische Spiritualität",
+      fr: "Spiritualité Logique"
     }),
     description: t({
       en: "A philosophical movement project",
       tr: "Bir felsefi akım projesi",
-      de: "Ein philosophisches Bewegungsprojekt"
+      de: "Ein philosophisches Bewegungsprojekt",
+      fr: "Un projet de mouvement philosophique"
     }),
     copyright: {
       mark: "©"
@@ -20,26 +22,30 @@ const pageContent = {
       label: t({
         en: "Status",
         tr: "Durum",
-        de: "Status"
+        de: "Status",
+        fr: "Statut"
       }),
       text: t({
         en: "Beta version. Seeking supporters for this project.",
         tr: "Beta sürümü. Bu proje için destekçiler aranıyor.",
-        de: "Beta-Version. Suche Unterstützer für dieses Projekt."
+        de: "Beta-Version. Suche Unterstützer für dieses Projekt.",
+        fr: "Version bêta. Recherche de soutiens pour ce projet."
       }),
     },
     lastUpdate: {
       label: t({
         en: "Last content update",
         tr: "Son içerik güncelleme",
-        de: "Letzte Inhaltsaktualisierung"
+        de: "Letzte Inhaltsaktualisierung",
+        fr: "Dernière mise à jour du contenu"
       }),
-      text: 1759076994338
+      text: 1759078140756
     },
     developer: t({
       en: "The Spirit Guide",
       tr: "Maneviyat Rehberi",
-      de: "Der Geistführer"
+      de: "Der Geistführer",
+      fr: "Le Guide Spirituel"
     }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
