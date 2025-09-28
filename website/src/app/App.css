@@ -230,3 +230,9 @@ button:focus-visible,
     scroll-behavior: auto !important;
   }
 }
+
+/* Header position */
+header {
+  position: fixed;
+  top: 0;
+}
