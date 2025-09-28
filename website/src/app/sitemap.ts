@@ -1,12 +1,14 @@
 import { getMultilingualUrls } from "intlayer";
 import type { MetadataRoute } from "next";
 
+const url = "https://www.1234s.org";
+
 const sitemap = (): MetadataRoute.Sitemap => [
   {
-    url: "https://1234s.org",
+    url,
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls("https://1234s.org") },
+      languages: { ...getMultilingualUrls(url) },
     },
     priority: 1,
     changeFrequency: "hourly"
