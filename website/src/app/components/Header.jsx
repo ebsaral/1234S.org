@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { useRouter } from "next/navigation";
 import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
-import { getLocalizedUrl, getLocaleName } from "intlayer";
+import { getLocaleName, getLocalizedUrl } from "intlayer";
 import Image from 'next/image'
+import Link from "next/link";
 
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
@@ -16,17 +16,9 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
 
-
 const Header = () => {
-  const router = useRouter();
+  const { locale, pathWithoutLocale, availableLocales } = useLocale();
   const { setLocaleCookie } = useLocaleCookie();
-  const { locale, availableLocales, setLocale } = useLocale({
-    onLocaleChange: (locale) => {
-      setLocaleCookie(locale);
-      router.push(getLocalizedUrl("/", locale));
-    },
-  });
-
   const content = useIntlayer("navigation");
 
   const { scrollY } = useScrollEffects();
@@ -84,7 +76,7 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+      className={`fixed top-0 w-full z-50 transition-all duration-100 ${
         isScrolled 
           ? 'bg-white/90 backdrop-blur-md shadow-lg border-b border-gray-200/20' 
           : 'bg-transparent'
@@ -171,20 +163,26 @@ const Header = () => {
                 {availableLocales.map((item, index) => (
                   <DropdownMenuItem
                     key={index}
-                    onClick={() => {
-                      setLocale(item)
-                    }}
                     className={`flex items-center gap-3 cursor-pointer px-4 py-2 transition-colors duration-200 ${
                       locale === item 
                         ? 'bg-emerald-50 text-emerald-700 font-medium' 
                         : 'hover:bg-gray-50 text-gray-700'
                     }`}
                   >
-                    <span className="text-lg">{content.flags[item]}</span>
-                    <span>{getLocaleName(item)}</span>
-                    {locale === item && (
-                      <div className="ml-auto w-2 h-2 bg-emerald-500 rounded-full"></div>
-                    )}
+                    <Link
+                      className='flex items-center gap-3 w-full'
+                      href={getLocalizedUrl(pathWithoutLocale, item)}
+                      hrefLang={item}
+                      key={item}
+                      aria-current={locale === item ? "page" : undefined}
+                      onClick={() => setLocaleCookie(item)}
+                    >
+                      <span className="text-lg">{content.flags[item]}</span>
+                      <span>{getLocaleName(item)}</span>
+                      {locale === item && (
+                        <div className="ml-auto w-2 h-2 bg-emerald-500 rounded-full"></div>
+                      )}
+                    </Link>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
