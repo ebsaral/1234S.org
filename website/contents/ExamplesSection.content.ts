@@ -4,8 +4,8 @@ const pageContent = {
   key: "examples-section",
   content: {
     title: t({
-      en: "Examples for Logical Spirituality",
-      tr: "Mantıksal Maneviyata Dair Örnekler",
+      en: "Examples of Logical Spirituality",
+      tr: "Mantıksal Maneviyata Yönelik Örnekler",
       de: "Beispiele für logische Spiritualität"
     }),
     description: t({
