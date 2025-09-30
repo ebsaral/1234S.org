@@ -61,7 +61,7 @@ const Footer = () => {
               <a className='underline hover:no-underline' href={content.links.developer.value} target='_blank' title={content.developer.value}>{content.developer}</a>
             </p>
             <p className="text-gray-400 mb-4 text-sm whitespace-pre-line">
-              {content.title}{' '}{content.copyright.mark}{' '}{new Date().getFullYear()}<br></br>
+              {content.title}<br></br>
               {content.description}
             </p>
             <p className="text-gray-400 text-xs whitespace-pre-line my-2">

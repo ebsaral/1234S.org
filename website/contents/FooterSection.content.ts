@@ -4,20 +4,17 @@ const pageContent = {
   key: "footer-section",
   content: {
     title: t({
-      en: "Logical Spirituality",
-      tr: "Mantıksal Maneviyat",
-      de: "Logische Spiritualität",
-      fr: "Spiritualité Logique"
+      en: "Logical Spirituality by 1234S.org:",
+      tr: "1234S.org aracılığıyla Mantıksal Maneviyat:",
+      de: "Logische Spiritualität von 1234S.org:",
+      fr: "Spiritualité Logique par 1234S.org:"
     }),
     description: t({
-      en: "A philosophical movement project",
-      tr: "Bir felsefi akım projesi",
-      de: "Ein philosophisches Bewegungsprojekt",
-      fr: "Un projet de mouvement philosophique"
+      en: "A philosophical movement project.",
+      tr: "Bir felsefi akım projesi.",
+      de: "Ein philosophisches Bewegungsprojekt.",
+      fr: "Un projet de mouvement philosophique."
     }),
-    copyright: {
-      mark: "©"
-    },
     status: {
       label: t({
         en: "Status",
