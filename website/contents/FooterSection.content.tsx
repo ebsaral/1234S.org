@@ -1,5 +1,11 @@
 import { t, type Dictionary } from "intlayer";
 
+const githubReleaseLink = "https://github.com/ebsaral/Logical-Spirituality/releases";
+
+const ReleaseLink = (text: string) => {
+  return <a className="underline hover:no-underline underline-offset-2" href={githubReleaseLink} target="_blank">{text}</a>;  
+}
+
 const pageContent = {
   key: "footer-section",
   content: {
@@ -23,10 +29,10 @@ const pageContent = {
         fr: "Statut"
       }),
       text: t({
-        en: "Beta version. Seeking supporters for this project.",
-        tr: "Beta sürümü. Bu proje için destekçiler aranıyor.",
-        de: "Beta-Version. Suche Unterstützer für dieses Projekt.",
-        fr: "Version bêta. Recherche de soutiens pour ce projet."
+        en: <>Seeking supporters for this project. [{ReleaseLink("Beta version")}]</>,
+        tr: <>Bu proje için destekçiler aranıyor. [{ReleaseLink("Beta sürümü")}]</>,
+        de: <>Suche Unterstützer für dieses Projekt. [{ReleaseLink("Beta-Version")}]</>,
+        fr: <>Recherche de soutiens pour ce projet. [{ReleaseLink("Version bêta")}]</>
       }),
     },
     lastUpdate: {
