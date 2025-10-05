@@ -42,7 +42,12 @@ const pageContent = {
         de: "Letzte Inhaltsaktualisierung",
         fr: "Dernière mise à jour du contenu"
       }),
-      text: 1759382332281
+      text: t({
+        en: 1759653351513,
+        tr: 1759653351513,
+        de: 1759653351513,
+        fr: 1759653351513
+      }),
     },
     developer: t({
       en: "The Spirit Guide",
