@@ -225,7 +225,7 @@ const ContentSection = ({ sectionKey, id }) => {
             </div>
           )}
 
-          {sectionKey === 'movement' && (
+          {sectionKey === 'movement' && content.items && (
             <div className="grid md:grid-cols-2 gap-6">
               {content.items.map((example, index) => {
                 const IconComponent = getCaseIcon(index);
