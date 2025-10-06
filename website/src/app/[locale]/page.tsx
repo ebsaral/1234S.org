@@ -42,8 +42,8 @@ const Page: NextPageIntlayer = async ({ params }) => {
             />
             
             <ContentSection 
-              sectionKey="examples"
-              id="examples"
+              sectionKey="movement"
+              id="movement"
             />
   
             <EndingSection

@@ -5,7 +5,7 @@ const pageContent = {
   content: {
     title: t({
       en: "Justice in Nature:\nThe Unseen Logic",
-      tr: "Doğadaki Adalet: Görülmeyen Mantık",
+      tr: "Adalet: Doğanın Görülmeyen Mantığı",
       de: "Gerechtigkeit in der Natur:\nDie unsichtbare Logik",
       fr: "Justice dans la nature :\nLa logique invisible"
     }),
@@ -55,7 +55,7 @@ const pageContent = {
     },
     paragraph1: t({
       en: "",
-      tr: "Tüm canlıların paylaştığı ortak zemin hislerden ibarettir. Yaratıcı, doğadaki adaleti (uyumu) sağlamak için hisler arasındaki bağlara müdahale eder; varlıkları denge için gerekli unsurlara dönüştürür. Eşitlik ve özgürlük ilkeleri için gerekli olan sağlık koşulları farklı şekillerde ortaya çıkar. Fiziksel sağlığın olumlu bir biçimde kullanılabilmesi için zihinsel sağlığın denge araçları olan şans ve yetenek faktörleri şekillenir.\n\nBaşlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin sessiz bir çığlığıdır.",
+      tr: "Tüm canlıların paylaştığı ortak zemin hislerden ibarettir. Yaratıcı, doğadaki adaleti (uyumu) sağlamak için hisler arasındaki bağlara müdahale eder; varlıkları denge için gerekli unsurlara dönüştürür. Eşitlik ve özgürlük ilkeleri için gerekli olan sağlık koşulları farklı şekillerde ortaya çıkar. Fiziksel sağlığın olumlu bir biçimde kullanılabilmesi için zihinsel sağlığın denge araçları olan şans ve yetenek faktörleri şekillenir.\n\nBaşlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin sessiz bir çığlığıdır. *Örnek olarak: Haberlerde bir ailenin ölümcül bir trafik kazasını anlattığını duyduğunuzda, aslında görünmeyen bir suçun sessiz itirafını da duyarsınız.*",
       de: "",
       fr: ""
     }),

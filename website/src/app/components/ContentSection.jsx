@@ -52,7 +52,7 @@ const ContentSection = ({ sectionKey, id }) => {
     if(sectionKey == "health") {
       return Heart;
     }
-    if(sectionKey == "examples") {
+    if(sectionKey == "movement") {
       return Lightbulb;
     }
   };
@@ -64,7 +64,7 @@ const ContentSection = ({ sectionKey, id }) => {
       case 'interconnectedness': return 'text-blue-600';
       case 'justiceInNature': return 'text-green-600';
       case 'health': return 'text-rose-600';
-      case 'examples': return 'text-amber-600';
+      case 'movement': return 'text-amber-600';
       default: return 'text-gray-600';
     }
   };
@@ -74,7 +74,7 @@ const ContentSection = ({ sectionKey, id }) => {
       case 'interconnectedness': return 'text-blue-50';
       case 'justiceInNature': return 'bg-green-50';
       case 'health': return 'bg-rose-50';
-      case 'examples': return 'bg-amber-50';
+      case 'movement': return 'bg-amber-50';
       default: return 'bg-gray-50';
     }
   };
@@ -84,7 +84,7 @@ const ContentSection = ({ sectionKey, id }) => {
       case 'interconnectedness': return 'from-blue-50 to-indigo-50';
       case 'justiceInNature': return 'from-green-50 to-emerald-50';
       case 'health': return 'from-rose-50 to-pink-50';
-      case 'examples': return 'from-amber-50 to-yellow-50';
+      case 'movement': return 'from-amber-50 to-yellow-50';
       default: return 'from-gray-50 to-slate-50';
     }
   };
@@ -225,7 +225,7 @@ const ContentSection = ({ sectionKey, id }) => {
             </div>
           )}
 
-          {sectionKey === 'examples' && (
+          {sectionKey === 'movement' && (
             <div className="grid md:grid-cols-2 gap-6">
               {content.items.map((example, index) => {
                 const IconComponent = getCaseIcon(index);

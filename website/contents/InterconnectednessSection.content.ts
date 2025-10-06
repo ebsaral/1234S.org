@@ -5,7 +5,7 @@ const pageContent = {
   content: {
     title: t({
       en: "Interconnectedness:\nA Unified Being",
-      tr: "Bütünlük: Birleşik Bir Varlık",
+      tr: "Bütünlük: Birleşik Bir Yaşam",
       de: "Verbundenheit:\nEin vereintes Wesen",
       fr: "Interconnexion :\nUn être unifié"
     }),
