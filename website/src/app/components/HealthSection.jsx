@@ -73,11 +73,11 @@ const HealthSection = () => {
                 return (
                   <Card key={index} className="bg-white/60 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
                     <CardContent className="p-8">
-                      <div className="flex items-start gap-4 whitespace-pre-line">
+                      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 whitespace-pre-line">
                         <div className="flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0">
                           <IconComponent className="text-white" size={24} />
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-1 text-center sm:text-left">
                           <p className="text-rose-900 leading-relaxed">
                             {content}
                           </p>
