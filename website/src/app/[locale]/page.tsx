@@ -4,9 +4,12 @@ import { IntlayerServerProvider } from "next-intlayer/server";
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
 import IntroTextSection from "@/app/components/IntroTextSection";
-import ContentSection from "@/app/components/ContentSection";
 import EndingSection from "@/app/components/EndingSection";
 import Footer from "@/app/components/Footer";
+import InterconnectednessSection from "../components/InterconnectednessSection";
+import JusticeSection from "../components/JusticeSection";
+import HealthSection from "../components/HealthSection";
+import MovementSection from "../components/MovementSection";
 
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
@@ -19,36 +22,13 @@ const Page: NextPageIntlayer = async ({ params }) => {
           
           <main>
             <HeroSection />
-            
             {/* <VideoSection /> */}
-            
-            <IntroTextSection
-              id="intro"
-            />
-            
-            <ContentSection 
-              sectionKey="interconnectedness"
-              id="interconnectedness"
-            />
-            
-            <ContentSection 
-              sectionKey="justiceInNature"
-              id="justice-in-nature"
-            />
-            
-            <ContentSection 
-              sectionKey="health"
-              id="health"
-            />
-            
-            <ContentSection 
-              sectionKey="movement"
-              id="movement"
-            />
-  
-            <EndingSection
-              id="ending"
-            />
+            <IntroTextSection id="intro" />
+            <InterconnectednessSection />
+            <JusticeSection />
+            <HealthSection />
+            <MovementSection />
+            <EndingSection id="ending" />
           </main>
           
           <Footer />
