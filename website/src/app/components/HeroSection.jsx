@@ -58,7 +58,7 @@ const HeroSection  = () => {
           
           {/* Subtitle with generous spacing */}
           <div className="mb-16 px-4 lg:px-12">
-            <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 font-light italic leading-relaxed mb-8 whitespace-pre-line">
+            <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 font-light italic leading-relaxed mb-8 whitespace-normal sm:whitespace-pre-line">
               {content.subtitle}
             </p>
             
