@@ -16,10 +16,10 @@ const pageContent = {
       fr: "Je pense que vous voudrez peut-être soutenir ce projet.",
     }),
     description: t({
-      en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we must improve the health conditions of the societies we live in.\n\nWhile you are reading this text right now, someone is suffering in a hospital, having an accident somewhere, or losing their life. **It is possible to live in an (educated) society where we never get sick or have accidents.**",
-      tr: "**Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduklarını **Mantıksal Maneviyat** aracılığıyla öğrenmiş olduk. Bu temel bilgileri detaylandırarak, içinde yaşadığımız toplumların sağlık koşullarını iyileştirmemiz gerekiyor.\n\nSiz şu an bu yazıyı okurken, birileri hastanede acı çekiyor, bir yerlerde kaza geçiriyor veya hayattan kopuyor. **Hiç hastalanmadığımız ve kaza geçirmediğimiz (eğitimli) bir toplumda yaşamamız mümkün.**",
-      de: "Durch die **Logische Spiritualität** haben wir gelernt, wie die Prinzipien von **Gleichheit und Freiheit** in der Natur existieren. Indem wir dieses grundlegende Wissen vertiefen, müssen wir die Gesundheitsbedingungen der Gesellschaften, in denen wir leben, verbessern.\n\nWährend Sie diesen Text lesen, leidet jemand im Krankenhaus, erleidet irgendwo einen Unfall oder verliert sein Leben. **Es ist möglich, in einer (gebildeten) Gesellschaft zu leben, in der wir niemals krank werden oder Unfälle haben.**",
-      fr: "Grâce à la **Spiritualité Logique**, nous avons appris comment les principes d’**Égalité et de Liberté** existent dans la nature. En approfondissant ces connaissances fondamentales, nous devons améliorer les conditions de santé des sociétés dans lesquelles nous vivons.\n\nPendant que vous lisez ce texte, quelqu’un souffre à l’hôpital, subit un accident quelque part ou perd la vie. **Il est possible de vivre dans une société (éduquée) où nous ne tombons jamais malades et ne subissons aucun accident.**"
+      en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we must improve the health conditions of the societies we live in.\n\nWhile you are reading this text right now, someone is suffering in a hospital, having an accident somewhere, or losing their life. *It is possible to live in an educated society where we never get sick or have accidents.*\n\n**You can read summaries of the steps to be taken under the general headings below:**",
+      tr: "**Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduklarını **Mantıksal Maneviyat** aracılığıyla öğrenmiş olduk. Bu temel bilgileri detaylandırarak, içinde yaşadığımız toplumların sağlık koşullarını iyileştirmemiz gerekiyor.\n\nSiz şu an bu yazıyı okurken, birileri hastanede acı çekiyor, bir yerlerde kaza geçiriyor veya hayattan kopuyor. *Hiç hastalanmadığımız ve kaza geçirmediğimiz (eğitimli) bir toplumda yaşamamız mümkün.*\n\n**Aşağıdaki genel başlıklar altında, atılması gereken adımların özetlerini okuyabilirsiniz:**",
+      de: "Durch die **Logische Spiritualität** haben wir gelernt, wie die Prinzipien von **Gleichheit und Freiheit** in der Natur existieren. Indem wir dieses grundlegende Wissen vertiefen, müssen wir die Gesundheitsbedingungen der Gesellschaften, in denen wir leben, verbessern.\n\nWährend Sie diesen Text lesen, leidet jemand im Krankenhaus, erleidet irgendwo einen Unfall oder verliert sein Leben. *Es ist möglich, in einer (gebildeten) Gesellschaft zu leben, in der wir niemals krank werden oder Unfälle haben.*\n\n**Zusammenfassungen der zu unternehmenden Schritte können Sie unter den folgenden allgemeinen Überschriften lesen:**",
+      fr: "Grâce à la **Spiritualité Logique**, nous avons appris comment les principes d’**Égalité et de Liberté** existent dans la nature. En approfondissant ces connaissances fondamentales, nous devons améliorer les conditions de santé des sociétés dans lesquelles nous vivons.\n\nPendant que vous lisez ce texte, quelqu’un souffre à l’hôpital, subit un accident quelque part ou perd la vie. *Il est possible de vivre dans une société (éduquée) où nous ne tombons jamais malades et ne subissons aucun accident.*\n\n**Vous pouvez lire les résumés des étapes à suivre sous les rubriques générales ci-dessous :**"
     }),
     items: [
       {
@@ -88,12 +88,18 @@ const pageContent = {
         }),
       items: [
         t({
+          en: "I continue to develop the contents of this project.",
+          tr: "Bu projenin içeriklerini geliştirmeye devam ediyorum.",
+          de: "Ich entwickle die Inhalte dieses Projekts weiter.",
+          fr: "Je continue à développer le contenu de ce projet."
+        }),
+        t({
           en: "I am looking for a team or organization with which I can work together on the principles of nature.",
           tr: "Doğanın ilkelerine yönelik birlikte çalışmalar yapabileceğim bir ekip veya organizasyon arıyorum.",
           de: "Ich suche ein Team oder eine Organisation, mit der ich gemeinsam nach den Prinzipien der Natur arbeiten kann.",
           fr: "Je recherche une équipe ou une organisation avec laquelle je peux travailler ensemble sur les principes de la nature."
         })
-      ]
+      ],
     },
     contact: {
       title: t({
@@ -102,12 +108,6 @@ const pageContent = {
         de: "Projektleiter",
         fr: "Chef de projet"
       }),
-      description: t({
-        en: "The Spirit Guide | Computer Engineer",
-        tr: "Maneviyat Rehberi | Bilgisayar Mühendisi",
-        de: "Der Geistführer | Computeringenieur",
-        fr: "Le guide spirituel | Ingénieur informatique"
-      }),
       leader: {
         text: "Emin Buğra Saral",
         href: t({
@@ -115,8 +115,34 @@ const pageContent = {
           tr: "https://0.1234s.org/tr",
           de: "https://0.1234s.org/en",
           fr: "https://0.1234s.org/en"
+        }),
+        description: t({
+          en: "Spirit Guide and Computer Engineer",
+          tr: "Maneviyat Rehberi ve Bilgisayar Mühendisi",
+          de: "Geistführer und Computeringenieur",
+          fr: "Guide spirituel et ingénieur informatique"
         })
-      }
+      },
+      resume: {
+        text: t({
+          en: "(Résumé)",
+          tr: "(Öz Geçmiş)",
+          de: "(Lebenslauf)",
+          fr: "(Résumé)"
+        }),
+        href: t({
+          en: "https://0.1234s.org/files/cv/politics.pdf",
+          tr: "https://0.1234s.org/files/cv/politika.pdf",
+          de: "https://0.1234s.org/files/cv/politics.pdf",
+          fr: "https://0.1234s.org/files/cv/politics.pdf"
+        })
+      },
+      note: t({
+        en: "If you would like to assist me in any way, you can use the contact options below.",
+        tr: "Herhangi bir şekilde bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
+        de: "Wenn Sie mir in irgendeiner Weise helfen möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen.",
+        fr: "Si vous souhaitez m'aider de quelque manière que ce soit, vous pouvez utiliser les options de contact ci-dessous."
+      })
     },
   },
 } satisfies Dictionary;

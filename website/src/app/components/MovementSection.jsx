@@ -41,11 +41,11 @@ const MovementSection = () => {
             return (
               <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl">
                 <CardContent className="p-8">
-                  <div className="flex items-start gap-4 whitespace-pre-line">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 flex-shrink-0">
+                  <div className="grid grid-cols-6 gap-4 whitespace-pre-line relative sm:static">
+                    <div className="sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 opacity-35 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-amber-100 absolute top-[-50px] left-[-60px] overflow-clip sm:static">
                       <IconComponent className="text-amber-600" size={24} />
                     </div>
-                    <div className="flex-1">
+                    <div className='col-span-5'>
                       <h3 className="text-xl font-bold text-amber-900 mb-3">
                         {title}
                       </h3>
@@ -63,22 +63,29 @@ const MovementSection = () => {
       <div className='grid md:grid-cols-2 gap-6 mt-8'>
         <Card>
           <CardContent className="p-8 text-center">
-              <h3>{content.status.title}</h3>
-              <br />
-              <ul>
+              <h3 className='mb-2 text-xl font-bold'>{content.status.title}</h3>
+              <ul className='list-disc px-2 text-left'>
                 {content.status.items.map((item, i) => <li key={i}>{item}</li>)}
               </ul>
           </CardContent>
         </Card>
         <Card>
           <CardContent className="p-8 text-center">
-            <h3>{content.contact.title}</h3>
-            <br />
-            <p><Link className='underline hover:no-underline' href={content.contact.leader.href.value}>{content.contact.leader.text}</Link></p>
-            <p><i>{content.contact.description}</i></p>
+            <h3 className='mb-2 text-xl font-bold'>{content.contact.title}</h3>
+            <div className='flex flex-col'>
+              <div className='flex flex-col gap-2 text-xl'>
+                <div className='flex flex-col text-center items-center gap-2'>
+                  <Link className='underline underline-offset-2 hover:no-underline' href={content.contact.leader.href.value}>{content.contact.leader.text}</Link>
+                  <div className='text-sm text-gray-800'>{content.contact.leader.description}</div>
+                </div>
+              
+                <Link className='text-sm underline underline-offset-2 hover:no-underline' href={content.contact.resume.href.value}>{content.contact.resume.text}</Link>
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>
+      <p className='text-center text-sm text-gray-800 mt-6'>{content.contact.note}</p>
     </ContentLayout>
   );
 };
