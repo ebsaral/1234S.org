@@ -9,8 +9,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				"Inter": "var(--font-inter)",
-				"PlayfairDisplay": "var(--font-playfair)",
+				"Noto Sans": "var(--font-noto)",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

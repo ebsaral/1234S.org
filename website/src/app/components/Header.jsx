@@ -103,7 +103,7 @@ const Header = () => {
               width={30}
               height={30}
             />
-            <p className='grow font-Inter font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
+            <p className='font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
           </div>
 
           {/* Desktop Navigation */}

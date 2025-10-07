@@ -33,7 +33,7 @@ const IntroTextSection = ({id}) => {
                 <Heart size={40} />
               </div>
             </div>
-            <div className="lg:col-span-2 space-y-8 text-justify">
+            <div className="lg:col-span-2 space-y-8">
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-90 leading-relaxed text-lg mb-6">
                   {content.paragraph1.value.split('**').map((part, index) => 

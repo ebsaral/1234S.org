@@ -5,7 +5,7 @@ import { LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } fro
 import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
 
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 import "../globals.css";
 import "../App.css";
 
@@ -51,24 +51,17 @@ export const generateMetadata = async ({
   };
 };
 
-const inter = Inter({ 
+const noto_sans = Noto_Sans({ 
   weight: ["300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
-  variable: "--font-inter"
+  variable: "--font-noto"
 });
-
-const playfair = Playfair_Display({ 
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  variable: "--font-playfair"
-})
 
 const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
   return (
-    <html lang={locale} dir={getHTMLTextDir(locale)} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={locale} dir={getHTMLTextDir(locale)} className={`${noto_sans.variable}`}>
       <head>
         <meta name="robots" content="all" />
       </head>
