@@ -11,10 +11,10 @@ const metadataContent = {
       fr: "1234S.org | Spiritualité Logique"
     }),
     description: t({
-      en: "Expanding Spirituality with Nature's Logic: Interconnectedness, Justice, Health.",
-      tr: "Doğanın Mantığıyla Maneviyatı Derinleştirmek: Bütünlük, Adalet, Sağlık.",
-      de: "Die Spiritualität mit der Logik der Natur erweitern: Verbundenheit, Gerechtigkeit, Gesundheit.",
-      fr: "Élargir la spiritualité avec la logique de la nature : Interconnexion, Justice, Santé."
+      en: "A Comprehensive View of Spirituality Together with the Logic of Nature: Interconnectedness, Justice, Health.",
+      tr: "Doğanın Mantığıyla Birlikte Maneviyata Kapsamlı Bir Bakış: Bütünlük, Adalet, Sağlık.",
+      de: "Ein umfassender Blick auf Spiritualität zusammen mit der Logik der Natur: Verbundenheit, Gerechtigkeit, Gesundheit.",
+      fr: "Une vue d'ensemble de la spiritualité avec la logique de la nature: Interconnexion, Justice, Santé."
     }),
     applicationName: "1234S.org",
     authors: [

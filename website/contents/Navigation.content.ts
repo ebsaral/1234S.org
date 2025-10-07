@@ -44,12 +44,12 @@ const pageContent = {
             fr: "Santé"
         }),
     },
-    examples: { 
+    movement: { 
         text: t({
-            en: "Examples",
-            tr: "Örnekler",
-            de: "Beispiele",
-            fr: "Exemples"
+            en: "Project",
+            tr: "Proje",
+            de: "Projekt",
+            fr: "Projet"
         }),
     },
     contact: {

@@ -52,24 +52,6 @@ const IntroTextSection = ({id}) => {
                       : part
                   )}
                 </p>
-                
-                <p className="text-gray-900 leading-relaxed text-lg italic mb-6 bg-blue-50 p-6 rounded-lg border-l-4 border-blue-400 whitespace-pre-line transition-all duration-300 hover:scale-105">
-                  {content.paragraph3.value.split('*').map((part, index) => 
-                    index % 2 === 1 ? <em key={index} className="text-blue-900 font-medium">{part}</em> : part
-                  )}
-                </p>
-                
-                <p className="text-gray-900 leading-relaxed text-lg">
-                  {content.paragraph4.value.split('**').map((part, index) => 
-                    index % 2 === 1 ? <strong key={index} className="text-emerald-900">{part}</strong> : part
-                  ).map((part, index) => 
-                    typeof part === 'string' && part.includes('*') 
-                      ? part.split('*').map((subpart, subindex) => 
-                          subindex % 2 === 1 ? <em key={`${index}-${subindex}`} className="text-gray-900 font-medium">{subpart}</em> : subpart
-                        )
-                      : part
-                  )}
-                </p>
               </div>
             </div>
           </div>

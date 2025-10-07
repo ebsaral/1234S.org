@@ -29,10 +29,10 @@ const pageContent = {
         fr: "Statut"
       }),
       text: t({
-        en: <>Seeking supporters for this project. [{ReleaseLink("Beta version")}]</>,
-        tr: <>Bu proje için destekçiler aranıyor. [{ReleaseLink("Beta sürümü")}]</>,
-        de: <>Suche Unterstützer für dieses Projekt. [{ReleaseLink("Beta-Version")}]</>,
-        fr: <>Recherche de soutiens pour ce projet. [{ReleaseLink("Version bêta")}]</>
+        en: ReleaseLink("Beta version"),
+        tr: ReleaseLink("Beta sürümü"),
+        de: ReleaseLink("Beta-Version"),
+        fr: ReleaseLink("Version bêta")
       }),
     },
     lastUpdate: {
@@ -43,10 +43,10 @@ const pageContent = {
         fr: "Dernière mise à jour du contenu"
       }),
       text: t({
-        en: 1759657732726,
-        tr: 1759657732726,
-        de: 1759657732726,
-        fr: 1759657732726
+        en: 1759844763203,
+        tr: 1759844763203,
+        de: 1759844763203,
+        fr: 1759844763203
       }),
     },
     developer: t({
