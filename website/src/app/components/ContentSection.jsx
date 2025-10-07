@@ -33,7 +33,9 @@ import {
   HeartOff,
   EyeOff,
   EarOff,
-  CircleX
+  CircleX,
+  Accessibility,
+  CandyOff
 } from 'lucide-react';
 
 
@@ -112,7 +114,7 @@ const ContentSection = ({ sectionKey, id }) => {
 
   // Icon mappings for health examples
   const getHealthExampleIcon = (index) => {
-    const IconComponent = [EyeOff, EarOff, HeartOff, CircleX];
+    const IconComponent = [EyeOff, EarOff, HeartOff, Accessibility, CandyOff, CircleX];
     return IconComponent[index];
   }
 
@@ -179,7 +181,7 @@ const ContentSection = ({ sectionKey, id }) => {
                         {content.analogy.quote}  
                       </blockquote>
                     </div>
-                    <ul className="space-y-3 text-rose-800">
+                    <ul className="space-y-3 text-rose-800 lg:mt-14">
                       <li className="flex items-start gap-3">
                         <Smile className="text-rose-500 mt-1 flex-shrink-0" size={18} />
                         <span>{content.analogy.items[0]}</span>
