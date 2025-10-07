@@ -18,6 +18,7 @@ import {
   Activity,
   Frown,
   ScanHeart,
+  Scale
 } from 'lucide-react';
 
 const JusticeSection = () => {
@@ -40,7 +41,9 @@ const JusticeSection = () => {
   };
 
   return (
-    <ContentLayout sectionKey={sectionKey} id={id}>
+    <ContentLayout sectionKey={sectionKey} id={id} icon={Scale} iconColor="text-green-600"
+    backgroundColor="bg-green-50"
+    accentColor="from-green-50 to-emerald-50">
     
       {/* Section-Specific Content */}
       <div className="grid lg:grid-cols-1 gap-12 items-start">

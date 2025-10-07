@@ -17,7 +17,8 @@ import {
   EarOff,
   CircleX,
   Accessibility,
-  CandyOff
+  CandyOff,
+  Heart
 } from 'lucide-react';
 
 
@@ -33,7 +34,8 @@ const HealthSection = () => {
   }
 
   return (
-    <ContentLayout sectionKey={sectionKey} id={id}>
+    <ContentLayout sectionKey={sectionKey} id={id} icon={Heart} iconColor="text-rose-600" backgroundColor="bg-rose-50"
+    accentColor="from-rose-50 to-pink-50">
       <div className="grid gap-8 space-y-8">
         {/* Organ-Action-Consequence Analogy Box */}
         <Card className="bg-gradient-to-br from-rose-50 to-pink-100 border-0 shadow-xl">

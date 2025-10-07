@@ -27,7 +27,9 @@ const MovementSection = () => {
   };
 
   return (
-    <ContentLayout sectionKey={sectionKey} id={id}>
+    <ContentLayout sectionKey={sectionKey} id={id} icon={Lightbulb} iconColor="text-amber-600"
+    backgroundColor="bg-amber-50"
+    accentColor="from-amber-50 to-yellow-50">
       {content.items && (
         <div className="grid md:grid-cols-2 gap-6">
           {content.items.map((example, index) => {

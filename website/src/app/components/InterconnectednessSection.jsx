@@ -9,6 +9,7 @@ import { Description } from './Custom/Description';
 
 import { 
   Brain,
+  Globe
 } from 'lucide-react';
 
 const InterconnectednessSection = () => {
@@ -17,7 +18,9 @@ const InterconnectednessSection = () => {
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <ContentLayout sectionKey={sectionKey} id={id}>
+    <ContentLayout sectionKey={sectionKey} id={id} icon={Globe} iconColor="text-blue-600"
+    backgroundColor="bg-blue-50"
+    accentColor="from-blue-50 to-indigo-50">
       {/* Section-Specific Content */}
       <div className="grid lg:grid-cols-1 gap-12 items-start">
         <div className="space-y-8">

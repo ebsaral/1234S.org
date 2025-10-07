@@ -6,63 +6,31 @@ import { useIntlayer } from 'next-intlayer';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Description } from './Custom/Description';
 
-import {
-  Globe,
-  Scale,
-  Heart, 
-  Lightbulb,
-} from 'lucide-react';
-
-
-const ContentLayout = ({ sectionKey, id, children }) => {
+const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accentColor, children }) => {
   const [sectionRef] = useIntersectionObserver();
   const content = useIntlayer(`${sectionKey}-section`);
 
-  const getIcon = () => {
-    if(sectionKey == "interconnectedness") {
-      return Globe;
-    }
-    if(sectionKey == "justiceInNature") {
-      return Scale;
-    }
-    if(sectionKey == "health") {
-      return Heart;
-    }
-    if(sectionKey == "movement") {
-      return Lightbulb;
-    }
-  };
-
-  const Icon = getIcon();
+  const Icon = icon;
 
   const getIconColor = () => {
-    switch (sectionKey) {
-      case 'interconnectedness': return 'text-blue-600';
-      case 'justiceInNature': return 'text-green-600';
-      case 'health': return 'text-rose-600';
-      case 'movement': return 'text-amber-600';
-      default: return 'text-gray-600';
-    }
+    if(iconColor){
+      return iconColor
+    } 
+    return 'text-gray-600';
   };
 
   const getBackgroundColor = () => {
-    switch (sectionKey) {
-      case 'interconnectedness': return 'text-blue-50';
-      case 'justiceInNature': return 'bg-green-50';
-      case 'health': return 'bg-rose-50';
-      case 'movement': return 'bg-amber-50';
-      default: return 'bg-gray-50';
+    if(backgroundColor){
+      return backgroundColor
     }
+    return 'bg-gray-50';
   };
 
   const getAccentColor = () => {
-    switch (sectionKey) {
-      case 'interconnectedness': return 'from-blue-50 to-indigo-50';
-      case 'justiceInNature': return 'from-green-50 to-emerald-50';
-      case 'health': return 'from-rose-50 to-pink-50';
-      case 'movement': return 'from-amber-50 to-yellow-50';
-      default: return 'from-gray-50 to-slate-50';
+    if(accentColor){
+      return accentColor
     }
+    return 'from-gray-50 to-slate-50';
   };
 
   return (

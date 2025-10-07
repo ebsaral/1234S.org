@@ -83,7 +83,7 @@ const HeroSection  = () => {
               onClick={() => document.querySelector('#intro')?.scrollIntoView({ behavior: 'smooth' })}
               variant="outline"
               size="lg"
-              className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm"
+              className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:text-white backdrop-blur-sm"
             >
               {content.learnMore}
             </Button>
