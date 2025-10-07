@@ -3,7 +3,7 @@ import { t, type Dictionary } from "intlayer";
 const githubReleaseLink = "https://github.com/ebsaral/Logical-Spirituality/releases";
 
 const ReleaseLink = (text: string) => {
-  return <a className="underline hover:no-underline underline-offset-2" href={githubReleaseLink} target="_blank">{text}</a>;  
+  return <a className="underline hover:no-underline underline-offset-2" href={githubReleaseLink} target="_blank" title="GitHub Releases">{text}</a>;  
 }
 
 const pageContent = {
@@ -23,16 +23,16 @@ const pageContent = {
     }),
     status: {
       label: t({
-        en: "Status",
-        tr: "Durum",
-        de: "Status",
-        fr: "Statut"
+        en: "Releases",
+        tr: "Sürümler",
+        de: "Veröffentlichungen",
+        fr: "Publications"
       }),
       text: t({
-        en: ReleaseLink("Beta version"),
-        tr: ReleaseLink("Beta sürümü"),
-        de: ReleaseLink("Beta-Version"),
-        fr: ReleaseLink("Version bêta")
+        en: ReleaseLink("Beta"),
+        tr: ReleaseLink("Beta"),
+        de: ReleaseLink("Beta"),
+        fr: ReleaseLink("Bêta")
       }),
     },
     lastUpdate: {
