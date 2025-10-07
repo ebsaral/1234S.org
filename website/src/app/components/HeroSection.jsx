@@ -3,7 +3,6 @@
 import { useScrollEffects, useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Button } from './ui/button.jsx';
 import { ArrowDown } from 'lucide-react';
-import { data } from './data';
 import { useIntlayer } from "next-intlayer";
 
 const HeroSection  = () => {
