@@ -48,8 +48,8 @@ const pageContent = {
         text: t({
             en: "Project",
             tr: "Proje",
-            de: "",
-            fr: ""
+            de: "Projekt",
+            fr: "Projet"
         }),
     },
     contact: {

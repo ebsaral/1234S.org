@@ -11,10 +11,10 @@ const pageContent = {
       fr: "Spiritualité Logique"
     }),
     subtitle: t({
-      en: "A Comprehensive Look at Spirituality within the Logic of Nature",
-      tr: "Doğanın Mantığıyla Birlikte Maneviyata Kapsamlı Bir Bakış",
-      de: "Spiritualität mit der Logik der Natur erweitern",
-      fr: "Élargir la spiritualité avec la logique de la nature"
+      en: "A Comprehensive View of Spirituality \nTogether with the Logic of Nature",
+      tr: "Doğanın Mantığıyla Birlikte \nManeviyata Kapsamlı Bir Bakış",
+      de: "Ein umfassender Blick auf Spiritualität \nzusammen mit der Logik der Natur",
+      fr: "Une vue d'ensemble de la spiritualité \navec la logique de la nature"
     }),
     description: t({
       en: "What if the universe is not random at all? What if every illness, every stroke of luck, every success and failure, even every disaster, follows a deeper pattern?",

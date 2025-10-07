@@ -4,10 +4,10 @@ const pageContent = {
   key: "health-section",
   content: {
     title: t({
-      en: "",
+      en: "Health: The Mirror of Justice in Nature",
       tr: "Sağlık: Doğadaki Adaletin Aynası",
-      de: "",
-      fr: ""
+      de: "Gesundheit: Der Spiegel der Gerechtigkeit in der Natur",
+      fr: "Santé : Le miroir de la justice dans la nature"
     }),
     quote: t({
       en: "The human body itself proves the logic to be observed.\nOur physical and mental health directly reflects alignment with nature's justice and the quality of our relationships.",
@@ -16,10 +16,10 @@ const pageContent = {
       fr: "Le corps humain lui-même prouve la logique à observer.\nNotre santé physique et mentale reflète directement l’alignement avec la justice de la nature et la qualité de nos relations."
     }),
     description: t({
-      en: "",
+      en: "Every illness reveals our negative actions to us through our body. Our actions in any relationship are directed both inward and outward. **Actions toward ourselves are as important as actions toward others.**\n\nPositive qualities such as goodwill, compassion, honesty, sharing, and helping others strengthen our organs, mental resilience, and overall health. Unless we repair our negative actions in nature, our illness will not heal or we may contract another disease.\n\nContrary to common belief, for a healthy and long life, we do not need special nutrition, treatment, or medication. Current treatment methods cannot go beyond patching the outcomes arising from repeated negative actions within any community. Therefore, for better health, we need to become better people and build a society that values good relationships.",
       tr: "Her hastalık, olumsuz eylemlerimizi vücudumuz aracılığıyla bize açıklar. Eylemlerimiz, herhangi bir ilişkide hem içe hem dışa yöneliktir. **Kendimize yönelik olan eylemlerimiz, başkalarına yönelik eylemlerimiz kadar önemlidir.**\n\nİyi niyet, merhamet, dürüstlük, paylaşım ve başkalarına yardım etme gibi olumlu özellikler, organlarımızı, zihinsel dayanıklılığımızı ve genel sağlığımızı güçlendirir. Doğada gerçekleştirdiğimiz olumsuz eylemlerimizi onarmadıkça, hastalığımız iyileşmez veya bir başka hastalığa yakalanırız.\n\nBilinenin aksine, sağlıklı ve uzun bir yaşam için özel bir beslenmeye, tedaviye veya ilaca ihtiyaç duymayız. Güncel tedavi yöntemleri, herhangi bir topluluk içinde tekrarlanan olumsuz eylemlerden dolayı açığa çıkan sonuçlara yama uygulamaktan öteye gidemez. Bu yüzden daha iyi bir sağlık için, daha iyi bir insan olmamız ve iyi ilişkilere önem veren bir toplum inşa etmemiz gerekir.",
-      de: "",
-      fr: ""
+      de: "Jede Krankheit offenbart uns unsere negativen Handlungen durch unseren Körper. Unsere Handlungen in jeder Beziehung sind sowohl nach innen als auch nach außen gerichtet. **Handlungen gegenüber uns selbst sind genauso wichtig wie Handlungen gegenüber anderen.**\n\nPositive Eigenschaften wie Wohlwollen, Mitgefühl, Ehrlichkeit, Teilen und anderen helfen stärken unsere Organe, mentale Widerstandsfähigkeit und allgemeine Gesundheit. Solange wir unsere negativen Handlungen in der Natur nicht reparieren, wird unsere Krankheit nicht heilen oder wir könnten eine andere Krankheit bekommen.\n\nEntgegen der landläufigen Meinung benötigen wir für ein gesundes und langes Leben keine spezielle Ernährung, Behandlung oder Medikamente. Aktuelle Behandlungsmethoden können nicht über das hinausgehen, was als Flickwerk für die Folgen wiederholter negativer Handlungen in einer Gemeinschaft dient. Daher müssen wir für bessere Gesundheit bessere Menschen werden und eine Gesellschaft aufbauen, die gute Beziehungen wertschätzt.",
+      fr: "Chaque maladie nous révèle nos actions négatives à travers notre corps. Nos actions dans toute relation sont dirigées à la fois vers l'intérieur et vers l'extérieur. **Les actions envers nous-mêmes sont aussi importantes que les actions envers les autres.**\n\nDes qualités positives telles que la bienveillance, la compassion, l'honnêteté, le partage et l'aide aux autres renforcent nos organes, notre résilience mentale et notre santé générale. Tant que nous ne réparons pas nos actions négatives dans la nature, notre maladie ne guérira pas ou nous pourrions contracter une autre maladie.\n\nContrairement à ce que l'on croit, pour une vie saine et longue, nous n'avons pas besoin d'une alimentation, d'un traitement ou de médicaments spécifiques. Les méthodes de traitement actuelles ne peuvent aller au-delà de la réparation des conséquences résultant des actions négatives répétées au sein d'une communauté. Par conséquent, pour une meilleure santé, nous devons devenir de meilleures personnes et construire une société qui valorise de bonnes relations."
     }),
     analogy: {
       title: t({
@@ -29,74 +29,74 @@ const pageContent = {
         fr: "Analogie Organe-Action-Conséquence"
       }),
       quote: t({
-        en: "",
+        en: "The functions of the organs in our body help explain the outcomes of the actions we perform in a community and society. In this way, the health conditions and functions of our organs come together to provide us with a silent guide. By examining the examples below, you can better observe the functions and health conditions of the organs in your own body.",
         tr: "Vücudumuzdaki organların işlevleri, bir toplulukta ve toplumda gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Böylelikle organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunar. Aşağıdaki örnekleri inceleyerek kendi bedeninizdeki organların işlevlerini ve sağlık durumlarını daha iyi gözlemleyebilirsiniz.",
-        de: "",
-        fr: ""
+        de: "Die Funktionen der Organe in unserem Körper helfen dabei, die Ergebnisse der Handlungen zu erklären, die wir in einer Gemeinschaft und Gesellschaft ausführen. Auf diese Weise verbinden sich die Gesundheitszustände und Funktionen unserer Organe, um uns einen stillen Leitfaden zu bieten. Durch die Betrachtung der folgenden Beispiele können Sie die Funktionen und den Gesundheitszustand der Organe in Ihrem eigenen Körper besser beobachten.",
+        fr: "Les fonctions des organes de notre corps aident à expliquer les résultats des actions que nous effectuons dans une communauté et dans la société. Ainsi, les états de santé et les fonctions de nos organes se combinent pour nous offrir un guide silencieux. En examinant les exemples ci-dessous, vous pouvez mieux observer les fonctions et l'état de santé des organes de votre propre corps."
       }),
       items: [
         t({
-          en: "",
+          en: "A healthy mind and immune system show that nature values you greatly.",
           tr: "Sağlıklı bir zihin ve bağışıklık sistemi, doğanın size çok değer verdiğini gösterir.",
-          de: "",
-          fr: ""
+          de: "Ein gesunder Geist und ein starkes Immunsystem zeigen, dass die Natur Sie sehr schätzt.",
+          fr: "Un esprit sain et un système immunitaire fort montrent que la nature vous accorde une grande valeur."
         }),
         t({
-          en: "",
+          en: "Illness is a sign of our disharmony. It aims to restore balance in our relationships with the environment and with each other.",
           tr: "Hastalık, uyumsuzluğumuzun bir işaretidir. Çevreyle ve birbirimizle olan ilişkilerimizdeki dengeyi yeniden sağlamamızı amaçlar.",
-          de: "",
-          fr: ""
+          de: "Krankheit ist ein Zeichen unserer Unstimmigkeit. Sie zielt darauf ab, das Gleichgewicht in unseren Beziehungen zur Umwelt und zueinander wiederherzustellen.",
+          fr: "La maladie est un signe de notre disharmonie. Elle vise à rétablir l'équilibre dans nos relations avec l'environnement et entre nous."
         }),
         t({
-          en: "",
+          en: "When you achieve remarkable harmony with nature, your mental and physical health gain a comprehensive protective shield.",
           tr: "Doğayla muazzam bir uyum yakaladığınızda, zihinsel ve fiziksel sağlığınız kapsamlı bir koruma kalkanına sahip olur.",
-          de: "",
-          fr: ""
+          de: "Wenn Sie eine bemerkenswerte Harmonie mit der Natur erreichen, erhalten Ihre mentale und körperliche Gesundheit einen umfassenden Schutzschild.",
+          fr: "Lorsque vous atteignez une harmonie remarquable avec la nature, votre santé mentale et physique bénéficie d'un bouclier protecteur complet."
         })
       ],
     },
     paragraph1: t({
-      en: "",
+      en: "A healthy life is not just about having a strong body; it also depends on the presence of a mind that develops one's full potential. Mental health nourishes growth through focus, opportunities, talents, and other elements of chance — all of which are subject to nature's scale of justice. We may possess natural talents that arise from our relationships with our environment.\n\nWithin nature's wholeness, we can understand that illnesses developing during a baby's growth are connected to the parents' interactions with their environment. More effort is needed to cure hereditary diseases. Most likely, the treatment of many genetic illnesses can only occur in the next generation, because the harm done to nature through previous and current generations must be examined and remedied. While seeing humans as part of nature, we must not forget other beings. Therefore, some traditions may need reinterpretation: self-criticism and awareness are the beginning of every healing.\n\n**Whenever a microbe, virus, or chemical enters our body, it navigates within us according to the actions we choose.** Persisting in harmful behavior patterns leads to their spreading by damaging our body. As we understand our body systems together with our environment and guide our actions with awareness, healing, and renewal, our body regains balance and finds a way to eliminate harmful substances. In situations of high harmony with nature, conscious harms to our body lead to the responsible parties being punished in nature.\n\n**The Organ-Action-Result Analogy applies to all accidents we experience.** The damages occurring in our body as a result of any accident aim to teach us a lesson, reflecting our actions before the incident. How an accident occurs explains the action that caused it, as well as how we use our focus and body.\n\nTo maintain balance in nature, our memory, thoughts, and feelings may be reshaped, tested, and erased through the Creator. A balanced connection with nature enables a strong mental structure. Even if opportunities arise to compensate for mistakes, some errors lead to irreversible consequences.\n\n*To observe that natural disasters occur with a cause-and-effect relationship similar to that in our bodies, we need to better understand ourselves and our environment.*",
       tr: "Sağlıklı bir yaşam, sadece güçlü bir bedene sahip olmak değildir; aynı zamanda, kişinin bütün potansiyelini geliştiren bir zihnin varlığına bağlıdır. Zihinsel sağlık, odaklanma, fırsatlar, yetenekler ve diğer şans unsurları aracılığıyla büyümeyi besler — bunların tümü de doğanın adalet terazisine bağlıdır. Çevremizle olan ilişkilerin getirileri olan doğal yeteneklere sahip olabiliriz.\n\nDoğanın bütünlüğünde, bir bebeğin gelişimi esnasında oluşan hastalıkların ebeveylerin çevreleriyle olan ilişkilerine bağlı olduğunu anlayabiliriz. Kalıtsal hastalıkların iyileşmesi için daha fazla çaba göstermek gerekir. Muhtemelen çoğu genetik hastalığın tedavisi sadece bir sonraki nesilde gerçekleşebilir. Çünkü bizden önceki ve mevcut nesiller aracılığıyla doğaya verilen zararın incelenmesi ve telafi edilmesi gerekir. İnsanı doğanın bir parçası olarak görürken, diğer canlıları unutmamalıyız. Bu yüzden, bazı geleneklerin tekrar yorumlanması gerekebilir: Öz eleştiri ve farkındalık her iyileşmenin başlangıcıdır.\n\n**Herhangi mikrop, virüs veya kimyasal vücudumuza girdiğinde, seçtiğimiz eylemlere göre vücudumuzda yön bulur.** Zararlı davranış kalıplarında ısrar etmek, bunların vücudumuza zarar vererek yayılmasına yol açar. Çevremizle birlikte kendi vücut sistemimizi anladıkça ve eylemlerimizi farkındalık, iyileşme ve yenilenme ile yönlendirdikçe, vücudumuz dengesini yeniden kazanır ve zararlı maddelerden kurtulmanın bir yolunu bulur. Doğayla uyumumuzun çok iyi olduğu durumlarda, vücudumuza verilen bilinçli zararlar sorumlularının doğada cezalandırılmasına vesile olur.\n\n**Organ-Eylem-Sonuç Benzetmesi yaşadığımız tüm kazalar için de geçerlidir.** Herhangi bir kaza sonucunda vücudumuzda oluşan hasarlar, kazadan önceki eylemlerimizin bir yansıması olarak bize bir ders vermeyi amaçlar. Yaşadığımız bir kazanın oluşma şekli, sebep olan eylemimizi açıklar. Zihnimizdeki odak noktamızı ve vücudumuzu nasıl kullandığımızı açıklar.\n\nDoğadaki dengenin sağlanabilmesi için, Yaradan aracılığıyla hafızamız, düşüncelerimiz ve hislerimiz şekil değiştirebilir, sınanabilir ve silinebilir. Doğayla kurulan dengeli bir bağ, sağlam bir zihinsel yapıya imkan tanır. Hatalarımızı telafi etme fırsatı yeniden doğsa bile, bazı hatalar geri dönülemeyecek sonuçlara vesile olur.\n\n*Doğal afetlerin vücudumuzdakine benzer bir sebep-sonuç ilişkisiyle gerçekleştiklerini gözlemleyebilmemiz için kendimizi ve çevremizi daha iyi tanımamız gerekir.*",
-      de: "",
-      fr: ""
+      de: "Ein gesundes Leben besteht nicht nur darin, einen starken Körper zu haben; es hängt auch von einem Geist ab, der das volle Potenzial einer Person entwickelt. Die geistige Gesundheit fördert Wachstum durch Konzentration, Chancen, Talente und andere Zufallselemente — all dies unterliegt der Waage der Gerechtigkeit der Natur. Wir können natürliche Talente besitzen, die aus unseren Beziehungen zur Umwelt entstehen.\n\nIm Rahmen der Ganzheit der Natur können wir verstehen, dass Krankheiten, die während der Entwicklung eines Babys auftreten, mit den Interaktionen der Eltern mit ihrer Umgebung zusammenhängen. Für die Heilung erblich bedingter Krankheiten ist mehr Aufwand erforderlich. Wahrscheinlich kann die Behandlung der meisten genetischen Krankheiten nur in der nächsten Generation erfolgen, da der Schaden, der durch vorherige und gegenwärtige Generationen an der Natur verursacht wurde, untersucht und ausgeglichen werden muss. Wenn wir den Menschen als Teil der Natur sehen, dürfen wir andere Lebewesen nicht vergessen. Daher müssen einige Traditionen möglicherweise neu interpretiert werden: Selbstkritik und Bewusstsein sind der Beginn jeder Heilung.\n\n**Immer wenn ein Mikroorganismus, Virus oder eine Chemikalie in unseren Körper gelangt, orientiert es sich nach den von uns gewählten Handlungen.** Das Beharren auf schädlichen Verhaltensmustern führt dazu, dass sie sich durch Schädigung unseres Körpers ausbreiten. Wenn wir unsere Körpersysteme zusammen mit unserer Umwelt verstehen und unsere Handlungen mit Bewusstsein, Heilung und Erneuerung steuern, gewinnt unser Körper sein Gleichgewicht zurück und findet einen Weg, schädliche Substanzen loszuwerden. In Situationen hoher Harmonie mit der Natur führen bewusste Schäden an unserem Körper dazu, dass die Verantwortlichen in der Natur bestraft werden.\n\n**Die Organ-Handlung-Ergebnis-Analogie gilt auch für alle Unfälle, die wir erleben.** Die Schäden, die in unserem Körper infolge eines Unfalls entstehen, sollen uns eine Lektion erteilen und spiegeln unsere Handlungen vor dem Ereignis wider. Wie ein Unfall entsteht, erklärt die verursachende Handlung sowie wie wir unseren Fokus und Körper einsetzen.\n\nUm das Gleichgewicht in der Natur aufrechtzuerhalten, können unser Gedächtnis, unsere Gedanken und Gefühle durch den Schöpfer umgestaltet, geprüft und gelöscht werden. Eine ausgewogene Verbindung mit der Natur ermöglicht eine starke mentale Struktur. Auch wenn Gelegenheiten entstehen, Fehler auszugleichen, führen einige Fehler zu irreversiblen Konsequenzen.\n\n*Um beobachten zu können, dass Naturkatastrophen mit einer Ursache-Wirkungs-Beziehung ähnlich der in unserem Körper auftreten, müssen wir uns selbst und unsere Umgebung besser kennenlernen.*",
+      fr: "Une vie saine ne consiste pas seulement à avoir un corps fort ; elle dépend également de la présence d'un esprit qui développe tout le potentiel d'une personne. La santé mentale nourrit la croissance par la concentration, les opportunités, les talents et d'autres éléments de chance — tous soumis à la balance de la justice de la nature. Nous pouvons posséder des talents naturels issus de nos relations avec notre environnement.\n\nDans l'intégralité de la nature, nous pouvons comprendre que les maladies développées pendant la croissance d'un bébé sont liées aux interactions des parents avec leur environnement. Il faut fournir plus d'efforts pour guérir les maladies héréditaires. Très probablement, le traitement de la plupart des maladies génétiques ne peut avoir lieu que dans la génération suivante, car les dommages causés à la nature par les générations précédentes et actuelles doivent être examinés et réparés. En voyant l'homme comme partie de la nature, nous ne devons pas oublier les autres êtres. Par conséquent, certaines traditions peuvent nécessiter une réinterprétation : l'auto-critique et la conscience sont le début de toute guérison.\n\n**Chaque microbe, virus ou produit chimique qui entre dans notre corps se dirige en fonction des actions que nous choisissons.** Persister dans des comportements nuisibles conduit à leur propagation en endommageant notre corps. À mesure que nous comprenons nos systèmes corporels avec notre environnement et guidons nos actions avec conscience, guérison et renouvellement, notre corps retrouve son équilibre et trouve un moyen d'éliminer les substances nocives. Dans des situations d'harmonie élevée avec la nature, les dommages conscients infligés à notre corps conduisent à la punition des responsables dans la nature.\n\n**L'analogie Organe-Action-Résultat s'applique à tous les accidents que nous vivons.** Les dommages survenus dans notre corps à la suite d'un accident visent à nous donner une leçon et reflètent nos actions avant l'incident. La manière dont un accident se produit explique l'action qui l'a causé ainsi que la manière dont nous utilisons notre concentration et notre corps.\n\nPour maintenir l'équilibre dans la nature, notre mémoire, nos pensées et nos sentiments peuvent être remodelés, testés et effacés par le Créateur. Une connexion équilibrée avec la nature permet une structure mentale solide. Même si des occasions se présentent pour compenser nos erreurs, certaines conduisent à des conséquences irréversibles.\n\n*Pour pouvoir observer que les catastrophes naturelles se produisent avec une relation de cause à effet similaire à celle de notre corps, nous devons mieux nous connaître ainsi que notre environnement.*"
     }),
     examples: [
       t({
-        en: "",
+        en: "Poor vision may reflect the moments when you overlooked someone's opportunities. Negativity generated in relation to your focusing actions can be mirrored in your eyesight.",
         tr: "Zayıf görme yeteneği, birinin fırsatlarına göz yumduğunuz anları yansıtabilir. Odaklanma eylemine yönelik yarattığınız olumsuzluklar, gözünüzdeki odaklanmaya yansıyabilir.",
-        de: "",
-        fr: ""
+        de: "Schwaches Sehvermögen kann die Momente widerspiegeln, in denen Sie die Chancen einer Person übersehen haben. Negativität, die im Zusammenhang mit Ihren Fokussierungsaktionen entsteht, kann sich in Ihrem Sehvermögen widerspiegeln.",
+        fr: "Une mauvaise vision peut refléter les moments où vous avez fermé les yeux sur les opportunités de quelqu'un. La négativité générée par vos actions de concentration peut se refléter dans votre vue."
       }),
       t({
-        en: "",
+        en: "A decline in your hearing may reflect the times when you ignored or obstructed the call for help or request of yourself or others.",
         tr: "İşitme duyunuzun azalması, kendinizin veya başka birinin yardım çığlığını/isteğini duymazdan geldiğiniz veya yön bulmasını engellediğiniz zamanları yansıtabilir.",
-        de: "",
-        fr: ""
+        de: "Ein Rückgang Ihres Gehörs kann die Zeiten widerspiegeln, in denen Sie den Hilferuf oder die Bitte von sich selbst oder anderen ignoriert oder behindert haben.",
+        fr: "Une diminution de votre audition peut refléter les moments où vous avez ignoré ou empêché l'appel à l'aide ou la demande de vous-même ou d'autrui."
       }),
       t({
-        en: "",
+        en: "The difficulties you create in your own life and in the lives of others can increase your risk of a heart attack.",
         tr: "Kendinizin ve başka birinin yaşamında yarattığınız zorluklar kalp krizi riskinizi yükseltebilir.",
-        de: "",
-        fr: ""
+        de: "Die Schwierigkeiten, die Sie in Ihrem eigenen Leben und im Leben anderer verursachen, können Ihr Risiko für einen Herzinfarkt erhöhen.",
+        fr: "Les difficultés que vous créez dans votre propre vie et dans celle des autres peuvent augmenter votre risque de crise cardiaque."
       }),
       t({
-        en: "",
+        en: "A hunchback in your body may reflect the moments when you imposed life difficulties on yourself and others.",
         tr: "Vücudunuzdaki kambur, hem kendinize hem başkalarına yaşam zorlukları yüklediğinizi anları yansıtabilir.",
-        de: "",
-        fr: ""
+        de: "Ein Buckel in Ihrem Körper kann die Momente widerspiegeln, in denen Sie sich selbst und anderen Lebensschwierigkeiten auferlegt haben.",
+        fr: "Une bosse dans votre corps peut refléter les moments où vous avez imposé des difficultés de vie à vous-même et aux autres."
       }),
       t({
-        en: "",
+        en: "If you have diabetes, the degree to which you are strict with yourself and those around you is reflected in your blood.",
         tr: "Eğer diyabet sorunu yaşıyorsanız, kendinize ve etrafınızdaki insanlara katı davranma oranınız kanınıza yansıyordur.",
-        de: "",
-        fr: ""
+        de: "Wenn Sie an Diabetes leiden, spiegelt sich der Grad, in dem Sie streng zu sich selbst und zu den Menschen um Sie herum sind, in Ihrem Blut wider.",
+        fr: "Si vous souffrez de diabète, le degré de rigueur envers vous-même et envers les personnes qui vous entourent se reflète dans votre sang."
       }),
       t({
-        en: "",
+        en: "If you have developed cancer, you have taken a life or caused deep suffering to a living being. This process can also be reflected in stages.",
         tr: "Eğer kansere yakalandıysanız, bir canı aldınız veya bir canlıya derin acılar yaşatmışsınızdır. Bu süreç evreler olarak da yansıyabilir.",
-        de: "",
-        fr: ""
+        de: "Wenn Sie an Krebs erkrankt sind, haben Sie ein Leben genommen oder einem Lebewesen tiefes Leid zugefügt. Dieser Prozess kann sich auch in Phasen widerspiegeln.",
+        fr: "Si vous avez développé un cancer, vous avez pris une vie ou causé de grandes souffrances à un être vivant. Ce processus peut également se refléter par étapes."
       })
     ],
   },

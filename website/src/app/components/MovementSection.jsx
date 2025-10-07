@@ -8,11 +8,12 @@ import { Card, CardContent } from './ui/card';
 
 import {
   Lightbulb, 
-  Activity,
-  MapPin,
-  Music,
+  HeartIcon,
+  ImagePlay,
+  Globe,
   Gift,
 } from 'lucide-react';
+import Link from 'next/link';
 
 const MovementSection = () => {
   const id = "movement";
@@ -21,7 +22,7 @@ const MovementSection = () => {
 
   // Icon mappings for real-world cases
   const getCaseIcon = (index) => {
-    const icons = [MapPin, Activity, Music, Gift];
+    const icons = [HeartIcon, ImagePlay, Globe, Gift];
     const IconComponent = icons[index] || Lightbulb;
     return IconComponent;
   };
@@ -38,7 +39,7 @@ const MovementSection = () => {
             const content = example.subtitle;
             
             return (
-              <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl">
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 whitespace-pre-line">
                     <div className="flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 flex-shrink-0">
@@ -59,6 +60,25 @@ const MovementSection = () => {
           })}
         </div>
       )}
+      <div className='grid md:grid-cols-2 gap-6 mt-8'>
+        <Card>
+          <CardContent className="p-8 text-center">
+              <h3>{content.status.title}</h3>
+              <br />
+              <ul>
+                {content.status.items.map((item, i) => <li key={i}>{item}</li>)}
+              </ul>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="p-8 text-center">
+            <h3>{content.contact.title}</h3>
+            <br />
+            <p><Link className='underline hover:no-underline' href={content.contact.leader.href.value}>{content.contact.leader.text}</Link></p>
+            <p><i>{content.contact.description}</i></p>
+          </CardContent>
+        </Card>
+      </div>
     </ContentLayout>
   );
 };
