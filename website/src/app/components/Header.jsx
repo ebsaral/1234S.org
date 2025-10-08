@@ -109,8 +109,9 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <button
+              <Link
                 key={item.key}
+                href={item.extra || item.href}
                 aria-label={content[item.key].text.value}
                 onClick={() => scrollToSection(item.extra || item.href)}
                 className={`text-sm font-medium transition-all duration-300 relative ${
@@ -132,7 +133,7 @@ const Header = () => {
                     }`}
                   />
                 )}
-              </button>
+              </Link>
             ))}
           </nav>
 
@@ -206,8 +207,9 @@ const Header = () => {
           <div className="md:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-t border-gray-200/20 shadow-lg">
             <nav className="px-4 py-6 space-y-4">
               {navItems.map((item) => (
-                <button
+                <Link
                   key={item.key}
+                  href={item.extra || item.href}
                   aria-label={content[item.key].text.value}
                   onClick={() => scrollToSection(item.extra || item.href)}
                   className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
@@ -217,7 +219,7 @@ const Header = () => {
                   }`}
                 >
                   {content[item.key].text}
-                </button>
+                </Link>
               ))}
             </nav>
           </div>
