@@ -33,9 +33,8 @@ export const generateMetadata = async ({
    *  // }
    * ```
    */
-
-  const v = parseInt((Math.random() * 100000).toString());
-  const url = `https://www.1234s.org/?v=${v}`;
+  
+  const url = "https://www.1234s.org";
   const multilingualUrls = getMultilingualUrls(url);
 
   return {

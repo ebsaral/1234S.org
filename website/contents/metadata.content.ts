@@ -46,8 +46,8 @@ const metadataContent = {
       type: "website",
       images: [
         { 
-          url: "http://1234s.org/logos/logo-og.png?v=1",
-          secureUrl: "https://1234s.org/logos/logo-og.png?v=1"
+          url: "http://1234s.org/logos/logo-og.png",
+          secureUrl: "https://1234s.org/logos/logo-og.png"
         }
       ]
     },
