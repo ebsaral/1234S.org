@@ -14,7 +14,7 @@ const EndingSection = ({id}) => {
     <section
       id={id} 
       ref={sectionRef}
-      className="my-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden"
+      className="mb-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 

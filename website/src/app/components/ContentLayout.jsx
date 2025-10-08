@@ -5,6 +5,7 @@ import { useIntlayer } from 'next-intlayer';
 
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Description } from './Custom/Description';
+import Quote from './Custom/Quote';
 
 const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accentColor, children }) => {
   const [sectionRef] = useIntersectionObserver();
@@ -62,19 +63,7 @@ const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accen
             
             {/* Quote */}
             {content.quote &&
-              <div className="max-w-4xl mx-auto mb-12">
-                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-normal leading-relaxed pl-2 pr-2 border-l-4 border-emerald-500 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm whitespace-pre-line">
-                  {content.quote.value.split('**').map((part, index) => 
-                    index % 2 === 1 ? <strong key={index} className="text-bold">{part}</strong> : part
-                  ).map((part, index) => 
-                    typeof part === 'string' && part.includes('*') 
-                      ? part.split('*').map((subpart, subindex) => 
-                          subindex % 2 === 1 ? <em key={`${index}-${subindex}`} className="text-gray-800 font-medium">{subpart}</em> : subpart
-                        )
-                      : part
-                  )}
-                </blockquote>
-              </div>
+              <Quote text={content.quote.value} />
             }
             
             {/* Description */}

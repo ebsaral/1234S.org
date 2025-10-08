@@ -7,20 +7,34 @@ const pageContent = {
       en: "Project: Time for Action",
       tr: "Proje: Hareket Vakti",
       de: "Projekt: Zeit für Bewegung",
-      fr: "Projet : Il est temps d’agir"
+      fr: "Projet: Il est temps d’agir"
     }),
     quote: t({
-      en: "I think you might want to support this project.",
-      tr: "Bence bu projeye destek olmak isteyebilirsiniz.",
-      de: "Ich denke, Sie möchten dieses Projekt vielleicht unterstützen.",
-      fr: "Je pense que vous voudrez peut-être soutenir ce projet.",
+      en: "I think you might want to support this project...",
+      tr: "Bence bu projeye destek olmak isteyebilirsiniz...",
+      de: "Ich denke, Sie möchten dieses Projekt vielleicht unterstützen...",
+      fr: "Je pense que vous voudrez peut-être soutenir ce projet...",
     }),
     description: t({
       en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we must improve the health conditions of the societies we live in.\n\nWhile you are reading this text right now, someone is suffering in a hospital, having an accident somewhere, or losing their life. *It is possible to live in an educated society where we never get sick or have accidents.*\n\n**You can read summaries of the steps to be taken under the general headings below:**",
       tr: "**Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduklarını **Mantıksal Maneviyat** aracılığıyla öğrenmiş olduk. Bu temel bilgileri detaylandırarak, içinde yaşadığımız toplumların sağlık koşullarını iyileştirmemiz gerekiyor.\n\nSiz şu an bu yazıyı okurken, birileri hastanede acı çekiyor, bir yerlerde kaza geçiriyor veya hayattan kopuyor. *Hiç hastalanmadığımız ve kaza geçirmediğimiz (eğitimli) bir toplumda yaşamamız mümkün.*\n\n**Aşağıdaki genel başlıklar altında, atılması gereken adımların özetlerini okuyabilirsiniz:**",
       de: "Durch die **Logische Spiritualität** haben wir gelernt, wie die Prinzipien von **Gleichheit und Freiheit** in der Natur existieren. Indem wir dieses grundlegende Wissen vertiefen, müssen wir die Gesundheitsbedingungen der Gesellschaften, in denen wir leben, verbessern.\n\nWährend Sie diesen Text lesen, leidet jemand im Krankenhaus, erleidet irgendwo einen Unfall oder verliert sein Leben. *Es ist möglich, in einer (gebildeten) Gesellschaft zu leben, in der wir niemals krank werden oder Unfälle haben.*\n\n**Zusammenfassungen der zu unternehmenden Schritte können Sie unter den folgenden allgemeinen Überschriften lesen:**",
-      fr: "Grâce à la **Spiritualité Logique**, nous avons appris comment les principes d’**Égalité et de Liberté** existent dans la nature. En approfondissant ces connaissances fondamentales, nous devons améliorer les conditions de santé des sociétés dans lesquelles nous vivons.\n\nPendant que vous lisez ce texte, quelqu’un souffre à l’hôpital, subit un accident quelque part ou perd la vie. *Il est possible de vivre dans une société (éduquée) où nous ne tombons jamais malades et ne subissons aucun accident.*\n\n**Vous pouvez lire les résumés des étapes à suivre sous les rubriques générales ci-dessous :**"
+      fr: "Grâce à la **Spiritualité Logique**, nous avons appris comment les principes d’**Égalité et de Liberté** existent dans la nature. En approfondissant ces connaissances fondamentales, nous devons améliorer les conditions de santé des sociétés dans lesquelles nous vivons.\n\nPendant que vous lisez ce texte, quelqu’un souffre à l’hôpital, subit un accident quelque part ou perd la vie. *Il est possible de vivre dans une société (éduquée) où nous ne tombons jamais malades et ne subissons aucun accident.*\n\n**Vous pouvez lire les résumés des étapes à suivre sous les rubriques générales ci-dessous:**"
     }),
+    message: {
+      title: t({
+        en: "Nature's justice is in constant motion!",
+        tr: "Doğanın adaleti sürekli hareket halinde!",
+        de: "Die Gerechtigkeit der Natur ist in ständiger Bewegung!",
+        fr: "La justice de la nature est en mouvement constant!"
+      }),
+      quote:  t({
+        en: "We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
+        tr: "İnsanlara doğadaki mantığı görebilecekleri farkındalığı kazandırabilir ve yaşam döngülerimizde tekrarlayan hataları birlikte iyileştirebiliriz.",
+        de: "Wir können das Bewusstsein der Menschen schärfen, damit sie die Logik der Natur erkennen, und gemeinsam können wir die Fehler heilen, die sich in unseren Lebenszyklen wiederholen.",
+        fr: "Nous pouvons sensibiliser les gens afin qu’ils puissent voir la logique dans la nature et ensemble, nous pouvons guérir les erreurs qui se répètent dans nos cycles de vie.",
+      })
+    },
     items: [
       {
         title: t({
@@ -138,10 +152,10 @@ const pageContent = {
         })
       },
       note: t({
-        en: "If you would like to assist me in any way, you can use the contact options below.",
-        tr: "Herhangi bir şekilde bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
-        de: "Wenn Sie mir in irgendeiner Weise helfen möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen.",
-        fr: "Si vous souhaitez m'aider de quelque manière que ce soit, vous pouvez utiliser les options de contact ci-dessous."
+        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below.",
+        tr: "Herhangi bir şekilde bana yardımcı olmak veya tecrübelerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
+        de: "Wenn Sie mir in irgendeiner Weise helfen oder von meinen Erfahrungen profitieren möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen.",
+        fr: "Si vous souhaitez m'aider de quelque manière que ce soit ou bénéficier de mon expérience, vous pouvez utiliser les options de contact ci-dessous."
       })
     },
   },
