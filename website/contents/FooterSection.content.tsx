@@ -29,10 +29,10 @@ const pageContent = {
         fr: "Publications"
       }),
       text: t({
-        en: ReleaseLink("Beta"),
-        tr: ReleaseLink("Beta"),
-        de: ReleaseLink("Beta"),
-        fr: ReleaseLink("Bêta")
+        en: ReleaseLink("Beta Version"),
+        tr: ReleaseLink("Beta Sürümü"),
+        de: ReleaseLink("Betaversion"),
+        fr: ReleaseLink("Version bêta")
       }),
     },
     lastUpdate: {
