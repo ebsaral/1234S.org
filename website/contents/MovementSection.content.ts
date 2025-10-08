@@ -86,10 +86,10 @@ const pageContent = {
           fr: "Vie"
         }),
         subtitle: t({
-          en: "Any idea, invention, or product emerges through the inspiration (means) of living beings in the environment. Therefore, every gain must be a collective gain for society.\n\nIn nature, where everything is free, the struggles for livelihood, stress, selfishness, inequality of opportunities, and all other negatives are obstacles to a healthy life. By realizing that we have come to life to truly live, we must use the resources of the environment in a way that considers everyone's well-being.",
+          en: "Any idea, invention, or product emerges through the inspiration (means) of living beings within the environment. Therefore, every gain must be a collective gain for society.\n\nIn nature, where everything is free, the struggles for livelihood, stress, selfishness, inequality of opportunities, and all other negatives are obstacles to a healthy life. By realizing that we have come to life to truly live, we must use the resources of the environment in a way that considers everyone's well-being.",
           tr: "Herhangi bir fikir, icat veya ürün, çevredeki canlıların ilham (vesile) olmaları ile açığa çıkar. Bu yüzden her kazanç toplumun ortak kazancı olmak zorundadır.\n\nHer şeyin bedava olduğu doğada, geçim derdi, stres, bencillik, fırsat eşitsizliği ve diğer tüm olumsuzluklar sağlıklı bir yaşamın önündeki engellerdir. Hayata yaşamak için geldiğimizin bilincine vararak, çevrenin kaynaklarını herkesin refahını düşünecek şekilde kullanmalıyız.",
-          de: "Jede Idee, Erfindung oder jedes Produkt entsteht durch die Inspiration (Mittel) von Lebewesen in der Umgebung. Daher muss jeder Gewinn ein gemeinschaftlicher Gewinn für die Gesellschaft sein.\n\nIn der Natur, in der alles kostenlos ist, sind Existenzsorgen, Stress, Egoismus, Ungleichheit der Chancen und alle anderen Negativitäten Hindernisse für ein gesundes Leben. Indem wir erkennen, dass wir zum Leben gekommen sind, um wirklich zu leben, müssen wir die Ressourcen der Umwelt so nutzen, dass das Wohl aller berücksichtigt wird.",
-          fr: "Toute idée, invention ou produit émerge grâce à l'inspiration (moyen) des êtres vivants dans l'environnement. Par conséquent, tout gain doit être un gain collectif pour la société.\n\nDans la nature, où tout est gratuit, les soucis de subsistance, le stress, l'égoïsme, l'inégalité des opportunités et toutes les autres négativités sont des obstacles à une vie saine. En prenant conscience que nous sommes venus à la vie pour vivre pleinement, nous devons utiliser les ressources de l'environnement de manière à considérer le bien-être de tous."
+          de: "Jede Idee, Erfindung oder jedes Produkt entsteht durch die Inspiration (Mittel) von Lebewesen in der Umwelt. Daher muss jeder Gewinn ein gemeinschaftlicher Gewinn für die Gesellschaft sein.\n\nIn der Natur, in der alles kostenlos ist, sind Existenzsorgen, Stress, Egoismus, Ungleichheit der Chancen und alle anderen Negativitäten Hindernisse für ein gesundes Leben. Indem wir erkennen, dass wir zum Leben gekommen sind, um wirklich zu leben, müssen wir die Ressourcen der Umwelt so nutzen, dass das Wohl aller berücksichtigt wird.",
+          fr: "Toute idée, invention ou produit émerge grâce à l’inspiration (aux moyens) d’êtres vivants dans l’environnement. Par conséquent, tout gain doit être un gain collectif pour la société.\n\nDans la nature, où tout est gratuit, les soucis de subsistance, le stress, l'égoïsme, l'inégalité des opportunités et toutes les autres négativités sont des obstacles à une vie saine. En prenant conscience que nous sommes venus à la vie pour vivre pleinement, nous devons utiliser les ressources de l'environnement de manière à considérer le bien-être de tous."
         }),
       }
     ],
@@ -131,10 +131,10 @@ const pageContent = {
           fr: "https://0.1234s.org/en"
         }),
         description: t({
-          en: "Spirit Guide and Computer Engineer",
+          en: "The Spirit Guide and Computer Engineer",
           tr: "Maneviyat Rehberi ve Bilgisayar Mühendisi",
-          de: "Geistführer und Computeringenieur",
-          fr: "Guide spirituel et ingénieur informatique"
+          de: "Der Geistführer und Computeringenieur",
+          fr: "Le guide spirituel et ingénieur informatique"
         })
       },
       resume: {
