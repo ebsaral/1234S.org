@@ -26,7 +26,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Inter, Playfair Display fonts](https://vercel.com/font).
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts) font.
 
 ## Credits
 
