@@ -10,10 +10,10 @@ const pageContent = {
       fr: "Santé : Le miroir de la justice dans la nature"
     }),
     quote: t({
-      en: "The human body itself proves the logic to be observed.\nOur physical and mental health directly reflects alignment with nature's justice and the quality of our relationships.",
-      tr: "İnsan bedeni, gözlemlenmesi gereken mantığı bizzat kanıtlar.\nFiziksel ve zihinsel sağlığımız, doğanın adaletiyle uyumumuzu ve ilişkilerimizin niteliğini doğrudan yansıtır.",
-      de: "Der menschliche Körper selbst beweist die Logik, die zu beachten ist.\nUnsere körperliche und geistige Gesundheit spiegelt direkt die Übereinstimmung mit der Gerechtigkeit der Natur und die Qualität unserer Beziehungen wider.",
-      fr: "Le corps humain lui-même prouve la logique à observer.\nNotre santé physique et mentale reflète directement l’alignement avec la justice de la nature et la qualité de nos relations."
+      en: "The human body itself proves the logic to be observed. Our physical and mental health directly reflects alignment with nature's justice and the quality of our relationships.",
+      tr: "İnsan bedeni, gözlemlenmesi gereken mantığı bizzat kanıtlar. Fiziksel ve zihinsel sağlığımız, doğanın adaletiyle uyumumuzu ve ilişkilerimizin niteliğini doğrudan yansıtır.",
+      de: "Der menschliche Körper selbst beweist die Logik, die zu beachten ist. Unsere körperliche und geistige Gesundheit spiegelt direkt die Übereinstimmung mit der Gerechtigkeit der Natur und die Qualität unserer Beziehungen wider.",
+      fr: "Le corps humain lui-même prouve la logique à observer. Notre santé physique et mentale reflète directement l’alignement avec la justice de la nature et la qualité de nos relations."
     }),
     description: t({
       en: "Every illness reveals our negative actions to us through our body. Our actions in any relationship are directed both inward and outward. **Actions toward ourselves are as important as actions toward others.**\n\nPositive qualities such as goodwill, compassion, honesty, sharing, and helping others strengthen our organs, mental resilience, and overall health. Unless we repair our negative actions in nature, our illness will not heal or we may contract another disease.\n\nContrary to common belief, for a healthy and long life, we do not need special nutrition, treatment, or medication. Current treatment methods cannot go beyond patching the outcomes arising from repeated negative actions within any community. Therefore, for better health, we need to become better people and build a society that values good relationships.",
