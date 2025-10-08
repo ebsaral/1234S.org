@@ -47,7 +47,6 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
-                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-emerald-600/20 transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
                   aria-label={social.label}
@@ -58,7 +57,7 @@ const Footer = () => {
               ))}
             </div>
             <p className="text-gray-400 text-sm m-2 underline-offset-4 p-2 transition-all duration-300 transform hover:text-base hover:font-semibold h-10">
-              <a className='underline hover:no-underline' href={content.links.developer.value} target='_blank' title={content.developer.value}>{content.developer}</a>
+              <a className='underline hover:no-underline' href={content.links.developer.value} title={content.developer.value}>{content.developer}</a>
             </p>
             <p className="text-gray-400 mb-2 text-sm whitespace-pre-line">
               {content.title}<br></br>
@@ -66,7 +65,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
               <p><b>{content.status.text}</b></p>
-              <p><b>{content.lastUpdate.label}:</b> <a className="underline hover:no-underline underline-offset-2" href={content.links.githubCommits.value} title="GitHub commits" target="_blank">{new Date(content.lastUpdate.text.value).toLocaleString(locale)}</a></p>
+              <p><b>{content.lastUpdate.label}:</b> <a className="underline hover:no-underline underline-offset-2" href={content.links.githubCommits.value} title="GitHub commits">{new Date(content.lastUpdate.text.value).toLocaleString(locale)}</a></p>
             </div>
           </div>
         </div>
