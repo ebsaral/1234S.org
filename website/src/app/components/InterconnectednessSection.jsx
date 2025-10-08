@@ -29,7 +29,9 @@ const InterconnectednessSection = () => {
             <Card className="bg-gradient-to-br from-blue-50 to-indigo-100 border-0 shadow-xl transition-all duration-300 hover:scale-105">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3">
-                  <Brain className="text-blue-600" size={28} />
+                  <div>
+                  <Brain className="text-blue-600" size={36} />
+                  </div>
                   {content.experiment.title}
                 </h3>
                 <p className="text-blue-800 leading-relaxed italic">
@@ -37,7 +39,6 @@ const InterconnectednessSection = () => {
                 </p>
               </CardContent>
             </Card>
-
             <Description text={content.paragraph1.value} />
           </div>
         </div>
