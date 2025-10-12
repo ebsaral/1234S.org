@@ -153,7 +153,7 @@ const pageContent = {
       },
       note: t({
         en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below. In my résumé, you can read about my talents I have unlocked so far as a gain of my positive actions in nature.",
-        tr: "Herhangi bir şekilde bana yardımcı olmak veya tecrübelerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
+        tr: "Herhangi bir şekilde bana yardımcı olmak veya tecrübelerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Öz geçmişimde, doğada yaptığım olumlu eylemler sonucunda şu ana kadar ortaya çıkardığım yeteneklerim hakkında bilgi edinebilirsiniz.",
         de: "Wenn Sie mir in irgendeiner Weise helfen oder von meinen Erfahrungen profitieren möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen. In meinem Lebenslauf können Sie nachlesen, welche Talente ich bisher als Ergebnis meiner positiven Handlungen in der Natur erschlossen habe.",
         fr: "Si vous souhaitez m'aider de quelque manière que ce soit ou bénéficier de mon expérience, vous pouvez utiliser les options de contact ci-dessous. Vous pouvez lire dans mon CV les acquis que j'ai obtenus grâce à mes actions positives. Dans mon CV, vous pouvez découvrir les talents que j'ai développés jusqu'à présent grâce à mes actions positives dans la nature."
       })
