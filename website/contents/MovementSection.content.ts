@@ -108,10 +108,10 @@ const pageContent = {
           fr: "Je continue à développer le contenu de ce projet."
         }),
         t({
-          en: "I am looking for a team or organization with which I can work together on the principles of nature.",
-          tr: "Doğanın ilkelerine yönelik birlikte çalışmalar yapabileceğim bir ekip veya organizasyon arıyorum.",
-          de: "Ich suche ein Team oder eine Organisation, mit der ich gemeinsam nach den Prinzipien der Natur arbeiten kann.",
-          fr: "Je recherche une équipe ou une organisation avec laquelle je peux travailler ensemble sur les principes de la nature."
+          en: "I am looking for a team or organization with whom I can continue my work on the principles of nature.",
+          tr: "Doğanın ilkelerine yönelik çalışmalarımı birlikte devam ettirebileceğim bir ekip veya organizasyon arıyorum.",
+          de: "Ich suche ein Team oder eine Organisation, mit der ich meine Arbeit zu den Prinzipien der Natur fortsetzen kann.",
+          fr: "Je recherche une équipe ou une organisation avec laquelle je pourrais poursuivre mes travaux sur les principes de la nature."
         })
       ],
     },
@@ -149,13 +149,13 @@ const pageContent = {
           tr: "https://0.1234s.org/files/cv/politika.pdf",
           de: "https://0.1234s.org/files/cv/politics.pdf",
           fr: "https://0.1234s.org/files/cv/politics.pdf"
-        })
+        }),
       },
       note: t({
-        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below.",
+        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below. In my résumé, you can read about my talents I have unlocked so far as a gain of my positive actions in nature.",
         tr: "Herhangi bir şekilde bana yardımcı olmak veya tecrübelerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
-        de: "Wenn Sie mir in irgendeiner Weise helfen oder von meinen Erfahrungen profitieren möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen.",
-        fr: "Si vous souhaitez m'aider de quelque manière que ce soit ou bénéficier de mon expérience, vous pouvez utiliser les options de contact ci-dessous."
+        de: "Wenn Sie mir in irgendeiner Weise helfen oder von meinen Erfahrungen profitieren möchten, können Sie die unten stehenden Kontaktmöglichkeiten nutzen. In meinem Lebenslauf können Sie nachlesen, welche Talente ich bisher als Ergebnis meiner positiven Handlungen in der Natur erschlossen habe.",
+        fr: "Si vous souhaitez m'aider de quelque manière que ce soit ou bénéficier de mon expérience, vous pouvez utiliser les options de contact ci-dessous. Vous pouvez lire dans mon CV les acquis que j'ai obtenus grâce à mes actions positives. Dans mon CV, vous pouvez découvrir les talents que j'ai développés jusqu'à présent grâce à mes actions positives dans la nature."
       })
     },
   },
