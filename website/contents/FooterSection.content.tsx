@@ -43,10 +43,10 @@ const pageContent = {
         fr: "Dernière mise à jour du contenu"
       }),
       text: t({
-        en: 1759939507335,
-        tr: 1759939507335,
-        de: 1759939507335,
-        fr: 1759939507335
+        en: 1760273514112,
+        tr: 1760273514112,
+        de: 1760273514112,
+        fr: 1760273514112
       }),
     },
     developer: t({
