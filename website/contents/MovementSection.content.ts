@@ -108,10 +108,10 @@ const pageContent = {
           fr: "Je continue à développer le contenu de ce projet."
         }),
         t({
-          en: "I am looking for a team or organization with whom I can continue my work on the principles of nature.",
-          tr: "Doğanın ilkelerine yönelik çalışmalarımı birlikte devam ettirebileceğim bir ekip veya organizasyon arıyorum.",
-          de: "Ich suche ein Team oder eine Organisation, mit der ich meine Arbeit zu den Prinzipien der Natur fortsetzen kann.",
-          fr: "Je recherche une équipe ou une organisation avec laquelle je pourrais poursuivre mes travaux sur les principes de la nature."
+          en: "I am looking for a team or organization with whom I can continue my work on the principles of nature with details.",
+          tr: "Doğanın ilkelerine yönelik çalışmalarımı detaylarıyla birlikte devam ettirebileceğim bir ekip veya organizasyon arıyorum.",
+          de: "Ich suche ein Team oder eine Organisation, mit der ich meine Arbeit zu den Prinzipien der Natur mit Details fortsetzen kann.",
+          fr: "Je recherche une équipe ou une organisation avec laquelle je pourrais poursuivre mon travail sur les principes de la nature dans le détail."
         })
       ],
     },
