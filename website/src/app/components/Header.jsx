@@ -32,7 +32,6 @@ const Header = () => {
     { key: 'interconnectedness', href: '#interconnectedness' },
     { key: 'justiceInNature', href: '#justice-in-nature' },
     { key: 'health', href: '#health' },
-    { key: 'movement', href: '#movement' },
     { key: 'contact', href: '#contact', extra: "#social-links"}
   ];
 

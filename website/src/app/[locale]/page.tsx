@@ -9,7 +9,6 @@ import Footer from "@/app/components/Footer";
 import InterconnectednessSection from "../components/InterconnectednessSection";
 import JusticeSection from "../components/JusticeSection";
 import HealthSection from "../components/HealthSection";
-import MovementSection from "../components/MovementSection";
 
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
@@ -27,7 +26,6 @@ const Page: NextPageIntlayer = async ({ params }) => {
             <InterconnectednessSection />
             <JusticeSection />
             <HealthSection />
-            <MovementSection />
             <EndingSection id="ending" />
           </main>
           
