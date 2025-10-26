@@ -9,5 +9,4 @@ Attribution – Proper credit is given to the original author(s) and source.
 
 Openness – Any modified versions must remain open and freely accessible under the same license.
 
-By using or distributing this Work, you agree to the terms above.  
-If not, I will fucking ruin your reputation. :)
+By using or distributing this Work, you agree to the terms above.
