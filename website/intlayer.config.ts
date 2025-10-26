@@ -12,8 +12,8 @@ const config: IntlayerConfig = {
   content: {
     contentDir: ["contents"],
   },
-  middleware: {
-    prefixDefault: true,
+  routing: {
+    mode: "prefix-all",
   },
   editor: {
     /**

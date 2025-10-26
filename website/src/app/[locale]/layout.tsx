@@ -45,7 +45,7 @@ export const generateMetadata = async ({
     },
     openGraph: {
       ...metadata.openGraph,
-      url: multilingualUrls[locale],
+      url: multilingualUrls[locale as keyof typeof multilingualUrls],
     },
   };
 };
