@@ -6,6 +6,7 @@ const pageContent = {
     webpage: {
         title: t({
             en: "1234S.org",
+            tr: "1234S.org",
             de: "1234S.org",
             fr: "1234S.org"
         }),
@@ -14,6 +15,7 @@ const pageContent = {
     home: {
         text: t({
             en: "Logical Spirituality",
+            tr: "Mantıksal Maneviyat",
             de: "Logische Spiritualität",
             fr: "Spiritualité Logique"
         }),
@@ -21,6 +23,7 @@ const pageContent = {
     interconnectedness: { 
         text: t({
             en: "Interconnectedness",
+            tr: "Bütünlük",
             de: "Verbundenheit",
             fr: "Interconnexion"
         }),
@@ -28,6 +31,7 @@ const pageContent = {
     justiceInNature: { 
         text: t({
             en: "Justice",
+            tr: "Adalet",
             de: "Gerechtigkeit",
             fr: "Justice"
         }),
@@ -35,6 +39,7 @@ const pageContent = {
     health: { 
         text: t({
             en: "Health",
+            tr: "Sağlık",
             de: "Gesundheit",
             fr: "Santé"
         }),
@@ -42,6 +47,7 @@ const pageContent = {
     movement: { 
         text: t({
             en: "Project",
+            tr: "Proje",
             de: "Projekt",
             fr: "Projet"
         }),
@@ -49,17 +55,20 @@ const pageContent = {
     contact: {
         text: t({
             en: "Contact",
+            tr: "İletişim",
             de: "Kontakt",
             fr: "Contact"
         }),
     },
     language: t({
       en: "Language",
+      tr: "Dil",
       de: "Sprache",
       fr: "Langue"
     }),
     flags: {
         [Locales.ENGLISH]: '🇺🇸',
+        [Locales.TURKISH]: '🇹🇷',
         [Locales.GERMAN]: '🇩🇪',
         [Locales.FRENCH]: '🇫🇷'
     }

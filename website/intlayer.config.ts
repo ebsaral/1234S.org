@@ -3,11 +3,12 @@ import { Locales, type IntlayerConfig } from "intlayer";
 const config: IntlayerConfig = {
   internationalization: {
     locales: [
+      Locales.TURKISH,
       Locales.ENGLISH,
       Locales.FRENCH,
       Locales.GERMAN
     ],
-    defaultLocale: Locales.ENGLISH
+    defaultLocale: Locales.TURKISH
   },
   content: {
     contentDir: ["contents"],
