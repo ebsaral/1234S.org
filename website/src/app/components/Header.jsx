@@ -87,12 +87,6 @@ const Header = () => {
           <div 
             className="group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300"
             onClick={() => scrollToSection('#home')}
-            style={{
-              background: 'linear-gradient(135deg, #ffffff 0%, #81c784 50%, #4caf50 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
-            }}
           >
             <Image 
               className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md'
@@ -102,7 +96,11 @@ const Header = () => {
               width={30}
               height={30}
             />
-            <p className='font-bold text-left text-2xl sm:text-3xl'>{content.webpage.title}</p>
+            <p className={`font-bold text-left text-2xl sm:text-3xl ${
+              isScrolled 
+                      ? 'text-emerald-600' 
+                      : 'text-white'
+            }`}>{content.webpage.title}</p>
           </div>
 
           {/* Desktop Navigation */}
