@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "intlayer watch --with 'next dev'",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "editor": "cross-env NODE_ENV=development yarn intlayer-editor start -e development"
+    "editor": "cross-env NODE_ENV=development yarn intlayer-editor start -e development",
+    "intlayer watch": "npx intlayer build --watch"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
