@@ -64,8 +64,8 @@ const Footer = () => {
               {content.description}
             </p>
             <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
-              <p><b>{content.status.text}</b></p>
               <p><b>{content.lastUpdate.label}:</b> <a className="underline hover:no-underline underline-offset-2" href={content.links.githubCommits.value} title="GitHub commits">{new Date(content.lastUpdate.text.value).toLocaleString(locale)}</a></p>
+              <p>{content.status.text}</p>
             </div>
           </div>
         </div>
