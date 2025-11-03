@@ -87,12 +87,12 @@ const ProjectSection = () => {
               <div className='flex justify-center caret-transparent'>
                 <Image 
                   className='size-[120px] sm:size-[120px] rounded-full'
-                  src="/eminbugrasaral-2025.jpg"
-                  title={content.contact.leader.text.value}
-                  alt={content.contact.leader.text.value + " image"}
+                  src={content.contact.leader.image.src.value}
+                  title={content.contact.leader.image.description.value}
+                  alt={content.contact.leader.image.description.value}
+                  width={content.contact.leader.image.size.value}
+                  height={content.contact.leader.image.size.value}
                   priority={false}
-                  width={120}
-                  height={120}
                 />
               </div>
               <div className='flex flex-col gap-2 text-xl'>

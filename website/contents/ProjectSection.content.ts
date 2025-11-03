@@ -124,6 +124,16 @@ const pageContent = {
       }),
       leader: {
         text: "Emin Buğra Saral",
+        image: {
+          src: "/eminbugrasaral-2025.jpg",
+          description: t({
+            en: "Let's paint a tired Emin, given a spoon instead of a microphone.",
+            tr: "Eline mikrofon yerine kaşık verilen bir Emin resmedelim.",
+            de: "Malen wir einen müden Emin, der statt eines Mikrofons einen Löffel bekommt.",
+            fr: "Peignons un Emin fatigué, avec une cuillère à la place d'un microphone."
+          }), 
+          size: 120
+        },
         href: t({
           en: "https://0.1234s.org/en",
           tr: "https://0.1234s.org/tr",
