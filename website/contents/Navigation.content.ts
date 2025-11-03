@@ -44,7 +44,7 @@ const pageContent = {
             fr: "Santé"
         }),
     },
-    movement: { 
+    project: { 
         text: t({
             en: "Project",
             tr: "Proje",
