@@ -57,7 +57,13 @@ const pageContent = {
     }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
-      developer: "https://0.1234s.org"
+      developer: "https://0.1234s.org",
+      social: [
+        { url: "https://www.instagram.com/logical.spirituality", label: "Instagram" },
+        { url: "https://x.com/L_Spirituality", label: "X" }, 
+        { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
+        { url: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
+      ]
     }
   },
 } satisfies Dictionary;
