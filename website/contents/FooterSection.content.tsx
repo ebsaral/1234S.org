@@ -60,7 +60,7 @@ const pageContent = {
       developer: "https://0.1234s.org",
       social: [
         { url: "https://www.instagram.com/logical.spirituality", label: "Instagram" },
-        { url: "https://x.com/L_Spirituality", label: "X" }, 
+        { url: "https://x.com/1234S_en", label: "X" }, 
         { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
         { url: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
       ]
