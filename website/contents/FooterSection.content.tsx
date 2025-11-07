@@ -11,49 +11,35 @@ const pageContent = {
   content: {
     title: t({
       en: "Logical Spirituality by 1234S.org:",
-      tr: "1234S.org aracılığıyla Mantıksal Maneviyat:",
-      de: "Logische Spiritualität von 1234S.org:",
-      fr: "Spiritualité Logique par 1234S.org:"
+      tr: "1234S.org aracılığıyla Mantıksal Maneviyat:"
     }),
     description: t({
       en: "A philosophical movement project.",
-      tr: "Bir felsefi akım projesi.",
-      de: "Ein philosophisches Bewegungsprojekt.",
-      fr: "Un projet de mouvement philosophique."
+      tr: "Bir felsefi akım projesi."
     }),
     status: {
       label: t({
         en: "Releases",
-        tr: "Sürümler",
-        de: "Veröffentlichungen",
-        fr: "Publications"
+        tr: "Sürümler"
       }),
       text: t({
         en: ReleaseLink("Beta Version"),
-        tr: ReleaseLink("Beta Sürümü"),
-        de: ReleaseLink("Betaversion"),
-        fr: ReleaseLink("Version bêta")
+        tr: ReleaseLink("Beta Sürümü")
       }),
     },
     lastUpdate: {
       label: t({
         en: "Last content update",
         tr: "Son içerik güncelleme",
-        de: "Letzte Inhaltsaktualisierung",
-        fr: "Dernière mise à jour du contenu"
       }),
       text: t({
         en: 1762166828721,
-        tr: 1762166828721,
-        de: 1762166828721,
-        fr: 1762166828721
+        tr: 1762166828721
       }),
     },
     developer: t({
       en: "The Spirit Guide",
-      tr: "Maneviyat Rehberi",
-      de: "Der Geistführer",
-      fr: "Le Guide Spirituel"
+      tr: "Maneviyat Rehberi"
     }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
@@ -62,16 +48,12 @@ const pageContent = {
         { url: t({
             en: "https://www.instagram.com/logical.spirituality",
             tr: "https://www.instagram.com/mantiksal.maneviyat",
-            de: "https://www.instagram.com/logical.spirituality",
-            fr: "https://www.instagram.com/logical.spirituality",
           }), 
           label: "Instagram"
         },
         { url: t({
             en: "https://x.com/1234S_en",
             tr: "https://x.com/1234S_tr",
-            de: "https://x.com/1234S_en",
-            fr: "https://x.com/1234S_en",
           }),
           label: "X"
         }, 
