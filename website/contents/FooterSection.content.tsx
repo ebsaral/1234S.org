@@ -59,8 +59,22 @@ const pageContent = {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
       developer: "https://0.1234s.org",
       social: [
-        { url: "https://www.instagram.com/logical.spirituality", label: "Instagram" },
-        { url: "https://x.com/1234S_en", label: "X" }, 
+        { url: t({
+            en: "https://www.instagram.com/logical.spirituality",
+            tr: "https://www.instagram.com/mantiksal.maneviyat",
+            de: "https://www.instagram.com/logical.spirituality",
+            fr: "https://www.instagram.com/logical.spirituality",
+          }), 
+          label: "Instagram"
+        },
+        { url: t({
+            en: "https://x.com/1234S_en",
+            tr: "https://x.com/1234S_tr",
+            de: "https://x.com/1234S_en",
+            fr: "https://x.com/1234S_en",
+          }),
+          label: "X"
+        }, 
         { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
         { url: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
       ]
