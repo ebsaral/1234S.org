@@ -33,8 +33,8 @@ const pageContent = {
         tr: "Son içerik güncelleme",
       }),
       text: t({
-        en: 1762166828721,
-        tr: 1762166828721
+        en: 1762582816742,
+        tr: 1762582816742
       }),
     },
     developer: t({

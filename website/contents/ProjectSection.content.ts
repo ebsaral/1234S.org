@@ -13,7 +13,7 @@ const pageContent = {
     }),
     description: t({
       en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we can improve the health conditions of the environments we share.\n\nIt is possible to live in an educated society where we never get sick or have accidents. It is also possible to bring luck together with opportunities to everyone's lives.",
-      tr: "*Mantıklı Maneviyat* aracılığıyla, **Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduğunu öğrendik. Bu temel bilgiyi genişleterek, paylaştığımız çevrelerin sağlık koşullarını iyileştirebiliriz. *Hiç hasta olmadığımız veya kaza geçirmediğimiz eğitimli bir toplumda yaşamak mümkündür.* Ayrıca, şansı fırsatlarla birlikte herkesin hayatına getirmek de mümkündür.",
+      tr: "*Mantıklı Maneviyat* aracılığıyla, **Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduğunu öğrendik. Bu temel bilgiyi genişleterek, paylaştığımız çevrelerin sağlık koşullarını iyileştirebiliriz. **Hiç hasta olmadığımız veya kaza geçirmediğimiz eğitimli bir toplumda yaşamak ve şansı fırsatlarla birlikte herkesin hayatına getirmek mümkündür.**",
     }),
     items: [
       {
@@ -22,8 +22,8 @@ const pageContent = {
           tr: "Sağlık",
         }),
         subtitle: t({
-          en: "We can treat all diseases without medication. To be able to live in a healthy society, living conditions must be developed for everyone so that negative actions are not repeated after treatments. Because a healthy life is a fundamental right for every person.\n\nThe increase in the number of hospitals and medicines in countries proves that the general health of society is deteriorating and negative actions are increasing. Therefore, opening a hospital is not a success, but a cry for help.\n\nWhile you are reading this text right now, someone is suffering in a hospital, having an accident somewhere, or losing their lives... The fact that a worker who performs any action faces nature's justice proves that responsibilities must be shared equally.",
-          tr: "İlaç kullanmadan bütün hastalıkları tedavi edebiliriz. Sağlıklı bir toplumda yaşayabilmek için, tedavilerden sonra olumsuz davranışların tekrarlanmaması için herkes için yaşam koşullarının geliştirilmesi gerekir. Çünkü sağlıklı bir yaşam her insan için temel bir haktır. Ülkelerdeki hastane ve ilaç sayısının artması, toplumun genel sağlığının kötüleştiğini ve olumsuz davranışların arttığını kanıtlıyor. Dolayısıyla bir hastane açmak bir başarı değil, bir yardım çağrısıdır. Şu anda bu metni okurken, biri hastanede acı çekiyor, bir kaza geçiriyor veya hayatını kaybediyor... Herhangi bir eylemde bulunan bir işçinin doğanın adaletiyle karşı karşıya kalması, sorumlulukların eşit olarak paylaşılması gerektiğini kanıtlıyor.",
+          en: "We can treat all diseases without medication. To be able to live in a healthy society, living conditions must be developed for everyone so that negative actions are not repeated after treatments. Because a healthy life is a fundamental right for every person.\n\nThe increase in the number of hospitals and medicines in countries proves that the general health of society is deteriorating and negative actions are increasing. Therefore, opening a hospital is not a success, but a cry for help.\n\nWhile you are reading this text right now, someone is suffering in a hospital, having an accident somewhere, or losing their lives... The fact that a worker who performs any action faces nature's justice proves that responsibilities must be shared equally. Each consequence can be analyzed to understand its underlying causes, and society can be educated about these reasons.",
+          tr: "İlaç kullanmadan bütün hastalıkları tedavi edebiliriz. Sağlıklı bir toplumda yaşayabilmek ve tedavilerden sonra olumsuz davranışların tekrarlanmaması için her canlının yaşam koşullarının geliştirilmesi gerekir. Çünkü sağlıklı bir yaşam herkes için temel bir haktır.\n\nHastane ve ilaç sayılarındaki artış, toplumun genel sağlığının kötüleştiğini ve olumsuz davranışların arttığını kanıtlar. Dolayısıyla  hastane açmak bir başarı değil, yardım çağrısıdır. Şu anda siz bu metni okurken, birileri hastanede acı çekiyor, kaza geçiriyor veya hayatını kaybediyorlar... Herhangi bir eylemde bulunan bir işçinin doğanın adaletiyle karşı karşıya kalması, sorumlulukların eşit olarak paylaşılması gerektiğini kanıtlar. Tüm olumsuzlukların sebepleri analiz edilebilir ve çözümler topluma öğretilebilir.",
         }),
       },
       {
@@ -32,8 +32,8 @@ const pageContent = {
           tr: "Eğitim",
         }),
         subtitle: t({
-          en: "Teaching the truth of justice in nature in detail to every person is necessary for the rights and potentials of all living beings. The increase in quality of life in line with the principles of Equality and Freedom positively reflects on the entire society.\n\nEveryone can learn how to gain and shape more talents, how to align social interactions better with nature's luck scale, how to improve any business in a more healthy way and how to unlock more gifts that are visibly hidden in nature's offerings. Exploring the interconnectedness of philosophy, psychology, sociology, and related fields better in depth can improve everyone's understanding of life and their potentials.",
-          tr: "Doğadaki adalet gerçeğini her insana ayrıntılı olarak öğretmek, tüm canlıların hakları ve potansiyelleri için gereklidir. Eşitlik ve Özgürlük ilkeleri doğrultusunda yaşam kalitesindeki artış, tüm topluma olumlu yansır.\n\nHerkes daha fazla yetenek edinmeyi ve şekillendirmeyi, sosyal etkileşimleri doğanın şans ölçeğiyle daha iyi uyumlu hale getirmeyi, herhangi bir işi daha sağlıklı bir şekilde nasıl geliştireceğini ve doğanın sunduklarında açıkça gizlenmiş daha fazla yeteneği nasıl ortaya çıkaracağını öğrenebilir. Felsefe, psikoloji, sosyoloji ve ilgili alanların birbiriyle olan bağlantısını daha derinlemesine incelemek, herkesin yaşam ve potansiyelleri hakkındaki anlayışını geliştirebilir.",
+          en: "Teaching the truth of justice in nature in detail to every person is necessary for the rights and potentials of all living beings. The increase in quality of life in line with the principles of Equality and Freedom positively reflects on the entire society.\n\nEveryone can learn how to gain and shape more talents, how to align social interactions better with nature's luck scale, how to improve any business in a more healthy way and how to unlock more gifts that are visibly hidden in nature's offerings. The teachings of Logical Spirituality, which will revolutionize the social sciences, enable us to gain a deeper understanding of the interconnections between philosophy, psychology, sociology, and other related fields.",
+          tr: "Doğadaki adalet gerçeğini her insana ayrıntılı olarak öğretmek, tüm canlıların hakları ve potansiyelleri için gereklidir. Eşitlik ve Özgürlük ilkeleri doğrultusunda yaşam kalitesindeki artış, tüm topluma olumlu yansır.\n\nHerkes daha fazla yetenek edinmeyi ve şekillendirmeyi, sosyal etkileşimleri doğanın şans ölçeğiyle daha iyi uyumlu hale getirmeyi, herhangi bir işi daha sağlıklı bir şekilde nasıl geliştireceğini ve doğanın bahşettiklerinde görülmeyi bekleyen daha fazla kazancı nasıl ortaya çıkaracağını öğrenebilir. Sosyal bilimlerde çığır açacak olan Mantıksal Maneviyat öğretileri, felsefe, psikoloji, sosyoloji ve diğer alanların birbiriyle olan bağlantılarını daha derinlemesine anlamamızı sağlar.",
         }),
       },
       {
@@ -42,8 +42,8 @@ const pageContent = {
           tr: "Çevre",
         }),
         subtitle: t({
-          en: "Since every creation and action in nature has consequences, environmental awareness must comply with the principles of equality and freedom in all areas.\n\nEngineering, architecture, urban planning, transportation, energy production, and all other fields must develop in accordance with the truth of justice in nature.\n\nFor example: Even moving a single paving stone can harm the health of the person who moved it. User interfaces must align with good intentions to prevent negative actions from occurring through their use.",
-          tr: "Doğadaki her yaratılış ve eylemin sonuçları olduğundan, çevre bilinci tüm alanlarda eşitlik ve özgürlük ilkelerine uymalıdır.\n\nMühendislik, mimarlık, şehir planlaması, ulaşım, enerji üretimi ve diğer tüm alanlar, doğadaki adalet gerçeğine uygun olarak gelişmelidir.\n\nÖrneğin: Tek bir kaldırım taşını hareket ettirmek bile, onu hareket ettiren kişinin sağlığına zarar verebilir. Kullanıcı arayüzleri, olumsuz eylemlerin kullanım yoluyla gerçekleşmesini önlemek için iyi niyetlerle uyumlu olmalıdır.",
+          en: "Since every creation and action in nature has consequences, environmental awareness must comply with the principles of equality and freedom in all areas.\n\nEngineering, architecture, urban planning, transportation, energy production, and all other fields must develop in accordance with the truth of justice in nature.\n\nUser interfaces should be designed in accordance with the teachings of Logical Spirituality to prevent negative actions from occurring through their use. Even moving a single paving stone can harm the health of the person who moves it. Any negativity or illness can spread to other parts of society.",
+          tr: "Doğadaki her yaratımın ve eylemin sonuçları olduğundan, çevre bilinci tüm alanlarda eşitlik ve özgürlük ilkelerine uymalıdır.\n\nMühendislik, mimarlık, şehir planlaması, ulaşım, enerji üretimi ve diğer tüm alanlar, doğadaki adalet gerçeğine uygun olarak gelişmelidir.\n\nKullanıcı arayüzleri, kullanım yoluyla olumsuz eylemlerin gerçekleşmesini önlemek için Mantıklı Maneviyat öğretilerine uygun olarak tasarlanmalıdır. Tek bir kaldırım taşını hareket ettirmek bile, onu hareket ettiren kişinin sağlığına zarar verebilir. Herhangi bir olumsuzluk veya hastalık toplumun diğer kesimlerine yayılabilir.",
         }),
       },
       {
@@ -52,8 +52,8 @@ const pageContent = {
           tr: "Yaşam",
         }),
         subtitle: t({
-          en: "Any idea, invention, or product emerges through the inspiration (means) of living beings within the environment. Therefore, every gain must be, and already is, a collective gain for society.\n\nIn nature, where everything is free, the struggles for livelihood, stress, selfishness, inequality of opportunities, and all other negatives are obstacles to a healthy life. By realizing that we have come to life to truly live, we must benefit from the resources of the environment in a way that considers everyone's well-being.",
-          tr: "Herhangi bir fikir, buluş veya ürün, çevredeki canlıların ilhamıyla (aracılığıyla) ortaya çıkar. Bu nedenle, her kazanım toplum için kolektif bir kazanım olmalıdır ve zaten öyledir. Her şeyin bedava olduğu doğada, geçim mücadelesi, stres, bencillik, fırsat eşitsizliği ve diğer tüm olumsuzluklar sağlıklı bir yaşamın önündeki engellerdir. Yaşamak için dünyaya geldiğimizi fark ederek, çevrenin kaynaklarını herkesin refahını gözetecek şekilde değerlendirmeliyiz.",
+          en: "Any idea, invention, or product emerges through the inspiration (means) of living beings within the environment. Therefore, every gain must be, and already is, a collective gain for society.\n\nIn nature, where everything is free, the struggles for livelihood, stress, selfishness, inequality of opportunities, and all other negatives are obstacles to a healthy life. By realizing that we have come to life to truly live, we must benefit from the resources of the environment in a way that considers everyone's well-being. The misuse of the opportunities that nature provides to maintain balance should be prevented.",
+          tr: "Herhangi bir fikir, buluş veya ürün, çevredeki canlıların ilhamıyla (aracılığıyla) ortaya çıkar. Bu nedenle, her kazanım toplum için ortak bir kazanım olmalıdır ve zaten öyledir.\n\nHer şeyin bedava olduğu doğada, geçim mücadelesi, stres, bencillik, fırsat eşitsizliği ve diğer tüm olumsuzluklar sağlıklı bir yaşamın önündeki engellerdir.  Yaşamak için dünyaya geldiğimizi fark ederek, çevrenin kaynaklarını herkesin refahını gözetecek şekilde değerlendirmeliyiz. Doğanın dengeyi sağlamak için sunduğu fırsatların olumsuz biçimlerde değerlendirilmelerinin önüne geçilmelidir.",
         }),
       }
     ],
@@ -69,8 +69,8 @@ const pageContent = {
     },
     status: {
       title: t({
-          en: "Current Status",
-          tr: "Güncel Durum",
+          en: "Project's Status",
+          tr: "Projenin Durumu",
         }),
       items: [
         t({
@@ -79,7 +79,7 @@ const pageContent = {
         }),
         t({
           en: "I would like to apply this philosophical movement's details into real-world applications. Example ideas: Building an Education and Healing platform, consultancy for any business and/or non-profit project, contributing to environmental projects, etc.",
-          tr: "Bu felsefi akımın ayrıntılarını gerçek dünya uygulamalarına aktarmak istiyorum. Örnek fikirler: Bir Eğitim ve İyileştirme platformu kurmak, herhangi bir işletme ve/veya kâr amacı gütmeyen proje için danışmanlık yapmak, çevre projelerine katkıda bulunmak vb.",
+          tr: "Bu felsefi akımın ayrıntılarını gerçek dünya uygulamalarına aktarmak istiyorum. Örnek fikirler: Bir Eğitim ve Sağlık platformu kurmak, herhangi bir işletme ve/veya kâr amacı gütmeyen proje için danışmanlık yapmak, çevre projelerine katkıda bulunmak vb.",
         })
       ],
     },
@@ -94,7 +94,7 @@ const pageContent = {
           src: "/eminbugrasaral-2025.jpg",
           description: t({
             en: "Let's paint a tired Emin, given a spoon instead of a microphone.",
-            tr: "Eline mikrofon yerine kaşık verilen bir Emin resmedelim.",
+            tr: "Eline mikrofon yerine kaşık verilmiş yorgun bir Emin resmedelim.",
           }), 
           size: 120
         },
