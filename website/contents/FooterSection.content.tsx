@@ -43,7 +43,10 @@ const pageContent = {
     }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
-      developer: "https://0.1234s.org",
+      developer: t({
+        en: "https://0.1234s.org/en",
+        tr: "https://0.1234s.org/tr"
+      }),
       social: [
         { url: t({
             en: "https://www.instagram.com/logical.spirituality",
