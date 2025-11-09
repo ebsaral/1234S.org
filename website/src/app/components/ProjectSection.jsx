@@ -7,13 +7,16 @@ import ContentLayout from './ContentLayout';
 import { Card, CardContent } from './ui/card';
 import Quote from './Custom/Quote';
 
+
 import {
   Lightbulb, 
   HeartIcon,
   ImagePlay,
   Globe,
   Gift,
-  FileHeart
+  HeartPlus,
+  FileHeart,
+  FileBadge
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -74,7 +77,7 @@ const ProjectSection = () => {
       {/* Project information section */}
       <div className='max-w-5xl mx-auto my-4 flex flex-row gap-4'>
         <div className='sm:col-span-1 mt-2'>
-          <FileHeart className='text-gray-800' size={50} />
+          <HeartPlus className='text-gray-800' size={50} />
         </div>
         <p className='text-left text-xl sm:text-2xl text-gray-800 mb-6'>{content.contact.note}</p>
       </div>
@@ -101,7 +104,7 @@ const ProjectSection = () => {
                   <div className='text-sm text-gray-800'>{content.contact.leader.description}</div>
                 </div>
               
-                <Link className='text-sm underline underline-offset-2 hover:no-underline' href={content.contact.resume.href.value}>{content.contact.resume.text}</Link>
+                <Link className='mt-2 flex flex-row gap-1 justify-center items-center text-sm underline underline-offset-2 hover:no-underline' href={content.contact.resume.href.value}><FileBadge size={16} /> {content.contact.resume.text}</Link>
               </div>
             </div>
           </CardContent>
@@ -112,6 +115,7 @@ const ProjectSection = () => {
               <ul className='list-disc px-2 text-left'>
                 {content.status.items.map((item, i) => <li key={i}>{item}</li>)}
               </ul>
+              <Link className='flex flex-row gap-1 justify-center items-center mt-4 text-sm underline underline-offset-2 hover:no-underline' href={content.sponsorship.href.value}><FileHeart size={16} /> {content.sponsorship.title}</Link>
           </CardContent>
         </Card>}
       </div>

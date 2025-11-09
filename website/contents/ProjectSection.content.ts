@@ -109,8 +109,8 @@ const pageContent = {
       },
       resume: {
         text: t({
-          en: "(Résumé)",
-          tr: "(Öz Geçmiş)",
+          en: "Résumé",
+          tr: "Öz Geçmiş",
         }),
         href: t({
           en: "https://0.1234s.org/files/cv/english.pdf",
@@ -122,6 +122,16 @@ const pageContent = {
         tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
       })
     },
+    sponsorship: {
+      href: t({
+        en: "files/sponsorship.pdf",
+        tr: "files/sponsorluk.pdf",
+      }),
+      title: t({
+        en: "View the details for sponsorship",
+        tr: "Sponsorluk için detaylara göz atın",
+      })
+    }
   },
 } satisfies Dictionary;
 
