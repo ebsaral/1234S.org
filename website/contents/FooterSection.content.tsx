@@ -59,7 +59,10 @@ const pageContent = {
             tr: "https://x.com/1234S_tr",
           }),
           label: "X"
-        }, 
+        },
+        { url: "https://substack.com/@logicalspirituality",
+          label: "Substack"
+        },
         { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
         { url: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
       ]
