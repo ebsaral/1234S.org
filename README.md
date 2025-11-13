@@ -17,16 +17,8 @@
 
 ... and more.
 
-## Supporters
+---
 
-- None
+You can view the project's progress [here](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen).  
 
-*All forms of contribution are welcome.*
-
-## Credits
-
-This *open source* philosophical movement project is initiated and led by [Emin Buğra Saral](https://0.1234s.org).
-
-## Notes
-
-You can view the project's progress [here](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen).
+**This *open source* philosophical movement project is initiated and led by [Emin Buğra Saral](https://0.1234s.org).**
