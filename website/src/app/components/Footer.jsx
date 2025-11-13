@@ -44,7 +44,6 @@ const Footer = () => {
               <a className='underline hover:no-underline' href={content.links.developer.value} title={content.developer.value}>{content.developer}</a>
             </p>
             <p className="text-gray-400 mb-2 text-sm whitespace-pre-line">
-              {content.title}<br></br>
               {content.description}
             </p>
             <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
