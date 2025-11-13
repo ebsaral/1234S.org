@@ -60,7 +60,10 @@ const pageContent = {
           }),
           label: "X"
         },
-        { url: "https://substack.com/@logicalspirituality",
+        { url: t({
+            en: "https://substack.com/@logicalspirituality",
+            tr: "https://substack.com/@maneviyat",
+          }),
           label: "Substack"
         },
         { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
