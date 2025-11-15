@@ -61,8 +61,8 @@ const pageContent = {
           label: "X"
         },
         { url: t({
-            en: "https://substack.com/@logicalspirituality",
-            tr: "https://substack.com/@maneviyat",
+            en: "https://logicalspirituality.substack.com",
+            tr: "https://maneviyat.substack.com",
           }),
           label: "Substack"
         },
