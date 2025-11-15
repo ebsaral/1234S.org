@@ -48,26 +48,35 @@ const pageContent = {
         tr: "https://0.1234s.org/tr"
       }),
       social: [
-        { url: t({
+        {
+          url: t({
             en: "https://www.instagram.com/logical.spirituality",
             tr: "https://www.instagram.com/mantiksal.maneviyat",
           }), 
           label: "Instagram"
         },
-        { url: t({
+        {
+          url: t({
             en: "https://x.com/1234S_en",
             tr: "https://x.com/1234S_tr",
           }),
           label: "X"
         },
-        { url: t({
+        {
+          url: t({
             en: "https://logicalspirituality.substack.com",
             tr: "https://maneviyat.substack.com",
           }),
           label: "Substack"
         },
-        { url: "https://www.linkedin.com/company/1234s-org", label: "LinkedIn" },
-        { url: "https://github.com/ebsaral/Logical-Spirituality", label: "GitHub" }
+        {
+          url: "https://www.linkedin.com/company/1234s-org",
+          label: "LinkedIn"
+        },
+        {
+          url: "https://github.com/ebsaral/Logical-Spirituality",
+          label: "GitHub"
+        }
       ]
     }
   },
