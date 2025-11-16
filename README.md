@@ -31,4 +31,4 @@ You can view the project's progress [here](https://github.com/ebsaral/Logical-Sp
 
 ## Special Thanks
 
-- [Emin Buğra Saral](https://0.1234S.org)
+- [Emin Buğra Saral](https://0.1234S.org) 🕺
