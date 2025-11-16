@@ -2,6 +2,12 @@
 
 **Logical Spirituality** builds on traditional spirituality by uncovering the **unseen logic of nature**. It demonstrates how these truths are observable in practice through two guiding principles: **Interconnectedness** and **Justice in Nature**. Their relationship is explored through a *multidimensional* cycle of learning, with the **health of all living beings** serving as the foundation.
 
+## Philosophy for Everybody
+
+- An easy and intuitive perspective more powerful than major competitors
+- Open source, so anyone can contribute to its development
+- Philosophy that is understandable in any language
+- Suitability for everyday tasks, allowing for short development times
 
 ## Core areas you can master through this project
 
