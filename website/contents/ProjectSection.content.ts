@@ -103,7 +103,7 @@ const pageContent = {
           tr: "https://0.1234s.org/tr",
         }),
         description: t({
-          en: "The Spirit Guide and Computer Engineer",
+          en: "Spirit Guide & Computer Engineer",
           tr: "Maneviyat Rehberi ve Bilgisayar Mühendisi",
         })
       },
