@@ -38,7 +38,7 @@ const pageContent = {
       }),
     },
     developer: t({
-      en: "The Spirit Guide",
+      en: "Spirit Guide",
       tr: "Maneviyat Rehberi"
     }),
     links: {
