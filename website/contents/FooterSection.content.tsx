@@ -14,8 +14,8 @@ const pageContent = {
       tr: "1234S.org aracılığıyla Mantıksal Maneviyat:"
     }),
     description: t({
-      en: "A philosophical movement project.",
-      tr: "Bir felsefi akım projesi."
+      en: "An open source philosophical movement project.",
+      tr: "Bir açık kaynak felsefi akım projesi."
     }),
     status: {
       label: t({
