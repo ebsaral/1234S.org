@@ -37,10 +37,6 @@ const pageContent = {
         tr: 1762945408995
       }),
     },
-    developer: t({
-      en: "Spirit Guide",
-      tr: "Maneviyat Rehberi"
-    }),
     links: {
       githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
       developer: t({

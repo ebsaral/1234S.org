@@ -84,39 +84,6 @@ const pageContent = {
       ],
     },
     contact: {
-      title: t({
-        en: "Project Leader",
-        tr: "Proje Lideri",
-      }),
-      leader: {
-        text: "Emin Buğra Saral",
-        image: {
-          src: "/eminbugrasaral-2025.jpg",
-          description: t({
-            en: "Let's paint a tired Emin, given a spoon instead of a microphone.",
-            tr: "Eline mikrofon yerine kaşık verilmiş yorgun bir Emin resmedelim.",
-          }), 
-          size: 120
-        },
-        href: t({
-          en: "https://0.1234s.org/en",
-          tr: "https://0.1234s.org/tr",
-        }),
-        description: t({
-          en: "Spirit Guide & Computer Engineer",
-          tr: "Maneviyat Rehberi ve Bilgisayar Mühendisi",
-        })
-      },
-      resume: {
-        text: t({
-          en: "Résumé",
-          tr: "Öz Geçmiş",
-        }),
-        href: t({
-          en: "https://0.1234s.org/files/cv/english.pdf",
-          tr: "https://0.1234s.org/files/cv/turkish.pdf",
-        }),
-      },
       note: t({
         en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below.",
         tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",

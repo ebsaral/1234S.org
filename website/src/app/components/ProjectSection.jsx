@@ -83,32 +83,6 @@ const ProjectSection = () => {
       </div>
 
       <div className='grid md:grid-cols-2 gap-6'>
-        {content.contact && <Card>
-          <CardContent className="p-8 text-center">
-            <div className='flex flex-col gap-2'>
-              {/* Image */}
-              <div className='flex justify-center caret-transparent'>
-                <Image 
-                  className='size-[120px] sm:size-[120px] rounded-full'
-                  src={content.contact.leader.image.src.value}
-                  title={content.contact.leader.image.description.value}
-                  alt={content.contact.leader.image.description.value}
-                  width={content.contact.leader.image.size.value}
-                  height={content.contact.leader.image.size.value}
-                  priority={false}
-                />
-              </div>
-              <div className='flex flex-col gap-2 text-xl'>
-                <div className='flex flex-col text-center items-center gap-2'>
-                  <Link className='underline underline-offset-2 hover:no-underline' href={content.contact.leader.href.value}>{content.contact.leader.text}</Link>
-                  <div className='text-sm text-gray-800'>{content.contact.leader.description}</div>
-                </div>
-              
-                <Link className='mt-2 flex flex-row gap-1 justify-center items-center text-sm underline underline-offset-2 hover:no-underline' href={content.contact.resume.href.value}><FileBadge size={16} /> {content.contact.resume.text}</Link>
-              </div>
-            </div>
-          </CardContent>
-        </Card>}
         {content.status && <Card>
           <CardContent className="p-8 text-center">
               <h3 className='mb-2 text-xl font-bold'>{content.status.title}</h3>
