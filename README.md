@@ -25,8 +25,6 @@
 
 ---
 
-You can view the project's progress [here](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen).  
-
 **This *open source* philosophical movement project is initiated and led by [1234S.org](https://www.1234S.org).**
 
 ## Special Thanks
