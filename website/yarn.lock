@@ -161,6 +161,23 @@
   resolved "https://registry.yarnpkg.com/@better-fetch/fetch/-/fetch-1.1.18.tgz#4ddc65a703c65e6036947ff335e635a5a38e6225"
   integrity sha512-rEFOE1MYIsBmoMJtQbl32PGHHXuG2hDxvEd7rUHE0vCBoFQVSDqaVs9hkZEtHCxRoY+CljXKFCOuJ8uxqw1LcA==
 
+"@clack/core@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@clack/core/-/core-0.5.0.tgz#970df024a927d6af90111667a0384e233b5ffa1a"
+  integrity sha512-p3y0FIOwaYRUPRcMO7+dlmLh8PSRcrjuTndsiA0WAFbWES0mLZlrjVoBRZ9DzkPFJZG6KGkJmoEAY0ZcVWTkow==
+  dependencies:
+    picocolors "^1.0.0"
+    sisteransi "^1.0.5"
+
+"@clack/prompts@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@clack/prompts/-/prompts-0.11.0.tgz#5c0218f2b46626a50d72d8a485681eb8d94bd2a7"
+  integrity sha512-pMN5FcrEw9hUkZA4f+zLlzivQSeQf5dRGJjSUbvVYDLvpKCdQx5OaknvKzgbtXOizhP+SJJJjqEbOe55uKKfAw==
+  dependencies:
+    "@clack/core" "0.5.0"
+    picocolors "^1.0.0"
+    sisteransi "^1.0.5"
+
 "@emnapi/core@^1.4.3":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.5.0.tgz#85cd84537ec989cebb2343606a1ee663ce4edaf0"
@@ -720,12 +737,12 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/api@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.0.1.tgz#d80825fbc25f9006bb7a917cbf0073511221f400"
-  integrity sha512-fiQVvbsyZni0gSEQjgiMO5GNCkTbpMi8rsGji7RvxMoBNkUcCWEhET6LHxg4R+Z2pRYD2aZCxwdhUVlbsmWV9A==
+"@intlayer/api@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.3.9.tgz#560e9c9b81a90465ff17b65a1526461c88058ba0"
+  integrity sha512-mgJeb9lYw8FmA0JjK+1DdTqjYc2bWwUi0pEN0IKQ9SQv+WTIOxdlrVQAwzO0+jRhR5P+oLxZ0CMtXBaV+YCoaA==
   dependencies:
-    "@intlayer/config" "7.0.1"
+    "@intlayer/config" "7.3.9"
 
 "@intlayer/babel@5.8.1":
   version "5.8.1"
@@ -762,25 +779,24 @@
     p-limit "^3.1.0"
     simple-git "^3.27.0"
 
-"@intlayer/chokidar@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.0.1.tgz#bedf594c55dbe030f39685303de82e0d00417b85"
-  integrity sha512-Iss+Uahfp9lY5PTayg5rXQSY9z1g1GbB35ri50uYK2rZ5Hur7mTIkUm3inimmS/l6YxDYtUoEjFAFWz1S/oJqQ==
+"@intlayer/chokidar@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.3.9.tgz#f4e9e673db3240c83b4c8ae94eded6209b584052"
+  integrity sha512-i6DADMB0fk0ArJUBEyEmf9CWqerRZ/AlNCiQVY+wEo4DO1sDoVxkUC8wsr4qVbAX90+FlxObBg0XbhE82xPVdA==
   dependencies:
-    "@intlayer/api" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/core" "7.0.1"
-    "@intlayer/dictionaries-entry" "7.0.1"
-    "@intlayer/remote-dictionaries-entry" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    "@intlayer/unmerged-dictionaries-entry" "7.0.1"
+    "@intlayer/api" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/dictionaries-entry" "7.3.9"
+    "@intlayer/remote-dictionaries-entry" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/unmerged-dictionaries-entry" "7.3.9"
     chokidar "3.6.0"
     crypto-js "4.2.0"
-    deep-equal "2.2.3"
     deepmerge "4.3.1"
     fast-glob "3.3.3"
-    simple-git "3.28.0"
-    ts-morph "27.0.0"
+    simple-git "3.30.0"
+    ts-morph "27.0.2"
 
 "@intlayer/cli@5.8.1":
   version "5.8.1"
@@ -796,18 +812,20 @@
     fast-glob "^3.3.3"
     p-limit "^3.1.0"
 
-"@intlayer/cli@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.0.1.tgz#cc2fe79aef4ee84caae292a09d4695cf5b324e09"
-  integrity sha512-Ks45E276XDnb7MM6N7uNSKbZd6BQL6EzBs5K/B3djKv/T6dWfrzlKbQqIbStuK/vmOV6MJsq/BMnNqmmV4Vgog==
+"@intlayer/cli@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.3.9.tgz#277cfc2e42abf6e1a00ad8c7532eab131201d848"
+  integrity sha512-i11rzCBZfKF+bENWk3Dw9LuioyeKrtSx0FxQ6ko6nwKoa0GHhZspdAcGCVoI2gJxqE7Q4Nh8v6rGZUF3WUbDsQ==
   dependencies:
-    "@intlayer/api" "7.0.1"
-    "@intlayer/chokidar" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/dictionaries-entry" "7.0.1"
-    "@intlayer/remote-dictionaries-entry" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    "@intlayer/unmerged-dictionaries-entry" "7.0.1"
+    "@clack/prompts" "^0.11.0"
+    "@intlayer/api" "7.3.9"
+    "@intlayer/chokidar" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/dictionaries-entry" "7.3.9"
+    "@intlayer/remote-dictionaries-entry" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/unmerged-dictionaries-entry" "7.3.9"
     commander "14.0.1"
     eventsource "3.0.7"
     fast-glob "3.3.3"
@@ -821,12 +839,12 @@
     dotenv "^16.6.1"
     esbuild "^0.25.2"
 
-"@intlayer/config@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.0.1.tgz#8b4d1dbe077cd8a8a9b68be3e9fc89bd5e518fd3"
-  integrity sha512-chXOv8m2uiQhm2e2fLmwUejVEUy/5zksB5R3yiAvc1E6gc/0tMJl7T/gCatllXY8Khw0F9NPBUxSvYByizyVBw==
+"@intlayer/config@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.3.9.tgz#08d5f5986a8c23a157b9c7a18a40933adf2db320"
+  integrity sha512-QV1wkogohfGcDOGycJKOeT3jMWKU291k512gb3uMa9npYg8B0lGumM8eqEHl10fJ4y//LysfbIjMQkNTB9qhEg==
   dependencies:
-    "@intlayer/types" "7.0.1"
+    "@intlayer/types" "7.3.9"
     deepmerge "4.3.1"
     dotenv "16.6.1"
     esbuild "0.25.2"
@@ -841,16 +859,16 @@
     "@intlayer/dictionaries-entry" "5.8.1"
     negotiator "^1.0.0"
 
-"@intlayer/core@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.0.1.tgz#d79551cdb6f7f9496054965459b46959a41e1e74"
-  integrity sha512-XW+l7LFMTov/Ul2+CFJ8iK8x9sY9zmEYHaDn3cWKYow6oZowuNzaw/1IOaZg17cA/O450exuhXwI7+kKMfnJdQ==
+"@intlayer/core@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.3.9.tgz#f7982214db84dc9ab0bc5add95dee4f7392fb9c5"
+  integrity sha512-z+tX0HD8uug4xlG4QMFoLyrnfyiBaRNw69RXQs5eE0uO/oTqE+n7a5NTqE8P3jEXkjfPxUM7eHML7BrGkdGoUw==
   dependencies:
-    "@intlayer/api" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/dictionaries-entry" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    "@intlayer/unmerged-dictionaries-entry" "7.0.1"
+    "@intlayer/api" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/dictionaries-entry" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/unmerged-dictionaries-entry" "7.3.9"
     deepmerge "4.3.1"
 
 "@intlayer/design-system@5.8.1":
@@ -894,12 +912,12 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/dictionaries-entry@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.0.1.tgz#cfda4bf6f30e6a15994d87aefb53bc5ce35ea222"
-  integrity sha512-s0l39XRSxDEMb1Ep1U+kbfH3pUld2AIMXQ37R+wmjjXBQVnEOD3kKizErALrX+XazuXkIz/wAPIOpmgSmqXqdA==
+"@intlayer/dictionaries-entry@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.3.9.tgz#91d73460e3f217beb89267ce7126bf9163765745"
+  integrity sha512-WTGt2Wzlay20p2wdyGtge5/qxd5ICj1AMYdISXfbFOwUKNraK461b5gt0mLqRti0b+JajPn39v7YIiXLqkseIw==
   dependencies:
-    "@intlayer/config" "7.0.1"
+    "@intlayer/config" "7.3.9"
 
 "@intlayer/editor-react@5.8.1":
   version "5.8.1"
@@ -911,38 +929,38 @@
     "@intlayer/editor" "5.8.1"
     uuid "^11.1.0"
 
-"@intlayer/editor-react@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.0.1.tgz#e41c77fa71474866befa0a2fe5c4e7934705d546"
-  integrity sha512-df7guuQNHVVuG7gVg8DS8E1shqL8DhL5Nje9/3Oio+nfr7/ak4GdIV0o6PP2DlZ2oPfCc01H7w4MTdvSOi7A3Q==
+"@intlayer/editor-react@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.3.9.tgz#0f4735f7ae820571cd1845d3cb2e0cf934685912"
+  integrity sha512-WbFWulc68tT0Z7LxHTts6F48JxIe8+UoJVCNerxCu3RNTnc0txxo4wStfBHu1uWKMHaFTLJlUHfLkaNgngWfRw==
   dependencies:
-    "@intlayer/config" "7.0.1"
-    "@intlayer/core" "7.0.1"
-    "@intlayer/editor" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    uuid "13.0.0"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/editor" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/unmerged-dictionaries-entry" "7.3.9"
 
 "@intlayer/editor@5.8.1":
   version "5.8.1"
   resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-5.8.1.tgz#cdeb55a98338d48abefaa0bf58c691f61bb2364a"
   integrity sha512-Wl7E2MHRZVhQ+fmoCuaefZWRxc5AMS7yiXpfU1UpTtVuJszTAp/6xuDmhzbhk9vLVf+2or42TYOp6e5vEScGjg==
 
-"@intlayer/editor@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.0.1.tgz#69b7f652fed2c729e71595b3dc8a368f11f0879d"
-  integrity sha512-eYzJZV2sGBu6Uoloq3tLrh3HrbytcCEnpo6Rdtzq5Xgtbf9ziBV9NmhllX3szmFMAa7iKWrkFgWCYwkUqvvGUw==
+"@intlayer/editor@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.3.9.tgz#0ae69116026dc47c61dfbd40e0a0825fd719aceb"
+  integrity sha512-eaWtmqutyLG57W8zGEdVuydKtrAEd0bLGaZXXJ1Pu9iropQntTUuRyMu/zfUzCzitN+OlCbWZBAseNPAvP05bQ==
 
-"@intlayer/remote-dictionaries-entry@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.0.1.tgz#e7854fa1cc5dd9e6b413475170e1cf156741c6c1"
-  integrity sha512-vN+VAGQOYUm1zvNgzRyB1KG6ZNeTvyuTyaLKJR4QGJUf2IDHX0Obrcf2sgjUYwO4V+MyiAG6yDjX9AncNe+Vig==
+"@intlayer/remote-dictionaries-entry@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.3.9.tgz#6801e81a9f5c3c059c518478b1f4c0681b16f80f"
+  integrity sha512-1V1W+3qj7CKtgj4xvGBKHbTgFIhZN44QyFQ4SsSSXCg3VUHQBTOjX/+w9zC4x/OJRa4tEcaMK5/IxxMVUbSILg==
   dependencies:
-    "@intlayer/config" "7.0.1"
+    "@intlayer/config" "7.3.9"
 
-"@intlayer/types@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.0.1.tgz#8fe3836a0e8f398375e5180c3de15aca60b46347"
-  integrity sha512-t7dWtsEHiWq9vpfta8ltKWmmMoGQkmnSUl9uJWCU8sTptxT9Y55tx1l+7dUMMgStBspl77Rp1eLuDm60fTs8EA==
+"@intlayer/types@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.3.9.tgz#1cbc195b235c4dab0bf61ac161b12a441ffbd374"
+  integrity sha512-Y8oN9W2Tm8EZovVEIM5uL4RaRfUcqeyOAR3JHCwrqIAbPRVQjBCM4dMYA++QGHFnzw1csNrv6JVwhNvJ+7Jn6w==
 
 "@intlayer/unmerged-dictionaries-entry@5.8.1":
   version "5.8.1"
@@ -951,21 +969,21 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/unmerged-dictionaries-entry@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.0.1.tgz#85ee7e688d34c016e7024a92b0a84dc4594195a5"
-  integrity sha512-GQaNFq4LnmXu1qfk0ejCnDEqQqqj5M9mpUYtvQcEj8xcpCAyUV+vsRzQxGXUA5gVdk6URLANpN/d99C6rGe5hQ==
+"@intlayer/unmerged-dictionaries-entry@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.3.9.tgz#5f63f445176e6c460ef162e24ed0346eb90638e9"
+  integrity sha512-I9D7J9BBnezI+82MG0vda74DcibyKtwo3EdAX3UMAVQBxaWFYvb4ECidxZ2XccG8wcu/+xrbySk+FZUdoL1cqg==
   dependencies:
-    "@intlayer/config" "7.0.1"
+    "@intlayer/config" "7.3.9"
 
-"@intlayer/webpack@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.0.1.tgz#0a64134a0baf7e8fb2ba1110ed69cfbc0fa2d559"
-  integrity sha512-h3M/0OA2SuWEJG/yN/pV+X11OUrU8+hStYIlmzT1yvcx8vXq5aTXBo+A6Jr77OQ+PKmIyJDBNbdqolhUzhXIFQ==
+"@intlayer/webpack@7.3.9":
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.3.9.tgz#7ce79e39d28f2e94d8b2184bfbd200e4dc156b7a"
+  integrity sha512-cB7N8VciopoGaouwhDhyGk22QWIq/W+iHOis8VSep/sU8RfbbTVzakSpYlYvORoiK8JtvxZuFYX8uphlAb2F9Q==
   dependencies:
-    "@intlayer/chokidar" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/types" "7.0.1"
+    "@intlayer/chokidar" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/types" "7.3.9"
     crypto-js "4.2.0"
     fast-glob "3.3.3"
     webpack "5.99.9"
@@ -1126,10 +1144,10 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.10.0"
 
-"@next/env@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-16.0.0.tgz#52df6ea4efa447ae9f7df0105dce088505bc8f3d"
-  integrity sha512-s5j2iFGp38QsG1LWRQaE2iUY3h1jc014/melHFfLdrsMJPqxqDQwWNwyQTcNoUSGZlCVZuM7t7JDMmSyRilsnA==
+"@next/env@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-16.0.7.tgz#eda56377a865d890d25122257d2b8a85b81d6d3d"
+  integrity sha512-gpaNgUh5nftFKRkRQGnVi5dpcYSKGcZZkQffZ172OrG/XkrnS7UBTQ648YY+8ME92cC4IojpI2LqTC8sTDhAaw==
 
 "@next/eslint-plugin-next@15.5.3":
   version "15.5.3"
@@ -1138,45 +1156,45 @@
   dependencies:
     fast-glob "3.3.1"
 
-"@next/swc-darwin-arm64@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.0.0.tgz#bca00a28469352ad9259143f2a3bc2a3dc36e29b"
-  integrity sha512-/CntqDCnk5w2qIwMiF0a9r6+9qunZzFmU0cBX4T82LOflE72zzH6gnOjCwUXYKOBlQi8OpP/rMj8cBIr18x4TA==
+"@next/swc-darwin-arm64@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.0.7.tgz#ffe8afc902807e409f16a5f585dc4cb683804931"
+  integrity sha512-LlDtCYOEj/rfSnEn/Idi+j1QKHxY9BJFmxx7108A6D8K0SB+bNgfYQATPk/4LqOl4C0Wo3LACg2ie6s7xqMpJg==
 
-"@next/swc-darwin-x64@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-16.0.0.tgz#d52aee6e34ae474e1b5f786f028965f015ab64e0"
-  integrity sha512-hB4GZnJGKa8m4efvTGNyii6qs76vTNl+3dKHTCAUaksN6KjYy4iEO3Q5ira405NW2PKb3EcqWiRaL9DrYJfMHg==
+"@next/swc-darwin-x64@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-16.0.7.tgz#ec5fd15ae391e1af9f152881f559bffaa24524e7"
+  integrity sha512-rtZ7BhnVvO1ICf3QzfW9H3aPz7GhBrnSIMZyr4Qy6boXF0b5E3QLs+cvJmg3PsTCG2M1PBoC+DANUi4wCOKXpA==
 
-"@next/swc-linux-arm64-gnu@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.0.0.tgz#21433fc35e5d55786380ee4ac314b7a5f347d795"
-  integrity sha512-E2IHMdE+C1k+nUgndM13/BY/iJY9KGCphCftMh7SXWcaQqExq/pJU/1Hgn8n/tFwSoLoYC/yUghOv97tAsIxqg==
+"@next/swc-linux-arm64-gnu@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.0.7.tgz#22be26ee7544f68aa916159b823899b67b09f0a6"
+  integrity sha512-mloD5WcPIeIeeZqAIP5c2kdaTa6StwP4/2EGy1mUw8HiexSHGK/jcM7lFuS3u3i2zn+xH9+wXJs6njO7VrAqww==
 
-"@next/swc-linux-arm64-musl@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.0.0.tgz#e405896fc4e4ce472f3324124cfdfca42f878dda"
-  integrity sha512-xzgl7c7BVk4+7PDWldU+On2nlwnGgFqJ1siWp3/8S0KBBLCjonB6zwJYPtl4MUY7YZJrzzumdUpUoquu5zk8vg==
+"@next/swc-linux-arm64-musl@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.0.7.tgz#1b34103951456e5d6766710e4f16dadbd7745bed"
+  integrity sha512-+ksWNrZrthisXuo9gd1XnjHRowCbMtl/YgMpbRvFeDEqEBd523YHPWpBuDjomod88U8Xliw5DHhekBC3EOOd9g==
 
-"@next/swc-linux-x64-gnu@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.0.0.tgz#e92401b0bacb9acefe3f183f5fff8c7a78c28213"
-  integrity sha512-sdyOg4cbiCw7YUr0F/7ya42oiVBXLD21EYkSwN+PhE4csJH4MSXUsYyslliiiBwkM+KsuQH/y9wuxVz6s7Nstg==
+"@next/swc-linux-x64-gnu@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.0.7.tgz#b45e1fa7aaf844269e0932c4cde49bb6b0817ce9"
+  integrity sha512-4WtJU5cRDxpEE44Ana2Xro1284hnyVpBb62lIpU5k85D8xXxatT+rXxBgPkc7C1XwkZMWpK5rXLXTh9PFipWsA==
 
-"@next/swc-linux-x64-musl@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.0.0.tgz#b3b0654571b8b375026df0ec66b9d406b7847cc7"
-  integrity sha512-IAXv3OBYqVaNOgyd3kxR4L3msuhmSy1bcchPHxDOjypG33i2yDWvGBwFD94OuuTjjTt/7cuIKtAmoOOml6kfbg==
+"@next/swc-linux-x64-musl@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.0.7.tgz#c5376fd78ca97a911e2bbfb9b26dc623b54edfab"
+  integrity sha512-HYlhqIP6kBPXalW2dbMTSuB4+8fe+j9juyxwfMwCe9kQPPeiyFn7NMjNfoFOfJ2eXkeQsoUGXg+O2SE3m4Qg2w==
 
-"@next/swc-win32-arm64-msvc@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.0.0.tgz#cd5d608f08f17e6b774e19878d42edc77c7101c2"
-  integrity sha512-bmo3ncIJKUS9PWK1JD9pEVv0yuvp1KPuOsyJTHXTv8KDrEmgV/K+U0C75rl9rhIaODcS7JEb6/7eJhdwXI0XmA==
+"@next/swc-win32-arm64-msvc@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.0.7.tgz#2cf27e275ddd8d04f89391a9cdf6790cccb3bf09"
+  integrity sha512-EviG+43iOoBRZg9deGauXExjRphhuYmIOJ12b9sAPy0eQ6iwcPxfED2asb/s2/yiLYOdm37kPaiZu8uXSYPs0Q==
 
-"@next/swc-win32-x64-msvc@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.0.0.tgz#0f5726a0657e9ae5c87d0e0d0f074fa127b84d7a"
-  integrity sha512-O1cJbT+lZp+cTjYyZGiDwsOjO3UHHzSqobkPNipdlnnuPb1swfcuY6r3p8dsKU4hAIEO4cO67ZCfVVH/M1ETXA==
+"@next/swc-win32-x64-msvc@16.0.7":
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.0.7.tgz#e9e38fcca752902542c25c527e532af71e9ca812"
+  integrity sha512-gniPjy55zp5Eg0896qSrf3yB1dw4F/3s8VK1ephdsZZ129j2n6e1WqCbE2YgcKhW9hPB9TVZENugquWJD5x0ug==
 
 "@noble/ciphers@^2.0.0":
   version "2.0.0"
@@ -2119,7 +2137,7 @@
   dependencies:
     tslib "^2.8.0"
 
-"@ts-morph/common@~0.28.0":
+"@ts-morph/common@~0.28.1":
   version "0.28.1"
   resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.28.1.tgz#10ec52182d5c310832b669af7784a34fc3da3ca1"
   integrity sha512-W74iWf7ILp1ZKNYXY5qbddNaml7e9Sedv5lvU1V8lftlitkc9Pq1A+jlH23ltDgWYeZFFEqGCD1Ies9hqu3O+g==
@@ -3473,7 +3491,7 @@ debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3
   dependencies:
     ms "^2.1.3"
 
-deep-equal@2.2.3, deep-equal@^2.2.3:
+deep-equal@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-2.2.3.tgz#af89dafb23a396c7da3e862abc0be27cf51d56e1"
   integrity sha512-ZIwpnevOurS8bpT4192sqAowWM76JDKSHYzMLty3BZGSswgq6pBaH3DhCSW5xVAZICZyKdOBPjwww5wfgT/6PA==
@@ -4837,15 +4855,15 @@ intlayer@5.8.1:
     "@intlayer/config" "5.8.1"
     "@intlayer/core" "5.8.1"
 
-intlayer@7.0.1, intlayer@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.0.1.tgz#4eac052cc3b4bf837cf46c28977b3b6d409d6cae"
-  integrity sha512-pDwOKFRZpj3OHFCkrUKUKPoXfGB97iqQs16SGpQBatRk7zI/62SUvXaD8vzwyhN842s1+ZHQQGAvbCOvOL2Yww==
+intlayer@7.3.9, intlayer@^7.3.9:
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.3.9.tgz#2fe52f2281155c5ebc51140d1983ab3a221c55a8"
+  integrity sha512-EjW/D6JctTSKl1nYHrDyRF7nrJmEioMnahdG0NMQS9Q77MYFwKc1zWhjbdPs0P6/s4LzQuVUoxqRQCkcsrX7Yw==
   dependencies:
-    "@intlayer/cli" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/core" "7.0.1"
-    "@intlayer/types" "7.0.1"
+    "@intlayer/cli" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/types" "7.3.9"
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -5162,7 +5180,7 @@ jose@^6.1.0:
   resolved "https://registry.yarnpkg.com/jose/-/jose-6.1.0.tgz#96285365689d16f2845a353964d2284bf19f464c"
   integrity sha512-TTQJyoEoKcC1lscpVDCSsVgYzUDg/0Bt3WE//WiTPK6uOCQC2KZS4MpugbMWt/zyjkopgZoXhZuCi00gLudfUA==
 
-js-cookie@3.0.5, js-cookie@^3.0.5:
+js-cookie@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-3.0.5.tgz#0b7e2fd0c01552c58ba86e0841f94dc2557dcdbc"
   integrity sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==
@@ -5614,46 +5632,46 @@ next-font@^1.2.0:
   resolved "https://registry.yarnpkg.com/next-font/-/next-font-1.2.0.tgz#cff8de48f89d2c76d07935470731293078c92e09"
   integrity sha512-1yk8OM9gIACZfeS6BI7q3WX/WWP8DzNlD8+N4UJ6EsVq9+eOBNwyhPnvvGfj6alPan0xqQgzMbLD+2Pik//kLw==
 
-next-intlayer@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.0.1.tgz#d3dd7b59168259f38de3703a7604da03dbddb132"
-  integrity sha512-gN7g5ck58J2x52kOG+SF5+t9DJyfElW+hOnyYHGOY6xkqCExxtxlCXO5H1AshPmbVv4PZqrXvf8mfwsB/q/HTQ==
+next-intlayer@^7.3.9:
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.3.9.tgz#3111ea11b4127119e60d1966c5850dad11cfe0cf"
+  integrity sha512-H7qLWqUKZkJrEEIp/qx03ANX1jaibVizuc4NL8UGqyFBahmUC0xKFxgWRvcS5+AAvN12CUUVa1omoKbo1v3h9Q==
   dependencies:
-    "@intlayer/chokidar" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/core" "7.0.1"
-    "@intlayer/dictionaries-entry" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    "@intlayer/webpack" "7.0.1"
+    "@intlayer/chokidar" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/dictionaries-entry" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/webpack" "7.3.9"
     deepmerge "4.3.1"
     fast-glob "3.3.3"
     node-loader "2.1.0"
-    react-intlayer "7.0.1"
+    react-intlayer "7.3.9"
 
 next-themes@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.4.6.tgz#8d7e92d03b8fea6582892a50a928c9b23502e8b6"
   integrity sha512-pZvgD5L0IEvX5/9GWyHMf3m8BKiVQwsCMHfoFosXtXBMnaS0ZnIJ9ST4b4NqLVKDEm8QBxoNNGNaBv2JNF6XNA==
 
-next@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-16.0.0.tgz#f98a345ea27cb96979dbb88e5ede5ab753c99d8d"
-  integrity sha512-nYohiNdxGu4OmBzggxy9rczmjIGI+TpR5vbKTsE1HqYwNm1B+YSiugSrFguX6omMOKnDHAmBPY4+8TNJk0Idyg==
+next@^16.0.7:
+  version "16.0.7"
+  resolved "https://registry.yarnpkg.com/next/-/next-16.0.7.tgz#859045df71599a8883fc7049a65d6d468c56db08"
+  integrity sha512-3mBRJyPxT4LOxAJI6IsXeFtKfiJUbjCLgvXO02fV8Wy/lIhPvP94Fe7dGhUgHXcQy4sSuYwQNcOLhIfOm0rL0A==
   dependencies:
-    "@next/env" "16.0.0"
+    "@next/env" "16.0.7"
     "@swc/helpers" "0.5.15"
     caniuse-lite "^1.0.30001579"
     postcss "8.4.31"
     styled-jsx "5.1.6"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "16.0.0"
-    "@next/swc-darwin-x64" "16.0.0"
-    "@next/swc-linux-arm64-gnu" "16.0.0"
-    "@next/swc-linux-arm64-musl" "16.0.0"
-    "@next/swc-linux-x64-gnu" "16.0.0"
-    "@next/swc-linux-x64-musl" "16.0.0"
-    "@next/swc-win32-arm64-msvc" "16.0.0"
-    "@next/swc-win32-x64-msvc" "16.0.0"
+    "@next/swc-darwin-arm64" "16.0.7"
+    "@next/swc-darwin-x64" "16.0.7"
+    "@next/swc-linux-arm64-gnu" "16.0.7"
+    "@next/swc-linux-arm64-musl" "16.0.7"
+    "@next/swc-linux-x64-gnu" "16.0.7"
+    "@next/swc-linux-x64-musl" "16.0.7"
+    "@next/swc-win32-arm64-msvc" "16.0.7"
+    "@next/swc-win32-x64-msvc" "16.0.7"
     sharp "^0.34.4"
 
 node-forge@^1:
@@ -6172,10 +6190,10 @@ react-dom@^19.1.1:
   dependencies:
     scheduler "^0.26.0"
 
-react-dom@^19.2.0:
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.0.tgz#00ed1e959c365e9a9d48f8918377465466ec3af8"
-  integrity sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ==
+react-dom@^19.2.1:
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.1.tgz#ce3527560bda4f997e47d10dab754825b3061f59"
+  integrity sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==
   dependencies:
     scheduler "^0.27.0"
 
@@ -6196,19 +6214,19 @@ react-intlayer@5.8.1:
     "@intlayer/editor-react" "5.8.1"
     js-cookie "^3.0.5"
 
-react-intlayer@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.0.1.tgz#77f0ea9ee58abc61e34aa1c8d0c4e1fd8150cea0"
-  integrity sha512-V9cyGihqpKkNL5j1fozqzZF6EEhE3BAuN8+dm1o+1qT8fbKG0Ko9txbNUaIMBBoZ2QdmOlO0iuIDDFqrz2/iOg==
+react-intlayer@7.3.9:
+  version "7.3.9"
+  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.3.9.tgz#627e379a5ac5d0bdedbffe2332e81f3d7786e386"
+  integrity sha512-itg0nuq3vMbFp1OCOEwbcq0PnXYuGkh0Ajw4mlUlQSG011Fa3CvqeTkiMREd7b7vupB702hM6od3gmizfU25Hg==
   dependencies:
-    "@intlayer/api" "7.0.1"
-    "@intlayer/config" "7.0.1"
-    "@intlayer/core" "7.0.1"
-    "@intlayer/dictionaries-entry" "7.0.1"
-    "@intlayer/editor-react" "7.0.1"
-    "@intlayer/types" "7.0.1"
-    intlayer "7.0.1"
-    js-cookie "3.0.5"
+    "@intlayer/api" "7.3.9"
+    "@intlayer/config" "7.3.9"
+    "@intlayer/core" "7.3.9"
+    "@intlayer/dictionaries-entry" "7.3.9"
+    "@intlayer/editor-react" "7.3.9"
+    "@intlayer/types" "7.3.9"
+    "@intlayer/unmerged-dictionaries-entry" "7.3.9"
+    intlayer "7.3.9"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -6269,10 +6287,10 @@ react@^19.1.1:
   resolved "https://registry.yarnpkg.com/react/-/react-19.1.1.tgz#06d9149ec5e083a67f9a1e39ce97b06a03b644af"
   integrity sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==
 
-react@^19.2.0:
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.2.0.tgz#d33dd1721698f4376ae57a54098cb47fc75d93a5"
-  integrity sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==
+react@^19.2.1:
+  version "19.2.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.1.tgz#8600fa205e58e2e807f6ef431c9f6492591a2700"
+  integrity sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -6777,7 +6795,16 @@ signal-exit@^4.0.1:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-git@3.28.0, simple-git@^3.27.0:
+simple-git@3.30.0:
+  version "3.30.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.30.0.tgz#260b816f369c298b60a509a319b4f0b9fadbd7e0"
+  integrity sha512-q6lxyDsCmEal/MEGhP1aVyQ3oxnagGlBDOVSIB4XUVLl1iZh0Pah6ebC9V4xBap/RfgP2WlI8EKs0WS0rMEJHg==
+  dependencies:
+    "@kwsites/file-exists" "^1.1.1"
+    "@kwsites/promise-deferred" "^1.1.1"
+    debug "^4.4.0"
+
+simple-git@^3.27.0:
   version "3.28.0"
   resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.28.0.tgz#c6345b2e387880f8450788a1e388573366ae48ac"
   integrity sha512-Rs/vQRwsn1ILH1oBUy8NucJlXmnnLeLCfcvbSehkPzbv3wwoFWIdtfd6Ndo6ZPhlPsCZ60CPI4rxurnwAa+a2w==
@@ -6785,6 +6812,11 @@ simple-git@3.28.0, simple-git@^3.27.0:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
     debug "^4.4.0"
+
+sisteransi@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
+  integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
 sockjs@^0.3.24:
   version "0.3.24"
@@ -7199,12 +7231,12 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-ts-morph@27.0.0:
-  version "27.0.0"
-  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-27.0.0.tgz#42e132b27187269dc4e0a725c1063bf9f553490d"
-  integrity sha512-xcqelpTR5PCuZMs54qp9DE3t7tPgA2v/P1/qdW4ke5b3Y5liTGTYj6a/twT35EQW/H5okRqp1UOqwNlgg0K0eQ==
+ts-morph@27.0.2:
+  version "27.0.2"
+  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-27.0.2.tgz#7b2fcce6822eeca3942fa6c601f159d5920b1422"
+  integrity sha512-fhUhgeljcrdZ+9DZND1De1029PrE+cMkIP7ooqkLRTrRLTqcki2AstsyJm0vRNbTbVCNJ0idGlbBrfqc7/nA8w==
   dependencies:
-    "@ts-morph/common" "~0.28.0"
+    "@ts-morph/common" "~0.28.1"
     code-block-writer "^13.0.3"
 
 tsconfig-paths@^3.15.0:
@@ -7447,11 +7479,6 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
-
-uuid@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-13.0.0.tgz#263dc341b19b4d755eb8fe36b78d95a6b65707e8"
-  integrity sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==
 
 uuid@^11.1.0:
   version "11.1.0"
