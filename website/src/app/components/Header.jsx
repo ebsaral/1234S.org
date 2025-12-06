@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
 import { getLocaleName, getLocalizedUrl } from "intlayer";
 import Image from 'next/image'
@@ -17,11 +17,16 @@ import {
 } from './ui/dropdown-menu';
 
 const Header = () => {
+  const { scrollY } = useScrollEffects();
+  const ref = useRef(null)
+  const lastScroll = useRef(scrollY)
+  const velocity = useRef(0)
+  const rotation = useRef(0)
+  const raf = useRef(null)
   const { locale, pathWithoutLocale, availableLocales } = useLocale();
   const { setLocaleCookie } = useLocaleCookie();
   const content = useIntlayer("navigation");
 
-  const { scrollY } = useScrollEffects();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   
@@ -61,6 +66,37 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Spin logo on scroll
+  useEffect(() => {
+    const onScroll = () => {
+      const current = window.scrollY
+      const delta = current - lastScroll.current
+      // Scroll down = positive, scroll up = negative
+      velocity.current += delta * 0.2
+      lastScroll.current = current
+    }
+
+    const animate = () => {
+      // friction
+      velocity.current *= 0.7
+      rotation.current += velocity.current
+
+      if (ref.current) {
+        ref.current.style.transform = `rotate(${rotation.current}deg)`
+      }
+
+      raf.current = requestAnimationFrame(animate)
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true })
+    raf.current = requestAnimationFrame(animate)
+
+    return () => {
+      window.removeEventListener("scroll", onScroll)
+      cancelAnimationFrame(raf.current)
+    }
+  }, [])
+
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
     if (element) {
@@ -89,7 +125,8 @@ const Header = () => {
             className="group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300"
             onClick={() => scrollToSection('#home')}
           >
-            <Image 
+            <Image
+              ref={ref} 
               className='flex-none ml-[10px] mr-[15px] mt-[2px] mb-[2px] group-hover:ml-[8px] group-hover:mr-[13px] group-hover:mt-[0] group-hover:mb-[0] group-hover:size-[34px] rounded-md'
               src='/logos/logo-bg-transparent.png'
               title={content.home.text.value}
