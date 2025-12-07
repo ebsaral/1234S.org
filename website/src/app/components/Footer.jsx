@@ -47,7 +47,7 @@ const Footer = () => {
               {content.description}
             </p>
             <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
-              <p><b>{content.lastUpdate.label}:</b> {new Date(content.lastUpdate.text.value).toLocaleString(locale)}</p>
+              <p>{new Date().getFullYear()} © 1234S.org</p>
             </div>
           </div>
         </div>

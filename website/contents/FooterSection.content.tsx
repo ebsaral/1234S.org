@@ -11,16 +11,6 @@ const pageContent = {
       en: "An open source philosophical movement project.",
       tr: "Bir açık kaynak felsefi akım projesi."
     }),
-    lastUpdate: {
-      label: t({
-        en: "Last content update",
-        tr: "Son içerik güncelleme",
-      }),
-      text: t({
-        en: 1763894738428,
-        tr: 1763894738428
-      }),
-    },
     developer: t({
       en: "Spirit Guide",
       tr: "Maneviyat Rehberi"
