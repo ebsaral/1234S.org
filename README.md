@@ -6,7 +6,7 @@
 
 - An easy and intuitive perspective more powerful than major competitors
 - Open source, so anyone can contribute to its development
-- Philosophy that is understandable in any language
+- Philosophy that is understandable worldwide
 - Suitability for everyday tasks, allowing for short development times
 
 ### Core areas you can master through this project
@@ -25,10 +25,4 @@
 
 ---
 
-You can view the project's progress [here](https://github.com/ebsaral/Logical-Spirituality/projects?query=is%3Aopen).  
-
 **This *open source* philosophical movement project is initiated and led by [1234S.org](https://www.1234S.org).**
-
-## Special Thanks
-
-- [Emin Buğra Saral](https://0.1234S.org) 🕺
