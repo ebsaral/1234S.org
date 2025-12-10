@@ -12,8 +12,8 @@ const pageContent = {
       tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
     }),
     description: t({
-      en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we can improve the health conditions of the environments we share.\n\nIt is possible to live in an educated society where we neither get sick nor have accidents. It is also possible to bring luck together with opportunities to everyone's lives.",
-      tr: "*Mantıklı Maneviyat* aracılığıyla, **Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduğunu öğrendik. Bu temel bilgiyi genişleterek, paylaştığımız çevrelerin sağlık koşullarını iyileştirebiliriz. **Hiç hasta olmadığımız ve kaza geçirmediğimiz eğitimli bir toplumda yaşayabiliriz. Aynı zamanda doğadaki şansı fırsatlarıyla birlikte herkesin hayatına sunabiliriz.**",
+      en: "Through **Logical Spirituality**, we have learned how the principles of **Equality and Freedom** exist in nature. By expanding on this fundamental knowledge, we can improve the health conditions of the environments we share.\n\n**It is possible to live in an educated society where we neither get sick nor have accidents — even in very chaotic or dangerous environments. It is also possible to bring more luck together with countless opportunities to everyone's lives.**",
+      tr: "*Mantıklı Maneviyat* aracılığıyla, **Eşitlik ve Özgürlük** ilkelerinin doğada nasıl var olduğunu öğrendik. Bu temel bilgiyi genişleterek, paylaştığımız çevrelerin sağlık koşullarını iyileştirebiliriz.\n\n**Çok kaotik veya tehlikeli gözüken yerlerde bile, hiç hasta olmadığımız ve kaza geçirmediğimiz eğitimli bir toplumda yaşayabiliriz. Aynı zamanda doğadaki şansı daha fazla fırsatlarla birlikte herkesin hayatına sunabiliriz.**",
     }),
     items: [
       {
