@@ -67,61 +67,10 @@ const pageContent = {
         tr: "İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
       })
     },
-    status: {
-      title: t({
-          en: "Project's Status",
-          tr: "Projenin Durumu",
-        }),
-      items: [
-        t({
-          en: "I am looking for a team or organization with whom I can continue my work on the principles of nature with details.",
-          tr: "Doğanın ilkeleri üzerinde çalışmalarımı detaylandırarak devam ettirebileceğim bir ekip veya organizasyon arıyorum.",
-        }),
-        t({
-          en: "I would like to apply this philosophical movement's details into real-world applications. Example ideas: Building an Education and Healing platform, consultancy for any business and/or non-profit project, contributing to environmental projects, etc.",
-          tr: "Bu felsefi akımın ayrıntılarını gerçek dünya uygulamalarına aktarmak istiyorum. Örnek fikirler: Bir Eğitim ve Sağlık platformu kurmak, herhangi bir işletme ve/veya kâr amacı gütmeyen proje için danışmanlık yapmak, çevre projelerine katkıda bulunmak vb.",
-        })
-      ],
-    },
-    contact: {
-      title: t({
-        en: "Project Leader",
-        tr: "Proje Lideri",
-      }),
-      leader: {
-        text: "Emin Buğra Saral",
-        image: {
-          src: "/eminbugrasaral-2025.jpg",
-          description: t({
-            en: "Let's paint a tired Emin, given a spoon instead of a microphone.",
-            tr: "Eline mikrofon yerine kaşık verilmiş yorgun bir Emin resmedelim.",
-          }), 
-          size: 120
-        },
-        href: t({
-          en: "https://0.1234s.org/en",
-          tr: "https://0.1234s.org/tr",
-        }),
-        description: t({
-          en: "Spirit Guide & Computer Engineer",
-          tr: "Maneviyat Rehberi ve Bilgisayar Mühendisi",
-        })
-      },
-      resume: {
-        text: t({
-          en: "Résumé",
-          tr: "Öz Geçmiş",
-        }),
-        href: t({
-          en: "https://0.1234s.org/files/cv/english.pdf",
-          tr: "https://0.1234s.org/files/cv/turkish.pdf",
-        }),
-      },
-      note: t({
-        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute to all social projects.",
-        tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere katkıda bulunabilirim.",
-      })
-    },
+    note: t({
+      en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute to all social projects.",
+      tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere katkıda bulunabilirim.",
+    }),
     sponsorship: {
       href: t({
         en: "files/sponsorship.pdf",
