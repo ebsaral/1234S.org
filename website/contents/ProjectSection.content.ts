@@ -118,8 +118,8 @@ const pageContent = {
         }),
       },
       note: t({
-        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below.",
-        tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz.",
+        en: "If you would like to help me in any way or benefit from my experience, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute to all social projects.",
+        tr: "Bana herhangi bir şekilde yardımcı olmak veya deneyimlerimden faydalanmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere katkıda bulunabilirim.",
       })
     },
     sponsorship: {
