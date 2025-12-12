@@ -8,8 +8,8 @@ const pageContent = {
       tr: "1234S.org aracılığıyla Mantıksal Maneviyat:"
     }),
     description: t({
-      en: "An open source philosophical movement project.",
-      tr: "Bir açık kaynak felsefi akım projesi."
+      en: "A philosophical movement project.",
+      tr: "Bir felsefi akım projesi."
     }),
     developer: t({
       en: "Spirit Guide",
@@ -46,10 +46,6 @@ const pageContent = {
         {
           url: "https://www.linkedin.com/company/1234s-org",
           label: "LinkedIn"
-        },
-        {
-          url: "https://github.com/ebsaral/Logical-Spirituality",
-          label: "GitHub"
         }
       ]
     }
