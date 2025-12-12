@@ -25,4 +25,4 @@
 
 ---
 
-**This *open source* philosophical movement project is initiated and led by [1234S.org](https://www.1234S.org).**
+**This *open source* philosophical movement project is defined and led by [1234S.org](https://www.1234S.org).**
