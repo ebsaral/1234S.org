@@ -43,20 +43,21 @@ const ProjectSection = () => {
             
             return (
               <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
-                <CardContent className="p-8">
-                  <div className="grid grid-cols-6 gap-4 whitespace-pre-line relative sm:static">
-                    <div className="sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 opacity-35 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-amber-100 absolute top-[-50px] left-[-60px] overflow-clip sm:static">
+                <CardContent className="p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line">
+                    <div className="sm:hidden sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 opacity-35 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-amber-100 absolute top-[-10px] left-[-10px] overflow-clip sm:static">
+                      <IconComponent className="text-amber-600" size={24} />
+                    </div>
+                    <div className="flex items-center justify-center opacity-100 w-12 h-12 rounded-full bg-amber-100">
                       <IconComponent className="text-amber-600" size={24} />
                     </div>
                     <div className='col-span-6'>
-                      <h3 className="text-xl font-bold text-amber-900 mb-3">
+                      <h3 className="text-left sm:text-center text-xl font-bold text-amber-900 mb-3">
                         {title}
                       </h3>
                       <p className="text-gray-800 leading-relaxed">
                         {content}
                       </p>
                     </div>
-                  </div>
                 </CardContent>
               </Card>
             );
