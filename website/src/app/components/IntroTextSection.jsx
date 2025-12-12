@@ -1,9 +1,7 @@
 "use client";
 
-import React from 'react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { useIntlayer } from 'next-intlayer';
-
 import { Heart, Globe, Scale } from 'lucide-react';
 
 const IntroTextSection = ({id}) => {
@@ -33,6 +31,16 @@ const IntroTextSection = ({id}) => {
                 <Heart size={40} />
               </div>
             </div>
+
+            {/* Quote */}
+            {content.quote &&
+              <div className="lg:col-span-2 mb-10">
+                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-normal bg-white/80 backdrop-blur-sm py-6 shadow-sm whitespace-pre-line">
+                    <em className="text-gray-800 font-medium">{content.quote}</em>
+                </blockquote>
+            </div>
+            }
+
             <div className="lg:col-span-2 space-y-8">
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-90 leading-relaxed text-lg mb-6">

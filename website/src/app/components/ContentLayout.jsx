@@ -67,7 +67,9 @@ const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accen
             }
             
             {/* Description */}
-            <Description text={content.description.value} />
+            {content.description && 
+              <Description text={content.description.value} />
+            }
           </div>
 
           {children}
