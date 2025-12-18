@@ -7,10 +7,6 @@ const pageContent = {
       en: "Project: A Philosophical Movement",
       tr: "Proje: Bir Felsefi Akım",
     }),
-    quote: t({
-      en: "Better health. More luck. Countless opportunities.",
-      tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
-    }),
     items: [
       {
         title: t({
@@ -53,15 +49,19 @@ const pageContent = {
         }),
       }
     ],
-        message: {
+    message: {
       title: t({
         en: "Nature's justice is in constant motion!",
         tr: "Doğadaki adalet sürekli hareket halinde!",
       }),
-      quote:  t({
+      description:  t({
         en: "We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
         tr: "İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
-      })
+      }),
+      quote: t({
+        en: "Better health. More luck. Countless opportunities.",
+        tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
+    })
     },
     leader: {
       name: "Emin Buğra Saral",
@@ -91,7 +91,7 @@ const pageContent = {
         en: "View the details for sponsorship",
         tr: "Sponsorluk için detaylara göz atın",
       })
-    }
+    },
   },
 } satisfies Dictionary;
 

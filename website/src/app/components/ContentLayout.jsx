@@ -1,13 +1,12 @@
 "use client";
 
-import React from 'react';
 import { useIntlayer } from 'next-intlayer';
 
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Description } from './Custom/Description';
 import Quote from './Custom/Quote';
 
-const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accentColor, children }) => {
+const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundColor, accentColor, children }) => {
   const [sectionRef] = useIntersectionObserver();
   const content = useIntlayer(`${sectionKey}-section`);
 
@@ -38,7 +37,7 @@ const ContentLayout = ({ id, sectionKey, icon, iconColor, backgroundColor, accen
     <section 
       id={id}
       ref={sectionRef}
-      className="relative py-24 px-2 overflow-hidden"
+      className={`relative py-24 px-2 overflow-hidden ${className || ''}`}
     >
       {/* Background Color */}
       <div 
