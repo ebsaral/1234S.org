@@ -8,8 +8,8 @@ const pageContent = {
       tr: "1234S.org aracılığıyla Mantıksal Maneviyat:"
     }),
     description: t({
-      en: "A philosophical movement project.",
-      tr: "Bir felsefi akım projesi."
+      en: "A philosophical movement project:\nThe Root of New Politics",
+      tr: "Bir felsefi akım projesi:\nYeni Siyasetin Kökeni"
     }),
     developer: t({
       en: "Spirit Guide",
