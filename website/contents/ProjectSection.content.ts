@@ -70,7 +70,7 @@ const pageContent = {
         tr: "Maneviyat Rehberi",
       }),
       image: {
-        src: "/eminbugrasaral-2025.jpg",
+        src: "/eminbugrasaral-2023.jpg",
         size: 120
       },
       href: t({

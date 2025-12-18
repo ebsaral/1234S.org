@@ -79,7 +79,6 @@ const ProjectSection = () => {
             <Image 
               className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md'
               src={content.leader.image.src.value}
-              title={`${content.leader.name.value}: ${content.leader.title.value}`}
               alt={`${content.leader.name.value}: ${content.leader.title.value}`}
               width={content.leader.image.size.value}
               height={content.leader.image.size.value}
