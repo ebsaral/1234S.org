@@ -43,6 +43,10 @@ const ProjectSection = () => {
       </div>
       }
 
+      <div className="max-w-5xl mx-auto mb-12 text-left text-xl">
+          {content.explanation}
+      </div>
+
       {/* Project Steps section */}
       {content.items && (
         <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -74,12 +78,6 @@ const ProjectSection = () => {
           })}
         </div>
       )}
-
-      {/* Project message quote section */}
-      {content.message && <div className='max-w-5xl mx-auto mt-10 text-center flex flex-col lg:flex-row items-center gap-6'>
-        <Quote text={content.message.quote.value} />
-      </div>
-      }
 
       {/* Project note section */}
       <div className='max-w-5xl mx-auto flex flex-col sm:flex-row sm:px-20 justify-center items-center gap-4'>

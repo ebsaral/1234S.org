@@ -7,6 +7,10 @@ const pageContent = {
       en: "Project: A Philosophical Movement",
       tr: "Proje: Bir Felsefi Akım",
     }),
+    explanation: t({
+      en: "Within the guidance of Logical Spirituality teachings, a profound transformation in the field of health becomes possible when the realities of nature are deeply understood and taken as a foundation. As long as thoughts and behaviors that fall outside this philosophy persist, the existence of genetic or other forms of illness will be inevitable. Until we align our thoughts and actions with nature through the lessons drawn from our life experiences, health problems will continue to exist, almost as if they were a consequence of natural selection. We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
+      tr: "Mantıksal Maneviyat öğretilerinin rehberliğinde, doğanın gerçekleri derinlemesine kavranıp esas alındığında sağlık alanında köklü bir dönüşüm mümkündür. Bu felsefenin dışında kalan düşünce ve davranışlar sürdürüldükçe, genetik ya da farklı biçimlerdeki hastalıkların varlığı kaçınılmaz olacaktır. Yaşam deneyimlerimizden edindiğimiz derslerle düşünce ve eylemlerimizi doğayla uyumlu hâle getirene dek, sağlık sorunları adeta doğal seçilimin bir sonucu gibi varlığını sürdürmeye devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
+    }),
     items: [
       {
         title: t({
@@ -54,11 +58,7 @@ const pageContent = {
         en: "Nature's justice is in constant motion!",
         tr: "Doğadaki adalet sürekli hareket halinde!",
       }),
-      description:  t({
-        en: "We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
-        tr: "İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
-      }),
-      quote: t({
+      description: t({
         en: "Better health. More luck. Countless opportunities.",
         tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
     })
