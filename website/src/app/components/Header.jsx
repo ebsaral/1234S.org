@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from 'react';
-import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
+import { useLocale, useIntlayer } from 'next-intlayer';
 import { getLocaleName, getLocalizedUrl, Locales } from "intlayer";
 import Image from 'next/image'
 import Link from "next/link";
@@ -24,8 +24,7 @@ const Header = () => {
   const velocity = useRef(0)
   const rotation = useRef(0)
   const raf = useRef(null)
-  const { locale, pathWithoutLocale, availableLocales } = useLocale();
-  const { setLocaleCookie } = useLocaleCookie();
+  const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer("navigation");
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -196,10 +195,10 @@ const Header = () => {
                     <Link
                       className='flex items-center gap-3 w-full'
                       href={getLocalizedUrl(pathWithoutLocale, item)}
-                      hrefLang={item}
                       key={item}
                       aria-current={locale === item ? "page" : undefined}
-                      onClick={() => setLocaleCookie(item)}
+                      onClick={() => setLocale(item)}
+                      replace
                     >
                       <span className="text-lg">{content.flags[item]}</span>
                       <span>{getLocaleName(item)}</span>
