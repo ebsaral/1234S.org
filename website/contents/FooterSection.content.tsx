@@ -55,7 +55,7 @@ const pageContent = {
         tr: "1234 Sanat ve İlim Derneği"
       }),
       description: t({
-        en: "Registrar No: 61-027-050 (Türkiye)",
+        en: "Registry Number: 61-027-050 (Türkiye)",
         tr: "Kütük Numarası: 61-027-050"
       })
     },
