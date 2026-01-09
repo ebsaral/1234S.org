@@ -56,7 +56,7 @@ const pageContent = {
       }),
       description: t({
         en: "",
-        tr: "Kütük: 61-027-050 Mersis: 0001278857900001"
+        tr: "Kütük Numarası: 61-027-050"
       })
     }
   },
