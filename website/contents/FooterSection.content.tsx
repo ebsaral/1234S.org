@@ -48,6 +48,16 @@ const pageContent = {
           label: "LinkedIn"
         }
       ]
+    },
+    association: {
+      name: t({
+        en: "1234 Science & Art Association",
+        tr: "1234 Sanat ve İlim Derneği"
+      }),
+      description: t({
+        en: "",
+        tr: "Kütük: 61-027-050 Mersis: 0001278857900001"
+      })
     }
   },
 } satisfies Dictionary;
