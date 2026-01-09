@@ -19,11 +19,11 @@ const pageContent = {
       items: [
       {
         title: t({
-          en: "Environment and Social Health",
-          tr: "Çevre ve Toplum Sağlığı",
+          en: "Social and Environment Health",
+          tr: "Toplum ve Çevre Sağlığı",
         }),
         subtitle: t({
-          en: "Why living things get sick and how to protect against diseases naturally without resorting to medication. The cause-and-effect relationships of natural disasters in our behavior and how to prevent them.",
+          en: "Why living beings get sick and how to protect against diseases naturally without resorting to medication. The cause-and-effect relationships of natural disasters in our behavior and how to prevent them.",
           tr: "Canlıların neden hastalandıkları ve ilaçlara başvurmadan hastalıklardan korunmanın doğal yollarla nasıl sağlanabileceği. Doğal afetlerin davranış biçimlerimizde görülebilen sebep-sonuç ilişkileri ve nasıl önlenebilecekleri.",
         }),
       },
@@ -59,8 +59,8 @@ const pageContent = {
       },
       {
         title: t({
-          en: "Translating Nature's Language",
-          tr: "Doğanın Dilini Tercüme Etmek",
+          en: "Translating Art in Nature",
+          tr: "Doğadaki Sanatı Tercüme Etmek",
         }),
         subtitle: t({
           en: "A better understanding and translation of nature's universal language through symbols developed by the human mind.",
@@ -70,7 +70,7 @@ const pageContent = {
       {
         title: t({
           en: "Patterns of Interconnectedness",
-          tr: "Bütünlük Örüntüleri",
+          tr: "Bütünlük İçindeki Düzen",
         }),
         subtitle: t({
           en: "How various disciplines are interconnected within small and large life cycles that repeat in similar patterns across all communities.",
@@ -79,7 +79,7 @@ const pageContent = {
       },
       {
         title: t({
-          en: "Tacking Global Challenges",
+          en: "Tackling Global Challenges",
           tr: "Küresel Sorunlarla Mücadele",
         }),
         subtitle: t({
