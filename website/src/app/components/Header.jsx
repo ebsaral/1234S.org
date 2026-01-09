@@ -24,9 +24,15 @@ const Header = () => {
   const velocity = useRef(0)
   const rotation = useRef(0)
   const raf = useRef(null)
-  const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
+  const { locale, pathWithoutLocale, availableLocales } = useLocale();
   const content = useIntlayer("navigation");
-
+  const router = useRouter();
+  const { setLocale } = useLocale({
+    onLocaleChange: (locale) => {
+      router.push(getLocalizedUrl(pathWithoutLocale, locale));
+    },
+  });
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   
