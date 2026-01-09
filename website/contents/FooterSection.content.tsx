@@ -58,6 +58,12 @@ const pageContent = {
         en: "",
         tr: "Kütük Numarası: 61-027-050"
       })
+    },
+    contact: {
+      email: t({
+        en: "logical.spirituality@icloud.com",
+        tr: "mantiksal.maneviyat@icloud.com"
+      })
     }
   },
 } satisfies Dictionary;

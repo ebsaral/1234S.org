@@ -83,6 +83,10 @@ const pageContent = {
       tr: "Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.",
     }),
     sponsorship: {
+      support: t({
+        en: "Support Us",
+        tr: "Bize Destek Olun",
+      }),
       href: t({
         en: "files/sponsorship.pdf",
         tr: "files/sponsorluk.pdf",

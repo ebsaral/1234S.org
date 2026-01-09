@@ -12,8 +12,26 @@ const pageContent = {
     },
     home: {
         text: t({
+            en: "Home",
+            tr: "Anasayfa",
+        }),
+    },
+    about: {
+        text: t({
+            en: "About",
+            tr: "Hakkımızda",
+        }),
+    },
+    spirituality: {
+        text: t({
             en: "Logical Spirituality",
             tr: "Mantıksal Maneviyat",
+        }),
+    },
+    support: {
+        text: t({
+            en: "Support",
+            tr: "Destek",
         }),
     },
     interconnectedness: { 

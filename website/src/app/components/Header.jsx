@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useLocale, useIntlayer, useLocaleCookie } from 'next-intlayer';
-import { getLocaleName, getLocalizedUrl } from "intlayer";
+import { getLocaleName, getLocalizedUrl, Locales } from "intlayer";
 import Image from 'next/image'
 import Link from "next/link";
 
@@ -15,6 +15,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
+import SupportLink from './Custom/SupportLink';
 
 const Header = () => {
   const { scrollY } = useScrollEffects();
@@ -32,39 +33,15 @@ const Header = () => {
   
   const isScrolled = scrollY > 50;
   
+  const spiritualityHref = {
+    [Locales.EN]: '/spirituality',
+    [Locales.TR]: '/maneviyat',
+  }
+
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'interconnectedness', href: '#interconnectedness' },
-    { key: 'justiceInNature', href: '#justice-in-nature' },
-    { key: 'health', href: '#health' },
-    { key: 'project', href: '#project' },
-    { key: 'contact', href: '#contact', extra: "#social-links"}
+    { key: 'home', href: '/' },
+    { key: 'spirituality', href: '/spirituality'},
   ];
-
-  // Track active section based on scroll position
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = navItems.map(item => ({
-        id: item.href.substring(1),
-        element: document.querySelector(item.href)
-      })).filter(section => section.element);
-
-      const scrollPosition = window.scrollY + 100; // Offset for header height
-
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = sections[i];
-        if (section.element.offsetTop <= scrollPosition) {
-          setActiveSection(section.id);
-          break;
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll(); // Check initial position
-    
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   // Spin logo on scroll
   useEffect(() => {
@@ -105,9 +82,19 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
-  const isActiveSection = (itemKey, href) => {
-    const sectionId = href.substring(1);
-    return activeSection === sectionId;
+  const isActiveSection = (itemKey) => {
+    const section = navItems.find(item => item.key === itemKey);
+    if(!section) return false;
+    
+    let path = pathWithoutLocale;
+    if(pathWithoutLocale === "/maneviyat"){
+      path = '/spirituality';
+    }
+    if(section.href == path) {
+      return true
+    }
+
+    return false
   };
 
   return (
@@ -121,9 +108,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div 
+          <div onClick={() => scrollToSection('#home')}
             className="group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300"
-            onClick={() => scrollToSection('#home')}
           >
             <Image
               ref={ref} 
@@ -140,9 +126,10 @@ const Header = () => {
                       : 'text-white'
             }`}>{content.webpage.title}</p>
           </div>
+          
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-10">
             {navItems.map((item) => (
               <Link
                 key={item.key}
@@ -170,6 +157,7 @@ const Header = () => {
                 )}
               </Link>
             ))}
+            <SupportLink />
           </nav>
 
           {/* Desktop Language Switcher & Mobile Controls */}

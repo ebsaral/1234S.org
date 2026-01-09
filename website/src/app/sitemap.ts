@@ -12,7 +12,16 @@ const sitemap = (): MetadataRoute.Sitemap => [
     },
     priority: 1,
     changeFrequency: "hourly"
-  }
+  },
+  {
+    url: url + "/spirituality",
+    lastModified: new Date(),
+    alternates: {
+      languages: { en: '/spirituality', tr: "/maneviyat" },
+    },
+    priority: 1,
+    changeFrequency: "hourly"
+  },
 ];
 
 export default sitemap;
