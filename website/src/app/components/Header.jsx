@@ -5,7 +5,6 @@ import { useLocale, useIntlayer } from 'next-intlayer';
 import { getLocaleName, getLocalizedUrl, Locales } from "intlayer";
 import Image from 'next/image'
 import Link from "next/link";
-import { useRouter } from 'next/navigation';
 
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
@@ -25,14 +24,8 @@ const Header = () => {
   const velocity = useRef(0)
   const rotation = useRef(0)
   const raf = useRef(null)
-  const { locale, pathWithoutLocale, availableLocales } = useLocale();
+  const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer("navigation");
-  const router = useRouter();
-  const { setLocale } = useLocale({
-    onLocaleChange: (locale) => {
-      router.push(getLocalizedUrl(pathWithoutLocale, locale));
-    },
-  });
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
@@ -98,6 +91,12 @@ const Header = () => {
     return false
   };
 
+  const handleLocaleChange = async (newLocale) => {
+    await setLocale(newLocale);
+    const newUrl = getLocalizedUrl(pathWithoutLocale, newLocale);
+    window.location.href = newUrl; // Force a hard navigation for locale change
+};
+
   return (
     <header 
       className={`fixed top-0 w-full z-50 transition-all duration-100 ${
@@ -146,6 +145,7 @@ const Header = () => {
                       ? 'text-gray-700 hover:text-emerald-600' 
                       : 'text-white/90 hover:text-white'
                 }`}
+                prefetch={true}
               >
                 {content[item.key].text}
                 {/* Active indicator */}
@@ -199,7 +199,7 @@ const Header = () => {
                       href={getLocalizedUrl(pathWithoutLocale, item)}
                       key={item}
                       aria-current={locale === item ? "page" : undefined}
-                      onClick={() => setLocale(item)}
+                      onClick={() => handleLocaleChange(item)}
                       replace
                     >
                       <span className="text-lg">{content.flags[item]}</span>
