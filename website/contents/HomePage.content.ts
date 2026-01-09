@@ -13,8 +13,8 @@ const pageContent = {
     }),
     projects: {
       title: t({
-        en: "General Scope of Our Focus Topics",
-        tr: "İlgilendiğimiz Konuların Genel Kapsamları", 
+        en: "Our Research and Development Topics",
+        tr: "Araştırma ve Geliştirme Konularımız", 
       }),
       items: [
       {
