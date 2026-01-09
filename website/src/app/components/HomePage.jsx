@@ -9,9 +9,9 @@ const Home = () => {
     <main id="home">
         <div className="text-center bg-gray-800 text-white pt-20 py-10">
             {/* Logo */}
-            <div className='flex justify-center caret-transparent'>
+            <div className='flex justify-center caret-transparent '>
             <Image 
-                className='m-10 size-[120px] sm:size-[160px] rounded-full'
+                className='m-10 size-[120px] sm:size-[160px] rounded-full hover:scale-110 transition-transform duration-300'
                 src="/logos/logo-bg-white.png"
                 title={navigation.home.text.value}
                 alt={navigation.home.text.value + " footer logo"}
@@ -20,10 +20,10 @@ const Home = () => {
                 height={160}
             />
             </div>
-            <h1 className="max-w-3xl mx-auto text-left text-gray-100 text-3xl sm:text-5xl tracking-wide font-semibold px-4 sm:px-6 lg:px-8 my-10">
+            <h1 className="max-w-3xl mx-auto text-left sm:text-center text-gray-100 text-3xl sm:text-5xl tracking-wide font-semibold px-4 sm:px-6 lg:px-8 my-10">
             {content.title}
             </h1> 
-            <div className="max-w-3xl mx-auto mt-6 text-left text-gray-200 text-base sm:text-lg px-4 sm:px-6 lg:px-8 whitespace-pre-line">
+            <div className="max-w-4xl mx-auto mt-6 text-left text-gray-200 text-base sm:text-lg px-4 sm:px-6 lg:px-8 whitespace-pre-line">
             {content.intro}
             </div>
             <hr className="my-20"></hr>
