@@ -12,7 +12,7 @@ const config: IntlayerConfig = {
     contentDir: ["contents"],
   },
   routing: {
-    mode: "no-prefix",
+    mode: "prefix-all",
   },
   editor: {
     /**
