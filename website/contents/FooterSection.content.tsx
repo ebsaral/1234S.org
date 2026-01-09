@@ -61,8 +61,8 @@ const pageContent = {
     },
     contact: {
       email: t({
-        en: "logical.spirituality@icloud.com",
-        tr: "mantiksal.maneviyat@icloud.com"
+        en: "ebsaral@icloud.com",
+        tr: "ebsaral@icloud.com"
       })
     }
   },
