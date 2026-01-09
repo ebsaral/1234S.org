@@ -13,7 +13,7 @@ const pageContent = {
     }),
     paragraph2: t({
       en: "**Logical Spirituality** synthesizes the traditional spiritual teachings of various cultures with social knowledge, making them comprehensive, and brings to light the *unseen logic* of nature. It explains how the principles of equality and freedom can be observed in perceived reality, focusing on the health of all living beings, through the perspectives of **Interconnectedness** and **Justice in Nature**.",
-      tr: "**Mantıksal Maneviyat**, çeşitli kültürlerin geleneksel maneviyat öğretileri ile sosyal bilgi birikimlerini yoğurarak kapsamlılaştırır, ve doğanın *görülmeyen mantığını* gün yüzüne çıkarır. Eşitlik ve özgürlük ilkelerinin hissedilen gerçekte nasıl gözlemlenebileceğini, tüm canlıların sağlığını odak noktasına alarak **Bütünlük** ve **Doğadaki Adalet** bakış açılarıyla açıklar.",
+      tr: "**Mantıksal Maneviyat**, çeşitli kültürlerin geleneksel maneviyat öğretileri ile sosyal bilgi birikimlerini yoğurarak kapsamlılaştırır, ve doğanın *görülmeyen mantığını* gün yüzüne çıkarır. Eşitlik ve özgürlük ilkelerinin hissedilen gerçekte nasıl gözlemlenebileceğini, **tüm canlıların sağlığını** odak noktasına alarak **Bütünlük** ve **Doğadaki Adalet** bakış açılarıyla açıklar.",
     })
   },
 } satisfies Dictionary;
