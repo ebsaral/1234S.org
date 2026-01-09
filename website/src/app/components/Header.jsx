@@ -32,16 +32,11 @@ const Header = () => {
       router.push(getLocalizedUrl(pathWithoutLocale, locale));
     },
   });
-  
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   
   const isScrolled = scrollY > 50;
-  
-  const spiritualityHref = {
-    [Locales.EN]: '/spirituality',
-    [Locales.TR]: '/maneviyat',
-  }
 
   const navItems = [
     { key: 'home', href: '/' },
