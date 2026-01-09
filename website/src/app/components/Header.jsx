@@ -34,7 +34,7 @@ const Header = () => {
 
   const navItems = [
     { key: 'home', href: '/' },
-    { key: 'spirituality', href: '/spirituality'},
+    { key: 'philosophy', href: '/philosophy'},
   ];
 
   // Spin logo on scroll
@@ -80,11 +80,7 @@ const Header = () => {
     const section = navItems.find(item => item.key === itemKey);
     if(!section) return false;
     
-    let path = pathWithoutLocale;
-    if(pathWithoutLocale === "/maneviyat"){
-      path = '/spirituality';
-    }
-    if(section.href == path) {
+    if(section.href == pathWithoutLocale) {
       return true
     }
 

@@ -14,10 +14,10 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: "hourly"
   },
   {
-    url: url + "/spirituality",
+    url: url + "/philosophy",
     lastModified: new Date(),
     alternates: {
-      languages: { en: '/spirituality', tr: "/maneviyat" },
+      languages: { ...getMultilingualUrls(url + "/philosophy") },
     },
     priority: 1,
     changeFrequency: "hourly"

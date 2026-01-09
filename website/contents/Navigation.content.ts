@@ -22,7 +22,7 @@ const pageContent = {
             tr: "Hakkımızda",
         }),
     },
-    spirituality: {
+    philosophy: {
         text: t({
             en: "Logical Spirituality",
             tr: "Mantıksal Maneviyat",
