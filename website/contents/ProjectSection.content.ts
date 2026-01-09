@@ -88,8 +88,8 @@ const pageContent = {
         tr: "Bize Destek Olun",
       }),
       href: t({
-        en: "files/sponsorship.pdf",
-        tr: "files/sponsorluk.pdf",
+        en: "/files/sponsorship.pdf",
+        tr: "/files/sponsorluk.pdf",
       }),
       title: t({
         en: "View the details for sponsorship",
