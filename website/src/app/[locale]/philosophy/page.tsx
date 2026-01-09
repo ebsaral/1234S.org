@@ -10,13 +10,9 @@ import InterconnectednessSection from "../../components/InterconnectednessSectio
 import JusticeSection from "../../components/JusticeSection";
 import HealthSection from "../../components/HealthSection";
 import ProjectSection from "../../components/ProjectSection";
-import { notFound } from "next/navigation";
 
-const Page: NextPageIntlayer<{slug: string}> = async ({params}) => {
-  const { locale, slug } = await params;
-  if(!["spirituality", "maneviyat"].includes(slug)) {
-    notFound();
-  }
+const Page: NextPageIntlayer = async ({params}) => {
+  const { locale } = await params;
 
   return (
     <IntlayerServerProvider locale={locale}>
