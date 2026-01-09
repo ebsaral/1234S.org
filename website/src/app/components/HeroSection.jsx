@@ -29,7 +29,7 @@ const HeroSection  = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(backgrounds/hero.jpeg)`,
+          backgroundImage: `url(/backgrounds/hero.jpeg)`,
           transform: `translateY(${parallaxOffset}px)`,
           filter: 'brightness(0.4)'
         }}
