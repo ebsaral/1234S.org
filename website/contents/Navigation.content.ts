@@ -12,7 +12,7 @@ const pageContent = {
     },
     home: {
         text: t({
-            en: "Home",
+            en: "Homepage",
             tr: "Anasayfa",
         }),
     },
