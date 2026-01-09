@@ -20,19 +20,19 @@ const Home = () => {
                 height={160}
             />
             </div>
-            <h1 className="max-w-3xl mx-auto text-left text-gray-100 text-2xl sm:text-5xl font-semibold px-4 sm:px-6 lg:px-8">
+            <h1 className="max-w-3xl mx-auto text-left text-gray-100 text-3xl sm:text-5xl tracking-wide font-semibold px-4 sm:px-6 lg:px-8 my-10">
             {content.title}
-            </h1>
-            <div className="max-w-3xl mx-auto mt-6 text-left text-gray-300 px-4 sm:px-6 lg:px-8 whitespace-pre-line">
+            </h1> 
+            <div className="max-w-3xl mx-auto mt-6 text-left text-gray-200 text-base sm:text-lg px-4 sm:px-6 lg:px-8 whitespace-pre-line">
             {content.intro}
             </div>
-            <hr className="my-10"></hr>
-            <h2 className="mt-8 text-xl sm:text-3xl font-bold text-gray-200">{content.projects.title}</h2>
+            <hr className="my-20"></hr>
+            <h2 className="my-10 text-xl sm:text-3xl font-bold text-gray-200">{content.projects.title}</h2>
             <div className="mt-10 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-8">
             {content.projects.items.map((item, index) => (
-                <div key={index} className="bg-gray-700 rounded-lg p-6 text-left">
-                <h3 className="text-xl font-semibold mb-4 text-gray-200">{item.title}</h3>
-                <p className="text-gray-300 whitespace-pre-line">{item.subtitle}</p>
+                <div key={index} className="bg-gray-700 rounded-lg p-6 text-left hover:scale-105 transition-transform duration-300">
+                    <h3 className="text-lg sm:text-xl font-semibold mb-4 text-gray-100">{item.title}</h3>
+                    <p className="text-base sm:text-md text-gray-200 whitespace-pre-line">{item.subtitle}</p>
                 </div>
             ))}
             </div>
