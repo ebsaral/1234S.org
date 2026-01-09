@@ -20,7 +20,7 @@ const Home = () => {
                 height={160}
             />
             </div>
-            <h1 className="max-w-3xl mx-auto text-left sm:text-center text-gray-100 text-2xl sm:text-5xl font-semibold px-4 sm:px-6 lg:px-8">
+            <h1 className="max-w-3xl mx-auto text-left text-gray-100 text-2xl sm:text-5xl font-semibold px-4 sm:px-6 lg:px-8">
             {content.title}
             </h1>
             <div className="max-w-3xl mx-auto mt-6 text-left text-gray-300 px-4 sm:px-6 lg:px-8 whitespace-pre-line">
