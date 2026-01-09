@@ -2,11 +2,11 @@ import { type Dictionary, t } from "intlayer";
 import { Metadata } from "next";
 
 const metadataContent = {
-  key: "page-metadata",
+  key: "philosophy-page-metadata",
   content: {
     title: t({
-      en: "1234 Science & Art Association",
-      tr: "1234 Sanat ve İlim Derneği",
+      en: "Logical Spirituality: The Root of New Politics",
+      tr: "Mantıksal Maneviyat: Yeni Siyasetin Kökeni",
     }),
     description: t({
       en: "A Comprehensive View of Spirituality Together with the Logic of Nature: Interconnectedness, Justice, Health.",
