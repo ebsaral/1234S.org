@@ -5,6 +5,7 @@ import { useLocale, useIntlayer } from 'next-intlayer';
 import { getLocaleName, getLocalizedUrl, Locales } from "intlayer";
 import Image from 'next/image'
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
