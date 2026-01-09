@@ -60,7 +60,7 @@ const pageContent = {
       {
         title: t({
           en: "Translating Art in Nature",
-          tr: "Doğadaki Sanatı Tercüme Etmek",
+          tr: "Doğadaki Sanatın Tercümesi",
         }),
         subtitle: t({
           en: "A better understanding and translation of nature's universal language through symbols developed by the human mind.",
