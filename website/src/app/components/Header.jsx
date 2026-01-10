@@ -130,7 +130,7 @@ const Header = () => {
             {navItems.map((item) => (
               <Link
                 key={item.key}
-                href={item.extra || item.href}
+                href={getLocalizedUrl(item.extra || item.href, locale)}
                 aria-label={content[item.key].text.value}
                 onClick={() => scrollToSection(item.extra || item.href)}
                 className={`text-sm font-medium transition-all duration-300 relative ${
@@ -230,7 +230,7 @@ const Header = () => {
               {navItems.map((item) => (
                 <Link
                   key={item.key}
-                  href={item.extra || item.href}
+                  href={getLocalizedUrl(item.extra || item.href, locale)}
                   aria-label={content[item.key].text.value}
                   onClick={() => scrollToSection(item.extra || item.href)}
                   className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
@@ -242,6 +242,7 @@ const Header = () => {
                   {content[item.key].text}
                 </Link>
               ))}
+              <SupportLink className='block max-w-52' />
             </nav>
           </div>
         )}

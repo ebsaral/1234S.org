@@ -35,9 +35,9 @@ const pageContent = {
         }),
     },
     support: {
-        text: t({
-            en: "Support",
-            tr: "Destek",
+        text:  t({
+            en: "Support Us",
+            tr: "Bize Destek Olun",
         }),
     },
     interconnectedness: { 

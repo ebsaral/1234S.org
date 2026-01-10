@@ -62,17 +62,7 @@ const pageContent = {
         en: "Better health. More luck. Countless opportunities.",
         tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
     })
-    },
-    sponsorship: {
-      support: t({
-        en: "Support Us",
-        tr: "Bize Destek Olun",
-      }),
-      href: t({
-        en: "/files/sponsorship.pdf",
-        tr: "/files/sponsorluk.pdf",
-      })
-    },
+    }
   },
 } satisfies Dictionary;
 
