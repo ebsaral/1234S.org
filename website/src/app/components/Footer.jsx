@@ -29,7 +29,7 @@ const Footer = () => {
               <a href="https://www.producthunt.com/products/1234s-org-a-philosophical-movement?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-1234s&#0045;org&#0045;a&#0045;philosophical&#0045;movement" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1036802&theme=light&t=1762851644144" alt="1234S&#0046;org&#0032;&#0124;&#0032;A&#0032;Philosophical&#0032;Movement - Logical&#0032;Spirituality&#0058;&#0032;Interconnectedness&#0044;&#0032;Justice&#0044;&#0032;Health | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>
             </div>}
             <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
-              <p>2025 © {content.association.name}</p>
+              <p>2025 - {new Date().getFullYear()} © {content.association.name}</p>
               {content.association.description && <p>{content.association.description}</p>}
             </div>
           </div>
