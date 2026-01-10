@@ -28,7 +28,7 @@ const TeamSection = () => {
       <div className='max-w-5xl mx-auto flex flex-col sm:flex-row sm:px-20 justify-center items-center gap-4'>
         {content.members && content.members.map((member, index) => (
           <Card key={index} className="bg-white/90 backdrop-blur-sm shadow-xl border-0 p-6 flex flex-col justify-center items-center gap-4">
-            <div className="border border-rose-200 text-rose-800 text-xs font-bold px-5 py-2 rounded bg-rose-100">{member.title}</div>
+            <div className=" border-rose-200 text-rose-800 text-xs font-bold px-5 py-2 rounded bg-rose-100 min-w-44">{member.title}</div>
             <CardContent className='group flex flex-col justify-center items-center gap-4'>
               <Image 
                 className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md transition-transform duration-300 hover:scale-110'
@@ -43,7 +43,7 @@ const TeamSection = () => {
                   {member.name}
                 </p>
                 <p className='text-center text-sm sm:text-md'><em>{member.profession}</em></p> 
-                <div className="flex flex-col items-center justify-center gap-1 border border-purple-200 text-purple-800 text-xs px-5 py-2 rounded bg-purple-100">
+                <div className="flex flex-col items-center justify-center gap-1  border-purple-200 text-purple-800 text-xs px-5 py-2 rounded bg-purple-100 min-w-44">
                   <div className="text-sm font-bold">{member.experience.badge}</div>
                   <div>{member.experience.title}</div>
                 </div>
