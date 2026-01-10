@@ -44,8 +44,8 @@ const pageContent = {
         links: [
           {
             name: t({
-              en: "Contact",
-              tr: "İletişim",
+              en: "For more information",
+              tr: "Daha fazla bilgi için",
             }),
             href: t({
               en: "https://0.1234s.org/en",
