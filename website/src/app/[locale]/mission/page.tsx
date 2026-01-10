@@ -42,6 +42,7 @@ const Page: NextPageIntlayer = async ({params}) => {
       <IntlayerClientProvider locale={locale}>
         <div className="App">
           <Header />
+          <div id="home"></div>
           <main>
             <StorySection />
             <ProjectSection />
