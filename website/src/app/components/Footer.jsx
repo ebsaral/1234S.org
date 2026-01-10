@@ -5,6 +5,7 @@ import {SocialIcon} from "react-social-icons";
 
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Locales } from 'intlayer';
+import { Feather } from 'lucide-react';
 
 const Footer = () => {
   const content = useIntlayer("footer-section");
@@ -15,8 +16,11 @@ const Footer = () => {
     <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white pt-10 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="text-center text-gray-400 text-sm mb-8">
-              <a className='p-5 hover:text-white' href={`mailto:${content.contact.email.value}`}>{content.contact.email}</a>
+          <div className="mx-auto w-20 h-20 text-center text-gray-300 text-sm mb-8">
+              <a className='group flex flex-col gap-0 hover:gap-1 items-center p-5 hover:text-white' title={content.contact.title.value} href={`mailto:${content.contact.email.value}`}>
+                <div className=''><Feather size={36}/></div>
+                <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>{content.contact.email}</div>
+              </a>
           </div>
           <div id="social-links" className="pt-2">
             {/* Social Media Icons */}

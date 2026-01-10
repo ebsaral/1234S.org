@@ -60,6 +60,10 @@ const pageContent = {
       })
     },
     contact: {
+      title: t({
+        en: "Write us an e-mail",
+        tr: "Bize e-posta yazın"
+      }),
       email: t({
         en: "ebsaral@icloud.com",
         tr: "ebsaral@icloud.com"
