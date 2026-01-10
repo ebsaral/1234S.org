@@ -6,7 +6,6 @@ const Home = () => {
     const navigation = useIntlayer("navigation");
     const content = useIntlayer("home-page");
     return(
-    <main>
         <div className="text-center bg-gray-800 text-white pt-20 py-10">
             {/* Logo */}
             <div className='flex justify-center caret-transparent '>
@@ -40,10 +39,6 @@ const Home = () => {
                 <SupportLink className="text-xl" />
             </div>
         </div>
-        <div>
-            
-        </div>
-        </main>
     )
 }
 

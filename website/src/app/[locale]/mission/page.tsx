@@ -8,7 +8,6 @@ import { LocalPromiseParams } from "next-intlayer";
 import { getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
 import StorySection from "@/app/components/StorySection";
-import TeamSection from "@/app/components/TeamSection";
 
 
 export const generateMetadata = async ({
@@ -46,7 +45,6 @@ const Page: NextPageIntlayer = async ({params}) => {
           <main>
             <StorySection />
             <ProjectSection />
-            <TeamSection />
           </main>
           
           <Footer />
