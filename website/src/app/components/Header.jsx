@@ -117,7 +117,7 @@ const Header = () => {
               width={30}
               height={30}
             />
-            <p className={`font-bold text-left text-2xl sm:text-3xl ${
+            <p className={`font-bold text-left text-2xl sm:text-3xl select-none ${
               isScrolled 
                       ? 'text-emerald-600' 
                       : 'text-white'
