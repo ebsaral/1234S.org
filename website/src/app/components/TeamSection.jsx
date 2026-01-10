@@ -31,7 +31,7 @@ const TeamSection = () => {
             <div className="border border-rose-200 text-rose-800 text-xs font-bold px-5 py-2 rounded bg-rose-100">{member.title}</div>
             <CardContent className='group flex flex-col justify-center items-center gap-4'>
               <Image 
-                className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md'
+                className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md transition-transform duration-300 hover:scale-110'
                 src={member.image.src.value}
                 alt={`${member.name.value}: ${member.title.value}`}
                 width={member.image.size.value}
