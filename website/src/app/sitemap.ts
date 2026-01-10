@@ -22,6 +22,15 @@ const sitemap = (): MetadataRoute.Sitemap => [
     priority: 1,
     changeFrequency: "hourly"
   },
+  {
+    url: url + "/mission",
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + "/mission") },
+    },
+    priority: 1,
+    changeFrequency: "hourly"
+  },
 ];
 
 export default sitemap;

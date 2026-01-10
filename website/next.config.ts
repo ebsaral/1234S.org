@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         source: '/spirituality',
         destination: '/en/philosophy',
         permanent: false,
+      },
+      {
+        source: '/misyon',
+        destination: '/tr/mission',
+        permanent: false,
       }
     ]
   },

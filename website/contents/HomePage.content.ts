@@ -8,8 +8,8 @@ const pageContent = {
       tr: "1234 Sanat ve İlim Derneği",
     }),
     intro: t({
-      en: "Founded with the aim of becoming one of the world's leading philosophical movements in line with the principles of Interconnectedness, Justice and Health in Nature, along with the teachings of Logical Spirituality, it seeks to develop, disseminate, and sustain efforts to improve the mental and physical health of individuals, society, and the natural environment.",
-      tr: "Doğada Bütünlük, Adalet ve Sağlık ilkeleri doğrultusunda dünyanın sayılı felsefi akımlarından biri olmayı hedefleyen Mantıksal Maneviyat öğretileriyle birlikte; bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirmeye yönelik çalışmaları geliştirmek, yaygınlaştırmak ve süreklilik kazandırmak amacıyla kurulmuştur.",
+      en: "Founded on December 2025 with the aim of becoming one of the world's leading philosophical movements in line with the principles of Interconnectedness, Justice and Health in Nature, along with the teachings of Logical Spirituality, it seeks to develop, disseminate, and sustain efforts to improve the mental and physical health of individuals, society, and the natural environment.",
+      tr: "Doğada Bütünlük, Adalet ve Sağlık ilkeleri doğrultusunda dünyanın sayılı felsefi akımlarından biri olmayı hedefleyen Mantıksal Maneviyat öğretileriyle birlikte; bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirmeye yönelik çalışmaları geliştirmek, yaygınlaştırmak ve süreklilik kazandırmak amacıyla Aralık 2025 tarihinde kurulmuştur.",
     }),
     projects: {
       title: t({

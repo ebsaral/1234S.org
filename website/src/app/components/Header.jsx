@@ -35,6 +35,7 @@ const Header = () => {
   const navItems = [
     { key: 'home', href: '/' },
     { key: 'philosophy', href: '/philosophy'},
+    { key: 'mission', href: '/mission'},
   ];
 
   // Spin logo on scroll

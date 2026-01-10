@@ -1,8 +1,6 @@
 "use client";
 
 import { useIntlayer } from 'next-intlayer';
-import Link from 'next/link';
-import Image from 'next/image';
 
 import {
   Lightbulb, 
@@ -10,12 +8,13 @@ import {
   ImagePlay,
   Globe,
   Gift,
-  HeartPlus,
+  SunMoon
 } from 'lucide-react';
 
 import ContentLayout from './ContentLayout';
 import { Card, CardContent } from './ui/card';
 import Quote from './Custom/Quote';
+import Description from './Custom/Description';
 
 const ProjectSection = () => {
   const id = "project";
@@ -31,7 +30,7 @@ const ProjectSection = () => {
 
   return (
     <ContentLayout 
-      sectionKey={sectionKey} id={id} icon={Lightbulb} iconColor="text-amber-600"
+      sectionKey={sectionKey} id={id} icon={SunMoon} iconColor="text-amber-600"
       backgroundColor="bg-amber-50"
       accentColor="from-amber-50 to-yellow-50"
       className="pb-10"
@@ -44,7 +43,7 @@ const ProjectSection = () => {
       }
 
       <div className="max-w-5xl mx-auto mb-12 text-left text-xl">
-          {content.explanation}
+          <Description text={content.explanation.value} />
       </div>
 
       {/* Project Steps section */}
@@ -78,34 +77,6 @@ const ProjectSection = () => {
           })}
         </div>
       )}
-
-      {/* Project note section */}
-      <div className='max-w-5xl mx-auto flex flex-col sm:flex-row sm:px-20 justify-center items-center gap-4'>
-        <p className='flex flex-1 text-left text-lg sm:text-xl text-gray-800'>{content.note}</p>
-        <Link className='flex' href={content.leader.href.value}>
-        <div className='group flex flex-col justify-center items-center gap-4 mt-5'>
-          <Image 
-            className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md'
-            src={content.leader.image.src.value}
-            alt={`${content.leader.name.value}: ${content.leader.title.value}`}
-            width={content.leader.image.size.value}
-            height={content.leader.image.size.value}
-            priority={false}
-          />
-          <div className='flex flex-col items-center gap-2'>
-            <p className='text-center text-lg sm:text-xl text-emerald-800 underline underline-offset-4 group-hover:no-underline'>
-              {content.leader.name}
-            </p>
-            <p className='text-center text-md sm:text-lg text-emerald-800'><em>{content.leader.title}</em></p>
-          </div>
-        </div>
-      </Link>
-        
-      </div>
-
-      <div className="flex flex-col items-center justify-center">
-        <Link className='flex flex-row gap-2 justify-center items-center mt-4 text-xl underline underline-offset-2 hover:no-underline' href={content.sponsorship.href.value}><HeartPlus size={24} /> {content.sponsorship.title}</Link>
-      </div>
     </ContentLayout>
   );
 };

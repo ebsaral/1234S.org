@@ -3,10 +3,10 @@
 import { useIntlayer } from 'next-intlayer';
 
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
-import { Description } from './Custom/Description';
+import Description from './Custom/Description';
 import Quote from './Custom/Quote';
 
-const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundColor, accentColor, children }) => {
+const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundColor, backgroundOpacity, accentColor, titleColor, descriptionClassName, descriptionColor, descriptionBoldColor, descriptionItalicColor, children }) => {
   const [sectionRef] = useIntersectionObserver();
   const content = useIntlayer(`${sectionKey}-section`);
 
@@ -45,7 +45,7 @@ const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundC
       />
       
       {/* Gradient Overlay */}
-      <div className={`absolute inset-0 bg-gradient-to-br ${getAccentColor()} opacity-80`} />
+      <div className={`absolute inset-0 bg-gradient-to-br ${getAccentColor()} opacity-${backgroundOpacity || "80"}`} />
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -56,7 +56,7 @@ const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundC
               <Icon size={40} />
             </div>
             
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-12 leading-tight whitespace-pre-line">
+            <h2 className={`text-4xl sm:text-5xl lg:text-6xl font-bold ${titleColor || "text-gray-900"} mb-12 leading-tight whitespace-pre-line`}>
               {content.title}
             </h2>
             
@@ -67,7 +67,7 @@ const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundC
             
             {/* Description */}
             {content.description && 
-              <Description text={content.description.value} />
+              <Description text={content.description.value} className={descriptionClassName} color={descriptionColor} boldColor={descriptionBoldColor} italicColor={descriptionItalicColor}/>
             }
           </div>
 

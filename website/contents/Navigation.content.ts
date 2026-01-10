@@ -12,8 +12,8 @@ const pageContent = {
     },
     home: {
         text: t({
-            en: "Homepage",
-            tr: "Anasayfa",
+            en: "Our Association",
+            tr: "Derneğimiz",
         }),
     },
     about: {
@@ -26,6 +26,12 @@ const pageContent = {
         text: t({
             en: "Logical Spirituality",
             tr: "Mantıksal Maneviyat",
+        }),
+    },
+    mission: {
+        text: t({
+            en: "Our Mission",
+            tr: "Misyonumuz",
         }),
     },
     support: {

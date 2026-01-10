@@ -4,12 +4,12 @@ const pageContent = {
   key: "project-section",
   content: {
     title: t({
-      en: "Project: A Philosophical Movement",
-      tr: "Proje: Bir Felsefi Akım",
+      en: "The Root of New Politics",
+      tr: "Yeni Siyasetin Kökeni",
     }),
     explanation: t({
-      en: "Within the guidance of Logical Spirituality teachings, a profound transformation in the field of health becomes possible when the realities of nature are deeply understood and taken as a foundation. As long as thoughts and behaviors that fall outside this philosophy persist, the existence of genetic or other forms of illness will be inevitable. Until we align our thoughts and actions with nature through the lessons drawn from our life experiences, health problems will continue to exist, almost as if they were a consequence of natural selection. We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
-      tr: "Mantıksal Maneviyat öğretilerinin rehberliğinde, doğanın gerçekleri derinlemesine kavranıp esas alındığında sağlık alanında köklü bir dönüşüm mümkündür. Bu felsefenin dışında kalan düşünce ve davranışlar sürdürüldükçe, genetik ya da farklı biçimlerdeki hastalıkların varlığı kaçınılmaz olacaktır. Yaşam deneyimlerimizden edindiğimiz derslerle düşünce ve eylemlerimizi doğayla uyumlu hâle getirene dek, sağlık sorunları adeta doğal seçilimin bir sonucu gibi varlığını sürdürmeye devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
+      en: "Within the guidance of **Logical Spirituality** teachings, a profound transformation in the field of health becomes possible when the realities of nature are deeply understood and taken as a foundation. As long as thoughts and behaviors that fall outside this philosophy persist, the existence of genetic or other forms of illness will be inevitable. Until we align our thoughts and actions with nature through the lessons drawn from our life experiences, health problems will continue to exist, almost as if they were a consequence of natural selection. We can raise awareness in people so that they can see the logic in nature and together we can heal the mistakes that repeat in our life cycles.",
+      tr: "**Mantıksal Maneviyat** öğretilerinin rehberliğinde, doğanın gerçekleri derinlemesine kavranıp esas alındığında sağlık alanında köklü bir dönüşüm mümkündür. Bu felsefenin dışında kalan düşünce ve davranışlar sürdürüldükçe, genetik ya da farklı biçimlerdeki hastalıkların varlığı kaçınılmaz olacaktır. Yaşam deneyimlerimizden edindiğimiz derslerle düşünce ve eylemlerimizi doğayla uyumlu hâle getirene dek, sağlık sorunları adeta doğal seçilimin bir sonucu gibi varlığını sürdürmeye devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve birlikte yaşam döngülerimizde tekrarlanan hataları iyileştirebiliriz.",
     }),
     items: [
       {
@@ -63,25 +63,6 @@ const pageContent = {
         tr: "Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.",
     })
     },
-    leader: {
-      name: "Emin Buğra Saral",
-      title: t({
-        en: "Spirit Guide",
-        tr: "Maneviyat Rehberi",
-      }),
-      image: {
-        src: "/eminbugrasaral-2023.jpg",
-        size: 120
-      },
-      href: t({
-        en: "https://0.1234s.org/en",
-        tr: "https://0.1234s.org/tr",
-      }),
-    },
-    note: t({
-      en: "If you would like to benefit from my experience and help me, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute thoroughly to all social projects.",
-      tr: "Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.",
-    }),
     sponsorship: {
       support: t({
         en: "Support Us",
@@ -90,10 +71,6 @@ const pageContent = {
       href: t({
         en: "/files/sponsorship.pdf",
         tr: "/files/sponsorluk.pdf",
-      }),
-      title: t({
-        en: "View the details for sponsorship",
-        tr: "Sponsorluk için detaylara göz atın",
       })
     },
   },
