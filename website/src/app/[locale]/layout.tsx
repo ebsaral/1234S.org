@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { Noto_Sans } from 'next/font/google'
 import "../globals.css";
 import "../App.css";
+import BudgetIssue from '../components/Custom/BudgetIssue';
 
 export { generateStaticParams };
 
@@ -68,6 +69,7 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
         {children}
         <Analytics />
         <SpeedInsights />
+        <BudgetIssue />
       </body>
     </html>
   );

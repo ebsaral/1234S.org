@@ -185,9 +185,13 @@ const pageContent = {
         ],
       }
     ],
-    note: t({
-      en: "If you would like to benefit from my experience and help me, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute thoroughly to all social projects.",
-      tr: "Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.",
+    budgetIssue: t({
+      en: "While our teachings are being used in all dissembling political speeches at the moment, our financial difficulties continue to increase. Any contribution or assistance that helps clear our way forward would be deeply appreciated.",
+      tr: "Öğretilerimiz şu anki tüm siyasi konuşmalarda iki yüzlü biçimlerde kullanılıyor. Fakat mali sıkıntılarımız artmaya devam ediyor. Yolumuzu açabilecek herhangi bir katkıda veya yardımda bulunabilirseniz memnun oluruz."
+    }),
+    closeButton: t({
+      en:"Close",
+      tr: "Kapat"
     })
   },
 } satisfies Dictionary;
