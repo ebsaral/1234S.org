@@ -6,15 +6,13 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/maneviyat',
-        destination: '/spirituality',
+        destination: '/tr/philosophy',
         permanent: false,
-        has: [{ type: 'cookie', key: 'INTLAYER_LOCALE', value: 'en' }],
       },
       {
         source: '/spirituality',
-        destination: '/maneviyat',
+        destination: '/en/philosophy',
         permanent: false,
-        has: [{ type: 'cookie', key: 'INTLAYER_LOCALE', value: 'tr' }],
       }
     ]
   },
