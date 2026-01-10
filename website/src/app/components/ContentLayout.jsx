@@ -52,7 +52,7 @@ const ContentLayout = ({ id, className, sectionKey, icon, iconColor, backgroundC
         <div>
           {/* Section Header */}
           <div className="text-center mb-16">
-            <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 ${getIconColor()} transition-all duration-300 hover:scale-105`}>
+            <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg mb-8 ${getIconColor()} transition-all duration-300 hover:scale-110`}>
               <Icon size={40} />
             </div>
             
