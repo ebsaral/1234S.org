@@ -120,7 +120,7 @@ const pageContent = {
       },
     ],
     join: t({
-      en: "Join us!",
+      en: "Join Us!",
       tr: "Bize Katıl!"
     }),
     total: {
