@@ -22,7 +22,11 @@ const pageContent = {
           en: "Computer Engineer",
           tr: "Bilgisayar Mühendisi",
         }),
-        birthday: new Date(1988, 9, 28),
+        birthday: {
+          year: 1988,
+          month: 9,
+          day: 28
+        },
         experience: {
           title: t({
             en: "Spirit Guide",
@@ -64,7 +68,11 @@ const pageContent = {
           en: "Unemployed",
           tr: "İşsiz",
         }),
-        birthday: new Date(1990, 10, 31),
+        birthday: {
+          year: 1990,
+          month: 10,
+          day: 31
+        },
         image: {
           src: "/members/yunusemresaral.jpg",
           size: 120
@@ -80,7 +88,11 @@ const pageContent = {
           en: "Retired\n(Serial Entrepreneur)",
           tr: "Emekli\n(Seri Girişimci)",
         }),
-        birthday: new Date(1966, 2, 1),
+        birthday: {
+          year: 1966,
+          month: 2,
+          day: 1
+        },
         image: {
           src: "/members/haticesaral.jpg",
           size: 120
@@ -96,7 +108,11 @@ const pageContent = {
           en: "Retired\n(Worker, Serial Entrepreneur, Journalist)",
           tr: "Emekli\n(İşçi, Seri Girişimci, Gazeteci)",
         }),
-        birthday: new Date(1960, 12, 28),
+        birthday: {
+          year: 1960,
+          month: 12,
+          day: 28
+        },
         image: {
           src: "/members/omerlutfusaral.jpg",
           size: 120
@@ -111,7 +127,6 @@ const pageContent = {
           en: ". . .",
           tr: ". . ."
         }),
-        birthday: new Date(),
         image: {
           src: "/members/placeholder.jpg",
           size: 120
