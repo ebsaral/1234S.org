@@ -16,6 +16,10 @@ const pageContent = {
         en: "Our Research and Development Topics",
         tr: "Araştırma ve Geliştirme Konularımız", 
       }),
+      description: t({
+        en: "Kindly visit our *support* page to help us in detailing these topics and communicating them openly to the public, so that we can improve the overall quality of life for all communities.",
+        tr: "Bu konuları detaylandırmamıza ve kamuoyuna açıkça aktarmamıza yardımcı olmak için lütfen *destek* sayfamızı ziyaret edin! Böylece tüm toplulukların genel yaşam kalitelerini iyileştirilebiliriz."
+      }),
       items: [
       {
         title: t({
@@ -110,21 +114,6 @@ const pageContent = {
     ],
     },
 
-    leader: {
-      name: "Emin Buğra Saral",
-      title: t({
-        en: "Spirit Guide",
-        tr: "Maneviyat Rehberi",
-      }),
-      image: {
-        src: "/eminbugrasaral-2023.jpg",
-        size: 120
-      },
-      href: t({
-        en: "https://0.1234s.org/en",
-        tr: "https://0.1234s.org/tr",
-      }),
-    }
   },
 } satisfies Dictionary;
 

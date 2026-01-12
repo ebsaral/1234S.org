@@ -1,6 +1,7 @@
 import { useIntlayer } from "next-intlayer/server";
 import Image from 'next/image';
 import SupportLink from "./Custom/SupportLink";
+import FormattedText from "./Custom/FormattedText";
 
 const Home = () => {
     const navigation = useIntlayer("navigation");
@@ -25,19 +26,22 @@ const Home = () => {
             <div className="max-w-4xl mx-auto mt-6 text-left text-gray-200 text-base sm:text-lg px-4 sm:px-6 lg:px-8 whitespace-pre-line">
             {content.intro}
             </div>
+            
             <hr className="my-20"></hr>
-            <h2 className="my-10 text-xl sm:text-3xl font-bold text-gray-200">{content.projects.title}</h2>
+            
+            <h2 className="my-10 text-xl sm:text-3xl font-bold text-amber-200">{content.projects.title}</h2>
+            <FormattedText className="mx-auto px-10 max-w-3xl text-center text-gray-100" text={content.projects.description.value} />
+            
             <div className="mt-10 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-8">
             {content.projects.items.map((item, index) => (
                 <div key={index} className="bg-gray-700 rounded-lg p-6 text-left hover:scale-105 transition-transform duration-300">
-                    <h3 className="text-lg sm:text-xl font-semibold mb-4 text-gray-100">{item.title}</h3>
+                    <h3 className="text-lg sm:text-xl font-semibold mb-4 text-amber-200">{item.title}</h3>
                     <p className="text-base sm:text-md text-gray-200 whitespace-pre-line">{item.subtitle}</p>
                 </div>
             ))}
             </div>
-            <div className="md:hidden mt-10 mx-10 text-5xl">
-                <SupportLink className="text-xl" />
-            </div>
+
+            <SupportLink className="md:hidden mt-10 mx-10 text-xl" />
         </div>
     )
 }
