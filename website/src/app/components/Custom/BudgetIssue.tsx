@@ -9,7 +9,7 @@ import { useState } from "react";
 const BudgetIssue = () => {
     const [isHidden, setIsHidden] = useState(false);
     const {locale} = useLocale();
-    const content = useIntlayer("support-section", locale);
+    const content = useIntlayer("navigation", locale);
 
     return (
         <div className={`${isHidden && "hidden"} fixed flex flex-col sm:flex-row z-10 bottom-2 left-1/2 -translate-x-1/2 w-full max-w-2xl bg-gray-100 border border-gray-400 rounded-3xl text-center py-4 px-10 sm:px-10 lg:px-16`}>

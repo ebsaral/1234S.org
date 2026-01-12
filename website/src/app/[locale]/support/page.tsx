@@ -6,7 +6,8 @@ import Footer from "@/app/components/Footer";
 import { LocalPromiseParams } from "next-intlayer";
 import { getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
-import SupportSection from "@/app/components/SupportSection";
+import SupportTopicsSection from "@/app/components/SupportTopicsSection";
+import SupportInfoSection from "@/app/components/SupportInfoSection";
 
 
 export const generateMetadata = async ({
@@ -42,7 +43,8 @@ const Page: NextPageIntlayer = async ({params}) => {
           <Header />
           <div id="home"></div>
           <main>
-            <SupportSection />
+            <SupportTopicsSection />
+            <SupportInfoSection />
           </main>
           <Footer />
         </div>

@@ -77,7 +77,15 @@ const pageContent = {
     flags: {
         [Locales.ENGLISH]: '🇺🇸',
         [Locales.TURKISH]: '🇹🇷',
-    }
+    },
+    budgetIssue: t({
+      en: "While our teachings are being used in all dissembling political speeches at the moment, our financial difficulties continue to increase. Any contribution or assistance that helps clear our way forward would be deeply appreciated.",
+      tr: "Öğretilerimiz şu anki tüm siyasi konuşmalarda iki yüzlü biçimlerde kullanılıyor. Fakat mali sıkıntılarımız artmaya devam ediyor. Yolumuzu açabilecek herhangi bir katkıda veya yardımda bulunabilirseniz memnun oluruz."
+    }),
+    closeButton: t({
+      en:"Close",
+      tr: "Kapat"
+    })
   },
 } satisfies Dictionary;
 

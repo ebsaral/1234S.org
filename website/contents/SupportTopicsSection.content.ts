@@ -1,48 +1,16 @@
 import { t, type Dictionary } from "intlayer";
 
 const pageContent = {
-  key: "support-section",
+  key: "support-topics-section",
   content: {
     title: t({
-      en: "How you can support us",
-      tr: "Destek olabileceğiniz yollar",
+      en: "Categories",
+      tr: "Kategoriler",
     }),
     description: t({
       en: "Here you can find areas where you can offer support and ways to help.",
       tr: "Destek olabileceğiniz konuları ve yardım edebileceğiniz yöntemleri burada bulabilirsiniz.",
     }),
-    methods: {
-      title: t({
-        en: "How can you help?",
-        tr: "Nasıl yardım edebilirsiniz?"
-      }),
-      items: [
-        {
-          title: t({
-            en: "We can form collaborations",
-            tr: "İş birlikleri yapabiliriz",
-          }),
-        },
-        {
-          title: t({
-            en: "You can suggest or promote us",
-            tr: "Bizi önerebilirsiniz veya tanıtabilirsiniz",
-          }),
-        },
-        {
-          title: t({
-            en: "You can invite us",
-            tr: "Bizi davet edebilirsiniz",
-          }),
-        },
-        {
-          title: t({
-            en: "You can give us opportunities",
-            tr: "Bize imkanlar tanıyabilirsiniz",
-          }),
-        },
-      ]
-    },
     topics: {
       items: [
         {
@@ -137,68 +105,6 @@ const pageContent = {
         },
       ]
     },
-    members: [
-      {
-        name: "Emin Buğra Saral",
-        title: t({
-          en: "Chairman of the Board",
-          tr: "Yönetim Kurulu Başkanı"
-        }),
-        profession: t({
-          en: "Computer Engineer",
-          tr: "Bilgisayar Mühendisi",
-        }),
-        birthday: new Date(1988, 9, 28),
-        experience: {
-          title: t({
-            en: "Spirit Guide",
-            tr: "Maneviyat Rehberi",
-          }), 
-          badge: t({
-            en: "Advanced",
-            tr: "İleri Seviye",
-          }),
-        },
-        description: t({
-          en: "Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. His teachings emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a *funnywise* Spirit Guide with engineering, feeling and artistic skills.",
-          tr: "Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. Öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan *eğlendeli* bir Maneviyat Rehberi'dir.",
-        }),
-        image: {
-          src: "/eminbugrasaral-2023.jpg",
-          size: 120
-        },
-        links: [
-          {
-            name: t({
-              en: "Contact",
-              tr: "İletişim",
-            }),
-            href: t({
-              en: "https://0.1234s.org/en",
-              tr: "https://0.1234s.org/tr",
-            }),
-          }
-        ],
-      }
-    ],
-    contact: [
-      {
-          label: "WhatsApp",
-          url: "https://wa.me/905322580093"
-      },
-      {
-          label: "Telegram",
-          url: "https://t.me/ebsaral"
-      }
-    ],
-    budgetIssue: t({
-      en: "While our teachings are being used in all dissembling political speeches at the moment, our financial difficulties continue to increase. Any contribution or assistance that helps clear our way forward would be deeply appreciated.",
-      tr: "Öğretilerimiz şu anki tüm siyasi konuşmalarda iki yüzlü biçimlerde kullanılıyor. Fakat mali sıkıntılarımız artmaya devam ediyor. Yolumuzu açabilecek herhangi bir katkıda veya yardımda bulunabilirseniz memnun oluruz."
-    }),
-    closeButton: t({
-      en:"Close",
-      tr: "Kapat"
-    })
   },
 } satisfies Dictionary;
 
