@@ -38,7 +38,7 @@ const pageContent = {
           tr: "Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. Öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan *eğlendeli* bir Maneviyat Rehberi'dir.",
         }),
         image: {
-          src: "/eminbugrasaral-2023.jpg",
+          src: "/members/eminbugrasaral.jpg",
           size: 120
         },
         links: [
@@ -53,8 +53,83 @@ const pageContent = {
             }),
           }
         ],
-      }
+      },
+      {
+        name: "Yunus Emre Saral",
+        title: t({
+          en: "Vice Chairman of the Board",
+          tr: "Yönetim Kurulu Başkan Yardımcısı"
+        }),
+        profession: t({
+          en: "Unemployed",
+          tr: "İşsiz",
+        }),
+        birthday: new Date(1990, 10, 31),
+        image: {
+          src: "/members/yunusemresaral.jpg",
+          size: 120
+        },
+      },
+      {
+        name: "Hatice Saral",
+        title: t({
+          en: "Secretary of the Board",
+          tr: "Yönetim Kurulu Sekreteri"
+        }),
+        profession: t({
+          en: "Retired\n(Serial Entrepreneur)",
+          tr: "Emekli\n(Seri Girişimci)",
+        }),
+        birthday: new Date(1966, 2, 1),
+        image: {
+          src: "/members/haticesaral.jpg",
+          size: 120
+        },
+      },
+      {
+        name: "Ömer Lütfü Saral",
+        title: t({
+          en: "Treasurer of the Board",
+          tr: "Yönetim Kurulu Saymanı"
+        }),
+        profession: t({
+          en: "Retired\n(Worker, Serial Entrepreneur, Journalist)",
+          tr: "Emekli\n(İşçi, Seri Girişimci, Gazeteci)",
+        }),
+        birthday: new Date(1960, 12, 28),
+        image: {
+          src: "/members/omerlutfusaral.jpg",
+          size: 120
+        },
+      },
+      {
+        name: t({
+          en: "Maybe you?",
+          tr: "Belki sen?"
+        }),
+        profession: t({
+          en: "You can also be our team member disregard of your profession.",
+          tr: "Mesleğiniz ne olursa olsun, siz de ekibimizin bir üyesi olabilirsiniz.",
+        }),
+        birthday: new Date(),
+        image: {
+          src: "/members/placeholder.jpg",
+          size: 120
+        },
+        join: true
+      },
     ],
+    join: t({
+      en: "Join us!",
+      tr: "Bize Katıl!"
+    }),
+    total: {
+      count: 7,
+      label: t({
+        en: "Total member count",
+        tr: "Toplam üye sayısı"
+      })
+    },
     note: t({
       en: "If you would like to benefit from my experience and help me, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute thoroughly to all social projects.",
       tr: "Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.",

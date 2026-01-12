@@ -35,7 +35,7 @@ const Home = () => {
                 </div>
             ))}
             </div>
-            <div className="md:hidden mt-5 text-5xl">
+            <div className="md:hidden mt-10 mx-10 text-5xl">
                 <SupportLink className="text-xl" />
             </div>
         </div>
