@@ -22,6 +22,9 @@ const Footer = () => {
                 <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>{content.contact.email}</div>
               </a>
           </div>
+           <div className="mx-auto text-center text-gray-300 text-sm mb-8">
+            <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>{content.contact.phone}</div>
+           </div>
           <div id="social-links" className="pt-2">
             {/* Social Media Icons */}
             <div className="flex justify-center items-center gap-4 mb-8">

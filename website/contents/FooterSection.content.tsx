@@ -67,8 +67,9 @@ const pageContent = {
       email: t({
         en: "ebsaral@icloud.com",
         tr: "ebsaral@icloud.com"
-      })
-    }
+      }),
+      phone: "+90 532 258 00 93"
+    },
   },
 } satisfies Dictionary;
 
