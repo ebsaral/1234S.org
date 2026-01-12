@@ -104,12 +104,12 @@ const pageContent = {
       },
       {
         name: t({
-          en: "Maybe you?",
-          tr: "Belki sen?"
+          en: "Your name?",
+          tr: "İsminiz?"
         }),
-        profession: t({
-          en: "You can also be our team member disregard of your profession.",
-          tr: "Mesleğiniz ne olursa olsun, siz de ekibimizin bir üyesi olabilirsiniz.",
+        title: t({
+          en: ". . .",
+          tr: ". . ."
         }),
         birthday: new Date(),
         image: {
