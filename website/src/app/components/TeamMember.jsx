@@ -18,7 +18,7 @@ const TeamMember = ({member}) => {
           className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md transition-transform duration-300 hover:scale-110'
           src={member.image.src.value}
           alt={`${member.name.value}: ${member.title?.value}`}
-          title={`${member.name.value} ${member.birthday && "("+ getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ")"}`}
+          title={`${member.name.value} ${member.birthday ? "("+ getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ")" : ""}`}
           width={member.image.size.value}
           height={member.image.size.value}
           priority={false}
