@@ -1,14 +1,14 @@
 "use client";
 
 import { useIntlayer } from 'next-intlayer';
-import Image from 'next/image';
+import {SocialIcon} from "react-social-icons";
 
 import {
   HeartPulse
 } from 'lucide-react';
 
 import ContentLayout from './ContentLayout';
-import { Card, CardContent } from './ui/card';
+import { Card } from './ui/card';
 import Description from './Custom/Description';
 
 const SupportSection = () => {
@@ -44,12 +44,18 @@ const SupportSection = () => {
           return (
             <div 
               key={index} 
-              className={`px-5 py-2 rounded ${item.style.value}`}
+              className={`px-5 py-2 rounded text-center text-gray-900 bg-purple-100`}
             >
               {item.title}
             </div>
           )
         })}
+      </div>
+
+      <div className="max-w-5xl mx-auto flex justify-center items-center gap-4 p-10">
+        {content.contact.map((props, index) => (
+          <SocialIcon key={index} title={props.label.value} target="_blank" className="transition-all duration-300 transform hover:scale-110" url={props.url.value} />
+        ))}
       </div>
     </ContentLayout>
   );

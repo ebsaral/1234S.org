@@ -22,28 +22,24 @@ const pageContent = {
             en: "We can form collaborations",
             tr: "İş birlikleri yapabiliriz",
           }),
-          style: "text-purple-800 bg-purple-100"
         },
         {
           title: t({
             en: "You can suggest or promote us",
             tr: "Bizi önerebilirsiniz veya tanıtabilirsiniz",
           }),
-          style: "text-purple-800 bg-purple-100"
         },
         {
           title: t({
             en: "You can invite us",
             tr: "Bizi davet edebilirsiniz",
           }),
-          style: "text-purple-800 bg-purple-100"
         },
         {
           title: t({
             en: "You can give us opportunities",
             tr: "Bize imkanlar tanıyabilirsiniz",
           }),
-          style: "text-purple-800 bg-purple-100"
         },
       ]
     },
@@ -183,6 +179,16 @@ const pageContent = {
             }),
           }
         ],
+      }
+    ],
+    contact: [
+      {
+          label: "WhatsApp",
+          url: "https://wa.me/905322580093"
+      },
+      {
+          label: "Telegram",
+          url: "https://t.me/ebsaral"
       }
     ],
     budgetIssue: t({
