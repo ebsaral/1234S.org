@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         source: '/misyon',
         destination: '/tr/mission',
         permanent: false,
+      },
+      {
+        source: '/destek',
+        destination: '/tr/support',
+        permanent: false,
       }
     ]
   },
