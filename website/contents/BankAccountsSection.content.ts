@@ -7,49 +7,63 @@ const pageContent = {
       en: "Our Bank Accounts",
       tr: "Banka Hesaplarımız"
     }),
+    labels: {
+      bank: {
+        name: t({
+          en: "Bank Name",
+          tr: "Banka Adı",
+        }),
+        swift: t({
+          en: "SWIFT",
+          tr: "SWIFT"
+        }),
+        branch: {
+          name: t({
+            en: "Branch Name",
+            tr: "Şube Adı"
+          }),
+          code: t({
+            en: "Branch Code",
+            tr: "Şube Kodu"
+          }),
+        },
+      },
+      account: {
+        title: t({
+          en: "Title",
+          tr: "Ünvan",
+        }),
+        name: t({
+          en: "Account Name",
+          tr: "Hesap Adı",
+        }),
+        number: t({
+          en: "Account Number",
+          tr: "Hesap Numarası",
+        }),
+        iban: t({
+          en: "IBAN",
+          tr: "IBAN",
+        }),
+        currency: t({
+          en: "Currency",
+          tr: "Para Birimi",
+        }), 
+      }
+    },
     banks: [
       {
         bank: {
-          swift: {
-            label: t({
-              en: "SWIFT",
-              tr: "SWIFT"
-            }),
-            text: "TVBATR2A" 
-          },
-          name: {
-            label: t({
-              en: "Bank Name",
-              tr: "Banka Adı",
-            }),
-            text: "Türkiye Vakıflar Bankası T.A.O."
-          },
+          swift: "TVBATR2A", 
+          name: "Türkiye Vakıflar Bankası T.A.O.",
           branch: {
-            name: {
-              label: t({
-                en: "Branch Name",
-                tr: "Şube Adı"
-              }),
-              text: "OF"
-            },
-            code: {
-              label: t({
-                en: "Branch Code",
-                tr: "Şube Kodu"
-              }),
-              text: "S01114"
-            }
+            name: "OF",
+            code: "S01114"
           },
-          account: {
-            label: t({
-              en: "Title",
-              tr: "Ünvan",
-            }),
-            text: "1234 SANAT VE İLİM DERNEĞİ"
-          },
+          title: "1234 SANAT VE İLİM DERNEĞİ",
           logo: "/logos/vakifbank.jpg"
         },
-        items: [
+        accounts: [
           {
             name: "1234 Sanat ve İlim",
             number: "00158007367400478",

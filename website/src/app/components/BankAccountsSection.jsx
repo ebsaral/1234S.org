@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 
 import ContentLayout from './ContentLayout';
+import BankAccountContainer from './BankAccountContainer';
 
 const BankAccountsSection = () => {
   const id = "bank-accounts";
@@ -22,7 +23,7 @@ const BankAccountsSection = () => {
       descriptionClassName={"text-center"}
       descriptionColor={"text-gray-900"}
     >
-      
+      {content.banks.map((bank, index) => <BankAccountContainer key={index} bank={bank} />)}
     </ContentLayout>
   );
 };

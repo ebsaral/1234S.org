@@ -9,6 +9,7 @@ import { Noto_Sans } from 'next/font/google'
 import "../globals.css";
 import "../App.css";
 import BudgetIssue from '../components/Custom/BudgetIssue';
+import { Bounce, ToastContainer } from 'react-toastify';
 
 export { generateStaticParams };
 
@@ -70,6 +71,17 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
         <Analytics />
         <SpeedInsights />
         <BudgetIssue />
+        <ToastContainer
+          position="top-left"
+          autoClose={2000}
+          hideProgressBar={true}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnHover={false}
+          theme="light"
+          transition={Bounce}
+          />
       </body>
     </html>
   );
