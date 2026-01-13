@@ -41,7 +41,7 @@ const SupportInfoSection = () => {
       <div className={`flex flex-col items-center justify-center gap-6 mt-5 px-5 py-2 rounded text-center`}>
         <div className='flex items-center justify-center gap-2'><BellElectric /></div>
         <Link href="/bank-accounts" prefetch={true}>
-        <span className='p-4 bg-red-600 hover:bg-red-700 text-gray-200 hover:text-white rounded-md'>
+        <span className='p-4 bg-red-600 hover:bg-red-700 text-white hover:text-gray-200 rounded-md'>
           {content.bankAccountInfo}
         </span></Link>
       </div>
