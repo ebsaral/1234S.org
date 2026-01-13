@@ -123,10 +123,6 @@ const pageContent = {
           en: "Your name?",
           tr: "İsminiz?"
         }),
-        title: t({
-          en: ". . .",
-          tr: ". . ."
-        }),
         image: {
           src: "/members/placeholder.jpg",
           size: 120
