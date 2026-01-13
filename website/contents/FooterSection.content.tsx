@@ -74,6 +74,17 @@ const pageContent = {
         tr: "Sulaklı Mah. Sultan Murat Sk. No:2, 61830 Of/Trabzon",
       })
     },
+    bylaw: {
+      text: t({
+        en: "Association Bylaw",
+        tr: "Dernek Tüzüğü"
+      }),
+      href: t({
+        en: "/files/1234S-association-bylaw.pdf",
+        tr: "/files/1234S-dernek-tuzugu.pdf",
+      })
+    }
+
   },
 } satisfies Dictionary;
 
