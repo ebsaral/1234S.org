@@ -46,10 +46,13 @@ const SupportInfoSection = () => {
         </span></Link>
       </div>
 
-      <div className="max-w-5xl mx-auto flex justify-center items-center gap-4 p-10">
+      <div className="max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4">
+        <div className='flex items-center justify-center gap-4'>
         {content.contact.map((props, index) => (
           <SocialIcon key={index} title={props.label.value} target="_blank" className="transition-all duration-300 transform hover:scale-110" url={props.url.value} />
         ))}
+        </div>
+        <div className='text-center'><em>{content.contactLabel}</em></div>
       </div>
     </ContentLayout>
   );

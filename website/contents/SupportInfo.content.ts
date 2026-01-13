@@ -39,6 +39,10 @@ const pageContent = {
         }),
       },
     ],
+    contactLabel: t({
+      en: "Join our community channels in Whatsapp or Telegram!",
+      tr: "WhatsApp veya Telegram'daki topluluk kanallarımıza katılın!",
+    }),
     contact: [
       {
           label: t(
