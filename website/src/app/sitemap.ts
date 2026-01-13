@@ -40,6 +40,15 @@ const sitemap = (): MetadataRoute.Sitemap => [
     priority: 1,
     changeFrequency: "hourly"
   },
+  {
+    url: url + "/bank-accounts",
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + "/bank-accounts") },
+    },
+    priority: 1,
+    changeFrequency: "hourly"
+  },
 ];
 
 export default sitemap;

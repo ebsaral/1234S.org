@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         source: '/destek',
         destination: '/tr/support',
         permanent: false,
+      },
+      {
+        source: '/banka-hesaplari',
+        destination: '/tr/bank-accounts',
+        permanent: false,
       }
     ]
   },
