@@ -68,7 +68,11 @@ const pageContent = {
         en: "ebsaral@icloud.com",
         tr: "ebsaral@icloud.com"
       }),
-      phone: "+90 532 258 00 93"
+      phone: "+90 532 258 00 93",
+      address: t({
+        en: "Sulaklı, Sultan Murat Sk. No:2, 61830 Of/Trabzon",
+        tr: "Sulaklı Mah. Sultan Murat Sk. No:2, 61830 Of/Trabzon",
+      })
     },
   },
 } satisfies Dictionary;
