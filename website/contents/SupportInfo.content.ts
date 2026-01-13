@@ -66,13 +66,9 @@ const pageContent = {
       }
     ],
     bankAccountInfo: t({
-      en: "For your donations, our association's state approved bank account will be shared here.",
-      tr: "Bağışlarınız için, derneğimizin devlet onaylı banka hesabı burada paylaşılacaktır."
+      en: "Our Bank Accounts",
+      tr: "Banka Hesaplarımız"
     }),
-    soon: t({
-      en: "SOON!",
-      tr: "YAKINDA!"
-    })
   },
 } satisfies Dictionary;
 
