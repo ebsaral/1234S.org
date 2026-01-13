@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Contact section */}
           <div className='flex flex-col justify-center items-center md:items-left md:justify-start'>
             <div className="h-20 text-gray-300 text-sm">
-                <a className='group flex flex-col gap-0 hover:gap-1 items-center hover:text-white underline underline-offset-4 hover:no-underline' title={content.contact.title.value} href={`mailto:${content.contact.email.value}`}>
+                <a className='group flex flex-col gap-0 hover:gap-1 items-center hover:text-white' title={content.contact.title.value} href={`mailto:${content.contact.email.value}`}>
                   <div className=''><Feather size={36}/></div>
                   <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>{content.contact.email}</div>
                 </a>
