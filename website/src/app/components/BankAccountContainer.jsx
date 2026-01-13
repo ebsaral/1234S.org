@@ -11,7 +11,7 @@ const BankAccountContainer = ({bank}) => {
   const content = useIntlayer("bank-accounts-section");
 
   return (
-    <Card className={`backdrop-blur-sm shadow-xl border-0 grid grid-cols-1 justify-center items-center p-10`}>
+    <Card className={`backdrop-blur-sm shadow-xl border-0 grid grid-cols-1 justify-center items-center p-4`}>
 
       <div className='flex flex-row gap-2 items-center justify-center text-base'>
         <Image src={bank.bank.logo.value} alt={bank.bank.name} width={100} height={50} className="object-contain"/>
