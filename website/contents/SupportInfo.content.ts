@@ -41,12 +41,28 @@ const pageContent = {
     ],
     contact: [
       {
-          label: "WhatsApp",
-          url: "https://wa.me/905322580093"
+          label: t(
+            {
+              en: "WhatsApp Group Invite Link",
+              tr: "WhatsApp Grup Davet Linki"
+            }
+          ),
+          url: t(
+            {
+              en: "https://chat.whatsapp.com/Kza49cCtIMf9HsD0VNhH7V",
+              tr: "https://chat.whatsapp.com/CI3boPYbZpb0no69TwgxaD"
+            }
+          )
       },
       {
-          label: "Telegram",
-          url: "https://t.me/ebsaral"
+          label: t({
+            en: "Telegram Group Link",
+            tr: "Telegram Grup Linki"
+          }),
+          url: t({
+            en: "https://t.me/en1234S",
+            tr: "https://t.me/tr1234S"
+          })
       }
     ],
     bankAccountInfo: t({
