@@ -5,8 +5,8 @@ const metadataContent = {
   key: "bank-accounts-page-metadata",
   content: {
     title: t({
-      en: "Bank Accounts | 1234 Science & Art Association",
-      tr: "Banka Hesaplar | 1234 Sanat ve İlim Derneği",
+      en: "Our Bank Accounts | 1234 Science & Art Association",
+      tr: "Banka Hesaplarımız | 1234 Sanat ve İlim Derneği",
     }),
     description: t({
       en: "View our bank account details to support 1234 Science & Art Association.",
