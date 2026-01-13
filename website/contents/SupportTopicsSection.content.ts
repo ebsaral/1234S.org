@@ -4,8 +4,8 @@ const pageContent = {
   key: "support-topics-section",
   content: {
     title: t({
-      en: "Categories",
-      tr: "Kategoriler",
+      en: "Support Categories",
+      tr: "Destek Kategorileri",
     }),
     description: t({
       en: "Here you can find areas where you can offer support and ways to help.",
