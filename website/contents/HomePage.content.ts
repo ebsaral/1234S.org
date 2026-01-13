@@ -33,22 +33,22 @@ const pageContent = {
         },
         {
           title: t({
-            en: "Understanding and Improving Talents",
-            tr: "Yetenekleri Anlamak ve Geliştirmek",
-          }),
-          subtitle: t({
-            en: "How abilities (talents) emerge and develop in nature's justice scale. How  behaviors in nature indirectly and directly influence the development of abilities.",
-            tr: "Yeteneklerin doğanın denge terazisinde nasıl ortaya çıktığı ve geliştiği. Doğadaki davranışların yeteneklerin gelişimini dolaylı olarak veya doğrudan nasıl etkilediği.",
-          }),
-        },
-        {
-          title: t({
             en: "Chance and Balance in Nature",
             tr: "Doğada Şans ve Denge",
           }),
           subtitle: t({
             en: "How chance (opportunity) arises, takes shape, renews, and disappears within the order of nature; how social interactions can be brought into greater harmony with nature's scale of chance and balance.",
             tr: "Şansın (fırsatların), doğanın düzeni içerisinde nasıl oluştuğu, şekillendiği, yenilendiği ve yok olduğu; doğanın şans ve denge ölçeğiyle sosyal etkileşimlerin nasıl daha uyumlu getirilebileceği.",
+          }),
+        },
+        {
+          title: t({
+            en: "Understanding and Improving Talents",
+            tr: "Yetenekleri Anlamak ve Geliştirmek",
+          }),
+          subtitle: t({
+            en: "How abilities (talents) emerge and develop in nature's justice scale. How  behaviors in nature indirectly and directly influence the development of abilities.",
+            tr: "Yeteneklerin doğanın denge terazisinde nasıl ortaya çıktığı ve geliştiği. Doğadaki davranışların yeteneklerin gelişimini dolaylı olarak veya doğrudan nasıl etkilediği.",
           }),
         },
         {
