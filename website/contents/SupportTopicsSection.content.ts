@@ -8,8 +8,8 @@ const pageContent = {
       tr: "Destek Kategorileri",
     }),
     description: t({
-      en: "Here you can find areas where you can offer support and ways to help.",
-      tr: "Destek olabileceğiniz konuları ve yardım edebileceğiniz yöntemleri burada bulabilirsiniz.",
+      en: "Here you can find subjects and areas we would like to carry further. Looking forward to hearing from you for any kind of help or support you may offer!",
+      tr: "Burada ilerletmek istediğimiz konu ve alanları bulabilirsiniz. Sunabileceğiniz her türlü yardım veya destek için sizden haber almayı dört gözle bekliyoruz!",
     }),
     topics: {
       items: [
@@ -25,22 +25,22 @@ const pageContent = {
         },
         {
           title: t({ 
-            en: "Education, Awareness and Dissemination",
-            tr: "Eğitim, Farkındalık ve Yaygınlaştırma",
-          }),
-          description: t({
-            en: "We would like to organize training programs, seminars, conferences, panels, courses, workshops, and similar activities on critical thinking, ethical awareness, social responsibility, sustainable living, and the human-nature relationship.",
-            tr: "Eleştirel düşünme, etik farkındalık, toplumsal sorumluluk, sürdürülebilir yaşam ve insan-doğa ilişkisi konularında eğitim programları, seminerler, konferanslar, paneller, kurslar, atölyeler ve benzeri faaliyetler düzenlemek istiyoruz.",
-          }),
-        },
-        {
-          title: t({ 
             en: "Publishing and Content Production",
             tr: "Yayıncılık ve İçerik Üretimi",
           }),
           description: t({
             en: "We would like to prepare, publish, or have published books, magazines, articles, reports, bulletins, visual and digital publications in line with the objectives; to create websites, digital platforms, and online publishing channels.",
             tr: "Amaçlar doğrultusunda kitaplar, dergiler, makaleler, raporlar, bültenler, görsel ve dijital yayınlar hazırlamak, yayımlatmak veya yayımlanmasını sağlamak; web siteleri, dijital platformlar ve çevrimiçi yayıncılık kanalları oluşturmak istiyoruz.",
+          }),
+        },
+        {
+          title: t({ 
+            en: "Education, Awareness and Dissemination",
+            tr: "Eğitim, Farkındalık ve Yaygınlaştırma",
+          }),
+          description: t({
+            en: "We would like to organize training programs, seminars, conferences, panels, courses, workshops, and similar activities on critical thinking, ethical awareness, social responsibility, sustainable living, and the human-nature relationship.",
+            tr: "Eleştirel düşünme, etik farkındalık, toplumsal sorumluluk, sürdürülebilir yaşam ve insan-doğa ilişkisi konularında eğitim programları, seminerler, konferanslar, paneller, kurslar, atölyeler ve benzeri faaliyetler düzenlemek istiyoruz.",
           }),
         },
         {
