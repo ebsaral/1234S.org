@@ -24,7 +24,7 @@ const Home = () => {
             {content.title}
             </h1> 
             <div className="max-w-4xl mx-auto mt-6 text-left text-gray-200 text-base sm:text-lg px-4 sm:px-6 lg:px-8 whitespace-pre-line">
-            {content.intro}
+                <FormattedText text={content.intro.value} />
             </div>
             
             <hr className="my-20"></hr>
