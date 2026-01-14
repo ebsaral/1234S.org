@@ -24,20 +24,6 @@ const pageContent = {
       social: [
         {
           url: t({
-            en: "https://www.instagram.com/logical.spirituality",
-            tr: "https://www.instagram.com/mantiksal.maneviyat",
-          }), 
-          label: "Instagram"
-        },
-        {
-          url: t({
-            en: "https://x.com/1234S_en",
-            tr: "https://x.com/1234S_tr",
-          }),
-          label: "X"
-        },
-        {
-          url: t({
             en: "https://logicalspirituality.substack.com",
             tr: "https://maneviyat.substack.com",
           }),
