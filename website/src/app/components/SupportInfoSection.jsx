@@ -2,11 +2,10 @@
 
 import { useIntlayer } from 'next-intlayer';
 import {SocialIcon} from "react-social-icons";
-import Link from 'next/link';
+import BankAccountButton from './Custom/BankAccountButton';
 
 import {
   Handshake,
-  BellElectric 
 } from 'lucide-react';
 
 import ContentLayout from './ContentLayout';
@@ -38,13 +37,7 @@ const SupportInfoSection = () => {
         })}
       </div>
 
-      <div className={`flex flex-col items-center justify-center gap-6 mt-5 px-5 py-2 rounded text-center`}>
-        <div className='flex items-center justify-center gap-2'><BellElectric /></div>
-        <Link href="/bank-accounts" prefetch={true}>
-        <span className='p-4 bg-red-600 hover:bg-red-700 text-white hover:text-gray-200 rounded-md'>
-          {content.bankAccountInfo}
-        </span></Link>
-      </div>
+      <BankAccountButton label={content.bankAccount.label.value} href={content.bankAccount.href.value} className="mt-5" />
 
       <div className="max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4">
         <div className='flex items-center justify-center gap-4'>

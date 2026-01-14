@@ -69,10 +69,16 @@ const pageContent = {
           })
       }
     ],
-    bankAccountInfo: t({
-      en: "Our Bank Accounts",
-      tr: "Banka Hesaplarımız"
-    }),
+    bankAccount:{
+      label: t({
+        en: "Our Bank Accounts",
+        tr: "Banka Hesaplarımız"
+      }),
+      href: t({
+        en: "/bank-accounts",
+        tr: "/banka-hesaplari"
+      })
+    }
   },
 } satisfies Dictionary;
 
