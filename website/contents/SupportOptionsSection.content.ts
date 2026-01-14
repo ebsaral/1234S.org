@@ -1,7 +1,7 @@
 import { t, type Dictionary } from "intlayer";
 
 const pageContent = {
-  key: "support-info-section",
+  key: "support-options-section",
   content: {
     title: t({
       en: "How?",

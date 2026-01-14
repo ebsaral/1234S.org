@@ -10,9 +10,9 @@ import {
 
 import ContentLayout from './ContentLayout';
 
-const SupportInfoSection = () => {
-  const id = "support-info";
-  const sectionKey = "support-info";
+const SupportOptionsSection = () => {
+  const id = "support-options";
+  const sectionKey = "support-options";
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
@@ -51,4 +51,4 @@ const SupportInfoSection = () => {
   );
 };
 
-export default SupportInfoSection;
+export default SupportOptionsSection;
