@@ -26,7 +26,7 @@ const Footer = () => {
                   <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>{content.contact.email}</div>
                 </a>
             </div>
-            <div className='flex flex-col items-center justify-center md:items-left md:justify-start gap-2 text-gray-300 text-sm'>
+            <div className='flex flex-col items-center justify-center md:items-left md:justify-start gap-2 text-center text-gray-300 text-sm'>
               <div>{content.contact.phone}</div>
               <div>{content.contact.address}</div>
             </div>
