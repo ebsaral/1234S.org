@@ -16,7 +16,7 @@ const Footer = () => {
     <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white pt-10 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="max-w-7xl flex flex-col md:flex-row justify-center items-center gap-8 md:gap-20">
+        <div className="max-w-7xl flex flex-col justify-center items-center gap-8">
 
           {/* Contact section */}
           <div className='flex flex-col justify-center items-center md:items-left md:justify-start'>
