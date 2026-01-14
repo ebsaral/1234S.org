@@ -29,7 +29,7 @@ const Home = () => {
             
             <hr className="my-20"></hr>
             
-            <h2 className="my-10 text-xl sm:text-3xl font-bold text-amber-200">{content.projects.title}</h2>
+            <h2 className="my-10 text-xl sm:text-3xl font-bold text-amber-200 px-5">{content.projects.title}</h2>
             <FormattedText className="mx-auto px-10 max-w-3xl text-center text-gray-100" text={content.projects.description.value} />
             
             <div className="mt-10 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-8">
