@@ -1,0 +1,199 @@
+"use client";
+
+import axios from 'axios';
+import { useRef, useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { useLocale } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
+import ReCAPTCHA from "react-google-recaptcha";
+import { toast } from 'react-toastify';
+
+const MembershipForm = () => {
+  const {locale} = useLocale();
+  const content = useIntlayer("membership-section", locale);
+  const recaptchaRef = useRef();
+  const [serverError, setServerError] = useState(null);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+    reset,
+  } = useForm();
+
+  const onSubmit = async (data) => {
+    const token = await recaptchaRef.current.executeAsync();
+
+    try {
+      const res = await axios.post(`/api/${locale}/membership`, {
+        ...data,
+        token,
+      });
+      if(res.status == 200){
+        reset();
+        setServerError(null);
+        toast.success(content.form.success.value, {closeOnClick: true});
+      }
+    }
+    catch (error) {
+      setServerError(error.response.data.message);
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6 space-y-4"
+      >
+        <h2 className="text-xl font-semibold text-center">{content.form.title}</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className='flex flex-col items-start justify-start gap-4'>
+            {/* Name */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.name.label}</label>
+              <input
+                type="text"
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring"
+                {...register("name", {
+                  required: content.form.name.required.value,
+                  minLength: { value: 2, message: content.form.name.message.value },
+                })}
+              />
+              {errors.name && (
+                <p className="text-sm text-red-500 mt-1">{errors.name.message}</p>
+              )}
+            </div>
+
+            {/* Email */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.email.label}</label>
+              <input
+                type="email"
+                placeholder={content.form.email.placeholder.value}
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring"
+                {...register("email", {
+                  required: content.form.email.required.value,
+                  pattern: {
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                    message: content.form.email.message.value,
+                  },
+                })}
+              />
+              {errors.email && (
+                <p className="text-sm text-red-500 mt-1">{errors.email.message}</p>
+              )}
+            </div>
+
+            {/* Phone */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.phone.label}</label>
+              <input
+                type="tel"
+                placeholder="+90 5xx xxx xx xx"
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring"
+                {...register("phone", {
+                  required: content.form.phone.required.value,
+                  pattern: {
+                    value: /^\+?(\d{1,3})?[-.\s]?(\(?\d{3}\)?[-.\s]?)?(\d[-.\s]?){6,9}\d$/,
+                    message: content.form.phone.message.value,
+                  },
+                })}
+              />
+              {errors.phone && (
+                <p className="text-sm text-red-500 mt-1">{errors.phone.message}</p>
+              )}
+            </div>
+
+            {/* Birthday */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.birthday.label}</label>
+              <input
+                type="date"
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring"
+                {...register("birthday", {
+                  required: content.form.birthday.required.value,
+                })}
+              />
+              {errors.birthday && (
+                <p className="text-sm text-red-500 mt-1">{errors.birthday.message}</p>
+              )}
+            </div>
+
+            {/* Gender */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.gender.label}</label>
+              <select
+                className="w-full rounded-lg border p-2 bg-white focus:outline-none focus:ring"
+                defaultValue=""
+                {...register("gender", { required: content.form.gender.required.value })}
+              >
+                <option value="" disabled>
+                  {content.form.select}
+                </option>
+                <option value="female">{content.form.gender.options.female}</option>
+                <option value="male">{content.form.gender.options.male}</option>
+                <option value="other">{content.form.gender.options.other}</option>
+              </select>
+              {errors.gender && (
+                <p className="text-sm text-red-500 mt-1">{errors.gender.message}</p>
+              )}
+            </div>
+          </div>
+          
+          <div className='flex flex-col items-start justify-start gap-4'>
+            {/* Address */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.address.label}</label>
+              <textarea
+                rows={4}
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none"
+                {...register("address", {
+                  required: content.form.address.required.value,
+                  minLength: { value: 10, message: content.form.address.message.value },
+                })}
+              />
+              {errors.address && (
+                <p className="text-sm text-red-500 mt-1">{errors.address.message}</p>
+              )}
+            </div>
+
+            {/* Note */}
+            <div className='w-full'>
+              <label className="block text-sm font-medium mb-1">{content.form.note.label}</label>
+              <textarea
+                rows={4}
+                className="w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none"
+                {...register("note")}
+              />
+              {errors.note && (
+                <p className="text-sm text-red-500 mt-1">{errors.note.message}</p>
+              )}
+            </div>
+          </div>
+        </div>
+        
+        <button
+          disabled={isSubmitting}
+          type="submit"
+          className="w-full bg-blue-600 text-white rounded-lg py-2 hover:bg-blue-700 transition disabled:opacity-50"
+        >
+          {isSubmitting ? content.form.submitButton.onSubmitLabel.value : content.form.submitButton.label.value}
+        </button>
+        {serverError && (
+          <p className="text-sm text-red-500 mt-1">{serverError}</p>
+        )}
+
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          size="invisible"
+          sitekey={process.env.NEXT_PUBLIC_GOOGLE_SITE_KEY}
+          onChange={(data) => { console.log("ReCAPTCHA onChange:", data); }}
+        />
+      </form>
+    </div>
+  );
+}
+
+export default MembershipForm;

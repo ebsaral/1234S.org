@@ -131,8 +131,8 @@ const pageContent = {
       },
     ],
     join: t({
-      en: "Join Us!",
-      tr: "Bize Katıl!"
+      en: "Become Our Association's Member!",
+      tr: "Derneğimize Üye Olun!"
     }),
     total: {
       count: 7,

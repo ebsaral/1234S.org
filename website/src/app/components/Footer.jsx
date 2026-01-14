@@ -4,7 +4,7 @@ import { useIntlayer, useLocale } from 'next-intlayer';
 import {SocialIcon} from "react-social-icons";
 
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
-import { Locales } from 'intlayer';
+import { Locale } from 'intlayer';
 import { Feather } from 'lucide-react';
 
 const Footer = () => {

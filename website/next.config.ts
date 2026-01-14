@@ -28,6 +28,11 @@ const nextConfig: NextConfig = {
         source: '/banka-hesaplari',
         destination: '/tr/bank-accounts',
         permanent: false,
+      },
+      {
+        source: '/uyelik',
+        destination: '/tr/membership',
+        permanent: false,
       }
     ]
   },
