@@ -57,7 +57,6 @@ const pageContent = {
             }),
           }
         ],
-        spin: true
       },
       {
         name: "Yunus Emre Saral",
