@@ -1,4 +1,5 @@
 import { t, type Dictionary } from "intlayer";
+import { HomePageContent } from "./types";
 
 const pageContent = {
   key: "home-page",
@@ -115,6 +116,6 @@ const pageContent = {
     },
 
   },
-} satisfies Dictionary;
+} satisfies Dictionary<HomePageContent>;
 
 export default pageContent;

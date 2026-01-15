@@ -1,13 +1,7 @@
-import { IntlayerClientProvider, type NextPageIntlayer } from "next-intlayer";
-import { IntlayerServerProvider } from "next-intlayer/server";
-
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
-import ProjectSection from "../../components/ProjectSection";
-import { LocalPromiseParams } from "next-intlayer";
+import { LocalPromiseParams, type NextPageIntlayer } from "next-intlayer";
 import { getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
-import StorySection from "@/app/components/StorySection";
+import Mission from "@/app/components/Pages/Mission";
 
 
 export const generateMetadata = async ({
@@ -36,22 +30,7 @@ export const generateMetadata = async ({
 const Page: NextPageIntlayer = async ({params}) => {
   const { locale } = await params;
 
-  return (
-    <IntlayerServerProvider locale={locale}>
-      <IntlayerClientProvider locale={locale}>
-        <div className="App">
-          <Header />
-          <div id="home"></div>
-          <main>
-            <StorySection />
-            <ProjectSection />
-          </main>
-          
-          <Footer />
-        </div>
-      </IntlayerClientProvider>
-    </IntlayerServerProvider>
-  );
+  return <Mission locale={locale} />;
 }
 
 export default Page;

@@ -5,7 +5,7 @@ import {
 } from 'lucide-react';
 
 
-import ContentLayout from './ContentLayout';
+import ContentLayout from '../ContentLayout';
 
 const StorySection = () => {
   const id = "story";

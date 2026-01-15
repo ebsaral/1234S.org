@@ -6,8 +6,8 @@ import {
   Flower
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
-import TeamMember from './TeamMember';
+import ContentLayout from '../ContentLayout';
+import TeamMember from '../TeamMember';
 
 const TeamSection = () => {
   const id = "team";

@@ -1,6 +1,6 @@
 "use client";
 
-import { useIntersectionObserver } from '../hooks/useScrollEffects';
+import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 import { useIntlayer } from 'next-intlayer';
 import { Heart, Globe, Scale } from 'lucide-react';
 

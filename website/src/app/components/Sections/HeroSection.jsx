@@ -1,7 +1,7 @@
 "use client";
 
-import { useScrollEffects, useIntersectionObserver } from '../hooks/useScrollEffects';
-import { Button } from './ui/button.jsx';
+import { useScrollEffects, useIntersectionObserver } from '../../hooks/useScrollEffects';
+import { Button } from '../ui/button.jsx';
 import { ArrowDown } from 'lucide-react';
 import { useIntlayer } from "next-intlayer";
 
@@ -28,7 +28,7 @@ const HeroSection  = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(/backgrounds/hero.jpeg)`,
+          backgroundColor: 'black',
           transform: `translateY(${parallaxOffset}px)`,
           filter: 'brightness(0.4)'
         }}

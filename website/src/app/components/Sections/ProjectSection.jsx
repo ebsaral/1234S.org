@@ -11,10 +11,10 @@ import {
   SunMoon
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
-import { Card, CardContent } from './ui/card';
-import Quote from './Custom/Quote';
-import Description from './Custom/Description';
+import ContentLayout from '../ContentLayout';
+import { Card, CardContent } from '../ui/card';
+import Quote from '../Custom/Quote';
+import Description from '../Custom/Description';
 
 const ProjectSection = () => {
   const id = "project";

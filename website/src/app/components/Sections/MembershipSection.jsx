@@ -6,8 +6,8 @@ import {
   FileHeart
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
-import MembershipForm from './Custom/MembershipForm';
+import ContentLayout from '../ContentLayout';
+import MembershipForm from '../Custom/MembershipForm';
 
 const MembershipSection = () => {
   const id = "membership";

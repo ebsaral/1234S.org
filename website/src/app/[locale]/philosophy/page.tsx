@@ -1,17 +1,7 @@
-import { IntlayerClientProvider, type NextPageIntlayer } from "next-intlayer";
-import { IntlayerServerProvider } from "next-intlayer/server";
-
-import Header from "@/app/components/Header";
-import HeroSection from "@/app/components/HeroSection";
-import IntroTextSection from "@/app/components/IntroTextSection";
-import EndingSection from "@/app/components/EndingSection";
-import Footer from "@/app/components/Footer";
-import InterconnectednessSection from "../../components/InterconnectednessSection";
-import JusticeSection from "../../components/JusticeSection";
-import HealthSection from "../../components/HealthSection";
-import { LocalPromiseParams } from "next-intlayer";
+import {LocalPromiseParams, type NextPageIntlayer } from "next-intlayer";
 import { getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
+import Philosophy from "@/app/components/Pages/Philosophy";
 
 
 export const generateMetadata = async ({
@@ -40,27 +30,7 @@ export const generateMetadata = async ({
 const Page: NextPageIntlayer = async ({params}) => {
   const { locale } = await params;
 
-  return (
-    <IntlayerServerProvider locale={locale}>
-      <IntlayerClientProvider locale={locale}>
-        <div className="App">
-          <Header />
-          <div id="home"></div>
-          <main>
-            <HeroSection />
-            {/* <VideoSection /> */}
-            <IntroTextSection id="intro" />
-            <InterconnectednessSection />
-            <JusticeSection />
-            <HealthSection />
-            <EndingSection id="ending" />
-          </main>
-          
-          <Footer />
-        </div>
-      </IntlayerClientProvider>
-    </IntlayerServerProvider>
-  );
+  return <Philosophy locale={locale} />
 }
 
 export default Page;

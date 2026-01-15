@@ -1,29 +1,12 @@
-import { IntlayerClientProvider, type NextPageIntlayer } from "next-intlayer";
-import { IntlayerServerProvider } from "next-intlayer/server";
+import { type NextPageIntlayer } from "next-intlayer";
 
-import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
-import HomePage from "../components/HomePage";
-import TeamSection from "../components/TeamSection";
+import HomePage from "@/app/components/Pages/Home";
 
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
 
-  return (
-    <IntlayerServerProvider locale={locale}>
-      <IntlayerClientProvider locale={locale}>
-        <div className="App">
-          <Header />
-          <div id="home"></div>
-          <main>
-            <HomePage />
-            <TeamSection />
-          </main>
-          <Footer />
-        </div>
-      </IntlayerClientProvider>
-    </IntlayerServerProvider>
-  );
+  return <HomePage locale={locale} />
+
 }
 
 export default Page;

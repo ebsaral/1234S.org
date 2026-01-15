@@ -6,9 +6,9 @@ import {
   HandCoins
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
-import { Card } from './ui/card';
-import Description from './Custom/Description';
+import ContentLayout from '../ContentLayout';
+import { Card } from '../ui/card';
+import Description from '../Custom/Description';
 
 const SupportTopicsSection = () => {
   const id = "support-topics";

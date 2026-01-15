@@ -3,9 +3,9 @@
 import React from 'react';
 import { useIntlayer } from 'next-intlayer';
 
-import ContentLayout from './ContentLayout';
-import { Card, CardContent } from './ui/card';
-import Description from './Custom/Description';
+import ContentLayout from '../ContentLayout';
+import { Card, CardContent } from '../ui/card';
+import Description from '../Custom/Description';
 
 import { 
   Brain,

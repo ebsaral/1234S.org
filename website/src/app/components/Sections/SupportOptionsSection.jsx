@@ -2,13 +2,13 @@
 
 import { useIntlayer } from 'next-intlayer';
 import {SocialIcon} from "react-social-icons";
-import BankAccountButton from './Custom/BankAccountButton';
+import BankAccountButton from '../Custom/BankAccountButton';
 
 import {
   Handshake,
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
+import ContentLayout from '../ContentLayout';
 
 const SupportOptionsSection = () => {
   const id = "support-options";

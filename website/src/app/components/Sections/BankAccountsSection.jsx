@@ -6,8 +6,8 @@ import {
   Banknote
 } from 'lucide-react';
 
-import ContentLayout from './ContentLayout';
-import BankAccountContainer from './BankAccountContainer';
+import ContentLayout from '@/app/components/ContentLayout';
+import BankAccountContainer from '../BankAccountContainer';
 
 const BankAccountsSection = () => {
   const id = "bank-accounts";

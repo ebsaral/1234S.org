@@ -1,14 +1,20 @@
+import type { Metadata } from "next";
+import { Noto_Sans } from 'next/font/google'
+
+import { IntlayerServerProvider } from 'next-intlayer/server';
+import { IntlayerClientProvider, LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
+import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
+
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-import { LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
-import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
-import type { Metadata } from "next";
+import { Bounce, ToastContainer } from 'react-toastify';
 
-import { Noto_Sans } from 'next/font/google'
+import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
+
 import "../globals.css";
 import "../App.css";
-import { Bounce, ToastContainer } from 'react-toastify';
 
 export { generateStaticParams };
 
@@ -66,7 +72,17 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
         <meta name="robots" content="all" />
       </head>
       <body>
-        {children}
+        <IntlayerServerProvider locale={locale}>
+          <IntlayerClientProvider locale={locale}>
+            <div className="App">
+              <Header />
+              <div id="scroll-to-top"></div>
+              {children}
+              <Footer />
+            </div>
+          </IntlayerClientProvider>
+        </IntlayerServerProvider>
+
         <Analytics />
         <SpeedInsights />
         <ToastContainer
