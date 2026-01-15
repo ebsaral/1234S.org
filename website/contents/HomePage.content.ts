@@ -18,8 +18,8 @@ const pageContent = {
         tr: "Araştırma ve Geliştirme Konularımız", 
       }),
       description: t({
-        en: "Kindly visit our *support* page to help us in detailing these topics and communicating them openly to the public, so that we can improve the overall quality of life for all communities.",
-        tr: "Bu konuları detaylandırmamıza ve kamuoyuna açıkça aktarmamıza yardımcı olmak için lütfen *destek* sayfamızı ziyaret edin! Böylece tüm toplulukların genel yaşam kalitelerini iyileştirilebiliriz."
+        en: "Kindly visit our *support* page to help us in detailing these topics and communicating them openly to the public, so that our association can improve the overall quality of life for all communities.",
+        tr: "Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Derneğimizin bu konuları detaylandırmasına ve kamuoyuna açıkça aktarmasına yardımcı olmak için lütfen *destek* sayfamızı ziyaret edin!"
       }),
       items: [
         {
