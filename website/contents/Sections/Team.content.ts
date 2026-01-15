@@ -57,6 +57,7 @@ const pageContent = {
             }),
           }
         ],
+        spin: true
       },
       {
         name: "Yunus Emre Saral",
@@ -131,7 +132,8 @@ const pageContent = {
           src: "/members/placeholder.jpg",
           size: 120
         },
-        join: true
+        join: true,
+        spin: true
       },
     ],
     join: t({
