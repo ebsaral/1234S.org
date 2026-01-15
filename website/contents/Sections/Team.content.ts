@@ -119,6 +119,10 @@ const pageContent = {
         },
       },
       {
+        title: t({
+          en: "Future Member",
+          tr: "Geleceğin Üyesi"
+        }),
         name: t({
           en: "Would you like to join our association?",
           tr: "Derneğimize katılmak ister misiniz?"
