@@ -105,7 +105,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div onClick={() => scrollToSection('#home')}
+          <div onClick={() => scrollToSection('#scroll-to-top')}
             className="group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300"
           >
             <Image
