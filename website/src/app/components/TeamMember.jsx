@@ -15,7 +15,7 @@ const TeamMember = ({member}) => {
       <CardContent className='group flex flex-col items-center gap-4'>
         {member.title ?<div className=" border-gray-200 text-center text-gray-800 text-xs font-bold px-5 py-2 rounded bg-gray-100 min-w-44">{member.title}</div>:<div className='sm:py-4'></div>}
         <Image 
-          className='size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md transition-transform duration-300 hover:scale-110'
+          className={`size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 shadow-md hover:scale-110 ${member.join?'animate-spin':'transition-transform duration-300'}`} 
           src={member.image.src.value}
           alt={`${member.name.value}: ${member.title?.value}`}
           title={`${member.name.value} ${member.birthday ? "("+ getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ")" : ""}`}
