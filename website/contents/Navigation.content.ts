@@ -37,7 +37,7 @@ const pageContent = {
     support: {
         text:  t({
             en: "Support Us",
-            tr: "Bize Destek Olun",
+            tr: "Destek Olun",
         }),
     },
     interconnectedness: { 

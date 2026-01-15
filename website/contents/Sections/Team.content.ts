@@ -120,8 +120,8 @@ const pageContent = {
       },
       {
         name: t({
-          en: "Your name?",
-          tr: "İsminiz?"
+          en: "Would you like to join our association?",
+          tr: "Derneğimize katılmak ister misiniz?"
         }),
         image: {
           src: "/members/placeholder.jpg",
@@ -131,8 +131,8 @@ const pageContent = {
       },
     ],
     join: t({
-      en: "Become Our Association's Member!",
-      tr: "Derneğimize Üye Olun!"
+      en: "Become A Member!",
+      tr: "Üye Olun!"
     }),
     total: {
       count: 7,
