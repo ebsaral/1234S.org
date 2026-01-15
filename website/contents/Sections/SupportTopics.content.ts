@@ -8,8 +8,8 @@ const pageContent = {
       tr: "Destek Kategorileri",
     }),
     description: t({
-      en: "Here you can find subjects and areas we would like to carry further. Looking forward to hearing from you for any kind of help or support you may offer!",
-      tr: "Burada ilerletmek istediğimiz konu ve alanları bulabilirsiniz. Sunabileceğiniz her türlü yardım veya destek için sizden haber almayı dört gözle bekliyoruz!",
+      en: "Here you will find the paths and methods our association aims to follow to detail its research and development topics. We would appreciate any support you can present!",
+      tr: "Derneğimizin araştırma ve geliştirme konularını detaylandırmak için izlemek istediği yolları ve yöntemleri burada bulabilirsiniz. Sunabileceğiniz her türlü destek için memnun oluruz!",
     }),
     topics: {
       items: [
