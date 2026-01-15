@@ -66,8 +66,8 @@ const pageContent = {
       })
     },
     explanation: t({
-      en: "This website is being developed based on our association's bylaw.",
-      tr: "Bu internet sitesi derneğimizin tüzüğü esas alınarak geliştiriliyor."
+      en: "This website's layout is being developed based on our association's bylaw.",
+      tr: "Bu internet sitesinin şablonu derneğimizin tüzüğü esas alınarak geliştiriliyor."
     })
   },
 } satisfies Dictionary;
