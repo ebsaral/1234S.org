@@ -7,6 +7,7 @@ import { useLocale } from 'next-intlayer';
 import { useIntlayer } from 'next-intlayer';
 import ReCAPTCHA from "react-google-recaptcha";
 import { toast } from 'react-toastify';
+import SubmitFormButton from './Buttons/SubmitFormButton';
 
 const MembershipForm = () => {
   const {locale} = useLocale();
@@ -171,16 +172,13 @@ const MembershipForm = () => {
                 <p className="text-sm text-red-500 mt-1">{errors.note.message}</p>
               )}
             </div>
+            
+            <div className='w-full flex items-center justify-center'>
+              <SubmitFormButton text={content.form.submitButton.label.value} onSubmitText={content.form.submitButton.onSubmitLabel.value} isSubmitting={isSubmitting} />
+            </div>
           </div>
         </div>
         
-        <button
-          disabled={isSubmitting}
-          type="submit"
-          className="w-full bg-blue-600 text-white rounded-lg py-2 hover:bg-blue-700 transition disabled:opacity-50"
-        >
-          {isSubmitting ? content.form.submitButton.onSubmitLabel.value : content.form.submitButton.label.value}
-        </button>
         {serverError && (
           <p className="text-sm text-red-500 mt-1">{serverError}</p>
         )}

@@ -40,11 +40,6 @@ button, a, [role="button"] {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Enhanced hover effects */
-button:hover, [role="button"]:hover {
-  transform: translateY(-1px);
-}
-
 /* Animation utilities */
 @keyframes fadeInUp {
   from {
