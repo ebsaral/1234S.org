@@ -1,7 +1,7 @@
 import {LocalPromiseParams, type NextPageIntlayer } from "next-intlayer";
 import { getIntlayer, getMultilingualUrls } from "intlayer";
 import type { Metadata } from "next";
-import Philosophy from "@/app/components/Pages/Philosophy2";
+import Philosophy from "@/app/components/Pages/Philosophy";
 
 
 export const generateMetadata = async ({

@@ -28,7 +28,6 @@ const Header = () => {
   const content = useIntlayer("navigation");
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
   
   const isScrolled = scrollY > 50;
 
