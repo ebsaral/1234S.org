@@ -68,7 +68,7 @@ const pageContent = {
           tr: "isim@eposta.com"
         }),
         label: t({
-          en: "Email Address",
+          en: "E-mail Address",
           tr: "E-posta Adresi"
         }),
         required: t({
