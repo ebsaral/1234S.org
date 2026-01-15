@@ -8,8 +8,8 @@ const pageContent = {
       tr: "Dernek Üyeliği"
     }),
     description: t({
-      en: "**1234 Art and Science Association** does not charge membership fees and you can become a member for free. If you wish, you can fill out the pre-application form below to have our association contact you.",
-      tr: "**1234 Sanat ve İlim Derneği** üyelerinden üyelik aidatı talep etmez ve ücretsiz üye olabilirsiniz. Dilerseniz, aşağıdaki ön başvuru formunu doldurarak derneğimizin sizinle iletişime geçmesini sağlayabilirsiniz."
+      en: "**1234 Science & Art Association** does not charge membership fees and you can become a member for free. If you wish, you can fill out the pre-application form below to have our association contact you for your official membership.",
+      tr: "**1234 Sanat ve İlim Derneği** üyelerinden üyelik aidatı talep etmez ve ücretsiz üye olabilirsiniz. Dilerseniz, resmi üyeliğiniz için aşağıdaki ön başvuru formunu doldurarak derneğimizin sizinle iletişime geçmesini sağlayabilirsiniz."
     }),
     form: {
       title: t({
