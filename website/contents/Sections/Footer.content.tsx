@@ -16,11 +16,6 @@ const pageContent = {
       tr: "Maneviyat Rehberi"
     }),
     links: {
-      githubCommits: "https://github.com/ebsaral/Logical-Spirituality/commits/main/",
-      developer: t({
-        en: "https://0.1234s.org/en",
-        tr: "https://0.1234s.org/tr"
-      }),
       social: [
         {
           url: t({
@@ -69,8 +64,11 @@ const pageContent = {
         en: "/files/1234S-association-bylaw.pdf",
         tr: "/files/1234S-dernek-tuzugu.pdf",
       })
-    }
-
+    },
+    explanation: t({
+      en: "This website is being developed based on our association's bylaw.",
+      tr: "Bu internet sitesi derneğimizin tüzüğü esas alınarak geliştiriliyor."
+    })
   },
 } satisfies Dictionary;
 

@@ -29,7 +29,6 @@ const Footer = () => {
             <div className='flex flex-col items-center justify-center md:items-left md:justify-start gap-2 text-center text-gray-300 text-sm'>
               <div>{content.contact.phone}</div>
               <div>{content.contact.address}</div>
-              <a href={content.bylaw.href.value} target="_blank" className="underline hover:text-white">{content.bylaw.text}</a> 
             </div>
            </div>
 
@@ -48,7 +47,8 @@ const Footer = () => {
         <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
           <p>2025 - {new Date().getFullYear()} © {content.association.name}</p>
           {content.association.description && <p>{content.association.description}</p>}
-          
+          <a href={content.bylaw.href.value} target="_blank" className="underline hover:text-white">{content.bylaw.text}</a> 
+          <p>{content.explanation}</p>
         </div>
 
       </div>
