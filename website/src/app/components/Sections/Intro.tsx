@@ -9,9 +9,8 @@ const Intro = () => {
 
   return (
     <section
-      className="bg-gradient-to-b from-gray-50 to-white overflow-hidden my-10 px-2"
+      className="overflow-hidden mb-10 px-2"
     >
-      
       <div className='max-w-screen mx-auto bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 rounded-2xl'>
         <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black/80 rounded-full w-12 h-12'>
             <span className='text-gray-100 font-bold text-2xl'>?</span>
@@ -24,10 +23,25 @@ const Intro = () => {
             </div>
 
             <div className='flex flex-col items-right sm:items-center justify-start text-left sm:text-center pb-5 px-10 gap-3 border-b-2 border-gray-600 text-wrap'>
-                <p className='max-w-max relative left-2 sm:left-0 font-semibold text-xl sm:text-lg px-2 py-1 bg-black/80 text-gray-100 rounded-md'>{content.spirituality.title}</p>
-                <p className='relative left-4 sm:left-0'>{content.spirituality.description}</p>
+                <p className='max-w-max relative -left-2 sm:left-0 font-semibold text-xl sm:text-lg px-2 py-1 bg-black/80 text-gray-100 rounded-md'>{content.spirituality.title}</p>
+                <p>{content.spirituality.description}</p>
             </div>
         </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto my-4 px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col gap-4 prose prose-lg max-w-none">            
+          <FormattedText className='leading-relaxed text-lg' boldClassName='text-emerald-800' text={content.paragraph2.value}  />
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Quote */}
+        {content.quote &&
+          <blockquote className="text-xl sm:text-2xl lg:text-3xl font-normal py-6 whitespace-pre-line">
+              <em className="text-gray-800 font-medium">{content.quote}</em>
+          </blockquote>
+        }
       </div>
     </section>
   );

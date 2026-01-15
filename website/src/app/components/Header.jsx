@@ -28,14 +28,12 @@ const Header = () => {
   const content = useIntlayer("navigation");
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
   
   const isScrolled = scrollY > 50;
 
   const navItems = [
     { key: 'home', href: '/' },
     { key: 'philosophy', href: '/philosophy'},
-    { key: 'philosophy2', href: '/philosophy2'},
     { key: 'mission', href: '/mission'},
   ];
 
