@@ -15,7 +15,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
-import SupportLink from './Custom/SupportLink';
+import SupportLink from './Custom/Buttons/SupportLink';
 
 const Header = () => {
   const { scrollY } = useScrollEffects();

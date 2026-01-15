@@ -2,7 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 import {SocialIcon} from "react-social-icons";
-import BankAccountButton from '../Custom/BankAccountButton';
+import BankAccountButton from '../Custom/Buttons/BankAccountButton';
 
 import {
   Handshake,

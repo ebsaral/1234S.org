@@ -1,13 +1,11 @@
+import { useIntlayer } from "next-intlayer/server";
 import Image from 'next/image';
-import SupportLink from "../Custom/Buttons/SupportLink";
-import FormattedText from "../Custom/FormattedText";
-import TeamSection from "../Sections/TeamSection";
-import { LocalesValues } from "intlayer";
-import { getIntlayer } from 'next-intlayer';
+import SupportLink from "./Custom/Buttons/SupportLink";
+import FormattedText from "./Custom/FormattedText";
 
-const Home = ({locale}: {locale: LocalesValues}) => {
-    const navigation = getIntlayer("navigation", locale);
-    const content = getIntlayer("home-page", locale);
+const Home = () => {
+    const navigation = useIntlayer("navigation");
+    const content = useIntlayer("home-page");
     return(
         <main>
             <div className="text-center bg-gray-800 text-white pt-20 py-10">
@@ -46,6 +44,7 @@ const Home = ({locale}: {locale: LocalesValues}) => {
 
                 <SupportLink className="md:hidden mt-10 mx-10 text-xl" />
             </div>
+            
             <TeamSection />
         </main>
     )
