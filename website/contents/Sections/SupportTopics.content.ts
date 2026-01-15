@@ -8,7 +8,7 @@ const pageContent = {
       tr: "Destek Kategorileri",
     }),
     description: t({
-      en: "Here you will find the paths and methods our association aims to follow to detail its research and development topics. We would appreciate any support you can present!",
+      en: "Here you will find the paths and methods our association aims to follow to detail its research and development topics. We would appreciate any support you can provide!",
       tr: "Derneğimizin araştırma ve geliştirme konularını detaylandırmak için izlemek istediği yolları ve yöntemleri burada bulabilirsiniz. Sunabileceğiniz her türlü destek için memnun oluruz!",
     }),
     topics: {
