@@ -6,7 +6,7 @@ const BankAccountButton = ({label, href, className=''}: {className?:string, labe
     const {locale} = useLocale();
 
     return (
-        <Link className={`bg-red-600 hover:bg-red-700 text-white rounded-2xl hover:rounded-md transition-all duration-200 ease-in-out ${className}`} href={href} prefetch={true}>
+        <Link className={`text-center bg-red-600 hover:bg-red-700 hover:outline-none hover:ring-2 hover:ring-red-400 hover:ring-offset-2 text-white rounded-xl hover:rounded-md transition-all duration-200 ease-in-out ${className}`} href={href} prefetch={true}>
             {label}
         </Link>
     );

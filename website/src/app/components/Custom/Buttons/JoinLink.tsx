@@ -11,7 +11,7 @@ const JoinLink = ({className,}: {className?: string}) => {
     return (
     <Link
         href={getLocalizedUrl("/membership", locale)}
-        className={`flex flex-col items-center justify-center w-auto font-medium relative b-1 border-white text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 rounded-2xl hover:rounded-lg transition-all duration-200 ease-in-out ${className}`}
+        className={`text-center font-medium relative b-1 border-white text-white bg-blue-700 hover:bg-blue-800 hover:outline-none hover:ring-2 hover:ring-blue-400 hover:ring-offset-2 rounded-xl hover:rounded-lg transition-all duration-200 ease-in-out ${className}`}
         prefetch={true}
         >
         {content.join}
