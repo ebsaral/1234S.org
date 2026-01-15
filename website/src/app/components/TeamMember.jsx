@@ -14,12 +14,12 @@ const TeamMember = ({member}) => {
       <div className={`grid ${hasDescription?"grid-cols-1 md:grid-cols-2":"grid-cols-1"} items-start justify-center mt-2`}>
       <CardContent className='group flex flex-col items-center gap-4'>
         {member.title ?<div className=" border-gray-200 text-center text-gray-800 text-xs font-bold px-5 py-2 rounded bg-gray-100 min-w-44">{member.title}</div>:<div className='sm:py-4'></div>}
-        <div className="rounded-full shadow-lg shadow-rose-500/50">
+        <div className={`rounded-full ${member.spin?'shadow-lg shadow-rose-500/60':'shadow-lg shadow-gray-500/60'} transition-all duration-300`}>
         <Image 
-          className={`size-[120px] sm:size-[120px] rounded-full border-solid border-1 border-black/10 ${member.spin?'animate-spin hover:animate-spin-slow hover:scale-105':'hover:scale-105 transition-transform duration-300'}`} 
+          className={`size-[120px] sm:size-[120px] rounded-full ${member.spin?'animate-spin hover:animate-spin-slow hover:scale-105':'hover:scale-105 transition-transform duration-300'}`} 
           src={member.image.src.value}
           alt={`${member.name.value}: ${member.title?.value}`}
-          title={`${member.name.value} ${member.birthday ? "("+ getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ")" : ""}`}
+          title={!member.spin && `${member.name.value} ${member.birthday ? "("+ getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ")" : ""}`}
           width={member.image.size.value}
           height={member.image.size.value}
           priority={false}
