@@ -21,7 +21,8 @@ const MembershipSection = () => {
       accentColor="from-blue-500 to-blue-200"
       className="pb-10"
       descriptionClassName={"text-center"}
-      descriptionColor={"text-gray-950"}
+      descriptionColor={"text-black"}
+      descriptionBoldColor={"text-black"}
     >
       <MembershipForm />
     </ContentLayout>
