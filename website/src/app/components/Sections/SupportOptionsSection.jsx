@@ -2,6 +2,8 @@
 
 import { useIntlayer } from 'next-intlayer';
 import {SocialIcon} from "react-social-icons";
+import { BellElectric} from 'lucide-react';
+
 import BankAccountButton from '../Custom/Buttons/BankAccountButton';
 
 import {
@@ -9,6 +11,7 @@ import {
 } from 'lucide-react';
 
 import ContentLayout from '../ContentLayout';
+import JoinLink from '../Custom/Buttons/JoinLink';
 
 const SupportOptionsSection = () => {
   const id = "support-options";
@@ -36,8 +39,13 @@ const SupportOptionsSection = () => {
           )
         })}
       </div>
-
-      <BankAccountButton label={content.bankAccount.label.value} href={content.bankAccount.href.value} className="mt-5" />
+      
+      <div className='max-w-2xl mx-auto flex items-center justify-center my-5'><BellElectric /></div>
+      
+      <div className={`max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-5`}> 
+        <JoinLink className='p-4'/>
+        <BankAccountButton className='p-4' label={content.bankAccount.label.value} href={content.bankAccount.href.value} />
+      </div>
 
       <div className="max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4">
         <div className='flex items-center justify-center gap-4'>

@@ -32,7 +32,7 @@ const TeamMember = ({member}) => {
             <div className="font-bold">{member.experience.badge}</div>
             <div>{member.experience.title}</div>
           </div>}
-          {member.join && <JoinLink />}
+          {member.join && <JoinLink className='py-2 px-4' />}
         </div>
       </CardContent>
 
