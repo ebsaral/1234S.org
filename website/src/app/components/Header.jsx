@@ -35,6 +35,7 @@ const Header = () => {
   const navItems = [
     { key: 'home', href: '/' },
     { key: 'philosophy', href: '/philosophy'},
+    { key: 'philosophy2', href: '/philosophy2'},
     { key: 'mission', href: '/mission'},
   ];
 

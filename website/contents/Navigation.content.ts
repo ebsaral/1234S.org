@@ -28,6 +28,12 @@ const pageContent = {
             tr: "Mantıksal Maneviyat",
         }),
     },
+    philosophy2: {
+        text: t({
+            en: "New",
+            tr: "Yeni",
+        }),
+    },
     mission: {
         text: t({
             en: "Our Mission",
