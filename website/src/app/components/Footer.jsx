@@ -13,7 +13,7 @@ const Footer = () => {
   const [sectionRef] = useIntersectionObserver();
 
   return (
-    <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white pt-10 py-16">
+    <footer id="contact" ref={sectionRef} className="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="max-w-7xl flex flex-col justify-center items-center gap-8">
@@ -39,18 +39,18 @@ const Footer = () => {
                 <SocialIcon key={index} title={props.label.value} target="_blank" className="transition-all duration-300 transform hover:scale-110" url={props.url.value} />
               ))}
             </div>
-            {locale === Locales.ENGLISH && 
-              <a href="https://www.producthunt.com/products/1234s-org-a-philosophical-movement?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-1234s&#0045;org&#0045;a&#0045;philosophical&#0045;movement" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1036802&theme=light&t=1762851644144" alt="1234S&#0046;org&#0032;&#0124;&#0032;A&#0032;Philosophical&#0032;Movement - Logical&#0032;Spirituality&#0058;&#0032;Interconnectedness&#0044;&#0032;Justice&#0044;&#0032;Health | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>}
+        </div>
+        <div className="flex flex-col gap-3 items-center justify-center text-gray-400 text-xs whitespace-pre-line">
+          <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
+            <p>{new Date().getFullYear()} © {content.association.name}</p>
+            {content.association.description && <p>{content.association.description}</p>}            
+            <a href={content.bylaw.href.value} target="_blank" className="underline hover:text-white">{content.bylaw.text}</a>
           </div>
-
-        </div>
-        <div className="flex flex-col gap-3 mt-6 mb-2 items-center justify-center text-gray-400 text-xs whitespace-pre-line my-2">
-          <p>{new Date().getFullYear()} © {content.association.name}</p>
-          {content.association.description && <p>{content.association.description}</p>}
-          <a href={content.bylaw.href.value} target="_blank" className="underline hover:text-white">{content.bylaw.text}</a> 
           <p>{content.explanation}</p>
+          {locale === Locales.ENGLISH && 
+              <a className='mt-2' href="https://www.producthunt.com/products/1234s-org-a-philosophical-movement?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-1234s&#0045;org&#0045;a&#0045;philosophical&#0045;movement" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1036802&theme=light&t=1762851644144" alt="1234S&#0046;org&#0032;&#0124;&#0032;A&#0032;Philosophical&#0032;Movement - Logical&#0032;Spirituality&#0058;&#0032;Interconnectedness&#0044;&#0032;Justice&#0044;&#0032;Health | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>}
+          </div>
         </div>
-
       </div>
     </footer>
   );
