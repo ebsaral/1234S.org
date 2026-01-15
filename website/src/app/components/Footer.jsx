@@ -46,7 +46,7 @@ const Footer = () => {
             {content.association.description && <p>{content.association.description}</p>}            
             <a href={content.bylaw.href.value} target="_blank" className="underline hover:text-white">{content.bylaw.text}</a>
           </div>
-          <p>{content.explanation}</p>
+          <p className='text-center'>{content.explanation}</p>
           {locale === Locales.ENGLISH && 
               <a className='mt-2' href="https://www.producthunt.com/products/1234s-org-a-philosophical-movement?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-1234s&#0045;org&#0045;a&#0045;philosophical&#0045;movement" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1036802&theme=light&t=1762851644144" alt="1234S&#0046;org&#0032;&#0124;&#0032;A&#0032;Philosophical&#0032;Movement - Logical&#0032;Spirituality&#0058;&#0032;Interconnectedness&#0044;&#0032;Justice&#0044;&#0032;Health | Product Hunt" style={{width: "250px", height: "54px"}} width="250" height="54" /></a>}
           </div>
