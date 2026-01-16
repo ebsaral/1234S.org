@@ -8,7 +8,7 @@ const Intro = ({locale}: {locale: LocalesValues}) => {
 
   return (
     <section
-      className="max-w-screen mx-auto overflow-hidden mb-10"
+      className="max-w-screen mx-auto overflow-hidden"
     >
       {/* Introduction */}
       <div className='bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 mx-4 sm:mx-16 lg:mx-20 rounded-2xl'>
@@ -38,7 +38,7 @@ const Intro = ({locale}: {locale: LocalesValues}) => {
         </div>
 
         {/* Insight */}
-        <div className="my-10 mx-4 sm:mx-16 lg:mx-20">
+        <div className="mt-10 mx-4 sm:mx-16 lg:mx-20">
           <div className='stars-box rounded-xl gap-5'>
             <div className='stars' />
 

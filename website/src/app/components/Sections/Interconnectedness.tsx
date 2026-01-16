@@ -31,7 +31,7 @@ const Interconnectedness = ({locale}: {locale: LocalesValues}) => {
             <Globe size={40} />
           </div>
           
-          <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 my-5 leading-tight overflow-ellipsis`}>
+          <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-5 leading-tight overflow-ellipsis`}>
             {content.title}
           </h2>
           <p className='text-xl sm:text-2xl lg:text-3xl font-bold italic text-gray-900 leading-tight whitespace-pre-line'>{content.subtitle}</p>
