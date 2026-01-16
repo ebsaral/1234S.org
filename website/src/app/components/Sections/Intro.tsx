@@ -12,7 +12,7 @@ const Intro = () => {
       className="overflow-hidden mb-10 px-2"
     >
       <div className='max-w-screen mx-auto bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 rounded-2xl'>
-        <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black/80 rounded-full w-12 h-12'>
+        <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black rounded-full w-12 h-12'>
             <span className='font-bold text-2xl'>❔</span>
         </div>
         <FormattedText className="max-w-4xl mx-auto p-10 text-gray-900 text-lg sm:text-xl leading-relaxed whitespace-pre-line" text={content.paragraph1.value} />
@@ -39,7 +39,7 @@ const Intro = () => {
         <div className='stars-box rounded-xl gap-5'>
           <div className='stars' />
 
-          <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-pink-200/80 rounded-full w-12 h-12'>
+          <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
             <span className='font-bold text-2xl'>🌟</span>
           </div>
 
