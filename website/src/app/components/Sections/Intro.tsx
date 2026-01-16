@@ -2,7 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import FormattedText from '../Custom/FormattedText';
+import FormattedText from '@/app/components/Custom/FormattedText';
 
 const Intro = () => {
   const content = useIntlayer("intro-section");
@@ -12,8 +12,8 @@ const Intro = () => {
       className="overflow-hidden mb-10 px-2"
     >
       <div className='max-w-screen mx-auto bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 rounded-2xl'>
-        <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black/80 rounded-full w-12 h-12'>
-            <span className='text-gray-100 font-bold text-2xl'>?</span>
+        <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black rounded-full w-12 h-12'>
+            <span className='font-bold text-2xl'>❔</span>
         </div>
         <FormattedText className="max-w-4xl mx-auto p-10 text-gray-900 text-lg sm:text-xl leading-relaxed whitespace-pre-line" text={content.paragraph1.value} />
         <div className='max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap gap-4 sm:gap-0 px-5'>
@@ -29,20 +29,24 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto my-4 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto my-16 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 prose prose-lg max-w-none">            
-          <FormattedText className='leading-relaxed text-lg' boldClassName='text-emerald-800' text={content.paragraph2.value}  />
+          <FormattedText className='leading-relaxed text-md sm:text-ld md:text-xl' boldClassName='text-gray-900' text={content.paragraph2.value}  />
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Quote */}
-        {content.quote &&
-          <blockquote className="text-xl sm:text-2xl lg:text-3xl font-normal py-6 whitespace-pre-line">
-              <em className="text-gray-800 font-medium">{content.quote}</em>
+      {content.quote && <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+        <div className='stars-box rounded-xl flex flex-col gap-5'>
+          <div className='stars' />
+          <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
+            <span className='font-bold text-2xl'>🌟</span>
+          </div>
+          <blockquote className="text-center text-md sm:text-lg lg:text-xl font-normal px-6 pb-10 whitespace-pre-line text-gray-100">
+              {content.quote}
           </blockquote>
-        }
-      </div>
+          
+        </div>
+      </div>}
     </section>
   );
 };
