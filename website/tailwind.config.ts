@@ -74,14 +74,20 @@ const config: Config = {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				gradient: {
+					"0%": { backgroundPosition: "0% 50%" },
+					"50%": { backgroundPosition: "100% 50%" },
+					"100%": { backgroundPosition: "0% 50%" },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'spin': 'spin 0.2s linear infinite',
 				'spin-slow': 'spin 0.8s linear infinite',
-			}
+				'gradient': 'gradient 6s ease infinite',
+			},
 		}
 	},
 	plugins: [animate],

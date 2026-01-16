@@ -34,7 +34,7 @@ const Hero  = () => {
           {/* Main Title with generous spacing */}
           <h1 className="text-5xl sm:text-7xl font-bold text-white mb-12 leading-tight">
             <span 
-              className="mb-6 bg-gradient-to-r via-rose-500 to-emerald-600 from-blue-500 bg-clip-text text-transparent"
+              className="mb-6 bg-gradient-to-r via-rose-500 to-green-600 from-blue-500 bg-clip-text text-transparent"
             >
               {content.title}
             </span>

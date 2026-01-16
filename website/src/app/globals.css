@@ -150,3 +150,35 @@ code {
     51vw 92vh 2px white, 59vw 78vh 1px white;
   animation: twinkle 6s infinite linear reverse;
 }
+
+
+.moving-bg {
+  animation:slide 8s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(87, 84, 255) 50%, rgb(10, 240, 132) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.3;
+  position:absolute;
+  right:-50%;
+  top:0;
+  z-index:-111;
+}
+
+.moving-bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:10s;
+}
+
+.moving-bg3 {
+  animation-duration:12s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
