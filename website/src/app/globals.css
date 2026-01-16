@@ -90,6 +90,16 @@ code {
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
 }
 
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
 .stars {
   width: 1px;
   height: 1px;
@@ -107,18 +117,21 @@ code {
     50vw 75vh 1px white, 55vw 88vh 2px white, 60vw 95vh 1px white,
     65vw 72vh 2px white, 70vw 85vh 1px white, 75vw 78vh 2px white,
     80vw 92vh 1px white, 85vw 82vh 2px white, 90vw 88vh 1px white,
-    95vw 75vh 2px white; 
+    95vw 75vh 2px white, 66vw 72vh 2px white, 66vw 72vh 2px white,
+    3vw 7vh 2px white, 10vw 8vh 2px white, 15vw 15vh 1px white,
+    22vw 22vh 1px white, 28vw 12vh 2px white, 32vw 32vh 1px white,
+    38vw 18vh 2px white, 42vw 35vh 1px white, 48vw 25vh 2px white,
+    53vw 49vh 1px white, 52vw 12vh 2px white, 63vw 38vh 1px white,
+    68vw 28vh 2px white, 73vw 45vh 1px white, 78vw 32vh 2px white,
+    83vw 48vh 1px white, 88vw 23vh 2px white, 93vw 52vh 1px white,
+    98vw 35vh 2px white, 5vw 60vh 1px white, 12vw 65vh 2px white,
+    18vw 72vh 1px white, 25vw 78vh 2px white, 30vw 85vh 1px white,
+    35vw 68vh 2px white, 40vw 85vh 1px white, 45vw 92vh 2px white,
+    50vw 75vh 1px white, 55vw 88vh 2px white, 68vw 95vh 1px white,
+    65vw 72vh 2px white, 70vw 85vh 1px white, 75vw 78vh 2px white,
+    80vw 92vh 1px white, 85vw 87vh 2px white, 90vw 88vh 1px white,
+    95vw 75vh 2px white, 66vw 72vh 2px white; 
   animation: twinkle 8s infinite linear;
-}
-
-@keyframes twinkle {
-  0%,
-  100% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.4;
-  }
 }
 
 /* Additional twinkling stars with different animation timing */

@@ -10,7 +10,8 @@ const Home = ({locale}: {locale: LocalesValues}) => {
     const content = getIntlayer("home-page", locale);
     return(
         <main>
-            <div className="text-center bg-gray-800 text-white pt-20 py-10">
+            <div className="stars-box text-center text-white pt-20 py-10">
+                <div className='stars' />
                 {/* Logo */}
                 <div className='flex justify-center caret-transparent '>
                 <Image 
