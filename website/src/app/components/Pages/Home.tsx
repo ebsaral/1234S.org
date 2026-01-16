@@ -45,7 +45,7 @@ const Home = ({locale}: {locale: LocalesValues}) => {
                 ))}
                 </div>
 
-                <SupportLink className="md:hidden mt-10 mx-10 text-xl" />
+                <SupportLink className="max-w-max mx-auto md:hidden mt-10  text-xl shadow-sm shadow-gray-300"/>
             </div>
             <TeamSection />
         </main>
