@@ -7,14 +7,11 @@ import { useIntlayer } from "next-intlayer";
 
 const Hero  = () => {
   const content = useIntlayer("hero-section");
-  const { scrollY } = useScrollEffects();
-  const [heroRef] = useIntersectionObserver();
-  
+  const { scrollY } = useScrollEffects();  
   const parallaxOffset = scrollY * 0.5;
   
   return (
     <section 
-      ref={heroRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
     >
       {/* Background Image with Parallax */}
