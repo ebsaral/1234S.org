@@ -29,24 +29,25 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto my-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto my-16 px-6 sm:px-8 lg:px-10">
         <div className="flex flex-col gap-4 prose prose-lg max-w-none">            
           <FormattedText className='leading-relaxed text-md sm:text-ld md:text-xl' boldClassName='text-gray-900' text={content.paragraph2.value}  />
         </div>
       </div>
 
-      {content.quote && <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
-        <div className='stars-box rounded-xl flex flex-col gap-5'>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+        <div className='stars-box rounded-xl gap-5'>
           <div className='stars' />
+
           <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
             <span className='font-bold text-2xl'>🌟</span>
           </div>
-          <blockquote className="text-center text-md sm:text-lg lg:text-xl font-normal px-6 pb-10 whitespace-pre-line text-gray-100">
+
+          <blockquote className="max-w-4xl mx-auto py-4 px-6 sm:px-8 lg:px-10 text-center text-md sm:text-lg lg:text-xl font-normal pb-10 whitespace-pre-line text-gray-100">
               {content.quote}
           </blockquote>
-          
         </div>
-      </div>}
+      </div>
     </section>
   );
 };
