@@ -13,7 +13,7 @@ const Hero  = () => {
   
   return (
     <section 
-      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
     >
       {/* Background Image with Parallax */}
       <div 
@@ -31,6 +31,19 @@ const Hero  = () => {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div>
+          {/* Decorative Icons */}
+          <div className="flex justify-center items-center gap-12 mb-4">
+              <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
+              <Globe size={36} />
+              </div>
+              <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-green-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
+              <Scale size={36} />
+              </div>
+              <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-rose-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
+              <Heart size={36} />
+              </div>
+          </div>
+
           {/* Main Title with generous spacing */}
           <h1 className="text-5xl sm:text-7xl font-bold text-white mb-12 leading-tight">
             <span 
@@ -46,19 +59,6 @@ const Hero  = () => {
               {content.subtitle}
             </p>
             
-          </div>
-          
-          {/* Decorative Icons */}
-          <div className="flex justify-center items-center gap-12">
-              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
-              <Globe size={40} />
-              </div>
-              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100/10 shadow-lg mb-8 text-green-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
-              <Scale size={40} />
-              </div>
-              <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100/10 shadow-lg mb-8 text-rose-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}>
-              <Heart size={40} />
-              </div>
           </div>
           
           {/* Scroll Indicator */}
