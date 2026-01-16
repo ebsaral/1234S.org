@@ -1,12 +1,13 @@
 "use client";
 
-import { useScrollEffects, useIntersectionObserver } from '../../hooks/useScrollEffects';
+import { useScrollEffects } from '../../hooks/useScrollEffects';
 import { Heart, Globe, Scale } from 'lucide-react';
 import { ArrowDown } from 'lucide-react';
-import { useIntlayer } from "next-intlayer";
+import { useIntlayer, useLocale } from "next-intlayer";
 
 const Hero  = () => {
-  const content = useIntlayer("hero-section");
+  const { locale } = useLocale()
+  const content = useIntlayer("hero-section", locale);
   const { scrollY } = useScrollEffects();  
   const parallaxOffset = scrollY * 0.5;
   

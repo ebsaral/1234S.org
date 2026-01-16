@@ -10,7 +10,7 @@ const Philosophy = ({locale}: {locale: LocalesValues}) => {
     return(
         <main>
             <Hero />
-            <Intro />
+            <Intro locale={locale} />
             <InterconnectednessSection />
             <JusticeSection />
             <HealthSection />
