@@ -5,12 +5,12 @@ const metadataContent = {
   key: 'philosophy-page-metadata',
   content: {
     title: t({
-      en: 'Logical Spirituality: The Root of New Politics',
-      tr: 'Mantıksal Maneviyat: Yeni Siyasetin Kökeni',
+      en: 'Logical Spirituality | 1234S.org',
+      tr: 'Mantıksal Maneviyat | 1234S.org',
     }),
     description: t({
-      en: 'A Comprehensive View of Spirituality Together with the Logic of Nature: Interconnectedness, Justice, Health.',
-      tr: 'Doğanın Mantığıyla Birlikte Maneviyata Kapsamlı Bir Bakış: Bütünlük, Adalet, Sağlık.',
+      en: 'A Comprehensive View of Spirituality Together with the Logic in Nature: Interconnectedness, Justice, Health.',
+      tr: 'Doğadaki Mantıkla Birlikte Maneviyata Kapsamlı Bir Bakış: Bütünlük, Adalet, Sağlık.',
     }),
     applicationName: '1234S.org',
     authors: [

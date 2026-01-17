@@ -10,7 +10,7 @@ import IntroTextSection from '../Sections/IntroTextSection';
 import JusticeSection from '../Sections/JusticeSection';
 
 const Philosophy = () => {
-  const content = useIntlayer('membership-page-metadata');
+  const content = useIntlayer('philosophy-page-metadata');
   return (
     <main>
       <Title title={content.title.value} />
