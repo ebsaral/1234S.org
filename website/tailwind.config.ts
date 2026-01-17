@@ -89,7 +89,7 @@ const config: Config = {
         spin: 'spin 0.2s linear infinite',
         'spin-slow': 'spin 3s linear infinite',
         gradient: 'gradient 6s ease infinite',
-        'zoom-in': 'zoomIn 2s ease-out forwards',
+        'zoom-in': 'zoomIn 0.8s ease-out forwards',
       },
     },
   },
