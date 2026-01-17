@@ -13,11 +13,8 @@ const Footer = () => {
   const [sectionRef] = useIntersectionObserver();
 
   return (
-    <footer
-      id='contact'
-      ref={sectionRef}
-      className='bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-10'
-    >
+    <footer id='contact' ref={sectionRef} className='stars-box py-10'>
+      <div className='stars'></div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='max-w-7xl flex flex-col justify-center items-center gap-8'>
           {/* Contact section */}
@@ -56,7 +53,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className='flex flex-col gap-3 items-center justify-center text-gray-400 text-xs whitespace-pre-line'>
+          <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
               <p>
                 {new Date().getFullYear()} © {content.association.name}
