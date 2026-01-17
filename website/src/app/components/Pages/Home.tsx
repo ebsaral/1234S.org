@@ -1,6 +1,4 @@
-'use client';
-
-import { useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer/server';
 import Image from 'next/image';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
@@ -8,10 +6,11 @@ import Title from '../Custom/Title';
 import TeamSection from '../Sections/TeamSection';
 
 const Home = () => {
+  const metadata = useIntlayer('membership-page-metadata');
   const content = useIntlayer('home-page');
   return (
     <main>
-      <Title title={content.title.value} />
+      <Title title={metadata.title.value} />
       <div className='stars-box text-center text-white pt-20 py-10'>
         <div className='stars' />
         {/* Logo */}
