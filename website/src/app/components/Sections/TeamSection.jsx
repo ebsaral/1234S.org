@@ -20,7 +20,7 @@ const TeamSection = () => {
       iconColor='text-rose-600'
       backgroundColor='bg-rose-500'
       accentColor='from-rose-500 to-yellow-50'
-      className='pb-14 px-0'
+      className='pb-16 px-0'
       descriptionClassName={'text-center'}
       descriptionColor={'text-gray-900'}
     >
@@ -31,10 +31,7 @@ const TeamSection = () => {
           ))}
         </div>
       )}
-      <div className='text-center pt-8'>
-        {content.total.label}: <span className='font-bold text-lg'>{content.total.count}</span>
-      </div>
-      <div className='absolute -bottom-20 left-0 border-image-divider mx-auto w-full repeat-1'></div>
+      <div className='absolute -bottom-[84px] left-0 border-image-divider mx-auto w-full repeat-infinite'></div>
     </ContentLayout>
   );
 };
