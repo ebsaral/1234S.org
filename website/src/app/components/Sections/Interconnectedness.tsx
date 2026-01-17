@@ -1,4 +1,6 @@
-import { useIntlayer } from 'next-intlayer/server';
+'use client';
+
+import { useIntlayer } from 'next-intlayer';
 
 import { Brain, Globe } from 'lucide-react';
 

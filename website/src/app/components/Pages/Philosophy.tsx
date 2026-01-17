@@ -1,22 +1,22 @@
 'use client';
 
+import EndingSection from '@/app/components/Sections/EndingSection';
+import HealthSection from '@/app/components/Sections/HealthSection';
+import Hero from '@/app/components/Sections/Hero';
+import Interconnectedness from '@/app/components/Sections/Interconnectedness';
+import Intro from '@/app/components/Sections/Intro';
+import JusticeSection from '@/app/components/Sections/JusticeSection';
 import { useIntlayer } from 'next-intlayer';
 import Title from '../Custom/Title';
-import EndingSection from '../Sections/EndingSection';
-import HealthSection from '../Sections/HealthSection';
-import HeroSection from '../Sections/HeroSection';
-import InterconnectednessSection from '../Sections/InterconnectednessSection';
-import IntroTextSection from '../Sections/IntroTextSection';
-import JusticeSection from '../Sections/JusticeSection';
 
 const Philosophy = () => {
   const content = useIntlayer('philosophy-page-metadata');
   return (
     <main>
       <Title title={content.title.value} />
-      <HeroSection />
-      <IntroTextSection id='intro' />
-      <InterconnectednessSection />
+      <Hero />
+      <Intro />
+      <Interconnectedness />
       <JusticeSection />
       <HealthSection />
       <EndingSection id='ending' />
