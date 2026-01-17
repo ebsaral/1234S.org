@@ -1,4 +1,4 @@
-import { useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer/server';
 import Title from '../Custom/Title';
 import SupportOptionsSection from '../Sections/SupportOptionsSection';
 import SupportTopicsSection from '../Sections/SupportTopicsSection';
