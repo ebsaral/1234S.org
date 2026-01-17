@@ -6,7 +6,7 @@ import Title from '../Custom/Title';
 import TeamSection from '../Sections/TeamSection';
 
 const Home = () => {
-  const metadata = useIntlayer('membership-page-metadata');
+  const metadata = useIntlayer('page-metadata');
   const content = useIntlayer('home-page');
   return (
     <main>
