@@ -1,5 +1,7 @@
+'use client';
+
 import BankAccountsSection from '@/app/components/Sections/BankAccountsSection';
-import { useIntlayer } from 'next-intlayer/server';
+import { useIntlayer } from 'next-intlayer';
 import Title from '../Custom/Title';
 
 const BankAccounts = () => {

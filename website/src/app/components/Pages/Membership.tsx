@@ -1,5 +1,7 @@
+'use client';
+
 import MembershipSection from '@/app/components/Sections/MembershipSection';
-import { useIntlayer } from 'next-intlayer/server';
+import { useIntlayer } from 'next-intlayer';
 import Title from '../Custom/Title';
 
 const Membership = () => {

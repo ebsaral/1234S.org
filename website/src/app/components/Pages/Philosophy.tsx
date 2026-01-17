@@ -1,4 +1,6 @@
-import { useIntlayer } from 'next-intlayer/server';
+'use client';
+
+import { useIntlayer } from 'next-intlayer';
 import Title from '../Custom/Title';
 import EndingSection from '../Sections/EndingSection';
 import HealthSection from '../Sections/HealthSection';
