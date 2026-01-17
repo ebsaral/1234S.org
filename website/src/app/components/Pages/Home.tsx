@@ -10,19 +10,17 @@ import Title from '../Custom/Title';
 import useScreenSize, { ScreenSize } from '../Hooks/useScreenSize';
 import TeamSection from '../Sections/TeamSection';
 
-const DEFAULT_LOGO_WIDTH = 180;
-
 const Home = () => {
   const metadata = useIntlayer('page-metadata');
   const content = useIntlayer('home-page');
   const screenSize = useScreenSize();
   const [isLoaded, setIsLoaded] = useState(false);
 
-  const [logoSize, setLogoSize] = useState(DEFAULT_LOGO_WIDTH);
+  const [logoSize, setLogoSize] = useState(0);
 
   useEffect(() => {
     if (screenSize == ScreenSize.sm) {
-      setLogoSize(DEFAULT_LOGO_WIDTH);
+      setLogoSize(180);
     } else if (screenSize == ScreenSize.md) {
       setLogoSize(220);
     } else if (screenSize == ScreenSize.lg) {
@@ -31,10 +29,13 @@ const Home = () => {
       setLogoSize(260);
     } else if (screenSize == ScreenSize['2xl']) {
       setLogoSize(260);
+    } else {
+      setLogoSize(0);
     }
     if (!isLoaded) {
       setIsLoaded(true);
     }
+    console.log(2132132);
   }, [screenSize]);
 
   return (
@@ -43,16 +44,18 @@ const Home = () => {
       <div className='stars-box text-center text-white pt-20 py-10 px-8 sm:px-10 lg:px-12'>
         <div className='stars' />
         {/* Logo */}
-        <div className='flex justify-center caret-transparent '>
-          <Image
-            className='m-10 rounded-full hover:scale-110 transition-transform duration-300'
-            src='/logos/logo-bg-white.png'
-            title={content.title.value}
-            alt={content.title.value + ' Logo'}
-            priority={false}
-            width={logoSize}
-            height={logoSize}
-          />
+        <div className='flex items-center justify-center caret-transparent min-h-[240px]'>
+          {screenSize != ScreenSize.z && (
+            <Image
+              className='m-10 rounded-full animate-zoom-in delay 200'
+              src='/logos/logo-bg-white.png'
+              title={content.title.value}
+              alt={content.title.value + ' Logo'}
+              priority={false}
+              width={logoSize}
+              height={logoSize}
+            />
+          )}
         </div>
         <h1 className='max-w-3xl mx-auto text-left sm:text-center text-gray-100 text-3xl sm:text-5xl tracking-wide font-semibold my-10'>
           {content.title}

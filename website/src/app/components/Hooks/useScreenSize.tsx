@@ -1,6 +1,8 @@
+'use client';
 import { useEffect, useState } from 'react';
 
 export enum ScreenSize {
+  'z' = '0',
   'sm' = 'sm',
   'md' = 'md',
   'lg' = 'lg',
@@ -8,20 +10,22 @@ export enum ScreenSize {
   '2xl' = '2xl',
 }
 
+const widthToSize = (width: number) => {
+  if (width >= 1536) return ScreenSize['2xl'];
+  else if (width >= 1280) return ScreenSize.xl;
+  else if (width >= 1024) return ScreenSize.lg;
+  else if (width >= 768) return ScreenSize.md;
+  else return ScreenSize.sm;
+};
+
 export default function useScreenSize() {
-  const [screenSize, setScreen] = useState<ScreenSize>(ScreenSize.sm);
+  const [screenSize, setScreen] = useState<ScreenSize>(ScreenSize.z);
 
   useEffect(() => {
     const updateScreen = () => {
       const width = window.innerWidth;
-
-      if (width >= 1536) setScreen(ScreenSize['2xl']);
-      else if (width >= 1280) setScreen(ScreenSize.xl);
-      else if (width >= 1024) setScreen(ScreenSize.lg);
-      else if (width >= 768) setScreen(ScreenSize.md);
-      else setScreen(ScreenSize.sm);
+      setScreen(widthToSize(width));
     };
-
     updateScreen(); // run once on mount
     window.addEventListener('resize', updateScreen);
     return () => window.removeEventListener('resize', updateScreen);

@@ -78,6 +78,10 @@ const config: Config = {
           '50%': { backgroundPosition: '100% 50%' },
           '100%': { backgroundPosition: '0% 50%' },
         },
+        zoomIn: {
+          '0%': { transform: 'scale(0.1)', opacity: '0' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -85,6 +89,7 @@ const config: Config = {
         spin: 'spin 0.2s linear infinite',
         'spin-slow': 'spin 3s linear infinite',
         gradient: 'gradient 6s ease infinite',
+        'zoom-in': 'zoomIn 3s ease-out forwards',
       },
     },
   },
