@@ -800,20 +800,20 @@
   resolved "https://registry.yarnpkg.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.4.tgz#b19f1f88ace8bfc20784a0ad31767f3438e025d1"
   integrity sha512-xIyj4wpYs8J18sVN3mSQjwrw7fKUqRw+Z5rnHNCy5fYTxigBz81u5mOMPmFumwjcn8+ld1ppptMBCLic1nz6ig==
 
-"@intlayer/ai@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-7.5.13.tgz#2d0ecf6f69d3bea4d7072c9a78ff5013282e871a"
-  integrity sha512-hl9GCB/BgIZvEieSMRaqOoHYBfur6kOiqak1d/ltIBQqIdOuWvlStEyhGTNRhtHvikbAmaWzfAGsbV28l6dPhw==
+"@intlayer/ai@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-7.5.14.tgz#88c0b0d2bdee68bb70dcdfdd9ff6491cad15dbfe"
+  integrity sha512-netP5S2bCbqgABwufPMjMAo5rLukSoeoGCDh52s1q3YuC6z7rVEnKguBBaBq197nnjOODoXVUGHQikffwQnsdw==
   dependencies:
     "@ai-sdk/anthropic" "2.0.56"
     "@ai-sdk/deepseek" "1.0.32"
     "@ai-sdk/google" "2.0.51"
     "@ai-sdk/mistral" "2.0.26"
     "@ai-sdk/openai" "2.0.88"
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/types" "7.5.14"
     ai "5.0.116"
     zod "4.2.1"
 
@@ -824,13 +824,13 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/api@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.5.13.tgz#a8fecf0ede3ab753357befed962a87649b228ea4"
-  integrity sha512-2DoK0jlaaUlnEPZ15QiVBSmwpYOnM62sql8EfcXN7j1GCEtXNZ40/writXl1m/opEIvjYvq+wPg+5TapCRdMEw==
+"@intlayer/api@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-7.5.14.tgz#af3163549d960f9cde220da2793ce759864adda0"
+  integrity sha512-uVW0UAjr119jt+jBqaeY3yrXTIak2HZMs5L7t1YMuSbS1NROW0iDG/gJW2Bw5r08b7JleGTJ9qF86tM4X/nDBA==
   dependencies:
-    "@intlayer/config" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/types" "7.5.14"
 
 "@intlayer/babel@5.8.1":
   version "5.8.1"
@@ -867,18 +867,18 @@
     p-limit "^3.1.0"
     simple-git "^3.27.0"
 
-"@intlayer/chokidar@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.5.13.tgz#62bf4aed6e41842e3e05d40505d483c3648b0439"
-  integrity sha512-FAd3e0rQIaw0i/4jQjI4Y4d8BK8QaZmUnO4HLbJYHAzqKxmFdDFQq3vM5UepECj+p+nH3v1hMEpDreb6sKCKhg==
+"@intlayer/chokidar@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-7.5.14.tgz#094a52fbf843102aa68ce3726d411a440341f46b"
+  integrity sha512-OUxo8GV0f4Ows7B+nUiG9ECUsTV5lDCLvPqoP/222F0PCiQHTtleb57Yze5tAJX/bzPzLF+sKpDzADUKnkoy5w==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/remote-dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/remote-dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     chokidar "3.6.0"
     crypto-js "4.2.0"
     defu "6.1.4"
@@ -900,21 +900,21 @@
     fast-glob "^3.3.3"
     p-limit "^3.1.0"
 
-"@intlayer/cli@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.5.13.tgz#67aa2f1eb4f3bb375d22ad9a67887bd70839cd90"
-  integrity sha512-YhVAt/5PiY1QnvlbZ1CqW8t1fCB6ixEZDNOSWHSIIC+N4hhX7AMrPvijKVan77cD+bwJFARc/WceyX+2atYjAg==
+"@intlayer/cli@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-7.5.14.tgz#e41965097103766b1dad6cc45c19d45e6df747a9"
+  integrity sha512-O+DKtY/J9RauuD1HS3e8nMm9WnUFYbvwo3xpFLb37pOiFBuoI25W60kVSgCCvpFxAHgfslOMgcueXXYGxsTTow==
   dependencies:
     "@clack/prompts" "^0.11.0"
-    "@intlayer/ai" "7.5.13"
-    "@intlayer/api" "7.5.13"
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/remote-dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/ai" "7.5.14"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/remote-dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     commander "14.0.1"
     eventsource "3.0.7"
     fast-glob "3.3.3"
@@ -928,12 +928,12 @@
     dotenv "^16.6.1"
     esbuild "^0.25.2"
 
-"@intlayer/config@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.5.13.tgz#5c10a954b355ba204596296c117569ba479b9bfe"
-  integrity sha512-PIN16MskoGVU8zVWvRzX+8TqLHQxCnfkG7JG5UzRLe2lvqJY1m2QFbMuRZ8IOgWz9JpOd2H5Sk6CLktMmtIOHw==
+"@intlayer/config@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-7.5.14.tgz#d6de526b1bd4e28a57615138319660435657af17"
+  integrity sha512-81kbsqE71zqyj1rSYyNFg1PltMfb3V0d7JEsXDHBameVLMexae2oqUOpSmChoKSay6MZL9t3INcvGv+6JGLW2Q==
   dependencies:
-    "@intlayer/types" "7.5.13"
+    "@intlayer/types" "7.5.14"
     defu "6.1.4"
     dotenv "16.6.1"
     esbuild "0.27.2"
@@ -949,16 +949,16 @@
     "@intlayer/dictionaries-entry" "5.8.1"
     negotiator "^1.0.0"
 
-"@intlayer/core@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.5.13.tgz#5c97e3ecf0579bd5b82b944dc2e57a960ebd12d3"
-  integrity sha512-XdY3Ru76TCWn2TUg/KaCr3XTNj/jJiBFrwTeSeSQ+ug1Fd0uqjAjbcEsdrRLaV6VIZ6WEYCSRQfsTsu4J/av2g==
+"@intlayer/core@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-7.5.14.tgz#50fd7e82281fe5303ed380c1a0a0a5363f79be0e"
+  integrity sha512-v09H9JgUShqOhnVZAhz+HWWSDTHVdz2k4y8w5IyLCR8xtkPeNSKaUUPYw93KevDp753HTPd1CGMEbg15hapK5g==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
     defu "6.1.4"
 
 "@intlayer/design-system@5.8.1":
@@ -1002,12 +1002,12 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.5.13.tgz#3d1294599b74635b76d26199b8adc94d64ff252e"
-  integrity sha512-R7dyrRjY6osi0+gV9E4snR+bYZsEIzaCJeey0CjVPnta8/fX3Mxt5Bnhn7tOP+Aw/7EGUrZLFIVaItI5ExCKMw==
+"@intlayer/dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-7.5.14.tgz#1d8bbad6fa6020a9dda5b2c2a3d532512a654b3a"
+  integrity sha512-IdZ/bIH6qLIoWg2rJ9t0DuRyayjz/5XSFAJM7lw/i6v1Ty7CZglOn1Kekt9NWyMJ3cROgsMCivnFAM2ErzJ7mQ==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
 "@intlayer/editor-react@5.8.1":
   version "5.8.1"
@@ -1019,38 +1019,38 @@
     "@intlayer/editor" "5.8.1"
     uuid "^11.1.0"
 
-"@intlayer/editor-react@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.5.13.tgz#f6cc0c1ac275a8212111d051413a8f4845c43a0e"
-  integrity sha512-frZ1MJtR3cMzbp3HEueanGEn1znHUtnSwvYitWt8FiXokGTihYJt1ZujMs8V4CxJpXmsp1WYbnVEiPawEdPVMA==
+"@intlayer/editor-react@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-7.5.14.tgz#0cab0979acdf424eb78e8f6c1e8a7f7a7b918828"
+  integrity sha512-muwHwxxm7PzFNa7rsJ75AHJ1TktY3KGmemvrMRtoCVBw43S/lNIvCBoPG7rO3DUiMxULdW/pP4llzadg6K7jTw==
   dependencies:
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/editor" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/editor" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
 
 "@intlayer/editor@5.8.1":
   version "5.8.1"
   resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-5.8.1.tgz#cdeb55a98338d48abefaa0bf58c691f61bb2364a"
   integrity sha512-Wl7E2MHRZVhQ+fmoCuaefZWRxc5AMS7yiXpfU1UpTtVuJszTAp/6xuDmhzbhk9vLVf+2or42TYOp6e5vEScGjg==
 
-"@intlayer/editor@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.5.13.tgz#4c2127a7632b424e8cf6bbad996f0eeccc0127cd"
-  integrity sha512-Eh6lOhaS2losHwYh/zhZrLT4rFALzN8s9VMw0+HO/LigiBfieS4JmN6GdPWZPGM0hqrE2xbv58NN3bfWdxUy4Q==
+"@intlayer/editor@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-7.5.14.tgz#98935b76ec866243db22ddf2ad6f7792d64fc739"
+  integrity sha512-jQjMH/Xf+xHmlcWYxpMgnoWKaIgpeblyjOCYQ0RhJY0yMO6p7JcJTFkR+z6c19Ndzc7ZzUOh9doghsyUndy36w==
 
-"@intlayer/remote-dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.5.13.tgz#f3e7fe2623d9ba9c7ea384462681d2acac58d2f7"
-  integrity sha512-CmUI8WYJ4Jv+6DLm18Fhz0Tl8Ws8qPbwpPv6su7r5CLMiomXvaFpvfSg6/pQ6XZTeFZHobIOGdvC2xvatw9kdA==
+"@intlayer/remote-dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-7.5.14.tgz#9adc9e8fed9450e1aff8ac39ed64d38bdd815710"
+  integrity sha512-ClEVvtXNuIQ3GQMaQkUoKcl6hLqLAlPT6DRF01kJd1yPuR15oYs1pX6f7MTtZgODrqxNX+k6VYzaBoz1+e23Jg==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
-"@intlayer/types@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.5.13.tgz#33a8f04f1a64b886f9e0698c7f06d17f5030b2c8"
-  integrity sha512-3X4RGUCBCFsxEmNLTORJvHrHnBd6nunhHrl9hgyzHDoH90QUXy75TAFdeVkvmfwwKra/AqII1UeeGB4Bq1l2vA==
+"@intlayer/types@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-7.5.14.tgz#49ffef0f064e080c715df57182bdc0a878c314a1"
+  integrity sha512-mH+9ySEp+cqCbxDznRCJlKX7X72AOGctzjyw7SU+cwMzYqwQTx8vt/+G51u+EBypU11kcVfGh5lbRwlyE2ayFQ==
 
 "@intlayer/unmerged-dictionaries-entry@5.8.1":
   version "5.8.1"
@@ -1059,21 +1059,21 @@
   dependencies:
     "@intlayer/config" "5.8.1"
 
-"@intlayer/unmerged-dictionaries-entry@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.5.13.tgz#246d467d36dfa2ad4e7474e8582387e57f65a61e"
-  integrity sha512-MfeyR4576aMoO3iZeDzNm4GZCrrTzMdlkSSfrtP5ynBH0ZATDz/jaRh7rvDeJFnYeQzaPlOXZn9A2EoWfVdKFQ==
+"@intlayer/unmerged-dictionaries-entry@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-7.5.14.tgz#7eb5a8f84660da0e024b70ed57fcaf6412f3065d"
+  integrity sha512-JxAfveuDjD2QKZCJs7twFZe5VlWmTN7oRxV9uhnUdqSW0PIGqaa3nUYi5PlvC0iB4oBZF0BjPO2bJ480pjO5ZA==
   dependencies:
-    "@intlayer/config" "7.5.13"
+    "@intlayer/config" "7.5.14"
 
-"@intlayer/webpack@7.5.13":
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.5.13.tgz#343b4d3d07c9bfbce6edffd01eb312b6ca66c1fc"
-  integrity sha512-jKTxSIMPhz6eC1/cvHtqVJeAV/6Cdfo7v6MWNBuFMDr9TaErpx5XINWVy0foIFy7pComzZtUEIeks4jHdWCiog==
+"@intlayer/webpack@7.5.14":
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-7.5.14.tgz#22a4ec8b3eb95e78065bc57e49b36f81a47fdd11"
+  integrity sha512-F9/5lYXRALyIVPIUC6IL0nJGU+4FnTGqR0QC5GZ833N/vT70Nt5s5Zq78zVHiFhNRV64/UDC/sXh3EHLP0HVUw==
   dependencies:
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/types" "7.5.14"
     crypto-js "4.2.0"
     fast-glob "3.3.3"
     webpack "5.104.1"
@@ -5108,15 +5108,15 @@ intlayer@5.8.1:
     "@intlayer/config" "5.8.1"
     "@intlayer/core" "5.8.1"
 
-intlayer@7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.5.13.tgz#4b9d3c191c85dc04d5b1f1b694e68e7573d795d5"
-  integrity sha512-sWqB7nuowvXogx7MPThPlTV9rYrpMXrzpMW3sA/RGApTm7cwcm4hokFkf4qlGNvwu+1xWCRk51zn07/NcsIzGA==
+intlayer@7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-7.5.14.tgz#e92703878f7108f0f9f6c70ac43260b2a6569b3b"
+  integrity sha512-3SaBCH4pKYN/QB+EREuLWf8KVhJN3nwKh2/SqYpfZgMb/bU5597/IJnEQmCxf6ntr2aNdIC87yzdsFZA+UUm3Q==
   dependencies:
-    "@intlayer/cli" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/types" "7.5.13"
+    "@intlayer/cli" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/types" "7.5.14"
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -5943,20 +5943,20 @@ next-font@^1.2.0:
   resolved "https://registry.yarnpkg.com/next-font/-/next-font-1.2.0.tgz#cff8de48f89d2c76d07935470731293078c92e09"
   integrity sha512-1yk8OM9gIACZfeS6BI7q3WX/WWP8DzNlD8+N4UJ6EsVq9+eOBNwyhPnvvGfj6alPan0xqQgzMbLD+2Pik//kLw==
 
-next-intlayer@7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.5.13.tgz#4fe5c6f709e0a7f73174f8fe45b0e2159770b555"
-  integrity sha512-aEfMnpIgTPRXqZ4Bzoq2dr2KPTLO//0wmCfdVXFthkSEOvEuQKpvSgb5pXKgW0xCH7jD7740qHty7wlfQAPUvA==
+next-intlayer@7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-7.5.14.tgz#4da24d8e7f2ce093b539da880025902a3e2a6013"
+  integrity sha512-WK1yjTO0t1FQGfAKZ/f0MuxC87WtfupXbnyL65FQNwdaWNTBPPIgI/6ptdQJnHqgjFkOolc8Fvct+6fHViMIsA==
   dependencies:
-    "@intlayer/chokidar" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/webpack" "7.5.13"
+    "@intlayer/chokidar" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/webpack" "7.5.14"
     defu "6.1.4"
     node-loader "2.1.0"
-    react-intlayer "7.5.13"
+    react-intlayer "7.5.14"
 
 next-themes@^0.4.6:
   version "0.4.6"
@@ -6578,19 +6578,19 @@ react-intlayer@5.8.1:
     "@intlayer/editor-react" "5.8.1"
     js-cookie "^3.0.5"
 
-react-intlayer@7.5.13:
-  version "7.5.13"
-  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.5.13.tgz#055b11153bb62bfd20252c44ef295a5abc24135a"
-  integrity sha512-hDvz5jZTQVXl2A3+R8ES8nZfNufqY5sdJ3i5YHoUhDIMZbNKgvVupNsCqPq8oQlnBc4HvH3AQkJ78J1/eKR+Xw==
+react-intlayer@7.5.14:
+  version "7.5.14"
+  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-7.5.14.tgz#688ce2ce26e51f40f9892ada8f56e1e48155fcc7"
+  integrity sha512-19Q/0/gwhc3fynvm2ruBQRzqCj/MU7onfZl27o1tWPUE88du2GK4U8FHL4Yfjdvs12KihdoV3KoChm3mBdSNGQ==
   dependencies:
-    "@intlayer/api" "7.5.13"
-    "@intlayer/config" "7.5.13"
-    "@intlayer/core" "7.5.13"
-    "@intlayer/dictionaries-entry" "7.5.13"
-    "@intlayer/editor-react" "7.5.13"
-    "@intlayer/types" "7.5.13"
-    "@intlayer/unmerged-dictionaries-entry" "7.5.13"
-    intlayer "7.5.13"
+    "@intlayer/api" "7.5.14"
+    "@intlayer/config" "7.5.14"
+    "@intlayer/core" "7.5.14"
+    "@intlayer/dictionaries-entry" "7.5.14"
+    "@intlayer/editor-react" "7.5.14"
+    "@intlayer/types" "7.5.14"
+    "@intlayer/unmerged-dictionaries-entry" "7.5.14"
+    intlayer "7.5.14"
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
