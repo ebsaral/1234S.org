@@ -9,7 +9,10 @@
     "lint": "eslint",
     "editor": "cross-env NODE_ENV=development yarn intlayer-editor start -e development",
     "prettier-all": "prettier . --write",
-    "prepare": "husky"
+    "prepare": "cd .. && husky ./website/.husky"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md}": "prettier --write"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
@@ -52,6 +55,7 @@
     "eslint-config-next": "15.5.3",
     "husky": "^9.1.7",
     "intlayer-editor": "^5.8.1",
+    "lint-staged": "^16.2.7",
     "postcss": "^8.5.6",
     "prettier": "3.8.0",
     "prettier-plugin-organize-imports": "^4.3.0",
