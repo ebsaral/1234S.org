@@ -1,17 +1,17 @@
 import { LocalesValues } from 'intlayer';
+import { useIntlayer } from 'next-intlayer/server';
 import Image from 'next/image';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
-import TeamSection from '../Sections/TeamSection';
-import { useIntlayer } from 'next-intlayer/server';
 import Title from '../Custom/Title';
+import TeamSection from '../Sections/TeamSection';
 
-const Home = ({ locale }: { locale: LocalesValues }) => {
+const Home = () => {
   const dict = 'home-page';
-  const content = useIntlayer(dict, locale);
+  const content = useIntlayer(dict);
   return (
     <main>
-      <Title dict={dict} locale={locale} />
+      <Title dict={dict} />
       <div className='stars-box text-center text-white pt-20 py-10'>
         <div className='stars' />
         {/* Logo */}

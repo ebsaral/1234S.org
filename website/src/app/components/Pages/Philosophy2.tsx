@@ -7,12 +7,12 @@ import Intro from '@/app/components/Sections/Intro';
 import JusticeSection from '@/app/components/Sections/JusticeSection';
 import { LocalesValues } from 'intlayer';
 
-const Philosophy = ({ locale }: { locale: LocalesValues }) => {
+const Philosophy = () => {
   return (
     <main>
       <Hero />
-      <Intro locale={locale} />
-      <Interconnectedness locale={locale} />
+      <Intro />
+      <Interconnectedness />
       <JusticeSection />
       <HealthSection />
       <EndingSection id='ending' />

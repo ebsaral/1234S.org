@@ -2,13 +2,12 @@ import { useIntlayer } from 'next-intlayer/server';
 
 import { Brain, Globe } from 'lucide-react';
 
-import { LocalesValues } from 'intlayer';
 import FormattedText from '../Custom/FormattedText';
 
-const Interconnectedness = ({ locale }: { locale: LocalesValues }) => {
+const Interconnectedness = () => {
   const id = 'interconnectedness';
   const sectionKey = 'interconnectedness';
-  const content = useIntlayer(`${sectionKey}-section`, locale);
+  const content = useIntlayer(`${sectionKey}-section`);
 
   return (
     <section className='relative max-w-screen mx-auto overflow-hidden'>

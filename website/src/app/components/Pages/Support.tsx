@@ -1,8 +1,7 @@
-import { LocalesValues } from 'intlayer';
 import SupportOptionsSection from '../Sections/SupportOptionsSection';
 import SupportTopicsSection from '../Sections/SupportTopicsSection';
 
-const Support = ({ locale }: { locale: LocalesValues }) => {
+const Support = () => {
   return (
     <main>
       <SupportTopicsSection />

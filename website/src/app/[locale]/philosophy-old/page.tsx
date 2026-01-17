@@ -25,9 +25,9 @@ export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<
 };
 
 const Page: NextPageIntlayer = async ({ params }) => {
-  const { locale } = await params;
+  // const { locale } = await params;
 
-  return <Philosophy locale={locale} />;
+  return <Philosophy />;
 };
 
 export default Page;

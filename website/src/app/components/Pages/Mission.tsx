@@ -1,8 +1,7 @@
-import { LocalesValues } from 'intlayer';
 import ProjectSection from '../Sections/ProjectSection';
 import StorySection from '../Sections/StorySection';
 
-const Mission = ({ locale }: { locale: LocalesValues }) => {
+const Mission = () => {
   return (
     <main>
       <StorySection />

@@ -1,10 +1,9 @@
 import { useIntlayer } from 'next-intlayer/server';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
-import { LocalesValues } from 'intlayer';
 
-const Intro = ({ locale }: { locale: LocalesValues }) => {
-  const content = useIntlayer('intro-section', locale);
+const Intro = () => {
+  const content = useIntlayer('intro-section');
 
   return (
     <section className='max-w-screen mx-auto overflow-hidden'>
