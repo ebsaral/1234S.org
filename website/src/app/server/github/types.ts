@@ -1,14 +1,14 @@
 export const Reactions = {
-    THUMBS_UP: '👍',
-    THUMBS_DOWN: '👎',
-    LAUGH: '😄',
-    HOORAY: '🎉',
-    CONFUSED: '😕',
-    HEART: '❤️',
-    ROCKET: '🚀',
-    EYES: '👀',
-  } as const;
-  
+  THUMBS_UP: '👍',
+  THUMBS_DOWN: '👎',
+  LAUGH: '😄',
+  HOORAY: '🎉',
+  CONFUSED: '😕',
+  HEART: '❤️',
+  ROCKET: '🚀',
+  EYES: '👀',
+} as const;
+
 export type Reaction = keyof typeof Reactions;
 
 export interface GUser {
@@ -116,16 +116,16 @@ export interface GMultipleErrors {
 }
 
 export interface PaginationParams {
-    first?: number;
-    last?: number;
-    after?: string;
-    before?: string;
+  first?: number;
+  last?: number;
+  after?: string;
+  before?: string;
 }
 
 export interface DiscussionQuery {
-    repo: string;
-    term: string;
-    number: number;
-    category: string;
-    strict: boolean;
+  repo: string;
+  term: string;
+  number: number;
+  category: string;
+  strict: boolean;
 }

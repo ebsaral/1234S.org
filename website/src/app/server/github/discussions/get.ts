@@ -1,5 +1,13 @@
 import { GITHUB_GRAPHQL_API_URL } from '../config';
-import { DiscussionQuery, GDiscussionCategory, GError, GMultipleErrors, GRepositoryDiscussion, GUser, PaginationParams } from '../types';
+import {
+  DiscussionQuery,
+  GDiscussionCategory,
+  GError,
+  GMultipleErrors,
+  GRepositoryDiscussion,
+  GUser,
+  PaginationParams,
+} from '../types';
 import { digestMessage, parseRepoWithOwner } from '../utils';
 
 const DISCUSSION_QUERY = `
@@ -168,7 +176,6 @@ export async function getDiscussion(
     }),
   }).then((r) => r.json());
 }
-
 
 const GET_DISCUSSION_CATEGORIES_QUERY = `
   query($query: String!) {

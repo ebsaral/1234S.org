@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useEffect, useState } from 'react';
 
@@ -11,7 +11,7 @@ export const useScrollEffects = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       setScrollY(currentScrollY);
-      
+
       if (currentScrollY > lastScrollY) {
         setScrollDirection('down');
       } else {
@@ -34,13 +34,16 @@ export const useIntersectionObserver = (options = {}) => {
   useEffect(() => {
     if (!ref) return;
 
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsIntersecting(entry.isIntersecting);
-    }, {
-      threshold: 0.1,
-      rootMargin: '-50px',
-      ...options
-    });
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '-50px',
+        ...options,
+      },
+    );
 
     observer.observe(ref);
     return () => observer.disconnect();

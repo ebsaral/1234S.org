@@ -1,6 +1,5 @@
 import { AvailableTheme, availableThemes, Theme } from './variables';
 
-
 export let webcrypto: Crypto;
 
 if (typeof window === 'undefined') {

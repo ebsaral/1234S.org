@@ -1,13 +1,12 @@
-"use client";
+'use client';
 
 import { useIntlayer } from 'next-intlayer';
 
 import { Card } from './ui/card';
 import BankAccountInfo from './Custom/BankAccountInfo';
 
-
-const BankAccountItem = ({account}) => {
-  const content = useIntlayer("bank-accounts-section");
+const BankAccountItem = ({ account }) => {
+  const content = useIntlayer('bank-accounts-section');
 
   return (
     <Card className={`flex flex-col items-start p-3 text-sm gap-4`}>
@@ -17,7 +16,12 @@ const BankAccountItem = ({account}) => {
 
       <BankAccountInfo label={content.labels.account.name.value} text={account.name.value} />
       <BankAccountInfo label={content.labels.account.number.value} text={account.number.value} />
-      <BankAccountInfo label={content.labels.account.iban.value} text={account.iban.value} className='flex-col justify-start ' copy />
+      <BankAccountInfo
+        label={content.labels.account.iban.value}
+        text={account.iban.value}
+        className='flex-col justify-start '
+        copy
+      />
     </Card>
   );
 };

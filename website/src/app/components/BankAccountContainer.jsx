@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
@@ -7,14 +7,13 @@ import { Card } from './ui/card';
 import BankAccountInfo from './Custom/BankAccountInfo';
 import BankAccountItem from './BankAccountItem';
 
-const BankAccountContainer = ({bank}) => {
-  const content = useIntlayer("bank-accounts-section");
+const BankAccountContainer = ({ bank }) => {
+  const content = useIntlayer('bank-accounts-section');
 
   return (
     <Card className={`backdrop-blur-sm shadow-xl border-0 grid grid-cols-1 justify-center items-center p-4`}>
-
       <div className='flex flex-row gap-2 items-center justify-center text-base'>
-        <Image src={bank.bank.logo.value} alt={bank.bank.name} width={100} height={50} className="object-contain"/>
+        <Image src={bank.bank.logo.value} alt={bank.bank.name} width={100} height={50} className='object-contain' />
         <div>{bank.bank.name}</div>
       </div>
 
@@ -29,7 +28,9 @@ const BankAccountContainer = ({bank}) => {
       </div>
 
       <div className='grid grid-cols-1  md:grid-cols-2 gap-4 my-10'>
-      {bank.accounts.map((account, index) => <BankAccountItem key={index} account={account} />)}
+        {bank.accounts.map((account, index) => (
+          <BankAccountItem key={index} account={account} />
+        ))}
       </div>
     </Card>
   );

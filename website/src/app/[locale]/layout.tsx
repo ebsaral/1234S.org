@@ -1,9 +1,14 @@
-import type { Metadata } from "next";
-import { Noto_Sans } from 'next/font/google'
+import type { Metadata } from 'next';
+import { Noto_Sans } from 'next/font/google';
 
 import { IntlayerServerProvider } from 'next-intlayer/server';
-import { IntlayerClientProvider, LocalPromiseParams, type NextLayoutIntlayer, generateStaticParams } from "next-intlayer";
-import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from "intlayer";
+import {
+  IntlayerClientProvider,
+  LocalPromiseParams,
+  type NextLayoutIntlayer,
+  generateStaticParams,
+} from 'next-intlayer';
+import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from 'intlayer';
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -13,17 +18,15 @@ import { Bounce, ToastContainer } from 'react-toastify';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
-import "../globals.css";
-import "../App.css";
+import '../globals.css';
+import '../App.css';
 
 export { generateStaticParams };
 
-export const generateMetadata = async ({
-  params,
-}: LocalPromiseParams): Promise<Metadata> => {
+export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
 
-  const metadata = getIntlayer("page-metadata", locale);
+  const metadata = getIntlayer('page-metadata', locale);
 
   /**
    * Generates an object containing all url for each locale.
@@ -40,15 +43,15 @@ export const generateMetadata = async ({
    *  // }
    * ```
    */
-  
-  const url = "https://www.1234s.org";
+
+  const url = 'https://www.1234s.org';
   const multilingualUrls = getMultilingualUrls(url);
 
   return {
     ...metadata,
     alternates: {
       canonical: multilingualUrls[locale as keyof typeof multilingualUrls],
-      languages: { ...multilingualUrls, "x-default": url },
+      languages: { ...multilingualUrls, 'x-default': url },
     },
     openGraph: {
       ...metadata.openGraph,
@@ -57,11 +60,11 @@ export const generateMetadata = async ({
   };
 };
 
-const noto_sans = Noto_Sans({ 
-  weight: ["300", "400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  variable: "--font-noto"
+const noto_sans = Noto_Sans({
+  weight: ['300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-noto',
 });
 
 const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
@@ -69,14 +72,14 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   return (
     <html lang={locale} dir={getHTMLTextDir(locale)} className={`${noto_sans.variable}`}>
       <head>
-        <meta name="robots" content="all" />
+        <meta name='robots' content='all' />
       </head>
       <body>
         <IntlayerServerProvider locale={locale}>
           <IntlayerClientProvider locale={locale}>
-            <div className="App">
+            <div className='App'>
               <Header />
-              <div id="scroll-to-top"></div>
+              <div id='scroll-to-top'></div>
               {children}
               <Footer />
             </div>
@@ -86,16 +89,16 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
         <Analytics />
         <SpeedInsights />
         <ToastContainer
-          position="top-left"
+          position='top-left'
           autoClose={2000}
           hideProgressBar={true}
           newestOnTop={false}
           closeOnClick={false}
           rtl={false}
           pauseOnHover={false}
-          theme="light"
+          theme='light'
           transition={Bounce}
-          />
+        />
       </body>
     </html>
   );

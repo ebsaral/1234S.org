@@ -24,10 +24,7 @@ export interface CreateDiscussionResponse {
   };
 }
 
-export async function createDiscussion(
-  token: string,
-  params: CreateDiscussionBody,
-): Promise<CreateDiscussionResponse> {
+export async function createDiscussion(token: string, params: CreateDiscussionBody): Promise<CreateDiscussionResponse> {
   return fetch(GITHUB_GRAPHQL_API_URL, {
     method: 'POST',
     headers: {

@@ -1,12 +1,12 @@
-import { t, type Dictionary } from "intlayer";
+import { t, type Dictionary } from 'intlayer';
 
 const pageContent = {
-  key: "notification",
+  key: 'notification',
   content: {
     copyIbanSuccess: t({
-      en: "🎉 Copied IBAN!",
-      tr: "🎉 IBAN kopyalandı!"
-    })
+      en: '🎉 Copied IBAN!',
+      tr: '🎉 IBAN kopyalandı!',
+    }),
   },
 } satisfies Dictionary;
 

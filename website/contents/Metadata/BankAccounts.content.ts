@@ -1,59 +1,59 @@
-import { type Dictionary, t } from "intlayer";
-import { Metadata } from "next";
+import { type Dictionary, t } from 'intlayer';
+import { Metadata } from 'next';
 
 const metadataContent = {
-  key: "bank-accounts-page-metadata",
+  key: 'bank-accounts-page-metadata',
   content: {
     title: t({
-      en: "Our Bank Accounts | 1234 Science & Art Association",
-      tr: "Banka Hesaplarımız | 1234 Sanat ve İlim Derneği",
+      en: 'Our Bank Accounts | 1234 Science & Art Association',
+      tr: 'Banka Hesaplarımız | 1234 Sanat ve İlim Derneği',
     }),
     description: t({
-      en: "View our bank account details to support 1234 Science & Art Association.",
+      en: 'View our bank account details to support 1234 Science & Art Association.',
       tr: "1234 Sanat ve İlim Derneği'ni desteklemek için banka hesap bilgilerimizi görüntüleyin",
     }),
-    applicationName: "1234S.org",
+    applicationName: '1234S.org',
     authors: [
       {
-        name: "Emin Buğra Saral",
-        url: "https://0.1234s.org"
-      }
+        name: 'Emin Buğra Saral',
+        url: 'https://0.1234s.org',
+      },
     ],
-    generator: "Next.js",
+    generator: 'Next.js',
     keywords: t({
-      en: "spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support",
-      tr: "maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek",
+      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support',
+      tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek',
     }),
-    referrer: "origin",
-    creator: "1234S.org",
-    publisher: "Emin Buğra Saral",
+    referrer: 'origin',
+    creator: '1234S.org',
+    publisher: 'Emin Buğra Saral',
     robots: {
       index: true,
-      follow: true
+      follow: true,
     },
     icons: {
-      icon: "https://1234s.org/icon.png",
-      apple: "https://1234s.org/apple-icon.png"
+      icon: 'https://1234s.org/icon.png',
+      apple: 'https://1234s.org/apple-icon.png',
     },
-    manifest: "https://1234s.org/manifest.webmanifest",
+    manifest: 'https://1234s.org/manifest.webmanifest',
     openGraph: {
-      type: "website",
+      type: 'website',
       images: [
-        { 
-          url: "http://1234s.org/logos/logo-og.png",
-          secureUrl: "https://1234s.org/logos/logo-og.png"
-        }
-      ]
+        {
+          url: 'http://1234s.org/logos/logo-og.png',
+          secureUrl: 'https://1234s.org/logos/logo-og.png',
+        },
+      ],
     },
     twitter: {
-      card: "summary_large_image"
+      card: 'summary_large_image',
     },
     verification: {},
     appleWebApp: {
       capable: true,
-      title: "1234S.org"
+      title: '1234S.org',
     },
-    pinterest: { richPin: true }
+    pinterest: { richPin: true },
   },
 } satisfies Dictionary<Metadata>;
 

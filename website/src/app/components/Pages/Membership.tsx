@@ -1,12 +1,12 @@
-import { LocalesValues } from "intlayer";
-import MembershipSection from "@/app/components/Sections/MembershipSection";
+import { LocalesValues } from 'intlayer';
+import MembershipSection from '@/app/components/Sections/MembershipSection';
 
-const Membership = ({locale}: {locale: LocalesValues}) => {
-    return(
-        <main>    
-            <MembershipSection />
-        </main>
-    )
-}
+const Membership = ({ locale }: { locale: LocalesValues }) => {
+  return (
+    <main>
+      <MembershipSection />
+    </main>
+  );
+};
 
 export default Membership;

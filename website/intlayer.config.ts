@@ -1,18 +1,15 @@
-import { Locales, type IntlayerConfig } from "intlayer";
+import { Locales, type IntlayerConfig } from 'intlayer';
 
 const config: IntlayerConfig = {
   internationalization: {
-    locales: [
-      Locales.TURKISH,
-      Locales.ENGLISH,
-    ],
-    defaultLocale: Locales.TURKISH
+    locales: [Locales.TURKISH, Locales.ENGLISH],
+    defaultLocale: Locales.TURKISH,
   },
   content: {
-    contentDir: ["contents"],
+    contentDir: ['contents'],
   },
   routing: {
-    mode: "prefix-all",
+    mode: 'prefix-all',
   },
   editor: {
     /**
@@ -38,7 +35,7 @@ const config: IntlayerConfig = {
      * Default as `true`. If `false`, the editor is inactive and cannot be accessed.
      * Can be used to disable the editor for specific environments for security reason, such as production.
      */
-    enabled: Boolean(process.env.INTLAYER_ENABLED || "true"),
+    enabled: Boolean(process.env.INTLAYER_ENABLED || 'true'),
     /**
      * Required
      *
@@ -52,10 +49,10 @@ const config: IntlayerConfig = {
     clientSecret: process.env.INTLAYER_CLIENT_SECRET,
   },
   log: {
-    mode: "verbose"
+    mode: 'verbose',
   },
   build: {
-    importMode: "dynamic",
+    importMode: 'dynamic',
   },
 };
 

@@ -1,7 +1,7 @@
-import { getMultilingualUrls } from "intlayer";
-import type { MetadataRoute } from "next";
+import { getMultilingualUrls } from 'intlayer';
+import type { MetadataRoute } from 'next';
 
-const url = "https://www.1234s.org";
+const url = 'https://www.1234s.org';
 
 const sitemap = (): MetadataRoute.Sitemap => [
   {
@@ -11,43 +11,43 @@ const sitemap = (): MetadataRoute.Sitemap => [
       languages: { ...getMultilingualUrls(url) },
     },
     priority: 1,
-    changeFrequency: "hourly"
+    changeFrequency: 'hourly',
   },
   {
-    url: url + "/philosophy",
+    url: url + '/philosophy',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + "/philosophy") },
+      languages: { ...getMultilingualUrls(url + '/philosophy') },
     },
     priority: 1,
-    changeFrequency: "hourly"
+    changeFrequency: 'hourly',
   },
   {
-    url: url + "/mission",
+    url: url + '/mission',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + "/mission") },
+      languages: { ...getMultilingualUrls(url + '/mission') },
     },
     priority: 1,
-    changeFrequency: "hourly"
+    changeFrequency: 'hourly',
   },
   {
-    url: url + "/support",
+    url: url + '/support',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + "/support") },
+      languages: { ...getMultilingualUrls(url + '/support') },
     },
     priority: 1,
-    changeFrequency: "hourly"
+    changeFrequency: 'hourly',
   },
   {
-    url: url + "/bank-accounts",
+    url: url + '/bank-accounts',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + "/bank-accounts") },
+      languages: { ...getMultilingualUrls(url + '/bank-accounts') },
     },
     priority: 1,
-    changeFrequency: "hourly"
+    changeFrequency: 'hourly',
   },
 ];
 
