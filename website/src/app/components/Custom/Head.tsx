@@ -5,8 +5,8 @@ import { LocalesValues } from 'intlayer';
 import { useIntlayer } from 'next-intlayer';
 import NextHead from 'next/head';
 
-const Head = ({ key, locale }: { key: keyof DictionaryRegistry; locale: LocalesValues }) => {
-  const content = useIntlayer(key, locale);
+const Head = ({ dict, locale }: { dict: keyof DictionaryRegistry; locale: LocalesValues }) => {
+  const content = useIntlayer(dict, locale);
   return <NextHead>{'title' in content && <title>{(content as any).title}</title>}</NextHead>;
 };
 

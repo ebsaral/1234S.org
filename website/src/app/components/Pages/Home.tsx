@@ -7,11 +7,11 @@ import { useIntlayer } from 'next-intlayer/server';
 import Head from '../Custom/Head';
 
 const Home = ({ locale }: { locale: LocalesValues }) => {
-  const key = 'home-page';
-  const content = useIntlayer(key, locale);
+  const dict = 'home-page';
+  const content = useIntlayer(dict, locale);
   return (
     <main>
-      <Head key={key} locale={locale} />
+      <Head dict={dict} locale={locale} />
       <div className='stars-box text-center text-white pt-20 py-10'>
         <div className='stars' />
         {/* Logo */}
