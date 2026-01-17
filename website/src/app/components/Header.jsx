@@ -84,6 +84,8 @@ const Header = () => {
 
   const handleLocaleChange = async (newLocale) => {
     await setLocale(newLocale);
+    const newUrl = getLocalizedUrl(pathWithoutLocale, newLocale);
+    history.pushState({}, null, newUrl);
   };
 
   return (
