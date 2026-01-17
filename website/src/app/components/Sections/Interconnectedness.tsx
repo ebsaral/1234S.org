@@ -66,9 +66,9 @@ const Interconnectedness = () => {
             text={content.description.value}
           />
 
-          <div className='mt-16 mb-6 -ml-6 mr-6 rounded-xl bg-card text-card-foreground bg-gradient-to-br from-white to-gray-100 border-0 shadow-xl'>
+          <div className='mt-16 mb-6 -ml-6 mr-6 p-4 rounded-xl bg-card text-card-foreground bg-gradient-to-br from-white to-gray-100 border-0 shadow-xl'>
             <div className='flex flex-col'>
-              <div className='relative -top-8 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
+              <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
                 <span className='font-bold text-2xl cursor-default animate-spin-slow'>
                   <Atom className='text-blue-600' size={40} />
                 </span>
@@ -81,7 +81,7 @@ const Interconnectedness = () => {
               </p>
             </div>
 
-            <div className='p-6 text-left grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-10 text-sm sm:text-md md:text-lg'>
+            <div className='my-6 p-6 text-left grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-10 text-sm sm:text-md md:text-lg'>
               {content.experiment.steps.map((step, index) => (
                 <div>
                   <div className='relative -left-5 -top-2 flex flex-row items-center justify-start gap-1'>
@@ -96,7 +96,7 @@ const Interconnectedness = () => {
               ))}
             </div>
 
-            <p className='p-6 pt-4 text-md sm:text-lg md:text-xl text-blue-800 leading-relaxed  text-left'>
+            <p className='p-6 pt-0 text-md sm:text-lg md:text-xl text-blue-800 leading-relaxed text-left'>
               {content.experiment.description}
             </p>
           </div>
