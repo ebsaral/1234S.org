@@ -16,6 +16,7 @@ const Home = () => {
   const metadata = useIntlayer('page-metadata');
   const content = useIntlayer('home-page');
   const screenSize = useScreenSize();
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const [logoSize, setLogoSize] = useState(DEFAULT_LOGO_WIDTH);
 
@@ -30,6 +31,9 @@ const Home = () => {
       setLogoSize(260);
     } else if (screenSize == ScreenSize['2xl']) {
       setLogoSize(260);
+    }
+    if (!isLoaded) {
+      setIsLoaded(true);
     }
   }, [screenSize]);
 
@@ -57,7 +61,7 @@ const Home = () => {
           <FormattedText text={content.intro.value} />
         </div>
 
-        {screenSize == ScreenSize.sm && (
+        {isLoaded && screenSize == ScreenSize.sm && (
           <div className='text-right mt-12 -mb-10'>
             <BlueButton className='' text={content.readMore.text.value} href={content.readMore.href.value} />
           </div>
