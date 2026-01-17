@@ -51,7 +51,7 @@ const pageContent = {
       }),
       phone: '+90 532 258 00 93',
       address: t({
-        en: 'Sulaklı, Sultan Murat Sk. No:2, 61830 Of/Trabzon',
+        en: 'Sulaklı, Sultan Murat Sk. No:2, 61830 Of/Trabzon Türkiye',
         tr: 'Sulaklı Mah. Sultan Murat Sk. No:2, 61830 Of/Trabzon',
       }),
     },
