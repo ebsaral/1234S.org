@@ -1,5 +1,6 @@
 'use client';
 
+import { CircleQuestionMark, Sparkles } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
@@ -11,9 +12,9 @@ const Intro = () => {
     <section className='max-w-screen mx-auto overflow-hidden'>
       {/* Introduction */}
       <div className='bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 mx-4 sm:mx-16 lg:mx-20 rounded-2xl'>
-        <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-black rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
-          <span className='font-bold text-2xl cursor-default'>❔</span>
-        </div>
+        <span className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
+          <CircleQuestionMark size={48} />
+        </span>
         <FormattedText
           className='max-w-4xl mx-auto p-8 text-gray-900 text-lg sm:text-xl leading-relaxed whitespace-pre-line'
           text={content.paragraph1.value}
@@ -53,7 +54,9 @@ const Intro = () => {
             <div className='stars' />
 
             <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
-              <span className='font-bold text-2xl cursor-default'>🌟</span>
+              <span className='font-bold text-2xl cursor-default'>
+                <Sparkles size={28} />
+              </span>
             </div>
 
             <blockquote className='max-w-4xl mx-auto pb-16 pt-12 px-6 sm:px-8 lg:px-10 text-center text-md sm:text-lg lg:text-xl font-normal whitespace-pre-line text-gray-100'>

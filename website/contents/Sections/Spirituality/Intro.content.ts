@@ -30,7 +30,7 @@ const pageContent = {
     }),
     paragraph2: t({
       en: 'Beyond the divisions that have settled into human consciousness throughout our shared history, every living being shares nature as a common essence. In the laws of nature, regardless of species, age, gender, race, or class, every being is treated **equally**. In the eyes of the Creator, **every life is sacred** and possesses intrinsic **freedom**.',
-      tr: "Ortak geçmişimiz boyunca insan bilincine yerleşen ayrımların ötesinde, her canlı varlık ortak bir öz olan doğayı paylaşır. Doğa kanunlarında cins, yaş, cinsiyet, ırk ve sınıf fark etmezsizin her canlı **eşit** muamele görür. Yaradan'ın nezdinde **her yaşam kutsaldır** ve içsel bir **özgürlüğe** sahiptir.",
+      tr: "Ortak geçmişimiz boyunca insan bilincine yerleşen ayrımların ötesinde, her canlı varlık ortak bir öz olan doğayı paylaşır. Doğa kanunlarında cins, yaş, cinsiyet, ırk ve sınıf fark etmeksizin her canlı **eşit** muamele görür. Yaradan'ın nezdinde **her yaşam kutsaldır** ve içsel bir **özgürlüğe** sahiptir.",
     }),
     quote: t({
       en: "It is possible to build a society in which we neither fall ill nor suffer accidents — even in chaotic or hazardous environments. At the same time, we can create the conditions for greater luck and countless opportunities in everyone's life.",
