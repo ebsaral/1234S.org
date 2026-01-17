@@ -17,8 +17,8 @@ const Home = ({locale}: {locale: LocalesValues}) => {
                 <Image 
                     className='m-10 size-[120px] sm:size-[160px] rounded-full hover:scale-110 transition-transform duration-300'
                     src="/logos/logo-bg-white.png"
-                    title={navigation.home.text.value}
-                    alt={navigation.home.text.value + " footer logo"}
+                    title={content.title.value}
+                    alt={content.title.value + " Logo"}
                     priority={false}
                     width={160}
                     height={160}
