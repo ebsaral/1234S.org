@@ -33,8 +33,8 @@ const pageContent = {
       tr: "Ortak geçmişimiz boyunca insan bilincine yerleşen ayrımların ötesinde, her canlı varlık ortak bir öz olan doğayı paylaşır. Doğa kanunlarında cins, yaş, cinsiyet, ırk ve sınıf fark etmezsizin her canlı **eşit** muamele görür. Yaradan'ın nezdinde **her yaşam kutsaldır** ve içsel bir **özgürlüğe** sahiptir.",
     }),
     quote: t({
-      en: "It is possible to build an educated society in which we neither fall ill nor suffer accidents — even in chaotic or hazardous environments. At the same time, we can create the conditions for greater luck and countless opportunities in everyone's life.",
-      tr: 'En kaotik veya tehlikeli gözüken ortamlarda bile, hiç hasta düşmediğimiz ve kaza geçirmediğimiz eğitimli bir toplum inşa edebiliriz. Aynı zamanda, herkesin hayatında daha fazla şansın ve sayısız fırsatın oluşmasını sağlayabiliriz.',
+      en: "It is possible to build a society in which we neither fall ill nor suffer accidents — even in chaotic or hazardous environments. At the same time, we can create the conditions for greater luck and countless opportunities in everyone's life.",
+      tr: 'En kaotik veya tehlikeli gözüken ortamlarda bile, hiç hasta düşmediğimiz ve kaza geçirmediğimiz bir toplum inşa edebiliriz. Aynı zamanda, herkesin hayatında daha fazla şansın ve sayısız fırsatın oluşmasını sağlayabiliriz.',
     }),
   },
 } satisfies Dictionary;
