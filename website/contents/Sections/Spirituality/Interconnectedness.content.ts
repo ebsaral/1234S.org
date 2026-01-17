@@ -152,22 +152,22 @@ export default {
         },
         {
           title: t({
-            en: 'The Balance of Empathy',
-            tr: 'Empatinin Dengesi',
-          }),
-          description: t({
-            en: 'In any place we shop, the stress of an employee or another customer can manifest in us as spontaneous sweating. Any action that someone else does unintentionally can appear as a negative sensation in our bodies.',
-            tr: 'Alışveriş yaptığımız herhangi bir yerde bir çalışanın veya başka bir müşterinin stresi bize durduk yere terlemek olarak yansıyabilir. Başkasının zorunlu olarak istemeden yaptığı herhangi bir eylem vücudumuzda olumsuz bir his olarak belirir.',
-          }),
-        },
-        {
-          title: t({
             en: 'Timeless',
             tr: 'Zamandan Bağımsız',
           }),
           description: t({
             en: 'The emotional impact of a broadcast recorded in the past reflects the feelings of those watching or present during the filming. Similarly, any production we undertake now carries the emotional impact it will have on others in the future.',
             tr: 'Geçmiş zamanda kaydedilen bir yayında mevcut olan his kümesi, o yayını izleyenlerin veya çekim esnasında orada bulunanların hislerini yansıtır. Aynı zamanda, şu an gerçekleştirdiğimiz herhangi bir üretim, gelecekte başkalarına yaşatacağı his kümesini de barındırır.',
+          }),
+        },
+        {
+          title: t({
+            en: 'The Balance of Empathy',
+            tr: 'Empatinin Dengesi',
+          }),
+          description: t({
+            en: 'In any place we shop, the stress of an employee or another customer can manifest in us as spontaneous sweating. Any action that someone else does unintentionally can appear as a negative sensation in our bodies.',
+            tr: 'Alışveriş yaptığımız herhangi bir yerde bir çalışanın veya başka bir müşterinin stresi bize durduk yere terlemek olarak yansıyabilir. Başkasının zorunlu olarak istemeden yaptığı herhangi bir eylem vücudumuzda olumsuz bir his olarak belirir.',
           }),
         },
         {
