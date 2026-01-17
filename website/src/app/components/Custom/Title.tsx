@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 
 const Title = ({ title }: { title: string }) => {
   useEffect(() => {
-    console.log('title changed');
     document.title = title;
   }, [title]);
 
