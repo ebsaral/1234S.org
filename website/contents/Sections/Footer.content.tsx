@@ -68,7 +68,11 @@ const pageContent = {
     explanation: t({
       en: "This website's layout is being developed based on our association's bylaw.",
       tr: "Bu internet sitesinin şablonu derneğimizin tüzüğü esas alınarak geliştiriliyor."
-    })
+    }),
+    stackshare: {
+      label: "stackshare.io",
+      href: "https://stackshare.io/ebsaral3651/1234s-stack"
+    }
   },
 } satisfies Dictionary;
 
