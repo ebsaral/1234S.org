@@ -1,13 +1,12 @@
 import { LocalesValues } from 'intlayer';
-import { getIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
 import TeamSection from '../Sections/TeamSection';
+import { useIntlayer } from 'next-intlayer/server';
 
 const Home = ({ locale }: { locale: LocalesValues }) => {
-  const navigation = getIntlayer('navigation', locale);
-  const content = getIntlayer('home-page', locale);
+  const content = useIntlayer('home-page', locale);
   return (
     <main>
       <div className='stars-box text-center text-white pt-20 py-10'>
