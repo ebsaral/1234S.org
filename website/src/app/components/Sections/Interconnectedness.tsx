@@ -2,8 +2,8 @@ import { useIntlayer } from 'next-intlayer/server';
 
 import { Brain, Globe } from 'lucide-react';
 
-import FormattedText from '../Custom/FormattedText';
 import { LocalesValues } from 'intlayer';
+import FormattedText from '../Custom/FormattedText';
 
 const Interconnectedness = ({ locale }: { locale: LocalesValues }) => {
   const id = 'interconnectedness';

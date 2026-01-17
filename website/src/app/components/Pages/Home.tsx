@@ -1,9 +1,9 @@
+import { LocalesValues } from 'intlayer';
+import { getIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
 import TeamSection from '../Sections/TeamSection';
-import { LocalesValues } from 'intlayer';
-import { getIntlayer } from 'next-intlayer';
 
 const Home = ({ locale }: { locale: LocalesValues }) => {
   const navigation = getIntlayer('navigation', locale);

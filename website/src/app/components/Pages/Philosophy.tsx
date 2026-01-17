@@ -1,10 +1,10 @@
 import { LocalesValues } from 'intlayer';
-import HeroSection from '../Sections/HeroSection';
-import IntroTextSection from '../Sections/IntroTextSection';
-import InterconnectednessSection from '../Sections/InterconnectednessSection';
-import JusticeSection from '../Sections/JusticeSection';
-import HealthSection from '../Sections/HealthSection';
 import EndingSection from '../Sections/EndingSection';
+import HealthSection from '../Sections/HealthSection';
+import HeroSection from '../Sections/HeroSection';
+import InterconnectednessSection from '../Sections/InterconnectednessSection';
+import IntroTextSection from '../Sections/IntroTextSection';
+import JusticeSection from '../Sections/JusticeSection';
 
 const Philosophy = ({ locale }: { locale: LocalesValues }) => {
   return (

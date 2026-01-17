@@ -1,5 +1,5 @@
-import { LocalesValues } from 'intlayer';
 import BankAccountsSection from '@/app/components/Sections/BankAccountsSection';
+import { LocalesValues } from 'intlayer';
 
 const BankAccounts = ({ locale }: { locale: LocalesValues }) => {
   return (

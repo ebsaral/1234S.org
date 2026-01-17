@@ -2,10 +2,10 @@
 
 import Image from 'next/image';
 
-import { Card, CardContent } from './ui/card';
-import Description from './Custom/Description';
-import JoinLink from './Custom/Buttons/JoinLink';
 import { getAge } from '../lib/utils';
+import JoinLink from './Custom/Buttons/JoinLink';
+import Description from './Custom/Description';
+import { Card, CardContent } from './ui/card';
 
 const TeamMember = ({ member }) => {
   const hasDescription = member.description && member.links;

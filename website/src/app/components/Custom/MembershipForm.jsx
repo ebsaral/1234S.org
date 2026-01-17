@@ -1,11 +1,10 @@
 'use client';
 
 import axios from 'axios';
+import { useIntlayer, useLocale } from 'next-intlayer';
 import { useRef, useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useLocale } from 'next-intlayer';
-import { useIntlayer } from 'next-intlayer';
 import ReCAPTCHA from 'react-google-recaptcha';
+import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import SubmitFormButton from './Buttons/SubmitFormButton';
 

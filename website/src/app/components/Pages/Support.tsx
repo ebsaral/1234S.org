@@ -1,6 +1,6 @@
 import { LocalesValues } from 'intlayer';
-import SupportTopicsSection from '../Sections/SupportTopicsSection';
 import SupportOptionsSection from '../Sections/SupportOptionsSection';
+import SupportTopicsSection from '../Sections/SupportTopicsSection';
 
 const Support = ({ locale }: { locale: LocalesValues }) => {
   return (

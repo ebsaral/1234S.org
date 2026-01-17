@@ -1,24 +1,24 @@
 'use client';
 
-import React from 'react';
 import { useIntlayer } from 'next-intlayer';
+import React from 'react';
 
 import ContentLayout from '../ContentLayout';
-import { Card, CardContent } from '../ui/card';
 import Description from '../Custom/Description';
+import { Card, CardContent } from '../ui/card';
 
 import {
-  Shield,
-  Smile,
-  Eye,
-  Stethoscope,
-  HeartOff,
-  EyeOff,
-  EarOff,
-  CircleX,
   Accessibility,
   CandyOff,
+  CircleX,
+  EarOff,
+  Eye,
+  EyeOff,
   Heart,
+  HeartOff,
+  Shield,
+  Smile,
+  Stethoscope,
 } from 'lucide-react';
 
 const HealthSection = () => {

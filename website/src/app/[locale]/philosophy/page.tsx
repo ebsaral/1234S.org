@@ -1,7 +1,7 @@
-import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
+import Philosophy from '@/app/components/Pages/Philosophy2';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
-import Philosophy from '@/app/components/Pages/Philosophy2';
+import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
 
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;

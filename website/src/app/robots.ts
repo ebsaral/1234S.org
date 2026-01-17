@@ -1,5 +1,5 @@
-import type { MetadataRoute } from 'next';
 import { getMultilingualUrls } from 'intlayer';
+import type { MetadataRoute } from 'next';
 
 const getAllMultilingualUrls = (urls: string[]) =>
   urls.flatMap((url) => Object.values(getMultilingualUrls(url)) as string[]);

@@ -1,8 +1,8 @@
 'use client';
 
-import { useIntersectionObserver } from '../../hooks/useScrollEffects';
+import { Globe, Heart, Scale } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
-import { Heart, Globe, Scale } from 'lucide-react';
+import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 
 const IntroTextSection = ({ id }) => {
   const content = useIntlayer('intro-section');

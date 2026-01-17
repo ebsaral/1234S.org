@@ -3,9 +3,9 @@
 import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 
-import { Card } from './ui/card';
-import BankAccountInfo from './Custom/BankAccountInfo';
 import BankAccountItem from './BankAccountItem';
+import BankAccountInfo from './Custom/BankAccountInfo';
+import { Card } from './ui/card';
 
 const BankAccountContainer = ({ bank }) => {
   const content = useIntlayer('bank-accounts-section');

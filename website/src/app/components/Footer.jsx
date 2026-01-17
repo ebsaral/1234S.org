@@ -3,9 +3,9 @@
 import { useIntlayer, useLocale } from 'next-intlayer';
 import { SocialIcon } from 'react-social-icons';
 
-import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import { Locales } from 'intlayer';
 import { Feather } from 'lucide-react';
+import { useIntersectionObserver } from '../hooks/useScrollEffects';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');

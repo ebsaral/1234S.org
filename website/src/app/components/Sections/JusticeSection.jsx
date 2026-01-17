@@ -1,24 +1,24 @@
 'use client';
 
-import React from 'react';
 import { useIntlayer } from 'next-intlayer';
+import React from 'react';
 
 import ContentLayout from '../ContentLayout';
-import { Card, CardContent } from '../ui/card';
 import Description from '../Custom/Description';
+import { Card, CardContent } from '../ui/card';
 
 import {
-  CheckCircle,
-  XCircle,
-  Sun,
-  LoaderPinwheel,
-  FerrisWheel,
-  Cloud,
-  Smile,
   Activity,
+  CheckCircle,
+  Cloud,
+  FerrisWheel,
   Frown,
-  ScanHeart,
+  LoaderPinwheel,
   Scale,
+  ScanHeart,
+  Smile,
+  Sun,
+  XCircle,
 } from 'lucide-react';
 
 const JusticeSection = () => {

@@ -1,9 +1,9 @@
 'use client';
 
-import { useScrollEffects, useIntersectionObserver } from '../../hooks/useScrollEffects';
-import { Button } from '../ui/button.jsx';
 import { ArrowDown } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
+import { useIntersectionObserver, useScrollEffects } from '../../hooks/useScrollEffects';
+import { Button } from '../ui/button.jsx';
 
 const HeroSection = () => {
   const content = useIntlayer('hero-section');

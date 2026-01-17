@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { NextRequest } from 'next/server';
 
+import { getIntlayer } from 'intlayer';
 import { DISCUSSION_CATEGORY_ID, DISCUSSIONS_REPO_ID, GITHUB_WRITE_API_TOKEN } from '../../../server/github/config';
 import { createDiscussion } from '../../../server/github/discussions/create';
-import { getIntlayer } from 'intlayer';
 
 const secretKey = process.env.GOOGLE_SECRET_KEY || '';
 

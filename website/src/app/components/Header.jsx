@@ -1,16 +1,16 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { useLocale, useIntlayer } from 'next-intlayer';
 import { getLocaleName, getLocalizedUrl, Locales } from 'intlayer';
+import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
 
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
+import SupportLink from './Custom/Buttons/SupportLink';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
-import SupportLink from './Custom/Buttons/SupportLink';
 
 const Header = () => {
   const { scrollY } = useScrollEffects();

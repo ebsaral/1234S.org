@@ -1,7 +1,7 @@
+import Support from '@/app/components/Pages/Support';
+import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
-import { getIntlayer, getMultilingualUrls } from 'intlayer';
-import Support from '@/app/components/Pages/Support';
 
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;

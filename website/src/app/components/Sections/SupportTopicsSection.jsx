@@ -5,8 +5,8 @@ import { useIntlayer } from 'next-intlayer';
 import { HandCoins } from 'lucide-react';
 
 import ContentLayout from '../ContentLayout';
-import { Card } from '../ui/card';
 import Description from '../Custom/Description';
+import { Card } from '../ui/card';
 
 const SupportTopicsSection = () => {
   const id = 'support-topics';

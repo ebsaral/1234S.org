@@ -1,6 +1,6 @@
 import { ClipboardPenLine } from 'lucide-react';
-import { toast } from 'react-toastify';
 import { useIntlayer, useLocale } from 'next-intlayer';
+import { toast } from 'react-toastify';
 
 const BankAccountInfo = ({
   label,

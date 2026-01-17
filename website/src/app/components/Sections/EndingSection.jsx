@@ -1,11 +1,11 @@
 'use client';
 
-import React from 'react';
-import { useIntersectionObserver } from '../../hooks/useScrollEffects';
-import { Card, CardContent } from '../ui/card';
 import { Lightbulb } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
+import React from 'react';
+import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 import FormattedText from '../Custom/FormattedText';
+import { Card, CardContent } from '../ui/card';
 
 const EndingSection = ({ id }) => {
   const content = useIntlayer('ending-section');

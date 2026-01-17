@@ -1,6 +1,6 @@
-import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
+import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
 
 import Membership from '@/app/components/Pages/Membership';
 

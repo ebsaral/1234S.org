@@ -1,25 +1,25 @@
 import type { Metadata } from 'next';
 import { Noto_Sans } from 'next/font/google';
 
-import { IntlayerServerProvider } from 'next-intlayer/server';
+import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from 'intlayer';
 import {
   IntlayerClientProvider,
   LocalPromiseParams,
   type NextLayoutIntlayer,
   generateStaticParams,
 } from 'next-intlayer';
-import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from 'intlayer';
+import { IntlayerServerProvider } from 'next-intlayer/server';
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { Bounce, ToastContainer } from 'react-toastify';
 
-import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import Header from '@/app/components/Header';
 
-import '../globals.css';
 import '../App.css';
+import '../globals.css';
 
 export { generateStaticParams };
 

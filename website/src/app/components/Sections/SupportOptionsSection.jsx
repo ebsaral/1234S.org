@@ -1,8 +1,8 @@
 'use client';
 
+import { BellElectric } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
 import { SocialIcon } from 'react-social-icons';
-import { BellElectric } from 'lucide-react';
 
 import BankAccountButton from '../Custom/Buttons/BankAccountButton';
 

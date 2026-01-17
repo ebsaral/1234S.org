@@ -2,8 +2,8 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import { Card } from './ui/card';
 import BankAccountInfo from './Custom/BankAccountInfo';
+import { Card } from './ui/card';
 
 const BankAccountItem = ({ account }) => {
   const content = useIntlayer('bank-accounts-section');

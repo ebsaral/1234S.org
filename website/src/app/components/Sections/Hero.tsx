@@ -1,9 +1,8 @@
 'use client';
 
-import { useScrollEffects } from '../../hooks/useScrollEffects';
-import { Heart, Globe, Scale } from 'lucide-react';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Globe, Heart, Scale } from 'lucide-react';
 import { useIntlayer, useLocale } from 'next-intlayer';
+import { useScrollEffects } from '../../hooks/useScrollEffects';
 
 const Hero = () => {
   const { locale } = useLocale();
