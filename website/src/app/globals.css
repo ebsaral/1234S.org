@@ -248,3 +248,11 @@ code {
 .link-underline:hover {
   color: white;
 }
+
+.border-image-divider {
+  height: 10px;
+  border-top: 40px solid;
+  border-image: url('/images/wave.svg') 30;
+  border-image-outset: 20px;
+  margin-top: 30px;
+}
