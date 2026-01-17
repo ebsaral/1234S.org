@@ -96,7 +96,7 @@ const Interconnectedness = () => {
               ))}
             </div>
 
-            <p className='p-10 pt-0 text-md sm:text-lg md:text-xl text-blue-800 leading-relaxed  text-left'>
+            <p className='p-10 pt-4 text-md sm:text-lg md:text-xl text-blue-800 leading-relaxed  text-left'>
               {content.experiment.description}
             </p>
           </div>
