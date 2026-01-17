@@ -1,5 +1,6 @@
-import { LocalesValues } from 'intlayer';
-import { useIntlayer } from 'next-intlayer/server';
+'use client';
+
+import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
@@ -7,11 +8,10 @@ import Title from '../Custom/Title';
 import TeamSection from '../Sections/TeamSection';
 
 const Home = () => {
-  const dict = 'home-page';
-  const content = useIntlayer(dict);
+  const content = useIntlayer('home-page');
   return (
     <main>
-      <Title dict={dict} />
+      <Title title={content.title.value} />
       <div className='stars-box text-center text-white pt-20 py-10'>
         <div className='stars' />
         {/* Logo */}

@@ -1,13 +1,13 @@
 'use client';
 
-import { DictionaryRegistry } from '@intlayer/types';
-import { useIntlayer } from 'next-intlayer';
+import { useEffect } from 'react';
 
-const Title = ({ dict }: { dict: keyof DictionaryRegistry }) => {
-  const content = useIntlayer(dict);
-  if ('title' in content) {
-    document.title = content.title.value;
-  }
+const Title = ({ title }: { title: string }) => {
+  useEffect(() => {
+    console.log('title changed');
+    document.title = title;
+  }, [title]);
+
   return <></>;
 };
 
