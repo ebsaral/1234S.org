@@ -73,7 +73,7 @@ export default {
         {
           title: t({
             en: 'Produce',
-            tr: 'Üretim',
+            tr: 'Üretmek',
           }),
           description: t({
             en: 'Allow those around you to perform their actions as they wish in your room, house, garden, workplace, or on the street. Focus on your work and begin to create freely.',
