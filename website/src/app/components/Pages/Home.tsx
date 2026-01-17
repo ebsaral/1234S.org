@@ -4,11 +4,14 @@ import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
 import TeamSection from '../Sections/TeamSection';
 import { useIntlayer } from 'next-intlayer/server';
+import Head from '../Custom/Head';
 
 const Home = ({ locale }: { locale: LocalesValues }) => {
-  const content = useIntlayer('home-page', locale);
+  const key = 'home-page';
+  const content = useIntlayer(key, locale);
   return (
     <main>
+      <Head key={key} locale={locale} />
       <div className='stars-box text-center text-white pt-20 py-10'>
         <div className='stars' />
         {/* Logo */}
