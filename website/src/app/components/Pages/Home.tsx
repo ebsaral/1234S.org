@@ -25,11 +25,11 @@ const Home = () => {
     } else if (screenSize == ScreenSize.md) {
       setLogoSize(220);
     } else if (screenSize == ScreenSize.lg) {
-      setLogoSize(260);
+      setLogoSize(240);
     } else if (screenSize == ScreenSize.xl) {
-      setLogoSize(300);
+      setLogoSize(260);
     } else if (screenSize == ScreenSize['2xl']) {
-      setLogoSize(300);
+      setLogoSize(260);
     }
   }, [screenSize]);
 
