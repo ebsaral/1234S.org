@@ -12,6 +12,13 @@ const pageContent = {
       en: "Founded with the aim of establishing **Logical Spirituality** as one of the world's leading philosophical movements, embracing the principles of **Interconnectedness, Justice, and Health in Nature** revealed through its teachings. We continue our work to develop, disseminate, and sustain efforts that improve the mental and physical well-being of individuals, society, and the natural environment.",
       tr: "Dünyanın sayılı felsefi akımlarından biri olmasını amaçladığımız **Mantıksal Maneviyat**'ın öğretileriyle birlikte açığa çıkan **Doğada Bütünlük, Adalet ve Sağlık** ilkelerini benimseyerek kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.",
     }),
+    readMore: {
+      text: t({
+        en: 'View Logical Spirituality',
+        tr: "Mantıksal Maneviyat'ı İncele",
+      }),
+      href: '/philosophy',
+    },
     projects: {
       title: t({
         en: 'Our Research and Development Topics',

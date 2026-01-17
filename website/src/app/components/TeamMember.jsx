@@ -53,7 +53,7 @@ const TeamMember = ({ member }) => {
                 <div>{member.experience.title}</div>
               </div>
             )}
-            {member.join && <JoinLink className='mt-2 py-2 px-4' />}
+            {member.join && <JoinLink className='mt-2' />}
           </div>
         </CardContent>
 
