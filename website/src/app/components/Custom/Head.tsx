@@ -1,6 +1,8 @@
+'use client';
+
 import { DictionaryRegistry } from '@intlayer/types';
 import { LocalesValues } from 'intlayer';
-import { useIntlayer } from 'next-intlayer/server';
+import { useIntlayer } from 'next-intlayer';
 import NextHead from 'next/head';
 
 const Head = ({ key, locale }: { key: keyof DictionaryRegistry; locale: LocalesValues }) => {
