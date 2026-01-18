@@ -1,7 +1,7 @@
 import { t, type Dictionary } from 'intlayer';
 
 const pageContent = {
-  key: 'justiceInNature-section',
+  key: 'justice-section',
   content: {
     title: t({
       en: 'Justice: The Unseen Logic in Nature',

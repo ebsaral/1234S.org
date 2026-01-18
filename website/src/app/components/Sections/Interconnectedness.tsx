@@ -8,7 +8,7 @@ import Experiment from './Experiment';
 import InterconnectedExamples from './InterconnectedExamples';
 
 const Interconnectedness = () => {
-  const id = 'interconnectedness';
+  const id = '1';
   const sectionKey = 'interconnectedness';
   const content = useIntlayer(`${sectionKey}-section`);
 

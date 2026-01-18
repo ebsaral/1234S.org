@@ -28,12 +28,6 @@ const pageContent = {
         tr: 'Mantıksal Maneviyat',
       }),
     },
-    philosophy2: {
-      text: t({
-        en: 'New',
-        tr: 'Yeni',
-      }),
-    },
     mission: {
       text: t({
         en: 'Our Mission',
@@ -46,13 +40,19 @@ const pageContent = {
         tr: 'Destek Olun',
       }),
     },
+    intro: {
+      text: t({
+        en: 'Intro',
+        tr: 'Giriş',
+      }),
+    },
     interconnectedness: {
       text: t({
         en: 'Interconnectedness',
         tr: 'Bütünlük',
       }),
     },
-    justiceInNature: {
+    justice: {
       text: t({
         en: 'Justice',
         tr: 'Adalet',

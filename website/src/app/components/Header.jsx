@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { useScrollEffects } from '../hooks/useScrollEffects';
 import SupportLink from './Custom/Buttons/SupportLink';
+import useHash from './Hooks/useHash';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 
@@ -19,6 +20,7 @@ const Header = () => {
   const velocity = useRef(0);
   const rotation = useRef(0);
   const raf = useRef(null);
+  const [hash, setHash] = useHash();
   const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer('navigation');
 
@@ -28,7 +30,16 @@ const Header = () => {
 
   const navItems = [
     { key: 'home', href: '/' },
-    { key: 'philosophy', href: '/philosophy' },
+    {
+      key: 'philosophy',
+      href: '/philosophy',
+      children: [
+        { key: 'intro', hash: '0' },
+        { key: 'interconnectedness', hash: '1' },
+        { key: 'justice', hash: '2' },
+        { key: 'health', hash: '3' },
+      ],
+    },
     { key: 'mission', href: '/mission' },
   ];
 
@@ -63,19 +74,27 @@ const Header = () => {
     };
   }, []);
 
-  const scrollToSection = (href) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+  const scrollToSection = (href, hash) => {
+    //const element = document.querySelector(href);
+    //if (element) {
+    //  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //}
     setIsMenuOpen(false);
+    setHash(hash);
   };
 
-  const isActiveSection = (itemKey) => {
+  const isActiveSection = (itemKey, childHash) => {
     const section = navItems.find((item) => item.key === itemKey);
     if (!section) return false;
 
     if (section.href == pathWithoutLocale) {
+      if (childHash) {
+        if (hash === childHash) {
+          return true;
+        }
+        return false;
+      }
+
       return true;
     }
 
@@ -121,34 +140,73 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className='hidden md:flex items-center space-x-10'>
-            {navItems.map((item) => (
-              <Link
-                key={item.key}
-                href={getLocalizedUrl(item.extra || item.href, locale)}
-                aria-label={content[item.key].text.value}
-                onClick={() => scrollToSection(item.extra || item.href)}
-                className={`text-center text-sm font-medium transition-all duration-300 relative ${
-                  isActiveSection(item.key, item.href)
-                    ? isScrolled
-                      ? 'text-emerald-600'
-                      : 'text-white'
-                    : isScrolled
-                      ? 'text-gray-700 hover:text-emerald-600'
-                      : 'text-white/90 hover:text-white'
-                }`}
-                prefetch={true}
-              >
-                {content[item.key].text}
-                {/* Active indicator */}
-                {isActiveSection(item.key, item.href) && (
-                  <span
-                    className={`absolute -bottom-1 left-0 right-0 h-0.5 rounded-full transition-all duration-300 ${
-                      isScrolled ? 'bg-emerald-600' : 'bg-white'
+            <ul className='md:flex items-center md:space-x-6 lg:space-x-10'>
+              {navItems.map((item) => (
+                <li
+                  key={item.key}
+                  className='relative group text-center text-sm font-medium transition-all duration-300'
+                >
+                  <Link
+                    href={getLocalizedUrl(item.extra || item.href, locale)}
+                    aria-label={content[item.key].text.value}
+                    onClick={() => scrollToSection(item.extra || item.href)}
+                    className={`${
+                      isActiveSection(item.key)
+                        ? isScrolled
+                          ? 'text-emerald-600'
+                          : 'text-white'
+                        : isScrolled
+                          ? 'text-gray-700 hover:text-emerald-600'
+                          : 'text-white/90 hover:text-white'
                     }`}
-                  />
-                )}
-              </Link>
-            ))}
+                    prefetch={true}
+                  >
+                    {content[item.key].text}
+                    {/* Active indicator */}
+                    {isActiveSection(item.key) && (
+                      <span
+                        className={`absolute -bottom-1 left-0 right-0 h-0.5 rounded-full transition-all duration-300 ${
+                          isScrolled ? 'bg-emerald-600' : 'bg-white'
+                        }`}
+                      />
+                    )}
+                  </Link>
+
+                  {/* Sub Dropdown */}
+                  {item.children && (
+                    <ul
+                      className='
+                    absolute left-4 top-full mt-1 w-40
+                    bg-gray-500 rounded-lg shadow-lg
+                    opacity-0 invisible
+                    group-hover:opacity-100 group-hover:visible
+                    transition-all duration-200
+                     
+                  '
+                    >
+                      {item.children.map((childItem, index) => (
+                        <li key={index}>
+                          <Link
+                            href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
+                            aria-label={content[childItem.key].text.value}
+                            onClick={() => {
+                              scrollToSection(childItem.key, childItem.hash);
+                            }}
+                            className={`block w-full text-left transition-all duration-300 p-4 hover:bg-gray-600 rounded-lg relative ${
+                              isActiveSection(item.key, childItem.hash)
+                                ? 'text-white/90 bg-emerald-600 hover:bg-emerald-700'
+                                : 'text-white/90 hover:text-white'
+                            } transition-transform delay-100`}
+                          >
+                            {content[childItem.key].text}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
             <SupportLink />
           </nav>
 
@@ -216,21 +274,44 @@ const Header = () => {
         {isMenuOpen && (
           <div className='md:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-t border-gray-200/20 shadow-lg'>
             <nav className='px-4 py-6 space-y-4'>
-              {navItems.map((item) => (
-                <Link
-                  key={item.key}
-                  href={getLocalizedUrl(item.extra || item.href, locale)}
-                  aria-label={content[item.key].text.value}
-                  onClick={() => scrollToSection(item.extra || item.href)}
-                  className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
-                    isActiveSection(item.key, item.href)
-                      ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
-                      : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
-                  }`}
-                >
-                  {content[item.key].text}
-                </Link>
-              ))}
+              <ul className='space-y-4'>
+                {navItems.map((item, index) => (
+                  <div key={index} className='space-y-4'>
+                    <li>
+                      <Link
+                        key={item.key}
+                        href={getLocalizedUrl(item.href, locale)}
+                        aria-label={content[item.key].text.value}
+                        onClick={() => scrollToSection(item.href)}
+                        className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
+                          isActiveSection(item.key)
+                            ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
+                            : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
+                        }`}
+                      >
+                        {content[item.key].text}
+                      </Link>
+                    </li>
+                    {item.children?.map((childItem, index) => (
+                      <li key={index} className='pl-4'>
+                        <Link
+                          key={childItem.key}
+                          href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
+                          aria-label={content[childItem.key].text.value}
+                          onClick={() => scrollToSection(item.href, childItem.hash)}
+                          className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
+                            isActiveSection(item.key, childItem.hash)
+                              ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
+                              : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
+                          }`}
+                        >
+                          {content[childItem.key].text}
+                        </Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+              </ul>
               <SupportLink className='block max-w-52' />
             </nav>
           </div>

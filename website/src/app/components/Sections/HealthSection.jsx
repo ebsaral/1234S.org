@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 
 const HealthSection = () => {
-  const id = 'health';
+  const id = '3';
   const sectionKey = 'health';
   const content = useIntlayer(`${sectionKey}-section`);
 

@@ -22,8 +22,8 @@ import {
 } from 'lucide-react';
 
 const JusticeSection = () => {
-  const id = 'justice-in-nature';
-  const sectionKey = 'justiceInNature';
+  const id = '2';
+  const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
 
   // Icon mappings for positive consequences
