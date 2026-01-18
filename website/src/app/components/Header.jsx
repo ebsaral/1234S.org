@@ -34,10 +34,10 @@ const Header = () => {
       key: 'philosophy',
       href: '/philosophy',
       children: [
-        { key: 'intro', hash: '0' },
-        { key: 'interconnectedness', hash: '1' },
-        { key: 'justice', hash: '2' },
-        { key: 'health', hash: '3' },
+        { key: 'intro', hash: '0', href: '/philosophy#0' },
+        { key: 'interconnectedness', href: '/philosophy#1' },
+        { key: 'justice', hash: '2', href: '/philosophy#2' },
+        { key: 'health', hash: '3', href: '/philosophy#3' },
       ],
     },
     { key: 'mission', href: '/mission' },
@@ -75,10 +75,10 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (href, hash) => {
-    //const element = document.querySelector(href);
-    //if (element) {
-    //  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    //}
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
     setIsMenuOpen(false);
     setHash(hash);
   };
@@ -147,9 +147,9 @@ const Header = () => {
                   className='relative group text-center text-sm font-medium transition-all duration-300'
                 >
                   <Link
-                    href={getLocalizedUrl(item.extra || item.href, locale)}
+                    href={getLocalizedUrl(item.href, locale)}
                     aria-label={content[item.key].text.value}
-                    onClick={() => scrollToSection(item.extra || item.href)}
+                    onClick={() => scrollToSection(item.href)}
                     className={`${
                       isActiveSection(item.key)
                         ? isScrolled
@@ -190,7 +190,7 @@ const Header = () => {
                             href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
                             aria-label={content[childItem.key].text.value}
                             onClick={() => {
-                              scrollToSection(childItem.key, childItem.hash);
+                              scrollToSection(childItem.href, childItem.hash);
                             }}
                             className={`block w-full text-left transition-all duration-300 p-4 hover:bg-gray-600 rounded-lg relative ${
                               isActiveSection(item.key, childItem.hash)
