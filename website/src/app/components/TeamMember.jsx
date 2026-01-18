@@ -9,6 +9,20 @@ import { Card, CardContent } from './ui/card';
 
 const TeamMember = ({ member }) => {
   const hasDescription = member.description && member.links;
+
+  const imageTitle = () => {
+    if (member.spin) {
+      return '';
+    }
+
+    if (member.birthday) {
+      const age = getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value);
+
+      return `${member.name.value} (${age})`;
+    }
+
+    return member.name.value;
+  };
   return (
     <Card
       className={`bg-white/90 backdrop-blur-sm shadow-xl border-0 flex flex-col justify-start items-center pt-2 ${hasDescription && 'col-span-1 md:col-span-2'}`}
@@ -31,10 +45,7 @@ const TeamMember = ({ member }) => {
               className={`size-[120px] sm:size-[120px] rounded-full ${member.spin ? 'animate-spin hover:animate-spin-slow hover:scale-105' : 'hover:scale-105 transition-transform duration-300'}`}
               src={member.image.src.value}
               alt={`${member.name.value}: ${member.title?.value}`}
-              title={
-                !member.spin &&
-                `${member.name.value} ${member.birthday ? '(' + getAge(member.birthday.year.value, member.birthday.month.value, member.birthday.day.value) + ')' : ''}`
-              }
+              title={imageTitle()}
               width={member.image.size.value}
               height={member.image.size.value}
               priority={false}
