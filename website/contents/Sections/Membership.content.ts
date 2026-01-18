@@ -11,6 +11,10 @@ const pageContent = {
       en: '**1234 Science & Art Association** does not charge membership fees and you can become a member for free. If you wish, you can fill out the pre-application form below to have our association contact you for your official membership.',
       tr: '**1234 Sanat ve İlim Derneği** üyelik aidatı talep etmez ve ücretsiz üye olabilirsiniz. Dilerseniz, resmi üyeliğiniz için aşağıdaki ön başvuru formunu doldurarak derneğimizin sizinle iletişime geçmesini sağlayabilirsiniz.',
     }),
+    support: t({
+      en: 'You can find the other ways to help our association with its research and development on our Support page.',
+      tr: 'Derneğimizin araştırma ve geliştirme konularınına yardımcı olmak için izleyebileceğiniz diğer yolları Destek sayfamızda bulabilirsiniz.',
+    }),
     form: {
       title: t({
         en: 'Pre-Application Form',

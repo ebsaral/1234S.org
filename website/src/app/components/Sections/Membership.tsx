@@ -4,6 +4,7 @@ import { useIntlayer } from 'next-intlayer';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
 import { FileHeart } from 'lucide-react';
+import SupportLink from '../Custom/Buttons/SupportLink';
 import MembershipForm from '../Custom/MembershipForm';
 
 const Membership = () => {
@@ -35,10 +36,19 @@ const Membership = () => {
           />
         </div>
       </div>
+      <div className='mx-auto w-full z-10 relative top-0 flex flex-col items-center justify-start'>
+        <MembershipForm className='mx-auto w-full' />
 
-      <MembershipForm className='z-10 relative' />
+        <div className='flex flex-col gap-4 items-center'>
+          <FormattedText
+            className='max-w-4xl mx-auto px-6 sm:px-10 pt-6 text-center leading-relaxed text-md sm:text-lg md:text-xl font-bold text-black'
+            text={content.support.value}
+          />
+          <SupportLink />
+        </div>
+      </div>
 
-      <div className='sea -mt-48 sm:-mt-48 z-0'>
+      <div className='sea -mt-24 sm:-mt-28 md:-mt-24 lg:-mt-24 z-0'>
         <div className='wave back' />
         <div className='wave' />
       </div>
