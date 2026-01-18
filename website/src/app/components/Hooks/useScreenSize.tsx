@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 export enum ScreenSize {
-  'z' = '0',
+  'z' = '',
   'sm' = 'sm',
   'md' = 'md',
   'lg' = 'lg',
@@ -26,8 +26,8 @@ export default function useScreenSize() {
       const width = window.innerWidth;
       setScreen(widthToSize(width));
     };
-    updateScreen(); // run once on mount
     window.addEventListener('resize', updateScreen);
+    updateScreen();
     return () => window.removeEventListener('resize', updateScreen);
   }, []);
 
