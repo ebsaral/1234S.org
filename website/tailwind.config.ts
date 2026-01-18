@@ -102,7 +102,7 @@ const config: Config = {
         'spin-slow': 'spin 3s linear infinite',
         gradient: 'gradient 6s ease infinite',
         'zoom-in': 'zoomIn 0.8s ease-out forwards',
-        'zoom-spin': 'zoomSpin 0.5s ease-out forwards',
+        'zoom-spin': 'zoomSpin 2.0s ease-out forwards',
         orbitSlow: 'orbit 10s linear infinite',
         orbitMid: 'orbit 7s linear infinite',
         orbitFast: 'orbit 4s linear infinite',
