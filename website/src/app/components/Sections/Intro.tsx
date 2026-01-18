@@ -6,12 +6,13 @@ import { useIntlayer } from 'next-intlayer';
 import FormattedText from '@/app/components/Custom/FormattedText';
 
 const Intro = () => {
+  const id = '0';
   const content = useIntlayer('intro-section');
 
   return (
-    <section className='max-w-screen mx-auto overflow-hidden'>
+    <section id={id} className='max-w-screen mx-auto overflow-hidden'>
       {/* Introduction */}
-      <div className='bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 mx-4 sm:mx-16 lg:mx-20 rounded-2xl'>
+      <div className='mt-32 bg-gradient-to-r from-blue-200 via-red-200 to-green-200 my-10 mx-4 sm:mx-16 lg:mx-20 rounded-2xl'>
         <span className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
           <CircleQuestionMark size={48} />
         </span>
