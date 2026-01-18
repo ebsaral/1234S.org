@@ -86,9 +86,31 @@ const config: Config = {
           '0%': { transform: 'scale(0) rotate(0deg)', opacity: '0' },
           '100%': { transform: 'scale(1) rotate(360deg)', opacity: '1' },
         },
-        orbit: {
+        orbit1: {
           '0%': { transform: 'rotate(0deg) translateX(140px) rotate(0deg)' },
           '100%': { transform: 'rotate(360deg) translateX(140px) rotate(-360deg)' },
+        },
+        orbit2: {
+          '0%': { transform: 'rotate(0deg) translateX(145px) rotate(0deg)' },
+          '50%': { transform: 'rotate(120deg) translateX(145px) rotate(-240deg)' },
+          '75%': { transform: 'rotate(240deg) translateX(145px) rotate(-120deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(145px) rotate(-360deg)' },
+        },
+        orbit3: {
+          '0%': { transform: 'rotate(0deg) translateX(130px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(130px) rotate(-360deg)' },
+        },
+        orbitOnCircle1: {
+          '0%': { transform: 'rotate(0deg) translateX(90px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(90px) rotate(-360deg)' },
+        },
+        orbitOnCircle2: {
+          '0%': { transform: 'rotate(0deg) translateX(110px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(110px) rotate(-360deg)' },
+        },
+        orbitOnCircle3: {
+          '0%': { transform: 'rotate(0deg) translateX(130px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(130px) rotate(-360deg)' },
         },
         pulseGlow: {
           '0%,100%': { opacity: '0.4', transform: 'scale(0.8)' },
@@ -103,9 +125,12 @@ const config: Config = {
         gradient: 'gradient 6s ease infinite',
         'zoom-in': 'zoomIn 0.8s ease-out forwards',
         'zoom-spin': 'zoomSpin 2.0s ease-out forwards',
-        orbitSlow: 'orbit 10s linear infinite',
-        orbitMid: 'orbit 7s linear infinite',
-        orbitFast: 'orbit 4s linear infinite',
+        orbitOnCircle1: 'orbitOnCircle1 8s linear infinite',
+        orbitOnCircle2: 'orbitOnCircle2 8s linear infinite',
+        orbitOnCircle3: 'orbitOnCircle3 8s linear infinite',
+        orbitSlow: 'orbit1 10s linear infinite',
+        orbitMid: 'orbit2 7s linear infinite',
+        orbitFast: 'orbit3 4s linear infinite',
         glow: 'pulseGlow 2s ease-in-out infinite',
       },
     },

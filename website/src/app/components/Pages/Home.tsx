@@ -17,6 +17,7 @@ const Home = () => {
 
   const [logoSize, setLogoSize] = useState(0);
   const MAX_SIZE = 260;
+  const MID_SIZE = 220;
   const MIN_SIZE = 180;
   const IMG_MARGIN = 40;
 
@@ -24,9 +25,9 @@ const Home = () => {
     if (screenSize == ScreenSize.sm) {
       setLogoSize(MIN_SIZE);
     } else if (screenSize == ScreenSize.md) {
-      setLogoSize(220);
+      setLogoSize(MID_SIZE);
     } else if (screenSize == ScreenSize.lg) {
-      setLogoSize(220);
+      setLogoSize(MID_SIZE);
     } else if (screenSize == ScreenSize.xl) {
       setLogoSize(MAX_SIZE);
     } else if (screenSize == ScreenSize['2xl']) {
@@ -35,6 +36,17 @@ const Home = () => {
       setLogoSize(0);
     }
   }, [screenSize]);
+
+  const getOrbitOnCircleAnimation = () => {
+    if (screenSize == ScreenSize.sm) {
+      return 'animate-orbitOnCircle1';
+    } else if (screenSize == ScreenSize.md || screenSize == ScreenSize.lg) {
+      return 'animate-orbitOnCircle2';
+    } else if (screenSize == ScreenSize.xl || screenSize == ScreenSize['2xl']) {
+      return 'animate-orbitOnCircle3';
+    }
+    return 'animate-orbitOnCircle3';
+  };
 
   return (
     <main>
@@ -71,6 +83,13 @@ const Home = () => {
         animate-orbitMid animate-glow
         [animation-delay:-2s]
       '
+            />
+            <span
+              className={`
+        absolute w-2 h-2 rounded-full bg-indigo-400 blur-sm
+        ${getOrbitOnCircleAnimation()} animate-glow
+        [animation-delay:-1s]
+      `}
             />
           </div>
         </div>
