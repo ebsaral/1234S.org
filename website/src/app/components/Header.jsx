@@ -127,7 +127,7 @@ const Header = () => {
                 href={getLocalizedUrl(item.extra || item.href, locale)}
                 aria-label={content[item.key].text.value}
                 onClick={() => scrollToSection(item.extra || item.href)}
-                className={`text-sm font-medium transition-all duration-300 relative ${
+                className={`text-center text-sm font-medium transition-all duration-300 relative ${
                   isActiveSection(item.key, item.href)
                     ? isScrolled
                       ? 'text-emerald-600'
