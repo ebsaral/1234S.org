@@ -190,7 +190,7 @@ const Header = () => {
                             href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
                             aria-label={content[childItem.key].text.value}
                             onClick={() => {
-                              scrollToSection(childItem.href, childItem.hash);
+                              scrollToSection(`#${childItem.hash}`, childItem.hash);
                             }}
                             className={`block w-full text-left transition-all duration-300 p-4 hover:bg-gray-600 rounded-lg relative ${
                               isActiveSection(item.key, childItem.hash)
@@ -298,7 +298,7 @@ const Header = () => {
                           key={childItem.key}
                           href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
                           aria-label={content[childItem.key].text.value}
-                          onClick={() => scrollToSection(item.href, childItem.hash)}
+                          onClick={() => scrollToSection(`#${childItem.hash}`, childItem.hash)}
                           className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                             isActiveSection(item.key, childItem.hash)
                               ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
