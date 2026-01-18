@@ -29,7 +29,7 @@ const InterconnectedExamples = ({ className = '' }: { className?: string }) => {
         {content.examples.items.map((item, index) => (
           <div key={index}>
             <div className='relative -left-5 -top-2 flex flex-row items-center justify-start gap-1'>
-              <div className='relative -top-[12px] -right-3 text-right font-bold text-5xl text-blue-200/90'>
+              <div className='relative -top-[10px] -right-3 text-right font-bold text-5xl text-blue-200/90'>
                 {index + 1}
               </div>
               <div className='z-10 font-bold text-left text-lg sm:text-xl md:text-2xl'>{item.title}</div>
