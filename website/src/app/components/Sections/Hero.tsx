@@ -12,9 +12,22 @@ const Hero = () => {
 
   return (
     <section className='relative min-h-screen flex items-center justify-center overflow-hidden pt-16'>
+      <div className='z-0 lines-box w-full'>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+        <div className='line'></div>
+      </div>
+
       {/* Background Image with Parallax */}
       <div
-        className='absolute inset-0 bg-cover bg-center bg-no-repeat'
+        className='-z-10 absolute inset-0 bg-cover bg-center bg-no-repeat'
         style={{
           backgroundColor: 'black',
           transform: `translateY(${parallaxOffset}px)`,
