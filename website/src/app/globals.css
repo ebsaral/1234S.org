@@ -249,14 +249,6 @@ code {
   color: white;
 }
 
-.border-image-divider {
-  height: 10px;
-  border-top: 40px solid;
-  border-image: url('/images/wave.svg') 30;
-  border-image-outset: 20px;
-  margin-top: 30px;
-}
-
 .lines-box {
   position: absolute;
   top: 0;
@@ -348,5 +340,194 @@ code {
   }
   100% {
     top: 110%;
+  }
+}
+
+.sea {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 240px; /* more visible wave height */
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* ================= WAVE BASE ================= */
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 220%;
+  height: 100%;
+
+  background:
+    /* foam sparkles */
+    radial-gradient(160px 50px at 20% 5%, rgba(255, 255, 255, 0.45), transparent 65%),
+    radial-gradient(180px 60px at 60% 0%, rgba(255, 255, 255, 0.35), transparent 70%),
+    radial-gradient(140px 40px at 85% 8%, rgba(255, 255, 255, 0.3), transparent 65%),
+    /* depth gradient */ linear-gradient(to top, #0b0b2b 0%, #032c4d 35%, #075985 55%, #0ea5e9 75%, #bae6fd 100%);
+
+  clip-path: polygon(
+    0% 48%,
+    4% 44%,
+    8% 50%,
+    12% 42%,
+    16% 48%,
+    20% 40%,
+    24% 46%,
+    28% 38%,
+    32% 44%,
+    36% 36%,
+    40% 42%,
+    44% 34%,
+    48% 40%,
+    52% 34%,
+    56% 42%,
+    60% 36%,
+    64% 44%,
+    68% 38%,
+    72% 46%,
+    76% 40%,
+    80% 48%,
+    84% 42%,
+    88% 50%,
+    92% 44%,
+    96% 48%,
+    100% 46%,
+    100% 100%,
+    0% 100%
+  );
+
+  animation:
+    wave-move 14s linear infinite,
+    wave-float 5s ease-in-out infinite;
+}
+
+/* ================= PARALLAX LAYERS ================= */
+
+.wave.back {
+  opacity: 0.55;
+  bottom: -14px;
+  animation:
+    wave-move 26s linear infinite reverse,
+    wave-float 8s ease-in-out infinite;
+}
+
+.wave.mid {
+  opacity: 0.7;
+  bottom: -4px;
+  animation:
+    wave-move 20s linear infinite,
+    wave-float 6s ease-in-out infinite;
+}
+
+.wave.front {
+  opacity: 0.9;
+  bottom: 10px;
+  animation:
+    wave-move 12s linear infinite reverse,
+    wave-float 4s ease-in-out infinite;
+}
+
+/* ================= SHIMMER REFLECTION ================= */
+
+.shimmer {
+  position: absolute;
+  bottom: 0;
+  width: 220%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent 35%, rgba(255, 255, 255, 0.25) 50%, transparent 65%);
+  mix-blend-mode: screen;
+  animation: shimmer 9s linear infinite;
+  pointer-events: none;
+}
+
+/* ================= ANIMATIONS ================= */
+
+@keyframes wave-move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-55%);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    transform: translateX(-35%);
+  }
+  to {
+    transform: translateX(35%);
+  }
+}
+
+@keyframes wave-float {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 48%,
+      4% 44%,
+      8% 50%,
+      12% 42%,
+      16% 48%,
+      20% 40%,
+      24% 46%,
+      28% 38%,
+      32% 44%,
+      36% 36%,
+      40% 42%,
+      44% 34%,
+      48% 40%,
+      52% 34%,
+      56% 42%,
+      60% 36%,
+      64% 44%,
+      68% 38%,
+      72% 46%,
+      76% 40%,
+      80% 48%,
+      84% 42%,
+      88% 50%,
+      92% 44%,
+      96% 48%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 44%,
+      4% 50%,
+      8% 42%,
+      12% 48%,
+      16% 40%,
+      20% 46%,
+      24% 38%,
+      28% 44%,
+      32% 36%,
+      36% 42%,
+      40% 34%,
+      44% 40%,
+      48% 34%,
+      52% 40%,
+      56% 34%,
+      60% 42%,
+      64% 36%,
+      68% 44%,
+      72% 38%,
+      76% 46%,
+      80% 40%,
+      84% 48%,
+      88% 42%,
+      92% 50%,
+      96% 44%,
+      100% 48%,
+      100% 100%,
+      0% 100%
+    );
   }
 }

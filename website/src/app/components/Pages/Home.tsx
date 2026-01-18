@@ -8,7 +8,7 @@ import BlueButton from '../Custom/Buttons/BlueButton';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
 import Title from '../Custom/Title';
-import TeamSection from '../Sections/TeamSection';
+import Team from '../Sections/Team';
 
 const Home = () => {
   const metadata = useIntlayer('page-metadata');
@@ -130,7 +130,7 @@ const Home = () => {
 
         <SupportLink className='max-w-max mx-auto md:hidden mt-10  text-xl' />
       </div>
-      <TeamSection />
+      <Team />
     </main>
   );
 };
