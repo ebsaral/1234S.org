@@ -42,7 +42,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
         {content.experiment.steps.map((step, index) => (
           <div key={index}>
             <div className='relative -left-5 -top-2 flex flex-row items-center justify-start gap-1'>
-              <div className='relative -top-2 -right-3 text-right font-bold text-5xl text-purple-200/90'>
+              <div className='relative -top-[1vh] -right-3 text-right font-bold text-5xl text-purple-200/90'>
                 {index + 1}
               </div>
               <div className='relative -top-1 -left-1'>{getExperimentStepIcon(index)}</div>
