@@ -21,9 +21,13 @@ const Interconnectedness = () => {
       <div className='moving-bg moving-bg3'></div>
 
       <div className='max-w-4xl mx-auto px-4'>
-        <div className='mx-auto my-32 pb-1 bg-white/80 rounded-2xl text-center'>
+        <div className='relative mx-auto my-32 pb-1 bg-white/80 rounded-2xl text-center'>
+          <div className='z-10 absolute overflow-hidden  w-full text-center top-0 h-32 rounded-2xl'>
+            <Globe className='relative -top-32 left-1/2 transform -translate-x-1/2 text-blue-200' size={250} />
+          </div>
+
           <div
-            className={`inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 text-blue-600 transition-all duration-300 hover:scale-110`}
+            className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 text-blue-600 transition-all duration-300 hover:scale-110`}
           >
             <Globe size={40} />
           </div>
@@ -59,7 +63,7 @@ const Interconnectedness = () => {
           <Experiment className='mt-16 mb-6 -ml-6 mr-6' />
 
           <FormattedText
-            className='max-w-4xl mx-auto px-6 sm:px-10 py-4 text-left leading-relaxed text-md sm:text-lg md:text-xl text-black'
+            className='max-w-4xl mx-auto px-6 sm:px-10 py-4 text-left leading-relaxed text-md sm:text-lg md:text-xl text-black font-bold'
             text={content.paragraph2.value}
           />
 
