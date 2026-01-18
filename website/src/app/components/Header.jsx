@@ -35,7 +35,7 @@ const Header = () => {
       href: '/philosophy',
       children: [
         { key: 'intro', hash: '0', href: '/philosophy#0' },
-        { key: 'interconnectedness', href: '/philosophy#1' },
+        { key: 'interconnectedness', hash: '1', href: '/philosophy#1' },
         { key: 'justice', hash: '2', href: '/philosophy#2' },
         { key: 'health', hash: '3', href: '/philosophy#3' },
       ],
