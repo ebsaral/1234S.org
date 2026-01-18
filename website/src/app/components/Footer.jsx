@@ -6,11 +6,17 @@ import { SocialIcon } from 'react-social-icons';
 import { Locales } from 'intlayer';
 import { Feather } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
+import JoinLink from './Custom/Buttons/JoinLink';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');
-  const { locale } = useLocale();
+  const { locale, pathWithoutLocale } = useLocale();
   const [sectionRef] = useIntersectionObserver();
+
+  const canShowJoinLink = () => {
+    if (['/', '/membership', '/support'].includes(pathWithoutLocale)) return false;
+    return true;
+  };
 
   return (
     <footer id='contact' ref={sectionRef} className='stars-box py-10'>
@@ -39,6 +45,8 @@ const Footer = () => {
             </div>
           </div>
 
+          {canShowJoinLink() && <JoinLink />}
+
           {/* Social Media section */}
           <div id='social-links' className='flex flex-col gap-8 items-center justify-center'>
             <div className='flex justify-center items-center gap-4'>
@@ -53,6 +61,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
+
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
               <p>
