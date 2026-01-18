@@ -8,7 +8,7 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import SubmitFormButton from './Buttons/SubmitFormButton';
 
-const MembershipForm = () => {
+const MembershipForm = ({ className = '' }) => {
   const { locale } = useLocale();
   const content = useIntlayer('membership-section', locale);
   const recaptchaRef = useRef();
@@ -40,7 +40,7 @@ const MembershipForm = () => {
   };
 
   return (
-    <div className='min-h-screen flex items-center justify-center p-4'>
+    <div className={`min-h-screen flex items-center justify-center p-4 ${className}`}>
       <form onSubmit={handleSubmit(onSubmit)} className='w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6 space-y-4'>
         <h2 className='text-xl font-semibold text-center'>{content.form.title}</h2>
 
