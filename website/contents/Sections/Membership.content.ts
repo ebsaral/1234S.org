@@ -12,8 +12,8 @@ const pageContent = {
       tr: '**1234 Sanat ve İlim Derneği** üyelik aidatı talep etmez ve ücretsiz üye olabilirsiniz. Dilerseniz, resmi üyeliğiniz için aşağıdaki ön başvuru formunu doldurarak derneğimizin sizinle iletişime geçmesini sağlayabilirsiniz.',
     }),
     support: t({
-      en: 'You can find the other ways to help our association with its research and development on our Support page.',
-      tr: 'Derneğimizin araştırma ve geliştirme konularınına yardımcı olmak için izleyebileceğiniz diğer yolları Destek sayfamızda bulabilirsiniz.',
+      en: 'You can find the other ways to help our association with its research and development topics on our Support page.',
+      tr: 'Derneğimizin araştırma ve geliştirme konularına yardımcı olmak için izleyebileceğiniz diğer yolları Destek sayfamızda bulabilirsiniz.',
     }),
     form: {
       title: t({
