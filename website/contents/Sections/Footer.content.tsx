@@ -71,7 +71,7 @@ const pageContent = {
     }),
     stackshare: {
       label: 'stackshare.io',
-      href: 'https://stackshare.io/ebsaral3651/1234s-stack',
+      href: 'https://stackshare.io/ebsaral3651/1234stack',
     },
   },
 } satisfies Dictionary;
