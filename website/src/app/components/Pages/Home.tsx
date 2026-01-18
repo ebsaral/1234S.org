@@ -14,40 +14,41 @@ const Home = () => {
   const metadata = useIntlayer('page-metadata');
   const content = useIntlayer('home-page');
   const screenSize = useScreenSize();
-  const [isLoaded, setIsLoaded] = useState(false);
 
   const [logoSize, setLogoSize] = useState(0);
+  const MAX_SIZE = 260;
+  const MIN_SIZE = 180;
+  const IMG_MARGIN = 40;
 
   useEffect(() => {
     if (screenSize == ScreenSize.sm) {
-      setLogoSize(180);
+      setLogoSize(MIN_SIZE);
     } else if (screenSize == ScreenSize.md) {
       setLogoSize(220);
     } else if (screenSize == ScreenSize.lg) {
-      setLogoSize(240);
+      setLogoSize(220);
     } else if (screenSize == ScreenSize.xl) {
-      setLogoSize(260);
+      setLogoSize(MAX_SIZE);
     } else if (screenSize == ScreenSize['2xl']) {
-      setLogoSize(260);
+      setLogoSize(MAX_SIZE);
     } else {
       setLogoSize(0);
     }
-    if (!isLoaded) {
-      setIsLoaded(true);
-    }
-    console.log(2132132);
   }, [screenSize]);
 
   return (
     <main>
       <Title title={metadata.title.value} />
-      <div className='stars-box text-center text-white pt-20 py-10 px-8 sm:px-10 lg:px-12'>
+      <div className='stars-box text-center text-white pt-20 pb-10 px-8 sm:px-10 lg:px-12'>
         <div className='stars' />
         {/* Logo */}
-        <div className='flex items-center justify-center caret-transparent min-h-[240px]'>
+        <div
+          className={`relative flex items-center justify-center caret-transparent`}
+          style={{ minHeight: MAX_SIZE + IMG_MARGIN }}
+        >
           {screenSize != ScreenSize.z && (
             <Image
-              className='m-10 rounded-full animate-zoom-in delay 200'
+              className='m-10 rounded-full animate-zoom-spin'
               src='/logos/logo-bg-white.png'
               title={content.title.value}
               alt={content.title.value + ' Logo'}
@@ -56,6 +57,22 @@ const Home = () => {
               height={logoSize}
             />
           )}
+
+          {/* Orbit container */}
+          <div className='absolute inset-0 flex items-center justify-center'>
+            {/* Dot 1 */}
+            <span className='absolute w-3 h-3 rounded-full bg-cyan-400 blur-sm animate-orbitSlow animate-glow' />
+            <span className='absolute w-2 h-2 rounded-full bg-blue-500 blur-sm animate-orbitMid animate-glow' />
+            <span className='absolute w-4 h-4 rounded-full bg-orange-400 blur-sm animate-orbitFast animate-glow' />
+            <span className='absolute w-2 h-2 rounded-full bg-yellow-400 blur-sm animate-orbitSlow animate-glow' />
+            <span
+              className='
+        absolute w-2.5 h-2.5 rounded-full bg-green-400 blur-sm
+        animate-orbitMid animate-glow
+        [animation-delay:-2s]
+      '
+            />
+          </div>
         </div>
         <h1 className='max-w-3xl mx-auto text-left sm:text-center text-gray-100 text-3xl sm:text-5xl tracking-wide font-semibold my-10'>
           {content.title}
@@ -64,7 +81,7 @@ const Home = () => {
           <FormattedText text={content.intro.value} />
         </div>
 
-        {isLoaded && screenSize == ScreenSize.sm && (
+        {screenSize != ScreenSize.z && screenSize == ScreenSize.sm && (
           <div className='text-right mt-12 -mb-10'>
             <BlueButton className='' text={content.readMore.text.value} href={content.readMore.href.value} />
           </div>

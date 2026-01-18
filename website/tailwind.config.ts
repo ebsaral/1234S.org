@@ -82,6 +82,18 @@ const config: Config = {
           '0%': { transform: 'scale(0.1)', opacity: '0' },
           '100%': { transform: 'scale(1)', opacity: '1' },
         },
+        zoomSpin: {
+          '0%': { transform: 'scale(0) rotate(0deg)', opacity: '0' },
+          '100%': { transform: 'scale(1) rotate(360deg)', opacity: '1' },
+        },
+        orbit: {
+          '0%': { transform: 'rotate(0deg) translateX(140px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(140px) rotate(-360deg)' },
+        },
+        pulseGlow: {
+          '0%,100%': { opacity: '0.4', transform: 'scale(0.8)' },
+          '50%': { opacity: '1', transform: 'scale(1.3)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -90,6 +102,11 @@ const config: Config = {
         'spin-slow': 'spin 3s linear infinite',
         gradient: 'gradient 6s ease infinite',
         'zoom-in': 'zoomIn 0.8s ease-out forwards',
+        'zoom-spin': 'zoomSpin 0.5s ease-out forwards',
+        orbitSlow: 'orbit 10s linear infinite',
+        orbitMid: 'orbit 7s linear infinite',
+        orbitFast: 'orbit 4s linear infinite',
+        glow: 'pulseGlow 2s ease-in-out infinite',
       },
     },
   },
