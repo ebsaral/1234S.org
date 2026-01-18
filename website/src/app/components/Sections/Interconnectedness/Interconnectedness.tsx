@@ -3,9 +3,8 @@
 import { Globe } from 'lucide-react';
 import { useIntlayer } from 'react-intlayer';
 
-import FormattedText from '../Custom/FormattedText';
-import Experiment from './Experiment';
-import InterconnectedExamples from './InterconnectedExamples';
+import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
+import FormattedText from '../../Custom/FormattedText';
 
 const Interconnectedness = () => {
   const id = '1';
@@ -74,7 +73,7 @@ const Interconnectedness = () => {
             text={content.paragraph4.value}
           />
 
-          <InterconnectedExamples className='mt-16 mb-6 ml-6 -mr-6' />
+          <Examples className='mt-16 mb-6 ml-6 -mr-6' />
         </div>
       </div>
 

@@ -3,7 +3,7 @@
 import EndingSection from '@/app/components/Sections/EndingSection';
 import HealthSection from '@/app/components/Sections/HealthSection';
 import Hero from '@/app/components/Sections/Hero';
-import Interconnectedness from '@/app/components/Sections/Interconnectedness';
+import { Interconnectedness } from '@/app/components/Sections/Interconnectedness';
 import Intro from '@/app/components/Sections/Intro';
 import JusticeSection from '@/app/components/Sections/JusticeSection';
 import { useIntlayer } from 'next-intlayer';

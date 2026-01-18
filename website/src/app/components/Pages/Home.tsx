@@ -3,11 +3,11 @@
 import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
 import BlueButton from '../Custom/Buttons/BlueButton';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import FormattedText from '../Custom/FormattedText';
 import Title from '../Custom/Title';
-import useScreenSize, { ScreenSize } from '../Hooks/useScreenSize';
 import TeamSection from '../Sections/TeamSection';
 
 const Home = () => {

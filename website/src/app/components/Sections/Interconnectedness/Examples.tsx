@@ -3,7 +3,7 @@
 import { Atom } from 'lucide-react';
 import { useIntlayer } from 'react-intlayer';
 
-const InterconnectedExamples = ({ className = '' }: { className?: string }) => {
+const Examples = ({ className = '' }: { className?: string }) => {
   const content = useIntlayer('interconnectedness-section');
 
   return (
@@ -43,4 +43,4 @@ const InterconnectedExamples = ({ className = '' }: { className?: string }) => {
   );
 };
 
-export default InterconnectedExamples;
+export default Examples;

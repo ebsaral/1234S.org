@@ -7,9 +7,9 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
 import { ChevronDown, Menu, X } from 'lucide-react';
+import useHash from '../hooks/useHash';
 import { useScrollEffects } from '../hooks/useScrollEffects';
 import SupportLink from './Custom/Buttons/SupportLink';
-import useHash from './Hooks/useHash';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 
