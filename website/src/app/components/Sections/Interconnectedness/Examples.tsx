@@ -31,7 +31,7 @@ const Examples = ({ className = '' }: { className?: string }) => {
             <p>{item.description}</p>
           </div>
         ))}
-        <p className='text-purple-800 leading-relaxed text-left'>{content.examples.description}</p>
+        <p className='pt-3 text-purple-800 leading-relaxed text-left'>{content.examples.description}</p>
       </div>
     </article>
   );
