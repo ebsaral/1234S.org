@@ -156,6 +156,10 @@ const config: Config = {
                 fontSize: getSize('xl'),
                 lineHeight: getLineHeight('xl'),
               },
+              h4: {
+                fontSize: getSize('lg'),
+                lineHeight: getLineHeight('lg'),
+              },
               p: {
                 fontSize: getSize('base'),
                 lineHeight: getLineHeight('base'),
@@ -172,6 +176,10 @@ const config: Config = {
                 fontSize: getSize('2xl'),
                 lineHeight: getLineHeight('2xl'),
               },
+              h4: {
+                fontSize: getSize('xl'),
+                lineHeight: getLineHeight('xl'),
+              },
               p: {
                 fontSize: getSize('lg'),
                 lineHeight: getLineHeight('lg'),
@@ -184,6 +192,10 @@ const config: Config = {
                 fontSize: getSize('xl'),
                 lineHeight: getLineHeight('xl'),
               },
+              h4: {
+                fontSize: getSize('2xl'),
+                lineHeight: getLineHeight('2xl'),
+              },
             },
           },
           ['custom-lg']: {
@@ -195,6 +207,10 @@ const config: Config = {
               h3: {
                 fontSize: getSize('3xl'),
                 lineHeight: getLineHeight('3xl'),
+              },
+              h4: {
+                fontSize: getSize('2xl'),
+                lineHeight: getLineHeight('2xl'),
               },
             },
           },
