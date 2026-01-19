@@ -2,6 +2,7 @@
 
 import { CircleQuestionMark, Sparkles } from 'lucide-react';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useEffect, useRef, useState } from 'react';
 
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -9,6 +10,99 @@ import remarkGfm from 'remark-gfm';
 const Intro = () => {
   const id = '0';
   const content = useIntlayer('intro-section');
+  const articleRef = useRef<HTMLElement>(null);
+  const leftH3Ref = useRef<HTMLHeadingElement>(null);
+  const rightH3Ref = useRef<HTMLHeadingElement>(null);
+  const [path, setPath] = useState('');
+  const [knots, setKnots] = useState<{ x: number; y: number }[]>([]);
+  const [thin, setThin] = useState(false);
+
+  const updatePath = (scrollY = 0) => {
+    if (!articleRef.current || !leftH3Ref.current || !rightH3Ref.current) return;
+
+    const c = articleRef.current.getBoundingClientRect();
+    const a = leftH3Ref.current.getBoundingClientRect();
+    const b = rightH3Ref.current.getBoundingClientRect();
+
+    // Detect stacked vs side-by-side by geometry
+    const isStacked = Math.abs(a.left - b.left) < 40;
+
+    let x1: number, y1: number, x2: number, y2: number;
+    let c1x: number, c1y: number, c2x: number, c2y: number;
+
+    const sway = Math.sin(scrollY * 0.01) * 18;
+
+    if (isStacked) {
+      // ---- STACKED: rope runs vertically and curves LEFT ----
+      const inset = 8; // closer to h3 box
+
+      x1 = a.left - c.left - 10 + inset;
+      y1 = a.top + a.height / 2 - c.top;
+
+      x2 = b.left - c.left - 10 + inset;
+      y2 = b.top + b.height / 2 - c.top;
+
+      // hide rope if too close
+      if (Math.abs(y2 - y1) < 60) {
+        setPath('');
+        setKnots([]);
+        return;
+      }
+
+      const midY = (y1 + y2) / 2;
+
+      // curve to LEFT side
+      c1x = x1 - 26 + sway * 0.25;
+      c1y = midY - 50;
+
+      c2x = x2 - 26 - sway * 0.25;
+      c2y = midY + 50;
+
+      setThin(true);
+    } else {
+      // ---- SIDE BY SIDE: rope between cards ----
+      x1 = a.right - c.left - 1;
+      y1 = a.top + a.height / 2 - c.top;
+
+      x2 = b.left - c.left;
+      y2 = b.top + b.height / 2 - c.top;
+
+      const midX = (x1 + x2) / 2;
+
+      c1x = midX - 90;
+      c1y = y1 + sway;
+
+      c2x = midX + 90;
+      c2y = y2 - sway;
+
+      setThin(false);
+    }
+
+    // knots slightly pulled toward boxes
+    const knotInset = isStacked ? 2 : 0;
+
+    setKnots([
+      { x: x1 + (isStacked ? knotInset : 0), y: y1 },
+      { x: x2 + (isStacked ? knotInset : 0), y: y2 },
+    ]);
+
+    setPath(`M ${x1} ${y1} C ${c1x} ${c1y}, ${c2x} ${c2y}, ${x2} ${y2}`);
+  };
+
+  useEffect(() => {
+    updatePath(window.scrollY);
+
+    const onScroll = () => updatePath(window.scrollY);
+    const onResize = () => updatePath(window.scrollY);
+
+    window.addEventListener('scroll', onScroll);
+    window.addEventListener('resize', onResize);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onResize);
+    };
+  }, []);
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
@@ -20,17 +114,55 @@ const Intro = () => {
           </span>
           <article className='apply-custom-prose max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
 
-          <article className='apply-custom-prose max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap'>
+          <article
+            ref={articleRef}
+            className='relative apply-custom-prose max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap'
+          >
+            {/* Rope + knots */}
+            <svg className='absolute inset-0 w-full h-full pointer-events-none'>
+              {/* shadow */}
+              <path
+                d={path}
+                fill='none'
+                stroke='rgba(0,0,0,0.25)'
+                strokeWidth={thin ? 3 : 5}
+                strokeLinecap='round'
+                transform='translate(1,2)'
+              />
+
+              {/* rope */}
+              <path d={path} fill='none' stroke='#5b5b5b' strokeWidth={thin ? 2.5 : 4} strokeLinecap='round' />
+
+              {/* knots */}
+              {knots.map((k, i) => (
+                <circle
+                  key={i}
+                  cx={k.x}
+                  cy={k.y}
+                  r={thin ? 3 : 4}
+                  fill='#5b5b5b'
+                  stroke='rgba(0,0,0,0.25)'
+                  strokeWidth='1'
+                />
+              ))}
+            </svg>
+
             <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <h3 className='max-w-max relative -left-2 sm:left-0 px-2 py-1 bg-black/80 text-gray-100 rounded-md'>
-                {content.logical.title}
+              <h3
+                ref={leftH3Ref}
+                className='relative max-w-max -left-2 sm:left-0 p-3 bg-black/80 text-gray-100 rounded-md'
+              >
+                <em>{content.logical.title}</em>
               </h3>
               <p className='text-left'>{content.logical.description}</p>
             </div>
 
             <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <h3 className='max-w-max relative -left-2 sm:left-0 px-2 py-1 bg-black/80 text-gray-100 rounded-md'>
-                {content.spirituality.title}
+              <h3
+                ref={rightH3Ref}
+                className='max-w-max relative -left-2 sm:left-0 p-3 bg-black/80 text-gray-100 rounded-md'
+              >
+                <em>{content.spirituality.title}</em>
               </h3>
               <p className='text-left'>{content.spirituality.description}</p>
             </div>
