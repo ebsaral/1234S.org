@@ -1,5 +1,7 @@
+import typograpgy from '@tailwindcss/typography';
 import type { Config } from 'tailwindcss';
 import animate from 'tailwindcss-animate';
+import { PluginAPI } from 'tailwindcss/types/config';
 
 const config: Config = {
   darkMode: 'class',
@@ -133,9 +135,74 @@ const config: Config = {
         orbitFast: 'orbit3 4s linear infinite',
         glow: 'pulseGlow 2s ease-in-out infinite',
       },
+      typography: ({ theme }: PluginAPI) => {
+        const getSize = (size: string) => {
+          const val = theme(`fontSize.${size}`) as [string, { lineHeight?: string }];
+          return val[0];
+        };
+        const getLineHeight = (size: string) => {
+          const val = theme(`fontSize.${size}`) as [string, { lineHeight?: string }];
+          return val[1].lineHeight;
+        };
+
+        return {
+          custom: {
+            css: {
+              h2: {
+                fontSize: getSize('3xl'),
+                lineHeight: getLineHeight('3xl'),
+              },
+              h3: {
+                fontSize: getSize('xl'),
+                lineHeight: getLineHeight('xl'),
+              },
+              p: {
+                fontSize: getSize('base'),
+                lineHeight: getLineHeight('base'),
+              },
+            },
+          },
+          ['custom-sm']: {
+            css: {
+              h2: {
+                fontSize: getSize('5xl'),
+                lineHeight: getLineHeight('5xl'),
+              },
+              h3: {
+                fontSize: getSize('2xl'),
+                lineHeight: getLineHeight('2xl'),
+              },
+              p: {
+                fontSize: getSize('lg'),
+                lineHeight: getLineHeight('lg'),
+              },
+            },
+          },
+          ['custom-md']: {
+            css: {
+              p: {
+                fontSize: getSize('xl'),
+                lineHeight: getLineHeight('xl'),
+              },
+            },
+          },
+          ['custom-lg']: {
+            css: {
+              h2: {
+                fontSize: getSize('6xl'),
+                lineHeight: getLineHeight('6xl'),
+              },
+              h3: {
+                fontSize: getSize('3xl'),
+                lineHeight: getLineHeight('3xl'),
+              },
+            },
+          },
+        };
+      },
     },
   },
-  plugins: [animate],
+  plugins: [typograpgy, animate],
 };
 
 export default config;

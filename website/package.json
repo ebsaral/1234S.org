@@ -38,8 +38,10 @@
     "react-google-recaptcha": "^3.1.0",
     "react-hook-form": "^7.71.1",
     "react-intlayer": "7.5.14",
+    "react-markdown": "^10.1.0",
     "react-social-icons": "^6.25.0",
     "react-toastify": "^11.0.5",
+    "remark-gfm": "^4.0.1",
     "sonner": "^2.0.3",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
@@ -48,6 +50,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
