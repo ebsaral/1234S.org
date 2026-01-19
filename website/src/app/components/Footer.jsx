@@ -28,20 +28,20 @@ const Footer = () => {
             <div className='h-20 text-gray-300 text-sm'>
               <a
                 className='group flex flex-col gap-0 hover:gap-1 items-center hover:text-white'
-                title={content.contact.title.value}
-                href={`mailto:${content.contact.email.value}`}
+                title={content.association.contact.title.value}
+                href={`mailto:${content.association.contact.email.value}`}
               >
                 <div className=''>
                   <Feather size={36} />
                 </div>
                 <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>
-                  {content.contact.email}
+                  {content.association.contact.email}
                 </div>
               </a>
             </div>
             <div className='flex flex-col items-center justify-center md:items-left md:justify-start gap-2 text-center text-gray-300 text-sm'>
-              <div>{content.contact.phone}</div>
-              <div>{content.contact.address}</div>
+              <div>{content.association.contact.phone}</div>
+              <div>{content.association.contact.address}</div>
             </div>
           </div>
 
@@ -50,35 +50,42 @@ const Footer = () => {
           {/* Social Media section */}
           <div id='social-links' className='flex flex-col gap-8 items-center justify-center'>
             <div className='flex justify-center items-center gap-4'>
-              {content.links.social.map((props, index) => (
+              {content.association.social.map((props, index) => (
                 <SocialIcon
                   key={index}
                   title={props.label.value}
                   target='_blank'
                   className='transition-all duration-300 transform hover:scale-110'
-                  url={props.url.value}
+                  url={props.href.value}
                 />
               ))}
             </div>
           </div>
 
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
+            <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
+              <a href={content.association.bylaw.href.value} target='_blank' className='underline hover:text-white'>
+                {content.association.bylaw.label}
+              </a>
+              <a href={content.association.license.href.value} target='_blank' className='underline hover:text-white'>
+                {content.association.license.label}
+              </a>
+            </div>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
               <p>
                 {new Date().getFullYear()} © {content.association.name}
               </p>
-              {content.association.description && <p>{content.association.description}</p>}
-              <a href={content.bylaw.href.value} target='_blank' className='underline hover:text-white'>
-                {content.bylaw.text}
-              </a>
             </div>
-            <p className='text-center'>{content.explanation}</p>
-            <p className='text-center'>
-              <a className='link-underline' href={content.stackshare.href.value}>
-                {content.stackshare.label}
-              </a>
-            </p>
-            {locale === Locales.ENGLISH && (
+            <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
+              <p className='text-center'>{content.association.description}</p>
+              <p className='text-center'>
+                <a className='link-underline' href={content.stackshare.href.value}>
+                  {content.stackshare.label}
+                </a>
+              </p>
+            </div>
+
+            {locale === Locales.ENGLISH && content.displayProductHunt.value && (
               <a
                 className='mt-2'
                 href='https://www.producthunt.com/products/1234s-org-a-philosophical-movement?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-1234s&#0045;org&#0045;a&#0045;philosophical&#0045;movement'
