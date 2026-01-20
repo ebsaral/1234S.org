@@ -79,46 +79,6 @@ const pageContent = {
         },
       },
       {
-        name: 'Hatice Saral',
-        title: t({
-          en: 'Secretary of the Board',
-          tr: 'Yönetim Kurulu Sekreteri',
-        }),
-        profession: t({
-          en: 'Retired\n(Serial Entrepreneur)',
-          tr: 'Emekli\n(Seri Girişimci)',
-        }),
-        birthday: {
-          year: 1966,
-          month: 2,
-          day: 1,
-        },
-        image: {
-          src: '/members/haticesaral.jpg',
-          size: 120,
-        },
-      },
-      {
-        name: 'Ömer Lütfü Saral',
-        title: t({
-          en: 'Treasurer of the Board',
-          tr: 'Yönetim Kurulu Saymanı',
-        }),
-        profession: t({
-          en: 'Retired\n(Worker, Serial Entrepreneur, Journalist)',
-          tr: 'Emekli\n(İşçi, Seri Girişimci, Gazeteci)',
-        }),
-        birthday: {
-          year: 1960,
-          month: 12,
-          day: 28,
-        },
-        image: {
-          src: '/members/omerlutfusaral.jpg',
-          size: 120,
-        },
-      },
-      {
         title: t({
           en: 'Future Member',
           tr: 'Geleceğin Üyesi',
