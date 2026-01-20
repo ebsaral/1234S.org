@@ -538,13 +538,49 @@
 }
 
 /* iOS + macOS Safari detection */
-@supports (-webkit-touch-callout: none) {
+@supports not (property(--a: 0deg)) {
   .bg-square {
-    animation: none !important;
-    /* freeze at a visually nice frame */
-    --a: 90deg;
-    --p: 25%;
-    --c1: #c7d9ff;
-    --c2: #fff;
+    --s: 80px;
+
+    background:
+      conic-gradient(from -112.5deg at 20% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from -112.5deg at 20% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from 22.5deg at 80% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from 22.5deg at 80% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from -157.5deg at 20% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from -157.5deg at 20% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from 157.5deg at 80% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
+      conic-gradient(from 157.5deg at 80% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg) #fff;
+
+    background-size: calc(2 * var(--s)) calc(2 * var(--s));
+    animation: safari-m 2s infinite alternate linear;
+  }
+
+  @keyframes safari-m {
+    0%,
+    50% {
+      background-position:
+        0 0,
+        var(--s) var(--s),
+        0 0,
+        var(--s) var(--s),
+        0 0,
+        var(--s) var(--s),
+        0 0,
+        var(--s) var(--s);
+    }
+
+    50.01%,
+    100% {
+      background-position:
+        var(--s) 0,
+        0 var(--s),
+        var(--s) 0,
+        0 var(--s),
+        var(--s) 0,
+        0 var(--s),
+        var(--s) 0,
+        0 var(--s);
+    }
   }
 }
