@@ -16,15 +16,31 @@ const Statement = () => {
     const el = ref.current;
     if (!el) return;
 
-    const D = 2000; // duration for forward motion
+    const D = 2000; // forward duration
+    const FPS = 30;
+    const FRAME_TIME = 1000 / FPS;
+
     const start = performance.now();
+    let last = 0;
+    let raf = 0;
+    let running = true;
 
     const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
-    let raf = 0;
+    const onVis = () => {
+      running = !document.hidden;
+    };
+
+    document.addEventListener('visibilitychange', onVis);
 
     const frame = (now: number) => {
-      // ping-pong timeline: 0 → 1 → 0 smoothly
+      raf = requestAnimationFrame(frame);
+
+      if (!running) return;
+      if (now - last < FRAME_TIME) return;
+      last = now;
+
+      // ping-pong timeline (smooth infinite alternate)
       const raw = (now - start) / D;
       const t = 1 - Math.abs((raw % 2) - 1);
 
@@ -64,12 +80,14 @@ const Statement = () => {
       el.style.setProperty('--c2', c2);
 
       el.style.backgroundPosition = pos === 0 ? `0 0, var(--s) var(--s)` : `var(--s) 0, 0 var(--s)`;
-
-      raf = requestAnimationFrame(frame);
     };
 
     raf = requestAnimationFrame(frame);
-    return () => cancelAnimationFrame(raf);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      document.removeEventListener('visibilitychange', onVis);
+    };
   }, []);
 
   return (
