@@ -7,6 +7,8 @@ import { Locales } from 'intlayer';
 import { Feather } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import JoinLink from './Custom/Buttons/JoinLink';
+import Description from './Custom/Description';
+import FormattedText from './Custom/FormattedText';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');
@@ -77,6 +79,7 @@ const Footer = () => {
               </p>
             </div>
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
+              <FormattedText className='max-w-3xl text-center' text={content.association.warning.value} />
               <p className='text-center'>{content.association.description}</p>
               <p className='text-center'>
                 <a className='link-underline' href={content.stackshare.href.value}>

@@ -11,6 +11,7 @@ interface FooterContent {
   association: {
     name: string;
     description: string;
+    warning: string;
     contact: {
       title: string;
       email: string;
@@ -40,6 +41,10 @@ const pageContent = {
       name: t({
         en: '1234 Science & Art Association',
         tr: '1234 Sanat ve İlim Derneği',
+      }),
+      warning: t({
+        en: 'Our association needs to reach **a total of 16 members by June 2026**: 5 full members and 5 alternate members for the board of directors, and 3 full members and 3 alternate members for the supervisory board. *Otherwise, according to the associations law, closure proceedings will be initiated for our association.*',
+        tr: 'Derneğimizin **Haziran 2026** ayına kadar yönetim kurulu için 5 asıl ve 5 yedek, denetim kurulu için ise 3 asıl ve 3 yedek olmak üzere **toplamda 16 üyeye** ulaşması gerekiyor. *Aksi halde, dernekler kanununa göre derneğimizin kapanış işlemleri başlatılacak.*',
       }),
       description: t({
         en: "This website's layout is being developed based on our association's bylaw.",
