@@ -84,8 +84,8 @@ const pageContent = {
           tr: 'Geleceğin Üyesi',
         }),
         name: t({
-          en: 'Would you like to join our association?',
-          tr: 'Derneğimize katılmak ister misiniz?',
+          en: "Would you like to help us achieve our association's mission?",
+          tr: 'Derneğimizin misyonu için bize yardım etmek ister misiniz?',
         }),
         image: {
           src: '/members/placeholder.jpg',
