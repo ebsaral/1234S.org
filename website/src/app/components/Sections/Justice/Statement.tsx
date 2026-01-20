@@ -21,7 +21,7 @@ const Statement = () => {
           <Sun
             className='
           absolute
-          -top-[20vh] -left-24
+          -top-28 -left-24
           w-40 h-40
           text-yellow-400
           opacity-80
