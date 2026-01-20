@@ -46,7 +46,7 @@ const Justice = () => {
           </div>
           <div className='max-w-4xl mx-auto'>{content.description}</div>
         </article>
-        <div className='max-w-5xl mx-auto px-6'>
+        <div className='max-w-5xl mx-auto py-8 px-6'>
           <EqualityAndFreedom />
         </div>
         <article className='prose-custom-all max-w-4xl mx-auto p-6'>

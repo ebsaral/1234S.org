@@ -133,7 +133,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
 
   return (
     <MarkdownProvider renderMarkdown={(md) => <Markdown remarkPlugins={[remarkGfm]}>{md}</Markdown>}>
-      <div ref={grid} className={`grid md:grid-cols-2 gap-6 sm:gap-8 mb-4 relative ${className}`}>
+      <div ref={grid} className={`grid md:grid-cols-2 gap-6 sm:gap-8 relative ${className}`}>
         {/* flying overlay */}
         <div ref={pinFly} className='absolute hidden z-[9999] pointer-events-none'>
           <LoaderPinwheel size={40} className='text-blue-600 animate-spinSlow transition-transform duration-150' />
@@ -141,7 +141,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
 
         {/* LEFT */}
         <Card className='bg-white/90 bg-gradient-to-b sm:bg-gradient-to-t from-green-100 to-green-50 backdrop-blur-sm shadow-xl border-0'>
-          <CardContent className='p-8'>
+          <CardContent className='px-8 pt-0 pb-2'>
             <article className='prose-custom-all'>
               <div className='text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3'>
                 <div ref={pinHome}>
@@ -159,7 +159,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
 
         {/* RIGHT */}
         <Card className='bg-white/90 backdrop-blur-sm bg-gradient-to-t sm:bg-gradient-to-t from-green-100 to-green-50 shadow-xl border-0'>
-          <CardContent className='p-8'>
+          <CardContent className='px-8 pt-0 pb-2'>
             <article className='prose-custom-all'>
               <div ref={ferrisRow} className='text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3 relative'>
                 <FerrisWheel
