@@ -536,3 +536,15 @@
       0 var(--s);
   }
 }
+
+/* iOS + macOS Safari detection */
+@supports (-webkit-touch-callout: none) {
+  .bg-square {
+    animation: none !important;
+    /* freeze at a visually nice frame */
+    --a: 90deg;
+    --p: 25%;
+    --c1: #c7d9ff;
+    --c2: #fff;
+  }
+}
