@@ -37,7 +37,7 @@ const Interconnectedness = () => {
               <Globe className='text-blue-600' size={40} />
             </div>
 
-            <article className='apply-custom-prose -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>
+            <article className='prose-custom-all -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>
               <h2 className='text-center mb-5'>{content.title}</h2>
               <h3 className='text-center'>
                 <b>
@@ -54,14 +54,14 @@ const Interconnectedness = () => {
               <div className='absolute -bottom-5 right-7 text-7xl text-emerald-600'>”</div>
             </div>
 
-            <article className='apply-custom-prose max-w-4xl mx-auto px-6 sm:px-10'>
+            <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
               {content.description}
               {content.paragraph1}
             </article>
 
             <Experiment className='max-w-4xl mx-auto mt-16 mb-6 -ml-6 mr-6' />
 
-            <article className='apply-custom-prose max-w-4xl mx-auto my-12 px-6 sm:px-10'>
+            <article className='prose-custom-all max-w-4xl mx-auto my-12 px-6 sm:px-10'>
               {content.paragraph2}
               {content.paragraph3}
               {content.paragraph4}

@@ -312,7 +312,7 @@ header {
   top: 0;
 }
 
-.apply-custom-prose {
+.prose-custom-all {
   @apply prose prose-custom sm:prose-custom-sm md:prose-custom-md lg:prose-custom-lg;
 }
 

@@ -112,11 +112,11 @@ const Intro = () => {
           <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
             <CircleQuestionMark size={48} />
           </span>
-          <article className='apply-custom-prose max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
+          <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
 
           <article
             ref={articleRef}
-            className='relative apply-custom-prose max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap'
+            className='relative prose-custom-all max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap'
           >
             {/* Rope + knots */}
             <svg className='absolute inset-0 w-full h-full pointer-events-none'>
@@ -171,7 +171,7 @@ const Intro = () => {
 
         <div className='max-w-5xl mx-auto mt-8 flex flex-col gap-4 items-center justify-center'>
           {/* Description */}
-          <article className='apply-custom-prose max-w-3xl mx-6'>{content.paragraph2}</article>
+          <article className='prose-custom-all max-w-3xl mx-6'>{content.paragraph2}</article>
 
           {/* Insight */}
           <div className='mt-10 mx-4 sm:mx-16 lg:mx-20'>

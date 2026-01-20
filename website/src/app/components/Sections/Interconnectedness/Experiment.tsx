@@ -22,7 +22,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
   }
   return (
     <article
-      className={`apply-custom-prose p-4 rounded-xl bg-card text-card-foreground bg-gradient-to-br from-white to-gray-100 border-0 shadow-xl ${className}`}
+      className={`prose-custom-all p-4 rounded-xl bg-card text-card-foreground bg-gradient-to-br from-white to-gray-100 border-0 shadow-xl ${className}`}
     >
       <div className='flex flex-col'>
         <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>

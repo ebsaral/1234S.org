@@ -118,6 +118,25 @@ const config: Config = {
           '0%,100%': { opacity: '0.4', transform: 'scale(0.8)' },
           '50%': { opacity: '1', transform: 'scale(1.3)' },
         },
+        sway: {
+          '0%': { transform: 'rotate(7deg)' },
+          '50%': { transform: 'rotate(-7deg)' },
+          '100%': { transform: 'rotate(7deg)' },
+        },
+        spinSlow: { to: { transform: 'rotate(360deg)' } },
+
+        spark: {
+          '0%': { opacity: '1', transform: 'scale(1) translate(0,0)' },
+          '100%': { opacity: '0', transform: 'scale(0.2) translate(var(--x), var(--y))' },
+        },
+
+        shake: {
+          '0%': { transform: 'translate(0,0)' },
+          '25%': { transform: 'translate(2px,-2px)' },
+          '50%': { transform: 'translate(-2px,2px)' },
+          '75%': { transform: 'translate(2px,2px)' },
+          '100%': { transform: 'translate(0,0)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -134,6 +153,10 @@ const config: Config = {
         orbitMid: 'orbit2 7s linear infinite',
         orbitFast: 'orbit3 4s linear infinite',
         glow: 'pulseGlow 2s ease-in-out infinite',
+        sway: 'sway 3s linear infinite',
+        spinSlow: 'spinSlow 1.2s linear infinite',
+        spark: 'spark 0.45s ease-out forwards',
+        shake: 'shake 0.25s ease-in-out',
       },
       typography: ({ theme }: PluginAPI) => {
         const getSize = (size: string) => {

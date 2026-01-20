@@ -109,7 +109,7 @@ const Home = () => {
 
           <hr className='my-20 w-full rotate-6 sm:rotate-2 md:rotate-0'></hr>
 
-          <article className='max-w-5xl mx-auto w-full apply-custom-prose-dark home-research'>
+          <article className='max-w-5xl mx-auto w-full home-research'>
             <div className='max-w-4xl mx-auto flex flex-col gap-10'>
               {content.projects.title}
               {content.projects.description}
