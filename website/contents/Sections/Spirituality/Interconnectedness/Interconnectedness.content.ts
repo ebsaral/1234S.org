@@ -96,8 +96,8 @@ export default {
             tr: 'Üretmek',
           }),
           description: t({
-            en: 'Allow those around you to perform their actions as they wish in your room, house, garden, workplace, or on the street. Focus on your work and begin to create freely.',
-            tr: 'Etrafınızda bulunanların odanızda, evinizde, bahçenizde, işyerinizde veya sokağınızda istedikleri eylemleri gerçekleştirmelerine izin verin. Eserinize odaklanın ve serbestçe üretmeye başlayın.',
+            en: 'Allow the living things around you to perform their desired actions in your room, house, garden, workplace, or street. Focus on your artwork and begin to create freely and spontaneously. The more tools and varieties you use while creating your artwork, the more colorful the results can be.',
+            tr: 'Etrafınızda bulunan canlıların odanızda, evinizde, bahçenizde, işyerinizde veya sokağınızda istedikleri eylemleri gerçekleştirmelerine müsade edin. Eserinize odaklanın ve gelişigüzel serbestçe üretmeye başlayın. Eserinizi üretirken kullanacağınız aygıtların sayısı ve çeşidi fazla olursa daha renkli sonuçlara ulaşabilirsiniz.',
           }),
         },
         {
@@ -106,15 +106,15 @@ export default {
             tr: 'İzlemek',
           }),
           description: t({
-            en: 'After the process, carefully examine the work you have recorded. You can see the harmony between a word you spoke, an action you performed, a mistake you made, or a choice you took, and other living beings.',
-            tr: 'Sürecin ardından kaydettiğiniz eserinizi dikkatlice inceleyin. Söylediğiniz bir kelimenin, uyguladığınız bir hareketin, yaptığınız bir hatanın veya gerçekleştirdiğiniz bir seçimin diğer canlılarla olan ahengini görebilirsiniz.',
+            en: 'After the process, carefully examine both your recorded work and your surroundings simultaneously. You can see the harmony between a word you spoke, a drawing you made, a movement you performed, a mistake you encountered, or a choice you made, and the actions of other living beings.',
+            tr: 'Sürecin ardından kaydettiğiniz eserinizi ve çevrenizi aynı anda dikkatlice inceleyin. Söylediğiniz bir kelimenin, yaptığınız bir çizimin, uyguladığınız bir hareketin, karşılaştığınız bir hatanın veya gerçekleştirdiğiniz bir seçimin diğer canlıların eylemleriyle olan ahengini görebilirsiniz.',
           }),
         },
       ],
     },
     paragraph1: t({
       en: md(
-        'Rather than egocentric approaches, we can gain awareness of the depth of our connection with nature by paying attention to the details of our environment and creations. Because every action reflects the details of the life around it. Every movement, sound, thought, and work of art is interconnected in harmony with the balance of nature.',
+        'Rather than egocentric approaches, we can gain awareness of the depth of our connection with nature by giving attention to the details of our environment and creations. Because every action reflects the details of the life around it. Every movement, sound, thought, and work of art is interconnected in harmony with the balance of nature.',
       ),
       tr: md(
         'Benmerkezci yaklaşımlardan ziyade, çevremizin ve yaratımlarımızın ayrıntılarına dikkat ederek doğayla olan bağımızın derinliğine yönelik farkındalık kazanabiliriz. Çünkü gerçekleştirilen her eylem aynı zamanda çevresindeki yaşamın detaylarını yansıtır. Her hareket, ses, düşünce ve sanat eseri doğadaki dengeyle uyumlu bir biçimde birbirine bağlıdır.',
@@ -130,7 +130,7 @@ export default {
     }),
     paragraph3: t({
       en: md(
-        'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are multifaceted. Our senses, which can make invisible connections with each other visible, prove the interconnectedness of life to us in different ways.',
+        'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are all-round. Our senses, which can make invisible connections with each other visible, prove the interconnectedness of life to us in different ways.',
       ),
       tr: md(
         'Hislerimiz, zamanın ve mekanın ötesinde, iç içe geçmiş bir biçimde birbirimize yansır. Haliyle yaşam bağlarımız çok yönlüdür. Birbirimizle olan görünmez bağları görünür kılabilen duyularımız, farklı şekillerde yaşamın bütünlüğünü bize kanıtlar.',
@@ -170,7 +170,7 @@ export default {
             tr: 'İlham Kaynakları',
           }),
           description: t({
-            en: 'While we might be at home, simply considering which song to play, the presence of someone passing by on the street can inspire (or influence) our choice. Similarly, every new thought is essentially the product of the blending of the living things around us in our minds, and we are merely the ones reflecting the output.',
+            en: 'While we are be at home, simply considering which song to play, the presence of someone passing by on the street can inspire (or influence) our choice. Similarly, every new thought is essentially the product of the blending of the living things around us in our minds, and we are merely the ones reflecting the output.',
             tr: 'Bulunduğumuz evde öylece hangi şarkıyı çalacağımızı düşünürken, sokaktan geçen birinin varlığı seçimimize ilham (veya vesile) olur. Benzer şekilde, her yeni düşünce aslında çevremizdeki canlıların zihnimizde harmanlanmasının ürünüdür ve biz sadece çıktıyı yansıtan kişi oluruz.',
           }),
         },
@@ -190,8 +190,8 @@ export default {
             tr: 'Empatinin Dengesi',
           }),
           description: t({
-            en: 'In any place we shop, the stress of an employee or another customer can manifest in us as spontaneous sweating. Any action that someone else does unintentionally can appear as a negative sensation in our bodies.',
-            tr: 'Alışveriş yaptığımız herhangi bir yerde bir çalışanın veya başka bir müşterinin stresi bize durduk yere terlemek olarak yansıyabilir. Başkasının zorunlu olarak istemeden yaptığı herhangi bir eylem vücudumuzda olumsuz bir his olarak belirir.',
+            en: 'In any place we shop, the stress of an employee or another customer can manifest in us as spontaneous sweating. Any action that someone else is forced to do, or is unable to do, appears as a negative sensation in our bodies.',
+            tr: 'Alışveriş yaptığımız herhangi bir yerde bir çalışanın veya başka bir müşterinin stresi bize durduk yere terlemek olarak yansıyabilir. Başkasının zorunlu olarak istemeden yaptığı veya yapamadığı herhangi bir eylem vücudumuzda olumsuz bir his olarak belirir.',
           }),
         },
         {
