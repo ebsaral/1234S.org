@@ -5,20 +5,7 @@ import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-import {
-  Activity,
-  CheckCircle,
-  Cloud,
-  FerrisWheel,
-  Frown,
-  LoaderPinwheel,
-  Scale,
-  ScanHeart,
-  Smile,
-  Sun,
-  XCircle,
-} from 'lucide-react';
-import FormattedText from '../../Custom/FormattedText';
+import { Activity, Cloud, Frown, Scale, ScanHeart, Smile, Sun } from 'lucide-react';
 import EqualityAndFreedom from './EqualityAndFreedom';
 import Statement from './Statement';
 
@@ -68,9 +55,7 @@ const Justice = () => {
           {content.paragraph3}
         </article>
 
-        <div className='mx-auto w-full bg-square py-12 px-6'>
-          <Statement />
-        </div>
+        <Statement />
         {/* Decorative Elements max-w-4xl mx-auto px-6 sm:px-10 py-0 sm:py-5  */}
         <div className='-z-10 absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
       </section>

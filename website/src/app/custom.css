@@ -457,30 +457,15 @@
 
 /* ================= SQUARE VS OCTAGON BACKGROUND ================= */
 
-@property --a {
-  syntax: '<angle>';
-  inherits: true;
-  initial-value: 0deg;
-}
-@property --p {
-  syntax: '<percentage>';
-  inherits: true;
-  initial-value: 0%;
-}
-@property --c1 {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #000;
-}
-@property --c2 {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #000;
-}
-
 .bg-square {
   --s: 80px;
+  --a: 135deg;
+  --p: 20%;
+  --c1: #c7d9ff;
+  --c2: #fff;
+
   --_g: #0000, var(--c1) 2deg calc(var(--a) - 2deg), #0000 var(--a);
+
   background:
     conic-gradient(from calc(-45deg - var(--a) / 2) at top var(--p) left var(--p), var(--_g)),
     conic-gradient(from calc(-45deg - var(--a) / 2) at top var(--p) left var(--p), var(--_g)),
@@ -490,97 +475,9 @@
     conic-gradient(from calc(-135deg - var(--a) / 2) at bottom var(--p) left var(--p), var(--_g)),
     conic-gradient(from calc(135deg - var(--a) / 2) at bottom var(--p) right var(--p), var(--_g)),
     conic-gradient(from calc(135deg - var(--a) / 2) at bottom var(--p) right var(--p), var(--_g)) var(--c2);
+
   background-size: calc(2 * var(--s)) calc(2 * var(--s));
-  animation: m 2s infinite alternate linear;
-}
-
-@keyframes m {
-  0%,
-  15% {
-    --a: 135deg;
-    --p: 20%;
-    --c1: #c7d9ff;
-    --c2: #fff;
-    background-position:
-      0 0,
-      var(--s) var(--s);
-  }
-  45%,
-  50% {
-    --a: 90deg;
-    --p: 25%;
-    --c1: #c7d9ff;
-    --c2: #fff;
-    background-position:
-      0 0,
-      var(--s) var(--s);
-  }
-  50.01%,
-  55% {
-    --a: 90deg;
-    --p: 25%;
-    --c2: #c7d9ff;
-    --c1: #fff;
-    background-position:
-      var(--s) 0,
-      0 var(--s);
-  }
-  85%,
-  100% {
-    --a: 135deg;
-    --p: 20%;
-    --c2: #c7d9ff;
-    --c1: #fff;
-    background-position:
-      var(--s) 0,
-      0 var(--s);
-  }
-}
-
-/* iOS + macOS Safari detection */
-@supports not (property(--a: 0deg)) {
-  .bg-square {
-    --s: 80px;
-
-    background:
-      conic-gradient(from -112.5deg at 20% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from -112.5deg at 20% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from 22.5deg at 80% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from 22.5deg at 80% 20%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from -157.5deg at 20% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from -157.5deg at 20% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from 157.5deg at 80% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg),
-      conic-gradient(from 157.5deg at 80% 80%, #0000, #c7d9ff 2deg 133deg, #0000 135deg) #fff;
-
-    background-size: calc(2 * var(--s)) calc(2 * var(--s));
-    animation: safari-m 2s infinite alternate linear;
-  }
-
-  @keyframes safari-m {
-    0%,
-    50% {
-      background-position:
-        0 0,
-        var(--s) var(--s),
-        0 0,
-        var(--s) var(--s),
-        0 0,
-        var(--s) var(--s),
-        0 0,
-        var(--s) var(--s);
-    }
-
-    50.01%,
-    100% {
-      background-position:
-        var(--s) 0,
-        0 var(--s),
-        var(--s) 0,
-        0 var(--s),
-        var(--s) 0,
-        0 var(--s),
-        var(--s) 0,
-        0 var(--s);
-    }
-  }
+  background-position:
+    0 0,
+    var(--s) var(--s);
 }
