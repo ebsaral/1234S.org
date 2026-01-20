@@ -24,7 +24,7 @@ const Statement = () => {
           -top-28 -left-24
           w-40 h-40
           text-yellow-400
-          opacity-60
+          opacity-80
           translate-x-1/4 translate-y-1/4
           pointer-events-none
           select-none
@@ -36,7 +36,7 @@ const Statement = () => {
           -bottom-4 -right-6
           w-40 h-40
           text-green-700
-          opacity-60
+          opacity-80
           translate-x-1/4 translate-y-1/4
           pointer-events-none
           select-none

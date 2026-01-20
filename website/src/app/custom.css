@@ -455,82 +455,39 @@
   }
 }
 
-@property --a {
-  syntax: '<angle>';
-  inherits: true;
-  initial-value: 0deg;
-}
-@property --p {
-  syntax: '<percentage>';
-  inherits: true;
-  initial-value: 0%;
-}
-@property --c1 {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #000;
-}
-@property --c2 {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #000;
+.te {
+  background-color: #cc8fff;
 }
 
 .bg-effect {
-  --s: 80px;
-  --_g: #0000, var(--c1) 2deg calc(var(--a) - 2deg), #0000 var(--a);
-  background:
-    conic-gradient(from calc(-45deg - var(--a) / 2) at top var(--p) left var(--p), var(--_g)),
-    conic-gradient(from calc(-45deg - var(--a) / 2) at top var(--p) left var(--p), var(--_g)),
-    conic-gradient(from calc(45deg - var(--a) / 2) at top var(--p) right var(--p), var(--_g)),
-    conic-gradient(from calc(45deg - var(--a) / 2) at top var(--p) right var(--p), var(--_g)),
-    conic-gradient(from calc(-135deg - var(--a) / 2) at bottom var(--p) left var(--p), var(--_g)),
-    conic-gradient(from calc(-135deg - var(--a) / 2) at bottom var(--p) left var(--p), var(--_g)),
-    conic-gradient(from calc(135deg - var(--a) / 2) at bottom var(--p) right var(--p), var(--_g)),
-    conic-gradient(from calc(135deg - var(--a) / 2) at bottom var(--p) right var(--p), var(--_g)) var(--c2);
-  background-size: calc(2 * var(--s)) calc(2 * var(--s));
-  animation: m 2s infinite alternate linear;
-}
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff; /* Deep navy background */
 
-@keyframes m {
-  0%,
-  15% {
-    --a: 135deg;
-    --p: 20%;
-    --c1: #c7d9ff;
-    --c2: #ffffff;
-    background-position:
-      0 0,
-      var(--s) var(--s);
-  }
-  45%,
-  50% {
-    --a: 90deg;
-    --p: 25%;
-    --c1: #c7d9ff;
-    --c2: #ffffff;
-    background-position:
-      0 0,
-      var(--s) var(--s);
-  }
-  50.01%,
-  55% {
-    --a: 90deg;
-    --p: 25%;
-    --c2: #c7d9ff;
-    --c1: #ffffff;
-    background-position:
-      var(--s) 0,
-      0 var(--s);
-  }
-  85%,
-  100% {
-    --a: 135deg;
-    --p: 20%;
-    --c2: #c7d9ff;
-    --c1: #ffffff;
-    background-position:
-      var(--s) 0,
-      0 var(--s);
-  }
+  /* SVG uses 8 points for both shapes to ensure fluid motion */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="160" height="80"> \
+    <path fill="%2393d7ff"> \
+      <animate attributeName="d" dur="4s" repeatCount="indefinite" calcMode="spline" \
+        keyTimes="0; 0.15; 0.5; 0.65; 1" \
+        keySplines="0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1" \
+        values="M0,0 L40,0 L80,0 L80,40 L80,80 L40,80 L0,80 L0,40 Z; \
+                M0,0 L40,0 L80,0 L80,40 L80,80 L40,80 L0,80 L0,40 Z; \
+                M23,0 L57,0 L80,23 L80,57 L57,80 L23,80 L0,57 L0,23 Z; \
+                M23,0 L57,0 L80,23 L80,57 L57,80 L23,80 L0,57 L0,23 Z; \
+                M0,0 L40,0 L80,0 L80,40 L80,80 L40,80 L0,80 L0,40 Z" /> \
+    </path> \
+    <path fill="%23cc8fff"> \
+      <animate attributeName="d" dur="4s" repeatCount="indefinite" calcMode="spline" \
+        keyTimes="0; 0.15; 0.5; 0.65; 1" \
+        keySplines="0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1; 0.45, 0, 0.55, 1" \
+        values="M103,0 L137,0 L160,23 L160,57 L137,80 L103,80 L80,57 L80,23 Z; \
+                M103,0 L137,0 L160,23 L160,57 L137,80 L103,80 L80,57 L80,23 Z; \
+                M80,0 L120,0 L160,0 L160,40 L160,80 L120,80 L80,80 L80,40 Z; \
+                M80,0 L120,0 L160,0 L160,40 L160,80 L120,80 L80,80 L80,40 Z; \
+                M103,0 L137,0 L160,23 L160,57 L137,80 L103,80 L80,57 L80,23 Z" /> \
+    </path> \
+  </svg>');
+
+  background-size: 160px 80px;
+  background-repeat: repeat;
 }
