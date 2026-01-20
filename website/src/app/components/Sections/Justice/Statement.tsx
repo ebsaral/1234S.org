@@ -16,12 +16,12 @@ const Statement = () => {
         {/* fractal background */}
         <div className='absolute inset-0 bg-effect opacity-70' />
 
-        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-6 px-24 bg-green-100/90 rounded-2xl'>
+        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-24 bg-green-100/90 rounded-2xl'>
           {/* Background Icon */}
           <Sun
             className='
           absolute
-          -top-28 -left-24
+          -top-[20vh] -left-24
           w-40 h-40
           text-yellow-400
           opacity-80

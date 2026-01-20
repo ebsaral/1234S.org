@@ -140,7 +140,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
         </div>
 
         {/* LEFT */}
-        <Card className='bg-white/90 backdrop-blur-sm shadow-xl border-0'>
+        <Card className='bg-white/90 bg-gradient-to-b sm:bg-gradient-to-t from-green-100 to-green-50 backdrop-blur-sm shadow-xl border-0'>
           <CardContent className='p-8'>
             <article className='prose-custom-all'>
               <div className='text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3'>
@@ -158,7 +158,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
         </Card>
 
         {/* RIGHT */}
-        <Card className='bg-white/90 backdrop-blur-sm shadow-xl border-0'>
+        <Card className='bg-white/90 backdrop-blur-sm bg-gradient-to-t sm:bg-gradient-to-t from-green-100 to-green-50 shadow-xl border-0'>
           <CardContent className='p-8'>
             <article className='prose-custom-all'>
               <div ref={ferrisRow} className='text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3 relative'>
