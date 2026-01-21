@@ -196,12 +196,12 @@ export default {
         },
         {
           title: t({
-            en: 'The Health Chain in Products',
-            tr: 'Ürünlerdeki Sağlık Zinciri',
+            en: 'The Health Chain',
+            tr: 'Sağlık Zinciri',
           }),
           description: t({
-            en: 'Any product we use carries with it all the emotions experienced during its production. All the negative effects a product has had on other living beings before reaching us cause that product to manifest itself in our lives in a way that harms our health.',
-            tr: 'Kullandığımız herhangi bir ürün, üretimi esnasında yaşanan tüm his kümelerini beraberinde getirir. Herhangi bir ürünün bize gelene kadar başka canlılarda yaşattığı tüm olumsuzluklar, o ürünün hayatımızda sağlığımızı bozacak şekilde varlık göstermesine sebep olur.',
+            en: 'Any product we use carries with it all the emotions experienced during its production. Any negative experiences a product has caused to other living beings before reaching us carry over and contribute to feelings that can harm our health. Likewise, all negative experiences we encounter while using a product leads to feelings that adversely can affect the health of those who develop and market it.',
+            tr: 'Kullandığımız herhangi bir ürün, üretimi esnasında yaşanan tüm his kümelerini beraberinde getirir. Herhangi bir ürünün bize gelene kadar diğer canlılara yaşattığı tüm olumsuz deneyimler, o ürünün sağlığımızı bozabilecek hislere vesile olmasını sağlar. Benzer şekilde, herhangi bir ürünü kullanırken yaşadığımız tüm olumsuz deneyimler ürünü geliştiren ve pazarlayan kişilerin sağlığını bozabilecek hislere vesile olur.',
           }),
         },
       ],
