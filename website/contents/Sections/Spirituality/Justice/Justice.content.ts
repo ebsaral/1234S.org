@@ -69,10 +69,10 @@ const pageContent = {
     }),
     paragraph3: t({
       en: md(
-        '**Any teaching, knowledge or belief may not align with the balance of justice in nature.** Because the Creator always knows the true intentions behind our actions in nature, the consequences of our actions will manifest in our health (our lives) when necessary. In situations where the justice of nature must prevail, no technology will ever exist to prevent it.',
+        '**Any teaching, knowledge or belief may not align with the balance of justice in nature.** Because the Creator always knows the true intentions behind our actions in nature, the consequences of our actions will manifest in our health when necessary. In situations where the justice of nature must prevail, no power or technology will ever exist to prevent it.',
       ),
       tr: md(
-        '**Herhangi bir öğreti, bilgi veya inanış, doğadaki adalet dengesiyle örtüşmeyebilir.** Yaradan doğada gerçekleştirdiğimiz eylemlerimizin gerçek niyetlerini her zaman bildiği için, eylemlerimizin oluşturacağı sonuçlar sağlığımızda (hayatımızda) gerektiği zaman tezahür edecektir. Doğadaki adaletin tecelli etmesi gerektiği durumlarda önüne geçebilecek herhangi bir teknoloji hiçbir zaman var olmayacaktır.',
+        '**Herhangi bir öğreti, bilgi veya inanış, doğadaki adalet dengesiyle örtüşmeyebilir.** Yaradan doğada gerçekleştirdiğimiz eylemlerimizin gerçek niyetlerini her zaman bildiği için, eylemlerimizin oluşturacağı sonuçlar sağlığımızda gerektiği zaman tezahür eder. Doğadaki adaletin tecelli etmesi gerektiği durumlarda önüne geçebilecek herhangi bir güç veya teknoloji hiçbir zaman var olmayacaktır.',
       ),
     }),
     equality: {
