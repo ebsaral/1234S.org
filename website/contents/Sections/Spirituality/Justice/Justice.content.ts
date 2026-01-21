@@ -61,10 +61,10 @@ const pageContent = {
     }),
     paragraph2: t({
       en: md(
-        'All diseases, epidemics, earthquakes, storms, floods, droughts, animal attacks, conflicts, crises, and wars experienced from the beginning to the present reveal justice in nature. Humanity delays its own welfare when it reduces the symbols of nature to its own frame of meaning and disregards other living beings. **All outcomes directly reflect how the principles of equality and freedom are applied.** Every negative outcome is a silent cry of injustice in nature. *For example: while watching someone recount a traffic accident on the news, we simultaneously hear the confession of their another unseen wrongdoing.*',
+        'All diseases, epidemics, earthquakes, storms, floods, droughts, animal attacks, conflicts, crises, and wars experienced from the beginning to the present reveal justice in nature. Humanity delays its own welfare when it reduces the symbols of nature to its own frame of meaning and disregards other living beings. **All outcomes directly reflect how the principles of equality and freedom are applied.** Every negative outcome is a cry of injustice in nature. *For example: While watching someone recount a traffic accident on the news, we simultaneously hear the confession of their another unseen wrongdoing.*',
       ),
       tr: md(
-        'Başlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, kazalar, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin sessiz bir çığlığıdır. *Örnek olarak: Haberlerde geçirdiği trafik kazasını anlatan birini izlerken, aynı zamanda o kişinin görmediğimiz başka bir suçunu itiraf ettiğini duyarız.*',
+        'Başlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, kazalar, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin çığlığıdır. *Örneğin: Haberlerde geçirdiği trafik kazasını anlatan birini izlerken, aynı zamanda o kişinin görmediğimiz başka bir suçunu itiraf ettiğini duyarız.*',
       ),
     }),
     paragraph3: t({
@@ -117,38 +117,46 @@ const pageContent = {
     }),
     positiveConsequences: {
       title: t({
-        en: 'Positive Consequences',
-        tr: 'Olumlu Sonuçlar',
+        en: md('### Positive Consequences'),
+        tr: md('### Olumlu Sonuçlar'),
       }),
       nature: t({
-        en: 'Fertile soil, balanced weather conditions, and ecological harmony...',
-        tr: 'Verimli toprak, dengeli hava koşulları ve ekolojik uyum...',
+        en: md('Fertile soil, balanced weather conditions, and ecological harmony...'),
+        tr: md('Verimli toprak, dengeli hava koşulları ve ekolojik uyum...'),
       }),
       health: t({
-        en: 'Having a strong immune system, achieving robust mental health, increased talents, and a long lifespan...',
-        tr: 'Güçlü bağışıklık sistemine sahip olmak, güçlü zihin sağlığına erişmek, yeteneklerde artış ve uzun ömür...',
+        en: md(
+          'Having a strong immune system, achieving robust mental health, increased talents, and a long lifespan...',
+        ),
+        tr: md(
+          'Güçlü bağışıklık sistemine sahip olmak, güçlü zihin sağlığına erişmek, yeteneklerde artış ve uzun ömür...',
+        ),
       }),
       luck: t({
-        en: 'Encountering supportive elements, discovering new opportunities, finding practical solutions, and gaining natural protection...',
-        tr: 'Destekleyici unsurlarla karşılaşmak, yeni fırsatlar keşfetmek, pratik çözüm bulmak ve doğal korunma kazanmak...',
+        en: md(
+          'Encountering supportive elements, discovering new opportunities, finding practical solutions, and gaining natural protection...',
+        ),
+        tr: md(
+          'Destekleyici unsurlarla karşılaşmak, yeni fırsatlar keşfetmek, pratik çözüm bulmak ve doğal korunma kazanmak...',
+        ),
       }),
     },
     negativeConsequences: {
       title: t({
-        en: 'Negative Consequences',
-        tr: 'Olumsuz Sonuçlar',
+        en: md('### Negative Consequences'),
+        tr: md('### Olumsuz Sonuçlar'),
       }),
       nature: t({
-        en: 'Droughts, floods, hurricanes, fires, and global warming...',
-        tr: 'Kuraklıklar, seller, kasırgalar, yangınlar ve küresel ısınma...',
+        en: md('Droughts, floods, hurricanes, fires, and global warming...'),
+        tr: md('Kuraklıklar, seller, kasırgalar, yangınlar ve küresel ısınma...'),
       }),
       health: t({
-        en: 'Physical and mental illnesses; heart attacks, genetic disorders, and pandemics...',
-        tr: 'Fiziksel ve zihinsel hastalıklar; kalp krizleri, genetik bozukluklar ve pandemiler...',
+        en: md('Physical and mental illnesses; heart attacks, genetic disorders, and pandemics...'),
+        tr: md('Fiziksel ve zihinsel hastalıklar; kalp krizleri, genetik bozukluklar ve pandemiler...'),
       }),
       luck: t({
-        en: 'Economic difficulties, missed opportunities, all kinds of home/work/street accidents...',
-        tr: 'Ekonomik zorluklar, fırsat kayıpları, her türlü ev/iş/sokak kazaları...',
+        en: md('Economic difficulties, missed opportunities, all kinds of home/work/street accidents...'),
+        tr: md('Ekonomik zorluklar, fırsat kayıpları, her türlü ev/iş/sokak kazaları...'),
       }),
     },
   },
