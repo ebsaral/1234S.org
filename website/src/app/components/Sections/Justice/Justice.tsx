@@ -6,7 +6,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import { Scale } from 'lucide-react';
-// import Consequences from './Consequences';
+import Consequences from './Consequences';
 import EqualityAndFreedom from './EqualityAndFreedom';
 import Statement from './Statement';
 
@@ -36,14 +36,15 @@ const Justice = () => {
         <div className='max-w-5xl mx-auto py-8 px-6'>
           <EqualityAndFreedom />
         </div>
-        {/* <div className='max-w-5xl mx-auto mt-10 px-6'>
-          <Consequences />
-        </div> */}
+
         <article className='prose-custom-all max-w-4xl mx-auto p-6'>
           {content.paragraph1}
           {content.paragraph2}
-          {content.paragraph3}
         </article>
+        <div className='max-w-5xl mx-auto px-6'>
+          <Consequences />
+        </div>
+        <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph3}</article>
 
         <Statement />
         {/* Decorative Elements max-w-4xl mx-auto px-6 sm:px-10 py-0 sm:py-5  */}

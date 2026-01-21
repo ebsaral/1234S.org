@@ -368,3 +368,54 @@ header {
 .full-w-mx {
   @apply mx-6 sm:mx-6 md:mx-12;
 }
+
+.consequences {
+  @apply overflow-auto cursor-grab select-none scrollbar-green flex-1 w-full px-8 grid grid-cols-1 gap-5;
+}
+
+.consequences .header div {
+  @apply font-bold flex flex-row items-center gap-2 text-2xl;
+}
+
+.consequences .row {
+  @apply grid grid-cols-[minmax(300px,auto)_minmax(300px,auto)_minmax(300px,auto)] items-start justify-stretch;
+}
+
+.consequences .row div {
+  @apply py-4 px-6 h-full;
+}
+
+.consequences .row-item div {
+  @apply relative border-b-2;
+}
+
+.consequences .row-item .icon {
+  @apply absolute bottom-1/2 translate-y-1/2 -left-5 text-red-900;
+}
+
+@layer utilities {
+  .scrollbar-green {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(15, 124, 55) #dcfce7;
+  }
+
+  .scrollbar-green::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .scrollbar-green::-webkit-scrollbar-track {
+    background: #dcfce7;
+    border-radius: 999px;
+  }
+
+  .scrollbar-green::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #22c55e, #16a34a);
+    border-radius: 999px;
+    border: 2px solid #dcfce7;
+  }
+
+  .scrollbar-green::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #4ade80, #22c55e);
+  }
+}

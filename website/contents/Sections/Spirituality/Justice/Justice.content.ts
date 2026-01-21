@@ -18,17 +18,18 @@ interface JusticeContent {
   paragraph1: string;
   paragraph2: string;
   paragraph3: string;
-  positiveConsequences: {
+  consequences: {
     title: string;
-    nature: string;
-    health: string;
-    luck: string;
-  };
-  negativeConsequences: {
-    title: string;
-    nature: string;
-    health: string;
-    luck: string;
+    labels: {
+      source: string;
+      means: string;
+      result: string;
+    };
+    items: {
+      source: string;
+      means: string;
+      result: string;
+    }[];
   };
 }
 
@@ -115,49 +116,69 @@ const pageContent = {
       en: md('Equality is a **biological** and **ecological** truth.'),
       tr: md('Eşitlik **biyolojik ve ekolojik** bir gerçektir.'),
     }),
-    positiveConsequences: {
+    consequences: {
       title: t({
-        en: md('### Positive Consequences'),
-        tr: md('### Olumlu Sonuçlar'),
+        en: "You can understand how nature's justice generally applies punishment from this example table:",
+        tr: 'Doğadaki adaletin genel olarak nasıl cezalandırdığını bu örnek tablodan anlayabilirsiniz:',
       }),
-      nature: t({
-        en: md('Fertile soil, balanced weather conditions, and ecological harmony...'),
-        tr: md('Verimli toprak, dengeli hava koşulları ve ekolojik uyum...'),
-      }),
-      health: t({
-        en: md(
-          'Having a strong immune system, achieving robust mental health, increased talents, and a long lifespan...',
-        ),
-        tr: md(
-          'Güçlü bağışıklık sistemine sahip olmak, güçlü zihin sağlığına erişmek, yeteneklerde artış ve uzun ömür...',
-        ),
-      }),
-      luck: t({
-        en: md(
-          'Encountering supportive elements, discovering new opportunities, finding practical solutions, and gaining natural protection...',
-        ),
-        tr: md(
-          'Destekleyici unsurlarla karşılaşmak, yeni fırsatlar keşfetmek, pratik çözüm bulmak ve doğal korunma kazanmak...',
-        ),
-      }),
-    },
-    negativeConsequences: {
-      title: t({
-        en: md('### Negative Consequences'),
-        tr: md('### Olumsuz Sonuçlar'),
-      }),
-      nature: t({
-        en: md('Droughts, floods, hurricanes, fires, and global warming...'),
-        tr: md('Kuraklıklar, seller, kasırgalar, yangınlar ve küresel ısınma...'),
-      }),
-      health: t({
-        en: md('Physical and mental illnesses; heart attacks, genetic disorders, and pandemics...'),
-        tr: md('Fiziksel ve zihinsel hastalıklar; kalp krizleri, genetik bozukluklar ve pandemiler...'),
-      }),
-      luck: t({
-        en: md('Economic difficulties, missed opportunities, all kinds of home/work/street accidents...'),
-        tr: md('Ekonomik zorluklar, fırsat kayıpları, her türlü ev/iş/sokak kazaları...'),
-      }),
+      labels: {
+        source: t({
+          en: 'Source',
+          tr: 'Kaynak',
+        }),
+        means: t({
+          en: 'Means',
+          tr: 'Vesile',
+        }),
+        result: t({
+          en: 'Result',
+          tr: 'Sonuç',
+        }),
+      },
+      items: [
+        {
+          source: t({
+            en: 'A small community living around a lake and animals that live with them.',
+            tr: 'Bir göl etrafında yaşayan küçük bir topluluk ve onlarla birlikte yaşayan hayvanları.',
+          }),
+          means: t({
+            en: 'The community is constantly slaughtering animals for food or other purposes.',
+            tr: 'Topluluk beslenmek için veya başka amaçla hayvanları sürekli keserek yaşamdan koparıyor.',
+          }),
+          result: t({
+            en: "Air temperatures are rising and the lake is drying up. Thus, the community's source of livelihood is disappearing.",
+            tr: 'Hava sıcaklıkları artıyor ve göl kuruyor. Böylece topluluğun yaşam kaynağı ortadan kalkıyor.',
+          }),
+        },
+        {
+          source: t({
+            en: 'Scientists working in a laboratory and the animals they keep as test subjects.',
+            tr: 'Bir laboratuvarda çalışan bilim insanları ve denek olarak besledikleri hayvanları.',
+          }),
+          means: t({
+            en: 'Scientists torture or kill animals under the guise of experiments.',
+            tr: 'Bilim insanları deney bahanesiyle hayvanlara işkence ediyor veya yaşamdan koparıyorlar.',
+          }),
+          result: t({
+            en: 'Scientists are developing cancer, disabilities, or other illnesses depending on the level of violence they inflict.',
+            tr: 'Bilim insanları uyguladıkları şiddete göre kanser, sakatlık veya diğer hastalıklara yakalanıyorlar.',
+          }),
+        },
+        {
+          source: t({
+            en: "A company's executives, employees, and the products they launch.",
+            tr: 'Bir şirketin yöneticileri, çalışanları ve piyasaya sürdükleri ürünler.',
+          }),
+          means: t({
+            en: 'The company is adding harmful substances to its products or causing problems during use.',
+            tr: 'Şirket ürünlerine zararlı maddeler ekliyor veya kullanım esnasında olumsuzluklar yaşatıyor.',
+          }),
+          result: t({
+            en: 'With every negative event that occurs, the company suffers asset losses and its employees lose their health.',
+            tr: 'Yaşatılan her olumsuzlukta şirket varlık kaybı yaşıyor ve çalışanları sağlıklarını kaybediyor.',
+          }),
+        },
+      ],
     },
   },
 } satisfies Dictionary<JusticeContent>;
