@@ -6,7 +6,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import { Scale } from 'lucide-react';
-import Consequences from './Consequences';
+// import Consequences from './Consequences';
 import EqualityAndFreedom from './EqualityAndFreedom';
 import Statement from './Statement';
 
