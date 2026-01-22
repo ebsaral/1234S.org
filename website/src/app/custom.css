@@ -489,58 +489,70 @@
 
 @keyframes introGrow {
   0% {
-    transform: scale(0.05) translateZ(0);
-    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(0.04);
+    -webkit-transform: translate3d(0, 0, 0) scale(0.04);
+    opacity: 0.01;
   }
 
   60% {
-    transform: scale(1.06) translateZ(0); /* organic overshoot */
+    transform: translate3d(0, 0, 0) scale(1.06);
+    -webkit-transform: translate3d(0, 0, 0) scale(1.06);
     opacity: 1;
   }
 
   100% {
-    transform: scale(1) translateZ(0);
+    transform: translate3d(0, 0, 0) scale(1);
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
     opacity: 1;
   }
 }
 
-@keyframes idleBreath {
+@keyframes idleFlow {
   0% {
-    transform: scale(1) translateZ(0);
+    transform: translate3d(0, 0, 0) scale(1);
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
   }
   50% {
-    transform: scale(1.05) translateZ(0);
+    transform: translate3d(0, -3px, 0) scale(1.05);
+    -webkit-transform: translate3d(0, -3px, 0) scale(1.05);
   }
   100% {
-    transform: scale(1) translateZ(0);
+    transform: translate3d(0, 0, 0) scale(1);
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
   }
 }
 
-.intro-zoom-breathe {
+.intro-zoom-spin {
+  width: 100%;
+  height: 100%;
+
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+
   will-change: transform, opacity;
 
   animation:
     introGrow 2.5s cubic-bezier(0.22, 1, 0.36, 1) forwards,
-    idleBreath 3s ease-in-out infinite;
+    idleFlow 3s ease-in-out infinite;
 
-  animation-delay: 0s, 2.5s; /* idle starts exactly when intro ends */
+  animation-delay: 0s, 2.5s;
 }
 
 @keyframes glowPulse {
   0%,
   100% {
-    filter: drop-shadow(0 0 6px rgba(20, 90, 50, 0.5)) drop-shadow(0 0 18px rgba(20, 90, 50, 0.35))
-      drop-shadow(0 0 40px rgba(20, 90, 50, 0.25));
+    filter: drop-shadow(0 0 10px rgba(20, 90, 50, 0.5)) drop-shadow(0 0 28px rgba(20, 90, 50, 0.35))
+      drop-shadow(0 0 60px rgba(20, 90, 50, 0.25));
   }
 
   33% {
-    filter: drop-shadow(0 0 6px rgba(25, 60, 130, 0.5)) drop-shadow(0 0 18px rgba(25, 60, 130, 0.35))
-      drop-shadow(0 0 40px rgba(25, 60, 130, 0.25));
+    filter: drop-shadow(0 0 10px rgba(25, 60, 130, 0.5)) drop-shadow(0 0 28px rgba(25, 60, 130, 0.35))
+      drop-shadow(0 0 60px rgba(25, 60, 130, 0.25));
   }
 
   66% {
-    filter: drop-shadow(0 0 6px rgba(150, 80, 20, 0.3)) drop-shadow(0 0 18px rgba(150, 80, 20, 0.35))
-      drop-shadow(0 0 40px rgba(150, 80, 20, 0.25));
+    filter: drop-shadow(0 0 10px rgba(150, 80, 20, 0.5)) drop-shadow(0 0 28px rgba(150, 80, 20, 0.35))
+      drop-shadow(0 0 60px rgba(150, 80, 20, 0.25));
   }
 }
 

@@ -69,15 +69,17 @@ const Home = () => {
           >
             <div className='absolute inset-0 rounded-full bg-blue-950 blur-3xl opacity-60 animate-[pulse_3s_ease-in-out_infinite] p-50' />
             {screenSize != ScreenSize.z && (
-              <div className='m-10 intro-zoom-breathe relative' style={{ width: logoSize, height: logoSize }}>
-                {/* glow behind */}
-                <div
-                  className='absolute inset-0 glow-pulse pointer-events-none'
-                  dangerouslySetInnerHTML={{ __html: svg }}
-                />
+              <div className='m-10 relative' style={{ width: logoSize, height: logoSize }}>
+                <div className='intro-zoom-spin w-full h-full relative'>
+                  {/* glow behind */}
+                  <div
+                    className='absolute inset-0 glow-pulse pointer-events-none'
+                    dangerouslySetInnerHTML={{ __html: svg }}
+                  />
 
-                {/* clean svg on top */}
-                <div className='relative z-10' dangerouslySetInnerHTML={{ __html: svg }} />
+                  {/* clean svg on top */}
+                  <div className='relative z-10' dangerouslySetInnerHTML={{ __html: svg }} />
+                </div>
               </div>
             )}
 
