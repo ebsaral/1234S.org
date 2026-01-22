@@ -5,10 +5,10 @@ import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
+import Consequences from '@/app/components/Sections/Justice/Consequences';
+import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
+import Statement from '@/app/components/Sections/Justice/Statement';
 import { Scale } from 'lucide-react';
-import Consequences from './Consequences';
-import EqualityAndFreedom from './EqualityAndFreedom';
-import Statement from './Statement';
 
 const Justice = () => {
   const id = '2';
