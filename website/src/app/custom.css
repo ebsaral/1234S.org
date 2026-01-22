@@ -507,7 +507,7 @@
     transform: translate3d(0, 0, 0) scale(1);
   }
   50% {
-    transform: translate3d(0, -3px, 0) scale(1.035);
+    transform: translate3d(0, -3px, 0) scale(1.05);
   }
   100% {
     transform: translate3d(0, 0, 0) scale(1);
@@ -522,7 +522,7 @@
 
   animation:
     introGrow 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards,
-    idleBreath 5s ease-in-out infinite;
+    idleBreath 4s ease-in-out infinite;
 
   animation-delay: 0s, 1.1s;
 }
