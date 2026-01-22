@@ -1,14 +1,12 @@
 'use client';
 
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
 import BlueButton from '../Custom/Buttons/BlueButton';
 import SupportLink from '../Custom/Buttons/SupportLink';
-import FormattedText from '../Custom/FormattedText';
 import Title from '../Custom/Title';
 import Team from '../Sections/Team';
 
@@ -22,6 +20,14 @@ const Home = () => {
   const MID_SIZE = 220;
   const MIN_SIZE = 180;
   const IMG_MARGIN = 40;
+
+  const [svg, setSvg] = useState('');
+
+  useEffect(() => {
+    fetch(content.logo.href.value)
+      .then((r) => r.text())
+      .then(setSvg);
+  }, []);
 
   useEffect(() => {
     if (screenSize == ScreenSize.sm) {
@@ -58,19 +64,14 @@ const Home = () => {
           <div className='stars' />
           {/* Logo */}
           <div
-            className={`relative flex items-center justify-center caret-transparent`}
+            className={`relative inline-flex items-center justify-center caret-transparent`}
             style={{ minHeight: MAX_SIZE + IMG_MARGIN }}
           >
+            <div className='absolute inset-0 rounded-full bg-blue-950 blur-3xl opacity-60 animate-[pulse_3s_ease-in-out_infinite] p-50' />
             {screenSize != ScreenSize.z && (
-              <Image
-                className='m-10 rounded-full animate-zoom-spin'
-                src={content.logo.href.value}
-                title={content.logo.title.value}
-                alt={content.logo.title.value}
-                priority={false}
-                width={logoSize}
-                height={logoSize}
-              />
+              <div className='m-10 intro-zoom-spin' style={{ width: logoSize, height: logoSize }}>
+                <div className='w-full h-full glow-after-intro' dangerouslySetInnerHTML={{ __html: svg }} />
+              </div>
             )}
 
             {/* Orbit container */}

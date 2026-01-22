@@ -486,3 +486,42 @@
   background-size: 160px 80px;
   background-repeat: repeat;
 }
+
+@keyframes introZoomSpin {
+  0% {
+    transform: scale(0.6) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+.intro-zoom-spin {
+  animation: introZoomSpin 1.8s ease-out forwards;
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 6px rgba(20, 90, 50, 0.5)) drop-shadow(0 0 18px rgba(20, 90, 50, 0.35))
+      drop-shadow(0 0 40px rgba(20, 90, 50, 0.25));
+  }
+
+  33% {
+    filter: drop-shadow(0 0 6px rgba(25, 60, 130, 0.5)) drop-shadow(0 0 18px rgba(25, 60, 130, 0.35))
+      drop-shadow(0 0 40px rgba(25, 60, 130, 0.25));
+  }
+
+  66% {
+    filter: drop-shadow(0 0 6px rgba(150, 80, 20, 0.3)) drop-shadow(0 0 18px rgba(150, 80, 20, 0.35))
+      drop-shadow(0 0 40px rgba(150, 80, 20, 0.25));
+  }
+}
+
+.glow-after-intro {
+  animation: glowPulse 6s ease-in-out infinite;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}

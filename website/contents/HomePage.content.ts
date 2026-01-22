@@ -13,7 +13,7 @@ const pageContent = {
         en: '1234 Science & Art Association Logo',
         tr: '1234 Sanat ve İlim Derneği Logo',
       }),
-      href: '/logos/logo-bg-white.png',
+      href: '/logos/logo.svg',
     },
     intro: t({
       en: md(
