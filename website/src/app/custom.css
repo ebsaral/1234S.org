@@ -487,19 +487,43 @@
   background-repeat: repeat;
 }
 
-@keyframes introZoomSpin {
+@keyframes introGrow {
   0% {
-    transform: scale(0.6) rotate(0deg);
+    transform: scale(0.05) translateZ(0);
     opacity: 0;
   }
+
+  60% {
+    transform: scale(1.06) translateZ(0); /* organic overshoot */
+    opacity: 1;
+  }
+
   100% {
-    transform: scale(1) rotate(360deg);
+    transform: scale(1) translateZ(0);
     opacity: 1;
   }
 }
 
-.intro-zoom-spin {
-  animation: introZoomSpin 1.8s ease-out forwards;
+@keyframes idleBreath {
+  0% {
+    transform: scale(1) translateZ(0);
+  }
+  50% {
+    transform: scale(1.05) translateZ(0);
+  }
+  100% {
+    transform: scale(1) translateZ(0);
+  }
+}
+
+.intro-zoom-breathe {
+  will-change: transform, opacity;
+
+  animation:
+    introGrow 2.5s cubic-bezier(0.22, 1, 0.36, 1) forwards,
+    idleBreath 3s ease-in-out infinite;
+
+  animation-delay: 0s, 2.5s; /* idle starts exactly when intro ends */
 }
 
 @keyframes glowPulse {
@@ -520,8 +544,7 @@
   }
 }
 
-.glow-after-intro {
+.glow-pulse {
   animation: glowPulse 6s ease-in-out infinite;
-  animation-delay: 1s;
-  animation-fill-mode: both;
+  will-change: filter;
 }
