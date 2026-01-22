@@ -45,10 +45,6 @@ const Justice = () => {
           <Consequences />
         </div>
         <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph3}</article>
-
-        <Statement />
-        {/* Decorative Elements max-w-4xl mx-auto px-6 sm:px-10 py-0 sm:py-5  */}
-        <div className='-z-10 absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
       </section>
     </MarkdownProvider>
   );

@@ -63,8 +63,8 @@ const Consequences = ({ className = '' }: { className?: string }) => {
 
   return (
     <MarkdownProvider renderMarkdown={(md) => <Markdown remarkPlugins={[remarkGfm]}>{md}</Markdown>}>
-      <div className='w-full flex flex-col items-left gap-0'>
-        <h3 className='text-base mb-5 text-left'>{content.consequences.title}</h3>
+      <div className='flex flex-col items-left gap-0'>
+        <h3 className='text-base px-5 mb-5 text-left'>{content.consequences.title}</h3>
         <div ref={ref} className='consequences' style={{ touchAction: 'pan-y' }}>
           <div className='header row '>
             <div className='text-blue-600'>

@@ -1,7 +1,7 @@
 'use client';
 
 import EndingSection from '@/app/components/Sections/EndingSection';
-import HealthSection from '@/app/components/Sections/HealthSection';
+import { Health } from '@/app/components/Sections/Health';
 import Hero from '@/app/components/Sections/Hero';
 import { Interconnectedness } from '@/app/components/Sections/Interconnectedness';
 import Intro from '@/app/components/Sections/Intro';
@@ -18,7 +18,7 @@ const Philosophy = () => {
       <Intro />
       <Interconnectedness />
       <Justice />
-      <HealthSection />
+      <Health />
       <EndingSection id='ending' />
     </main>
   );

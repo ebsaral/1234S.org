@@ -6,7 +6,7 @@ import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import FormattedText from '../../Custom/FormattedText';
+import Quote from '../Quote';
 
 const Interconnectedness = () => {
   const id = '1';
@@ -46,13 +46,7 @@ const Interconnectedness = () => {
               </h3>
             </article>
 
-            <div className='relative'>
-              <div className='absolute top-3 left-7 text-7xl text-emerald-600'>“</div>
-              <blockquote className='max-w-4xl m-10 px-8 sm:px-12 py-10 text-center text-lg sm:text-xl lg:text-2xl bg-white rounded-3xl'>
-                {content.quote}
-              </blockquote>
-              <div className='absolute -bottom-5 right-7 text-7xl text-emerald-600'>”</div>
-            </div>
+            <Quote text={content.quote.value} />
 
             <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
               {content.description}

@@ -41,12 +41,9 @@ export default {
       tr: 'Birleşik Bir Yaşam',
     }),
     quote: t({
-      en: md(
-        'Just as the organs in a body are dependent on each other, all living beings are also dependent on one another through visible and invisible connections.',
-      ),
-      tr: md(
-        'Tıpkı bir vücuttaki organların birbirlerine bağımlı olması gibi, tüm canlılar da görünür ve görünmez bağlar aracılığıyla birbirlerine bağımlıdır.',
-      ),
+      en: 'Just as the organs in a body are dependent on each other, all living beings are also dependent on one another through visible and invisible connections.',
+
+      tr: 'Tıpkı bir vücuttaki organların birbirlerine bağımlı olması gibi, tüm canlılar da görünür ve görünmez bağlar aracılığıyla birbirlerine bağımlıdır.',
     }),
     description: t({
       en: md(

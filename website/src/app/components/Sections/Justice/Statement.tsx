@@ -6,17 +6,18 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import { Sun, TreePine } from 'lucide-react';
-const Statement = () => {
+
+const Statement = ({ className }: { className?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section className='relative mx-auto w-full py-12 px-6'>
+      <section className={`relative mx-auto py-12 px-6 ${className}`}>
         {/* fractal background */}
         <div className='absolute inset-0 bg-effect opacity-70' />
 
-        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-24 bg-green-100/90 rounded-2xl'>
+        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-24 bg-green-100/90 rounded-2xl text-center'>
           {/* Background Icon */}
           <Sun
             className='
@@ -42,7 +43,7 @@ const Statement = () => {
           select-none
         '
           />
-          <div className='relative z-10 text-center'>{content.statement}</div>
+          {content.statement}
         </article>
       </section>
     </MarkdownProvider>

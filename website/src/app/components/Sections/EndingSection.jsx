@@ -2,7 +2,6 @@
 
 import { Lightbulb } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
-import React from 'react';
 import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 import FormattedText from '../Custom/FormattedText';
 import { Card, CardContent } from '../ui/card';
@@ -12,7 +11,7 @@ const EndingSection = ({ id }) => {
   const [sectionRef, isSectionVisible] = useIntersectionObserver();
 
   return (
-    <section id={id} ref={sectionRef} className='mb-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden'>
+    <section id={id} ref={sectionRef} className='-mt-10 mb-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden'>
       <div className='max-w-6xl mx-auto mt-10 px-4 sm:px-6 lg:px-8'>
         {/* Completion Statement */}
         <div className='text-center'>
@@ -25,7 +24,7 @@ const EndingSection = ({ id }) => {
             </CardContent>
           </Card>
         </div>
-        <div className='max-w-5xl text-center my-5'>
+        <div className='max-w-5xl text-center mt-10 mb-5'>
           <em>
             <FormattedText text={content.progress.value} />
           </em>

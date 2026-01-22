@@ -370,7 +370,7 @@ header {
 }
 
 .consequences {
-  @apply overflow-auto cursor-grab select-none scrollbar-green flex-1 w-full px-8 grid grid-cols-1 gap-5;
+  @apply overflow-auto cursor-grab select-none scrollbar-green flex-1 w-full grid grid-cols-1 gap-5;
 }
 
 .consequences .header div {
