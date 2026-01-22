@@ -8,8 +8,8 @@ const pageContent = {
       tr: 'Sağlık',
     }),
     subtitle: t({
-      en: 'The Mirror of Justice in Nature',
-      tr: 'Doğadaki Adaletin Aynası',
+      en: 'The Mirror of Justice',
+      tr: 'Adaletin Aynası',
     }),
     quote: t({
       en: "The human body itself proves the logic to be observed. Our physical and mental health directly reflects alignment with nature's justice and the quality of our relationships.",
