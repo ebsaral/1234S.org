@@ -7,7 +7,6 @@ import remarkGfm from 'remark-gfm';
 
 import Consequences from '@/app/components/Sections/Justice/Consequences';
 import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
-import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { Scale } from 'lucide-react';
@@ -17,18 +16,11 @@ const Justice = ({ id }: { id?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
   const ref = useRef<HTMLDivElement | null>(null);
-  const [setRef, isIntersecting] = useIntersectionObserver();
+  const [isIntersecting] = useIntersectionObserver(ref);
   const { setActiveMenu } = useMenu();
-  const { setHash } = useHash();
 
   useEffect(() => {
-    if (setRef) {
-      setRef(ref);
-    }
     if (isIntersecting) {
-      if (id) {
-        setHash(id);
-      }
       setActiveMenu({ root: 'philosophy', child: id });
     }
   }, [isIntersecting]);

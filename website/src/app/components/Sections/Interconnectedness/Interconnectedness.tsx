@@ -4,7 +4,6 @@ import { Globe } from 'lucide-react';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 
 import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
-import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
@@ -12,29 +11,22 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Quote from '../Quote';
 
-const Interconnectedness = ({ id }: { id?: string }) => {
+const Interconnectedness = ({ id }: { id: string }) => {
   const sectionKey = 'interconnectedness';
   const content = useIntlayer(`${sectionKey}-section`);
   const ref = useRef<HTMLDivElement | null>(null);
-  const [setRef, isIntersecting] = useIntersectionObserver();
+  const [isIntersecting] = useIntersectionObserver(ref);
   const { setActiveMenu } = useMenu();
-  const { setHash } = useHash();
 
   useEffect(() => {
-    if (setRef) {
-      setRef(ref);
-    }
     if (isIntersecting) {
-      if (id) {
-        setHash(id);
-      }
       setActiveMenu({ root: 'philosophy', child: id });
     }
-  }, [setRef, isIntersecting]);
+  }, [ref.current, isIntersecting]);
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
+      <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden py-0'>
         {/* Decorative Elements */}
         <div className='-z-10 absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-white to-transparent' />
 

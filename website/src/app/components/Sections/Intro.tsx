@@ -1,6 +1,5 @@
 'use client';
 
-import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { CircleQuestionMark, Sparkles } from 'lucide-react';
@@ -20,21 +19,14 @@ const Intro = ({ id }: { id?: string }) => {
   const [thin, setThin] = useState(false);
 
   const ref = useRef<HTMLDivElement | null>(null);
-  const [setRef, isIntersecting] = useIntersectionObserver();
+  const [isIntersecting] = useIntersectionObserver(ref);
   const { setActiveMenu } = useMenu();
-  const { setHash } = useHash();
 
   useEffect(() => {
-    if (setRef) {
-      setRef(ref);
-    }
     if (isIntersecting) {
-      if (id) {
-        setHash(id);
-      }
       setActiveMenu({ root: 'philosophy', child: id });
     }
-  }, [isIntersecting]);
+  }, [ref.current, isIntersecting]);
 
   const updatePath = (scrollY = 0) => {
     if (!articleRef.current || !leftH3Ref.current || !rightH3Ref.current) return;

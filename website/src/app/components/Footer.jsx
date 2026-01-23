@@ -5,15 +5,12 @@ import { SocialIcon } from 'react-social-icons';
 
 import { Locales } from 'intlayer';
 import { Feather } from 'lucide-react';
-import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import JoinLink from './Custom/Buttons/JoinLink';
-import Description from './Custom/Description';
 import FormattedText from './Custom/FormattedText';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');
   const { locale, pathWithoutLocale } = useLocale();
-  const [sectionRef] = useIntersectionObserver();
 
   const canShowJoinLink = () => {
     if (['/', '/membership', '/support'].includes(pathWithoutLocale)) return false;
@@ -21,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id='contact' ref={sectionRef} className='stars-box py-10'>
+    <footer id='contact' className='stars-box py-10'>
       <div className='stars'></div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='max-w-7xl flex flex-col justify-center items-center gap-8'>

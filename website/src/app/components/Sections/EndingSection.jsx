@@ -1,17 +1,26 @@
 'use client';
-
+import { useMenu } from '@/app/hooks/useMenu';
 import { Lightbulb } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
+import { useEffect, useRef } from 'react';
 import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 import FormattedText from '../Custom/FormattedText';
 import { Card, CardContent } from '../ui/card';
 
 const EndingSection = ({ id }) => {
   const content = useIntlayer('ending-section');
-  const [sectionRef, isSectionVisible] = useIntersectionObserver();
+  const ref = useRef(null);
+  const { setActiveMenu } = useMenu();
+  const [isIntersecting] = useIntersectionObserver(ref);
+
+  useEffect(() => {
+    if (isIntersecting) {
+      setActiveMenu({ root: 'philosophy' });
+    }
+  }, [isIntersecting]);
 
   return (
-    <section id={id} ref={sectionRef} className='-mt-10 mb-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden'>
+    <section id={id} ref={ref} className='-mt-10 mb-10 bg-gradient-to-b from-gray-50 to-white overflow-hidden'>
       <div className='max-w-6xl mx-auto mt-10 px-4 sm:px-6 lg:px-8'>
         {/* Completion Statement */}
         <div className='text-center'>

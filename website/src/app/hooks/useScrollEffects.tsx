@@ -27,11 +27,8 @@ export const useScrollEffects = () => {
   return { scrollY, scrollDirection };
 };
 
-type Is = [Dispatch<SetStateAction<RefObject<HTMLDivElement | null> | undefined>>, boolean];
-
-export const useIntersectionObserver = (options = {}): Is => {
+export const useIntersectionObserver = (ref: RefObject<HTMLDivElement | null>, options = {}) => {
   const [isIntersecting, setIsIntersecting] = useState(false);
-  const [ref, setRef] = useState<RefObject<HTMLDivElement | null>>();
 
   useEffect(() => {
     if (ref) {
@@ -40,8 +37,8 @@ export const useIntersectionObserver = (options = {}): Is => {
           setIsIntersecting(entry.isIntersecting);
         },
         {
-          threshold: 0.1,
-          rootMargin: '-50px',
+          threshold: [0, 0.2, 0.3, 0.5, 1],
+          rootMargin: '-80px',
           ...options,
         },
       );
@@ -53,5 +50,5 @@ export const useIntersectionObserver = (options = {}): Is => {
     }
   }, [ref, options]);
 
-  return [setRef, isIntersecting];
+  return [isIntersecting];
 };

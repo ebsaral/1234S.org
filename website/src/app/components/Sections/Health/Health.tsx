@@ -17,14 +17,11 @@ const Health = ({ id }: { id?: string }) => {
   const sectionKey = 'health';
   const content = useIntlayer(`${sectionKey}-section`);
   const ref = useRef<HTMLDivElement | null>(null);
-  const [setRef, isIntersecting] = useIntersectionObserver();
+  const [isIntersecting] = useIntersectionObserver(ref);
   const { setActiveMenu } = useMenu();
   const { setHash } = useHash();
 
   useEffect(() => {
-    if (setRef) {
-      setRef(ref);
-    }
     if (isIntersecting) {
       if (id) {
         setHash(id);

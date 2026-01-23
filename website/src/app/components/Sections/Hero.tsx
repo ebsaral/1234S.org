@@ -1,6 +1,5 @@
 'use client';
 
-import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { ArrowDown, Globe, Heart, Scale } from 'lucide-react';
 import { useIntlayer, useLocale } from 'next-intlayer';
@@ -14,21 +13,14 @@ const Hero = () => {
   const parallaxOffset = scrollY * 0.5;
 
   const ref = useRef<HTMLDivElement | null>(null);
-  const [setRef, isIntersecting] = useIntersectionObserver();
+  const [isIntersecting] = useIntersectionObserver(ref);
   const { setActiveMenu } = useMenu();
-  const { hash, setHash } = useHash();
 
   useEffect(() => {
-    if (setRef) {
-      setRef(ref);
-    }
     if (isIntersecting) {
-      if (hash) {
-        setHash('');
-      }
       setActiveMenu({ root: 'philosophy' });
     }
-  }, [isIntersecting]);
+  }, [ref.current, isIntersecting]);
 
   return (
     <section ref={ref} className='relative min-h-screen flex items-center justify-center overflow-hidden pt-16'>
