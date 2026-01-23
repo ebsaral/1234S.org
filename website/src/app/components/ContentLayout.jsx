@@ -2,7 +2,6 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import { useIntersectionObserver } from '../hooks/useScrollEffects';
 import Description from './Custom/Description';
 import Quote from './Custom/Quote';
 
@@ -22,7 +21,6 @@ const ContentLayout = ({
   descriptionItalicColor,
   children,
 }) => {
-  const [sectionRef] = useIntersectionObserver();
   const content = useIntlayer(`${sectionKey}-section`);
 
   const Icon = icon;
@@ -49,7 +47,7 @@ const ContentLayout = ({
   };
 
   return (
-    <section id={id} ref={sectionRef} className={`relative py-24 px-2 overflow-hidden ${className || ''}`}>
+    <section id={id} className={`relative py-24 px-2 overflow-hidden ${className || ''}`}>
       {/* Background Color */}
       <div className={`absolute inset-0 ${getBackgroundColor()}`} />
 
