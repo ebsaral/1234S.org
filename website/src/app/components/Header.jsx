@@ -8,6 +8,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import { ChevronDown, Menu, X } from 'lucide-react';
 import useHash from '../hooks/useHash';
+import { useMenu } from '../hooks/useMenu';
 import { useScrollEffects } from '../hooks/useScrollEffects';
 import SupportLink from './Custom/Buttons/SupportLink';
 import { Button } from './ui/button';
@@ -20,11 +21,12 @@ const Header = () => {
   const velocity = useRef(0);
   const rotation = useRef(0);
   const raf = useRef(null);
-  const [hash, setHash] = useHash();
+  const { setHash } = useHash();
   const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer('navigation');
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { activeMenu } = useMenu();
 
   const isScrolled = scrollY > 50;
 
@@ -74,6 +76,8 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {}, [activeMenu]);
+
   const scrollToSection = (href, hash) => {
     const element = document.querySelector(href);
     if (element) {
@@ -84,17 +88,14 @@ const Header = () => {
   };
 
   const isActiveSection = (itemKey, childHash) => {
-    const section = navItems.find((item) => item.key === itemKey);
-    if (!section) return false;
-
-    if (section.href == pathWithoutLocale) {
+    if (activeMenu.root === itemKey) {
       if (childHash) {
-        if (hash === childHash) {
+        if (activeMenu.child && activeMenu.child === childHash) {
           return true;
+        } else {
+          return false;
         }
-        return false;
       }
-
       return true;
     }
 
@@ -185,7 +186,6 @@ const Header = () => {
                     opacity-0 invisible
                     group-hover:opacity-100 group-hover:visible
                     transition-all duration-200
-                     
                   '
                     >
                       {item.children.map((childItem, index) => (

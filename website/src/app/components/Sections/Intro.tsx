@@ -1,5 +1,8 @@
 'use client';
 
+import useHash from '@/app/hooks/useHash';
+import { useMenu } from '@/app/hooks/useMenu';
+import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { CircleQuestionMark, Sparkles } from 'lucide-react';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import { useEffect, useRef, useState } from 'react';
@@ -15,6 +18,23 @@ const Intro = ({ id }: { id?: string }) => {
   const [path, setPath] = useState('');
   const [knots, setKnots] = useState<{ x: number; y: number }[]>([]);
   const [thin, setThin] = useState(false);
+
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [setRef, isIntersecting] = useIntersectionObserver();
+  const { setActiveMenu } = useMenu();
+  const { setHash } = useHash();
+
+  useEffect(() => {
+    if (setRef) {
+      setRef(ref);
+    }
+    if (isIntersecting) {
+      if (id) {
+        setHash(id);
+      }
+      setActiveMenu({ root: 'philosophy', child: id });
+    }
+  }, [isIntersecting]);
 
   const updatePath = (scrollY = 0) => {
     if (!articleRef.current || !leftH3Ref.current || !rightH3Ref.current) return;
@@ -105,7 +125,7 @@ const Intro = ({ id }: { id?: string }) => {
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section id={id} className='max-w-screen mx-auto overflow-hidden'>
+      <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
         {/* Introduction */}
         <div className='mt-32 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
           <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>

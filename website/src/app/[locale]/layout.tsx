@@ -20,6 +20,7 @@ import Header from '@/app/components/Header';
 
 import '../App.css';
 import '../custom.css';
+import { MenuProvider } from '../hooks/useMenu';
 
 export { generateStaticParams };
 
@@ -77,12 +78,14 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
       <body>
         <IntlayerServerProvider locale={locale}>
           <IntlayerClientProvider locale={locale}>
-            <div className='App'>
-              <Header />
-              <div id='scroll-to-top'></div>
-              {children}
-              <Footer />
-            </div>
+            <MenuProvider>
+              <div className='App'>
+                <Header />
+                <div id='scroll-to-top'></div>
+                {children}
+                <Footer />
+              </div>
+            </MenuProvider>
           </IntlayerClientProvider>
         </IntlayerServerProvider>
 

@@ -1,7 +1,9 @@
 'use client';
 
+import { useMenu } from '@/app/hooks/useMenu';
+import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
@@ -22,8 +24,10 @@ const Home = () => {
   const IMG_MARGIN = 40;
 
   const [svg, setSvg] = useState('');
+  const { setActiveMenu } = useMenu();
 
   useEffect(() => {
+    setActiveMenu({ root: 'home' });
     fetch(content.logo.href.value)
       .then((r) => r.text())
       .then(setSvg);

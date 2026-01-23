@@ -7,16 +7,35 @@ import remarkGfm from 'remark-gfm';
 
 import Consequences from '@/app/components/Sections/Justice/Consequences';
 import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
-import Statement from '@/app/components/Sections/Justice/Statement';
+import useHash from '@/app/hooks/useHash';
+import { useMenu } from '@/app/hooks/useMenu';
+import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { Scale } from 'lucide-react';
+import { useEffect, useRef } from 'react';
 
 const Justice = ({ id }: { id?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [setRef, isIntersecting] = useIntersectionObserver();
+  const { setActiveMenu } = useMenu();
+  const { setHash } = useHash();
+
+  useEffect(() => {
+    if (setRef) {
+      setRef(ref);
+    }
+    if (isIntersecting) {
+      if (id) {
+        setHash(id);
+      }
+      setActiveMenu({ root: 'philosophy', child: id });
+    }
+  }, [isIntersecting]);
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section id={id} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
+      <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
         <article className='prose-custom-all max-w-4xl mx-auto px-6'>
           <div className='w-full mx-auto text-center'>
             <Scale className='relative -z-10 mx-auto text-green-200/80' size={250} />

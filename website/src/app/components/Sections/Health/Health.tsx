@@ -5,6 +5,10 @@ import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 
 import { Analogy } from '@/app/components/Sections/Health';
 import { Statement } from '@/app/components/Sections/Justice';
+import useHash from '@/app/hooks/useHash';
+import { useMenu } from '@/app/hooks/useMenu';
+import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
+import { useEffect, useRef } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Quote from '../Quote';
@@ -12,10 +16,26 @@ import Quote from '../Quote';
 const Health = ({ id }: { id?: string }) => {
   const sectionKey = 'health';
   const content = useIntlayer(`${sectionKey}-section`);
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [setRef, isIntersecting] = useIntersectionObserver();
+  const { setActiveMenu } = useMenu();
+  const { setHash } = useHash();
+
+  useEffect(() => {
+    if (setRef) {
+      setRef(ref);
+    }
+    if (isIntersecting) {
+      if (id) {
+        setHash(id);
+      }
+      setActiveMenu({ root: 'philosophy', child: id });
+    }
+  }, [isIntersecting]);
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section id={id} className='relative max-w-screen mx-auto'>
+      <section id={id} ref={ref} className='relative max-w-screen mx-auto'>
         {/* Background Color */}
         <div className={`-z-10 absolute inset-0 bg-rose-50`} />
 

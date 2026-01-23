@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Dispatch, RefObject, SetStateAction, useEffect, useState } from 'react';
 
 export const useScrollEffects = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -27,26 +27,30 @@ export const useScrollEffects = () => {
   return { scrollY, scrollDirection };
 };
 
-export const useIntersectionObserver = (options = {}) => {
+type Is = [Dispatch<SetStateAction<RefObject<HTMLDivElement | null> | undefined>>, boolean];
+
+export const useIntersectionObserver = (options = {}): Is => {
   const [isIntersecting, setIsIntersecting] = useState(false);
-  const [ref, setRef] = useState(null);
+  const [ref, setRef] = useState<RefObject<HTMLDivElement | null>>();
 
   useEffect(() => {
-    if (!ref) return;
+    if (ref) {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          setIsIntersecting(entry.isIntersecting);
+        },
+        {
+          threshold: 0.1,
+          rootMargin: '-50px',
+          ...options,
+        },
+      );
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsIntersecting(entry.isIntersecting);
-      },
-      {
-        threshold: 0.1,
-        rootMargin: '-50px',
-        ...options,
-      },
-    );
-
-    observer.observe(ref);
-    return () => observer.disconnect();
+      if (ref.current) observer.observe(ref.current);
+      return () => {
+        if (ref.current) observer.unobserve(ref.current);
+      };
+    }
   }, [ref, options]);
 
   return [setRef, isIntersecting];

@@ -17,7 +17,7 @@ const useHash = () => {
     return () => window.removeEventListener('hashchange', readHash);
   }, []);
 
-  return [hash, setHash];
+  return { hash, setHash };
 };
 
 export default useHash;
