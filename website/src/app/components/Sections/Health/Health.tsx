@@ -22,7 +22,7 @@ const Health = () => {
 
         {/* Gradient Overlay */}
         <div className={`-z-10 absolute inset-0 bg-gradient-to-br from-rose-50 to-pink-50 opacity-80`} />
-        <Statement />
+        <Statement className='border-b-2 border-green-700/80' />
 
         <div className='relative max-w-4xl mx-auto px-4'>
           {/* Header */}

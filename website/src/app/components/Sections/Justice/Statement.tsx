@@ -13,7 +13,7 @@ const Statement = ({ className }: { className?: string }) => {
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <section className={`relative mx-auto py-12 px-6 overflow-hidden border-b-2 border-green-700/80 ${className}`}>
+      <section className={`relative mx-auto py-12 px-6 overflow-hidden ${className}`}>
         {/* fractal background */}
         <div className='absolute inset-0 bg-effect opacity-70' />
 
