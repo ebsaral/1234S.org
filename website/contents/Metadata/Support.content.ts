@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'support-page-metadata',
   content: {
     title: t({
-      en: 'Support Us | 1234 Science & Art Association',
-      tr: 'Destek Olun | 1234 Sanat ve İlim Derneği',
+      en: 'Support Us! | 1234 Science & Art Association',
+      tr: 'Destek Olun! | 1234 Sanat ve İlim Derneği',
     }),
     description: t({
       en: 'Support us to reach a better life all together through Interconnectedness, Justice, and Health.',

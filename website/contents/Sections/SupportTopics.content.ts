@@ -4,8 +4,8 @@ const pageContent = {
   key: 'support-topics-section',
   content: {
     title: t({
-      en: 'Support Categories',
-      tr: 'Destek Kategorileri',
+      en: 'Support Options',
+      tr: 'Destek Seçenekleri',
     }),
     description: t({
       en: 'Here you will find the paths and methods our association aims to follow to detail its research and development topics. We would appreciate any support you can provide!',
