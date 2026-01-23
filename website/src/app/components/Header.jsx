@@ -34,10 +34,10 @@ const Header = () => {
       key: 'philosophy',
       href: '/philosophy',
       children: [
-        { key: 'intro', hash: '0', href: '/philosophy#0' },
-        { key: 'interconnectedness', hash: '1', href: '/philosophy#1' },
-        { key: 'justice', hash: '2', href: '/philosophy#2' },
-        { key: 'health', hash: '3', href: '/philosophy#3' },
+        { key: 'intro', hash: content.intro.hash.value },
+        { key: 'interconnectedness', hash: content.interconnectedness.hash.value },
+        { key: 'justice', hash: content.justice.hash.value },
+        { key: 'health', hash: content.health.hash.value },
       ],
     },
     { key: 'mission', href: '/mission' },
@@ -105,6 +105,10 @@ const Header = () => {
     await setLocale(newLocale);
     const newUrl = getLocalizedUrl(pathWithoutLocale, newLocale);
     history.pushState({}, null, newUrl);
+  };
+
+  const getItemHref = (hash) => {
+    return `/philosophy#${hash}`;
   };
 
   return (
@@ -187,7 +191,7 @@ const Header = () => {
                       {item.children.map((childItem, index) => (
                         <li key={index}>
                           <Link
-                            href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
+                            href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
                             aria-label={content[childItem.key].text.value}
                             onClick={() => {
                               scrollToSection(`#${childItem.hash}`, childItem.hash);
@@ -296,7 +300,7 @@ const Header = () => {
                       <li key={index} className='pl-4'>
                         <Link
                           key={childItem.key}
-                          href={getLocalizedUrl(item.href + '#' + childItem.hash, locale)}
+                          href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
                           aria-label={content[childItem.key].text.value}
                           onClick={() => scrollToSection(`#${childItem.hash}`, childItem.hash)}
                           className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${

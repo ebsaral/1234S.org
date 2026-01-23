@@ -8,8 +8,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Quote from '../Quote';
 
-const Interconnectedness = () => {
-  const id = '1';
+const Interconnectedness = ({ id }: { id?: string }) => {
   const sectionKey = 'interconnectedness';
   const content = useIntlayer(`${sectionKey}-section`);
 

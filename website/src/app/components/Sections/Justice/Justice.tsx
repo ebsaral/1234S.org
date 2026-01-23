@@ -10,8 +10,7 @@ import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFre
 import Statement from '@/app/components/Sections/Justice/Statement';
 import { Scale } from 'lucide-react';
 
-const Justice = () => {
-  const id = '2';
+const Justice = ({ id }: { id?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
 

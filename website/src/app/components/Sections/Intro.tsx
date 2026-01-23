@@ -7,8 +7,7 @@ import { useEffect, useRef, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-const Intro = () => {
-  const id = '0';
+const Intro = ({ id }: { id?: string }) => {
   const content = useIntlayer('intro-section');
   const articleRef = useRef<HTMLElement>(null);
   const leftH3Ref = useRef<HTMLHeadingElement>(null);

@@ -1,5 +1,38 @@
 import { Locales, t, type Dictionary } from 'intlayer';
 
+type Link = {
+  text: string;
+};
+
+type SubLink = Link & {
+  hash: string;
+};
+
+interface NavigationContent {
+  webpage: {
+    title: string;
+    link: string;
+  };
+  home: Link;
+  about: Link;
+  philosophy: Link;
+  mission: Link;
+  support: Link;
+  project: Link;
+  contact: Link;
+  intro: SubLink;
+  interconnectedness: SubLink;
+  justice: SubLink;
+  health: SubLink;
+  language: string;
+  flags: {
+    [Locales.ENGLISH]: string;
+    [Locales.TURKISH]: string;
+  };
+  budgetIssue: string;
+  closeButton: string;
+}
+
 const pageContent = {
   key: 'navigation',
   content: {
@@ -45,24 +78,28 @@ const pageContent = {
         en: 'Intro',
         tr: 'Giriş',
       }),
+      hash: 'a',
     },
     interconnectedness: {
       text: t({
         en: 'Interconnectedness',
         tr: 'Bütünlük',
       }),
+      hash: 'b',
     },
     justice: {
       text: t({
         en: 'Justice',
         tr: 'Adalet',
       }),
+      hash: 'c',
     },
     health: {
       text: t({
         en: 'Health',
         tr: 'Sağlık',
       }),
+      hash: 'd',
     },
     project: {
       text: t({
@@ -93,6 +130,6 @@ const pageContent = {
       tr: 'Kapat',
     }),
   },
-} satisfies Dictionary;
+} satisfies Dictionary<NavigationContent>;
 
 export default pageContent;

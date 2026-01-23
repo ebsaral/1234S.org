@@ -9,8 +9,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Quote from '../Quote';
 
-const Health = () => {
-  const id = '3';
+const Health = ({ id }: { id?: string }) => {
   const sectionKey = 'health';
   const content = useIntlayer(`${sectionKey}-section`);
 

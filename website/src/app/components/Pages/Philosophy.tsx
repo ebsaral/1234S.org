@@ -11,14 +11,15 @@ import Title from '../Custom/Title';
 
 const Philosophy = () => {
   const content = useIntlayer('philosophy-page-metadata');
+  const navigation = useIntlayer('navigation');
   return (
     <main>
       <Title title={content.title.value} />
       <Hero />
-      <Intro />
-      <Interconnectedness />
-      <Justice />
-      <Health />
+      <Intro id={navigation.intro.hash.value} />
+      <Interconnectedness id={navigation.interconnectedness.hash.value} />
+      <Justice id={navigation.justice.hash.value} />
+      <Health id={navigation.health.hash.value} />
       <EndingSection id='ending' />
     </main>
   );
