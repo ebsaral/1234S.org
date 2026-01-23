@@ -305,7 +305,7 @@ const Header = () => {
                           onClick={() => scrollToSection(`#${childItem.hash}`, childItem.hash)}
                           className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                             isActiveSection(item.key, childItem.hash)
-                              ? 'text-emerald-700 bg-emerald-50 border-l-4 border-emerald-600'
+                              ? 'text-emerald-700 bg-gray-200 border-l-4 border-emerald-600'
                               : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
                           }`}
                         >
