@@ -5,6 +5,7 @@ import { useIntlayer } from 'next-intlayer';
 import { Gift, Globe, HeartIcon, ImagePlay, Lightbulb, SunMoon } from 'lucide-react';
 
 import ContentLayout from '../ContentLayout';
+import SupportLink from '../Custom/Buttons/SupportLink';
 import Description from '../Custom/Description';
 import Quote from '../Custom/Quote';
 import { Card, CardContent } from '../ui/card';
@@ -70,6 +71,10 @@ const ProjectSection = () => {
           })}
         </div>
       )}
+      <div className='max-w-5xl mx-auto flex flex-col gap-6 items-center mt-12 text-center text-xl'>
+        <em>{content.support}</em>
+        <SupportLink />
+      </div>
     </ContentLayout>
   );
 };
