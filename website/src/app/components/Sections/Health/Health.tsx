@@ -66,20 +66,18 @@ const Health = ({ id }: { id?: string }) => {
 
             <Quote text={content.quote.value} />
           </div>
-
-          {/* Description */}
-
-          <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.description}</article>
         </div>
 
-        <div className='relative max-w-5xl mx-auto my-8 px-4'>
-          {/* Analogy */}
+        <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.description}</article>
+
+        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph1}</article>
+
+        <div className='relative max-w-5xl mx-auto px-4'>
           <Analogy className='mx-auto' />
         </div>
 
-        {/* Ending */}
         <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 pb-24 px-6 sm:px-10'>
-          {content.paragraph1}
+          {content.paragraph2}
         </article>
 
         {/* Decorative Elements */}
