@@ -30,7 +30,7 @@ const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
     <div ref={ref} className='scroll-mt-28'>
       <div
         className={`rounded-2xl border transition-all ${
-          isOpen ? 'border-indigo-500/40 shadow-[0_0_30px_-12px_rgba(99,102,241,0.5)]' : 'border-white/10'
+          isOpen ? 'border-indigo-500/40 shadow-[0_0_30px_-12px_rgba(99,102,241,0.5)] mr-4 sm:mr-0' : 'border-white/10'
         } bg-white/5 backdrop-blur`}
       >
         <h3>
