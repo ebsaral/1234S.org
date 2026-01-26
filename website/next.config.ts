@@ -15,6 +15,16 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: '/sss',
+        destination: '/tr/philosophy#faq',
+        permanent: false,
+      },
+      {
+        source: '/faq',
+        destination: '/en/philosophy#faq',
+        permanent: false,
+      },
+      {
         source: '/misyon',
         destination: '/tr/mission',
         permanent: false,

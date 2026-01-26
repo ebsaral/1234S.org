@@ -33,11 +33,6 @@ const EndingSection = ({ id }) => {
             </CardContent>
           </Card>
         </div>
-        <div className='max-w-5xl text-center mt-10 mb-5'>
-          <em>
-            <FormattedText text={content.progress.value} />
-          </em>
-        </div>
       </div>
     </section>
   );

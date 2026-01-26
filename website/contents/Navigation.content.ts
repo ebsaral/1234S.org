@@ -24,6 +24,7 @@ interface NavigationContent {
   interconnectedness: SubLink;
   justice: SubLink;
   health: SubLink;
+  faq: SubLink;
   language: string;
   flags: {
     [Locales.ENGLISH]: string;
@@ -100,6 +101,13 @@ const pageContent = {
         tr: 'Sağlık',
       }),
       hash: 'd',
+    },
+    faq: {
+      text: t({
+        en: 'FAQ',
+        tr: 'SSS',
+      }),
+      hash: 'faq',
     },
     project: {
       text: t({
