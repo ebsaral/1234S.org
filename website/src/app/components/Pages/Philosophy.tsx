@@ -1,6 +1,7 @@
 'use client';
 
 import EndingSection from '@/app/components/Sections/EndingSection';
+import { FAQ } from '@/app/components/Sections/FAQ';
 import { Health } from '@/app/components/Sections/Health';
 import Hero from '@/app/components/Sections/Hero';
 import { Interconnectedness } from '@/app/components/Sections/Interconnectedness';
@@ -27,6 +28,7 @@ const Philosophy = () => {
       <Justice id={navigation.justice.hash.value} />
       <Health id={navigation.health.hash.value} />
       <EndingSection id='ending' />
+      <FAQ id={navigation.faq.hash.value} />
     </main>
   );
 };

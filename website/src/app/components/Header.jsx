@@ -1,6 +1,6 @@
 'use client';
 
-import { getLocaleName, getLocalizedUrl, Locales } from 'intlayer';
+import { getLocaleName, getLocalizedUrl } from 'intlayer';
 import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -40,6 +40,7 @@ const Header = () => {
         { key: 'interconnectedness', hash: content.interconnectedness.hash.value },
         { key: 'justice', hash: content.justice.hash.value },
         { key: 'health', hash: content.health.hash.value },
+        { key: 'faq', hash: content.faq.hash.value },
       ],
     },
     { key: 'mission', href: '/mission' },
