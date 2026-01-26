@@ -138,7 +138,7 @@ const pageContent = {
         }),
         subtitle: t({
           en: 'In light of the current teachings we have reached, it seems easy to build a future in which no living being becomes ill, as our actions are corrected across society. In a social order where no being is sick, we would reach a way of life in which only aging would be seen as an illness (or a negative condition). What later generations who reach that point would need to think about is how they can live longer through natural means, or how they might not die at all.',
-          tr: 'Ulaştığımız güncel öğretilerin ışığında, eylemlerimizin toplum genelinde düzeltilmesiyle birlikte hiçbir canlının hasta olmayacağı bir gelecek inşa etmemiz kolay gözüküyor. Hiçbir canlının hasta olmadığı bir sosyal düzende, sadece yaşlanmanın hastalık (veya olumsuzluk) olarak görüleceği bir yaşam tarzına kavuşmuş oluruz. O noktaya ulaşan sonraki nesillerin düşünmesi gereken husus ise doğal yollarla nasıl daha uzun ömürlü olabilecekleri veya ölmeyecekleri olur.',
+          tr: 'Ulaştığımız güncel öğretilerin ışığında, eylemlerimizin toplum genelinde düzeltilmesiyle birlikte hiçbir canlının hasta olmayacağı bir gelecek inşa etmemiz kolay gözüküyor. Hiçbir canlının hasta olmadığı bir sosyal düzende, sadece yaşlanmanın hastalık (veya olumsuzluk) olarak görüleceği bir yaşam tarzına kavuşmuş oluruz. O noktaya ulaşan sonraki nesillerin düşünmesi gereken husus ise doğal yollarla nasıl daha uzun ömürlü olabilecekleri veya hiç ölmeyecekleri olur.',
         }),
       },
     ],
