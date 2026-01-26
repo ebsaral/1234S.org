@@ -114,7 +114,7 @@ const pageContent = {
       {
         title: t({
           en: 'What do prayer, the evil eye, and the like represent in nature?',
-          tr: 'Dua, nazar vb. doğada neyi temsil eder?',
+          tr: 'Dua, nazar vb. doğada neyi temsil ediyor?',
         }),
         subtitle: t({
           en: 'Every production is the reflection of any environment and carry the surrounding emotions with them. No text that is regarded as sacred has the power to prevent the punishment that would arise from a negative action. If reading or reciting a text leads to positive feelings in its surroundings, this is not because the text is sacred; rather, the self and intention of the person reading it are reflected in the surrounding experience. Singing a song and reciting prayers are similar actions. What is commonly referred to in society as the evil eye is the reflection of a negative action back into our feelings. Therefore, we fall into the notion of the evil eye not because we are *very talented*, but because we have carried out a negative action or because of negative events happening around us.',
