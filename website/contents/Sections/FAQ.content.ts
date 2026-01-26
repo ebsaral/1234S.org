@@ -94,7 +94,7 @@ const pageContent = {
       {
         title: t({
           en: 'What do tarot cards, fortune-telling, and the like represent in nature?',
-          tr: 'Tarot kartları, fal bakmalar vb. doğada neyi temsil ediyor?',
+          tr: 'Tarot kartları, fal bakımı vb. doğada neyi temsil ediyor?',
         }),
         subtitle: t({
           en: 'On the journey of destiny, everyone has equal opportunities and chances. Our destiny is also shaped according to our past choices. The results of choices made with good intentions are reflected positively both on the individual and on their environment. Since nothing in nature is *random*, every choice we make is aligned with the next step. Therefore, any imagined work we create with good intentions, or any situation we interpret, will reach the same conclusion as when interpreting it with tarot cards. If you wish, you can create your own fortune at home by drawing many pictures with different meanings; you do not need a special card, a special reading, or a special intermediary. When the people who interpret or have interpretations done are not well-intentioned, negative outcomes are reached. As a return for their good intentions, people with more life experience may have broader and more accurate interpretive abilities.',
