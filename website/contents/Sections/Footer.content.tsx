@@ -76,8 +76,8 @@ const pageContent = {
           tr: 'Bize e-posta yazın',
         }),
         email: t({
-          en: 'ebsaral@icloud.com',
-          tr: 'ebsaral@icloud.com',
+          en: 'logical.spirituality@icloud.com',
+          tr: 'mantiksal.maneviyat@icloud.com',
         }),
         phone: '+90 532 258 00 93',
         address: t({
