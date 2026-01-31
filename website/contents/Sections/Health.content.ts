@@ -29,23 +29,57 @@ const pageContent = {
         tr: 'Organ-Eylem-Sonuç Benzetmesi',
       }),
       quote: t({
-        en: 'The functions of the organs in our body help explain the consequences of the actions we perform in a community and society. In this way, the health conditions and functions of our organs come together to provide us with a silent guide. By examining the examples below, you can better observe the functions and health conditions of the organs in your own body.',
-        tr: 'Vücudumuzdaki organların işlevleri, bir toplulukta ve toplumda gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Böylelikle organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunar. Aşağıdaki örnekleri inceleyerek kendi bedeninizdeki organların işlevlerini ve sağlık durumlarını daha iyi gözlemleyebilirsiniz.',
+        en: 'The functions of the organs in our body help explain the consequences of the actions we perform in a community and society. In this way, the health conditions and functions of our organs come together to provide us with a silent guide. Depending on the outcomes of how we use our organs, we either become ill or healthier. By examining the examples below, you can better observe the functions and health conditions of the organs in your own body.',
+        tr: 'Vücudumuzdaki organların işlevleri, bir toplulukta ve toplumda gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Böylelikle organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunarlar. Organlarımızı kullanırken vesile oldukları sonuçlara göre hastalanır veya daha sağlıklı oluruz. Aşağıdaki örnekleri inceleyerek kendi bedeninizdeki organların işlevlerini ve sağlık durumlarını daha iyi gözlemleyebilirsiniz.',
       }),
       items: [
         t({
           en: 'A healthy mind and immune system show that nature values us greatly.',
-          tr: 'Sağlıklı bir zihin ve bağışıklık sistemi, doğanın bize çok değer verdiğini gösterir.',
+          tr: "Sağlıklı bir zihin ve bağışıklık sistemi, Yaradan'ın canlılarıyla çok olumlu ilişkilerimizin olduğunu gösterir.",
         }),
         t({
-          en: 'Illness is a sign of our disharmony. It aims to restore balance in our relationships with the environment and with each other.',
-          tr: 'Hastalık, uyumsuzluğumuzun bir işaretidir. Çevreyle ve birbirimizle olan ilişkilerimizdeki dengeyi yeniden sağlamamızı amaçlar.',
+          en: 'Any illness is a sign of our disharmony. It advises to restore balance in our relationships with the environment and with each other.',
+          tr: 'Herhangi bir hastalık, uyumsuzluğumuzun bir işaretidir. Çevreyle ve birbirimizle olan ilişkilerimizdeki dengeyi yeniden sağlamamızı öğütler.',
         }),
         t({
           en: 'When we achieve remarkable harmony with nature, our mental and physical health gain a comprehensive protective shield.',
           tr: 'Doğayla muazzam bir uyum yakaladığımızda, zihinsel ve fiziksel sağlığımız kapsamlı bir koruma kalkanına sahip olur.',
         }),
       ],
+      examples: [
+        t({
+          en: 'The degree of negativity caused by the sentences you use while speaking determines the level of inflammation you experience in your throat. If you compensate for that negativity, you will recover faster.',
+          tr: 'Konuşurken kullandığınız cümlelerin vesile oldukları olumsuzluğun boyutuna göre boğazınızda iltihaplanma yaşarsınız. Yaşattığınız olumsuzluğu telafi ederseniz daha hızlı iyileşirsiniz.',
+        }),
+        t({
+          en: "Poor vision may reflect the moments when you overlooked someone's opportunities. Negativity generated in relation to your focusing actions can be mirrored in your eyesight.",
+          tr: 'Zayıf görme yeteneği, birinin fırsatlarına göz yumduğunuz anları yansıtabilir. Odaklanma eylemine yönelik yarattığınız olumsuzluklar, gözünüzdeki odaklanmaya yansıyabilir.',
+        }),
+        t({
+          en: 'A decline in your hearing may reflect the times when you ignored or obstructed the call for help or request of yourself or others.',
+          tr: 'İşitme duyunuzun azalması, kendinizin veya başka birinin yardım çığlığını/isteğini duymazdan geldiğiniz veya yön bulmasını engellediğiniz zamanları yansıtabilir.',
+        }),
+        t({
+          en: 'The difficulties you create in your own life and in the lives of others can increase your risk of a heart attack.',
+          tr: 'Kendinizin ve başka birinin yaşamında yarattığınız zorluklar kalp krizi riskinizi yükseltebilir.',
+        }),
+        t({
+          en: 'A hunchback in your body may reflect the moments when you imposed life difficulties on yourself and others.',
+          tr: 'Vücudunuzdaki kambur, hem kendinize hem başkalarına yaşam zorlukları yüklediğinizi anları yansıtabilir.',
+        }),
+        t({
+          en: 'If you have diabetes, the degree to which you are strict with yourself and those around you is reflected in your blood.',
+          tr: 'Eğer diyabet sorunu yaşıyorsanız, kendinize ve etrafınızdaki insanlara katı davranma oranınız kanınıza yansıyordur.',
+        }),
+        t({
+          en: 'If you have developed cancer, you have taken a life or caused deep suffering to a living being. Every cancer manifests itself in your body at different stages as the accumulation of the consequences of your negative actions.',
+          tr: 'Eğer kansere yakalandıysanız, bir canı aldınız veya bir canlıya derin acılar yaşatmışsınızdır. Her kanser, olumsuz eylemlerinizden doğan sonuçların birikimleri olarak farklı evrelerde vücudunuza yansır.',
+        }),
+      ],
+      info: t({
+        en: "Even though each body's relationship with its environment is different, the consequences it experiences are similar. We cannot possess anything in nature. The negative actions we facilitate while using any object *(such as an organ, vehicle, or money)* affect our health and lives in a similar way. Along with our physical health, depending on our intentions, we can also lose our luck and opportunities.",
+        tr: 'Her vücudun çevresiyle olan ilişkileri farklı olsa bile hissettiği sonuçlar benzerdir. Doğada hiçbir şeye sahip olamayız. Herhangi bir varlığı *(organ, araç, para gibi)* kullanırken vesile olduğumuz olumsuz eylemler sağlığımızı ve yaşantımızı benzer şekilde etkiler. Fiziksel sağlımızla birlikte, niyetimize bağlı olarak şansımızı ve imkanlarımızı da kaybedebiliriz.',
+      }),
     },
     paragraph1: t({
       en: md(
@@ -67,32 +101,6 @@ const pageContent = {
       en: '',
       tr: '',
     }),
-    examples: [
-      t({
-        en: "Poor vision may reflect the moments when you overlooked someone's opportunities. Negativity generated in relation to your focusing actions can be mirrored in your eyesight.",
-        tr: 'Zayıf görme yeteneği, birinin fırsatlarına göz yumduğunuz anları yansıtabilir. Odaklanma eylemine yönelik yarattığınız olumsuzluklar, gözünüzdeki odaklanmaya yansıyabilir.',
-      }),
-      t({
-        en: 'A decline in your hearing may reflect the times when you ignored or obstructed the call for help or request of yourself or others.',
-        tr: 'İşitme duyunuzun azalması, kendinizin veya başka birinin yardım çığlığını/isteğini duymazdan geldiğiniz veya yön bulmasını engellediğiniz zamanları yansıtabilir.',
-      }),
-      t({
-        en: 'The difficulties you create in your own life and in the lives of others can increase your risk of a heart attack.',
-        tr: 'Kendinizin ve başka birinin yaşamında yarattığınız zorluklar kalp krizi riskinizi yükseltebilir.',
-      }),
-      t({
-        en: 'A hunchback in your body may reflect the moments when you imposed life difficulties on yourself and others.',
-        tr: 'Vücudunuzdaki kambur, hem kendinize hem başkalarına yaşam zorlukları yüklediğinizi anları yansıtabilir.',
-      }),
-      t({
-        en: 'If you have diabetes, the degree to which you are strict with yourself and those around you is reflected in your blood.',
-        tr: 'Eğer diyabet sorunu yaşıyorsanız, kendinize ve etrafınızdaki insanlara katı davranma oranınız kanınıza yansıyordur.',
-      }),
-      t({
-        en: 'If you have developed cancer, you have taken a life or caused deep suffering to a living being. Every cancer manifests itself in your body at different stages as the accumulation of the consequences of your negative actions.',
-        tr: 'Eğer kansere yakalandıysanız, bir canı aldınız veya bir canlıya derin acılar yaşatmışsınızdır. Her kanser, olumsuz eylemlerinizden doğan sonuçların birikimleri olarak farklı evrelerde vücudunuza yansır.',
-      }),
-    ],
   },
 } satisfies Dictionary;
 

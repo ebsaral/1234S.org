@@ -10,19 +10,20 @@ import {
   HeartOff,
   Shield,
   Smile,
+  Speech,
   Stethoscope,
 } from 'lucide-react';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import Description from '../../Custom/Description';
+import FormattedText from '../../Custom/FormattedText';
 import { Card, CardContent } from '../../ui/card';
 
 const Analogy = ({ className }: { className?: string }) => {
   const content = useIntlayer('health-section');
   // Icon mappings for health examples
   const getHealthExampleIcon = (index: number) => {
-    const IconComponent = [EyeOff, EarOff, HeartOff, Accessibility, CandyOff, CircleX];
+    const IconComponent = [Speech, EyeOff, EarOff, HeartOff, Accessibility, CandyOff, CircleX];
     return IconComponent[index];
   };
 
@@ -58,7 +59,7 @@ const Analogy = ({ className }: { className?: string }) => {
               </ul>
             </div>
             <div className='grid md:grid-cols-2 gap-6 pt-6'>
-              {content.examples.map((example, index) => {
+              {content.analogy.examples.map((example, index) => {
                 const IconComponent = getHealthExampleIcon(index);
                 const content = example;
 
@@ -80,6 +81,12 @@ const Analogy = ({ className }: { className?: string }) => {
                   </Card>
                 );
               })}
+
+              <div className='flex flex-col sm:flex-row items-center sm:items-start gap-4 whitespace-pre-line p-5'>
+                <div className='flex-1 text-center sm:text-left'>
+                  <FormattedText className='text-gray-900 leading-relaxed' text={content.analogy.info.value} />
+                </div>
+              </div>
             </div>
           </CardContent>
         </Card>
