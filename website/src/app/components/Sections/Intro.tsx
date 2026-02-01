@@ -185,13 +185,13 @@ const Intro = ({ id }: { id?: string }) => {
           <article className='prose-custom-all max-w-3xl mx-6'>{content.paragraph2}</article>
 
           {/* Insight */}
-          <div className='mt-10 mx-4 sm:mx-16 lg:mx-20'>
+          <div className='group mt-10 mx-4 sm:mx-16 lg:mx-20'>
             <div className='stars-box rounded-xl gap-5'>
               <div className='stars' />
 
-              <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
+              <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 group-hover:bg-yellow-500  group-hover:scale-110 duration-300 transition-all'>
                 <span className='font-bold text-2xl cursor-default'>
-                  <Sparkles size={28} />
+                  <Sparkles className='text-gray-900 group-hover:text-white' size={28} />
                 </span>
               </div>
 
