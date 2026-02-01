@@ -135,10 +135,10 @@ const pageContent = {
           }),
           subtitle: t({
             en: md(
-              'How to heal and improve business practices using the possibilities offered by current technology for societal and environmental health.',
+              'Why and how to heal and improve business practices using the possibilities offered by current technology for societal and environmental health.',
             ),
             tr: md(
-              'Toplum ve çevre sağlığı için güncel teknolojinin imkanlarıyla iş uygulamalarının nasıl iyileştirilmeleri ve geliştirilmeleri gerektiği.',
+              'Toplum ve çevre sağlığı için güncel teknolojinin imkanlarıyla iş uygulamalarının neden ve nasıl iyileştirilmeleri ve geliştirilmeleri gerektiği.',
             ),
           }),
         },
