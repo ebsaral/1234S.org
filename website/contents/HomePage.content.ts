@@ -152,7 +152,7 @@ const pageContent = {
               "To respond to global challenges with innovative, visionary, inclusive, and comprehensive solutions, without postpoing society's peace anymore.",
             ),
             tr: md(
-              'Toplumun huzurunu daha fazla ertelemeksizin yenilikçi, vizyoner, kapsayıcı ve kapsamlı çözümlerle küresel sorunlara yanıt vermek.',
+              'Toplumun huzurunu daha fazla ertelemeksizin, yenilikçi, vizyoner, kapsayıcı ve kapsamlı çözümlerle küresel sorunlara yanıt vermek.',
             ),
           }),
         },
