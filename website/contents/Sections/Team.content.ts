@@ -68,6 +68,10 @@ const pageContent = {
           en: 'Unemployed',
           tr: 'İşsiz',
         }),
+        description: t({
+          en: "One of the ordinary citizens who, having had to struggle with various illnesses for years, drew closer to the Creator before Emin Buğra Saral. He continues to battle with some of his mental health issues in his simple and boring life. His existence has enormously contributed to his brother's marvellous discoveries.",
+          tr: "Çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan, Yaradan'a Emin Buğra Saral'dan daha önce yaklaşan, sıradan vatandaşlardan biri. Sade ve sıkıcı olan hayatında  zihinsel hastalıklarının bir kısmıyla uğraşmaya devam ediyor. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur.",
+        }),
         birthday: {
           year: 1990,
           month: 10,

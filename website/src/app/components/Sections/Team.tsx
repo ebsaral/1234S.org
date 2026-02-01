@@ -52,7 +52,7 @@ const Team = () => {
       {content.members && content.members.length && (
         <div className='max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 px-8 sm:px-20 justify-stretch items-top gap-4 z-10 relative'>
           {content.members.map((member, index) => (
-            <TeamMember key={index} member={member} />
+            <TeamMember key={index} member={member} index={index} />
           ))}
         </div>
       )}

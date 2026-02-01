@@ -7,8 +7,8 @@ import JoinLink from './Custom/Buttons/JoinLink';
 import Description from './Custom/Description';
 import { Card, CardContent } from './ui/card';
 
-const TeamMember = ({ member }) => {
-  const hasDescription = member.description && member.links;
+const TeamMember = ({ member, index = 0 }) => {
+  const hasDescription = index === 0;
 
   const imageTitle = () => {
     if (member.spin) {
@@ -30,7 +30,7 @@ const TeamMember = ({ member }) => {
       <div
         className={`grid ${hasDescription ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'} items-start justify-center mt-2`}
       >
-        <CardContent className='group flex flex-col items-center gap-4'>
+        <CardContent className='group flex flex-col items-center justify-between gap-4'>
           {member.title ? (
             <div className=' border-gray-200 text-center text-gray-800 text-xs font-bold px-5 py-2 rounded bg-gray-100 min-w-44'>
               {member.title}
@@ -64,23 +64,21 @@ const TeamMember = ({ member }) => {
                 <div>{member.experience.title}</div>
               </div>
             )}
-            {member.join && <JoinLink className='mt-2' />}
+            {member.join && <JoinLink className='mt-12' />}
           </div>
         </CardContent>
 
-        {hasDescription && (
-          <CardContent className='flex flex-col justify-center items-center gap-4 pt-0'>
-            {member.description && <Description size='text-sm sm:text-md' text={member.description.value} />}
-            {member.links && (
-              <p className='text-center text-sm sm:text-md'>
-                {member.links[0].name}:{' '}
-                <a className='underline underline-offset-2 hover:no-underline' href={member.links[0].href.value}>
-                  {member.links[0].href}
-                </a>
-              </p>
-            )}
-          </CardContent>
-        )}
+        <CardContent className='flex flex-col justify-center items-center gap-4 pt-0'>
+          {member.description && <Description size='text-sm sm:text-md' text={member.description.value} />}
+          {member.links && (
+            <p className='text-center text-sm sm:text-md'>
+              {member.links[0].name}:{' '}
+              <a className='underline underline-offset-2 hover:no-underline' href={member.links[0].href.value}>
+                {member.links[0].href}
+              </a>
+            </p>
+          )}
+        </CardContent>
       </div>
     </Card>
   );
