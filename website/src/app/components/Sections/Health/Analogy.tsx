@@ -35,8 +35,8 @@ const Analogy = ({ className }: { className?: string }) => {
           <CardContent className='p-8'>
             <div className='grid lg:grid-cols-2 lg:gap-10 gap-2'>
               <div>
-                <h3 className='text-2xl font-bold text-rose-900 mb-6 flex items-center gap-3'>
-                  <Stethoscope className='text-rose-500' size={28} />
+                <h3 className='relative text-2xl font-bold text-rose-900 mb-6 flex items-center gap-3'>
+                  <Stethoscope className='absolute -left-12 rotate-12 text-rose-500' size={45} />
                   {content.analogy.title}
                 </h3>
                 <blockquote className='text-rose-800 italic bg-white/60 p-4 rounded-lg border-l-4 border-rose-400 mb-6'>
@@ -64,13 +64,10 @@ const Analogy = ({ className }: { className?: string }) => {
                 const content = example;
 
                 return (
-                  <Card
-                    key={index}
-                    className='bg-white/60 backdrop-blur-sm shadow-xl border-0 hover:shadow-2xl transition-all duration-300 hover:scale-105'
-                  >
-                    <CardContent className='p-8'>
+                  <Card key={index} className='bg-white/60 backdrop-blur-sm shadow-xl border-0'>
+                    <CardContent className='p-8 group'>
                       <div className='flex flex-col sm:flex-row items-center sm:items-start gap-4 whitespace-pre-line'>
-                        <div className='flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0'>
+                        <div className='flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0 group-hover:scale-110 transition-all duration-300'>
                           <IconComponent className='text-white' size={24} />
                         </div>
                         <div className='flex-1 text-center sm:text-left'>
