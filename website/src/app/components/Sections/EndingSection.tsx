@@ -24,8 +24,8 @@ const EndingSection = ({ id }: { id: string }) => {
         <Card className='stars-box text-center bg-gradient-to-r from-gray-900 via-slate-800 to-gray-900 text-white border-0 shadow-2xl max-w-4xl mx-auto'>
           <div className='stars' />
 
-          <CardContent className='group px-12 py-8'>
-            <div className='relative -top-14 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 group-hover:bg-yellow-500  group-hover:scale-110 duration-300 transition-all'>
+          <CardContent className='group px-12 pt-2 pb-8'>
+            <div className='relative -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 group-hover:bg-yellow-500  group-hover:scale-110 duration-300 transition-all'>
               <span className='font-bold text-2xl cursor-default'>
                 <Lightbulb className='text-gray-900 group-hover:text-white' size={28} />
               </span>
