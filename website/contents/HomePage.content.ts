@@ -37,10 +37,10 @@ const pageContent = {
       }),
       description: t({
         en: md(
-          'Kindly visit our [**Support**](/support) page to help us in detailing these topics and communicating them openly to the public, so that our association can improve the overall quality of life for all communities.',
+          'We would like to improve the overall quality of life for all communities. To release the details of these topics, which our association is well-versed in, to the public, please visit our [**Support**](/support) page!',
         ),
         tr: md(
-          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Derneğimizin bu konuları detaylandırmasına ve kamuoyuna açıkça aktarmasına yardımcı olmak için lütfen [**Destek**](/destek) sayfamızı ziyaret edin!',
+          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Derneğimizin detaylarına hakim olduğu bu konuları kamuoyuna açıklamamıza yardımcı olmak için lütfen [**Destek**](/destek) sayfamızı ziyaret edin!',
         ),
       }),
       items: [
