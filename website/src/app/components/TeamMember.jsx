@@ -72,7 +72,7 @@ const TeamMember = ({ member, index = 0 }) => {
           {member.description && <Description size='text-sm sm:text-md' text={member.description.value} />}
           {member.links && (
             <p className='text-center text-sm sm:text-md'>
-              {member.links[0].name}:{' '}
+              {member.links[0].text}:{' '}
               <a className='underline underline-offset-2 hover:no-underline' href={member.links[0].href.value}>
                 {member.links[0].href}
               </a>
