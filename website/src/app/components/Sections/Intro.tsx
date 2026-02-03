@@ -127,7 +127,7 @@ const Intro = ({ id }: { id?: string }) => {
 
           <article
             ref={articleRef}
-            className='relative prose-custom-all max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 items-stretch justify-center text-gray-900 text-wrap'
+            className='relative prose-custom-all max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch justify-center text-gray-900 text-wrap mt-5'
           >
             {/* Rope + knots */}
             <svg className='absolute inset-0 w-full h-full pointer-events-none'>
@@ -159,22 +159,22 @@ const Intro = ({ id }: { id?: string }) => {
             </svg>
 
             <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <h3
+              <span
                 ref={leftH3Ref}
-                className='relative max-w-max -left-2 sm:left-0 p-3 bg-black/80 text-gray-100 rounded-md'
+                className='relative max-w-max -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
               >
                 <em>{content.logical.title}</em>
-              </h3>
+              </span>
               <p className='text-left'>{content.logical.description}</p>
             </div>
 
             <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <h3
+              <span
                 ref={rightH3Ref}
-                className='max-w-max relative -left-2 sm:left-0 p-3 bg-black/80 text-gray-100 rounded-md'
+                className='max-w-max relative -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
               >
                 <em>{content.spirituality.title}</em>
-              </h3>
+              </span>
               <p className='text-left'>{content.spirituality.description}</p>
             </div>
           </article>

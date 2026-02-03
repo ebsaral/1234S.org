@@ -17,7 +17,7 @@ const Examples = ({ className = '' }: { className?: string }) => {
           </span>
         </div>
 
-        <h3 className='px-6 font-bold text-purple-900 mb-4'>{content.examples.title}</h3>
+        <h3 className='px-6 font-bold text-purple-900 -mt-4 mb-4'>{content.examples.title}</h3>
         <p className='px-6 text-left  text-gray-900 mb-4'>{content.examples.subtitle}</p>
       </div>
 

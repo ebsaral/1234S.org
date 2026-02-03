@@ -30,7 +30,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
             <DraftingCompass className='text-blue-900' size={32} />
           </span>
         </div>
-        <h3 className='px-6 text-left text-blue-900'>
+        <h3 className='px-6 text-left text-blue-900 -mt-4'>
           <b>{content.experiment.title}</b>
         </h3>
         <p className='px-6 text-left  text-gray-900 '>{content.experiment.subtitle}</p>

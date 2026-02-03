@@ -183,10 +183,6 @@ const config: Config = {
                 fontSize: getSize('lg'),
                 lineHeight: getLineHeight('lg'),
               },
-              p: {
-                fontSize: getSize('base'),
-                lineHeight: getLineHeight('base'),
-              },
             },
           },
           ['custom-sm']: {
@@ -203,18 +199,10 @@ const config: Config = {
                 fontSize: getSize('xl'),
                 lineHeight: getLineHeight('xl'),
               },
-              p: {
-                fontSize: getSize('lg'),
-                lineHeight: getLineHeight('lg'),
-              },
             },
           },
           ['custom-md']: {
             css: {
-              p: {
-                fontSize: getSize('xl'),
-                lineHeight: getLineHeight('xl'),
-              },
               h4: {
                 fontSize: getSize('2xl'),
                 lineHeight: getLineHeight('2xl'),

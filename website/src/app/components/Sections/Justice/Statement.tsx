@@ -17,7 +17,7 @@ const Statement = ({ className }: { className?: string }) => {
         {/* fractal background */}
         <div className='absolute inset-0 bg-effect opacity-70' />
 
-        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-24 bg-green-100/90 rounded-2xl text-center'>
+        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-24 bg-green-100/90 rounded-2xl text-center text-xl'>
           {/* Background Icon */}
           <Sun
             className='
