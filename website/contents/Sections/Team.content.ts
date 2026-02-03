@@ -1,4 +1,5 @@
 import { t, type Dictionary } from 'intlayer';
+import { TeamContent } from '../types';
 
 const pageContent = {
   key: 'team-section',
@@ -22,6 +23,10 @@ const pageContent = {
           en: 'Computer Engineer',
           tr: 'Bilgisayar Mühendisi',
         }),
+        description: t({
+          en: 'Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a *funnywise* Spirit Guide with engineering, feeling and artistic skills.',
+          tr: "Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan *eğlendeli* bir Maneviyat Rehberi'dir.",
+        }),
         birthday: {
           year: 1988,
           month: 9,
@@ -37,17 +42,13 @@ const pageContent = {
             tr: 'İleri Seviye',
           }),
         },
-        description: t({
-          en: 'Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a *funnywise* Spirit Guide with engineering, feeling and artistic skills.',
-          tr: "Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan *eğlendeli* bir Maneviyat Rehberi'dir.",
-        }),
         image: {
           src: '/members/eminbugrasaral.jpg',
           size: 120,
         },
         links: [
           {
-            name: t({
+            text: t({
               en: 'For more information',
               tr: 'Daha fazla bilgi için',
             }),
@@ -115,6 +116,6 @@ const pageContent = {
       tr: 'Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.',
     }),
   },
-} satisfies Dictionary;
+} satisfies Dictionary<TeamContent>;
 
 export default pageContent;
