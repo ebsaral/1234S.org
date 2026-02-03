@@ -119,7 +119,7 @@ const Intro = ({ id }: { id?: string }) => {
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
       <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
         {/* Introduction */}
-        <div className='mt-32 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
+        <div className='mt-16 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
           <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
             <CircleQuestionMark size={48} />
           </span>
