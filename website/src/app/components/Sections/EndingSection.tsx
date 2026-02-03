@@ -31,7 +31,7 @@ const EndingSection = ({ id }: { id: string }) => {
               </span>
             </div>
 
-            <blockquote className='text-md sm:text-lg lg:text-xl font-light leading-relaxed py-4'>
+            <blockquote className='py-4 text-md sm:text-lg lg:text-xl font-normal leading-relaxed whitespace-pre-line text-gray-100'>
               {content.statement}
             </blockquote>
           </CardContent>
