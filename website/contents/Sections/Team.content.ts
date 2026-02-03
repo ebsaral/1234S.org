@@ -69,8 +69,8 @@ const pageContent = {
           tr: 'İşsiz',
         }),
         description: t({
-          en: "One of the ordinary citizens who, having had to struggle with various illnesses for years, drew closer to the Creator before Emin Buğra Saral. He continues to battle with some of his mental health issues in his simple and boring life. He is married and has five kids. His existence has enormously contributed to his brother's marvellous discoveries.",
-          tr: "Çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan, Yaradan'a Emin Buğra Saral'dan daha önce yaklaşan, sıradan vatandaşlardan biri. Sade ve sıkıcı olan hayatında  zihinsel hastalıklarının bir kısmıyla uğraşmaya devam ediyor. Evli ve beş çocuk babasıdır. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur. ",
+          en: "Yunus Emre Saral, married and a father of five, is one of the ordinary citizens who have had to struggle with various illnesses for years. Although he drew closer to the Creator before Emin Buğra Saral, he continues to grapple with some of his mental illnesses in his simple and boring life. He has made many contributions to his brother's extraordinary discoveries through his very existence.",
+          tr: "Evli ve beş çocuk babası olan Yunus Emre Saral, çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan sıradan vatandaşlardan biridir. Yaradan'a Emin Buğra Saral'dan daha önce yaklaşmış olmakla birlikte, sade ve sıkıcı olan hayatında zihinsel hastalıklarının bir kısmıyla uğraşmaya devam ediyor. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur.",
         }),
         birthday: {
           year: 1990,
