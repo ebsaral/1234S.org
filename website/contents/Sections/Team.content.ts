@@ -49,12 +49,12 @@ const pageContent = {
         links: [
           {
             text: t({
-              en: 'For more information',
-              tr: 'Daha fazla bilgi için',
+              en: 'View Résumé',
+              tr: 'Öz Geçmişi inceleyin',
             }),
             href: t({
-              en: 'https://0.1234s.org/en',
-              tr: 'https://0.1234s.org/tr',
+              en: 'https://0.1234s.org/resume',
+              tr: 'https://0.1234s.org/ozgecmis',
             }),
           },
         ],
