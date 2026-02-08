@@ -98,8 +98,12 @@ const pageContent = {
       ),
     }),
     paragraph3: t({
-      en: '',
-      tr: '',
+      en: md(
+        "Within the principle of the Universe's Interconnectedness, we represent individuals and structures spread over different bodies. The members of a family represent the reflection of a single spirit in different bodies. The smallest and largest building blocks of communities exhibit similar workings in accordance with the principle of Justice in Nature. For example, in the structural integrity of a sports team, the actions of the smaller building blocks that make up that integrity are reflected in the team's success (spirit). We can better see the *silent* language of nature by deciphering the connections between these building blocks. We can read in the connections in nature how even the choices we make in our simple individual lives are reflected in the spirit of the entire society. We can discover that we share a deep connection even with people with whom we have no direct biological relation.",
+      ),
+      tr: md(
+        'Evrenin Bütünlük ilkesi içerisinde, farklı vücutlara bölünmüş bireyleri ve yapıları temsil ederiz. Bir ailenin bireyleri, tek bir ruhun farklı vücutlara yansımasını temsil eder. Toplulukların en küçük yapıtaşları ile en büyük yapıtaşları, Doğadaki Adalet ilkesi doğrultusunda benzer işleyişler gösterir. Örneğin, bir spor takımının yapısal bütünlüğünde, o bütünlüğü oluşturan küçük yapıtaşlarının eylemleri takımın başarısına (ruhuna) yansır. Doğanın *sessiz* dilini bu yapıtaşlarının arasındaki bağlantıyı çözerek daha iyi görebiliriz. Tek kişilik basit bir yaşantımızda gerçekleştirdiğimiz seçimlerin bile tüm toplumun ruhuna yansıdığını doğadaki bağlantlarda okuyabiliriz. Biyolojik bağımızın bulunmadığı insanlarla bile derin bir bağı paylaştığımızı keşfedebiliriz.',
+      ),
     }),
   },
 } satisfies Dictionary;

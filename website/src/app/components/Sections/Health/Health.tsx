@@ -76,8 +76,12 @@ const Health = ({ id }: { id?: string }) => {
           <Analogy className='mx-auto' />
         </div>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 pb-24 px-6 sm:px-10'>
+        <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 px-6 sm:px-10'>
           {content.paragraph2}
+        </article>
+
+        <article className='relative prose-custom-all max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
+          {content.paragraph3}
         </article>
 
         {/* Decorative Elements */}
