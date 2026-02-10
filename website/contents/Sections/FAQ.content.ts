@@ -123,6 +123,16 @@ const pageContent = {
       },
       {
         title: t({
+          en: 'What do concepts like halal, haram, slavery, zakat, charity represent in nature?',
+          tr: 'Helal, haram, köle, zekat, sadaka vb. kavramlar doğada neyi temsil ediyor?',
+        }),
+        subtitle: t({
+          en: "By placing life, the sacred gift of the Creator, at the center of our lives, we should strive to understand all living beings through the lens of our shared health. A being in nature can be considered permissible (halal) if it does not harm our health. A being that harms our health can be considered forbidden (haram). An action or substance that harms the health of only one person or society may be beneficial to the health of another. Behaviors defined as forbidden by some leaders in the past may have emerged only as punishments for those leaders' own actions. To enslave or treat any living being as a slave is to oppose life, the sacred gift of the Creator. Therefore, any text that attempts to explain how to treat a slave (such as law, zakat, sadaqa, etc.) naturally represents associating partners with God (shirk). The illnesses or natural disasters that result from a lack of respect for life provide the necessary justice.",
+          tr: "Yaradan'ın kutsalı olan yaşamı hayatımızın merkezine alarak ortak sağlığımız üzerinden tüm canlıları anlamaya çalışmalıyız. Doğadaki bir varlık sağlığımıza zarar vermiyorsa helal olarak görülebilir. Sağlığımıza zarar veren bir varlık ise haram olarak görülebilir. Sadece bir kişinin veya toplumun sağlığına zarar veren bir eylem veya madde, başka birinin sağlığına iyi geliyor olabilir. Geçmişte bazı liderler tarafından haram olarak tanımlanan davranışlar, o liderlerin kendi tavırlarından dolayı sadece kendilerine verilen cezalardan açığa çıkmış olabilir. Herhangi bir canlıyı köle yapmamız veya köle görmemiz ise Yaradan'ın kutsalı olan yaşama karşı çıkmaktır. Bu yüzden içinde köleye nasıl davranılması gerektiğini açıklamaya çalışan (kanun, zekat, sadaka, vs.) herhangi bir metin doğal olarak Yaradan'a şirk koşmayı temsil eder. Yaşama duyulmayan saygının karşılığında vücudumuzda oluşan hastalıklar veya doğal afetler gereken adaleti sağlar.",
+        }),
+      },
+      {
+        title: t({
           en: 'Do animals exist for our service? Why can some animals be eaten while others cannot?',
           tr: 'Hayvanlar bizim hizmetimiz için mi varlar? Neden bazı hayvanlar yenebiliyor, bazıları yenemiyor?',
         }),
