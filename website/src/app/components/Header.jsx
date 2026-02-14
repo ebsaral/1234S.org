@@ -23,7 +23,7 @@ const Header = () => {
   const raf = useRef(null);
   const { setHash } = useHash();
   const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
-  const content = useIntlayer('navigation');
+  const content = useIntlayer('navigation', locale);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { activeMenu } = useMenu();
