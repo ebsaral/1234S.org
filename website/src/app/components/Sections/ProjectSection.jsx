@@ -7,6 +7,7 @@ import { Gift, Globe, HeartIcon, ImagePlay, Lightbulb, TreeDeciduous } from 'luc
 import ContentLayout from '../ContentLayout';
 import SupportLink from '../Custom/Buttons/SupportLink';
 import Description from '../Custom/Description';
+import FormattedText from '../Custom/FormattedText';
 import Quote from '../Custom/Quote';
 import { Card, CardContent } from '../ui/card';
 
@@ -63,10 +64,10 @@ const ProjectSection = () => {
                     <IconComponent className='text-white' size={24} />
                   </div>
                   <div className='col-span-6'>
-                    <h3 className='text-left sm:text-center text-xl font-bold text-purple-900 mt-6 sm:mt-0 mb-3'>
+                    <h3 className='text-left sm:text-center text-xl font-bold text-purple-900 mt-6 sm:mt-3 mb-5 sm:mb-5'>
                       {title}
                     </h3>
-                    <p className='text-gray-900 leading-relaxed'>{content}</p>
+                    <FormattedText className='text-gray-900 leading-relaxed' text={content.value} />
                   </div>
                 </CardContent>
               </Card>
