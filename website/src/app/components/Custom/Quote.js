@@ -1,7 +1,9 @@
-const Quote = function ({ text, className }) {
+const Quote = function ({ text, className, quoteClassName }) {
   return (
     <div className={`max-w-4xl mx-auto mb-12 sm:text-left ${className}`}>
-      <blockquote className='text-xl sm:text-2xl lg:text-3xl font-normal leading-relaxed pl-5 pr-4 border-l-4 border-emerald-500 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm whitespace-pre-line'>
+      <blockquote
+        className={`text-xl sm:text-2xl lg:text-3xl font-normal leading-relaxed pl-5 pr-4 border-l-4 border-emerald-500 bg-white/80 backdrop-blur-sm rounded-r-lg py-6 shadow-sm whitespace-pre-line ${quoteClassName}`}
+      >
         {text
           .split('**')
           .map((part, index) =>
