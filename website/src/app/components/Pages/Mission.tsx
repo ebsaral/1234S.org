@@ -4,8 +4,8 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
 import Title from '../Custom/Title';
-import ProjectSection from '../Sections/ProjectSection';
-import StorySection from '../Sections/StorySection';
+import Project from '../Sections/Project';
+import Story from '../Sections/Story';
 
 const Mission = () => {
   const content = useIntlayer('mission-page-metadata');
@@ -17,8 +17,8 @@ const Mission = () => {
   return (
     <main>
       <Title title={content.title.value} />
-      <StorySection />
-      <ProjectSection />
+      <Story />
+      <Project />
     </main>
   );
 };
