@@ -22,7 +22,7 @@ const pageContent = {
         "Our summarized answers to the common questions have appeared in the mind throughout some civilizations, with the guidance of Logical Spirituality's teachings.",
       ),
       tr: md(
-        'Mantıksal Maneviyat öğretilerinin yardımıyla bazı kültürlerin zihinlerde oluşturduğu genel sorulara verdiğimiz özet cevaplar.',
+        'Mantıksal Maneviyat öğretilerinin rehberliğinde, bazı kültürlerin zihinlerde oluşturduğu genel sorulara verdiğimiz özet cevaplar.',
       ),
     }),
     items: [
