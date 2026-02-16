@@ -66,11 +66,11 @@ const Analogy = ({ className }: { className?: string }) => {
                 return (
                   <Card key={index} className='bg-white/60 backdrop-blur-sm shadow-xl border-0'>
                     <CardContent className='p-8 group'>
-                      <div className='flex flex-col sm:flex-row items-center sm:items-start gap-4 whitespace-pre-line'>
+                      <div className='flex flex-col items-center gap-6 whitespace-pre-line'>
                         <div className='flex items-center justify-center w-12 h-12 rounded-full bg-rose-600 flex-shrink-0 group-hover:scale-110 transition-all duration-300'>
                           <IconComponent className='text-white' size={24} />
                         </div>
-                        <div className='flex-1 text-center sm:text-left'>
+                        <div className='flex-1 text-left'>
                           <p className='text-rose-900 leading-relaxed'>{content}</p>
                         </div>
                       </div>
