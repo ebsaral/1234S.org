@@ -7,6 +7,7 @@ interface FAQContent {
     title: string;
     subtitle: string;
   }[];
+  contact: string;
 }
 
 const pageContent = {
@@ -17,8 +18,12 @@ const pageContent = {
       tr: 'Sıkça Sorulan Sorular',
     }),
     description: t({
-      en: md('You can find answers to the questions appeared in the mind throughout some civilizations.'),
-      tr: md('Bazı kültürlerin zihinlerde oluşturduğu genel sorulara burada cevap burabilirsiniz. '),
+      en: md(
+        "Our summarized answers to the common questions have appeared in the mind throughout some civilizations, with the guidance of Logical Spirituality's teachings.",
+      ),
+      tr: md(
+        'Mantıksal Maneviyat öğretilerinin yardımıyla bazı kültürlerin zihinlerde oluşturduğu genel sorulara verdiğimiz özet cevaplar.',
+      ),
     }),
     items: [
       {
@@ -152,6 +157,14 @@ const pageContent = {
         }),
       },
     ],
+    contact: t({
+      en: md(
+        'You can [contact us](mailto:logical.spirituality@icloud.com) to understand Logical Spirituality in depth and find answers to your questions. We continue to improve our teachings after each question or debate.',
+      ),
+      tr: md(
+        "Mantıksal Maneviyat'ın detaylarını daha iyi anlamak ve sorularınıza cevap bulmak için [bizimle iletişime geçebilirsiniz](mailto:mantiksal.maneviyat@icloud.com). Her sorulan soruyla veya tartışmayla birlikte öğretilerimizi geliştirmeye devam ediyoruz.",
+      ),
+    }),
   },
 } satisfies Dictionary<FAQContent>;
 

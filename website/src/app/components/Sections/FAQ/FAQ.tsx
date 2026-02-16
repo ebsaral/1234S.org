@@ -108,6 +108,7 @@ const FAQ = ({ id }: { id?: string }) => {
             );
           })}
         </div>
+        <article className='prose-custom-all max-w-4xl mx-auto px-6 mb-16'>{content.contact}</article>
       </section>
     </MarkdownProvider>
   );
