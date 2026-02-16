@@ -59,12 +59,12 @@ const Project = () => {
                 const content = example.subtitle;
 
                 return (
-                  <Card key={index} className='bg-purple-100/50 backdrop-blur-sm shadow-xl border-0'>
+                  <Card key={index} className='group bg-purple-100/50 backdrop-blur-sm shadow-xl border-0'>
                     <CardContent className='p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line'>
                       <div className='sm:hidden sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-purple-100/90 sm:bg-emerald-900/90 absolute top-[-10px] left-[-10px] overflow-clip sm:static'>
                         <IconComponent className='text-emerald-900 sm:text-white' size={24} />
                       </div>
-                      <div className='hidden sm:visible sm:flex items-center justify-center opacity-100 w-12 h-12 rounded-full bg-emerald-900/90'>
+                      <div className='hidden sm:visible sm:flex items-center justify-center opacity-100 w-12 h-12 rounded-full bg-emerald-900/90 group-hover:scale-110 transition-all duration-300'>
                         <IconComponent className='text-white' size={24} />
                       </div>
                       <div className='col-span-6'>
