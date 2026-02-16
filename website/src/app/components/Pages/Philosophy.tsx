@@ -10,6 +10,7 @@ import { Justice } from '@/app/components/Sections/Justice';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
+import LastUpdate from '../Custom/LastUpdate';
 import Title from '../Custom/Title';
 
 const Philosophy = () => {
@@ -29,6 +30,7 @@ const Philosophy = () => {
       <Health id={navigation.health.hash.value} />
       <EndingSection id='ending' />
       <FAQ id={navigation.faq.hash.value} />
+      <LastUpdate className='max-w-4xl mx-auto px-6 mb-16 text-gray-800 text-center' date={new Date('2026-02-16')} />
     </main>
   );
 };
