@@ -65,7 +65,7 @@ const pageContent = {
         }),
         t({
           en: 'A hunchback in your body may reflect the moments when you imposed life difficulties on yourself and others.',
-          tr: 'Vücudunuzdaki kambur, hem kendinize hem başkalarına yaşam zorlukları yüklediğinizi anları yansıtabilir.',
+          tr: 'Vücudunuzdaki kambur, hem kendinize hem başka canlılara yaşam zorlukları yüklediğiniz anları yansıtabilir.',
         }),
         t({
           en: 'If you have diabetes, the degree to which you are strict with yourself and those around you is reflected in your blood.',
