@@ -3,20 +3,7 @@
 import { useIntlayer } from 'next-intlayer';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
-import {
-  Activity,
-  CheckCircle,
-  Cloud,
-  FerrisWheel,
-  Flower,
-  Frown,
-  LoaderPinwheel,
-  Scale,
-  ScanHeart,
-  Smile,
-  Sun,
-  XCircle,
-} from 'lucide-react';
+import { Flower } from 'lucide-react';
 import TeamMember from '../TeamMember';
 
 const Team = () => {

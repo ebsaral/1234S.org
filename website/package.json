@@ -41,6 +41,8 @@
     "react-markdown": "^10.1.0",
     "react-social-icons": "^6.25.0",
     "react-toastify": "^11.0.5",
+    "react-tooltip": "^5.30.0",
+    "remark-attrs": "^1.0.0",
     "remark-gfm": "^4.0.1",
     "sonner": "^2.0.3",
     "tailwind-merge": "^3.3.1",

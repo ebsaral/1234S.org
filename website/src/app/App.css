@@ -432,3 +432,7 @@ header {
     background: linear-gradient(180deg, #4ade80, #22c55e);
   }
 }
+
+.tooltip-link {
+  @apply underline underline-offset-2 decoration-dashed;
+}

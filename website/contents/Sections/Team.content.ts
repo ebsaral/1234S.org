@@ -1,4 +1,4 @@
-import { t, type Dictionary } from 'intlayer';
+import { md, t, type Dictionary } from 'intlayer';
 import { TeamContent } from '../types';
 
 const pageContent = {
@@ -24,8 +24,12 @@ const pageContent = {
           tr: 'Bilgisayar Mühendisi',
         }),
         description: t({
-          en: 'Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a *funnywise* Spirit Guide with engineering, feeling and artistic skills.',
-          tr: "Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan *eğlendeli* bir Maneviyat Rehberi'dir.",
+          en: md(
+            'Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a [Spirit Guide](){data-tooltip-id="tooltip" data-tooltip-content="A new and mystical title that embodies the awareness of all living beings guiding one another through visible and invisible bonds."} with engineering, feeling and artistic skills.',
+          ),
+          tr: md(
+            'Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan bir [Maneviyat Rehberi](){data-tooltip-id="tooltip" data-tooltip-content="Görünür ve görünmez bağlarla tüm canlıların birbirlerine rehberlik etmesinin bilincini taşıyan yeni ve mistik bir ünvan."}\'dir.',
+          ),
         }),
         birthday: {
           year: 1988,
@@ -70,8 +74,12 @@ const pageContent = {
           tr: 'İşsiz',
         }),
         description: t({
-          en: "Yunus Emre Saral, married and a father of five, is one of the ordinary citizens who have had to struggle with various illnesses for years. While he drew closer to the Creator before Emin Buğra Saral, he continues to grapple with his mental illness in his simple and boring life. He has made many contributions to his brother's extraordinary discoveries through his very existence.",
-          tr: "Evli ve beş çocuk babası olan Yunus Emre Saral, çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan sıradan vatandaşlardan biridir. Yaradan'a Emin Buğra Saral'dan daha önce yaklaşmış olup, sade ve sıkıcı olan hayatında zihinsel hastalığının bir kısmıyla uğraşmaya devam ediyor. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur.",
+          en: md(
+            "Yunus Emre Saral, married and a father of five, is one of the ordinary citizens who have had to struggle with various illnesses for years. While he drew closer to the Creator before Emin Buğra Saral, he continues to grapple with his mental illness in his simple and boring life. He has made many contributions to his brother's extraordinary discoveries through his very existence.",
+          ),
+          tr: md(
+            "Evli ve beş çocuk babası olan Yunus Emre Saral, çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan sıradan vatandaşlardan biridir. Yaradan'a Emin Buğra Saral'dan daha önce yaklaşmış olup, sade ve sıkıcı olan hayatında zihinsel hastalığının bir kısmıyla uğraşmaya devam ediyor. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur.",
+          ),
         }),
         birthday: {
           year: 1990,
