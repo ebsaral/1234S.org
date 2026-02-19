@@ -138,6 +138,16 @@ const pageContent = {
       },
       {
         title: t({
+          en: 'What does fasting represent in nature?',
+          tr: 'Oruç tutmak doğada neyi temsil ediyor?',
+        }),
+        subtitle: t({
+          en: "Different cultures have different methods of fasting, each with different motivations. Positive aspects include reducing unnecessary consumption and harmful behaviors. In fact, any behavior that does not disrupt freedom and equality in nature is not harmful. Considering the workings of nature, our bodies need fluids to create a cycle that allows harmful substances to be eliminated. If you don't reduce the negative activities you engage in during the day and ensure you get enough fluids, the substances that enter your body along with the products you use can cause permanent damage and harm your health. Therefore, in this period where negative behaviors are increasing in society, the negative effects of fasting may be even greater. You need to observe your own body to assess this situation.",
+          tr: 'Farklı kültürlerde farklı oruç tutma yöntemleri bulunuyor. Her bir yöntemin farklı motivasyonları bulunuyor. Olumlu yanları gereksiz tüketimi ve zararlı davranışları azaltmak olarak görülebilir. Aslında doğadaki özgürlüğü ve eşitliği bozmayacak herhangi bir davranış zararlı değildir. Doğanın işleyişi göz önünde bulundurulduğunda, vücudumuza giren olumsuz bir maddenin vücudumuzdan atılabilmesi için vücudumuzdaki döngüyü oluşturacak sıvıya ihtiyaç duyulur. Gün içerisinde yaşadığınız olumsuz eylemleri azaltmaz ve gerekli sıvı ihtiyacını karşılamazsanız, kullandığınız ürünlerle birlikte vücudunuza giren maddeler kalıcı hasarların oluşmasına vesile olarak sağlığınıza zarar verebilir. Haliyle olumsuz eylemlerin toplum genelinde arttığı bu dönemde tutulan oruçların yarattığı olumsuzluklar daha fazla olabilir. Kendi vücudunuzu gözlemleyerek bu durumu değerlendirmeniz gerekiyor.',
+        }),
+      },
+      {
+        title: t({
           en: 'Do animals exist for our service? Why can some animals be eaten while others cannot?',
           tr: 'Hayvanlar bizim hizmetimiz için mi varlar? Neden bazı hayvanlar yenebiliyor, bazıları yenemiyor?',
         }),

@@ -30,7 +30,7 @@ const Philosophy = () => {
       <Health id={navigation.health.hash.value} />
       <EndingSection id='ending' />
       <FAQ id={navigation.faq.hash.value} />
-      <LastUpdate className='max-w-4xl mx-auto px-6 mb-16 text-gray-800 text-center' date={new Date('2026-02-16')} />
+      <LastUpdate className='max-w-4xl mx-auto px-6 mb-16 text-gray-800 text-center' />
     </main>
   );
 };
