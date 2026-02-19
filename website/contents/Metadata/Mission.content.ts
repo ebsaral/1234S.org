@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'mission-page-metadata',
   content: {
     title: t({
-      en: 'Our Mission | 1234 Science & Art Association',
-      tr: 'Misyonumuz | 1234 Sanat ve İlim Derneği',
+      en: 'Our Mission | 1234S.org',
+      tr: 'Misyonumuz | 1234S.org',
     }),
     description: t({
       en: 'The Mission of 1234S.org: Extending the Application of Logical Spirituality for a Better Life through Interconnectedness, Justice, and Health.',

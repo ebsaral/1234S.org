@@ -23,16 +23,9 @@ const Team = () => {
             <Flower className='text-rose-600' size={40} />
           </div>
 
-          <h2
-            className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-5 leading-tight overflow-ellipsis`}
-          >
+          <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900  leading-tight overflow-ellipsis`}>
             {content.title}
           </h2>
-
-          <FormattedText
-            className='max-w-4xl mx-auto px-6 sm:px-10 py-0 text-center leading-relaxed text-md sm:text-lg md:text-xl text-black'
-            text={content.description.value}
-          />
         </div>
       </div>
 
@@ -44,7 +37,7 @@ const Team = () => {
         </div>
       )}
 
-      <div className='sea -mt-48 sm:-mt-36 z-0'>
+      <div className='sea -mt-28 sm:-mt-28 z-0'>
         <div className='wave back' />
         <div className='wave' />
       </div>

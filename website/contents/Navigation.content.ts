@@ -14,24 +14,21 @@ interface NavigationContent {
     link: string;
   };
   home: Link;
-  about: Link;
   philosophy: Link;
   mission: Link;
-  support: Link;
-  project: Link;
-  contact: Link;
+  service: Link;
   intro: SubLink;
   interconnectedness: SubLink;
   justice: SubLink;
   health: SubLink;
   faq: SubLink;
+  project: Link;
+  contact: Link;
   language: string;
   flags: {
     [Locales.ENGLISH]: string;
     [Locales.TURKISH]: string;
   };
-  budgetIssue: string;
-  closeButton: string;
 }
 
 const pageContent = {
@@ -46,14 +43,8 @@ const pageContent = {
     },
     home: {
       text: t({
-        en: 'Our Association',
-        tr: 'Derneğimiz',
-      }),
-    },
-    about: {
-      text: t({
-        en: 'About',
-        tr: 'Hakkımızda',
+        en: 'Homepage',
+        tr: 'Anasayfa',
       }),
     },
     philosophy: {
@@ -68,10 +59,10 @@ const pageContent = {
         tr: 'Misyonumuz',
       }),
     },
-    support: {
+    service: {
       text: t({
-        en: 'Support Us',
-        tr: 'Destek Olun',
+        en: 'Our Services',
+        tr: 'Hizmetlerimiz',
       }),
     },
     intro: {
@@ -129,14 +120,6 @@ const pageContent = {
       [Locales.ENGLISH]: '🇺🇸',
       [Locales.TURKISH]: '🇹🇷',
     },
-    budgetIssue: t({
-      en: 'While our teachings are being used in all dissembling political speeches at the moment, our financial difficulties continue to increase. Any contribution or assistance that helps clear our way forward would be deeply appreciated.',
-      tr: 'Öğretilerimiz şu anki tüm siyasi konuşmalarda iki yüzlü biçimlerde kullanılıyor. Fakat mali sıkıntılarımız artmaya devam ediyor. Yolumuzu açabilecek herhangi bir katkıda veya yardımda bulunabilirseniz memnun oluruz.',
-    }),
-    closeButton: t({
-      en: 'Close',
-      tr: 'Kapat',
-    }),
   },
 } satisfies Dictionary<NavigationContent>;
 

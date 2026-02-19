@@ -8,7 +8,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
 import BlueButton from '../Custom/Buttons/BlueButton';
-import SupportLink from '../Custom/Buttons/SupportLink';
+import ServiceLink from '../Custom/Buttons/ServiceLink';
 import Title from '../Custom/Title';
 import Team from '../Sections/Team';
 
@@ -111,7 +111,6 @@ const Home = () => {
             </div>
           </div>
           <article className='home-intro max-w-4xl mx-auto flex flex-col items-start sm:items-center justify-stretch my-10 gap-10'>
-            {content.title}
             {content.intro}
           </article>
 
@@ -141,7 +140,7 @@ const Home = () => {
               ))}
             </div>
           </article>
-          <SupportLink className='max-w-max mx-auto md:hidden mt-10  text-xl' />
+          <ServiceLink className='max-w-max mx-auto md:hidden mt-10  text-xl' />
         </div>
         <Team />
       </main>

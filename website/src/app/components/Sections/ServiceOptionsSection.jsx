@@ -4,16 +4,14 @@ import { BellElectric } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
 import { SocialIcon } from 'react-social-icons';
 
-import BankAccountButton from '../Custom/Buttons/BankAccountButton';
-
 import { Handshake } from 'lucide-react';
 
 import ContentLayout from '../ContentLayout';
-import JoinLink from '../Custom/Buttons/JoinLink';
+import JoinLink from '../Custom/Buttons/ContactLink';
 
-const SupportOptionsSection = () => {
-  const id = 'support-options';
-  const sectionKey = 'support-options';
+const ServiceOptionsSection = () => {
+  const id = 'service-options';
+  const sectionKey = 'service-options';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
@@ -47,11 +45,6 @@ const SupportOptionsSection = () => {
 
       <div className={`max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-5`}>
         <JoinLink className='p-4 min-w-52' />
-        <BankAccountButton
-          className='p-4 min-w-52'
-          label={content.bankAccount.label.value}
-          href={content.bankAccount.href.value}
-        />
       </div>
 
       <div className='max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4'>
@@ -74,4 +67,4 @@ const SupportOptionsSection = () => {
   );
 };
 
-export default SupportOptionsSection;
+export default ServiceOptionsSection;

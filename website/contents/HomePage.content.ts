@@ -4,23 +4,19 @@ import { HomePageContent } from './types';
 const pageContent = {
   key: 'home-page',
   content: {
-    title: t({
-      en: md('# 1234 Science & Art Association'),
-      tr: md('# 1234 Sanat ve İlim Derneği'),
-    }),
     logo: {
       title: t({
-        en: '1234 Science & Art Association Logo',
-        tr: '1234 Sanat ve İlim Derneği Logo',
+        en: '1234S.org Logo',
+        tr: '1234S.org Logo',
       }),
       href: '/logos/logo.svg',
     },
     intro: t({
       en: md(
-        "Founded with the aim of establishing [**Logical Spirituality**](/spirituality) as one of the world's leading philosophical movements, embracing the principles of **Interconnectedness, Justice, and Health in Nature** revealed through its teachings. We continue our work to develop, disseminate, and sustain efforts that improve the mental and physical well-being of individuals, society, and the natural environment.",
+        "1234S.org is founded with the aim of establishing [**Logical Spirituality**](/spirituality) as one of the world's leading philosophical movements, embracing the principles of **Interconnectedness, Justice, and Health in Nature** revealed through its teachings. We continue our work to develop, disseminate, and sustain efforts that improve the mental and physical well-being of individuals, society, and the natural environment.",
       ),
       tr: md(
-        "Dünyanın sayılı felsefi akımlarından biri olmasını amaçladığımız [**Mantıksal Maneviyat**](/maneviyat)'ın öğretileriyle birlikte açığa çıkan **Doğada Bütünlük, Adalet ve Sağlık** ilkelerini benimseyerek kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.",
+        "1234S.org, dünyanın sayılı felsefi akımlarından biri olmasını amaçladığımız [**Mantıksal Maneviyat**](/maneviyat)'ın öğretileriyle birlikte açığa çıkan **Doğada Bütünlük, Adalet ve Sağlık** ilkelerini benimseyerek kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.",
       ),
     }),
     readMore: {
@@ -37,10 +33,10 @@ const pageContent = {
       }),
       description: t({
         en: md(
-          'We would like to improve the overall quality of life for all communities. To impart the details of these topics, which our association is well-versed in, to the public, please visit our [**Support**](/support) page!',
+          'We want to improve the overall quality of life for all communities. To benefit from our [services](/service) in these areas, which we are very well-versed in, please [contact us](/contact).',
         ),
         tr: md(
-          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Derneğimizin detaylarına hakim olduğu bu konuları kamuoyuna aktarmasına yardımcı olmak için lütfen [**Destek**](/destek) sayfamızı ziyaret edin!',
+          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Detaylarına hakim olduğumuz bu konulara yönelik [hizmetlerimizden](/hizmet) yararlanmak için lütfen [bizimle iletişime geçin](/iletisim).',
         ),
       }),
       items: [

@@ -30,18 +30,13 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
-        source: '/destek',
-        destination: '/tr/support',
+        source: '/hizmet',
+        destination: '/tr/service',
         permanent: false,
       },
       {
-        source: '/banka-hesaplari',
-        destination: '/tr/bank-accounts',
-        permanent: false,
-      },
-      {
-        source: '/uyelik',
-        destination: '/tr/membership',
+        source: '/iletisim',
+        destination: '/tr/contact',
         permanent: false,
       },
     ];

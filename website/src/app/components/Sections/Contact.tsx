@@ -4,12 +4,11 @@ import { useIntlayer } from 'next-intlayer';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
 import { FileHeart } from 'lucide-react';
-import SupportLink from '../Custom/Buttons/SupportLink';
-import MembershipForm from '../Custom/MembershipForm';
+import ContactForm from '../Custom/ContactForm';
 
-const Membership = () => {
-  const id = 'membership';
-  const sectionKey = 'membership';
+const Contact = () => {
+  const id = 'contact';
+  const sectionKey = 'contact';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
@@ -17,7 +16,7 @@ const Membership = () => {
       <div className={`absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-200 opacity-80'}`} />
 
       <div className='max-w-4xl mx-auto px-4'>
-        <div className='relative mx-auto mt-16 mb-6 pb-1 rounded-2xl text-center'>
+        <div className='relative mx-auto mt-16 pb-1 rounded-2xl text-center'>
           <div
             className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
           >
@@ -37,23 +36,10 @@ const Membership = () => {
         </div>
       </div>
       <div className='mx-auto w-full z-10 relative top-0 flex flex-col items-center justify-start'>
-        <MembershipForm className='mx-auto w-full' />
-
-        <div className='flex flex-col gap-4 items-center'>
-          <FormattedText
-            className='max-w-4xl mx-auto px-6 sm:px-10 pt-6 text-center leading-relaxed text-md sm:text-lg md:text-xl font-bold text-black'
-            text={content.support.value}
-          />
-          <SupportLink />
-        </div>
-      </div>
-
-      <div className='sea -mt-24 sm:-mt-28 md:-mt-24 lg:-mt-24 z-0'>
-        <div className='wave back' />
-        <div className='wave' />
+        <ContactForm className='mx-auto w-full' />
       </div>
     </section>
   );
 };
 
-export default Membership;
+export default Contact;

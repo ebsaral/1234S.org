@@ -2,15 +2,15 @@ import { type Dictionary, t } from 'intlayer';
 import { Metadata } from 'next';
 
 const metadataContent = {
-  key: 'membership-page-metadata',
+  key: 'service-page-metadata',
   content: {
     title: t({
-      en: 'Association Membership | 1234 Science & Art Association',
-      tr: 'Dernek Üyeliği | 1234 Sanat ve İlim Derneği',
+      en: 'Our Services | 1234S.org',
+      tr: 'Hizmetlerimiz | 1234S.org',
     }),
     description: t({
-      en: 'Join the 1234 Science & Art Association to support our mission of promoting  Interconnectedness, Justice and Health in Nature through Logical Spirituality.',
-      tr: "1234 Sanat ve İlim Derneği'ne katılarak Mantıksal Maneviyat yoluyla Doğada Bütünlük, Adalet ve Sağlığı teşvik etme misyonumuzu destekleyin.",
+      en: 'Support us to reach a better life all together through Interconnectedness, Justice, and Health.',
+      tr: 'Bütünlük, Adalet ve Sağlık yoluyla hep birlikte daha iyi bir yaşama ulaşabilmemiz için bizi destekleyin.',
     }),
     applicationName: '1234S.org',
     authors: [
@@ -21,8 +21,8 @@ const metadataContent = {
     ],
     generator: 'Next.js',
     keywords: t({
-      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support, membership',
-      tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek, üyelik',
+      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support',
+      tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek',
     }),
     referrer: 'origin',
     creator: '1234S.org',

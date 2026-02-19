@@ -32,19 +32,19 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
-    url: url + '/support',
+    url: url + '/service',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + '/support') },
+      languages: { ...getMultilingualUrls(url + '/service') },
     },
     priority: 1,
     changeFrequency: 'hourly',
   },
   {
-    url: url + '/bank-accounts',
+    url: url + '/contact',
     lastModified: new Date(),
     alternates: {
-      languages: { ...getMultilingualUrls(url + '/bank-accounts') },
+      languages: { ...getMultilingualUrls(url + '/contact') },
     },
     priority: 1,
     changeFrequency: 'hourly',

@@ -4,20 +4,20 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
 import Title from '../Custom/Title';
-import MembershipSection from '../Sections/Membership';
+import ContactSection from '../Sections/Contact';
 
-const Membership = () => {
-  const content = useIntlayer('membership-page-metadata');
+const Contact = () => {
+  const content = useIntlayer('contact-page-metadata');
   const { setActiveMenu } = useMenu();
   useEffect(() => {
-    setActiveMenu({ root: 'membership' });
+    setActiveMenu({ root: 'contact' });
   }, []);
   return (
     <main>
       <Title title={content.title.value} />
-      <MembershipSection />
+      <ContactSection />
     </main>
   );
 };
 
-export default Membership;
+export default Contact;

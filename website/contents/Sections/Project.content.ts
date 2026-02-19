@@ -9,18 +9,18 @@ const pageContent = {
     }),
     support: t({
       en: md(
-        'To contribute to this project, which we aim to develop as a philosophical movement, you can visit our [Support](/support) page.',
+        'To contribute to this project, which we aim to develop as a philosophical movement, you can visit our [Contact](/contact) page.',
       ),
       tr: md(
-        'Bir felsefi akım olarak ilerletmek istediğimiz bu projemize katkıda bulunmak için [Destek](/destek) sayfamızı ziyaret edebilirsiniz.',
+        'Bir felsefi akım olarak ilerletmek istediğimiz bu projemize katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
       ),
     }),
     explanation: t({
       en: md(
-        "**Within the guidance of Logical Spirituality's teachings based on the realities of nature, we can enable a fundamental transformation in politics.** Until we make our lives more harmonious with nature through the lessons learned from our life experiences, our various health problems will continue, almost as a result of natural selection. We can raise awareness so that people can see the logic in nature and together we can heal the recurring mistakes in our life cycles.",
+        "**Within the guidance of Logical Spirituality's teachings based on the realities of nature, we want to enable a fundamental transformation in politics.** Until we make our lives more harmonious with nature through the lessons learned from our life experiences, our various health problems will continue, almost as a result of natural selection. We can raise awareness so that people can see the logic in nature and together we can heal the recurring mistakes in our life cycles.",
       ),
       tr: md(
-        '**Mantıksal Maneviyat öğretilerinin rehberliğinde doğanın gerçeklerini esas alarak, siyasette köklü bir dönüşüm gerçekleştirebiliriz.** Yaşam deneyimlerimizden edindiğimiz derslerle yaşantılarımızı doğayla daha uyumlu hâle getirene dek, farklı biçimlerdeki sağlık sorunlarımız adeta doğal seçilimin bir sonucu gibi devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve yaşam döngülerimizde tekrarlanan hataları birlikte iyileştirebiliriz.',
+        '**Mantıksal Maneviyat öğretilerinin rehberliğinde doğanın gerçeklerini esas alarak, siyasette köklü bir dönüşüm gerçekleştirmek istiyoruz.** Yaşam deneyimlerimizden edindiğimiz derslerle yaşantılarımızı doğayla daha uyumlu hâle getirene dek, farklı biçimlerdeki sağlık sorunlarımız adeta doğal seçilimin bir sonucu gibi devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve yaşam döngülerimizde tekrarlanan hataları birlikte iyileştirebiliriz.',
       ),
     }),
     items: [

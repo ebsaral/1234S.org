@@ -8,9 +8,9 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 import SubmitFormButton from './Buttons/SubmitFormButton';
 
-const MembershipForm = ({ className = '' }) => {
+const ContactForm = ({ className = '' }) => {
   const { locale } = useLocale();
-  const content = useIntlayer('membership-section', locale);
+  const content = useIntlayer('contact-section', locale);
   const recaptchaRef = useRef();
   const [serverError, setServerError] = useState(null);
 
@@ -25,7 +25,7 @@ const MembershipForm = ({ className = '' }) => {
     const token = await recaptchaRef.current.executeAsync();
 
     try {
-      const res = await axios.post(`/api/${locale}/membership`, {
+      const res = await axios.post(`/api/${locale}/contact`, {
         ...data,
         token,
       });
@@ -95,75 +95,39 @@ const MembershipForm = ({ className = '' }) => {
               />
               {errors.phone && <p className='text-sm text-red-500 mt-1'>{errors.phone.message}</p>}
             </div>
+          </div>
 
+          <div className='flex flex-col items-start justify-start gap-4'>
             {/* Birthday */}
             <div className='w-full'>
               <label className='block text-sm font-medium mb-1'>{content.form.birthday.label}</label>
               <input
                 type='date'
                 className='w-full rounded-lg border p-2 focus:outline-none focus:ring'
-                {...register('birthday', {
-                  required: content.form.birthday.required.value,
-                })}
+                {...register('birthday')}
               />
               {errors.birthday && <p className='text-sm text-red-500 mt-1'>{errors.birthday.message}</p>}
             </div>
 
-            {/* Gender */}
+            {/* Message */}
             <div className='w-full'>
-              <label className='block text-sm font-medium mb-1'>{content.form.gender.label}</label>
-              <select
-                className='w-full rounded-lg border p-2 bg-white focus:outline-none focus:ring'
-                defaultValue=''
-                {...register('gender', { required: content.form.gender.required.value })}
-              >
-                <option value='' disabled>
-                  {content.form.select}
-                </option>
-                <option value='female'>{content.form.gender.options.female}</option>
-                <option value='male'>{content.form.gender.options.male}</option>
-                <option value='other'>{content.form.gender.options.other}</option>
-              </select>
-              {errors.gender && <p className='text-sm text-red-500 mt-1'>{errors.gender.message}</p>}
-            </div>
-          </div>
-
-          <div className='flex flex-col items-start justify-start gap-4'>
-            {/* Address */}
-            <div className='w-full'>
-              <label className='block text-sm font-medium mb-1'>{content.form.address.label}</label>
+              <label className='block text-sm font-medium mb-1'>{content.form.message.label}</label>
               <textarea
                 rows={4}
                 className='w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none'
-                {...register('address', {
-                  required: content.form.address.required.value,
-                  minLength: { value: 10, message: content.form.address.message.value },
-                })}
+                {...register('message', { required: content.form.message.required.value })}
               />
-              {errors.address && <p className='text-sm text-red-500 mt-1'>{errors.address.message}</p>}
-            </div>
-
-            {/* Note */}
-            <div className='w-full'>
-              <label className='block text-sm font-medium mb-1'>{content.form.note.label}</label>
-              <textarea
-                rows={4}
-                className='w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none'
-                {...register('note')}
-              />
-              {errors.note && <p className='text-sm text-red-500 mt-1'>{errors.note.message}</p>}
-            </div>
-
-            <div className='w-full flex items-center justify-center'>
-              <SubmitFormButton
-                text={content.form.submitButton.label.value}
-                onSubmitText={content.form.submitButton.onSubmitLabel.value}
-                isSubmitting={isSubmitting}
-              />
+              {errors.message && <p className='text-sm text-red-500 mt-1'>{errors.message.message}</p>}
             </div>
           </div>
         </div>
-
+        <div className='mx-auto flex items-center justify-center'>
+          <SubmitFormButton
+            text={content.form.submitButton.label.value}
+            onSubmitText={content.form.submitButton.onSubmitLabel.value}
+            isSubmitting={isSubmitting}
+          />
+        </div>
         {serverError && <p className='text-sm text-red-500 mt-1'>{serverError}</p>}
 
         <ReCAPTCHA
@@ -179,4 +143,4 @@ const MembershipForm = ({ className = '' }) => {
   );
 };
 
-export default MembershipForm;
+export default ContactForm;

@@ -16,8 +16,6 @@ interface TeamBirthday {
 
 export interface TeamMember {
   name: string;
-  title: string;
-  profession?: string;
   description?: string;
   birthday?: TeamBirthday;
   experience?: {
@@ -33,18 +31,12 @@ export interface TeamMember {
 
 export interface TeamContent {
   title: string;
-  description: string;
   members: TeamMember[];
-  join: string;
-  total: {
-    count: number;
-    label: string;
-  };
+  contact: string;
   note: string;
 }
 
 export interface HomePageContent {
-  title: string;
   intro: string;
   logo: {
     title: string;

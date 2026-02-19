@@ -2,15 +2,15 @@ import { type Dictionary, t } from 'intlayer';
 import { Metadata } from 'next';
 
 const metadataContent = {
-  key: 'bank-accounts-page-metadata',
+  key: 'contact-page-metadata',
   content: {
     title: t({
-      en: 'Our Bank Accounts | 1234 Science & Art Association',
-      tr: 'Banka Hesaplarımız | 1234 Sanat ve İlim Derneği',
+      en: 'Contact Us | 1234S.org',
+      tr: 'İletişim | 1234S.org',
     }),
     description: t({
-      en: 'View our bank account details to support 1234 Science & Art Association.',
-      tr: "1234 Sanat ve İlim Derneği'ni desteklemek için banka hesap bilgilerimizi görüntüleyin",
+      en: 'You can contact us for your questions, requests and opinions about Logical Spirituality.',
+      tr: 'Mantıksal Maneviyat hakkındaki soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
     }),
     applicationName: '1234S.org',
     authors: [
@@ -21,8 +21,8 @@ const metadataContent = {
     ],
     generator: 'Next.js',
     keywords: t({
-      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support',
-      tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek',
+      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support, membership',
+      tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek, üyelik',
     }),
     referrer: 'origin',
     creator: '1234S.org',

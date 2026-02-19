@@ -1,15 +1,14 @@
+import Service from '@/app/components/Pages/Service';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
 
-import Membership from '@/app/components/Pages/Membership';
-
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
 
-  const metadata = getIntlayer('membership-page-metadata', locale);
+  const metadata = getIntlayer('service-page-metadata', locale);
 
-  const url = 'https://www.1234s.org/membership';
+  const url = 'https://www.1234s.org/service';
   const multilingualUrls = getMultilingualUrls(url);
 
   return {
@@ -28,7 +27,7 @@ export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<
 const Page: NextPageIntlayer = async ({ params }) => {
   // const { locale } = await params;
 
-  return <Membership />;
+  return <Service />;
 };
 
 export default Page;

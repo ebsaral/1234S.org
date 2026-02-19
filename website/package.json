@@ -1,8 +1,9 @@
 {
   "name": "1234S.org",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
+    "intlayer:build": "intlayer build",
     "dev": "intlayer watch --with next dev",
     "build": "next build",
     "start": "next start",

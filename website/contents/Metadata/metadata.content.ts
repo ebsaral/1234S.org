@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'page-metadata',
   content: {
     title: t({
-      en: '1234 Science & Art Association',
-      tr: '1234 Sanat ve İlim Derneği',
+      en: '1234S.org',
+      tr: '1234S.org',
     }),
     description: t({
       en: 'A Comprehensive View of Spirituality Together with the Logic of Nature: Interconnectedness, Justice, Health.',

@@ -12,8 +12,6 @@ const verifyCaptcha = async (token: string) => {
     `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${token}`,
   );
 
-  console.log(response.data);
-
   if (response.data.success) {
     return true;
   }
@@ -22,7 +20,7 @@ const verifyCaptcha = async (token: string) => {
 
 export async function POST(req: NextRequest, { params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const content = getIntlayer('membership-section', locale);
+  const content = getIntlayer('contact-section', locale);
   const data = await req.json();
 
   try {

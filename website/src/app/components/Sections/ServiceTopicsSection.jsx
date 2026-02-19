@@ -8,9 +8,9 @@ import ContentLayout from '../ContentLayout';
 import Description from '../Custom/Description';
 import { Card } from '../ui/card';
 
-const SupportTopicsSection = () => {
-  const id = 'support-topics';
-  const sectionKey = 'support-topics';
+const ServiceTopicsSection = () => {
+  const id = 'service-topics';
+  const sectionKey = 'service-topics';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
@@ -42,4 +42,4 @@ const SupportTopicsSection = () => {
   );
 };
 
-export default SupportTopicsSection;
+export default ServiceTopicsSection;

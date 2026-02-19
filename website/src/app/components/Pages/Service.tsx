@@ -4,11 +4,10 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
 import Title from '../Custom/Title';
-import SupportOptionsSection from '../Sections/SupportOptionsSection';
-import SupportTopicsSection from '../Sections/SupportTopicsSection';
+import ServiceSection from '../Sections/Service';
 
-const Support = () => {
-  const content = useIntlayer('support-page-metadata');
+const Service = () => {
+  const content = useIntlayer('service-page-metadata');
   const { setActiveMenu } = useMenu();
   useEffect(() => {
     setActiveMenu({ root: 'support' });
@@ -16,10 +15,9 @@ const Support = () => {
   return (
     <main>
       <Title title={content.title.value} />
-      <SupportTopicsSection />
-      <SupportOptionsSection />
+      <ServiceSection />
     </main>
   );
 };
 
-export default Support;
+export default Service;

@@ -4,52 +4,20 @@ import { useIntlayer, useLocale } from 'next-intlayer';
 import { SocialIcon } from 'react-social-icons';
 
 import { Locales } from 'intlayer';
-import { Feather } from 'lucide-react';
-import JoinLink from './Custom/Buttons/JoinLink';
-import FormattedText from './Custom/FormattedText';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');
   const { locale, pathWithoutLocale } = useLocale();
 
-  const canShowJoinLink = () => {
-    if (['/', '/membership', '/support'].includes(pathWithoutLocale)) return false;
-    return true;
-  };
-
   return (
-    <footer id='contact' className='stars-box py-10'>
+    <footer id='contact' className='stars-box pt-4 pb-10'>
       <div className='stars'></div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='max-w-7xl flex flex-col justify-center items-center gap-8'>
-          {/* Contact section */}
-          <div className='flex flex-col justify-center items-center md:items-left md:justify-start'>
-            <div className='h-20 text-gray-300 text-sm'>
-              <a
-                className='group flex flex-col gap-0 hover:gap-1 items-center hover:text-white'
-                title={content.association.contact.title.value}
-                href={`mailto:${content.association.contact.email.value}`}
-              >
-                <div className=''>
-                  <Feather size={36} />
-                </div>
-                <div className='group-hover:tracking-wider group-hover:text-md transition-all duration-300'>
-                  {content.association.contact.email}
-                </div>
-              </a>
-            </div>
-            <div className='flex flex-col items-center justify-center md:items-left md:justify-start gap-2 text-center text-gray-300 text-sm'>
-              <div>{content.association.contact.phone}</div>
-              <div>{content.association.contact.address}</div>
-            </div>
-          </div>
-
-          {canShowJoinLink() && <JoinLink />}
-
           {/* Social Media section */}
-          <div id='social-links' className='flex flex-col gap-8 items-center justify-center'>
+          <div id='social-links' className='flex flex-col gap-8 items-center justify-center mt-4'>
             <div className='flex justify-center items-center gap-4'>
-              {content.association.social.map((props, index) => (
+              {content.social.map((props, index) => (
                 <SocialIcon
                   key={index}
                   title={props.label.value}
@@ -62,22 +30,12 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
-            <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
-              <a href={content.association.bylaw.href.value} target='_blank' className='underline hover:text-white'>
-                {content.association.bylaw.label}
-              </a>
-              <a href={content.association.license.href.value} target='_blank' className='underline hover:text-white'>
-                {content.association.license.label}
-              </a>
-            </div>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
               <p>
-                {new Date().getFullYear()} © {content.association.name}
+                {new Date().getFullYear()} © {content.name}
               </p>
             </div>
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
-              <FormattedText className='max-w-3xl text-center' text={content.association.warning.value} />
-              <p className='text-center'>{content.association.description}</p>
               <p className='text-center'>
                 <a className='link-underline' href={content.stackshare.href.value}>
                   {content.stackshare.label}

@@ -10,7 +10,7 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import useHash from '../hooks/useHash';
 import { useMenu } from '../hooks/useMenu';
 import { useScrollEffects } from '../hooks/useScrollEffects';
-import SupportLink from './Custom/Buttons/SupportLink';
+import SupportLink from './Custom/Buttons/ServiceLink';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 

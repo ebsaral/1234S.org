@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'philosophy-page-metadata',
   content: {
     title: t({
-      en: 'Logical Spirituality | 1234 Science & Art Association',
-      tr: 'Mantıksal Maneviyat | 1234 Sanat ve İlim Derneği',
+      en: 'Logical Spirituality | 1234S.org',
+      tr: 'Mantıksal Maneviyat | 1234S.org',
     }),
     description: t({
       en: 'A Comprehensive View of Spirituality Together with the Logic in Nature: Interconnectedness, Justice, Health.',

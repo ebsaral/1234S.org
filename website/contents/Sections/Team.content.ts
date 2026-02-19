@@ -8,27 +8,15 @@ const pageContent = {
       en: 'Our Team',
       tr: 'Ekibimiz',
     }),
-    description: t({
-      en: 'Meet our dedicated association members who drive our mission forward.',
-      tr: 'Mantıksal Maneviyat akımını ileriye taşıyan dernek üyelerimizi tanıyın.',
-    }),
     members: [
       {
         name: 'Emin Buğra Saral',
-        title: t({
-          en: 'Chairman of the Board',
-          tr: 'Yönetim Kurulu Başkanı',
-        }),
-        profession: t({
-          en: 'Computer Engineer',
-          tr: 'Bilgisayar Mühendisi',
-        }),
         description: t({
           en: md(
-            'Emin Buğra Saral, the founder of the Logical Spirituality movement and our association, guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order. He approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a [Spirit Guide](){data-tooltip-id="tooltip" data-tooltip-content="A new and mystical title that embodies the awareness of all living beings guiding one another through visible and invisible bonds."} with engineering, feeling and artistic skills.',
+            'As the founder of the Logical Spirituality movement, he guides individuals and communities toward a deeper understanding of the principles of nature. Through his well-intentioned and courageous actions, the lessons he learned emphasize the interconnectedness of all living beings and the importance of aligning our actions with the natural order.\n\nHe approaches his diverse interests with curiosity, open-mindedness, talent, humility, empathy, creativity, spontaneity and humor. While being a protean personality, he is a [Spirit Guide](){data-tooltip-id="tooltip" data-tooltip-content="A new and mystical title that embodies the awareness of all living beings guiding one another through visible and invisible bonds."} with engineering, feeling and artistic skills.',
           ),
           tr: md(
-            'Mantıksal Maneviyat akımının ve derneğimizin kurucusu olan Emin Buğra Saral, bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır. Meraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan bir [Maneviyat Rehberi](){data-tooltip-id="tooltip" data-tooltip-content="Görünür ve görünmez bağlarla tüm canlıların birbirlerine rehberlik etmesinin farkında olan yeni ve mistik bir ünvan."}\'dir.',
+            'Mantıksal Maneviyat akımının kurucusu olarak bireyleri ve toplulukları doğanın ilkelerine dair daha derin bir anlayışa yönlendirmektedir. İyi niyetle ve cesurca aldığı eylemleri sayesinde deneyimlediği öğretileri, tüm canlıların birbirlerine bağlılığını ve eylemlerimizin doğal düzenle uyumlu olmasının önemini vurgulamaktadır.\n\nMeraklı, açık fikirli, yetenekli, mütevazı, anlayışlı, yaratıcı, spontane ve nükteli olarak yaklaştığı çeşitli ilgi alanları bulunmaktadır. Çok yönlü bir kişiliğe sahip olmakla birlikte mühendislik, sezgi ve sanatsal becerileri olan bir [Maneviyat Rehberi](){data-tooltip-id="tooltip" data-tooltip-content="Görünür ve görünmez bağlarla tüm canlıların birbirlerine rehberlik etmesinin farkında olan yeni ve mistik bir ünvan."}\'dir.',
           ),
         }),
         birthday: {
@@ -53,8 +41,8 @@ const pageContent = {
         links: [
           {
             text: t({
-              en: 'View Résumé',
-              tr: 'Öz Geçmişi inceleyin',
+              en: 'Résumé',
+              tr: 'Öz Geçmiş',
             }),
             href: t({
               en: 'https://0.1234s.org/resume',
@@ -63,62 +51,11 @@ const pageContent = {
           },
         ],
       },
-      {
-        name: 'Yunus Emre Saral',
-        title: t({
-          en: 'Vice Chairman of the Board',
-          tr: 'Yönetim Kurulu Başkan Yardımcısı',
-        }),
-        profession: t({
-          en: 'Unemployed',
-          tr: 'İşsiz',
-        }),
-        description: t({
-          en: md(
-            "Yunus Emre Saral, married and a father of five, is one of the ordinary citizens who have had to struggle with various illnesses for years. While he drew closer to the Creator before Emin Buğra Saral, he continues to grapple with his mental illness in his simple and boring life. He has made many contributions to his brother's extraordinary discoveries through his very existence.",
-          ),
-          tr: md(
-            "Evli ve beş çocuk babası olan Yunus Emre Saral, çeşitli hastalıklarla yıllarca mücadele etmek zorunda bırakılan sıradan vatandaşlardan biridir. Yaradan'a Emin Buğra Saral'dan daha önce yaklaşmış olup, sade ve sıkıcı olan hayatında zihinsel hastalığının bir kısmıyla uğraşmaya devam ediyor. Abisinin olağanüstü keşiflerine varlığıyla birçok katkıda bulunmuştur.",
-          ),
-        }),
-        birthday: {
-          year: 1990,
-          month: 10,
-          day: 31,
-        },
-        image: {
-          src: '/members/yunusemresaral.jpg',
-          size: 120,
-        },
-      },
-      {
-        title: t({
-          en: 'Future Member',
-          tr: 'Geleceğin Üyesi',
-        }),
-        name: t({
-          en: "Would you like to help us achieve our association's mission?",
-          tr: 'Derneğimizin misyonu için bize yardım etmek ister misiniz?',
-        }),
-        image: {
-          src: '/members/placeholder.jpg',
-          size: 120,
-        },
-        join: true,
-        spin: true,
-      },
     ],
-    join: t({
-      en: 'Become A Member!',
-      tr: 'Üye Olun!',
+    contact: t({
+      en: 'Contact',
+      tr: 'İletişim',
     }),
-    total: {
-      count: 7,
-      label: t({
-        en: 'Total member count',
-        tr: 'Toplam üye sayısı',
-      }),
-    },
     note: t({
       en: 'If you would like to benefit from my experience and help me, you can use the contact options below. I already have a great understanding of the principles of nature and I can contribute thoroughly to all social projects.',
       tr: 'Deneyimlerimden faydalanmak ve bana yardımcı olmak isterseniz, aşağıdaki iletişim seçeneklerini kullanabilirsiniz. Doğanın ilkelerine yönelik derin bir mutabakata sahibim ve tüm toplumsal projelere detaylı bir şekilde katkıda bulunabilirim.',
