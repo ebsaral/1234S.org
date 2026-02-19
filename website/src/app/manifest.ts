@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: '1234 Science & Art Association',
-    short_name: '1234 Science & Art Association',
+    name: '1234S.org',
+    short_name: '1234S.org',
     description: 'Logical Spirituality: The Root of New Politics',
     start_url: '/',
     display: 'standalone',
