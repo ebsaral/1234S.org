@@ -33,12 +33,10 @@ const Service = () => {
             text={content.description.value}
           />
         </div>
-        <div className='max-w-2xl mx-auto flex items-center justify-center my-5'>
-          <BellElectric />
-        </div>
 
-        <div className={`max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-5`}>
-          <ContactLink className='p-4 min-w-52' />
+        <div className={`max-w-2xl mx-auto flex flex-col items-center justify-center gap-5`}>
+          <ContactLink className='peer p-4 min-w-52 order-2' />
+          <BellElectric className='peer-hover:animate-bell peer-active:animate-bell order-1' />
         </div>
 
         <div className='max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4'>

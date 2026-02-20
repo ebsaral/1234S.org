@@ -154,6 +154,7 @@ const config: Config = {
         orbitFast: 'orbit3 4s linear infinite',
         glow: 'pulseGlow 2s ease-in-out infinite',
         sway: 'sway 3s linear infinite',
+        bell: 'sway 0.15s linear infinite',
         spinSlow: 'spinSlow 1.2s linear infinite',
         spark: 'spark 0.45s ease-out forwards',
         shake: 'shake 0.25s ease-in-out',
