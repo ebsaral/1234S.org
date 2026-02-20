@@ -33,10 +33,10 @@ const pageContent = {
       }),
       description: t({
         en: md(
-          'We want to improve the overall quality of life for all communities. To benefit from our [services](/service) in these areas, which we are very well-versed in, please [contact us](/contact).',
+          'We want to improve the overall quality of life for all communities. You can [contact](/contact) us to benefit from our [services](/service) in these areas which we are very well-versed in.',
         ),
         tr: md(
-          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Detaylarına hakim olduğumuz bu konulara yönelik [hizmetlerimizden](/hizmet) yararlanmak için lütfen [bizimle iletişime geçin](/iletisim).',
+          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Detaylarına hakim olduğumuz bu konulara yönelik [hizmetlerimizden](/hizmet) yararlanmak için bizimle [iletişime](/iletisim) geçebilirsiniz.',
         ),
       }),
       items: [
