@@ -8,8 +8,8 @@ const pageContent = {
       tr: 'Hizmetlerimiz',
     }),
     description: t({
-      en: 'This page is still under construction!',
-      tr: 'Bu sayfa henüz yapım aşamasındadır!',
+      en: 'This page is getting renewed!',
+      tr: 'Bu sayfa yapım aşamasında!',
     }),
     topics: {
       items: [],
