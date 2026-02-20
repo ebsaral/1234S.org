@@ -14,7 +14,7 @@ const Service = () => {
 
   return (
     <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-rose-500'>
-      <div className={`z-0 absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-50 opacity-80'}`} />
+      <div className={`z-0 absolute inset-0 bg-gradient-to-br from-rose-500 to-rose-200 opacity-80'}`} />
 
       <div className='relative z-10 max-w-4xl mx-auto px-4 py-8'>
         <div className='relative mx-auto my-8 pb-1 rounded-2xl text-center'>
