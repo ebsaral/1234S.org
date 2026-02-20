@@ -12,7 +12,7 @@ const Contact = () => {
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-blue-500'>
+    <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-blue-500 pb-6'>
       <div className={`absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-200 opacity-80'}`} />
 
       <div className='max-w-4xl mx-auto px-4'>
@@ -30,7 +30,7 @@ const Contact = () => {
           </h2>
 
           <FormattedText
-            className='max-w-4xl mx-auto px-6 sm:px-10 pt-6 text-left leading-relaxed text-md sm:text-lg md:text-xl text-black'
+            className='max-w-4xl mx-auto px-6 sm:px-10 py-6 text-center leading-relaxed text-md sm:text-lg md:text-xl text-black'
             text={content.description.value}
           />
         </div>

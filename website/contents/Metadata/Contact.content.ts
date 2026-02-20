@@ -5,12 +5,12 @@ const metadataContent = {
   key: 'contact-page-metadata',
   content: {
     title: t({
-      en: 'Contact Us | 1234S.org',
+      en: 'Contact | 1234S.org',
       tr: 'İletişim | 1234S.org',
     }),
     description: t({
-      en: 'You can contact us for your questions, requests and opinions about Logical Spirituality.',
-      tr: 'Mantıksal Maneviyat hakkındaki soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
+      en: 'You can contact us for your questions, requests and opinions.',
+      tr: 'Soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
     }),
     applicationName: '1234S.org',
     authors: [

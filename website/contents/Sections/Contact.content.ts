@@ -4,12 +4,12 @@ const pageContent = {
   key: 'contact-section',
   content: {
     title: t({
-      en: 'Contact Us',
+      en: 'Contact',
       tr: 'İletişim',
     }),
     description: t({
-      en: 'You can contact us for your questions, requests and opinions about **Logical Spirituality**.',
-      tr: '**Mantıksal Maneviyat** hakkındaki soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
+      en: 'You can contact us for your questions, requests and opinions.',
+      tr: 'Soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
     }),
     form: {
       title: t({
@@ -102,8 +102,8 @@ const pageContent = {
       },
       message: {
         label: t({
-          en: 'Write your message...',
-          tr: 'Mesajınızı yazınız...',
+          en: 'Your message',
+          tr: 'Mesajınız',
         }),
         required: t({
           en: 'Please enter your message.',

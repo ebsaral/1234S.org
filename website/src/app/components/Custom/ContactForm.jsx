@@ -40,7 +40,7 @@ const ContactForm = ({ className = '' }) => {
   };
 
   return (
-    <div className={`min-h-screen flex items-center justify-center p-4 ${className}`}>
+    <div className={`flex items-center justify-center p-4 ${className}`}>
       <form onSubmit={handleSubmit(onSubmit)} className='w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6 space-y-4'>
         <h2 className='text-xl font-semibold text-center'>{content.form.title}</h2>
 
@@ -77,7 +77,9 @@ const ContactForm = ({ className = '' }) => {
               />
               {errors.email && <p className='text-sm text-red-500 mt-1'>{errors.email.message}</p>}
             </div>
+          </div>
 
+          <div className='flex flex-col items-start justify-start gap-4'>
             {/* Phone */}
             <div className='w-full'>
               <label className='block text-sm font-medium mb-1'>{content.form.phone.label}</label>
@@ -86,7 +88,6 @@ const ContactForm = ({ className = '' }) => {
                 placeholder='+90 5xx xxx xx xx'
                 className='w-full rounded-lg border p-2 focus:outline-none focus:ring'
                 {...register('phone', {
-                  required: content.form.phone.required.value,
                   pattern: {
                     value: /^\+?(\d{1,3})?[-.\s]?(\(?\d{3}\)?[-.\s]?)?(\d[-.\s]?){6,9}\d$/,
                     message: content.form.phone.message.value,
@@ -95,9 +96,7 @@ const ContactForm = ({ className = '' }) => {
               />
               {errors.phone && <p className='text-sm text-red-500 mt-1'>{errors.phone.message}</p>}
             </div>
-          </div>
 
-          <div className='flex flex-col items-start justify-start gap-4'>
             {/* Birthday */}
             <div className='w-full'>
               <label className='block text-sm font-medium mb-1'>{content.form.birthday.label}</label>
@@ -108,19 +107,20 @@ const ContactForm = ({ className = '' }) => {
               />
               {errors.birthday && <p className='text-sm text-red-500 mt-1'>{errors.birthday.message}</p>}
             </div>
-
-            {/* Message */}
-            <div className='w-full'>
-              <label className='block text-sm font-medium mb-1'>{content.form.message.label}</label>
-              <textarea
-                rows={4}
-                className='w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none'
-                {...register('message', { required: content.form.message.required.value })}
-              />
-              {errors.message && <p className='text-sm text-red-500 mt-1'>{errors.message.message}</p>}
-            </div>
           </div>
         </div>
+
+        {/* Message */}
+        <div className='w-full'>
+          <label className='block text-sm font-medium mb-1'>{content.form.message.label}</label>
+          <textarea
+            rows={4}
+            className='w-full rounded-lg border p-2 focus:outline-none focus:ring resize-none'
+            {...register('message', { required: content.form.message.required.value })}
+          />
+          {errors.message && <p className='text-sm text-red-500 mt-1'>{errors.message.message}</p>}
+        </div>
+
         <div className='mx-auto flex items-center justify-center'>
           <SubmitFormButton
             text={content.form.submitButton.label.value}

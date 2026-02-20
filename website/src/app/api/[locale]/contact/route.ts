@@ -29,14 +29,21 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ loc
       return Response.json({ message: content.form.error.captcha }, { status: 405 });
     }
 
-    const message = `
-        Name: ${data.name}\n
-        Email: ${data.email}\n
-        Phone: ${data.phone}\n
-        Birthday: ${data.birthday}\n
-        Gender: ${data.gender}\n
-        Address: ${data.address}\n
-        Note: ${data.note}
+    const message =
+      locale === 'en'
+        ? `
+          Name: ${data.name}\n
+          Email: ${data.email}\n
+          Phone: ${data.phone}\n
+          Birthday: ${data.birthday}\n
+          Message: ${data.message}
+        `
+        : `
+          İsim: ${data.name}\n
+          Eposta: ${data.email}\n
+          Telefon: ${data.phone}\n
+          Doğum Tarihi: ${data.birthday}\n
+          Mesaj: ${data.message}
         `;
 
     const createDiscussionParams = {
