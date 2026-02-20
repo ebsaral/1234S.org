@@ -12,7 +12,7 @@ interface FooterContent {
     email: string;
   };
   social: FooterLink[];
-  stackshare: FooterLink;
+  github: FooterLink;
   displayProductHunt: boolean;
 }
 
@@ -46,9 +46,9 @@ const pageContent = {
         label: 'LinkedIn',
       },
     ],
-    stackshare: {
-      label: 'stackshare.io',
-      href: 'https://stackshare.io/ebsaral3651/1234stack',
+    github: {
+      label: 'GitHub',
+      href: 'https://www.github.com/ebsaral/1234S.org',
     },
     displayProductHunt: true,
   },

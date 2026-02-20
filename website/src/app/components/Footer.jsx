@@ -37,8 +37,8 @@ const Footer = () => {
             </div>
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
               <p className='text-center'>
-                <a className='link-underline' href={content.stackshare.href.value}>
-                  {content.stackshare.label}
+                <a className='link-underline' href={content.github.href.value}>
+                  {content.github.label}
                 </a>
               </p>
             </div>
