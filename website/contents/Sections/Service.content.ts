@@ -21,13 +21,10 @@ const pageContent = {
     contact: [
       {
         label: t({
-          en: 'WhatsApp Group Invite Link',
-          tr: 'WhatsApp Grup Davet Linki',
+          en: 'WhatsApp Community Invite Link',
+          tr: 'WhatsApp Topluluk Davet Linki',
         }),
-        url: t({
-          en: 'https://chat.whatsapp.com/Kza49cCtIMf9HsD0VNhH7V',
-          tr: 'https://chat.whatsapp.com/CI3boPYbZpb0no69TwgxaD',
-        }),
+        url: 'https://chat.whatsapp.com/Fb57HFEEZ2ECJ1tusZCVKS',
       },
       {
         label: t({
