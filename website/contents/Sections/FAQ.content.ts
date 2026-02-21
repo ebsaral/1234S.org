@@ -169,10 +169,10 @@ const pageContent = {
     ],
     contact: t({
       en: md(
-        'You can [contact us](mailto:logical.spirituality@icloud.com) to understand Logical Spirituality in depth and find answers to your questions. We continue to improve our teachings after each question or debate.',
+        'You can [contact us](/contact) to understand Logical Spirituality in depth and find answers to your questions. We continue to improve our teachings after each question or debate.',
       ),
       tr: md(
-        "Mantıksal Maneviyat'ın detaylarını daha iyi anlamak ve sorularınıza cevap bulmak için [bizimle iletişime geçebilirsiniz](mailto:mantiksal.maneviyat@icloud.com). Her sorulan soruyla veya tartışmayla birlikte öğretilerimizi geliştirmeye devam ediyoruz.",
+        "Mantıksal Maneviyat'ın detaylarını daha iyi anlamak ve sorularınıza cevap bulmak için [bizimle iletişime geçebilirsiniz](/iletisim). Her sorulan soruyla veya tartışmayla birlikte öğretilerimizi geliştirmeye devam ediyoruz.",
       ),
     }),
   },
