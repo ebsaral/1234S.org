@@ -1,4 +1,5 @@
 import { Locales, type IntlayerConfig } from 'intlayer';
+import { nextjsRewrite } from 'intlayer/routing';
 
 const config: IntlayerConfig = {
   internationalization: {
@@ -10,6 +11,24 @@ const config: IntlayerConfig = {
   },
   routing: {
     mode: 'prefix-all',
+    rewrite: nextjsRewrite({
+      '/[locale]/contact': {
+        en: '/[locale]/contact',
+        tr: '/[locale]/iletisim',
+      },
+      '/[locale]/mission': {
+        en: '/[locale]/mission',
+        tr: '/[locale]/misyon',
+      },
+      '/[locale]/philosophy': {
+        en: '/[locale]/spirituality',
+        tr: '/[locale]/maneviyat',
+      },
+      '/[locale]/service': {
+        en: '/[locale]/service',
+        tr: '/[locale]/hizmet',
+      },
+    }),
   },
   editor: {
     /**
