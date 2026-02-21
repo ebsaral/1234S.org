@@ -6,7 +6,7 @@ const config: IntlayerConfig = {
     defaultLocale: Locales.TURKISH,
   },
   content: {
-    contentDir: ['contents'],
+    contentDir: ['src/contents'],
   },
   routing: {
     mode: 'prefix-all',
