@@ -39,22 +39,24 @@ const Service = () => {
           <BellElectric className='peer-hover:animate-bell peer-active:animate-bell order-1' />
         </div>
 
-        <div className='max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4'>
-          <div className='flex items-center justify-center gap-4'>
-            {content.contact.map((props, index) => (
-              <SocialIcon
-                key={index}
-                title={props.label.value}
-                target='_blank'
-                className='transition-all duration-300 transform hover:scale-110'
-                url={props.url.value}
-              />
-            ))}
+        {content.contact.enabled && (
+          <div className='max-w-5xl flex flex-col items-center mx-auto mt-10 gap-4'>
+            <div className='flex items-center justify-center gap-4'>
+              {content.contact.items.map((props, index) => (
+                <SocialIcon
+                  key={index}
+                  title={props.label.value}
+                  target='_blank'
+                  className='transition-all duration-300 transform hover:scale-110'
+                  url={props.url.value}
+                />
+              ))}
+            </div>
+            <div className='text-center'>
+              <em>{content.contact.label}</em>
+            </div>
           </div>
-          <div className='text-center'>
-            <em>{content.contactLabel}</em>
-          </div>
-        </div>
+        )}
       </div>
     </section>
   );
