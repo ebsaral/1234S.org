@@ -23,7 +23,34 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/maneviyat',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/philosophy') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
+    url: url + '/spirituality',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/philosophy') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/mission',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/mission') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
+    url: url + '/misyon',
     lastModified: new Date(),
     alternates: {
       languages: { ...getMultilingualUrls(url + '/mission') },
@@ -41,7 +68,25 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/hizmet',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/service') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/contact',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/contact') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
+    url: url + '/iletisim',
     lastModified: new Date(),
     alternates: {
       languages: { ...getMultilingualUrls(url + '/contact') },
