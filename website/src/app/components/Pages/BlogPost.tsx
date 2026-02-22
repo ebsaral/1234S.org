@@ -70,7 +70,7 @@ const BlogPost = ({ slug }: { slug: string }) => {
             </div>
 
             <Image
-              className='my-10 rounded-lg hover:scale-105 transition-all delay-300'
+              className='my-10 rounded-lg hover:scale-105 transition-all duration-300'
               src={post.image.src.value}
               width={500}
               height={500}
