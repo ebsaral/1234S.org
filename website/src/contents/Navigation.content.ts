@@ -56,8 +56,8 @@ const pageContent = {
     },
     mission: {
       text: t({
-        en: 'Our Mission',
-        tr: 'Misyonumuz',
+        en: 'Mission',
+        tr: 'Misyon',
       }),
     },
     blog: {
@@ -68,8 +68,8 @@ const pageContent = {
     },
     service: {
       text: t({
-        en: 'Our Services',
-        tr: 'Hizmetlerimiz',
+        en: 'Services',
+        tr: 'Hizmetler',
       }),
     },
     intro: {
