@@ -116,6 +116,34 @@ const pageContent = {
           tr: md(file('../Posts/post-2-tr.md')),
         },
       },
+      {
+        title: t({
+          en: 'How to “play” in nature?',
+          tr: 'Doğada nasıl “oynamalıyız”?',
+        }),
+        subtitle: t({
+          en: "Life isn't a game for everyone yet. Let's have a look at how we can convert life into a game.",
+          tr: 'Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.',
+        }),
+        date: {
+          published: '2025-11-15',
+          updated: '2026-02-23',
+        },
+        image: {
+          src: '/images/blog/3-drop-leaf.jpg',
+          size: '200',
+        },
+        href: '/blog/how-to-play-in-nature',
+        author: {
+          title: 'Emin Buğra Saral',
+          href: 'https://0.1234S.org',
+        },
+        slug: 'how-to-play-in-nature',
+        content: {
+          en: md(file('../Posts/post-3-en.md')),
+          tr: md(file('../Posts/post-3-tr.md')),
+        },
+      },
     ],
   },
 } satisfies Dictionary<BlogPageContent>;

@@ -10,6 +10,10 @@ const blogPostRewrite = {
     en: '/[locale]/blog/some-feelings-cannot-be-bought',
     tr: '/[locale]/blog/bazi-hisler-satin-alinamaz',
   },
+  '/[locale]/blog/how-to-play-in-nature': {
+    en: '/[locale]/blog/how-to-play-in-nature',
+    tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
+  },
 };
 
 const config: IntlayerConfig = {
