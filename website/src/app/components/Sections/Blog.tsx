@@ -33,13 +33,13 @@ const Blog = () => {
           </div>
         </article>
 
-        <div className='relative z-10 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-between gap-10'>
+        <div className='relative z-10 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
           {content.items.map((item, index) => {
             return (
               <a
                 key={`item-${index}`}
                 href={getLocalizedUrl(item.href.value, locale)}
-                className='relative group flex flex-col w-full sm:w-96 gap-4 items-center bg-gray-200/80 hover:bg-gray-200/90 active:bg-gray-200/80 p-8 rounded-lg'
+                className='relative group flex flex-col w-full gap-4 items-center bg-gray-200/80 hover:bg-gray-200/90 active:bg-gray-200/80 p-8 rounded-lg'
               >
                 <span className='absolute -left-3 -top-3 inline-flex items-center justify-center rounded-full bg-gray-600 text-sm text-center text-white w-10 h-10'>
                   #{index + 1}
