@@ -4,7 +4,7 @@ import { nextjsRewrite } from 'intlayer/routing';
 const blogPostRewrite = {
   '/[locale]/blog/the-scamming-case-of-big-tech-companies': {
     en: '/[locale]/blog/the-scamming-case-of-big-tech-companies',
-    tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasiz',
+    tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi',
   },
   '/[locale]/blog/some-feelings-cannot-be-bought': {
     en: '/[locale]/blog/some-feelings-cannot-be-bought',
