@@ -66,12 +66,12 @@ const pageContent = {
           tr: 'Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!',
         }),
         subtitle: t({
-          en: 'Ever wondered why some companies scale far faster than others—even when they seem to follow the same investor playbook? Let’s take a closer look.',
-          tr: 'Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi? Gelin daha yakından inceleyelim.',
+          en: 'Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?',
+          tr: 'Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi?',
         }),
         date: {
           published: '2025-12-18',
-          updated: '2026-02-21',
+          updated: '2026-02-22',
         },
         image: {
           src: '/images/blog/1-apple-imac.jpg',
