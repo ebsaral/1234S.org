@@ -33,7 +33,7 @@ const Blog = () => {
           </div>
         </article>
 
-        <div className='relative z-10 max-w-4xl mx-auto flex flex-col sm:flex-row items-center sm:items-start justify-center gap-10'>
+        <div className='relative z-10 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-between gap-10'>
           {content.items.map((item, index) => {
             return (
               <a
@@ -45,25 +45,31 @@ const Blog = () => {
                   #{index + 1}
                 </span>
                 <Image
-                  className='rounded-lg'
+                  className='mb-5 sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
                   src={item.image.src.value}
                   width={item.image.size.value}
                   height={item.image.size.value}
                   alt={item.title.value}
                 />
-                <h3 className='font-bold text-lg text-center'>{item.title}</h3>
+                <h3 className='font-bold text-lg text-center sm:min-h-[56px] line-clamp-2 inline-flex items-center'>
+                  {item.title}
+                </h3>
+
                 <p className='text-sm'>{item.subtitle}</p>
-                <div className='inline-flex gap-2 text-xs'>
-                  <Link size={16} />
-                  <p className='underline group-hover:no-underline'>{getLocalizedUrl(item.href.value, locale)}</p>
+
+                <div className='mt-auto flex flex-col gap-4'>
+                  <div className='inline-flex gap-2 text-xs'>
+                    <Link size={16} />
+                    <p className='underline group-hover:no-underline'>{getLocalizedUrl(item.href.value, locale)}</p>
+                  </div>
+                  <p className='text-center text-xs'>
+                    {new Date(item.date.published.value).toLocaleString(locale, {
+                      year: 'numeric',
+                      month: 'long',
+                      day: '2-digit',
+                    })}
+                  </p>
                 </div>
-                <p className='text-center text-xs'>
-                  {new Date(item.date.published.value).toLocaleString(locale, {
-                    year: 'numeric',
-                    month: 'long',
-                    day: '2-digit',
-                  })}
-                </p>
               </a>
             );
           })}
