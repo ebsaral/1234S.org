@@ -25,8 +25,8 @@ type BlogPageContent = {
       title: string;
       href: string;
     };
-    slug?: string;
-    content?: Record<string, string>;
+    slug: string;
+    content: Record<string, string>;
   }[];
 };
 
@@ -94,11 +94,12 @@ const pageContent = {
           tr: 'Bazı hisler satın alınamaz',
         }),
         subtitle: t({
-          en: 'A real story about trust in nature.',
-          tr: 'Doğaya güvenmeyi anlatan gerçek bir hikaye.',
+          en: 'A true story about trusting in our divine bonding with nature.',
+          tr: 'Doğayla olan ilahi bağımıza güvenmeyi anlatan gerçek bir hikaye.',
         }),
         date: {
           published: '2025-11-13',
+          updated: '2026-02-22',
         },
         image: {
           src: '/images/blog/2-flying-car.jpg',
