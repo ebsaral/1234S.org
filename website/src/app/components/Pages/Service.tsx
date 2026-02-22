@@ -10,7 +10,7 @@ const Service = () => {
   const content = useIntlayer('service-page-metadata');
   const { setActiveMenu } = useMenu();
   useEffect(() => {
-    setActiveMenu({ root: 'support' });
+    setActiveMenu({ root: 'service' });
   }, []);
   return (
     <main>
