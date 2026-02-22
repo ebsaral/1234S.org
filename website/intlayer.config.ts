@@ -1,6 +1,13 @@
 import { Locales, type IntlayerConfig } from 'intlayer';
 import { nextjsRewrite } from 'intlayer/routing';
 
+const blogPostRewrite = {
+  '/[locale]/blog/some-feelings-cannot-be-bought': {
+    en: '/[locale]/blog/some-feelings-cannot-be-bought',
+    tr: '/[locale]/blog/bazi-hisler-satin-alinamaz',
+  },
+};
+
 const config: IntlayerConfig = {
   internationalization: {
     locales: [Locales.TURKISH, Locales.ENGLISH],
@@ -28,6 +35,7 @@ const config: IntlayerConfig = {
         en: '/[locale]/service',
         tr: '/[locale]/hizmet',
       },
+      ...blogPostRewrite,
     }),
   },
   editor: {

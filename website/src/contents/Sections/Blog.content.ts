@@ -1,8 +1,42 @@
-import { md, t, type Dictionary } from 'intlayer';
+import { file, md, t, type Dictionary } from 'intlayer';
+
+type BlogPageContent = {
+  notFound: string;
+  title: Record<string, string>;
+  description: Record<string, string>;
+  labels: {
+    published: string;
+    updated: string;
+    author: string;
+  };
+  items: {
+    title: string;
+    subtitle: string;
+    date: {
+      published: string;
+      updated?: string;
+    };
+    image: {
+      src: string;
+      size: string;
+    };
+    href: string;
+    author: {
+      title: string;
+      href: string;
+    };
+    slug?: string;
+    content?: Record<string, string>;
+  }[];
+};
 
 const pageContent = {
   key: 'blog-section',
   content: {
+    notFound: t({
+      en: 'Blog post is not found.',
+      tr: 'Aradığınız blog içeriği bulunamadı.',
+    }),
     title: t({
       en: md('# Blog'),
       tr: md('# Blog'),
@@ -13,12 +47,12 @@ const pageContent = {
     }),
     labels: {
       published: t({
-        en: 'Publish',
-        tr: 'Yayınlanma',
+        en: 'Publish Date',
+        tr: 'Yayınlanma Tarihi',
       }),
       updated: t({
-        en: 'Last Update',
-        tr: 'Son Güncellenme',
+        en: 'Last Update Date',
+        tr: 'Son Güncellenme Tarihi',
       }),
       author: t({
         en: 'Author',
@@ -52,8 +86,35 @@ const pageContent = {
           href: 'https://0.1234S.org',
         },
       },
+      {
+        title: t({
+          en: 'Some feelings cannot be bought',
+          tr: 'Bazı hisler satın alınamaz',
+        }),
+        subtitle: t({
+          en: 'A real story about trust in nature.',
+          tr: 'Doğaya güvenmeyi anlatan gerçek bir hikaye.',
+        }),
+        date: {
+          published: '2025-11-13',
+        },
+        image: {
+          src: '/images/blog/2-flying-car.jpg',
+          size: '200',
+        },
+        href: '/blog/some-feelings-cannot-be-bought',
+        author: {
+          title: 'Emin Buğra Saral',
+          href: 'https://0.1234S.org',
+        },
+        slug: 'some-feelings-cannot-be-bought',
+        content: {
+          en: md(file('../BlogPosts/post-1-en.md')),
+          tr: md(file('../BlogPosts/post-1-tr.md')),
+        },
+      },
     ],
   },
-} satisfies Dictionary;
+} satisfies Dictionary<BlogPageContent>;
 
 export default pageContent;

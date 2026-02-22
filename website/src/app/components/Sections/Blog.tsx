@@ -1,5 +1,6 @@
 'use client';
 
+import { getLocalizedUrl } from 'intlayer';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
 import { Link, Pencil } from 'lucide-react';
@@ -32,13 +33,12 @@ const Blog = () => {
           </div>
         </article>
 
-        <div className='relative z-10 max-w-4xl mx-auto flex flex-rows items-center justify-center'>
+        <div className='relative z-10 max-w-4xl mx-auto flex flex-rows items-start justify-center gap-6'>
           {content.items.map((item, index) => {
             return (
               <a
                 key={`item-${index}`}
-                href={item.href.value}
-                target='_blank'
+                href={getLocalizedUrl(item.href.value, locale)}
                 className='relative group flex flex-col w-96 gap-4 items-center bg-gray-200/60 hover:bg-gray-200/80 active:bg-gray-200/80 p-8 rounded-lg'
               >
                 <span className='absolute -left-3 -top-3 inline-flex items-center justify-center rounded-full bg-gray-600 text-sm text-center text-white w-10 h-10'>
@@ -55,31 +55,15 @@ const Blog = () => {
                 <p className='text-sm'>{item.subtitle}</p>
                 <div className='inline-flex gap-2 text-xs'>
                   <Link size={16} />
-                  <p className='underline group-hover:no-underline'>{item.href.value}</p>
+                  <p className='underline group-hover:no-underline'>{getLocalizedUrl(item.href.value, locale)}</p>
                 </div>
-                <p className='text-sm text-center'>{item.author.title}</p>
-                <div className='w-full flex flex-row items-stretch justify-around text-xs'>
-                  <p className='flex flex-col'>
-                    <span>{content.labels.published}:</span>
-                    <span>
-                      {new Date(item.date.published.value).toLocaleString(locale, {
-                        year: 'numeric',
-                        month: 'long',
-                        day: '2-digit',
-                      })}
-                    </span>
-                  </p>
-                  <p className='flex flex-col'>
-                    <span>{content.labels.updated}:</span>
-                    <span>
-                      {new Date(item.date.updated.value).toLocaleString(locale, {
-                        year: 'numeric',
-                        month: 'long',
-                        day: '2-digit',
-                      })}
-                    </span>
-                  </p>
-                </div>
+                <p className='text-center text-xs'>
+                  {new Date(item.date.published.value).toLocaleString(locale, {
+                    year: 'numeric',
+                    month: 'long',
+                    day: '2-digit',
+                  })}
+                </p>
               </a>
             );
           })}
