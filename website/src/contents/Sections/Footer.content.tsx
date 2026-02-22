@@ -12,6 +12,7 @@ interface FooterContent {
     email: string;
   };
   social: FooterLink[];
+  note: string;
   github: FooterLink;
   displayProductHunt: boolean;
 }
@@ -39,13 +40,20 @@ const pageContent = {
           en: 'https://x.com/1234S_en',
           tr: 'https://x.com/1234S_tr',
         }),
-        label: 'X (Twitter)',
+        label: t({
+          en: 'X (English)',
+          tr: 'X (Türkçe)',
+        }),
       },
       {
         href: 'https://www.linkedin.com/company/1234s-org',
         label: 'LinkedIn',
       },
     ],
+    note: t({
+      en: 'Do not forget to follow our social media accounts!',
+      tr: "Sosyal medya hesaplarımızı takip etmeyi unutmayınız!'",
+    }),
     github: {
       label: 'GitHub',
       href: 'https://www.github.com/ebsaral/1234S.org',

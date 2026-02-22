@@ -29,6 +29,12 @@ const Footer = () => {
             </div>
           </div>
 
+          <div className='inline-flex items-center justify-center gap-3 sm:gap-5'>
+            <p className='text-center text-gray-300'>
+              <em>{content.note}</em>
+            </p>
+          </div>
+
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
             <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
               <p>
