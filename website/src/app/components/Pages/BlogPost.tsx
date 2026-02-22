@@ -46,7 +46,7 @@ const BlogPost = ({ slug }: { slug: string }) => {
               <blockquote>{post.subtitle}</blockquote>
             </article>
 
-            <div className='mt-10 flex flex-row gap-10 items-center text-xs'>
+            <div className='mt-5 flex flex-row gap-10 items-center text-xs'>
               <p className='flex flex-row gap-2'>
                 <span>{content.labels.author}</span>
                 <span>
