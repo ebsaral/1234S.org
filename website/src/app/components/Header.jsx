@@ -10,7 +10,6 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import useHash from '../hooks/useHash';
 import { useMenu } from '../hooks/useMenu';
 import { useScrollEffects } from '../hooks/useScrollEffects';
-import SupportLink from './Custom/Buttons/ServiceLink';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 
@@ -45,6 +44,7 @@ const Header = () => {
     },
     { key: 'mission', href: '/mission' },
     { key: 'blog', href: '/blog' },
+    { key: 'service', href: '/service' },
   ];
 
   // Spin logo on scroll
@@ -213,7 +213,6 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <SupportLink />
           </nav>
 
           {/* Desktop Language Switcher & Mobile Controls */}
@@ -318,7 +317,6 @@ const Header = () => {
                   </div>
                 ))}
               </ul>
-              <SupportLink className='block max-w-52' />
             </nav>
           </div>
         )}
