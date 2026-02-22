@@ -23,6 +23,7 @@ const Header = () => {
   const { setHash } = useHash();
   const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer('navigation', locale);
+  const blog = useIntlayer('blog-section', locale);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { activeMenu } = useMenu();
@@ -43,8 +44,8 @@ const Header = () => {
       ],
     },
     { key: 'mission', href: '/mission' },
-    { key: 'blog', href: '/blog' },
     { key: 'service', href: '/service' },
+    { key: 'blog', href: '/blog' },
   ];
 
   // Spin logo on scroll
@@ -114,6 +115,14 @@ const Header = () => {
     return `/philosophy#${hash}`;
   };
 
+  const getItemTitle = (key) => {
+    let value = content[key].text.value;
+    if (key == 'blog') {
+      value += ` (${blog.items.length})`;
+    }
+    return value;
+  };
+
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-100 ${
@@ -156,7 +165,7 @@ const Header = () => {
                   <Link
                     href={getLocalizedUrl(item.href, locale)}
                     aria-label={content[item.key].text.value}
-                    title={content[item.key].text.value}
+                    title={getItemTitle(item.key)}
                     onClick={() => scrollToSection(item.href)}
                     className={`${
                       isActiveSection(item.key)
@@ -169,7 +178,7 @@ const Header = () => {
                     }`}
                     prefetch={true}
                   >
-                    {content[item.key].text}
+                    {getItemTitle(item.key)}
                     {/* Active indicator */}
                     {isActiveSection(item.key) && (
                       <span
@@ -253,6 +262,7 @@ const Header = () => {
                       className='flex items-center gap-3 w-full'
                       href={getLocalizedUrl(pathWithoutLocale, item)}
                       key={item}
+                      title={getLocaleName(item)}
                       aria-current={locale === item ? 'page' : undefined}
                       onClick={() => handleLocaleChange(item)}
                       replace
@@ -289,7 +299,7 @@ const Header = () => {
                         key={item.key}
                         href={getLocalizedUrl(item.href, locale)}
                         aria-label={content[item.key].text.value}
-                        title={content[item.key].text.value}
+                        title={getItemTitle(item.key)}
                         onClick={() => scrollToSection(item.href)}
                         className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                           isActiveSection(item.key)
@@ -297,7 +307,7 @@ const Header = () => {
                             : 'text-gray-700 hover:text-emerald-600 hover:bg-gray-50'
                         }`}
                       >
-                        {content[item.key].text}
+                        {getItemTitle(item.key)}
                       </Link>
                     </li>
                     {item.children?.map((childItem, index) => (
