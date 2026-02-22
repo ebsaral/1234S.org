@@ -52,7 +52,7 @@ const pageContent = {
     ],
     note: t({
       en: 'Do not forget to follow our social media accounts!',
-      tr: "Sosyal medya hesaplarımızı takip etmeyi unutmayınız!'",
+      tr: 'Sosyal medya hesaplarımızı takip etmeyi unutmayınız!',
     }),
     github: {
       label: 'GitHub',
