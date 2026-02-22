@@ -39,7 +39,7 @@ const Blog = () => {
               <a
                 key={`item-${index}`}
                 href={getLocalizedUrl(item.href.value, locale)}
-                className='relative group flex flex-col w-96 gap-4 items-center bg-gray-200/60 hover:bg-gray-200/80 active:bg-gray-200/80 p-8 rounded-lg'
+                className='relative group flex flex-col w-96 gap-4 items-center bg-gray-200/80 hover:bg-gray-200/90 active:bg-gray-200/80 p-8 rounded-lg'
               >
                 <span className='absolute -left-3 -top-3 inline-flex items-center justify-center rounded-full bg-gray-600 text-sm text-center text-white w-10 h-10'>
                   #{index + 1}

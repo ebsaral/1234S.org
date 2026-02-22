@@ -47,8 +47,8 @@ const pageContent = {
     }),
     labels: {
       published: t({
-        en: 'Publish Date',
-        tr: 'Yayınlanma Tarihi',
+        en: 'Date',
+        tr: 'Tarih',
       }),
       updated: t({
         en: 'Last Update Date',
@@ -77,13 +77,15 @@ const pageContent = {
           src: '/images/blog/1-apple-imac.jpg',
           size: '200',
         },
-        href: t({
-          en: 'https://ebsaral.substack.com/p/the-scamming-case-of-big-tech?utm_source=1234S.org',
-          tr: 'https://ebsaral.substack.com/p/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi?utm_source=1234S.org',
-        }),
+        href: '/blog/the-scamming-case-of-big-tech-companies',
         author: {
           title: 'Emin Buğra Saral',
           href: 'https://0.1234S.org',
+        },
+        slug: 'the-scamming-case-of-big-tech-companies',
+        content: {
+          en: md(file('../Posts/post-1-en.md')),
+          tr: md(file('../Posts/post-1-tr.md')),
         },
       },
       {
@@ -109,8 +111,8 @@ const pageContent = {
         },
         slug: 'some-feelings-cannot-be-bought',
         content: {
-          en: md(file('../BlogPosts/post-1-en.md')),
-          tr: md(file('../BlogPosts/post-1-tr.md')),
+          en: md(file('../Posts/post-2-en.md')),
+          tr: md(file('../Posts/post-2-tr.md')),
         },
       },
     ],

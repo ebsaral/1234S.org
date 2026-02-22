@@ -1,4 +1,3 @@
-import Blog from '@/app/components/Pages/Blog';
 import BlogPost from '@/app/components/Pages/BlogPost';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
@@ -8,18 +7,34 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
   const { locale, slug } = await params;
 
   const metadata = getIntlayer('blog-page-metadata', locale);
+  const content = getIntlayer(`blog-section`, locale);
+  const post = content.items.find((item) => 'slug' in item && item.slug == slug);
 
-  const url = 'https://www.1234s.org/blog';
+  const url = 'https://www.1234s.org/blog/' + slug;
   const multilingualUrls = getMultilingualUrls(url);
+
+  const openGraph = post
+    ? {
+        type: 'website',
+        images: [
+          {
+            url: 'https://www.1234s.org' + post?.image.src,
+            secureUrl: 'https://1234s.org' + post?.image.src,
+          },
+        ],
+      }
+    : metadata.openGraph;
 
   return {
     ...metadata,
+    title: post ? post.title : metadata.title,
+    description: post ? post.subtitle : metadata.description,
     alternates: {
       canonical: multilingualUrls[locale as keyof typeof multilingualUrls],
       languages: { ...multilingualUrls, 'x-default': url },
     },
     openGraph: {
-      ...metadata.openGraph,
+      ...openGraph,
       url: multilingualUrls[locale as keyof typeof multilingualUrls],
     },
   };

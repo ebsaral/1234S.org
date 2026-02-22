@@ -35,21 +35,19 @@ const BlogPost = ({ slug }: { slug: string }) => {
     <main>
       <Title title={post.title.value + ' - ' + metadata.title.value} />
       <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-        <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-500'>
-          <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100 opacity-80'}`} />
+        <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-50'>
+          <div
+            className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
+          />
+          <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-50 opacity-80'}`} />
           <div className='relative z-10 mx-auto w-full mt-10 flex flex-col items-center'>
-            <article className='prose-custom-all max-w-4xl mx-auto'>
+            <article className='prose-custom-all max-w-2xl mx-auto'>
               <h1>{post.title}</h1>
               <blockquote>{post.subtitle}</blockquote>
             </article>
-            <Image className='rounded-lg' src={post.image.src.value} width={500} height={500} alt={post.title.value} />
-
-            <article className='prose-custom-all text-gray-900 max-w-4xl mx-auto'>
-              {'content' in post && post?.content[locale]}
-            </article>
 
             <div className='mt-10 flex flex-row gap-10 items-center text-xs'>
-              <p className='flex flex-col gap-2'>
+              <p className='flex flex-row gap-2'>
                 <span>{content.labels.author}</span>
                 <span>
                   <strong>
@@ -57,20 +55,36 @@ const BlogPost = ({ slug }: { slug: string }) => {
                   </strong>
                 </span>
               </p>
-              <p className='flex flex-col gap-2'>
+              <p className='flex flex-row gap-2'>
                 <span>{content.labels.published}</span>
                 <span>
                   <strong>
                     {new Date(post.date.published.value).toLocaleString(locale, {
                       year: 'numeric',
-                      month: 'long',
+                      month: 'short',
                       day: '2-digit',
                     })}
                   </strong>
                 </span>
               </p>
+            </div>
+
+            <Image
+              className='my-10 rounded-lg hover:scale-105 transition-all delay-300'
+              src={post.image.src.value}
+              width={500}
+              height={500}
+              alt={post.title.value}
+              title={post.title.value}
+            />
+
+            <article className='prose-custom-all text-gray-900 max-w-2xl mx-auto'>
+              {'content' in post && post?.content[locale]}
+            </article>
+
+            <div className='mt-10 flex flex-row gap-10 items-center text-xs'>
               {'updated' in post.date && (
-                <p className='flex flex-col gap-2'>
+                <p className='flex flex-row gap-2'>
                   <span>{content.labels.updated}</span>
                   <span>
                     <strong>

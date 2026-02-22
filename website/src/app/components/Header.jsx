@@ -156,6 +156,7 @@ const Header = () => {
                   <Link
                     href={getLocalizedUrl(item.href, locale)}
                     aria-label={content[item.key].text.value}
+                    title={content[item.key].text.value}
                     onClick={() => scrollToSection(item.href)}
                     className={`${
                       isActiveSection(item.key)
@@ -195,6 +196,7 @@ const Header = () => {
                           <Link
                             href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
                             aria-label={content[childItem.key].text.value}
+                            title={content[childItem.key].text.value}
                             onClick={() => {
                               scrollToSection(`#${childItem.hash}`, childItem.hash);
                             }}
@@ -287,6 +289,7 @@ const Header = () => {
                         key={item.key}
                         href={getLocalizedUrl(item.href, locale)}
                         aria-label={content[item.key].text.value}
+                        title={content[item.key].text.value}
                         onClick={() => scrollToSection(item.href)}
                         className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                           isActiveSection(item.key)
@@ -303,6 +306,7 @@ const Header = () => {
                           key={childItem.key}
                           href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
                           aria-label={content[childItem.key].text.value}
+                          title={content[childItem.key].text.value}
                           onClick={() => scrollToSection(`#${childItem.hash}`, childItem.hash)}
                           className={`block w-full text-left font-medium transition-all duration-300 p-2 rounded-lg relative ${
                             isActiveSection(item.key, childItem.hash)

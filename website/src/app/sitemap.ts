@@ -59,6 +59,24 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/blog/the-scamming-case-of-big-tech-companies',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/blog/the-scamming-case-of-big-tech-companies') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
+    url: url + '/blog/some-feelings-cannot-be-bought',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/blog/some-feelings-cannot-be-bought') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/misyon',
     lastModified: new Date(),
     alternates: {

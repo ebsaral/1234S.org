@@ -2,6 +2,10 @@ import { Locales, type IntlayerConfig } from 'intlayer';
 import { nextjsRewrite } from 'intlayer/routing';
 
 const blogPostRewrite = {
+  '/[locale]/blog/the-scamming-case-of-big-tech-companies': {
+    en: '/[locale]/blog/the-scamming-case-of-big-tech-companies',
+    tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasiz',
+  },
   '/[locale]/blog/some-feelings-cannot-be-bought': {
     en: '/[locale]/blog/some-feelings-cannot-be-bought',
     tr: '/[locale]/blog/bazi-hisler-satin-alinamaz',
