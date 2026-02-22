@@ -172,6 +172,21 @@ const config: Config = {
         return {
           custom: {
             css: {
+              blockquote: {
+                borderLeftColor: '#374151', // darker (gray-700)
+              },
+              'ul > li::marker': {
+                color: '#374151', // darker bullets
+              },
+              'ol > li::marker': {
+                color: '#374151', // darker numbers
+              },
+              'blockquote p:first-of-type::before': {
+                content: 'none',
+              },
+              'blockquote p:last-of-type::after': {
+                content: 'none',
+              },
               h2: {
                 fontSize: getSize('3xl'),
                 lineHeight: getLineHeight('3xl'),
