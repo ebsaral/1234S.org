@@ -35,6 +35,13 @@ const pageContent = {
     },
     social: [
       {
+        href: t({
+          en: 'https://x.com/1234S_en',
+          tr: 'https://x.com/1234S_tr',
+        }),
+        label: 'X (Twitter)',
+      },
+      {
         href: 'https://www.linkedin.com/company/1234s-org',
         label: 'LinkedIn',
       },
