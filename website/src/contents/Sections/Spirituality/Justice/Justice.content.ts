@@ -118,7 +118,7 @@ const pageContent = {
     }),
     consequences: {
       title: t({
-        en: "You can understand how nature's justice generally applies punishment from this example table:",
+        en: 'You can understand how justice in nature generally applies punishment from this example table:',
         tr: 'Doğadaki adaletin genel olarak nasıl cezalandırdığını bu örnek tablodan anlayabilirsiniz:',
       }),
       labels: {
@@ -179,6 +179,10 @@ const pageContent = {
           }),
         },
       ],
+      note: t({
+        en: 'Positive actions (choices) lead to outcomes that justice in nature offers as a reward.',
+        tr: 'Olumlu eylemler (seçimler) ise doğadaki adaletin ödül olarak sunduğu sonuçlara vesile olur.',
+      }),
     },
   },
 } satisfies Dictionary<JusticeContent>;
