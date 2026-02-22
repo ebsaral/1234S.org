@@ -35,13 +35,6 @@ const pageContent = {
     },
     social: [
       {
-        href: t({
-          en: 'https://logicalspirituality.substack.com',
-          tr: 'https://maneviyat.substack.com',
-        }),
-        label: 'Substack',
-      },
-      {
         href: 'https://www.linkedin.com/company/1234s-org',
         label: 'LinkedIn',
       },
