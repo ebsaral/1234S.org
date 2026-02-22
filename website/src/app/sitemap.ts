@@ -50,6 +50,15 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/blog',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/blog') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/misyon',
     lastModified: new Date(),
     alternates: {

@@ -16,6 +16,7 @@ interface NavigationContent {
   home: Link;
   philosophy: Link;
   mission: Link;
+  blog: Link;
   service: Link;
   intro: SubLink;
   interconnectedness: SubLink;
@@ -57,6 +58,12 @@ const pageContent = {
       text: t({
         en: 'Our Mission',
         tr: 'Misyonumuz',
+      }),
+    },
+    blog: {
+      text: t({
+        en: 'Blog',
+        tr: 'Blog',
       }),
     },
     service: {

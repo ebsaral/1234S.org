@@ -44,6 +44,7 @@ const Header = () => {
       ],
     },
     { key: 'mission', href: '/mission' },
+    { key: 'blog', href: '/blog' },
   ];
 
   // Spin logo on scroll
