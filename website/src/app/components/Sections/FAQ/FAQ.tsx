@@ -99,10 +99,11 @@ const FAQ = ({ id }: { id?: string }) => {
                   onToggle={() => toggle(i)}
                   onOpened={() => handleOpened(i)}
                   onKeyDown={(e) => onKeyDown(e, i)}
-                  question={i + 1 + ') ' + faq.title.value}
-                  answer={faq.subtitle.value}
+                  question={faq.title}
+                  answer={faq.subtitle}
                   panelId={panelId}
                   buttonId={buttonId}
+                  index={i + 1}
                 />
               </div>
             );

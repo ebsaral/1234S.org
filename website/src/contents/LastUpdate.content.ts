@@ -9,8 +9,8 @@ const pageContent = {
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md('Add a note under the table in Justice section.'),
-      tr: md('Adalet kısmındaki sonuçlar tablosuna not eklendi.'),
+      en: md('The research link is added into the answer about Freedom in FAQ section.'),
+      tr: md('SSS kısmındaki Özgürlük hakkındaki cevaba araştırma yazısının bağlantısı eklendi.'),
     }),
   },
 } satisfies Dictionary;

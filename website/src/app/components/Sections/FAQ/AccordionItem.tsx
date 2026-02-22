@@ -1,20 +1,20 @@
-import { forwardRef, useEffect, useRef, useState } from 'react';
-import FormattedText from '../../Custom/FormattedText';
+import { forwardRef, ReactNode, useEffect, useRef, useState } from 'react';
 
 type Props = {
   isOpen: boolean;
+  index?: number;
   onToggle: () => void;
   onOpened: () => void;
   onKeyDown: (e: React.KeyboardEvent) => void;
-  question: string;
-  answer: string;
+  question: ReactNode;
+  answer: ReactNode;
   panelId: string;
   buttonId: string;
   buttonRef: (el: HTMLButtonElement | null) => void;
 };
 
 const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
-  { isOpen, onToggle, onOpened, onKeyDown, question, answer, panelId, buttonId, buttonRef },
+  { index, isOpen, onToggle, onOpened, onKeyDown, question, answer, panelId, buttonId, buttonRef },
   ref,
 ) {
   const innerRef = useRef<HTMLDivElement>(null);
@@ -41,12 +41,15 @@ const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
             aria-controls={panelId}
             onClick={onToggle}
             onKeyDown={onKeyDown}
-            className='flex w-full items-center justify-between gap-4 px-4 sm:px-6 py-4 text-left text-base sm:text-lg font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-2xl'
+            className='flex w-full items-center justify-between gap-4 px-4 sm:px-6 pt-4 text-left text-base sm:text-lg font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-2xl'
           >
-            <span>{question}</span>
-            <span className={`text-2xl leading-none transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}>
+            <div className='inline-flex gap-1'>
+              {index && index + ')'}
+              {question}
+            </div>
+            <div className={`text-2xl leading-none transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}>
               +
-            </span>
+            </div>
           </button>
         </h3>
 
@@ -54,19 +57,19 @@ const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
           id={panelId}
           role='region'
           aria-labelledby={buttonId}
-          style={{ maxHeight: height }}
-          onTransitionEnd={() => {
-            if (isOpen) onOpened();
-          }}
-          className='overflow-hidden transition-[max-height] duration-500 ease-in-out'
+          className={`grid transition-all duration-500 ease-in-out ${
+            isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+          }`}
         >
-          <div
-            ref={innerRef}
-            className={`px-4 sm:px-6 pb-5 text-sm sm:text-base text-gray-800 transition-all duration-300 ${
-              isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
-            }`}
-          >
-            <FormattedText text={answer} />
+          <div className='overflow-hidden'>
+            <article
+              ref={innerRef}
+              className={`prose-custom-all max-w-none w-full px-4 sm:px-6 pb-2 text-sm sm:text-base text-gray-800 transition-all duration-300 ${
+                isOpen ? 'translate-y-0' : '-translate-y-2'
+              }`}
+            >
+              {answer}
+            </article>
           </div>
         </div>
       </div>
