@@ -51,7 +51,7 @@ const Blog = () => {
                   height={item.image.size.value}
                   alt={item.title.value}
                 />
-                <h3 className='font-bold text-lg'>{item.title}</h3>
+                <h3 className='font-bold text-lg text-center'>{item.title}</h3>
                 <p className='text-sm'>{item.subtitle}</p>
                 <div className='inline-flex gap-2 text-xs'>
                   <Link size={16} />
