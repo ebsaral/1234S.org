@@ -84,8 +84,8 @@ const pageContent = {
         },
         slug: 'the-scamming-case-of-big-tech-companies',
         content: {
-          en: md(file('../Posts/post-1-en.md')),
-          tr: md(file('../Posts/post-1-tr.md')),
+          en: md(file('../Blog/the-scamming-case-of-big-tech-companies.en.md')),
+          tr: md(file('../Blog/the-scamming-case-of-big-tech-companies.tr.md')),
         },
       },
       {
@@ -112,8 +112,8 @@ const pageContent = {
         },
         slug: 'some-feelings-cannot-be-bought',
         content: {
-          en: md(file('../Posts/post-2-en.md')),
-          tr: md(file('../Posts/post-2-tr.md')),
+          en: md(file('../Blog/some-feelings-cannot-be-bought.en.md')),
+          tr: md(file('../Blog/some-feelings-cannot-be-bought.tr.md')),
         },
       },
       {
@@ -140,8 +140,8 @@ const pageContent = {
         },
         slug: 'how-to-play-in-nature',
         content: {
-          en: md(file('../Posts/post-3-en.md')),
-          tr: md(file('../Posts/post-3-tr.md')),
+          en: md(file('../Blog/how-to-play-in-nature.en.md')),
+          tr: md(file('../Blog/how-to-play-in-nature.tr.md')),
         },
       },
       {
@@ -168,8 +168,8 @@ const pageContent = {
         },
         slug: 'challenges-levels-rewards-and-punishments',
         content: {
-          en: md(file('../Posts/post-4-en.md')),
-          tr: md(file('../Posts/post-4-tr.md')),
+          en: md(file('../Blog/challenges-levels-rewards-and-punishments.en.md')),
+          tr: md(file('../Blog/challenges-levels-rewards-and-punishments.tr.md')),
         },
       },
     ],
