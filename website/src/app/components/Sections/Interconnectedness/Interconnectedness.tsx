@@ -64,7 +64,7 @@ const Interconnectedness = ({ id }: { id: string }) => {
               {content.paragraph1}
             </article>
 
-            <Experiment className='max-w-4xl mx-auto mt-16 mb-6 -ml-6 mr-6' />
+            <Examples className='max-w-4xl mx-auto mt-16 mb-6 -ml-6 mr-6' />
 
             <article className='prose-custom-all max-w-4xl mx-auto my-12 px-6 sm:px-10'>
               {content.paragraph2}
@@ -72,7 +72,7 @@ const Interconnectedness = ({ id }: { id: string }) => {
               {content.paragraph4}
             </article>
 
-            <Examples className='max-w-4xl mx-auto mt-20 mb-6 ml-6 -mr-6' />
+            <Experiment className='max-w-4xl mx-auto mt-20 mb-6 ml-6 -mr-6' />
           </div>
         </div>
 
