@@ -77,6 +77,15 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/blog/how-to-play-in-nature',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/blog/how-to-play-in-nature') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/misyon',
     lastModified: new Date(),
     alternates: {
