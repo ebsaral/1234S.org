@@ -1,4 +1,4 @@
-Hala savaşlar, geri dönüşü olmayan acılar, kanlı eylemler ve birçok hastalık var... Bunlara rağmen, her canlı varlığın eşitliği ve özgürlüğünde sağlıklı geleceğimize giden bir yol var. Bu yolu yürümek kolay görünmese de, Dünya'daki uzun ortak tarihimizle kıyaslandığında aslında hayal edebileceğimizden çok daha kolaydır.
+Hala savaşlar, geri dönüşü olmayan acılar, kanlı eylemler ve birçok hastalık var... Bunlara rağmen, her canlı varlığın eşitliği ve özgürlüğünde, sağlıklı geleceğimize giden bir yol var. Bu yolu yürümek kolay görünmese de, Dünya'daki uzun ortak tarihimizle kıyaslandığında aslında hayal edebileceğimizden çok daha kolaydır.
 
 Belki farkında değildiniz: Doğa bütün bir varlık olarak davranır ve genellikle "sonsuzluğa ulaşmak" olarak anılır. Her insan doğduğunda, doğanın tam potansiyeline ulaşmaya layık hediyeleri benliğinde barındırır. Yine de, birçok kültürel ve sistematik engel, her kişinin sonsuzluğa uzanan şansını —hatta doğmadan önce— bozabilir. Doğanın adil olma *(adalet)* dengesi nedeniyle her ceza *(veya olumsuzluk)* herhangi bir canlı varlık için ödüle *(veya olumluluğa)* dönüşebilir. **Her yetenek aslında doğal bir hediyedir:** Bazı yetenekler, toplumlarımızda gerçekleştirilen olumsuzluklardan korunabilmek için minimal çabayla kazanılır.
 
@@ -8,7 +8,7 @@ Belki farkında değildiniz: Doğa bütün bir varlık olarak davranır ve genel
 
 - Muhtemelen güzel bir sesiniz var çünkü siz *(veya atalarınız)* birinin sesinin duyulmasına yardımcı oldunuz. Veya, sesiniz haksız yere engellendi ve çevrenizi bereketlendirmek için size güzel bir ses verildi.
 
-- Muhtemelen çok yaratıcısınız çünkü siz *(veya atalarınız)* diğer insanlara olumlu yaşam fırsatları sağladınız ve engel olmadınız. Veya, yaratıcılığınızı ifade etmek engellendi ve hediyeleriniz Yaratıcı tarafından doğal olarak artırıldı.
+- Muhtemelen çok yaratıcısınız çünkü siz *(veya atalarınız)* diğer insanlara olumlu yaşam fırsatları sağladınız ve engel olmadınız. Veya, yaratıcılığınızı ifade etmek engellendi ve hediyeleriniz Yaradan tarafından doğal olarak artırıldı.
 
 - Muhtemelen uzun boylusunuz çünkü siz *(veya atalarınız)* birinin daha iyi ve sağlıklı bir yaşam sürmesini sağladınız… Veya, doğduğunuz sosyal koşullarda yükselmeniz engellendi.
 
