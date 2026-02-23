@@ -27,10 +27,10 @@ const Experiment = ({ className = '' }: { className?: string }) => {
       <div className='flex flex-col'>
         <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
           <span className='font-bold text-2xl cursor-default animate-spin-slow'>
-            <DraftingCompass className='text-blue-900' size={32} />
+            <DraftingCompass className='text-purple-900' size={32} />
           </span>
         </div>
-        <h3 className='px-6 text-left text-blue-900 -mt-4'>
+        <h3 className='px-6 text-left text-purple-900 -mt-4'>
           <b>{content.experiment.title}</b>
         </h3>
         <p className='px-6 text-left  text-gray-900 '>{content.experiment.subtitle}</p>
@@ -52,7 +52,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
           </div>
         ))}
       </div>
-      <p className='p-6 pt-0 text-blue-800 leading-relaxed text-left'>{content.experiment.description}</p>
+      <p className='p-6 pt-0 text-purple-800 leading-relaxed text-left'>{content.experiment.description}</p>
     </article>
   );
 };

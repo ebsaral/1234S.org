@@ -13,11 +13,11 @@ const Examples = ({ className = '' }: { className?: string }) => {
       <div className='flex flex-col'>
         <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
           <span className='font-bold text-2xl cursor-default animate-spin-slow'>
-            <Atom className='text-purple-900' size={32} />
+            <Atom className='text-blue-900' size={32} />
           </span>
         </div>
 
-        <h3 className='px-6 font-bold text-purple-900 -mt-4 mb-4'>{content.examples.title}</h3>
+        <h3 className='px-6 font-bold text-blue-900 -mt-4 mb-4'>{content.examples.title}</h3>
         <p className='px-6 text-left  text-gray-900 mb-4'>{content.examples.subtitle}</p>
       </div>
 
@@ -33,7 +33,7 @@ const Examples = ({ className = '' }: { className?: string }) => {
         ))}
         <div className='pl-0 sm:pl-6 flex flex-col items-center justify-start leading-relaxed text-left font-bold'>
           <p className='text-2xl sm:text-3xl text-center mx-0 my-5 text-gray-600'>...</p>
-          <p className='text-purple-800'>{content.examples.description}</p>
+          <p className='text-blue-800'>{content.examples.description}</p>
         </div>
       </div>
     </article>
