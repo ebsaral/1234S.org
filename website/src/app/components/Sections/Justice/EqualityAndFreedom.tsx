@@ -15,7 +15,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
           <CardContent className='px-8 pt-0 pb-2'>
             <article className='prose-custom-all'>
               <div className='text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3'>
-                <FerrisWheel size={40} className='text-blue-600 mt-7' />
+                <FerrisWheel size={40} className='text-purple-600 mt-7' />
                 {content.equality.title}
               </div>
 
@@ -33,7 +33,7 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
           <CardContent className='px-8 pt-0 pb-2'>
             <article className='prose-custom-all'>
               <div className='text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3'>
-                <LoaderPinwheel size={40} className='text-purple-600 mt-6' />
+                <LoaderPinwheel size={40} className='text-blue-600 mt-6 animate-spinSlow' />
                 {content.freedom.title}
               </div>
 
