@@ -18,6 +18,10 @@ const blogPostRewrite = {
     en: '/[locale]/blog/challenges-levels-rewards-and-punishments',
     tr: '/[locale]/blog/zorluklar-seviyeler-oduller-ve-cezalar',
   },
+  '/[locale]/blog/beggary': {
+    en: '/[locale]/blog/beggary',
+    tr: '/[locale]/blog/dilencilik',
+  },
 };
 
 const config: IntlayerConfig = {

@@ -172,6 +172,34 @@ const pageContent = {
           tr: md(file('../Blog/challenges-levels-rewards-and-punishments.tr.md')),
         },
       },
+      {
+        title: t({
+          en: 'Beggary',
+          tr: 'Dilencilik',
+        }),
+        subtitle: t({
+          en: 'Let’s take an amateur look at the details of this professional definition, which contains many emotions within itself.',
+          tr: 'İçinde birçok hissi barındıran bu profesyonel tanımlamanın detaylarına amatör bir bakış atalım.',
+        }),
+        date: {
+          published: '2025-11-14',
+          updated: '2026-02-23',
+        },
+        image: {
+          src: '/images/blog/5-wet-dog.jpg',
+          size: '200',
+        },
+        href: '/blog/beggary',
+        author: {
+          title: 'Emin Buğra Saral',
+          href: 'https://0.1234S.org',
+        },
+        slug: 'beggary',
+        content: {
+          en: md(file('../Blog/beggary.en.md')),
+          tr: md(file('../Blog/beggary.tr.md')),
+        },
+      },
     ],
   },
 } satisfies Dictionary<BlogPageContent>;
