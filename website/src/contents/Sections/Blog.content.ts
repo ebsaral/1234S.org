@@ -144,6 +144,34 @@ const pageContent = {
           tr: md(file('../Posts/post-3-tr.md')),
         },
       },
+      {
+        title: t({
+          en: 'Challenges, Levels, Rewards and Punishments',
+          tr: 'Zorluklar, Seviyeler, Ödüller ve Cezalar',
+        }),
+        subtitle: t({
+          en: 'Nature may offer beyond your current awareness if you care to feel its wholeness.',
+          tr: 'Doğanın bütünlüğünü hissetmeye özen gösterirseniz, size şu anki farkındalığınızın ötesini sunabilir.',
+        }),
+        date: {
+          published: '2025-11-14',
+          updated: '2026-02-23',
+        },
+        image: {
+          src: '/images/blog/4-sunset.jpg',
+          size: '200',
+        },
+        href: '/blog/challenges-levels-rewards-and-punishments',
+        author: {
+          title: 'Emin Buğra Saral',
+          href: 'https://0.1234S.org',
+        },
+        slug: 'challenges-levels-rewards-and-punishments',
+        content: {
+          en: md(file('../Posts/post-4-en.md')),
+          tr: md(file('../Posts/post-4-tr.md')),
+        },
+      },
     ],
   },
 } satisfies Dictionary<BlogPageContent>;

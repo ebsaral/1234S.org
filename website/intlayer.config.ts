@@ -14,6 +14,10 @@ const blogPostRewrite = {
     en: '/[locale]/blog/how-to-play-in-nature',
     tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
   },
+  '/[locale]/blog/challenges-levels-rewards-and-punishments': {
+    en: '/[locale]/blog/challenges-levels-rewards-and-punishments',
+    tr: '/[locale]/blog/zorluklar-seviyeler-oduller-ve-cezalar',
+  },
 };
 
 const config: IntlayerConfig = {

@@ -86,6 +86,15 @@ const sitemap = (): MetadataRoute.Sitemap => [
     changeFrequency: 'hourly',
   },
   {
+    url: url + '/blog/challenges-levels-rewards-and-punishments',
+    lastModified: new Date(),
+    alternates: {
+      languages: { ...getMultilingualUrls(url + '/blog/challenges-levels-rewards-and-punishments') },
+    },
+    priority: 1,
+    changeFrequency: 'hourly',
+  },
+  {
     url: url + '/misyon',
     lastModified: new Date(),
     alternates: {
