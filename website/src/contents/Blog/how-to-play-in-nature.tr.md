@@ -16,7 +16,7 @@ Belki farkında değildiniz: Doğa bütün bir varlık olarak davranır ve genel
 
 - Muhtemelen harika bir vizyona sahipsiniz çünkü siz *(veya atalarınız)* birçok canlının yaşamı için zorlukları çözmek hususunda çözüm bulmaya çalıştınız. Veya, doğanın sağlıklı *(uzun vadeli)* varlığı için önemli olan şeylere odaklanmanız bulunduğunuz çevrelerde engellendi.
 
-Bu farkındalığın etrafında, **her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını anlayabilirsiniz**. Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
+Bu farkındalığın etrafında, **her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını anlayabilirsiniz**. Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca seçimlerimize göre şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
 
 Yeteneğiniz muazzam ise, diğer insanların hayat yolculuklarında engelleri aşmalarına yardımcı olmakta cömert davranabilirsiniz. Bu şekilde, daha iyi bir yaşama ulaşmanızı sağlayacak şans faktörünüzü olumlu bir düzleme çekebilirsiniz.
 

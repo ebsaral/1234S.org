@@ -127,7 +127,7 @@ const pageContent = {
         }),
         date: {
           published: '2025-11-15',
-          updated: '2026-02-23',
+          updated: '2026-02-24',
         },
         image: {
           src: '/images/blog/3-drop-leaf.jpg',
