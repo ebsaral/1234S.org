@@ -180,7 +180,7 @@ const pageContent = {
         },
       ],
       note: t({
-        en: 'Positive actions (choices) lead to outcomes that justice in nature offers as a reward.',
+        en: 'On the contrary, positive actions (choices) result in rewards offered by the justice in nature.',
         tr: 'Olumlu eylemler (seçimler) ise doğadaki adaletin ödül olarak sunduğu sonuçlara vesile olur.',
       }),
     },

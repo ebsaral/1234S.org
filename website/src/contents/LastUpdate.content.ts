@@ -9,8 +9,8 @@ const pageContent = {
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md('A small wording update was made in the introduction of Interconnectedness section.'),
-      tr: md('Bütünlük kısmının giriş cümlesinde küçük bir değişiklik yapıldı. (İngilizce)'),
+      en: md('A revision has been made to the note of the consequences table in the Justice section.'),
+      tr: md('Adalet kısmındaki örnek tablonun notunda değişiklik yapıldı. (İngilizce)'),
     }),
   },
 } satisfies Dictionary;
