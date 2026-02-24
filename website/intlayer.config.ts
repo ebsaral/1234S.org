@@ -22,6 +22,10 @@ const blogPostRewrite = {
     en: '/[locale]/blog/beggary',
     tr: '/[locale]/blog/dilencilik',
   },
+  '/[locale]/blog/journey-of-luck': {
+    en: '/[locale]/blog/journey-of-luck',
+    tr: '/[locale]/blog/sansin-yolculugu',
+  },
 };
 
 const config: IntlayerConfig = {

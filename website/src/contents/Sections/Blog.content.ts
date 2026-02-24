@@ -200,6 +200,33 @@ const pageContent = {
           tr: md(file('../Blog/beggary.tr.md')),
         },
       },
+      {
+        title: t({
+          en: 'Journey of Luck',
+          tr: 'Şansın Yolculuğu',
+        }),
+        subtitle: t({
+          en: 'In card games, you can observe your connection to life with those around you. Because in every game you play, the actions you choose are reflections of your journey of luck.',
+          tr: 'Kart oyunlarında çevrenizle olan yaşam bağınızı gözlemleyebilirsiniz. Çünkü her oynadığınız oyunda seçtiğiniz eylemler şans yolculuğunuzun birer yansımasıdır.',
+        }),
+        date: {
+          published: '2026-02-24',
+        },
+        image: {
+          src: '/images/blog/6-cicos-yellow-friend.jpg',
+          size: '200',
+        },
+        href: '/blog/journey-of-luck',
+        author: {
+          title: 'Emin Buğra Saral',
+          href: 'https://0.1234S.org',
+        },
+        slug: 'journey-of-luck',
+        content: {
+          en: md(file('../Blog/journey-of-luck.en.md')),
+          tr: md(file('../Blog/journey-of-luck.tr.md')),
+        },
+      },
     ],
   },
 } satisfies Dictionary<BlogPageContent>;
