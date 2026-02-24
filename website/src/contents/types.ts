@@ -42,10 +42,6 @@ export interface HomePageContent {
     title: string;
     href: string;
   };
-  readMore: {
-    text: string;
-    href: string;
-  };
   projects: {
     title: string;
     description: string;

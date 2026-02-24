@@ -317,14 +317,6 @@ header {
   @apply prose prose-custom sm:prose-custom-sm md:prose-custom-md lg:prose-custom-lg;
 }
 
-.home-intro h1 {
-  @apply text-white text-3xl sm:text-5xl font-semibold text-left sm:text-center;
-}
-
-.home-intro p {
-  @apply text-base sm:text-lg text-left;
-}
-
 .project-support a {
   @apply font-bold underline underline-offset-2 text-emerald-900;
 }

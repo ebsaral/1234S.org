@@ -110,20 +110,12 @@ const Home = () => {
               />
             </div>
           </div>
-          <article className='home-intro max-w-4xl mx-auto flex flex-col items-start sm:items-center justify-stretch my-10 gap-10'>
+          <article className='max-w-4xl mx-auto my-10 text-base sm:text-lg text-left leading-relaxed home-intro'>
             {content.intro}
           </article>
 
-          {screenSize != ScreenSize.z && screenSize == ScreenSize.sm && (
-            <div className='text-right mt-12 -mb-10'>
-              <BlueButton className='' text={content.readMore.text.value} href={content.readMore.href.value} />
-            </div>
-          )}
-
-          <hr className='my-20 w-full rotate-6 sm:rotate-2 md:rotate-0'></hr>
-
-          <article className='max-w-5xl mx-auto w-full home-research'>
-            <div className='max-w-4xl mx-auto flex flex-col gap-10'>
+          <article className='max-w-5xl mx-auto w-full home-research pt-10'>
+            <div className='max-w-4xl mx-auto flex flex-col gap-5'>
               {content.projects.title}
               {content.projects.description}
             </div>
