@@ -183,7 +183,7 @@ const pageContent = {
         }),
         date: {
           published: '2025-11-14',
-          updated: '2026-02-23',
+          updated: '2026-02-24',
         },
         image: {
           src: '/images/blog/5-wet-dog.jpg',
