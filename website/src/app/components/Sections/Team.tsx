@@ -2,8 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import FormattedText from '@/app/components/Custom/FormattedText';
-import { Flower } from 'lucide-react';
+import CustomFlower from '../Custom/CustomFlower';
 import TeamMember from '../TeamMember';
 
 const Team = () => {
@@ -12,15 +11,15 @@ const Team = () => {
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-rose-500'>
-      <div className={`absolute inset-0 bg-gradient-to-br from-rose-500 to-yellow-50 opacity-80'}`} />
+    <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-gray-500'>
+      <div className={`absolute inset-0 bg-gradient-to-b from-gray-100 to-blue-400 opacity-80'}`} />
 
       <div className='max-w-4xl mx-auto px-4'>
         <div className='relative mx-auto my-16 pb-1 rounded-2xl text-center'>
           <div
-            className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
+            className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/80 shadow-lg my-8 transition-all duration-300 hover:scale-110 hover:bg-white/100`}
           >
-            <Flower className='text-rose-600' size={40} />
+            <CustomFlower />
           </div>
 
           <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900  leading-tight overflow-ellipsis`}>
