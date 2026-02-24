@@ -38,16 +38,12 @@ const pageContent = {
       }),
       items: [
         t({
-          en: 'A healthy mind and immune system show that nature values us greatly.',
-          tr: "Sağlıklı bir zihin ve bağışıklık sistemi, Yaradan'ın canlılarıyla çok olumlu ilişkilerimizin olduğunu gösterir.",
+          en: 'A healthy mind and immune system indicate that our relationships in nature are highly positive.',
+          tr: 'Sağlıklı bir zihin ve bağışıklık sistemi, doğada ilişkilerimizin çok olumlu olduğunu gösterir.',
         }),
         t({
           en: 'Any illness is a sign of our disharmony. It advises to restore balance in our relationships with the environment and with each other.',
           tr: 'Herhangi bir hastalık, uyumsuzluğumuzun bir işaretidir. Çevreyle ve birbirimizle olan ilişkilerimizdeki dengeyi yeniden sağlamamızı öğütler.',
-        }),
-        t({
-          en: 'When we achieve remarkable harmony with nature, our mental and physical health gain a comprehensive protective shield.',
-          tr: 'Doğayla muazzam bir uyum yakaladığımızda, zihinsel ve fiziksel sağlığımız kapsamlı bir koruma kalkanına sahip olur.',
         }),
       ],
       examples: [

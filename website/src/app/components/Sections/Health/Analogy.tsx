@@ -9,7 +9,6 @@ import {
   EyeOff,
   HeartOff,
   Play,
-  Shield,
   Smile,
   Speech,
   Stethoscope,
@@ -39,22 +38,18 @@ const Analogy = ({ className }: { className?: string }) => {
               {content.analogy.title}
             </h3>
 
-            <div className='grid lg:grid-cols-2 lg:gap-10 gap-2 items-stretch'>
-              <blockquote className='lg:h-full text-rose-800 bg-white/60 p-4 rounded-lg border-l-4 border-rose-400 mb-6'>
+            <div className='grid lg:grid-cols-2 lg:gap-10 gap-2'>
+              <blockquote className=' text-rose-800 bg-white/60 p-4 rounded-lg border-l-4 border-rose-400 mb-6'>
                 {content.analogy.quote}
               </blockquote>
-              <ul className='space-y-3 text-gray-900'>
-                <li className='flex items-start gap-3'>
-                  <Smile className='text-emerald-700 mt-1 flex-shrink-0' size={18} />
+              <ul className='-ml-4 sm:ml-0 space-y-5 text-gray-900'>
+                <li className='flex items-start gap-4'>
+                  <Smile className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
                   <span>{content.analogy.items[0]}</span>
                 </li>
-                <li className='flex items-start gap-3'>
-                  <Eye className='text-emerald-700 mt-1 flex-shrink-0' size={18} />
+                <li className='flex items-start gap-4'>
+                  <Eye className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
                   <span>{content.analogy.items[1]}</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <Shield className='text-emerald-700 mt-1 flex-shrink-0' size={18} />
-                  <span>{content.analogy.items[2]}</span>
                 </li>
               </ul>
             </div>

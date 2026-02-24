@@ -9,8 +9,8 @@ const pageContent = {
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md('A revision has been made to the note of the consequences table in the Justice section.'),
-      tr: md('Adalet kısmındaki örnek tablonun notunda değişiklik yapıldı. (İngilizce)'),
+      en: md('The explanation of the Organ–Action–Result Analogy area in the Health section has been simplified.'),
+      tr: md('Sağlık kısmındaki Organ-Eylem-Sonuç Benzetmesi bölümünün açıklaması sadeleştirildi.'),
     }),
   },
 } satisfies Dictionary;
