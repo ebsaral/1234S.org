@@ -33,10 +33,12 @@ const pageContent = {
       }),
       description: t({
         en: md(
-          'We want to improve the overall quality of life for all communities. For more information on these topics which we are very well-versed in under the guidance of Logical Spirituality teachings, you can [contact](/contact) us.',
+          `We want to improve the overall quality of life for all communities.  
+          For more information on these topics which we are very well-versed in under the guidance of Logical Spirituality teachings, you can [contact](/contact) us.`,
         ),
         tr: md(
-          'Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz. Mantıksal Maneviyat öğretilerinin rehberliğiyle detaylarına hakim olduğumuz bu konular için bizimle [iletişime](/iletisim) geçebilirsiz.',
+          `Tüm toplulukların genel yaşam kalitelerini iyileştirmek istiyoruz.  
+          Mantıksal Maneviyat öğretilerinin rehberliğiyle detaylarına hakim olduğumuz bu konular için bizimle [iletişime](/iletisim) geçebilirsiz.`,
         ),
       }),
       items: [
