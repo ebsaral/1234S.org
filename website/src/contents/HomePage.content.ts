@@ -26,7 +26,7 @@ const pageContent = {
       }),
       description: t({
         en: md(
-          `For more information on these topics which we are very well-versed in under the guidance of Logical Spirituality teachings, you can [contact](/contact) us.`,
+          `For more information on these topics which we are very well-versed in through the guidance of Logical Spirituality teachings, you can [contact](/contact) us.`,
         ),
         tr: md(
           `Mantıksal Maneviyat öğretilerinin rehberliğiyle detaylarına hakim olduğumuz bu konular için bizimle [iletişime](/iletisim) geçebilirsiz.`,
