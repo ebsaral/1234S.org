@@ -6,4 +6,4 @@ I waited for the right moment. I trusted that feeling: the sensation that would 
 
 What made me happy wasn't just being able to overtake the cars in one go, but knowing deep down that I wouldn't have an accident or die. This feeling of security, combined with the tranquility of my solitude in the car, was a beautiful feeling that reminded me I wasn't truly alone. Interestingly, I know this feeling exists in everyone's soul. Because no accident happens *just because without a reason*.
 
-Perhaps one day everyone will realize this divine intuition they possess. Because honestly, I wouldn't trade that feeling of trust for any material possession.
+I hope that one day everyone can recognize this divine intuition they carry within themselves. Because I wouldn't trade this feeling of trust granted to me for any material possession.

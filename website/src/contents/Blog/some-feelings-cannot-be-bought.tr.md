@@ -6,4 +6,4 @@ Doğru anı bekledim. O hissi duyacağıma güvendim: İlerlemem gerektiğinde v
 
 Beni mutlu eden şey sadece arabaları tek seferde geçebilmek değil, içten içe kaza yapmayacağımı veya ölmeyeceğimi bilmekti. Bu güven duygusu, arabadaki ıssızlığın verdiği sakinlikle birlikte, gerçekten yalnız olmadığımı hatırlatan güzel bir duyguydu. İlginç olan şu ki, bu duygunun herkesin ruhunda var olduğunu biliyorum. Çünkü hiçbir kaza *öylesine veya sebepsiz* olmaz.
 
-Belki bir gün herkes içinde barındırdıkları bu ilahi sezgiyi fark edebilir. Çünkü dürüst olmak gerekirse, sahip olduğum o güven duygusunu hiçbir maddi varlıkla değişmem.
+Umarım bir gün herkes içinde barındırdıkları bu ilahi sezgiyi fark edebilir. Çünkü bana bahşedilen bu güven duygusunu hiçbir maddi varlıkla değişmem.
