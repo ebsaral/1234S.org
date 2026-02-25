@@ -12,7 +12,7 @@ const Team = () => {
 
   return (
     <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-gray-500'>
-      <div className={`absolute inset-0 bg-gradient-to-b from-gray-100 to-blue-400 opacity-80'}`} />
+      <div className={`absolute inset-0 bg-gradient-to-b from-blue-400 to-orange-400/90 opacity-80'}`} />
 
       <div className='max-w-4xl mx-auto px-4'>
         <div className='relative mx-auto my-16 pb-1 rounded-2xl text-center'>
