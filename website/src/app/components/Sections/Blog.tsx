@@ -22,7 +22,7 @@ const Blog = () => {
         <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100 opacity-80'}`} />
 
         <article className='prose-custom-all relative z-10 max-w-4xl mx-auto text-gray-900'>
-          <div className='relative mx-auto my-8 pb-1 rounded-2xl text-center'>
+          <div className='relative mx-auto mb-8 pb-1 rounded-2xl text-center'>
             <CustomPencil />
             {content.title}
             {content.description}
