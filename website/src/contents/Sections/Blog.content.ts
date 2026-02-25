@@ -99,7 +99,7 @@ const pageContent = {
         }),
         date: {
           published: '2025-11-13',
-          updated: '2026-02-22',
+          updated: '2026-02-25',
         },
         image: {
           src: '/images/blog/2-flying-car.jpg',
