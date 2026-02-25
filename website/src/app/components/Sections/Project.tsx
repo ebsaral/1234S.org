@@ -25,9 +25,12 @@ const Project = () => {
         <div className='max-w-5xl mx-auto'>
           <div className='relative mx-auto  mb-6 pb-1 rounded-2xl text-center'>
             <div
-              className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
+              className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110`}
             >
-              <TreeDeciduous className='text-emerald-700' size={40} />
+              <TreeDeciduous
+                className='text-emerald-700 transition-all duration-500 ease-in-out group-hover:scale-125'
+                size={40}
+              />
             </div>
 
             <h2
