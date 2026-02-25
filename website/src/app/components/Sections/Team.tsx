@@ -16,11 +16,7 @@ const Team = () => {
 
       <div className='max-w-4xl mx-auto px-4'>
         <div className='relative mx-auto my-16 pb-1 rounded-2xl text-center'>
-          <div
-            className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/80 shadow-lg my-8 transition-all duration-300 hover:scale-110 hover:bg-white/100`}
-          >
-            <CustomFlower />
-          </div>
+          <CustomFlower />
 
           <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900  leading-tight overflow-ellipsis`}>
             {content.title}
