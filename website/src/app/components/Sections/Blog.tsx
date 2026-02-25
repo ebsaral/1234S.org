@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { useLocale } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import CustomPencil from '../Custom/CustomPencil';
 
 const Blog = () => {
   const id = 'blog';
@@ -22,12 +23,7 @@ const Blog = () => {
 
         <article className='prose-custom-all relative z-10 max-w-4xl mx-auto text-gray-900'>
           <div className='relative mx-auto my-8 pb-1 rounded-2xl text-center'>
-            <div
-              className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
-            >
-              <Pencil className='text-gray-600' size={40} />
-            </div>
-
+            <CustomPencil />
             {content.title}
             {content.description}
           </div>
