@@ -71,7 +71,7 @@ const pageContent = {
         }),
         date: {
           published: '2025-12-18',
-          updated: '2026-02-22',
+          updated: '2026-02-25',
         },
         image: {
           src: '/images/blog/1-apple-imac.jpg',
