@@ -45,4 +45,6 @@ If you tackle your challenges positively, the responsibles for your discomfort w
 
 The important thing is to take the right action when nature reveals its justice against your opponents. Being a better person than your opponent is an easy gateway to more rewards in nature. In the current system we are forced to live in, a lot of wrongdoers continue to appoint wrong people to effective positions because people are not aware of the justice in nature. 
 
+*The Creator loves us all; one side being punished is its love for the other sides.*
+
 **In nature, reputation, titles, diplomas, money or weapons do not have the meaning of power you assume. On the contrary, they may be tools to push [fool] you into taking unhealthy actions.**

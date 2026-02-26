@@ -54,4 +54,6 @@ Zorluklarını olumlu biçimde karşıladığında, sana sıkıntı verenler zam
 
 Önemli olan, doğa rakiplerine karşı adaletini açığa çıkardığında doğru olan eylemi seçmektir. Rakibinden daha iyi bir insan olmak, doğada daha fazla ödüle açılan kolay bir kapıdır. İçinde yaşamaya zorlandığımız mevcut sistemde, pek çok yanlış yapan kişi etkili pozisyonlara yine yanlış kişileri getirmeye devam ediyor; çünkü insanlar doğanın adaletinin farkında değiller.
 
+*Yaradan hepimizi sever; bir tarafın cezalandırılması, O'nun diğer taraftakilere olan sevgisindendir.*
+
 **Doğada itibar, unvan, diploma, para ya da silah sandığımız anlamda bir güç değildir. Aksine, sağlıksız eylemlere itebilecek [kandırabilecek] vesile araçları olabilirler.**

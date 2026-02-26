@@ -155,7 +155,7 @@ const pageContent = {
         }),
         date: {
           published: '2025-11-14',
-          updated: '2026-02-23',
+          updated: '2026-02-26',
         },
         image: {
           src: '/images/blog/4-sunset.jpg',
