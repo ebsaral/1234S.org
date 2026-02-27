@@ -36,9 +36,6 @@ const Blog = () => {
                 href={getLocalizedUrl(item.href.value, locale)}
                 className='relative group flex flex-col w-full gap-4 items-center bg-gray-200/80 hover:bg-gray-100/90 active:bg-gray-200/80 p-8 rounded-lg'
               >
-                <span className='absolute -left-3 -top-3 inline-flex items-center justify-center rounded-full bg-gray-600 text-sm text-center text-white w-10 h-10'>
-                  #{index + 1}
-                </span>
                 <Image
                   className='mb-5 sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
                   src={item.image.src.value}
