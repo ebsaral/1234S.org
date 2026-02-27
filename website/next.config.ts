@@ -1,9 +1,20 @@
 import type { NextConfig } from 'next';
 import { withIntlayer } from 'next-intlayer/server';
+import { blogPostRewrite } from './intlayer.config';
+
+// Edge case handling: /en/blog/turkish-slug -> /tr/blog/turkish-slug
+const blogPostRedirects = Object.keys(blogPostRewrite).map((key) => {
+  return {
+    source: blogPostRewrite[key].tr.replace('[locale]', 'en'),
+    destination: blogPostRewrite[key].tr.replace('[locale]', 'tr'),
+    permanent: false,
+  };
+});
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      ...blogPostRedirects,
       {
         source: '/maneviyat',
         destination: '/tr/philosophy',

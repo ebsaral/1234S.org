@@ -1,7 +1,7 @@
 import { Locales, type IntlayerConfig } from 'intlayer';
 import { nextjsRewrite } from 'intlayer/routing';
 
-const blogPostRewrite = {
+export const blogPostRewrite: { [key: string]: { en: string; tr: string } } = {
   '/[locale]/blog/the-scamming-case-of-big-tech-companies': {
     en: '/[locale]/blog/the-scamming-case-of-big-tech-companies',
     tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi',
