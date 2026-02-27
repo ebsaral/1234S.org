@@ -3,7 +3,6 @@
 import { getLocalizedUrl } from 'intlayer';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
-import { Link, Pencil } from 'lucide-react';
 import Image from 'next/image';
 import { useLocale } from 'react-intlayer';
 import Markdown from 'react-markdown';
@@ -53,18 +52,26 @@ const Blog = () => {
 
                 <p className='text-sm'>{item.subtitle}</p>
 
-                <div className='mt-auto flex flex-col gap-4'>
-                  <div className='inline-flex gap-2 text-xs'>
-                    <Link size={16} />
-                    <p className='underline group-hover:no-underline'>{getLocalizedUrl(item.href.value, locale)}</p>
-                  </div>
-                  <p className='text-center text-xs'>
+                <div className='mt-auto flex flex-col gap-4 text-xs'>
+                  <div className='text-center'>
                     {new Date(item.date.published.value).toLocaleString(locale, {
                       year: 'numeric',
                       month: 'long',
                       day: '2-digit',
                     })}
-                  </p>
+                  </div>
+                  {'updated' in item.date && (
+                    <div className='flex flex-row gap-1'>
+                      <div className='font-medium'>{content.labels.updated}:</div>
+                      <div className='text-center'>
+                        {new Date(item.date.updated.value).toLocaleString(locale, {
+                          year: 'numeric',
+                          month: 'long',
+                          day: '2-digit',
+                        })}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </a>
             );

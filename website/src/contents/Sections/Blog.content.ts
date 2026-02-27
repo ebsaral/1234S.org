@@ -51,8 +51,8 @@ const pageContent = {
         tr: 'Tarih',
       }),
       updated: t({
-        en: 'Last Update Date',
-        tr: 'Son Güncellenme Tarihi',
+        en: 'Updated',
+        tr: 'Güncellenme',
       }),
       author: t({
         en: 'Author',
