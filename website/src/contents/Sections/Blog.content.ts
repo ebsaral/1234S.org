@@ -74,7 +74,7 @@ const pageContent = {
           updated: '2026-02-25',
         },
         image: {
-          src: '/images/blog/1-apple-imac.jpg',
+          src: '/images/blog/apple-imac.jpg',
           size: '200',
         },
         href: '/blog/the-scamming-case-of-big-tech-companies',
@@ -102,7 +102,7 @@ const pageContent = {
           updated: '2026-02-25',
         },
         image: {
-          src: '/images/blog/2-flying-car.jpg',
+          src: '/images/blog/flying-car.jpg',
           size: '200',
         },
         href: '/blog/some-feelings-cannot-be-bought',
@@ -130,7 +130,7 @@ const pageContent = {
           updated: '2026-02-24',
         },
         image: {
-          src: '/images/blog/3-drop-leaf.jpg',
+          src: '/images/blog/drop-leaf.jpg',
           size: '200',
         },
         href: '/blog/how-to-play-in-nature',
@@ -158,7 +158,7 @@ const pageContent = {
           updated: '2026-02-26',
         },
         image: {
-          src: '/images/blog/4-sunset.jpg',
+          src: '/images/blog/sunset.jpg',
           size: '200',
         },
         href: '/blog/challenges-levels-rewards-and-punishments',
@@ -186,7 +186,7 @@ const pageContent = {
           updated: '2026-02-24',
         },
         image: {
-          src: '/images/blog/5-wet-dog.jpg',
+          src: '/images/blog/wet-dog.jpg',
           size: '200',
         },
         href: '/blog/beggary',
@@ -213,7 +213,7 @@ const pageContent = {
           published: '2026-02-24',
         },
         image: {
-          src: '/images/blog/6-cicos-yellow-friend.jpg',
+          src: '/images/blog/cicos-yellow-friend.jpg',
           size: '200',
         },
         href: '/blog/journey-of-luck',
