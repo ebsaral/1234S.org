@@ -56,7 +56,7 @@ export type Post = Record<
   {
     content: string;
     metadata: PostMeta;
-  }
+  } | null
 >;
 
 export function getPost(slug: string): Post {
@@ -64,6 +64,11 @@ export function getPost(slug: string): Post {
   const posts = Object.fromEntries(
     availableLocales.map((locale) => {
       const filePath = path.join(postsDirectory, `${slug}.${locale}.md`);
+
+      if (!fs.existsSync(filePath)) {
+        return [locale, null];
+      }
+
       const fileContent = fs.readFileSync(filePath, 'utf-8');
 
       const { content, data } = matter(fileContent);

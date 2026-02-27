@@ -1,4 +1,4 @@
-import { file, md, t, type Dictionary } from 'intlayer';
+import { md, t, type Dictionary } from 'intlayer';
 
 type BlogPageContent = {
   notFound: string;
@@ -15,8 +15,8 @@ const pageContent = {
   key: 'blog-section',
   content: {
     notFound: t({
-      en: 'Blog post is not found.',
-      tr: 'Aradığınız blog içeriği bulunamadı.',
+      en: "Blog post does not exist, or it hasn't been translated to English yet.",
+      tr: 'Aradığınız blog içeriği mevcut değil, veya henüz Türkçeye çevirisi yapılmadı.',
     }),
     title: t({
       en: md('# Blog'),

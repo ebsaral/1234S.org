@@ -28,8 +28,10 @@ const BlogPost = ({ post }: { post: Post }) => {
   if (!item) {
     return (
       <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-500'>
-        <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100   opacity-80'}`} />
-        {content.notFound}
+        <div
+          className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
+        />
+        <p className='font-medium text-center text-lg mt-16 text-gray-100'>{content.notFound}</p>
       </section>
     );
   }
