@@ -2,27 +2,30 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
+import { Post } from '@/lib/posts';
 import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect } from 'react';
-import Markdown from 'react-markdown';
+import { default as Markdown, default as ReactMarkdown } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Title from '../Custom/Title';
 
-const BlogPost = ({ slug }: { slug: string }) => {
+const BlogPost = ({ post }: { post: Post }) => {
   const id = 'blog';
   const sectionKey = 'blog';
   const { locale } = useLocale();
   const content = useIntlayer(`${sectionKey}-section`, locale);
   const metadata = useIntlayer(`${sectionKey}-page-metadata`, locale);
   const { setActiveMenu } = useMenu();
+
   useEffect(() => {
     setActiveMenu({ root: 'blog' });
   }, []);
 
-  const post = content.items.find((item) => 'slug' in item && item.slug.value == slug);
+  useEffect(() => {}, [locale]);
 
-  if (!post) {
+  const item = post[locale];
+  if (!item) {
     return (
       <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-500'>
         <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100   opacity-80'}`} />
@@ -30,10 +33,9 @@ const BlogPost = ({ slug }: { slug: string }) => {
       </section>
     );
   }
-
   return (
     <main>
-      <Title title={post.title.value + ' - ' + metadata.title.value} />
+      <Title title={item.metadata.title + ' - ' + metadata.title.value} />
       <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
         <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-50'>
           <div
@@ -42,8 +44,8 @@ const BlogPost = ({ slug }: { slug: string }) => {
           <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-50 opacity-80'}`} />
           <div className='relative z-10 mx-auto w-full mt-10 flex flex-col items-center'>
             <article className='prose-custom-all max-w-2xl mx-auto'>
-              <h1>{post.title}</h1>
-              <blockquote>{post.subtitle}</blockquote>
+              <h1>{item.metadata.title}</h1>
+              <blockquote>{item.metadata.subtitle}</blockquote>
             </article>
 
             <div className='mt-5 flex flex-row gap-10 items-center text-xs'>
@@ -51,7 +53,7 @@ const BlogPost = ({ slug }: { slug: string }) => {
                 <span>{content.labels.author}</span>
                 <span>
                   <strong>
-                    <a href={post.author.href.value}>{post.author.title}</a>
+                    <a href={item.metadata.authorUrl}>{item.metadata.authorName}</a>
                   </strong>
                 </span>
               </p>
@@ -59,7 +61,7 @@ const BlogPost = ({ slug }: { slug: string }) => {
                 <span>{content.labels.published}</span>
                 <span>
                   <strong>
-                    {new Date(post.date.published.value).toLocaleString(locale, {
+                    {new Date(item.metadata.published).toLocaleString(locale, {
                       year: 'numeric',
                       month: 'short',
                       day: '2-digit',
@@ -71,24 +73,24 @@ const BlogPost = ({ slug }: { slug: string }) => {
 
             <Image
               className='my-10 rounded-lg hover:scale-105 transition-all duration-300'
-              src={post.image.src.value}
+              src={item.metadata.image}
               width={500}
               height={500}
-              alt={post.title.value}
-              title={post.title.value}
+              alt={item.metadata.title}
+              title={item.metadata.title}
             />
 
             <article className='prose-custom-all text-gray-900 max-w-2xl mx-auto'>
-              {'content' in post && post?.content[locale]}
+              <ReactMarkdown>{item.content}</ReactMarkdown>
             </article>
 
             <div className='mt-10 flex flex-row gap-10 items-center text-xs'>
-              {'updated' in post.date && (
+              {item.metadata.updated && (
                 <p className='flex flex-row gap-2'>
                   <span>{content.labels.updated}</span>
                   <span>
                     <strong>
-                      {new Date(post.date.updated.value).toLocaleString(locale, {
+                      {new Date(item.metadata.updated).toLocaleString(locale, {
                         year: 'numeric',
                         month: 'long',
                         day: '2-digit',

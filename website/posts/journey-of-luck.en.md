@@ -1,3 +1,11 @@
+---
+title: Journey of Luck
+subtitle: In card games, you can observe your connection to life with those around you. Because in every game you play, the actions you choose are reflections of your journey of luck.
+image: /images/blog/cicos-yellow-friend.jpg
+published: 2026-02-24
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 **Through the principle of Interconnectedness within the teachings of Logical Spirituality, we explained that every living being is connected to one another through visible and invisible bonds.** Within the harmony of nature, every action we choose is aligned with both our previous and our future choices. The balance within the connection between our actions is maintained by the principle of Justice in Nature. The consequences of the intentions behind our earlier choices are reflected in our next actions. In this journey of life, we interpret the negative situations we encounter as bad luck, and the positive ones as being lucky.
 
 For our luck to be lasting, we must live in harmony with our environment (nature) and preserve good intentions in our relationships. Just as illnesses arise in our bodies due to negative actions, every situation in which we feel unlucky aims to offer us guidance. As our actions shift toward healthier choices, we regain the luck we need in our life journeys.

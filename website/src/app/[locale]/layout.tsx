@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import { Noto_Sans } from 'next/font/google';
 
-import { getHTMLTextDir, getIntlayer, getMultilingualUrls } from 'intlayer';
+import { getHTMLTextDir, getIntlayer, getMultilingualUrls, LocalesValues } from 'intlayer';
 import {
+  generateStaticParams,
   IntlayerClientProvider,
   LocalPromiseParams,
   type NextLayoutIntlayer,
-  generateStaticParams,
 } from 'next-intlayer';
-import { IntlayerServerProvider } from 'next-intlayer/server';
+import { IntlayerServerProvider, useLocale } from 'next-intlayer/server';
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -18,6 +18,7 @@ import { Bounce, ToastContainer } from 'react-toastify';
 import Footer from '@/app/components/Footer';
 import Header from '@/app/components/Header';
 
+import { getAllPosts } from '@/lib/posts';
 import '../App.css';
 import '../custom.css';
 import { MenuProvider } from '../hooks/useMenu';
@@ -70,6 +71,12 @@ const noto_sans = Noto_Sans({
 
 const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
+  const { availableLocales } = useLocale();
+  const posts = getAllPosts();
+  const postCount = Object.fromEntries(
+    availableLocales.map((locale) => [locale, posts.filter((post) => post.locale == locale).length]),
+  ) as Record<LocalesValues, number>;
+
   return (
     <html lang={locale} dir={getHTMLTextDir(locale)} className={`${noto_sans.variable}`}>
       <head>
@@ -80,7 +87,7 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
           <IntlayerClientProvider locale={locale}>
             <MenuProvider>
               <div className='App'>
-                <Header />
+                <Header postCount={postCount} />
                 <div id='scroll-to-top'></div>
                 {children}
                 <Footer />

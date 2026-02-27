@@ -13,7 +13,7 @@ import { useScrollEffects } from '../hooks/useScrollEffects';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 
-const Header = () => {
+const Header = ({ postCount }) => {
   const { scrollY } = useScrollEffects();
   const ref = useRef(null);
   const lastScroll = useRef(scrollY);
@@ -23,7 +23,6 @@ const Header = () => {
   const { setHash } = useHash();
   const { locale, pathWithoutLocale, availableLocales, setLocale } = useLocale();
   const content = useIntlayer('navigation', locale);
-  const blog = useIntlayer('blog-section', locale);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { activeMenu } = useMenu();
@@ -118,7 +117,7 @@ const Header = () => {
   const getItemTitle = (key) => {
     let value = content[key].text.value;
     if (key == 'blog') {
-      value += ` (${blog.items.length})`;
+      value += ` (${postCount ? postCount[locale] : 0})`;
     }
     return value;
   };

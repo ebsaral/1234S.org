@@ -1,3 +1,4 @@
+import { getAllPosts } from '@/lib/posts';
 import fs from 'fs';
 import { getMultilingualUrls } from 'intlayer';
 import type { MetadataRoute } from 'next';
@@ -8,13 +9,7 @@ const BASE_URL = 'https://www.1234s.org';
 const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/service', '/contact'];
 
 function getBlogSlugs(): string[] {
-  const blogDir = path.join(process.cwd(), 'src/contents/Blog');
-
-  const files = fs.readdirSync(blogDir);
-
-  // Remove locale suffix (.en.md / .tr.md)
-  const slugs = new Set(files.map((file) => file.replace(/\.(en|tr)\.md$/, '')));
-
+  const slugs = new Set(getAllPosts().map((post) => post.slug));
   return Array.from(slugs);
 }
 

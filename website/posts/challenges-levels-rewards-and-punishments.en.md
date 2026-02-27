@@ -1,3 +1,12 @@
+---
+title: Challenges, Levels, Rewards and Punishments
+subtitle: Nature may offer beyond your current awareness if you care to feel its wholeness.
+image: /images/blog/sunset.jpg
+published: 2025-11-14
+updated: 2026-02-26
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 > The world revolves around its Sun in circles. Nature evolves by balancing its being. We, as living beings, continue our existence by repeating similar circles. At each repetition, our life circles overlap with each other in a timeless manner. Yet we define our limited time with our own perspectives.
 
 Perspectives tend to move forward or backward within our approaching methods to present: Our thinking shifts between positive and negative understandings. While any understanding can be based on assumptions built upon past experiences, a positive mindset tries to challenge its thinking for taking better decisions and actions.
@@ -45,6 +54,6 @@ If you tackle your challenges positively, the responsibles for your discomfort w
 
 The important thing is to take the right action when nature reveals its justice against your opponents. Being a better person than your opponent is an easy gateway to more rewards in nature. In the current system we are forced to live in, a lot of wrongdoers continue to appoint wrong people to effective positions because people are not aware of the justice in nature. 
 
-*The Creator loves us all; one side being punished is its love for the other sides.*
+> In nature, reputation, titles, diplomas, money or weapons do not have the meaning of power you assume. On the contrary, they may be tools to push [fool] you into taking unhealthy actions.
 
-**In nature, reputation, titles, diplomas, money or weapons do not have the meaning of power you assume. On the contrary, they may be tools to push [fool] you into taking unhealthy actions.**
+**The Creator loves us all; one side being punished is its love for the other sides.**

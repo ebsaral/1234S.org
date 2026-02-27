@@ -1,3 +1,12 @@
+---
+title: Beggary
+subtitle: Let's take an amateur look at the details of this professional definition, which contains many emotions within itself.
+image: /images/blog/wet-dog.jpg
+published: 2025-11-14
+updated: 2026-02-24
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 I had some thinking on *begging* after hearing a phrase from my mother or from people around me from time to time. Like you may also hear it from any parent, my mother often repeats the sentence: *“I worked hard so you would not to be dependent on others.”* While saying this, she frequently emphasizes how long she worked for her independence. For example, she interprets my brother asking people on the street for a cigarette as an act of begging. Interestingly, even asking for a cigarette can be seen as begging.
 
 Begging is defined in the dictionary as asking for alms. The dictionary meaning of alms is: *“Money, goods, etc., given to the needy or poor without expecting anything in return.”*

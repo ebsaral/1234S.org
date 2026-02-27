@@ -1,4 +1,5 @@
 import BlogPost from '@/app/components/Pages/BlogPost';
+import { getPost } from '@/lib/posts';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
@@ -8,7 +9,7 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
 
   const metadata = getIntlayer('blog-page-metadata', locale);
   const content = getIntlayer(`blog-section`, locale);
-  const post = content.items.find((item) => 'slug' in item && item.slug == slug);
+  const post = getPost(slug)[locale];
 
   const url = 'https://www.1234s.org/blog/' + slug;
   const multilingualUrls = getMultilingualUrls(url);
@@ -18,8 +19,8 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
         type: 'website',
         images: [
           {
-            url: 'https://www.1234s.org' + post?.image.src,
-            secureUrl: 'https://1234s.org' + post?.image.src,
+            url: 'https://www.1234s.org' + post.metadata.image,
+            secureUrl: 'https://1234s.org' + post.metadata.image,
           },
         ],
       }
@@ -27,8 +28,8 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
 
   return {
     ...metadata,
-    title: post ? post.title : metadata.title,
-    description: post ? post.subtitle : metadata.description,
+    title: post ? post.metadata.title : metadata.title,
+    description: post ? post.metadata.subtitle : metadata.description,
     alternates: {
       canonical: multilingualUrls[locale as keyof typeof multilingualUrls],
       languages: { ...multilingualUrls, 'x-default': url },
@@ -42,7 +43,7 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
 
 const Page: NextPageIntlayer<{ slug: string }> = async ({ params }) => {
   const { slug } = await params;
-  return <BlogPost slug={slug} />;
+  return <BlogPost post={getPost(slug)} />;
 };
 
 export default Page;

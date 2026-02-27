@@ -1,3 +1,12 @@
+---
+title: The Scamming Case of Big Tech Companies!
+subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
+image: /images/blog/apple-imac.jpg
+published: 2025-12-18
+updated: 2026-02-25
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 Having been a victim of large corporations and some politicians they work with for over 10 years in different countries, I want to share the scams I’ve discovered with the public. As a computer engineer, I want to focus specifically on large technology companies and the structural advantages that allow them to grow at an extraordinary rate.
 
 Amazon, Google, IBM, Apple, Microsoft, Fiat, Tesla, and similar companies don’t just produce products; they operate an economic system that gives them a structural advantage. These companies control operating systems, app marketplaces, cloud infrastructure, hardware, and developer tools without regard for their customers’ permission, consent, or well-being. They illicitly manage platforms that function like private digital economies, with software tightly integrated into their hardware, along with their product layers.

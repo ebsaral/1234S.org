@@ -1,3 +1,12 @@
+---
+title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
+subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi?
+image: /images/blog/apple-imac.jpg
+published: 2025-12-18
+updated: 2026-02-25
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 10 yıldan fazla bir süredir büyük şirketlerin ve birlikte çalıştıkları bazı politikacıların yasadışı eylemlerinin farklı ülkelerde mağduru olmamın sonucunda keşfettiğim dolandırıcılıkları kamuoyuyla paylaşmak istiyorum. Bir bilgisayar mühendisi olduğum için, özellikle büyük teknoloji firmalarına ve onların olağanüstü hızda büyümelerini sağlayan yapısal avantajlarına odaklanmak istiyorum.
 
 Amazon, Google, IBM, Apple, Microsoft, Fiat, Tesla ve benzeri şirketler sadece ürün üretmekle kalmıyorlar, kendilerine yapısal avantaj sağlayan bir ekonomi sistemini işletiyorlar. Bu şirketler işletim sistemlerini, uygulama pazarlarını, bulut altyapılarını, donanımlarını ve geliştirici araçlarını müşterilerinin izinlerini, rızalarını ve sağlıklarını umursamadan kontrol ediyorlar. Sahip oldukları ürün katmanlarıyla birlikte özel dijital ekonomiler gibi işleyen, yazılımları donanımlarına sıkıca entegre edilmiş platformları yasadışı bir şekilde yönetiyorlar.

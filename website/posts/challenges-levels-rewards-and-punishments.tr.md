@@ -1,3 +1,12 @@
+---
+title: Zorluklar, Seviyeler, Ödüller ve Cezalar
+subtitle: Doğanın bütünlüğünü hissetmeye özen gösterirseniz, size şu anki farkındalığınızın ötesini sunabilir.
+image: /images/blog/sunset.jpg
+published: 2025-11-14
+updated: 2026-02-26
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 > Dünya, Güneş'inin etrafında daireler çizerek döner. Doğa, varlığını dengeleyerek dönüşür ve gelişir. Bizler de canlılar olarak benzer döngüleri tekrar ederek varlığımızı sürdürürüz. Her tekrar eden döngüde, hayat çemberlerimiz zamansız bir biçimde birbirine değip geçer. Yine de, sınırlı gözüken zamanımızı kendi bakış açılarımızla anlamlandırırız. 
 
 Bakış açıları, ana [şimdiye] yaklaşma biçimlerimizde ileriye ya da geriye salınır: Düşüncelerimiz olumlu ile olumsuz anlayış arasında gidip gelir. Her anlayış, geçmiş deneyimlerin üzerine kurulu varsayımlara dayanabilir; fakat olumlu bir zihin, daha iyi kararlar ve eylemler alabilmek için kendi düşüncesini sorgulamayı göze alır.  
@@ -54,6 +63,6 @@ Zorluklarını olumlu biçimde karşıladığında, sana sıkıntı verenler zam
 
 Önemli olan, doğa rakiplerine karşı adaletini açığa çıkardığında doğru olan eylemi seçmektir. Rakibinden daha iyi bir insan olmak, doğada daha fazla ödüle açılan kolay bir kapıdır. İçinde yaşamaya zorlandığımız mevcut sistemde, pek çok yanlış yapan kişi etkili pozisyonlara yine yanlış kişileri getirmeye devam ediyor; çünkü insanlar doğanın adaletinin farkında değiller.
 
-*Yaradan hepimizi sever; bir tarafın cezalandırılması, O'nun diğer taraftakilere olan sevgisindendir.*
+> Doğada itibar, unvan, diploma, para ya da silah sandığımız anlamda bir güç değildir. Aksine, sağlıksız eylemlere itebilecek [kandırabilecek] vesile araçları olabilirler.
 
-**Doğada itibar, unvan, diploma, para ya da silah sandığımız anlamda bir güç değildir. Aksine, sağlıksız eylemlere itebilecek [kandırabilecek] vesile araçları olabilirler.**
+**Yaradan hepimizi sever; bir tarafın cezalandırılması, O'nun diğer taraftakilere olan sevgisindendir.**

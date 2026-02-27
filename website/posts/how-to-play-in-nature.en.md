@@ -1,3 +1,12 @@
+---
+title: How to “play” in nature?
+subtitle: Life isn't a game for everyone yet. Let's have a look at how we can convert life into a game.
+image: /images/blog/drop-leaf.jpg
+published: 2025-11-15
+updated: 2026-02-24
+authorName: Emin Buğra Saral
+authorUrl: https://0.1234S.org 
+---
 There are still wars, unrecoverable pains, bloody actions and many diseases... Still, there is a path to our healthy future in every living being's equality and freedom. Even though this path doesn't sound easy, it is actually easier than we can imagine compared to our long shared history on Earth.
 
 Nature acts as a single being and it's usually referenced as “being one at infinifty”, if you were not aware. Every human is gifted to reach nature's full potential when they are born. Yet, a lot of cultural and systematic blockers may ruin each person's infinite luck — even before they were born. Still, every punishment *(or negativity)* can turn into a reward *(or positivity)* for a living being due to nature's fairness *(justice)* balance. **Every talent is actually a natural gift:** Some talents are earned with minimal effort to be protected from the negativity inflicted in our societies.
