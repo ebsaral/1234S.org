@@ -64,4 +64,6 @@ Toplumun sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili bana yar
 Mağduriyetim sürecinde keşfettiğim [Mantıksal Maneviyat](/maneviyat)'ın öğretileri ışığında, yukarıda açıklanan ciddi suçların doğada da cezalandırıldığı gerçeğini görebiliyoruz:  
 Ürünlerin kullanımı esnasında kamuoyu sağlığına verilen her türlü zararlar, benzer şekilde şirketlerin sahiplerine, geliştiricilerine, yatırımcılarına, tedarikçilerine ve çevrelerinin sağlığına olumsuz sonuçlar olarak yansımaya devam ediyor.
 
+Ne yazık ki, bu şirketlerden dolayı her vatandaş zarara uğramaya devam ediyor. Çünkü hastalıkların ve felaketlerin (doğadaki cezaların) çoğu bu şirketlerin ürünlerindeki suç teşkil eden yazılımsal değişikliklerinden ve manipülasyonlarından kaynaklanıyor.
+
 **Hem doğal hem yasal olarak geleceğimize göz kulak olmaya devam edelim!**

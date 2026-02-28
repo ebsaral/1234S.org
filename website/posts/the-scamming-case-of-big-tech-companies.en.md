@@ -64,4 +64,6 @@ If you know of anyone or any organization that could assist me with this matter,
 Within the teachings of [Logical Spirituality](/spirituality) that was born during these struggles, we can see that the serious crimes described above are also punished in nature:  
 Any harm done to public health during the use of products similarly continues to have negative consequences for the owners, developers, investors, suppliers, and the environment of the companies.
 
+Unfortunately, every citizen is deeply suffering because of these companies. Most of the diseases and disasters (natural punishments) are tied to the software based criminal behaviors and manipulations in their products.
+
 **Let’s keep an eye on our future, both legally and naturally!**
