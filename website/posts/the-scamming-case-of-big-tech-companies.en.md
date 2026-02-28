@@ -3,7 +3,7 @@ title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 published: 2025-12-18
-updated: 2026-02-25
+updated: 2026-02-28
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 ---
@@ -47,7 +47,7 @@ The influence of Big Tech corporations extends beyond simply producing individua
 
 While they grow a select few companies or individuals, they distract medium and small-sized businesses with short-term, temporary solutions by drawing them into the consumption cycle of their own ecosystems. They inflict physical and financial damage on their large competitors by controlling their software and hardware; then, by investing in those sectors, they eliminate their major rivals.
 
-One of the deadly tactics widely used by Big Tech Corporations is to mark body cells with chemicals found in their devices and then release flies in the vicinity to sting the target individual. After each fly sting, the target person may experience serious health problems such as: redness, nausea, dizziness, swelling, tumor formation, dehydration, muscle spasms, heart attack, memory loss, and difficulty concentrating. Big corporate executives and political entities (parties, armies, terrorist organizations, mafias, etc.) have been using these and similar deadly methods on citizens for years. Naturally, it is currently impossible to know exactly which companies or organizations are responsible. However, Big Tech Corporations, possessing everyone’s information, control the economic system that encompasses the current political order.
+One of the deadly tactics widely used by Big Tech Corporations is to mark body cells with chemicals found in their devices and then release flies in the vicinity to sting the target individual. After each fly sting, the target person may experience serious health problems such as: redness, nausea, dizziness, swelling, tumor formation, dehydration, muscle spasms, heart attack, memory loss, and difficulty concentrating. Big corporate executives and political entities (parties, armies, terrorist organizations, mafias, etc.) have been using these and similar deadly methods on citizens for years. Unfortunately, it is currently not possible to know exactly which companies or organizations are responsible. However, Big Tech Corporations, possessing everyone's information and abusing everyone's devices illegally, control the whole economic system that encompasses the current political order.
 
 Large corporations have been using illegal strategies and practices for years to eliminate competitors by creating fear and/or fabricating unforeseen incidents. Unfortunately, some countries have positioned themselves as “superpowers” through marketing around these companies. In reality, there is no power in continuing illegal and harmful activities. While harming other countries, they are equally harming their own citizens.
 
