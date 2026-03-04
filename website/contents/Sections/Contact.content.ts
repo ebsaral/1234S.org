@@ -8,8 +8,8 @@ const pageContent = {
       tr: 'İletişim',
     }),
     description: t({
-      en: 'You can contact us for your questions, requests and opinions.',
-      tr: 'Soru, istek ve görüşlerinizi bize gönderebilirsiniz.',
+      en: 'You can contact us for your questions, requests or opinions.',
+      tr: 'Soru, istek veya görüşlerinizi bize gönderebilirsiniz.',
     }),
     form: {
       title: t({
