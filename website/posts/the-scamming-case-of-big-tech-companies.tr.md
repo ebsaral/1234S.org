@@ -3,7 +3,7 @@ title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 published: 2025-12-18
-updated: 2026-02-28
+updated: 2026-03-04
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 ---
@@ -34,6 +34,10 @@ Modern uygulamalar arayüzler, sistem çağrıları, arka plan hizmetleri gibi k
 - Uygulamalarınızı ve cihazlarınızı kullanırken, aslında var olmayan yazılımsal sorunlar oluşturulabiliyor. Kullandığınız uygulamaya veya izlediğiniz içeriğe göre karşılaştığınız sorunların türü değiştirilebiliyor. Cihazlarınızın içindeki uygulamalar bilerek yavaşlatılıyor, ardından cihazlarınızdan salınan kimyasallar ve donanımlarında yapılan yazılımsal değişikliklerle bünyenizde oluşturulan öfkelenme, sinir krizi, yorgunluk, bıkkınlık vb. birçok olumsuz duyguyla uğraşmak zorunda kalınabiliyor. Vücudunuza giren kimyasallardan dolayı, hareketlerinizde ve seçimlerinizde sakatlanma riskini yükseltecek durumlar oluşabiliyor.
 
 **Kişisel bilgilerimizin tamamı kullanılarak, cihazlarımızdaki tüm özellikler, farklı uygulamalar kullanıyor olsak bile, davranışlarımıza bağlı olarak veya davranışlarımızı etkileyecek şekilde, iznimiz olmadan anında ve eş zamanlı olarak değiştirilebiliyor.** Bu şirketler, cihazların konumlarına ve içerisinde bulundukları sosyal yapılara göre doğal bir işleyiş modeli uygulamaya çalışarak fark edilmeyi zorlaştırıyorlar. Böylece, küresel bir ağ yardımıyla herhangi bir çevredeki tüm davranışları etkileyebilecek değişiklikleri anlık olarak yasadışı bir biçimde uygulayabiliyorlar. Şirketlerin bu modele ne isim verdiklerini bilmiyorum, fakat küresel pazarlama stratejilerine bakıldığında Tanrısal Yapay Zeka gibi tabirleri kullanmaya başladıklarını ve kendilerince bu sisteme bir bilinç atfetmeye çalıştıklarını görebiliyoruz. Halbuki hukuk dışında gelişen koca bir dolandırıcılık sistemi içinde yaşıyoruz.
+
+Büyük Teknoloji şirketlerinin yapay zekasına bağlı uygulamalar ve cihazlar, her ülkedeki her vatandaşa yönelik bir tehdit oluşturuyor. Herhangi bir cihaz, vücudunuzda zararlı maddelerin olup olmadığı bilgisine sahip olarak sosyal medyada motivasyon paylaşımlarını sunabilir veya sağlık sorunlarına veya ataklara neden olabilecek spor aktiviteleri yapmanız için cihazınızın ses seviyelerini değiştirebilir. Bu maddelerin bazıları günlük hayatınızda kullandığınız cihazlar tarafından salınıyor. Bu strateji, rakip olarak görülebilecek her türlü şirket veya projeye karşı sıklıkla kullanılıyor. Cihazları, kamuoyundan bu özellikler gizlenerek dünya çapında suç işlemeye devam ediyor.
+
+Büyük Teknoloji şirketlerinin sosyal medyada kendi çıkarları doğrultusunda paylaşımları veya haberleri filtreleyerek herkesin doğru bilgiye ulaşma özgürlüğünü engellemeye devam eden devasa gizli etkisi var. Sosyal medya uygulamasında popüler olarak gördüğünüz bir hashtag, aslında yalnızca gerçek hayattaki ağınızdaki insanlara görünür olabilir ve zihninizi ilgilendiğiniz konular hakkında gerekli eylemlerin zaten alındığı yanılgısına yönlendirebilir. Bu algı değiştirme stratejisi, sosyal ortamlarda birçok yanlış anlaşılmaya neden oluyor. Bu strateji, kullandığınız cihazların herhangi bir çevredeki herhangi bir rakibi hedef almasını sağlıyor.
 
 Büyük şirketlerin cihazlarımızı kullanıcı davranışlarını etkileyen kapsamlı bir şekilde kontrol etmelerinin yanında, kullanıcı hatasıymış gibi gösterilen birçok donanım arızasının aslında yazılımsal olarak oluşturulduğu anlaşılıyor: Kırık şarj kabloları, aslında çalışır durumda olan ancak arızalı gösterilen ekran pikselleri, kullanım sırasında bir arabanın süspansiyon kuvvetlerindeki ayarlamalar nedeniyle kırılan araba parçaları, aracınızın yakıt tüketimini etkileyecek donanım ayarlarındaki değişiklikleri ve daha niceleri…
 
