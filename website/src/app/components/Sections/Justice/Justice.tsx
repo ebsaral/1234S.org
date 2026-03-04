@@ -50,11 +50,12 @@ const Justice = ({ id }: { id?: string }) => {
         <article className='prose-custom-all max-w-4xl mx-auto p-6'>
           {content.paragraph1}
           {content.paragraph2}
+          {content.paragraph3}
         </article>
         <div className='max-w-5xl mx-auto px-6'>
           <Consequences />
         </div>
-        <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph3}</article>
+        <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph4}</article>
       </section>
     </MarkdownProvider>
   );

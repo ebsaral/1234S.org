@@ -18,6 +18,7 @@ interface JusticeContent {
   paragraph1: string;
   paragraph2: string;
   paragraph3: string;
+  paragraph4: string;
   consequences: {
     title: string;
     labels: {
@@ -62,13 +63,21 @@ const pageContent = {
     }),
     paragraph2: t({
       en: md(
-        'All diseases, epidemics, earthquakes, storms, floods, droughts, animal attacks, conflicts, crises, and wars experienced from the beginning to the present reveal justice in nature. Humanity delays its own welfare when it reduces the symbols of nature to its own frame of meaning and disregards other living beings. **All outcomes directly reflect how the principles of equality and freedom are applied.** Every negative outcome is a cry of injustice in nature. *For example: While watching someone recount a traffic accident on the news, we simultaneously hear the confession of their another unseen wrongdoing.*',
+        "All diseases, epidemics, earthquakes, storms, floods, droughts, animal attacks, conflicts, crises, and wars experienced from the beginning to the present reveal justice in nature. Humanity delays its own welfare when it reduces the symbols of nature to its own frame of meaning and disregards other living beings. **All outcomes directly reflect how the principles of equality and freedom are applied.** Every negative outcome is a cry of injustice in nature. *For example: When listening to someone recount a traffic accident on the news or in their surroundings, we also hear them confessing to another crime we didn't witness. If we pay attention to the details, we see that the process by which the crime that led to the accident occurred is being described to the environment.*",
       ),
       tr: md(
-        'Başlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, kazalar, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin çığlığıdır. *Örneğin: Haberlerde geçirdiği trafik kazasını anlatan birini izlerken, aynı zamanda o kişinin görmediğimiz başka bir suçunu itiraf ettiğini duyarız.*',
+        'Başlangıçtan günümüze yaşanılan tüm hastalıklar, salgınlar, depremler, fırtınalar, seller, kuraklıklar, hayvan saldırıları, kazalar, çatışmalar, krizler ve savaşlar doğadaki adaleti gözler önüne serer. İnsanlık, doğanın sembollerini yalnızca kendi anlam çerçevesine indirgediğinde ve diğer canlıları umursamadığında, kendi refahını da ertelemiş olur. **Tüm sonuçlar eşitlik ve özgürlük ilkelerinin nasıl uygulandığını doğrudan yansıtır.** Her olumsuz sonuç, doğada yaşanan adaletsizliğin çığlığıdır. Her kazanın veya doğal afetin oluşma şekli, gerçekleştirilen suçun oluşma şeklini doğanın diliyle size açıklar. *Örneğin: Haberlerde veya çevresinde geçirdiği trafik kazasını anlatan birini dinlerken, aynı zamanda o kişinin görmediğimiz başka bir suçunu itiraf ettiğini duyarız. Detaylara dikkat ettiğimizde, kazaya vesile olan suçun oluşma şeklinin bir süreç halinde çevreye anlatıldığını görürüz.*',
       ),
     }),
     paragraph3: t({
+      en: md(
+        'An event in a small environment is, at the same time, a reflection in nature of events that go unnoticed in other lives and on a global scale. Every negative event serves as an important lesson, helping us to see the mistakes in other lives. This language of nature, waiting to be understood, can help us prevent the repetition of many injustices. Therefore, being impartial and honest without hesitation when describing events contributes to the well-being of the entire society. The consequences of every action we take in nature are reflected back on our health and lives.',
+      ),
+      tr: md(
+        'Küçük bir çevrede gerçekleşen bir olay, aynı zamanda diğer yaşantılarda ve küresel kapsamda fark edilmeyen olayların doğadaki yansımaları olur. Her yaşanan olumsuz vaka, diğer yaşantılardaki hataları görebilmemiz için birer öğüt olma önemini taşır. Doğanın anlaşılmayı bekleyen bu dili, birçok adaletsizliğin tekrarlanmasını engellememize yardımcı olabilir. Bu yüzden, olayları anlatırken taraf tutmamamız ve çekinmeden dürüst olmamız tüm toplumun iyiliğine katkıda bulunmamızı sağlar. Doğada gerçekleştirdiğimiz her eylemin oluşturduğu sonuç sağlığımıza ve yaşantımıza geri yansır.',
+      ),
+    }),
+    paragraph4: t({
       en: md(
         '**Any teaching, knowledge or belief may not align with the balance of justice in nature.** Because the Creator always knows the true intentions behind our actions in nature, the consequences of our actions will manifest in our health when necessary. In situations where the justice of nature must prevail, no power or technology will ever exist to prevent it.',
       ),
