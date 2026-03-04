@@ -43,7 +43,6 @@ const Header = ({ postCount }) => {
       ],
     },
     { key: 'mission', href: '/mission' },
-    { key: 'service', href: '/service' },
     { key: 'blog', href: '/blog' },
   ];
 

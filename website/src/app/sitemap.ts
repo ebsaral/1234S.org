@@ -6,7 +6,7 @@ import path from 'path';
 
 const BASE_URL = 'https://www.1234s.org';
 
-const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/service', '/contact'];
+const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/contact'];
 
 function getBlogSlugs(): string[] {
   const slugs = new Set(getAllPosts().map((post) => post.slug));

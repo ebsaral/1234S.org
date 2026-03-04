@@ -132,7 +132,6 @@ const Home = () => {
               ))}
             </div>
           </article>
-          <ServiceLink className='max-w-max mx-auto md:hidden mt-10  text-xl' />
         </div>
         <Team />
       </main>
