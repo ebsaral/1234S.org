@@ -11,7 +11,7 @@ interface FooterContent {
   note: string;
   contact: FooterLink;
   github: FooterLink;
-  displayProductHunt: boolean;
+  productHunt: FooterLink;
 }
 
 const pageContent = {
@@ -55,7 +55,10 @@ const pageContent = {
       label: 'GitHub',
       href: 'https://www.github.com/ebsaral/1234S.org',
     },
-    displayProductHunt: true,
+    productHunt: {
+      label: 'Product Hunt',
+      href: 'https://www.producthunt.com/products/1234s-org-a-philosophical-movement',
+    },
   },
 } satisfies Dictionary<FooterContent>;
 
