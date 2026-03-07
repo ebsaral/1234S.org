@@ -6,7 +6,7 @@ created: 2025-11-14
 updated: 2026-02-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
-published: false
+published: true
 ---
 > Dünya, Güneş'inin etrafında daireler çizerek döner. Doğa, varlığını dengeleyerek dönüşür ve gelişir. Bizler de canlılar olarak benzer döngüleri tekrar ederek varlığımızı sürdürürüz. Her tekrar eden döngüde, hayat çemberlerimiz zamansız bir biçimde birbirine değip geçer. Yine de, sınırlı gözüken zamanımızı kendi bakış açılarımızla anlamlandırırız. 
 
