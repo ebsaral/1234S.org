@@ -16,10 +16,7 @@ const pageContent = {
         en: 'Our e-mail address',
         tr: 'E-posta adresimiz',
       }),
-      href: t({
-        en: 'logical.spirituality@icloud.com',
-        tr: 'mantiksal.maneviyat@icloud.com',
-      }),
+      href: 'ebsaral@icloud.com',
     },
     form: {
       title: t({
