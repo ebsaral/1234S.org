@@ -1,6 +1,6 @@
 ---
 title: Modern Kingdoms
-subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes.
+subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes. Let's review the details and cheatings in their marketing strategies.
 created: 2026-
 image: /images/blog/-.jpg
 authorName: Emin Buğra Saral
