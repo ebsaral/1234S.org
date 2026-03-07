@@ -35,7 +35,7 @@ const Blog = ({ posts }: { posts: PostMeta[] }) => {
         <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-500'>
           <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100 opacity-80'}`} />
 
-          <article className='prose-custom-all relative z-10 max-w-4xl mx-auto text-gray-900'>
+          <article className='prose-custom-all relative z-10 max-w-4xl mx-auto text-gray-900 [&_p:last-child]:font-medium'>
             <div className='relative mx-auto mb-8 pb-1 rounded-2xl text-center'>
               <CustomPencil />
               {content.title}
@@ -62,7 +62,7 @@ const Blog = ({ posts }: { posts: PostMeta[] }) => {
                     {item.title}
                   </h3>
 
-                  <p className='text-sm'>{item.subtitle}</p>
+                  <p>{item.subtitle}</p>
 
                   <div className='mt-auto flex flex-col gap-4 text-xs'>
                     <div className='text-center'>
