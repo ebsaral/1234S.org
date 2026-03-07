@@ -3,18 +3,14 @@ import { insert, md, t, type Dictionary } from 'intlayer';
 const pageContent = {
   key: 'last-update',
   content: {
-    date: '2026-03-05',
+    date: '2026-03-07',
     update: t({
       en: insert('Last content update: {{date}}'),
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md(
-        'The explanations about the journey of harmful substances in our body and punishments in nature are updated.',
-      ),
-      tr: md(
-        'Sağlık kısmındaki zararlı maddelerin vücudumuzdaki yolculuğuna ve doğadaki cezalandırmaya yönelik açıklamalar güncellendi.',
-      ),
+      en: md('Some additions are placed to descriptions in Justice section.'),
+      tr: md('Adalet kısmındaki açıklamalara bazı eklemeler yapıldı.'),
     }),
   },
 } satisfies Dictionary;
