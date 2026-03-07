@@ -50,7 +50,7 @@ const BlogPost = ({ post }: { post: Post }) => {
               <blockquote>{item.metadata.subtitle}</blockquote>
             </article>
 
-            <div className='mt-5 flex flex-row gap-10 items-center text-xs'>
+            <div className='mt-5 grid grid-cols-2 gap-4 items-center text-xs'>
               <p className='flex flex-row gap-2'>
                 <span>{content.labels.author}</span>
                 <span>
@@ -71,22 +71,7 @@ const BlogPost = ({ post }: { post: Post }) => {
                   </strong>
                 </span>
               </p>
-            </div>
 
-            <Image
-              className='my-10 rounded-lg hover:scale-105 transition-all duration-300'
-              src={item.metadata.image}
-              width={500}
-              height={500}
-              alt={item.metadata.title}
-              title={item.metadata.title}
-            />
-
-            <article className='prose-custom-all text-gray-900 max-w-2xl mx-auto'>
-              <ReactMarkdown>{item.content}</ReactMarkdown>
-            </article>
-
-            <div className='mt-10 flex flex-row gap-10 items-center text-xs'>
               {item.metadata.updated && (
                 <p className='flex flex-row gap-2'>
                   <span>{content.labels.updated}</span>
@@ -101,7 +86,35 @@ const BlogPost = ({ post }: { post: Post }) => {
                   </span>
                 </p>
               )}
+              {item.metadata.updated && (
+                <p>
+                  <a
+                    className='underline hover:no-underline hover:opacity-85'
+                    href={
+                      content.history.href({
+                        slug: item.metadata.slug,
+                        locale,
+                      }).value
+                    }
+                  >
+                    {content.history.label}
+                  </a>
+                </p>
+              )}
             </div>
+
+            <Image
+              className='my-10 rounded-lg hover:scale-105 transition-all duration-300'
+              src={item.metadata.image}
+              width={500}
+              height={500}
+              alt={item.metadata.title}
+              title={item.metadata.title}
+            />
+
+            <article className='prose-custom-all text-gray-900 max-w-2xl mx-auto'>
+              <ReactMarkdown>{item.content}</ReactMarkdown>
+            </article>
           </div>
         </section>
       </MarkdownProvider>

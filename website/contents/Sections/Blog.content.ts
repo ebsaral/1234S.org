@@ -1,4 +1,4 @@
-import { md, t, type Dictionary } from 'intlayer';
+import { insert, md, t, type Dictionary } from 'intlayer';
 
 type BlogPageContent = {
   notFound: string;
@@ -8,6 +8,10 @@ type BlogPageContent = {
     published: string;
     updated: string;
     author: string;
+  };
+  history: {
+    label: string;
+    href: typeof insert;
   };
 };
 
@@ -39,6 +43,13 @@ const pageContent = {
         en: 'Author',
         tr: 'Yazar',
       }),
+    },
+    history: {
+      label: t({
+        en: 'Changes made (GitHub)',
+        tr: 'Yapılan değişiklikler (GitHub)',
+      }),
+      href: insert('https://github.com/ebsaral/1234S.org/commits/main/website/posts/{{slug}}.{{locale}}.md'),
     },
   },
 } satisfies Dictionary<BlogPageContent>;
