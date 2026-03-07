@@ -51,18 +51,12 @@ const Footer = () => {
             </div>
             <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
               <p className='text-center'>
-                <a
-                  className='text-gray-100 hover:text-gray-200 link-underline hover:no-underline'
-                  href={content.github.href.value}
-                >
+                <a className='link-underline hover:no-underline' href={content.github.href.value}>
                   {content.github.label}
                 </a>
               </p>
               <p className='text-center'>
-                <a
-                  className='text-gray-100 hover:text-gray-200 link-underline hover:no-underline'
-                  href={content.productHunt.href.value}
-                >
+                <a className='link-underline hover:no-underline' href={content.productHunt.href.value}>
                   {content.productHunt.label}
                 </a>
               </p>
