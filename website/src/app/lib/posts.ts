@@ -51,7 +51,10 @@ export function getAllPosts(): PostMeta[] {
   return posts
     .filter((post) => post.published)
     .sort((a, b) => {
-      return new Date(b.updated ?? b.created).getTime() - new Date(a.updated ?? b.created).getTime();
+      return new Date(b.created).getTime() - new Date(b.created).getTime();
+    })
+    .sort((a, b) => {
+      return new Date(b.updated ?? b.created).getTime() - new Date(a.updated ?? a.created).getTime();
     });
 }
 
