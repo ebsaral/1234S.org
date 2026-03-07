@@ -2,7 +2,7 @@
 name: dogada-nasil-oynamaliyiz
 title: Doğada nasıl “oynamalıyız”?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapılabileceğine bakalım.
-image: /images/blog/drop-leaf.jpg
+image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
 updated: 2026-03-07
 authorName: Emin Buğra Saral

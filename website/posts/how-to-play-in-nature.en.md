@@ -2,7 +2,7 @@
 name: how-to-play-in-nature
 title: How to “play” in nature?
 subtitle: Life isn't a game for everyone yet. Let's have a look at what can be done to convert life into a game.
-image: /images/blog/drop-leaf.jpg
+image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
 updated: 2026-03-07
 authorName: Emin Buğra Saral
