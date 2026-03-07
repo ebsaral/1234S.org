@@ -6,6 +6,7 @@ created: 2025-11-14
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 Annemden veya çevremden bazen duyduğum bir sözün üzerine *dilencilik* hakkında biraz düşündüm. Her ebeveynden duyabileceğiniz *“ben siz başkalarına muhtaç olmayın diye çalıştım”* cümlesini kurarken, annem kendisinin de başkalarına muhtaç olmamak için yıllarca çalıştığını sıkça dile getirir. Örnek olarak bahsetmek gerekirse, kardeşimin sokaktaki insanlardan sigara isteyişini bir dilencilik eylemi olarak yorumlar. İlginçtir ki, sadece sigara istemek bile dilencilik olarak görülebilir.
 

@@ -6,6 +6,7 @@ created: 2025-11-13
 updated: 2026-02-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 Geçtiğimiz günlerde, zihnimi dinlendirmek için göl kenarındaki bir yere arabayla yolculuğa çıktım. Dağların arasında, yüksek rakımda yer alan, Uzungöl isimli bir yerdi. Birkaç saat sonra geri dönmeye karar verdim, ancak tek şeritli bir yolda uzun bir trafik kuyruğuna takıldım. Trafiğin en önünde büyük bir yolcu otobüsü vardı. Onun ardından kuyruk oluşturan 20 küsür aracın ardında tek başıma ilerliyordum. Yol çok virajlı olduğu için sollama yapmak gerçekten zordu.
 

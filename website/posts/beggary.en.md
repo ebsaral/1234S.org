@@ -6,6 +6,7 @@ created: 2025-11-14
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 I had some thinking on *begging* after hearing a phrase from my mother or from people around me from time to time. Like you may also hear it from any parent, my mother often repeats the sentence: *“I worked hard so you would not to be dependent on others.”* While saying this, she frequently emphasizes how long she worked for her independence. For example, she interprets my brother asking people on the street for a cigarette as an act of begging. Interestingly, even asking for a cigarette can be seen as begging.
 

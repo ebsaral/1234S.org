@@ -6,6 +6,7 @@ created: 2025-12-18
 updated: 2026-03-04
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 10 yıldan fazla bir süredir büyük şirketlerin ve birlikte çalıştıkları bazı politikacıların yasadışı eylemlerinin farklı ülkelerde mağduru olmamın sonucunda keşfettiğim dolandırıcılıkları kamuoyuyla paylaşmak istiyorum. Bir bilgisayar mühendisi olduğum için, özellikle büyük teknoloji firmalarına ve onların olağanüstü hızda büyümelerini sağlayan yapısal avantajlarına odaklanmak istiyorum.
 

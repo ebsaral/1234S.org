@@ -6,6 +6,7 @@ created: 2025-11-13
 updated: 2026-02-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 A few days ago, to clear my mind, I went for a drive to a lakeside. It was a place called Uzungöl, nestled high in the mountains. After a few hours, I decided to head back, but I got stuck in a long traffic jam on a single-lane road. A large passenger bus was at the front of the line, followed by about 20 other cars. I was following that road; very winding, making overtaking incredibly difficult.
 

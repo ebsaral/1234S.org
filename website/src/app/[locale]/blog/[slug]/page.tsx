@@ -8,7 +8,6 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
   const { locale, slug } = await params;
 
   const metadata = getIntlayer('blog-page-metadata', locale);
-  const content = getIntlayer(`blog-section`, locale);
   const post = getPost(slug)[locale];
 
   const url = 'https://www.1234s.org/blog/' + slug;

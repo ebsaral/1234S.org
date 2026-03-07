@@ -6,6 +6,7 @@ created: 2025-11-15
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 There are still wars, unrecoverable pains, bloody actions and many diseases... Still, there is a path to our healthy future in every living being's equality and freedom. Even though this path doesn't sound easy, it is actually easier than we can imagine compared to our long shared history on Earth.
 
