@@ -3,7 +3,7 @@ title: How to “play” in nature?
 subtitle: Life isn't a game for everyone yet. Let's have a look at how we can convert life into a game.
 image: /images/blog/drop-leaf.jpg
 created: 2025-11-15
-updated: 2026-02-24
+updated: 2026-03-07
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -26,9 +26,7 @@ Nature acts as a single being and it's usually referenced as “being one at inf
 
 - You probably have great vision because you *(or your ancestors)* tried to come up with solutions that focused on solving challenges for a lot of living beings. Or, you were blocked not to focus on the things matter in nature's healthy *(long-term)* existence.
 
-Within this awareness, you can understand that **every natural gift *(or talent)* is gained by social interactions with other living beings**. So, we owe our gift(s) to those around us, directly and indirectly. Our talents continue to shape during our whole life based on our choices. Sometimes we may lose our talents and/or health if we can't achieve staying on the positive side of nature's justice scale.
-
-If your talent is huge, you can be generous to help other people to tackle their roadblockers in their journeys. This way your luck factor can be adjusted positively for a better life too.
+Within this awareness, you can understand that **every natural gift *(or talent)* is gained by social interactions with other living beings. By living in harmony with nature, you can improve and sustain your talents (gifts). When you disregard the well-being of other living beings, Justice in Nature presents them necessary supports.** So, we owe our gift(s) to those around us, directly and indirectly. Our talents continue to shape during our whole life based on our choices. Sometimes we may lose our talents and/or health if we can't achieve staying on the positive side of nature's justice scale.
 
 > Helping your own being will also reward you because your contribution to nature's equation can be more positive with a healthy mind and body. Solely staying selfish may cause nature to be selfish too, when it has to choose a better path for everyone. 
 

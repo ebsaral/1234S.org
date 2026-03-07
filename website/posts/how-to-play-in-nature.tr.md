@@ -3,7 +3,7 @@ title: Doğada nasıl “oynamalıyız”?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.
 image: /images/blog/drop-leaf.jpg
 created: 2025-11-15
-updated: 2026-02-24
+updated: 2026-03-07
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -26,9 +26,7 @@ Belki farkında değildiniz: Doğa bütün bir varlık olarak davranır ve genel
 
 - Muhtemelen harika bir vizyona sahipsiniz çünkü siz *(veya atalarınız)* birçok canlının yaşamı için zorlukları çözmek hususunda çözüm bulmaya çalıştınız. Veya, doğanın sağlıklı *(uzun vadeli)* varlığı için önemli olan şeylere odaklanmanız bulunduğunuz çevrelerde engellendi.
 
-Bu farkındalığın etrafında, **her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını anlayabilirsiniz**. Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca seçimlerimize göre şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
-
-Yeteneğiniz muazzam ise, diğer insanların hayat yolculuklarında engelleri aşmalarına yardımcı olmakta cömert davranabilirsiniz. Bu şekilde, daha iyi bir yaşama ulaşmanızı sağlayacak şans faktörünüzü olumlu bir düzleme çekebilirsiniz.
+Bu farkındalığın etrafında, **her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını anlayabilirsiniz. Doğa ile uyum içinde yaşayarak yeteneklerinizin (hediyelerinizin) iyileşmesini ve sürekliliğini sağlayabilirsiniz. Diğer canlıların refahını umursamadığınızda, Doğadaki Adalet gerekli olan takviyeleri o canlılara sunar.** Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca seçimlerimize göre şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
 
 > Kendi varlığınıza yardım etmek de sizi ödüllendirecektir çünkü doğanın denklemine katkınız sağlıklı bir zihin ve beden ile daha olumlu olabilir. Yaşantınızda yalnızca bencil kalmayı seçmeniz, doğanın çevreyi gözetmesi gerektiği anlarda varlığınızı görmezden gelmesine vesile olabilir.
 
