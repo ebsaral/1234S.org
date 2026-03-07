@@ -2,7 +2,7 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
-import { Post } from '@/lib/posts';
+import { Post } from '@/app/lib/posts';
 import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect } from 'react';
@@ -63,7 +63,7 @@ const BlogPost = ({ post }: { post: Post }) => {
                 <span>{content.labels.published}</span>
                 <span>
                   <strong>
-                    {new Date(item.metadata.published).toLocaleString(locale, {
+                    {new Date(item.metadata.created).toLocaleString(locale, {
                       year: 'numeric',
                       month: 'short',
                       day: '2-digit',

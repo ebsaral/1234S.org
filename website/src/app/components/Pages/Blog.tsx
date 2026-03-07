@@ -1,7 +1,7 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { PostMeta } from '@/lib/posts';
+import { PostMeta } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
 import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
@@ -66,7 +66,7 @@ const Blog = ({ posts }: { posts: PostMeta[] }) => {
 
                   <div className='mt-auto flex flex-col gap-4 text-xs'>
                     <div className='text-center'>
-                      {new Date(item.published).toLocaleString(locale, {
+                      {new Date(item.created).toLocaleString(locale, {
                         year: 'numeric',
                         month: 'long',
                         day: '2-digit',

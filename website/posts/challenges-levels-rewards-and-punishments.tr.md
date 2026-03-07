@@ -2,7 +2,7 @@
 title: Zorluklar, Seviyeler, Ödüller ve Cezalar
 subtitle: Doğanın bütünlüğünü hissetmeye özen gösterirseniz, size şu anki farkındalığınızın ötesini sunabilir.
 image: /images/blog/sunset.jpg
-published: 2025-11-14
+created: 2025-11-14
 updated: 2026-02-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

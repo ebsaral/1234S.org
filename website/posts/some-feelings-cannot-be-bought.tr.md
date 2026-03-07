@@ -2,7 +2,7 @@
 title: Bazı hisler satın alınamaz
 subtitle: Doğayla olan ilahi bağımıza güvenmeyi anlatan gerçek bir hikaye.
 image: /images/blog/flying-car.jpg
-published: 2025-11-13
+created: 2025-11-13
 updated: 2026-02-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

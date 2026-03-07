@@ -2,7 +2,7 @@
 title: Beggary
 subtitle: Let's take an amateur look at the details of this professional definition, which contains many emotions within itself.
 image: /images/blog/wet-dog.jpg
-published: 2025-11-14
+created: 2025-11-14
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

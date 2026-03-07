@@ -1,7 +1,7 @@
 ---
 title: Şansın Yolculuğu
 subtitle: Kart oyunlarında çevrenizle olan yaşam bağınızı gözlemleyebilirsiniz. Çünkü her oynadığınız oyunda seçtiğiniz eylemler şans yolculuğunuzun birer yansımasıdır.
-published: 2026-02-24
+created: 2026-02-24
 image: /images/blog/cicos-yellow-friend.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

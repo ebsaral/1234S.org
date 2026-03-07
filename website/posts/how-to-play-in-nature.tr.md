@@ -2,7 +2,7 @@
 title: Doğada nasıl “oynamalıyız”?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.
 image: /images/blog/drop-leaf.jpg
-published: 2025-11-15
+created: 2025-11-15
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

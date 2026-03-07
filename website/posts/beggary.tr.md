@@ -2,7 +2,7 @@
 title: Dilencilik
 subtitle: İçinde birçok hissi barındıran bu profesyonel tanımlamanın detaylarına amatör bir bakış atalım.
 image: /images/blog/wet-dog.jpg
-published: 2025-11-14
+created: 2025-11-14
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

@@ -1,5 +1,5 @@
 import Blog from '@/app/components/Pages/Blog';
-import { getAllPosts } from '@/lib/posts';
+import { getAllPosts } from '@/app/lib/posts';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';

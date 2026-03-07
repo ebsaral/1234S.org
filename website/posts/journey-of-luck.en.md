@@ -2,7 +2,7 @@
 title: Journey of Luck
 subtitle: In card games, you can observe your connection to life with those around you. Because in every game you play, the actions you choose are reflections of your journey of luck.
 image: /images/blog/cicos-yellow-friend.jpg
-published: 2026-02-24
+created: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 ---

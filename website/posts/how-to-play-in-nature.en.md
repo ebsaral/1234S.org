@@ -2,7 +2,7 @@
 title: How to “play” in nature?
 subtitle: Life isn't a game for everyone yet. Let's have a look at how we can convert life into a game.
 image: /images/blog/drop-leaf.jpg
-published: 2025-11-15
+created: 2025-11-15
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

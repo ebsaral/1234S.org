@@ -11,7 +11,7 @@ export type PostMeta = {
   title: string;
   subtitle: string;
   image: string;
-  published: string;
+  created: string;
   updated?: string;
   authorName: string;
   authorUrl: string;
@@ -37,7 +37,7 @@ export function getAllPosts(): PostMeta[] {
       title: data.title,
       subtitle: data.subtitle,
       image: data.image,
-      published: data.published,
+      created: data.created,
       updated: data.updated ?? null,
       authorName: data.authorName,
       authorUrl: data.authorUrl,
@@ -47,7 +47,7 @@ export function getAllPosts(): PostMeta[] {
 
   // Sort by updated (newest first)
   return posts.sort((a, b) => {
-    return new Date(b.updated ?? b.published).getTime() - new Date(a.updated ?? b.published).getTime();
+    return new Date(b.updated ?? b.created).getTime() - new Date(a.updated ?? b.created).getTime();
   });
 }
 
@@ -80,7 +80,7 @@ export function getPost(slug: string): Post {
           title: data.title,
           subtitle: data.subtitle,
           image: data.image,
-          published: data.published,
+          created: data.created,
           updated: data.updated,
           authorName: data.authorName,
           authorUrl: data.authorUrl,

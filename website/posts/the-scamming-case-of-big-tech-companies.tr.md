@@ -2,7 +2,7 @@
 title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
-published: 2025-12-18
+created: 2025-12-18
 updated: 2026-03-04
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 

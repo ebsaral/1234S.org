@@ -2,7 +2,7 @@
 title: Some feelings cannot be bought
 subtitle: A true story about trusting in our divine bonding with nature.
 image: /images/blog/flying-car.jpg
-published: 2025-11-13
+created: 2025-11-13
 updated: 2026-02-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
