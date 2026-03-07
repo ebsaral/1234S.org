@@ -37,8 +37,11 @@ const Footer = () => {
 
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
-              <p>
-                <a className='link-underline' href={content.contact.href.value}>
+              <p className='text-sm font-medium'>
+                <a
+                  className='text-gray-100 hover:text-gray-200 link-underline hover:no-underline'
+                  href={content.contact.href.value}
+                >
                   {content.contact.label}
                 </a>
               </p>
@@ -48,7 +51,10 @@ const Footer = () => {
             </div>
             <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
               <p className='text-center'>
-                <a className='link-underline' href={content.github.href.value}>
+                <a
+                  className='text-gray-100 hover:text-gray-200 link-underline hover:no-underline'
+                  href={content.github.href.value}
+                >
                   {content.github.label}
                 </a>
               </p>
