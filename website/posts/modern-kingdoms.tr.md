@@ -24,7 +24,7 @@ Doğada bulunan her varlık tüm canlıların eşit olarak kullanımı içindir.
 
 **Teokrasi:** Siyasal yönetim aslında monarşi veya oligarşidir. Sadece ilahi yorumlamalar üzerinden devam ettirilirler.
 
-**Cumhuriyet / Demokrasi:** Henüz hiçbir ülkede pratik olarak uygulanmayan, egemenliğin halka ait olduğu bir yönetim şeklidir. 
+> Henüz hiçbir ülkede pratik olarak uygulanmayan, **Cumhuriyet / Demokrasi** ise egemenliğin halka ait olduğu bir yönetim şeklidir. 
 
 
 ## Modern Krallıklar
@@ -33,11 +33,11 @@ Doğada bulunan her varlık tüm canlıların eşit olarak kullanımı içindir.
 
 **Bir devlete ait olan paranın tüm vatandaşlarına ait olduğu gerçeğinin gizlenmesi için farklı inançlar üzerinden farklı stratejiler sergileniyor.** Çünkü geçmişteki krallıkların yıkılmalarının ardından, varlıklar belirli zumrelere devredildi ve farklı şirketler kuruldu. Oluşan güncel cumhuriyet yönetim şekillerinde ise siyasi partiler üzerinden politik kararlar alınıyor gibi gösterilirken, ekonomik yaptırımların hepsi farklı şirketlere yayılmış şekilde devam ettiriliyor.
 
-**Asıl odak noktasından uzaklaşılması için farklı sektörler benzer şekillerde dikkat dağıtıcı unsurları barındırıyorlar.** Her bir şirket veya grubun kendi liderini oluşturması beklenir. Bu yüzden her topluluk aslında oligarşik düzenin birer organını temsil eder. Şirketler üzerinden ekonomik kavgalar ile toplum oyalanmaya devam eder. Siyaset alanında tartışılması ve geliştirilmesi gereken konular ise dernek veya vakıf gibi farklı sivil örgütlerine bölünerek siyasetten uzak tutulurlar.
+**Asıl odak noktasından uzaklaşılması için farklı sektörler benzer şekillerde dikkat dağıtıcı unsurları barındırıyorlar.** Her şirket veya grubun kendi liderini oluşturması beklenir. Bu yüzden her topluluk aslında oligarşik düzenin birer organını temsil eder. Şirketler üzerinden ekonomik kavgalar ile toplum oyalanmaya devam eder. Siyaset alanında tartışılması ve geliştirilmesi gereken konular ise dernek veya vakıf gibi farklı sivil örgütlerine bölünerek siyasetten uzak tutulurlar.
 
 **Her zaman küresel bir ekonomi sistemi vardır.** Herhangi bir ülkedeki büyük şirketler diğer ülkelerle stratejik ilişkiler içinde olurlar. Krallıkların geçmişte ve günümüzde çıkardığı bilinçli savaşlar, kendi ülkelerindeki rakiplerden kurtulmak için başvurdukları hilekarlıklardan yalnızca biridir. Savaşların ardından varlık paylaşımlarını benzer şekillerde devam ettirirler. Bazı krallar ise başarısız olarak yönetimi farklı krallara devretmek zorunda kalırlar. 
 
-> Güncel sistemdeki her bir şirket, aslında küresel oligarşi içinde bulunan farklı boyuttaki bir krallığı temsil eder.
+> Güncel sistemdeki her şirket, aslında küresel oligarşi içinde bulunan farklı boyuttaki bir krallığı temsil eder.
 
 **Farklı grupların geçim sıkıntıları, farklı krallıkların kontrolü altında varlık göstermeye devam ediyor.** Şirketler arasındaki kavgalar ise tüm topluma olumsuz şekillerde yansır. Monarşi zamanından süregelen ilkel itibar koruma yöntemlerine benzer biçimlerde, şirketlerin ve grupların itibarları için toplumun genel egemenliği ve sağlığı bastırılır. Her şirket ve grup yapı itibarıyla oligarşik bir düzenin parçası oldukları için, benzer itibar kaygılarını paylaşmak zorunda oldukları hissine kapılırlar. Bu durum, temele yayılan çok sinsi bir pazarlama stratejisidir.
 

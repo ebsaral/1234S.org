@@ -24,7 +24,7 @@ Every being in nature exists for the equal use of all living things. Cycles of n
 
 **Theocracy:** Political governance is essentially a monarchy or an oligarchy, just continued through divine interpretations.
 
-**Republic / Democracy:** A form of governance where sovereignty belongs to the people, not yet practically implemented in any country.
+> **Republic/Democracy**, which is not yet practically implemented in any country, is a form of government where sovereignty belongs to the people.
 
 ## Modern Kingdoms
 
