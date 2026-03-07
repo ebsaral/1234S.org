@@ -1,4 +1,5 @@
 ---
+name: okuma-aliskanligi
 title: Okuma Alışkanlığı
 subtitle: Okuma eylemi genellikle alfabelere, kelimelere ve kitaplara yönelik kullanılıyor. Bu bağlamda daha geniş bir bakış açısına ihtiyacımız var, çünkü doğayı okumayı bilmiyoruz.
 created: 2026-

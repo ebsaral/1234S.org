@@ -1,4 +1,5 @@
 ---
+name: challenges-levels-rewards-and-punishments
 title: Challenges, Levels, Rewards and Punishments
 subtitle: Nature may offer beyond your current awareness if you care to feel its wholeness.
 image: /images/blog/sunset.jpg

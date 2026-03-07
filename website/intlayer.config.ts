@@ -1,32 +1,36 @@
-import { Locales, type IntlayerConfig } from 'intlayer';
+import { getAllPosts } from '@/app/lib/posts';
+import { Locales, LocalesValues, type IntlayerConfig } from 'intlayer';
 import { nextjsRewrite } from 'intlayer/routing';
 
-export const blogPostRewrite: { [key: string]: { en: string; tr: string } } = {
-  '/[locale]/blog/the-scamming-case-of-big-tech-companies': {
-    en: '/[locale]/blog/the-scamming-case-of-big-tech-companies',
-    tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi',
-  },
-  '/[locale]/blog/some-feelings-cannot-be-bought': {
-    en: '/[locale]/blog/some-feelings-cannot-be-bought',
-    tr: '/[locale]/blog/bazi-hisler-satin-alinamaz',
-  },
-  '/[locale]/blog/how-to-play-in-nature': {
-    en: '/[locale]/blog/how-to-play-in-nature',
-    tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
-  },
-  '/[locale]/blog/challenges-levels-rewards-and-punishments': {
-    en: '/[locale]/blog/challenges-levels-rewards-and-punishments',
-    tr: '/[locale]/blog/zorluklar-seviyeler-oduller-ve-cezalar',
-  },
-  '/[locale]/blog/beggary': {
-    en: '/[locale]/blog/beggary',
-    tr: '/[locale]/blog/dilencilik',
-  },
-  '/[locale]/blog/journey-of-luck': {
-    en: '/[locale]/blog/journey-of-luck',
-    tr: '/[locale]/blog/sansin-yolculugu',
-  },
-};
+let rewrites: { [key: string]: Record<LocalesValues, string> } = {};
+
+getAllPosts().forEach((post) => {
+  const key = `/[locale]/blog/${post.slug}`;
+
+  if (post.locale == Locales.ENGLISH) {
+    if (key in rewrites) {
+      rewrites[key][Locales.ENGLISH] = `/[locale]/blog/${post.name}`;
+    } else {
+      rewrites[key] = {
+        [Locales.ENGLISH]: `/[locale]/blog/${post.name}`,
+        [Locales.TURKISH]: ``,
+      };
+    }
+  }
+
+  if (post.locale == Locales.TURKISH) {
+    if (key in rewrites) {
+      rewrites[key][Locales.TURKISH] = `/[locale]/blog/${post.name}`;
+    } else {
+      rewrites[key] = {
+        [Locales.TURKISH]: `/[locale]/blog/${post.name}`,
+        [Locales.ENGLISH]: ``,
+      };
+    }
+  }
+});
+
+export const blogPostRewrite = rewrites;
 
 const config: IntlayerConfig = {
   internationalization: {

@@ -1,4 +1,5 @@
 ---
+name: zorluklar-seviyeler-oduller-ve-cezalar
 title: Zorluklar, Seviyeler, Ödüller ve Cezalar
 subtitle: Doğanın bütünlüğünü hissetmeye özen gösterirseniz, size şu anki farkındalığınızın ötesini sunabilir.
 image: /images/blog/sunset.jpg

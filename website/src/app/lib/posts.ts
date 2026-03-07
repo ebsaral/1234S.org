@@ -8,6 +8,7 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 
 export type PostMeta = {
   slug: string;
+  name: string;
   title: string;
   subtitle: string;
   image: string;
@@ -17,6 +18,22 @@ export type PostMeta = {
   authorUrl: string;
   published: boolean;
   locale: LocalesValues;
+};
+
+const getMetadata = (slug: string, locale: LocalesValues, data: Record<string, string>): PostMeta => {
+  return {
+    slug,
+    name: data.name,
+    title: data.title,
+    subtitle: data.subtitle,
+    image: data.image,
+    created: data.created,
+    updated: data.updated ?? null,
+    authorName: data.authorName,
+    authorUrl: data.authorUrl,
+    published: Boolean(data.published),
+    locale,
+  };
 };
 
 export function getAllPosts(): PostMeta[] {
@@ -33,18 +50,7 @@ export function getAllPosts(): PostMeta[] {
 
     const { data } = matter(fileContent);
 
-    return {
-      slug,
-      title: data.title,
-      subtitle: data.subtitle,
-      image: data.image,
-      created: data.created,
-      updated: data.updated ?? null,
-      authorName: data.authorName,
-      authorUrl: data.authorUrl,
-      published: data.published,
-      locale,
-    };
+    return getMetadata(slug, locale, data);
   });
 
   // Filter out unpublished, sort by updated (newest first)
@@ -86,18 +92,7 @@ export function getPost(slug: string): Post {
 
       const post = {
         content,
-        metadata: {
-          slug,
-          title: data.title,
-          subtitle: data.subtitle,
-          image: data.image,
-          created: data.created,
-          updated: data.updated,
-          authorName: data.authorName,
-          authorUrl: data.authorUrl,
-          published: data.published,
-          locale,
-        },
+        metadata: getMetadata(slug, locale, data),
       };
 
       return [locale as LocalesValues, post];

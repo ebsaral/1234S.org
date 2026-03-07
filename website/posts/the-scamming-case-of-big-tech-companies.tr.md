@@ -1,4 +1,5 @@
 ---
+name: buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi
 title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüğünü hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg

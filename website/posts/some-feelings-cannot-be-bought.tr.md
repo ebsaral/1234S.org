@@ -1,4 +1,5 @@
 ---
+name: bazi-hisler-satin-alinamaz
 title: Bazı hisler satın alınamaz
 subtitle: Doğayla olan ilahi bağımıza güvenmeyi anlatan gerçek bir hikaye.
 image: /images/blog/flying-car.jpg

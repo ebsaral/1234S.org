@@ -1,4 +1,5 @@
 ---
+name: the-scamming-case-of-big-tech-companies
 title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg

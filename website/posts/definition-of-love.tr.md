@@ -1,4 +1,5 @@
 ---
+name: askin-tanimi
 title: Aşkın Tanımı
 subtitle: Herkesin zihninde yaşadığı aşk serüveni farklıdır ama benzer yollarda kesişirler.
 created: 2026-

@@ -1,4 +1,5 @@
 ---
+name: dogada-nasil-oynamaliyiz
 title: Doğada nasıl “oynamalıyız”?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapılabileceğine bakalım.
 image: /images/blog/drop-leaf.jpg

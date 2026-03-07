@@ -1,4 +1,5 @@
 ---
+name: journey-of-luck
 title: Journey of Luck
 subtitle: In card games, you can observe your connection to life with those around you. Because in every game you play, the actions you choose are reflections of your journey of luck.
 image: /images/blog/cicos-yellow-friend.jpg

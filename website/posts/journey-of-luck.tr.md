@@ -1,4 +1,5 @@
 ---
+name: sansin-yolculugu
 title: Şansın Yolculuğu
 subtitle: Kart oyunlarında çevrenizle olan yaşam bağınızı gözlemleyebilirsiniz. Çünkü her oynadığınız oyunda seçtiğiniz eylemler şans yolculuğunuzun birer yansımasıdır.
 created: 2026-02-24

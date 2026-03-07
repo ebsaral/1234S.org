@@ -1,4 +1,5 @@
 ---
+name: dilencilik
 title: Dilencilik
 subtitle: İçinde birçok hissi barındıran bu profesyonel tanımlamanın detaylarına amatör bir bakış atalım.
 image: /images/blog/wet-dog.jpg

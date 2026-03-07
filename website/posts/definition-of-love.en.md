@@ -1,4 +1,5 @@
 ---
+name: definition-of-love
 title: Definition of Love
 subtitle: Love is a unique adventure in each mind but everybody crosses similar paths.
 created: 2026-

@@ -1,4 +1,5 @@
 ---
+name: beggary
 title: Beggary
 subtitle: Let's take an amateur look at the details of this professional definition, which contains many emotions within itself.
 image: /images/blog/wet-dog.jpg

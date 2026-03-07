@@ -1,4 +1,5 @@
 ---
+name: some-feelings-cannot-be-bought
 title: Some feelings cannot be bought
 subtitle: A true story about trusting in our divine bonding with nature.
 image: /images/blog/flying-car.jpg

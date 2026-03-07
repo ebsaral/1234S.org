@@ -1,4 +1,5 @@
 ---
+name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim şekilleri ve rejimleri bulunuyor, fakat hepsi farklı boyutlardaki modern krallık yapılarıdır.
 created: 2026-03-07
