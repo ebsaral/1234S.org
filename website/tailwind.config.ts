@@ -170,6 +170,37 @@ const config: Config = {
         };
 
         return {
+          blog: {
+            css: {
+              blockquote: {
+                borderLeftColor: '#374151', // darker (gray-700)
+              },
+              'ul > li::marker': {
+                color: '#374151', // darker bullets
+              },
+              'ol > li::marker': {
+                color: '#374151', // darker numbers
+              },
+              'blockquote p:first-of-type::before': {
+                content: 'none',
+              },
+              'blockquote p:last-of-type::after': {
+                content: 'none',
+              },
+              h2: {
+                fontSize: getSize('xl'),
+                lineHeight: getLineHeight('xl'),
+              },
+              h3: {
+                fontSize: getSize('lg'),
+                lineHeight: getLineHeight('lg'),
+              },
+              h4: {
+                fontSize: getSize('sm'),
+                lineHeight: getLineHeight('sm'),
+              },
+            },
+          },
           custom: {
             css: {
               blockquote: {

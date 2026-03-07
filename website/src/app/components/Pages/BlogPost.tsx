@@ -112,7 +112,7 @@ const BlogPost = ({ post }: { post: Post }) => {
               title={item.metadata.title}
             />
 
-            <article className='prose-custom-all text-gray-900 max-w-2xl mx-auto'>
+            <article className='prose prose-blog text-gray-900 max-w-2xl mx-auto'>
               <ReactMarkdown>{item.content}</ReactMarkdown>
             </article>
           </div>
