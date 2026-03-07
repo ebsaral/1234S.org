@@ -1,10 +1,11 @@
 ---
 title: Şansın Yolculuğu
 subtitle: Kart oyunlarında çevrenizle olan yaşam bağınızı gözlemleyebilirsiniz. Çünkü her oynadığınız oyunda seçtiğiniz eylemler şans yolculuğunuzun birer yansımasıdır.
-published: 2026-02-24
+created: 2026-02-24
 image: /images/blog/cicos-yellow-friend.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 **Mantıksal Maneviyat öğretilerinin Bütünlük ilkesinde her canlının birbirlerine görünür ve görünmez bağlarla bağlı olduğunu açıklamıştık.** Doğadaki ahenk içerisinde her seçtiğimiz eylem hem önceki  hem sonraki seçimlerimizle uyumludur. Eylemlerimiz arasındaki bağın içindeki dengeyi ise Doğadaki Adalet ilkesi sağlar. Daha önceki seçimlerimizdeki niyetimizin sonuçları bir sonraki eylemimize yansır. Bu yaşam yolculuğumuzda karşılaştığımız olumsuz durumları *şanssızlık*, olumlu durumları ise *şanslı olmak* olarak yorumlarız.
 

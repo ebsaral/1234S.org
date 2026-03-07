@@ -2,10 +2,11 @@
 title: Challenges, Levels, Rewards and Punishments
 subtitle: Nature may offer beyond your current awareness if you care to feel its wholeness.
 image: /images/blog/sunset.jpg
-published: 2025-11-14
+created: 2025-11-14
 updated: 2026-02-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 > The world revolves around its Sun in circles. Nature evolves by balancing its being. We, as living beings, continue our existence by repeating similar circles. At each repetition, our life circles overlap with each other in a timeless manner. Yet we define our limited time with our own perspectives.
 

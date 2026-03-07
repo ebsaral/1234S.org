@@ -1,8 +1,6 @@
-import { getAllPosts } from '@/lib/posts';
-import fs from 'fs';
+import { getAllPosts } from '@/app/lib/posts';
 import { getMultilingualUrls } from 'intlayer';
 import type { MetadataRoute } from 'next';
-import path from 'path';
 
 const BASE_URL = 'https://www.1234s.org';
 

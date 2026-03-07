@@ -2,10 +2,11 @@
 title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
-published: 2025-12-18
+created: 2025-12-18
 updated: 2026-03-04
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 Having been a victim of large corporations and some politicians they work with for over 10 years in different countries, I want to share the scams I've discovered with the public. As a computer engineer, I want to focus specifically on large technology companies and the structural advantages that allow them to grow at an extraordinary rate.
 

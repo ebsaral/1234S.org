@@ -1,5 +1,5 @@
 import BlogPost from '@/app/components/Pages/BlogPost';
-import { getPost } from '@/lib/posts';
+import { getPost } from '@/app/lib/posts';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
@@ -8,7 +8,6 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
   const { locale, slug } = await params;
 
   const metadata = getIntlayer('blog-page-metadata', locale);
-  const content = getIntlayer(`blog-section`, locale);
   const post = getPost(slug)[locale];
 
   const url = 'https://www.1234s.org/blog/' + slug;

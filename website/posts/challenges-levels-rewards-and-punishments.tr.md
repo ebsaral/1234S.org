@@ -2,10 +2,11 @@
 title: Zorluklar, Seviyeler, Ödüller ve Cezalar
 subtitle: Doğanın bütünlüğünü hissetmeye özen gösterirseniz, size şu anki farkındalığınızın ötesini sunabilir.
 image: /images/blog/sunset.jpg
-published: 2025-11-14
+created: 2025-11-14
 updated: 2026-02-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: false
 ---
 > Dünya, Güneş'inin etrafında daireler çizerek döner. Doğa, varlığını dengeleyerek dönüşür ve gelişir. Bizler de canlılar olarak benzer döngüleri tekrar ederek varlığımızı sürdürürüz. Her tekrar eden döngüde, hayat çemberlerimiz zamansız bir biçimde birbirine değip geçer. Yine de, sınırlı gözüken zamanımızı kendi bakış açılarımızla anlamlandırırız. 
 

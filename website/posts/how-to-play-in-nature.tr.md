@@ -2,10 +2,11 @@
 title: Doğada nasıl “oynamalıyız”?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.
 image: /images/blog/drop-leaf.jpg
-published: 2025-11-15
+created: 2025-11-15
 updated: 2026-02-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+published: true
 ---
 Hala savaşlar, geri dönüşü olmayan acılar, kanlı eylemler ve birçok hastalık var... Bunlara rağmen, her canlı varlığın eşitliği ve özgürlüğünde, sağlıklı geleceğimize giden bir yol var. Bu yolu yürümek kolay görünmese de, Dünya'daki uzun ortak tarihimizle kıyaslandığında aslında hayal edebileceğimizden çok daha kolaydır.
 

@@ -11,10 +11,11 @@ export type PostMeta = {
   title: string;
   subtitle: string;
   image: string;
-  published: string;
+  created: string;
   updated?: string;
   authorName: string;
   authorUrl: string;
+  published: boolean;
   locale: LocalesValues;
 };
 
@@ -37,18 +38,21 @@ export function getAllPosts(): PostMeta[] {
       title: data.title,
       subtitle: data.subtitle,
       image: data.image,
-      published: data.published,
+      created: data.created,
       updated: data.updated ?? null,
       authorName: data.authorName,
       authorUrl: data.authorUrl,
+      published: data.published,
       locale,
     };
   });
 
-  // Sort by updated (newest first)
-  return posts.sort((a, b) => {
-    return new Date(b.updated ?? b.published).getTime() - new Date(a.updated ?? b.published).getTime();
-  });
+  // Filter out unpublished, sort by updated (newest first)
+  return posts
+    .filter((post) => post.published)
+    .sort((a, b) => {
+      return new Date(b.updated ?? b.created).getTime() - new Date(a.updated ?? b.created).getTime();
+    });
 }
 
 export type Post = Record<
@@ -61,7 +65,7 @@ export type Post = Record<
 
 export function getPost(slug: string): Post {
   const { availableLocales } = useLocale();
-  const posts = Object.fromEntries(
+  const post = Object.fromEntries(
     availableLocales.map((locale) => {
       const filePath = path.join(postsDirectory, `${slug}.${locale}.md`);
 
@@ -73,6 +77,10 @@ export function getPost(slug: string): Post {
 
       const { content, data } = matter(fileContent);
 
+      if (!data.published) {
+        return [locale, null];
+      }
+
       const post = {
         content,
         metadata: {
@@ -80,16 +88,18 @@ export function getPost(slug: string): Post {
           title: data.title,
           subtitle: data.subtitle,
           image: data.image,
-          published: data.published,
+          created: data.created,
           updated: data.updated,
           authorName: data.authorName,
           authorUrl: data.authorUrl,
+          published: data.published,
           locale,
         },
       };
+
       return [locale as LocalesValues, post];
     }),
   ) as Post;
 
-  return posts;
+  return post;
 }

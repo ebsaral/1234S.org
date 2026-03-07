@@ -18,7 +18,7 @@ import { Bounce, ToastContainer } from 'react-toastify';
 import Footer from '@/app/components/Footer';
 import Header from '@/app/components/Header';
 
-import { getAllPosts } from '@/lib/posts';
+import { getAllPosts } from '@/app/lib/posts';
 import '../App.css';
 import '../custom.css';
 import { MenuProvider } from '../hooks/useMenu';
