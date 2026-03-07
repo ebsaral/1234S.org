@@ -7,12 +7,13 @@ interface FooterLink {
 
 interface FooterContent {
   name: string;
-  contact: {
-    title: string;
-    email: string;
+  email: {
+    label: string;
+    href: string;
   };
   social: FooterLink[];
   note: string;
+  contact: FooterLink;
   github: FooterLink;
   displayProductHunt: boolean;
 }
@@ -24,12 +25,12 @@ const pageContent = {
       en: '1234S.org',
       tr: '1234S.org',
     }),
-    contact: {
-      title: t({
+    email: {
+      label: t({
         en: 'Send an e-mail',
         tr: 'E-posta gönder',
       }),
-      email: t({
+      href: t({
         en: 'logical.spirituality@icloud.com',
         tr: 'mantiksal.maneviyat@icloud.com',
       }),
@@ -54,6 +55,16 @@ const pageContent = {
       en: 'Do not forget to follow our social media accounts!',
       tr: 'Sosyal medya hesaplarımızı takip etmeyi unutmayınız!',
     }),
+    contact: {
+      label: t({
+        en: 'Contact',
+        tr: 'İletişim',
+      }),
+      href: t({
+        en: '/contact',
+        tr: '/iletisim',
+      }),
+    },
     github: {
       label: 'GitHub',
       href: 'https://www.github.com/ebsaral/1234S.org',

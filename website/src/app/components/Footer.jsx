@@ -36,7 +36,12 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
-            <div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5'>
+            <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
+              <p>
+                <a className='link-underline' href={content.contact.href.value}>
+                  {content.contact.label}
+                </a>
+              </p>
               <p>
                 {new Date().getFullYear()} © {content.name}
               </p>
