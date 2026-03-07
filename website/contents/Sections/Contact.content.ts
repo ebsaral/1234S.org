@@ -11,6 +11,16 @@ const pageContent = {
       en: 'You can contact us for your questions, requests or opinions.',
       tr: 'Soru, istek veya görüşlerinizi bize gönderebilirsiniz.',
     }),
+    email: {
+      label: t({
+        en: 'Our e-mail address',
+        tr: 'E-posta adresimiz',
+      }),
+      href: t({
+        en: 'logical.spirituality@icloud.com',
+        tr: 'mantiksal.maneviyat@icloud.com',
+      }),
+    },
     form: {
       title: t({
         en: 'Contact Form',

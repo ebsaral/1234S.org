@@ -7,10 +7,6 @@ interface FooterLink {
 
 interface FooterContent {
   name: string;
-  email: {
-    label: string;
-    href: string;
-  };
   social: FooterLink[];
   note: string;
   contact: FooterLink;
@@ -25,16 +21,6 @@ const pageContent = {
       en: '1234S.org',
       tr: '1234S.org',
     }),
-    email: {
-      label: t({
-        en: 'Send an e-mail',
-        tr: 'E-posta gönder',
-      }),
-      href: t({
-        en: 'logical.spirituality@icloud.com',
-        tr: 'mantiksal.maneviyat@icloud.com',
-      }),
-    },
     social: [
       {
         href: t({

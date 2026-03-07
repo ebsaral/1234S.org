@@ -36,6 +36,12 @@ const Contact = () => {
         </div>
       </div>
       <div className='mx-auto w-full z-10 relative top-0 flex flex-col items-center justify-start'>
+        <p className='text-sm'>
+          {content.email.label}:{' '}
+          <a className='underline hover:no-underline' href={`mailto:${content.email.href.value}`}>
+            {content.email.href}
+          </a>
+        </p>
         <ContactForm className='mx-auto w-full' />
       </div>
     </section>
