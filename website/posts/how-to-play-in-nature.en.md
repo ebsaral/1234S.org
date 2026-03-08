@@ -4,55 +4,61 @@ title: How to “play” in nature?
 subtitle: Life isn't a game for everyone yet. Let's have a look at what can be done to convert life into a game.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-07
+updated: 2026-03-08
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
 ---
-There are still wars, unrecoverable pains, bloody actions and many diseases... Still, there is a path to our healthy future in every living being's equality and freedom. Even though this path doesn't sound easy, it is actually easier than we can imagine compared to our long shared history on Earth.
+There are still wars, irreversible pains, bloody actions, and many diseases... Despite all this, there is a path to our healthy future in the equality and freedom of all living beings. Even if walking this path may not seem easy, compared to our long shared history on Earth, it is actually much easier than we could imagine.
 
-Nature acts as a single being and it's usually referenced as “being one at infinifty”, if you were not aware. Every human is gifted to reach nature's full potential when they are born. Yet, a lot of cultural and systematic blockers may ruin each person's infinite luck — even before they were born. Still, every punishment *(or negativity)* can turn into a reward *(or positivity)* for a living being due to nature's fairness *(justice)* balance. **Every talent is actually a natural gift:** Some talents are earned with minimal effort to be protected from the negativity inflicted in our societies.
+Perhaps you were not aware: Nature behaves as an interconnected entity and often resembles what we might call *"reaching infinity"*. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. Many cultural and systemic obstacles can disrupt every individual's chance that may extend toward infinity — even before they are born.  
 
-*Y*our rewards continuosly flourish *y*our being in the form of natural gifts based on your ancestors' choices or *y*our social interactions with other beings. Every person has a [different] gift that is important to nature's continuous fairness balance. While some of *y*our rewards will be seen as talents, we can also have a longer life based on *y*our [continuous] positive contributions within nature. For example, making someone smile or feel good is also a simple and positive contribution within (y)our surrounding.
+Within nature's balance of fairness, every punishment *(or negativity)* can turn into a reward *(or positivity)* for every living being. Every ability is actually a natural gift. Some abilities are gained with minimal effort in order to protect us from the negativities that occur in our lives.
 
-**I would like to share a few examples to bring your awareness to nature's gifts and justice; also to balance your being's needs:**
+Our rewards continuously renew our existence *(our self)* in the form of natural gifts, based on the choices of our ancestors or our social interactions with other beings. Every person certainly has a gift that holds importance in nature's balance of justice. While some of our rewards are seen as talents, we may also attain a longer life depending on our [ongoing] positive contributions within nature.
 
-- You probably have a beautiful voice because you *(or your ancestors)* helped someone's voice to be heard by helping them. Or, your voice was blocked unfairly and you were given a beautiful voice to flourish your environment.
+> Even making someone smile or feel good is a simple and positive contribution that spreads into our environment.
 
-- You are probably very creative because you *(or your ancestors)* enabled positive life opportunities for other people. Or, you were blocked to express your creativity and your gifts were naturally boosted by the Creator.
+**A few examples to build awareness about the gifts and justice in nature, and to help balance the needs of our self:**
 
-- You probably have a long height because you *(or your ancestors)* enabled someone to have a better and more healthy life… Or, you were blocked to rise in your social conditions you were born into.
+- You probably have a beautiful voice because you *(or your ancestors)* helped others have their voices heard. Or, perhaps your voice was unjustly suppressed, and you were given a beautiful voice to enrich your environment.
 
-- You are probably really good at mathematics because you *(or your ancestors)* helped someone to solve their life problems or struggles… Or, you needed to solve the problems for the environment you live in.
+- You are probably very creative because you *(or your ancestors)* provided positive life opportunities to others and did not stand in their way. Or, your creativity was prevented from being expressed, and your gifts were naturally increased thanks to the Creator.
 
-- You probably have great vision because you *(or your ancestors)* tried to come up with solutions that focused on solving challenges for a lot of living beings. Or, you were blocked not to focus on the things matter in nature's healthy *(long-term)* existence.
+- You are probably tall because you *(or your ancestors)* helped someone live a better and healthier life… Or, your rise was prevented within the social conditions you were born into.
 
-Within this awareness, you can understand that **every natural gift *(or talent)* is gained by social interactions with other living beings. By living in harmony with nature, you can improve and sustain your talents (gifts). When you disregard the well-being of other living beings, Justice in Nature presents them necessary supports.** So, we owe our gift(s) to those around us, directly and indirectly. Our talents continue to shape during our whole life based on our choices. Sometimes we may lose our talents and/or health if we can't achieve staying on the positive side of nature's justice scale.
+- You are probably very good at mathematics because you *(or your ancestors)* helped solve someone's struggles in life… Or, you needed to solve the problems within the environment you lived in.
 
-> Helping your own being will also reward you because your contribution to nature's equation can be more positive with a healthy mind and body. Solely staying selfish may cause nature to be selfish too, when it has to choose a better path for everyone. 
+- You probably have a great vision because you *(or your ancestors)* tried to find solutions to the problems in the lives of many living beings. Or, focusing on what was important for the healthy *(long-term)* existence of nature was prevented in the environments you lived in.  
 
-When you try to expand your own circle to nature's whole being, you can benefit from all of nature's potentials to become one. Some people call it having a third eye, some people call it God's divine protection, some call it different but something similar... In order to reach your infinite luck thus *[maybe]* immortality, you must continuously contribute to equality and freedom of all living beings on Earth.
+Around this awareness, **we can understand that every natural gift *(or talent)* is gained through social interactions with other living beings. By living in harmony with nature, we can ensure the improvement and continuity of our talents *(our gifts)*. When we do not care about the well-being of other beings, Justice in Nature also provides the necessary reinforcements to those beings.**  
 
-> Now, you partially know how to *"play"* in nature: **Be good so you can get better**.
+Therefore, we owe all our gifts, both directly and indirectly, to the living beings around us. Our talents continue to be shaped throughout our lives according to our choices. If we fail to remain on the positive side of nature's scale of justice, we may lose our talents and/or our health.
 
-In both the past and present, many well-known figures in business, science and entertainment have benefited from natural talents that helped them lead better lives. When a person's luck and gifts align perfectly within nature, they tend to attract inspiration, emotion and attention from others — almost instinctively. This is often because these individuals have faced many challenges that pushed against the very emotions they inspire. You could say they were once seen as “losers” or “naive” by society’s standards — yet nature, in its balance, gifted them with extra care or talent to even things out. Some of these gifted people go on to create amazing things, all while still remaining deeply connected to the natural world they came from.
+Choosing to remain only selfish in our lives may lead nature to ignore our existence at moments when it must look after the environment. If we continue our positive efforts to bring our own environment closer to the integrity of nature, we may gain the chance to benefit from nature's full potential *(its divine support)*. Some people may call this having a third eye, while others may see it as the Creator's divine protection; they are different paths but similar in essence...  
 
-Natural gift isn't some form of hypnosis or devil's luck — it's simply nature's way of guiding certain individuals toward their own version of “heaven”. Still, nature expects them to follow its universal principles and contribute positively to the greater whole rather than being selfish.
+To reach our luck that extends toward infinity and *[perhaps]* immortality, we must continuously contribute to the equality and freedom of all living beings on Earth. We now know how to "play" in nature: **Let's be good so that we may reach better**.
 
-> More often than not, famous figures choose to focus on their own version of “heaven”, prioritizing personal success over engaging with the deeper issues, at the heart of politics. There is no one to blame them because the politics is a shared responsibility by the whole society.
+Throughout history, many well-known figures in business, science, or the entertainment industry have evaluated their natural gifts that provided them with greater chances. When someone achieves tremendous harmony with nature, it becomes easier for them to find inspiration and to instinctively appeal to the emotions and interests of the people around them. People with such abilities have often had to deal with many difficulties in earlier periods of their lives.  
 
----
+People who are seen as "fools" or "naive" according to social standards can naturally reach the luck thus talents they need to achieve a fair balance in their lives when they make positive *(good)* choices. Some of these talented individuals can remain deeply connected to the natural world they originally belong to while continuing to create extraordinary things.
 
-All talents — our natural gifts — can be drawn from nature by aligning our goals with its guidance. With a clear understanding of nature's inherent wisdom, our education system can one day unlock powerful new possibilities:
+Innate talents are not a kind of hypnosis or magical charm; they are nature's way of guiding individuals toward their own heaven due to inequalities of opportunity in social life. The integrity of nature, however, expects everyone to be aligned with universal equality and freedom.
 
-- People could become whoever they aspire to be, whenever they choose — by living in harmony with nature's principles.
-
-- Switching careers might require only a few days or weeks, with minimal physical or mental strain. Working for long hours wouldn't be needed if time is used wisely to include every being's rights.
-
-- Instead of chasing paychecks, people could focus purely on their talents, dreams and goals.
-
-Without addressing the root causes — especially in politics — this knowledge will remain nothing more than a dream, endlessly romanticized in speeches and songs. I hope, we can end the hypocrisy we are forced to live in. Because the current system continues to make us sick and we keep losing our resources for no logical reasoning behind it.
+> Most of the time, famous individuals choose to focus on their own version of "paradise"; they prioritize their personal achievements rather than dealing with the more important issues at the center of politics. There is no need to blame them, because politics is a responsibility that must be shared by society as a whole.
 
 ---
 
-**Don't forget! Whatever you pursue with good intentions, nature will always stand by you. ❤️**
+By aligning ourselves with the guidance of nature in line with our goals, we can easily obtain all our talents (natural gifts). When we clearly understand the wisdom of nature, our education system can open the way for inclusive opportunities:
+
+- People can easily comprehend the Creator's art in nature; whenever they wish, they can become the person they want in harmony with the principles of nature.
+
+- Desired career changes could be made within a few days or weeks with minimal physical or mental effort. In a life system where every being is valued, it may no longer be necessary to work long hours.
+
+- People could easily focus entirely on their talents, dreams, and goals instead of tracking their salaries.
+
+If we do not address the fundamental problems in our shared life, this wisdom cannot go beyond being romanticized in conversations, songs, and movies. I hope we can put an end to the hypocritical system we are forced to live in. Because the current system continues to make us sick, and we continue to lose our natural resources.
+
+---
+
+**Remember: In every goal you pursue with good intentions, the blessings of nature will always be with you! ❤️**
