@@ -80,7 +80,7 @@ const BlogPost = ({ post }: { post: Post }) => {
               <blockquote>{item.metadata.subtitle}</blockquote>
             </article>
 
-            <div className='mt-5 grid grid-cols-2 gap-4 items-center text-xs'>
+            <div className='mt-2 grid grid-cols-2 gap-4 items-center text-xs'>
               <p className='flex flex-row gap-2'>
                 <span>{content.labels.author}</span>
                 <span>
