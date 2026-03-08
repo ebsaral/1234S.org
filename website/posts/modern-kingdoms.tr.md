@@ -3,7 +3,7 @@ name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim şekilleri ve rejimleri bulunuyor, fakat hepsi farklı boyutlardaki modern krallık yapılarıdır.
 created: 2026-03-07
-updated: 2026-03-07
+updated: 2026-03-08
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -33,7 +33,7 @@ Doğada bulunan her varlık tüm canlıların eşit olarak kullanımı içindir.
 
 **Günümüzde demokratik gözüken ülkelerin hepsi, monarşilerin yıkılmasının ardından oluşan oligarşik düzenlerdir.** Doğadaki dengenin sağlanabilmesi için, farklı gruplardaki liderler değişir veya yeni gruplar oluşur. Varlıkların ve fırsatların eşit olarak paylaşıldığı hiçbir ülke henüz yoktur. Haliyle yönetim biçimi demokrasi olan bir ülke henüz kurulmamıştır.
 
-**Bir devlete ait olan paranın tüm vatandaşlarına ait olduğu gerçeğinin gizlenmesi için farklı inançlar üzerinden farklı stratejiler sergileniyor.** Çünkü geçmişteki krallıkların yıkılmalarının ardından, varlıklar belirli zumrelere devredildi ve farklı şirketler kuruldu. Oluşan güncel cumhuriyet yönetim şekillerinde ise siyasi partiler üzerinden politik kararlar alınıyor gibi gösterilirken, ekonomik yaptırımların hepsi farklı şirketlere yayılmış şekilde devam ettiriliyor.
+**Bir devletteki tüm paranın bütün vatandaşlarına ait olduğu gerçeğinin gizlenmesi için farklı inançlar üzerinden farklı stratejiler sergileniyor.** Çünkü geçmişteki krallıkların yıkılmalarının ardından, varlıklar belirli zumrelere devredildi ve farklı şirketler kuruldu. Oluşan güncel cumhuriyet yönetim şekillerinde ise siyasi partiler üzerinden politik kararlar alınıyor gibi gösterilirken, ekonomik yaptırımların hepsi farklı şirketlere yayılmış şekilde devam ettiriliyor.
 
 **Asıl odak noktasından uzaklaşılması için farklı sektörler benzer şekillerde dikkat dağıtıcı unsurları barındırıyorlar.** Her şirket veya grubun kendi liderini oluşturması beklenir. Bu yüzden her topluluk aslında oligarşik düzenin birer organını temsil eder. Şirketler üzerinden ekonomik kavgalar ile toplum oyalanmaya devam eder. Siyaset alanında tartışılması ve geliştirilmesi gereken konular ise dernek veya vakıf gibi örgütlere bölünerek siyasetten uzak tutulurlar.
 

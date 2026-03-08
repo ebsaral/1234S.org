@@ -3,7 +3,7 @@ name: modern-kingdoms
 title: Modern Kingdoms
 subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes.
 created: 2026-03-07
-updated: 2026-03-07
+updated: 2026-03-08
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -30,9 +30,9 @@ Every being in nature exists for the equal use of all living things. Cycles of n
 
 ## Modern Kingdoms
 
-**All countries that appear democratic today are oligarchic systems formed after the fall of monarchies.** To maintain balance in nature, leaders in different groups change or new groups emerge. No country yet exists where resources and opportunities are shared equally. Therefore, a truly democratic country has not been established yet.
+**All countries that seem democratic today are oligarchic systems formed after the fall of monarchies.** To maintain balance in nature, leaders in different groups change or new groups emerge. No country yet exists where resources and opportunities are shared equally. Therefore, a truly democratic country has not been established yet.
 
-**Different strategies are developed based on various beliefs to conceal the fact that a state's money belongs to all its citizens.** After past monarchies collapsed, resources were transferred to certain groups and new companies were established. In modern republic governance systems, political decisions appear to be made through political parties, while economic sanctions continue to be distributed across different companies.
+**Different strategies are developed based on various beliefs to conceal the fact that a country's money belongs to all its citizens.** After past monarchies collapsed, resources were transferred to certain groups and new companies were established. In modern republic governance systems, political decisions appear to be made through political parties, while economic sanctions continue to be distributed across different companies.
 
 **Different sectors include distracting elements to divert attention from the main focus.** Each company or group is expected to appoint its own leader. Therefore, every community essentially represents an organ of the oligarchic system. Economic conflicts between companies keep society occupied. Issues that must be debated and developed politically are divided into organizations such as associations or foundations, keeping citizens away from politics.
 
