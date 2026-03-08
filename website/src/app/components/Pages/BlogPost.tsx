@@ -119,7 +119,7 @@ const BlogPost = ({ post }: { post: Post }) => {
               {item.metadata.updated && (
                 <p>
                   <a
-                    className='underline hover:no-underline hover:opacity-85'
+                    className='underline hover:no-underline'
                     href={
                       content.history.href({
                         slug: item.metadata.slug,
