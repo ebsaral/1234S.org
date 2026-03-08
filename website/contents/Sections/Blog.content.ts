@@ -8,6 +8,7 @@ type BlogPageContent = {
     published: string;
     updated: string;
     author: string;
+    viewAll: string;
   };
   history: {
     label: string;
@@ -19,8 +20,8 @@ const pageContent = {
   key: 'blog-section',
   content: {
     notFound: t({
-      en: "Blog post does not exist, or it hasn't been translated to English yet.",
-      tr: 'Aradığınız blog içeriği mevcut değil, veya henüz Türkçeye çevirisi yapılmadı.',
+      en: "Blog post does not exist or it hasn't been translated to English yet.",
+      tr: 'Aradığınız içerik mevcut değil veya henüz Türkçeye çevirisi yapılmadı.',
     }),
     title: t({
       en: md('# Blog'),
@@ -42,6 +43,10 @@ const pageContent = {
       author: t({
         en: 'Author',
         tr: 'Yazar',
+      }),
+      viewAll: t({
+        en: 'View all blog posts',
+        tr: 'Tüm içerikleri göster',
       }),
     },
     history: {

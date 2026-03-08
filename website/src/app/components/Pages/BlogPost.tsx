@@ -3,8 +3,11 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
 import { Post } from '@/app/lib/posts';
+import { getLocalizedUrl } from 'intlayer';
+import { CircleChevronLeft } from 'lucide-react';
 import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect } from 'react';
 import { default as Markdown, default as ReactMarkdown } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -32,6 +35,17 @@ const BlogPost = ({ post }: { post: Post }) => {
           className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
         />
         <p className='font-medium text-center text-lg mt-16 text-gray-100'>{content.notFound}</p>
+        <p className='font-medium text-center text-lg mt-16 text-gray-100'>
+          <Link
+            className='underline hover:no-underline'
+            href={getLocalizedUrl('/blog', locale)}
+            aria-label={content.labels.viewAll.value}
+            title={content.labels.viewAll.value}
+            prefetch={true}
+          >
+            {content.labels.viewAll}
+          </Link>
+        </p>
       </section>
     );
   }
@@ -44,6 +58,22 @@ const BlogPost = ({ post }: { post: Post }) => {
             className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
           />
           <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-50 opacity-80'}`} />
+          <div className='relative z-10 max-w-2xl mx-auto mt-10 flex items-start justify-start sm:-left-8'>
+            <Link
+              className='group text-gray-800'
+              href={getLocalizedUrl('/blog', locale)}
+              aria-label={content.labels.viewAll.value}
+              title={content.labels.viewAll.value}
+              prefetch={true}
+            >
+              <div className='inline-flex gap-2 text-sm'>
+                <CircleChevronLeft className='text-gray-800' size={20} />
+                <span className='font-medium underline underline-offset-2 group-hover:no-underline'>
+                  {content.labels.viewAll}
+                </span>
+              </div>
+            </Link>
+          </div>
           <div className='relative z-10 mx-auto w-full mt-10 flex flex-col items-center'>
             <article className='prose-custom-all max-w-2xl mx-auto'>
               <h1>{item.metadata.title}</h1>
@@ -115,6 +145,21 @@ const BlogPost = ({ post }: { post: Post }) => {
             <article className='prose prose-blog text-gray-900 max-w-2xl mx-auto'>
               <ReactMarkdown>{item.content}</ReactMarkdown>
             </article>
+          </div>
+          <div className='relative z-10 max-w-2xl mx-auto mt-10 flex items-center justify-center'>
+            <Link
+              className='group'
+              href={getLocalizedUrl('/blog', locale)}
+              aria-label={content.labels.viewAll.value}
+              title={content.labels.viewAll.value}
+              prefetch={true}
+            >
+              <div className='inline-flex gap-2 text-sm'>
+                <span className='font-medium underline underline-offset-2 group-hover:no-underline'>
+                  {content.labels.viewAll}
+                </span>
+              </div>
+            </Link>
           </div>
         </section>
       </MarkdownProvider>
