@@ -76,8 +76,8 @@ const pageContent = {
         tr: 'Yazar',
       }),
       viewAll: t({
-        en: 'View all blog posts',
-        tr: 'Tüm içerikleri göster',
+        en: 'All blog posts',
+        tr: 'Tüm içerikler',
       }),
       readingTime: insert(
         t({
@@ -88,8 +88,8 @@ const pageContent = {
     },
     history: {
       label: t({
-        en: 'Changes made (GitHub)',
-        tr: 'Yapılan değişiklikler (GitHub)',
+        en: 'Changes (GitHub)',
+        tr: 'Değişiklikler (GitHub)',
       }),
       href: insert('https://github.com/ebsaral/1234S.org/commits/main/website/posts/{{slug}}.{{locale}}.md'),
     },
