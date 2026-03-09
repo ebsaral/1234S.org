@@ -4,7 +4,7 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
-import { ArrowDownWideNarrow, FileClock } from 'lucide-react';
+import { ArrowDownWideNarrow, FileClock, FilePen, FilePlus } from 'lucide-react';
 import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
@@ -120,7 +120,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                 <a
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.metadata.slug}`, locale)}
-                  className='relative group flex flex-col w-full gap-4 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
+                  className='relative group flex flex-col w-full gap-5 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
                   <Image
                     className='sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
@@ -129,35 +129,37 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                     height={200}
                     alt={item.metadata.title}
                   />
-                  <h3 className='font-bold text-lg text-center sm:min-h-[56px] line-clamp-2 inline-flex items-center'>
+                  <h3 className='font-bold text-lg text-center  line-clamp-2 inline-flex items-center'>
                     {item.metadata.title}
                   </h3>
 
                   <p className='text-sm'>{item.metadata.subtitle}</p>
-                  <div className='inline-flex gap-2 items-center text-xs text-center'>
-                    <FileClock size={14} />
-                    {content.labels.readingTime({ min: minutes })}
-                  </div>
-                  <div className='mt-auto flex flex-col sm:flex-row gap-2 text-xs'>
-                    <div className='text-center'>
+
+                  <div className='mt-auto flex flex-row gap-4 sm:gap-6 text-xs text-gray-800'>
+                    <div className='inline-flex items-center gap-1'>
+                      <FilePen size={14} />
                       {new Date(item.metadata.created).toLocaleString(locale, {
                         year: 'numeric',
-                        month: 'long',
+                        month: 'short',
                         day: '2-digit',
                       })}
                     </div>
                     {item.metadata.updated && (
-                      <div className='flex flex-row gap-1'>
-                        <div className='font-medium'>{content.labels.updated}:</div>
+                      <div className='inline-flex items-center gap-1'>
+                        <FilePlus size={14} />
                         <div className='text-center'>
                           {new Date(item.metadata.updated).toLocaleString(locale, {
                             year: 'numeric',
-                            month: 'long',
+                            month: 'short',
                             day: '2-digit',
                           })}
                         </div>
                       </div>
                     )}
+                    <div className='inline-flex gap-1 items-center justify-center text-xs text-center'>
+                      <FileClock size={14} />
+                      {content.labels.readingTime({ min: minutes })}
+                    </div>
                   </div>
                 </a>
               );
