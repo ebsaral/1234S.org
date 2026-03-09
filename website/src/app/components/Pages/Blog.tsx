@@ -74,8 +74,11 @@ const Blog = ({ posts }: { posts: Post[] }) => {
       <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
         <section
           id={id}
-          className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gradient-to-br from-gray-500 to-gray-100'
+          className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100'
         >
+          <div
+            className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
+          />
           <article className='prose-custom-all max-w-4xl mx-auto text-gray-900 [&_p:last-child]:font-medium'>
             <div className='relative mx-auto mb-2 pb-1 rounded-2xl text-center'>
               <CustomPencil />
