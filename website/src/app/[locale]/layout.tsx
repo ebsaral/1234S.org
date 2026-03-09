@@ -8,7 +8,7 @@ import {
   LocalPromiseParams,
   type NextLayoutIntlayer,
 } from 'next-intlayer';
-import { IntlayerServerProvider, useLocale } from 'next-intlayer/server';
+import { IntlayerServerProvider } from 'next-intlayer/server';
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -19,6 +19,7 @@ import Footer from '@/app/components/Footer';
 import Header from '@/app/components/Header';
 
 import { getAllPosts } from '@/app/lib/posts';
+import { availableLocales } from '../../../helpers';
 import '../App.css';
 import '../custom.css';
 import { MenuProvider } from '../hooks/useMenu';
@@ -71,7 +72,6 @@ const noto_sans = Noto_Sans({
 
 const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
-  const { availableLocales } = useLocale();
   const posts = getAllPosts();
   const postCount = Object.fromEntries(
     availableLocales.map((locale) => [locale, posts.filter((post) => post.locale == locale).length]),

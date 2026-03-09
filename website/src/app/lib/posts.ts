@@ -2,7 +2,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { LocalesValues } from 'intlayer';
 import path from 'path';
-import { useLocale } from 'react-intlayer/server';
+import { availableLocales } from '../../../helpers';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
@@ -73,7 +73,6 @@ export type Post = Record<
 >;
 
 export function getPost(slug: string): Post {
-  const { availableLocales } = useLocale();
   const post = Object.fromEntries(
     availableLocales.map((locale) => {
       const filePath = path.join(postsDirectory, `${slug}.${locale}.md`);

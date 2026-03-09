@@ -1,8 +1,9 @@
 import { getAllPosts } from '@/app/lib/posts';
 import { Locales, LocalesValues, type IntlayerConfig } from 'intlayer';
 import { nextjsRewrite } from 'intlayer/routing';
+import { availableLocales, defaultLocale } from './helpers';
 
-let rewrites: { [key: string]: Record<LocalesValues, string> } = {};
+const rewrites: { [key: string]: Record<LocalesValues, string> } = {};
 
 getAllPosts().forEach((post) => {
   const key = `/[locale]/blog/${post.slug}`;
@@ -34,8 +35,8 @@ export const blogPostRewrite = rewrites;
 
 const config: IntlayerConfig = {
   internationalization: {
-    locales: [Locales.TURKISH, Locales.ENGLISH],
-    defaultLocale: Locales.TURKISH,
+    locales: availableLocales,
+    defaultLocale: defaultLocale,
   },
   content: {
     contentDir: ['contents'],
