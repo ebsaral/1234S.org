@@ -130,7 +130,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                     {item.metadata.title}
                   </h3>
 
-                  <p>{item.metadata.subtitle}</p>
+                  <p className='text-sm'>{item.metadata.subtitle}</p>
 
                   <div className='mt-auto flex flex-col gap-4 text-xs'>
                     <div className='text-center'>
