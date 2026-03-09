@@ -1,5 +1,5 @@
 import { md, t, type Dictionary } from 'intlayer';
-import { TeamContent } from '../types';
+import { TeamContent } from './types';
 
 const pageContent = {
   key: 'team-section',
