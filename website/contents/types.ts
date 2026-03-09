@@ -40,7 +40,7 @@ export interface HomePageContent {
   intro: string;
   logo: {
     title: string;
-    href: string;
+    src: string;
   };
   projects: {
     title: string;

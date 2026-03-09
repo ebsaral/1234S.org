@@ -1,14 +1,11 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
-import BlueButton from '../Custom/Buttons/BlueButton';
-import ServiceLink from '../Custom/Buttons/ServiceLink';
 import Title from '../Custom/Title';
 import Team from '../Sections/Team';
 
@@ -28,7 +25,7 @@ const Home = () => {
 
   useEffect(() => {
     setActiveMenu({ root: 'home' });
-    fetch(content.logo.href.value)
+    fetch(content.logo.src.value)
       .then((r) => r.text())
       .then(setSvg);
   }, []);

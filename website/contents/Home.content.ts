@@ -9,7 +9,7 @@ const pageContent = {
         en: '1234S.org Logo',
         tr: '1234S.org Logo',
       }),
-      href: '/logos/logo.svg',
+      src: '/logos/logo.svg',
     },
     intro: t({
       en: md(
