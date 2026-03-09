@@ -4,7 +4,7 @@ import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
 import { LocalePostPair } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
-import { CircleChevronLeft } from 'lucide-react';
+import { CircleChevronLeft, FilePen, FilePlus, HatGlasses } from 'lucide-react';
 import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -81,56 +81,52 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
               <blockquote>{item.metadata.subtitle}</blockquote>
             </article>
 
-            <div className='mt-2 grid grid-cols-2 gap-4 items-center text-xs'>
-              <p className='flex flex-row gap-2'>
-                <span>{content.labels.author}</span>
+            <div className='mt-2 grid grid-cols-2 sm:grid-cols-4 gap-4 items-center text-xs'>
+              <p title={content.labels.author.value} className='inline-flex items-center gap-1'>
+                <HatGlasses size={14} />
                 <span>
                   <strong>
                     <a href={item.metadata.authorUrl}>{item.metadata.authorName}</a>
                   </strong>
                 </span>
               </p>
-              <p className='flex flex-row gap-2'>
-                <span>{content.labels.published}</span>
+              <p title={content.labels.published.value} className='inline-flex items-center sm:justify-center gap-1'>
                 <span>
-                  <strong>
-                    {new Date(item.metadata.created).toLocaleString(locale, {
-                      year: 'numeric',
-                      month: 'short',
-                      day: '2-digit',
-                    })}
-                  </strong>
+                  <FilePen size={14} />
+                </span>
+                <span>
+                  {new Date(item.metadata.created).toLocaleString(locale, {
+                    year: 'numeric',
+                    month: 'long',
+                    day: '2-digit',
+                  })}
                 </span>
               </p>
 
               {item.metadata.updated && (
-                <p className='flex flex-row gap-2'>
-                  <span>{content.labels.updated}</span>
+                <p title={content.labels.updated.value} className='inline-flex items-center sm:justify-center gap-1'>
+                  <FilePlus size={14} />
                   <span>
-                    <strong>
-                      {new Date(item.metadata.updated).toLocaleString(locale, {
-                        year: 'numeric',
-                        month: 'long',
-                        day: '2-digit',
-                      })}
-                    </strong>
+                    {new Date(item.metadata.updated).toLocaleString(locale, {
+                      year: 'numeric',
+                      month: 'long',
+                      day: '2-digit',
+                    })}
                   </span>
                 </p>
               )}
               {item.metadata.updated && (
-                <p>
-                  <a
-                    className='underline hover:no-underline'
-                    href={
-                      content.history.href({
-                        slug: item.metadata.slug,
-                        locale,
-                      }).value
-                    }
-                  >
-                    {content.history.label}
-                  </a>
-                </p>
+                <a
+                  className='text-left underline hover:no-underline'
+                  href={
+                    content.history.href({
+                      slug: item.metadata.slug,
+                      locale,
+                    }).value
+                  }
+                >
+                  {content.history.label}
+                </a>
               )}
             </div>
             <div className='relative w-full max-w-[600px] aspect-[3/2] my-10'>
