@@ -132,7 +132,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
 
                   <p className='text-sm'>{item.metadata.subtitle}</p>
 
-                  <div className='mt-auto flex flex-col gap-4 text-xs'>
+                  <div className='mt-auto flex flex-col gap-2 text-xs'>
                     <div className='text-center'>
                       {new Date(item.metadata.created).toLocaleString(locale, {
                         year: 'numeric',
