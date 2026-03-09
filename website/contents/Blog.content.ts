@@ -5,6 +5,11 @@ type BlogPageContent = {
   title: Record<string, string>;
   description: Record<string, string>;
   labels: {
+    sorting: string;
+    asc: string;
+    desc: string;
+    byCreateDate: string;
+    byUpdateDate: string;
     published: string;
     updated: string;
     author: string;
@@ -32,6 +37,26 @@ const pageContent = {
       tr: md('Fikirler, araştırmalar, makaleler, açıklamalar, örnekler...'),
     }),
     labels: {
+      sorting: t({
+        en: 'Sorting',
+        tr: 'Sıralama',
+      }),
+      asc: t({
+        en: 'Earliest',
+        tr: 'En Eski',
+      }),
+      desc: t({
+        en: 'Latest',
+        tr: 'En Yeni',
+      }),
+      byCreateDate: t({
+        en: 'By Create Date',
+        tr: 'Yayınlanma Tarihine Göre',
+      }),
+      byUpdateDate: t({
+        en: 'By Update Date',
+        tr: 'Güncellenme Tarihine Göre',
+      }),
       published: t({
         en: 'Published',
         tr: 'Yayınlanma',

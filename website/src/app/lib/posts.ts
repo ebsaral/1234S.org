@@ -52,16 +52,8 @@ export function getAllPosts(): PostMeta[] {
 
     return getMetadata(slug, locale, data);
   });
-
-  // Filter out unpublished, sort by updated (newest first)
-  return posts
-    .filter((post) => post.published)
-    .sort((a, b) => {
-      return new Date(b.created).getTime() - new Date(b.created).getTime();
-    })
-    .sort((a, b) => {
-      return new Date(b.updated ?? b.created).getTime() - new Date(a.updated ?? a.created).getTime();
-    });
+  // Filter out unpublished
+  return posts.filter((post) => post.published);
 }
 
 export type Post = Record<

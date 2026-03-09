@@ -3,13 +3,25 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { PostMeta } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
+import { ArrowDownWideNarrow } from 'lucide-react';
 import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import CustomPencil from '../Custom/CustomPencil';
+import Filter from '../Custom/Filter';
 import Title from '../Custom/Title';
+
+enum SortBy {
+  Created = 'created',
+  Updated = 'updated',
+}
+
+enum SortIn {
+  ASC = 'asc',
+  DESC = 'desc',
+}
 
 const Blog = ({ posts }: { posts: PostMeta[] }) => {
   const metadata = useIntlayer('blog-page-metadata');
@@ -19,32 +31,68 @@ const Blog = ({ posts }: { posts: PostMeta[] }) => {
   const sectionKey = 'blog';
   const content = useIntlayer(`${sectionKey}-section`);
   const { locale } = useLocale();
+  const [sortBy, setSortBy] = useState(SortBy.Updated);
+  const [sortIn, setSortIn] = useState(SortIn.DESC);
 
   useEffect(() => {
     setActiveMenu({ root: 'blog' });
   }, []);
 
-  useEffect(() => {}, [locale]);
+  useEffect(() => {}, [locale, sortBy]);
 
-  const items = posts.filter((post) => post.locale == locale);
+  const getItems = () => {
+    const items = posts.filter((post) => post.locale == locale);
+    const sorted = items.sort((a, b) => {
+      const aDate = sortBy === SortBy.Created ? a.created : (a.updated ?? a.created);
+      const bDate = sortBy === SortBy.Created ? b.created : (b.updated ?? b.created);
+      if (sortIn === SortIn.DESC) {
+        return new Date(bDate).getTime() - new Date(aDate).getTime();
+      } else {
+        return new Date(aDate).getTime() - new Date(bDate).getTime();
+      }
+    });
+
+    return sorted;
+  };
 
   return (
     <main>
       <Title title={metadata.title.value} />
       <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-        <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-500'>
-          <div className={`z-0 absolute inset-0 bg-gradient-to-br from-gray-500 to-gray-100 opacity-80'}`} />
-
-          <article className='prose-custom-all relative z-10 max-w-4xl mx-auto text-gray-900 [&_p:last-child]:font-medium'>
-            <div className='relative mx-auto mb-8 pb-1 rounded-2xl text-center'>
+        <section
+          id={id}
+          className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gradient-to-br from-gray-500 to-gray-100'
+        >
+          <article className='prose-custom-all max-w-4xl mx-auto text-gray-900 [&_p:last-child]:font-medium'>
+            <div className='relative mx-auto mb-2 pb-1 rounded-2xl text-center'>
               <CustomPencil />
               {content.title}
               {content.description}
             </div>
           </article>
+          <div className='max-w-4xl mx-auto mb-8 flex items-center justify-center gap-4 text-sm'>
+            <ArrowDownWideNarrow />
 
-          <div className='relative z-10 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
-            {items.map((item, index) => {
+            <Filter
+              defaultValue={SortIn.DESC}
+              onChange={(value) => setSortIn(value as SortIn)}
+              values={[
+                { value: SortIn.DESC, label: content.labels.desc.value },
+                { value: SortIn.ASC, label: content.labels.asc.value },
+              ]}
+            />
+            <Filter
+              defaultValue={SortBy.Updated}
+              onChange={(value) => setSortBy(value as SortBy)}
+              values={[
+                { value: SortBy.Updated, label: content.labels.byUpdateDate.value },
+                { value: SortBy.Created, label: content.labels.byCreateDate.value },
+              ]}
+            />
+          </div>
+
+          <div className='max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
+            {getItems().map((item, index) => {
               return (
                 <a
                   key={`item-${index}`}
