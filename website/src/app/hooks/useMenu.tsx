@@ -12,7 +12,7 @@ const MenuContext = createContext({
   setActiveMenu: ({ root, child }: Menu) => {},
 });
 
-export const MenuProvider = ({ children }: React.PropsWithChildren<{}>) => {
+export const MenuProvider = ({ children }: React.PropsWithChildren) => {
   const [activeMenu, setActiveMenu] = useState<Menu>({ root: 'home' });
   return <MenuContext.Provider value={{ activeMenu, setActiveMenu }}>{children}</MenuContext.Provider>;
 };
