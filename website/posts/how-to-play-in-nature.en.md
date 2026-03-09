@@ -17,7 +17,7 @@ Perspectives tend to move forward or backward within our approaching methods to 
 
 Any thinking can be influenced by its invisible ties to nature in different forms. In fact, thinking only tries to reflect our feelings outwards via predefined symbols. Thinking's capacity is limited to defined meanings and gained experiences in varying shapes of feelings. Nature contains symbols that may not be defined yet in *y*our life experience thus awareness. Expanding the circle of meaning in your mind through positive perspectives is like opening a door to the existence of the universe.
 
-Perhaps you were not aware: Nature behaves as an interconnected entity and often resembles what we might call *"reaching infinity"*. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. Many cultural and systemic obstacles can disrupt every individual's chance that may extend toward infinity — even before they are born.  
+Nature behaves as an interconnected entity and often resembles what we might call *reaching infinity*. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. Many cultural and systemic obstacles can disrupt every individual's chance that may extend toward infinity — even before they are born.  
 
 Within nature's balance of fairness, every punishment *(or negativity)* can turn into a reward *(or positivity)* for every living being. Every ability is actually a natural gift. Some abilities are gained with minimal effort in order to protect us from the negativities that occur in our lives.
 

@@ -15,27 +15,27 @@ Hala savaşlar, geri dönüşü olmayan acılar, kanlı eylemler ve birçok hast
 
 Bakış açıları, ana [şimdiye] yaklaşma biçimlerimizde ileriye ya da geriye salınır: Düşüncelerimiz olumlu ile olumsuz anlayış arasında gidip gelir. Her anlayış, geçmiş deneyimlerin üzerine kurulu varsayımlara dayanabilir; fakat olumlu bir zihin, daha iyi kararlar ve eylemler alabilmek için kendi düşüncesini sorgulamayı göze alır.  
 
-Her düşünce, doğayla kurduğu görünmez bağlar aracılığıyla farklı şekillerde etkilenir. Aslında düşünce, yalnızca duygularımızı önceden tanımlanmış sembollerle dışarıya yansıtmaya çalışır. Düşüncenin kapasitesi, tanımlanmış anlamlarla ve duyguların farklı biçimlerinde kazanılmış deneyimlerle sınırlıdır. Oysa doğa, s'nin yaşam deneyiminde — dolayısıyla farkındalığında — henüz tanımlanmamış semboller barındırır. Zihnindeki anlam kümeni olumlu bakış açılarıyla genişletmen, evrenin genişliğine [varlığına] açılan bir kapıya benzer.  
+Her düşünce, doğayla kurduğu görünmez bağlar aracılığıyla farklı şekillerde etkilenir. Aslında düşünce, yalnızca duygularımızı önceden tanımlanmış sembollerle dışarıya yansıtmaya çalışır. Düşüncenin kapasitesi, tanımlanmış anlamlarla ve duyguların farklı biçimlerinde kazanılmış deneyimlerle sınırlıdır. Oysa doğa, herkesin yaşam deneyiminde, dolayısıyla farkındalığında, henüz tanımlanmamış semboller barındırır. Zihnimizdeki anlam kümesini olumlu bakış açılarıyla genişletmemiz, evrenin genişliğine [varlığına] açılan bir kapıya benzer.  
 
-Belki farkında değildiniz: Doğa bütün bir varlık olarak davranır ve genellikle *"sonsuzluğa ulaşmak"* olarak kendini andırır. Her insan doğduğunda, doğanın tam potansiyeline ulaşmaya layık hediyeleri benliğinde barındırır. Birçok kültürel ve sistematik engel, her bireyin sonsuzluğa uzanan şansını —hatta doğmadan önce— bozabilir.  
+Doğa bütün bir varlık olarak davranır ve genellikle *sonsuzluğa ulaşmak* olarak kendini andırır. Her insan doğduğunda, doğanın tam potansiyeline ulaşmaya layık hediyeleri benliğinde barındırır. Birçok kültürel ve sistematik engel, her bireyin sonsuzluğa uzanan şansını —hatta doğmadan önce— bozabilir.  
 
 Doğanın adil olma dengesiyle her ceza *(veya olumsuzluk)* her canlı için ödüle *(veya olumluluğa)* dönüşebilir. Her yetenek aslında doğal bir hediyedir. Bazı yetenekler, yaşantılarımızda gerçekleştirilen olumsuzluklardan korunabilmek için minimal çabayla kazanılır.
 
-Düşüncen bakış açının önyargısına hapsolduğunda, doğanın eşitlik ve özgürlük denklemine odaklanmalısın. Böylece karşılaştığın her zorlukta anlam çemberini biraz daha genişletebilirsin. Her yinelemede empatiyi, şefkati ve olumlu kalmayı başarabilirsen, doğa hem varlığını hem de çevreni ödüllendirmeyi sürdürür.  
+Düşüncelerimiz bakış açılarımızın önyargısına hapsolduğunda, doğanın eşitlik ve özgürlük denklemine odaklanmalıyız. Böylece karşılaştığımız her zorlukta anlam çemberini biraz daha genişletebiliriz. Her yinelemede empatiyi, şefkati ve olumlu kalmayı başarabilirsek, doğa hem varlığımızı hem de çevremizi ödüllendirmeye devam eder.  
 
 Ödüllerimiz, atalarımızın seçimlerine veya diğer varlıklarla olan sosyal etkileşimlerimize dayalı olarak doğal armağanlar şeklinde varlığımızı *(benliğimizi)* sürekli yeniler. Her kişinin doğanın adalet dengesinde önemi olan bir hediyesi mutlaka vardır. Ödüllerimizin bazıları yetenek olarak görülürken, doğa içindeki [süregelen] pozitif katkılarımıza bağlı olarak daha uzun bir ömür edinebiliriz.
 
-Doğanın adalet terazisinde iyi kalmak ve olumlu ilerlemek kolay değildir. Sorumlu bile olmadığın önceki yaşam döngülerinden gelen engeller önüne çıkabilir. Ortak tarihimiz, tüm hayat yolculuklarına farklı duygular ve gerçekler barındırır: Öfke, bağımlılık, inançlar, merak, korku, nefret, kıskançlık, ırkçılık, intikam, cinsiyetçilik, gelenekler ve daha niceleri…  
+Doğanın adalet terazisinde iyi kalmak ve olumlu ilerlemek kolay değildir. Sorumlu bile olmadığımız önceki yaşam döngülerinden gelen engeller önümüze çıkabilir. Ortak tarihimiz, tüm hayat yolculuklarına farklı duygular ve gerçekler barındırır: Öfke, bağımlılık, inançlar, merak, korku, nefret, kıskançlık, ırkçılık, intikam, cinsiyetçilik, gelenekler ve daha niceleri…  
 
 > Birinin gülümsemesini veya iyi hissetmesini sağlamamız bile çevremize yaydığımız basit ve pozitif bir katkıdır.
 
-Hepimiz uyum içinde yaşadığımız için, her adımın sorumluluğu s'nin hayat yolculuğundaki herkesi kapsar. Her yinelemede çemberin ya doğanın özüne doğru genişlersin, veya sorumluluğun başkalarına kayar. Bazı zorlukların doğada zaten olumlu anlamları beraberinde getirir; bazıları ise sürekli doğru seçimler yapmayı ve yoğun çaba göstermeyi gerektirir.
+Hepimiz uyum içinde yaşadığımız için, her adımın sorumluluğu hayat yolculuğumuzdaki herkesi kapsar. Her döngüde ya doğanın özüne doğru genişleriz ya da sorumluluğumuz başkalarına kayar. Bazı zorluklar doğada olumlu anlamları beraberinde getirir; bazıları ise sürekli doğru seçimler yapmayı ve yoğun çaba göstermeyi gerektirir.
 
 Doğanın bütünlüğündeki her adımda tekrarlayan döngüler: **Zorluklar / Ödüller (Hediyeler) / Cezalar.** 
 
 ### Zorluklar
 
-Tebrikler! Zor olan ilk adımı doğduğunda attın. :) Eğer şans yolculuğun ataların tarafından geçmişte biraz olsun kolaylaştırıldıysa, zaten görece zengin bir ortama doğmuş olabilirsin. Para çoğumuz için geçici *(ve çoğu zaman yanıltıcı)* bir güç olsa da, doğa sana zengin bir yaşam deneyimi sunmak ve şansını bütünüyle geri kazandırmak için hep var olmaya devam eder.
+Tebrikler! Zor olan ilk adımı doğduğunda attın. :) Eğer şans yolculuğun ataların tarafından geçmişte biraz olsun kolaylaştırıldıysa, zaten görece zengin bir ortama doğmuş olabilirsin. Para çoğumuz için geçici *(ve çoğu zaman yanıltıcı)* bir güç olsa bile, doğa sana zengin bir yaşam deneyimi sunmak ve şansını bütünüyle geri kazandırmak için hep var olmaya devam eder.
 
 Hayat yolculuğunda bir zorlukla karşılaştığında, niyetlerin ve tepkilerin doğadaki şansını sürekli belirler. Sürekli bencil, yıkıcı ve zararlı hataları tekrar edersen şansın yok olur [ve sonra tekrar yüzeye çıkmaya çalışır]. Öte yandan şu nitelikler şansına sürekli olumlu katkı sağlar: Empati, dürüstlük, nezaket, pozitiflik, yardım, destek, şefkat, paylaşım, yapıcı cesaret, yaşama hakkına saygı…
 
