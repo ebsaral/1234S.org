@@ -6,25 +6,25 @@ import { availableLocales, defaultLocale } from './helpers';
 const rewrites: { [key: string]: Record<LocalesValues, string> } = {};
 
 getAllPosts().forEach((post) => {
-  const key = `/[locale]/blog/${post.slug}`;
+  const key = `/[locale]/blog/${post.metadata.slug}`;
 
-  if (post.locale == Locales.ENGLISH) {
+  if (post.metadata.locale == Locales.ENGLISH) {
     if (key in rewrites) {
-      rewrites[key][Locales.ENGLISH] = `/[locale]/blog/${post.name}`;
+      rewrites[key][Locales.ENGLISH] = `/[locale]/blog/${post.metadata.name}`;
     } else {
       rewrites[key] = {
-        [Locales.ENGLISH]: `/[locale]/blog/${post.name}`,
+        [Locales.ENGLISH]: `/[locale]/blog/${post.metadata.name}`,
         [Locales.TURKISH]: ``,
       };
     }
   }
 
-  if (post.locale == Locales.TURKISH) {
+  if (post.metadata.locale == Locales.TURKISH) {
     if (key in rewrites) {
-      rewrites[key][Locales.TURKISH] = `/[locale]/blog/${post.name}`;
+      rewrites[key][Locales.TURKISH] = `/[locale]/blog/${post.metadata.name}`;
     } else {
       rewrites[key] = {
-        [Locales.TURKISH]: `/[locale]/blog/${post.name}`,
+        [Locales.TURKISH]: `/[locale]/blog/${post.metadata.name}`,
         [Locales.ENGLISH]: ``,
       };
     }
@@ -55,10 +55,6 @@ const config: IntlayerConfig = {
       '/[locale]/philosophy': {
         en: '/[locale]/spirituality',
         tr: '/[locale]/maneviyat',
-      },
-      '/[locale]/service': {
-        en: '/[locale]/service',
-        tr: '/[locale]/hizmet',
       },
       ...blogPostRewrite,
     }),

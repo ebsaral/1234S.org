@@ -7,7 +7,7 @@ const BASE_URL = 'https://www.1234s.org';
 const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/contact'];
 
 function getBlogSlugs(): string[] {
-  const slugs = new Set(getAllPosts().map((post) => post.slug));
+  const slugs = new Set(getAllPosts().map((post) => post.metadata.slug));
   return Array.from(slugs);
 }
 

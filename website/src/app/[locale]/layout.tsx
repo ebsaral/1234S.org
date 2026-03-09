@@ -74,7 +74,7 @@ const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
   const posts = getAllPosts();
   const postCount = Object.fromEntries(
-    availableLocales.map((locale) => [locale, posts.filter((post) => post.locale == locale).length]),
+    availableLocales.map((locale) => [locale, posts.filter((post) => post.metadata.locale == locale).length]),
   ) as Record<LocalesValues, number>;
 
   return (

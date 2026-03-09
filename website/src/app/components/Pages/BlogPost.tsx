@@ -2,7 +2,7 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
-import { Post } from '@/app/lib/posts';
+import { LocalePostPair } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
 import { CircleChevronLeft } from 'lucide-react';
 import { useLocale } from 'next-intlayer';
@@ -13,7 +13,7 @@ import { default as Markdown, default as ReactMarkdown } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Title from '../Custom/Title';
 
-const BlogPost = ({ post }: { post: Post }) => {
+const BlogPost = ({ post }: { post: LocalePostPair }) => {
   const id = 'blog';
   const sectionKey = 'blog';
   const { locale } = useLocale();

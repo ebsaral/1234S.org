@@ -5,6 +5,7 @@ type BlogPageContent = {
   title: Record<string, string>;
   description: Record<string, string>;
   labels: {
+    search: string;
     sorting: string;
     asc: string;
     desc: string;
@@ -37,6 +38,10 @@ const pageContent = {
       tr: md('Fikirler, araştırmalar, makaleler, açıklamalar, örnekler...'),
     }),
     labels: {
+      search: t({
+        en: 'Search in blog posts',
+        tr: 'İçeriklerde arama yapın',
+      }),
       sorting: t({
         en: 'Sorting',
         tr: 'Sıralama',

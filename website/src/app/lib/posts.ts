@@ -36,35 +36,35 @@ const getMetadata = (slug: string, locale: LocalesValues, data: Record<string, s
   };
 };
 
-export function getAllPosts(): PostMeta[] {
+export function getAllPosts(): Post[] {
   if (!fs.existsSync(postsDirectory)) {
     return [];
   }
   const files = fs.readdirSync(postsDirectory);
 
-  const posts: PostMeta[] = files.map((filename) => {
+  const posts: Post[] = files.map((filename) => {
     const name = filename.replace('.md', '');
     const [slug, locale] = name.split('.');
     const fullPath = path.join(postsDirectory, filename);
     const fileContent = fs.readFileSync(fullPath, 'utf-8');
 
-    const { data } = matter(fileContent);
+    const { content, data } = matter(fileContent);
 
-    return getMetadata(slug, locale, data);
+    return { content, metadata: getMetadata(slug, locale, data) };
   });
+
   // Filter out unpublished
-  return posts.filter((post) => post.published);
+  return posts.filter((post) => post.metadata.published);
 }
 
-export type Post = Record<
-  LocalesValues,
-  {
-    content: string;
-    metadata: PostMeta;
-  } | null
->;
+export type Post = {
+  content: string;
+  metadata: PostMeta;
+};
 
-export function getPost(slug: string): Post {
+export type LocalePostPair = Record<LocalesValues, Post | null>;
+
+export function getPost(slug: string): LocalePostPair {
   const post = Object.fromEntries(
     availableLocales.map((locale) => {
       const filePath = path.join(postsDirectory, `${slug}.${locale}.md`);
@@ -88,7 +88,7 @@ export function getPost(slug: string): Post {
 
       return [locale as LocalesValues, post];
     }),
-  ) as Post;
+  ) as LocalePostPair;
 
   return post;
 }
