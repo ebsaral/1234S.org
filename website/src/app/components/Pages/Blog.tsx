@@ -97,7 +97,7 @@ const Blog = ({ posts }: { posts: PostMeta[] }) => {
                 <a
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.slug}`, locale)}
-                  className='relative group flex flex-col w-full gap-4 items-center bg-gray-200/80 hover:bg-gray-100/90 active:bg-gray-200/80 p-8 rounded-lg'
+                  className='relative group flex flex-col w-full gap-4 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
                   <Image
                     className='mb-5 sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
