@@ -21,7 +21,7 @@ Modern uygulamalar arayüzler, sistem çağrıları, arka plan hizmetleri gibi k
 
 İşletim sistemi düzeyinde yazılımsal olarak çeşitli şekillerde kontrol edilen ve kullanıcıların kontrol edemediği katmanlara sahip bazı cihazları farklı ülkelerde deneyimleyerek fark edebildiğim örnekler:
 
-- Cihazınızın ses frekansları herhangi bir sesi dinlerken kontrolünüz olmadan değiştirilebiliyor. Dinlediğiniz bir müziğin ses kalitesi, ses tonlaması ve ses derinliği anlık olarak bulunduğunuz konuma göre ayarlanabiliyor.
+- Cihazınızın ses frekansları herhangi bir sesi dinlerken kontrolünüz olmadan değiştirilebiliyor. Dinlediğiniz bir müziğin ses kalitesi, ses tonlaması ve ses derinliği anlık olarak bulunduğunuz konuma göre ayarlanabiliyor. Dinlediğinizin sesin kalitesinde ve frekanslarında bilinçli olarak yapılan değişikliklerle duygusal durumunuz ve vücut pozisyonunuzda değişiklikler tetiklenebiliyor. Bu frekanslardan bazıları fark edilmesi zor olan düşük seviyelerde olabiliyor.
 
 - Cihazınızla video kaydederken, seçtiğiniz kelimeler gerçek zamanlı olarak, kaydettikten sonra veya daha sonra dinlerken değiştirilebiliyor. Çektiğiniz içeriğin görsel kalitesi çevredeki ışığa aldırış etmeden değiştirilebiliyor. Çektiğiniz herhangi bir içeriğin görüntü, şekil ve ses kalitesi olduğundan farklı gösterilebiliyor.
 

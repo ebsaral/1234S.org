@@ -21,7 +21,7 @@ Modern applications are built in layers, such as interfaces, system calls, and b
 
 Here are some examples of layers controlled in different ways at the operating system level through software, and beyond user control, that I've noticed while using some devices in different countries:
 
-- Your device's audio frequencies can be changed without your control while you're listening to any sound. The sound quality, tone, and depth of the music you're listening to can be adjusted instantly based on your precise location.
+- Your device's audio frequencies can be changed without your control while you're listening to any sound. The sound quality, tone, and depth of the music you're listening to can be adjusted instantly based on your precise location. Because of intentional changes in audio quality and frequency, your emotional states and movements can be triggered to change. Some of those frequencies are really low-level to be recognized.
 
 - When recording video with your device, the words you choose can be changed in real time, after recording or when listening to it later. The visual quality of your recorded content can also be adjusted regardless of ambient light. Any content's visual and sound quality that you produce can be altered to appear different than original.
 
