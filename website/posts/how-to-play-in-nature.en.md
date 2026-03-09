@@ -19,7 +19,7 @@ Any thinking can be influenced by its invisible ties to nature in different form
 
 Nature behaves as an interconnected entity and often resembles what we might call *reaching infinity*. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. Many cultural and systemic obstacles can disrupt every individual's chance that may extend toward infinity — even before they are born.  
 
-Within nature's balance of fairness, every punishment *(or negativity)* can turn into a reward *(or positivity)* for every living being. Every ability is actually a natural gift. Some abilities are gained with minimal effort in order to protect us from the negativities that occur in our lives.
+Within nature's balance of fairness, every punishment *(negativity)* can turn into a reward *(positivity)* for every living being. Every ability is actually a natural gift. Some abilities are gained with minimal effort in order to protect us from the negativities that occur in our lives.
 
 When your thinking is biased on your perspective, you should focus on nature's equation of equality and freedom. This way, you can expand your meaning circle at each challenge you encounter. If you can succeed at applying empathy, caring and staying positive at each iteration, nature will continue to reward your living being and surroundings.
 
@@ -35,11 +35,13 @@ Nature's repeating circles have interconnected steps: **Challenges / Rewards / P
 
 ### Challenges
 
-Congratulations! Your first challenge is already completed at your birth. :) If your luck's path was already eased previously by your ancestors, you were born into an already rich environment. While money is a temporary *(and illusional)* power for most of us, nature is still there to let you have a rich life experience and gain your full luck back.
+Congratulations! Your first challenge is already completed at your birth. :) If your luck's path was already eased previously by your ancestors, you were born into an already rich environment. While money is a temporary and illusional power for most of us, nature is still there to let you have a rich life experience and gain your full luck back.
 
 When you face any challenge in your life journey, your intentions and reactions will continuously define your luck in nature. Your opportunities will go under minus [then surface] if you continuously repeat similar mistakes of being selfish, destructive and harmful. On the other hand, these attributes will continuously contribute to your luck positively: Empathy, honesty, kindness, positivity, assistance, support, caring, sharing, affirmative bravery, respecting the right to live…
 
-**In nature's eyes, asking for your rights for equality & freedom can never be questioned: This is why diseases and disasters still exist to protect us from each other.** With this remark in mind, everyone has different challenges & risks in their environments. Some cultural settings have more challenges than others. At every challenge, you should try your best to follow nature's equation [hopefully in a timeless manner] at your possible (re)actions. Based on your life goals, challenges may follow in different shapes; therefore you may unfortunately need patience.
+**In nature's eyes, asking for your rights for equality & freedom can never be questioned: This is why diseases and disasters still exist to protect us from each other.** With this remark in mind, everyone has different challenges & risks in their environments.
+
+Some cultural settings have more challenges than others. At every challenge, you should try your best to follow nature's equation [hopefully in a timeless manner] at your possible (re)actions. Based on your life goals, challenges may follow in different shapes; therefore you may unfortunately need patience.
 
 ### Rewards
 
@@ -47,7 +49,7 @@ There are not levels in nature: Life isn't a game for everyone. When you follow 
 
 After tackling your challenges positively, you will have an easier access to a healthy life without spending too much effort or money. People who are around you for good reasons can also benefit from your rewards based on their choices and actions. Based on your stage after your [possible] contributions, nature will protect your existence to reach and protect its healthy being.
 
-While you climb ladders in nature's opportunities, your talents can also be boosted in different shapes. Since every talent is already nature's gift [if you were not aware], you have a chance to get more gifts based on your personal interests and past experiences. Instead of training for years, you can have easy access to many of nature's gifts.
+While you climb ladders in nature's opportunities, your talents can also be boosted in different shapes. Since every talent is already nature's gift, you have a chance to get more gifts based on your personal interests and past experiences. Instead of training for years, you can have easy access to many of nature's gifts.
 
 Nature's justice scale already exist in every being. Here's some scary or exciting examples to give you awareness about what stages are actually possible:
 
