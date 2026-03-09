@@ -132,15 +132,15 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
                 </p>
               )}
             </div>
-
-            <Image
-              className='my-10 rounded-lg hover:scale-105 transition-all duration-300'
-              src={item.metadata.image}
-              width={500}
-              height={500}
-              alt={item.metadata.title}
-              title={item.metadata.title}
-            />
+            <div className='relative w-full max-w-[600px] aspect-[3/2] my-10'>
+              <Image
+                className='rounded-lg object-cover hover:scale-105 transition-all duration-300'
+                src={item.metadata.image}
+                alt={item.metadata.title}
+                title={item.metadata.title}
+                fill
+              />
+            </div>
 
             <article className='prose prose-blog text-gray-900 max-w-2xl mx-auto'>
               <ReactMarkdown>{item.content}</ReactMarkdown>
