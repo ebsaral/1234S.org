@@ -57,6 +57,11 @@ const config: IntlayerConfig = {
         tr: '/[locale]/maneviyat',
       },
       ...blogPostRewrite,
+      // Removed posts
+      '/[locale]/blog/challenges-levels-rewards-and-punishments': {
+        en: '/[locale]/blog/how-to-play-in-nature',
+        tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
+      },
     }),
   },
   editor: {
