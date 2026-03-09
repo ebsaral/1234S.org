@@ -10,7 +10,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { default as Markdown, default as ReactMarkdown } from 'react-markdown';
-import readingTime from 'reading-time';
 import remarkGfm from 'remark-gfm';
 import Title from '../Custom/Title';
 
@@ -29,9 +28,6 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
   useEffect(() => {}, [locale]);
 
   const item = post[locale];
-
-  const stats = readingTime(item ? item.content : '');
-  const minutes = Math.max(1, Math.round(stats.minutes));
 
   if (!item) {
     return (
@@ -83,7 +79,6 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
             <article className='prose-custom-all max-w-2xl mx-auto'>
               <h1>{item.metadata.title}</h1>
               <blockquote>{item.metadata.subtitle}</blockquote>
-              <p className='text-xs text-center'>{content.labels.readingTime({ min: minutes })}</p>
             </article>
 
             <div className='mt-2 grid grid-cols-2 gap-4 items-center text-xs'>

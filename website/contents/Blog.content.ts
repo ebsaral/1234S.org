@@ -81,8 +81,8 @@ const pageContent = {
       }),
       readingTime: insert(
         t({
-          en: 'Reading time: {{min}} min',
-          tr: 'Okuma süresi: {{min}} dk',
+          en: '{{min}} min',
+          tr: '{{min}} dk',
         }),
       ),
     },

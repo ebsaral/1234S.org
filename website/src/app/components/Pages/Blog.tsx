@@ -4,11 +4,12 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
-import { ArrowDownWideNarrow } from 'lucide-react';
+import { ArrowDownWideNarrow, FileClock } from 'lucide-react';
 import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
+import readingTime from 'reading-time';
 import remarkGfm from 'remark-gfm';
 import CustomPencil from '../Custom/CustomPencil';
 import Filter from '../Custom/Filter';
@@ -113,6 +114,8 @@ const Blog = ({ posts }: { posts: Post[] }) => {
 
           <div className='max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
             {getItems().map((item, index) => {
+              const stats = readingTime(item.content);
+              const minutes = Math.max(1, Math.round(stats.minutes));
               return (
                 <a
                   key={`item-${index}`}
@@ -120,7 +123,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                   className='relative group flex flex-col w-full gap-4 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
                   <Image
-                    className='mb-5 sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
+                    className='sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
                     src={item.metadata.image}
                     width={200}
                     height={200}
@@ -131,8 +134,11 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                   </h3>
 
                   <p className='text-sm'>{item.metadata.subtitle}</p>
-
-                  <div className='mt-auto flex flex-col gap-2 text-xs'>
+                  <div className='inline-flex gap-2 items-center text-xs text-center'>
+                    <FileClock size={14} />
+                    {content.labels.readingTime({ min: minutes })}
+                  </div>
+                  <div className='mt-auto flex flex-col sm:flex-row gap-2 text-xs'>
                     <div className='text-center'>
                       {new Date(item.metadata.created).toLocaleString(locale, {
                         year: 'numeric',
