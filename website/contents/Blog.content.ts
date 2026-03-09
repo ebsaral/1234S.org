@@ -15,6 +15,7 @@ type BlogPageContent = {
     updated: string;
     author: string;
     viewAll: string;
+    readingTime: typeof insert;
   };
   history: {
     label: string;
@@ -78,6 +79,12 @@ const pageContent = {
         en: 'View all blog posts',
         tr: 'Tüm içerikleri göster',
       }),
+      readingTime: insert(
+        t({
+          en: 'Reading time: {{min}} min',
+          tr: 'Okuma süresi: {{min}} dk',
+        }),
+      ),
     },
     history: {
       label: t({
