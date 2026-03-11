@@ -44,7 +44,7 @@ const pageContent = {
     },
     home: {
       text: t({
-        en: 'Homepage',
+        en: 'Home',
         tr: 'Anasayfa',
       }),
     },
