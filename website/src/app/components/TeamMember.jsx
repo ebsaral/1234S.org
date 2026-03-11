@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 import { getAge } from '../lib/utils';
-import JoinLink from './Custom/Buttons/ContactLink';
+import CustomMarkdownLink from './Custom/CustomMarkdownLink';
 import Description from './Custom/Description';
 import { Card, CardContent } from './ui/card';
 
@@ -30,24 +30,8 @@ const TeamMember = ({ member, index = 0 }) => {
     return member.name.value;
   };
 
-  const CustomLink = ({ href, children, node }) => {
-    const tooltip = node.properties?.['data-tooltip-id'];
-    const content = node.properties?.['data-tooltip-content'];
-    const place = node.properties?.['data-tooltip-place'] || 'top';
-
-    if (tooltip && content) {
-      return (
-        <a className='tooltip-link' data-tooltip-id={tooltip} data-tooltip-content={content} data-tooltip-place={place}>
-          {children}
-        </a>
-      );
-    }
-
-    return <a href={href}>{children}</a>;
-  };
-
   const components = {
-    a: CustomLink,
+    a: CustomMarkdownLink,
   };
 
   return (
