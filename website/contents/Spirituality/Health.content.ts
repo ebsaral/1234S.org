@@ -33,8 +33,12 @@ const pageContent = {
         tr: 'Vücudumuzdaki organların işlevleri, bir toplulukta ve toplumda gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Böylelikle organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunarlar. Organlarımızı kullanırken vesile oldukları sonuçlara göre hastalanır veya daha sağlıklı oluruz.',
       }),
       subtitle: t({
-        en: 'By examining these examples, you can better observe the functions and health conditions of the organs in your own body.',
-        tr: 'Bu örnekleri inceleyerek kendi bedeninizdeki organların işlevlerini ve sağlık durumlarını daha iyi gözlemleyebilirsiniz.',
+        en: md(
+          'Under normal conditions, no living being becomes ill. Therefore, we need to reconstruct the concept of ‘normal’ imposed on us by traditional politics in a way that aligns with the principles of nature.\n\nBy examining these examples, you can better observe the functions and health conditions of the organs in your own body.',
+        ),
+        tr: md(
+          'Normal şartlar altında hiçbir canlı hastalanmaz. Bu yüzden geleneksel politikaların bize dayattığı ‘normal’ anlayışını doğanın ilkeleriyle uyumlu olacak bir şekilde yeniden yapılandırmamız gerekiyor.\n\nBu örnekleri inceleyerek kendi bedeninizdeki organların işlevlerini ve sağlık durumlarını daha iyi gözlemleyebilirsiniz.',
+        ),
       }),
       items: [
         t({
