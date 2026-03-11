@@ -56,7 +56,7 @@ You can observe the oligarchic structure of the current system in a society, fro
 
 - People who manage to start a company often cannot access the luck (opportunities) needed to compete in the market due to restrictions imposed by those who control capital. After a certain period, they are forced either to close the company or to submit to a cycle that only covers their monthly expenses. While it may be relatively easy to overcome the restrictions that are visible, growing any company becomes almost impossible within the current system where illegal practices are widespread. (see: [The Scamming Case of Big Tech Companies!](/en/blog/the-scamming-case-of-big-tech-companies))
 
-- Citizens who cannot find any job or investor may try to resolve their livelihood problems through illegal means. Within the current system, where the entire governance model is essentially illegal, I am not sure who is actually guilty.
+- Citizens who cannot find any job or investor may try to resolve their livelihood problems through illegal means. *Within the current system, where the entire governance model is essentially illegal, I am not sure who is actually guilty.*
 
 All of the actions described in the examples above are intertwined and ultimately affect the well-being of all citizens within the current system. In practice, the current legal system does not offer a permanent solution to any of the examples mentioned above. Because all legal processes are costly, many people who lack the necessary resources experience similar cycles repeatedly and struggle to find work or solutions. It can clearly be seen that the current system in which the market is free but citizens’ rights are close to slavery is not a democracy.
 

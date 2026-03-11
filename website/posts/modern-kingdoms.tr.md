@@ -57,7 +57,7 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 
 - Bir şirket açmayı başaran insanlar, parayı kontrolünde bulunduran insanların yaptırımlarından dolayı piyasada rakip olabilecek şanslara (fırsatlara) erişemiyorlar. Belirli bir süre sonra şirketi kapatmak veya aylık masrafları karşılayabilecek yeterlilikte bir döngüye boyun eğmek zorunda kalıyorlar. Görülmesi olağan olan yaptırımları aşması kolay olurken, yasadışı uygulamaların cirit attığı güncel sistem içerisinde  herhangi bir şirketi büyütmek neredeyse imkansız hale getiriliyor. (bkz: [Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!](/tr/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi))
 
-- Herhangi bir iş veya yatırımcı bulamayan vatandaşlar ise geçim sıkıntılarını yasadışı yollarla çözmeye çalışabiliyorlar. Tüm yönetim modellerinin yasadışı olduğu güncel sistem içerisinde aslında kimin suçlu olduğuna emin değilim. 
+- Herhangi bir iş veya yatırımcı bulamayan vatandaşlar ise geçim sıkıntılarını yasadışı yollarla çözmeye çalışabiliyorlar. *Tüm yönetim modellerinin yasadışı olduğu güncel sistem içerisinde aslında kimin suçlu olduğuna emin değilim.*
 
 Yukarıdaki örneklerdeki eylemlerin hepsi iç içe geçmiş olarak güncel sistemdeki tüm vatandaşların sağlıklarına yansıyor. Güncel hukuk sisteminin, yukarıdaki örneklerin hiçbirine sunabileceği kalıcı bir çözüm pratikte bulunmuyor. Tüm hukuk süreçleri masraflı olduğu için, imkanı bulunmayan birçok insan benzer döngüleri deneyimleyerek iş veya çözüm bulmakta zorlanıyorlar. Piyasanın serbest olduğu fakat vatandaş haklarının köleliğe yakın olduğu güncel sistemin demokrasi olmadığı açıkça görülebilir.
 
