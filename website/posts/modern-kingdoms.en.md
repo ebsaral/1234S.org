@@ -3,7 +3,7 @@ name: modern-kingdoms
 title: Modern Kingdoms
 subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes.
 created: 2026-03-07
-updated: 2026-03-08
+updated: 2026-03-11
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -41,6 +41,24 @@ Every being in nature exists for the equal use of all living things. Cycles of n
 > Each company in the current system actually represents a kingdom of different scale within the global oligarchy.
 
 **The subsistence struggles of different groups continue under the control of various kingdoms.** Conflicts between companies have negative effects on society. Similar to primitive reputation protection methods from the monarchical era, the general sovereignty and health of society are suppressed to protect the reputations of companies and groups. Since each company and group structurally belongs to an oligarchic system, they feel compelled to share similar concerns about reputation. This forms a deeply insidious marketing strategy at the foundation level.
+
+You can observe the oligarchic structure of the current system in a society, from its smallest building block to its largest. To better understand the term Modern Kingdoms, we can think about examples from everyday life:
+
+- An orphaned child grows up in a government-run orphanage and, after being subjected to mistreatment, cannot find a solution in the places where they can file complaints. They cannot find another place to go, or they encounter similar practices when they do.
+
+- When the development of children in a family is hindered by their parents, the children who have no freedom of choice face problems both within the family and in their environments. Leaving the home or submitting to the decisions made within the household are presented as the most reasonable solutions.
+
+- When a manager of a company commits an unfair action, they may defend their authority by claiming the company belongs to them and consider it their right not to apply the same decisions to themselves that they impose on employees. Since employees have no option to change the management, leaving the company is presented as the most reasonable solution. Some employees who had no choice in these unfair management decisions may establish their own companies after resigning, yet they continue within the same management model.
+
+- Employees who do not have the opportunity to start a company, or do not wish to, remain silent in companies where similar policies are applied. Ignoring the situation of other employees, they focus only on their own livelihood struggles. Within the current system, where excuses such as the *"free market"* or *"these are the conditions"* are used to justify economic hardship, they are essentially left on their own.
+
+- People who must obtain investment in order to start a company face obstacles created by those who control capital. The entire revenue model of those who receive investment becomes shaped by the initiatives or restrictions of the investors. As a result, people who believe they are their own bosses are in fact continuing the same management model in a smaller business while being employees of investors.
+
+- People who manage to start a company often cannot access the opportunities needed to compete in the market due to restrictions imposed by those who control capital. After a certain period, they are forced either to close the company or to submit to a cycle that only covers their monthly expenses. While it may be relatively easy to overcome the restrictions that are visible, growing any company becomes almost impossible within the current system where illegal practices are widespread. (see: [The Scamming Case of Big Tech Companies!](/en/blog/the-scamming-case-of-big-tech-companies))
+
+- Citizens who cannot find any job or investor may try to resolve their livelihood problems through illegal means. Within the current system, where the entire governance model is essentially illegal, I am not sure who is actually guilty.
+
+All of the actions described in the examples above are intertwined and ultimately affect the well-being of all citizens within the current system. In practice, the current legal system does not offer a permanent solution to any of the examples mentioned above. Because all legal processes are costly, many people who lack the necessary resources experience similar cycles repeatedly and struggle to find work or solutions. It can clearly be seen that the current system in which the market is free but citizens’ rights are close to slavery is not a democracy.
 
 ---
 

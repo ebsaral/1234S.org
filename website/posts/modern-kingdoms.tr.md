@@ -3,7 +3,7 @@ name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim şekilleri ve rejimleri bulunuyor, fakat hepsi farklı boyutlardaki modern krallık yapılarıdır.
 created: 2026-03-07
-updated: 2026-03-08
+updated: 2026-03-11
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -42,6 +42,24 @@ Doğada bulunan her varlık tüm canlıların eşit olarak kullanımı içindir.
 > Güncel sistemdeki her şirket, aslında küresel oligarşi içinde bulunan farklı boyuttaki bir krallığı temsil eder.
 
 **Farklı grupların geçim sıkıntıları, farklı krallıkların kontrolü altında varlık göstermeye devam ediyor.** Şirketler arasındaki kavgalar ise tüm topluma olumsuz şekillerde yansır. Monarşi zamanından süregelen ilkel itibar koruma yöntemlerine benzer biçimlerde, şirketlerin ve grupların itibarları için toplumun genel egemenliği ve sağlığı bastırılır. Her şirket ve grup yapı itibarıyla oligarşik bir düzenin parçası oldukları için, benzer itibar kaygılarını paylaşmak zorunda oldukları hissine kapılırlar. Bu durum, temele yayılan çok sinsi bir pazarlama stratejisidir.
+
+Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut sistemdeki oligarşi yapısını görebilirsiniz. Modern Krallıklar deyimini daha iyi anlamak için kendi yaşantınızdaki örnekleri düşünebiliriz:
+
+- Kimsesiz bir çocuk, devletin işlettiği bir çocuk yetiştirme yurdunda büyürken kötü bir muameleye uğramasının ardından şikayet edebileceği yerlerde çözüm bulamıyor. Gidebilecek başka bir yer bulamıyor veya gidebileceği yerlerde benzer uygulamalarla karşılaşıyor.
+
+- Herhangi bir ailedeki çocukların gelişimi ebeveynleri tarafından engellendiğinde, seçim şansı bulunmayan çocuklar hem aile içinde hem çevrelerinde sorunlarla karşılaşıyorlar. Çocukların evi terk etmeleri veya evin içerisinde alınan kararlara boyun eğmeleri en makul çözümler olarak sunuluyor. 
+
+- Herhangi bir şirketin yöneticisi adil olmayan bir eylem gerçekleştirdiğinde, şirketin kendisinin olmasını savunarak çalışanlara uyguladığı kararları kendisine uygulamamayı bir hak olarak görebiliyor. Çalışanların yönetimi değiştirme seçenekleri bulunmadığı için şirketi terk etmeleri en makul çözüm olarak sunuluyor. Yönetimdeki adil olmayan kararlarda seçim şansı bulunmayan bazı çalışanlar, işten ayrıldıklarında kendi şirketlerini kurabiliyor fakat aynı yönetim modelinde devam ediyorlar.
+
+- Bir şirket açma şansı bulunmayan veya şirket açmak istemeyen çalışanlar, benzer politikaların uygulandığı şirketlerde seslerini çıkar(a)madıkları için diğer çalışanları umursamayarak kendi geçim sıkıntılarına odaklanıyorlar. Geçim sıkıntılarının giderilmesine yönelik *"serbest piyasa"* veya *"koşullar böyle"* bahanesinin kullanıldığı güncel sistem içerisinde kendi hallerine bırakılıyorlar.
+
+- Bir şirket açmak için yatırım almak zorunda olan insanlar parayı kontrolünde bulunduran insanların engelleriyle karşılaşıyorlar. Yatırım alan insanların tüm gelir modelleri ise yatırım yapanların insiyatiflerine veya yaptırımlarına göre şekilleniyor. Böylelikle kendini patron sanan insanlar, aslında yatırımcıların çalışanı olarak aynı yönetim modelini daha küçük bir işletmede devam ettiriyorlar. 
+
+- Bir şirket açmayı başaran insanlar, parayı kontrolünde bulunduran insanların yaptırımlarından dolayı piyasada rakip olabilecek şanslara erişemiyorlar. Belirli bir süre sonra şirketi kapatmak veya aylık masrafları karşılayabilecek yeterlilikte bir döngüye boyun eğmek zorunda kalıyorlar. Görülmesi olağan olan yaptırımları aşması kolay olurken, yasadışı uygulamaların cirit attığı güncel sistem içerisinde  herhangi bir şirketi büyütmek neredeyse imkansız hale getiriliyor. (bkz: [Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!](/tr/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi))
+
+- Herhangi bir iş veya yatırımcı bulamayan vatandaşlar ise geçim sıkıntılarını yasadışı yollarla çözmeye çalışabiliyorlar. Tüm yönetim modellerinin yasadışı olduğu güncel sistem içerisinde aslında kimin suçlu olduğuna emin değilim. 
+
+Yukarıdaki örneklerdeki eylemlerin hepsi iç içe geçmiş olarak güncel sistemdeki tüm vatandaşların sağlıklarına yansıyor. Güncel hukuk sisteminin, yukarıdaki örneklerin hiçbirine sunabileceği kalıcı bir çözüm pratikte bulunmuyor. Tüm hukuk süreçleri masraflı olduğu için, imkanı bulunmayan birçok insan benzer döngüleri deneyimleyerek iş veya çözüm bulmakta zorlanıyorlar. Piyasanın serbest olduğu fakat vatandaş haklarının köleliğe yakın olduğu güncel sistemin demokrasi olmadığı açıkça görülebilir.
 
 ---
 
