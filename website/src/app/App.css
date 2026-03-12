@@ -345,7 +345,6 @@ header {
   @apply text-gray-300 no-underline;
 }
 
-.home-research h2,
 .home-research h3 {
   @apply text-amber-200;
 }
