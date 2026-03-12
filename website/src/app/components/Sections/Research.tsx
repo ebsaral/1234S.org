@@ -1,8 +1,11 @@
 'use client';
 
+import { getLocalizedUrl } from 'intlayer';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { useLocale } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -51,6 +54,7 @@ function generateStyles(count: number): BeatStyle[] {
 
 const Research = () => {
   const content = useIntlayer('home-page');
+  const { locale } = useLocale();
 
   const [jamMode, setJamMode] = useState(false);
   const [styles, setStyles] = useState<BeatStyle[]>([]);
@@ -88,16 +92,17 @@ const Research = () => {
             {jamMode ? content.jamButton.disable.value : content.jamButton.enable.value}
           </button>
 
-          <Image
-            hidden={!jamMode}
-            className='relative -mt-6'
-            src='/images/dance.png'
-            title={content.jamButton.disable.value}
-            alt={content.jamButton.disable.value}
-            height={150}
-            width={150}
-            preload
-          />
+          <Link hidden={!jamMode} href={getLocalizedUrl('/mission', locale)} prefetch>
+            <Image
+              className='relative -mt-6'
+              src='/images/dance.png'
+              title={content.jamButton.disable.value}
+              alt={content.jamButton.disable.value}
+              height={150}
+              width={150}
+              preload
+            />
+          </Link>
         </div>
 
         <div className='max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
