@@ -19,6 +19,16 @@ const pageContent = {
         "1234S.org, dünyanın sayılı felsefi akımlarından biri olmasını amaçladığımız [**Mantıksal Maneviyat**](/maneviyat)'ın öğretileriyle birlikte açığa çıkan **Doğada Bütünlük, Adalet ve Sağlık** ilkelerini benimseyerek kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.",
       ),
     }),
+    jamButton: {
+      enable: t({
+        en: "Let's dance!",
+        tr: 'O zaman dans!',
+      }),
+      disable: t({
+        en: 'Take it easy, champ.',
+        tr: 'Sakin ol şampiyon.',
+      }),
+    },
     projects: {
       title: t({
         en: md('## Our Research and Development Topics'),

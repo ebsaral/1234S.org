@@ -7,6 +7,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
 import Title from '../Custom/Title';
+import Research from '../Sections/Research';
 import Team from '../Sections/Team';
 
 const Home = () => {
@@ -111,24 +112,7 @@ const Home = () => {
             {content.intro}
           </article>
 
-          <article className='max-w-5xl mx-auto w-full home-research pt-10'>
-            <div className='max-w-4xl mx-auto flex flex-col gap-5'>
-              {content.projects.title}
-              {content.projects.description}
-            </div>
-
-            <div className='max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
-              {content.projects.items.map((item, index) => (
-                <div
-                  key={index}
-                  className='item flex flex-col gap-6 bg-gray-700 rounded-lg p-6 text-left hover:scale-105 transition-transform duration-300'
-                >
-                  {item.title}
-                  {item.subtitle}
-                </div>
-              ))}
-            </div>
-          </article>
+          <Research />
         </div>
         <Team />
       </main>
