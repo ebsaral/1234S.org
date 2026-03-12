@@ -45,13 +45,13 @@ const TeamMember = ({ member, index = 0 }) => {
       )}
     >
       <Card
-        className={`bg-white/90 backdrop-blur-sm shadow-xl border-0 flex flex-col justify-start items-center py-6 ${hasDescription && 'col-span-1 md:col-span-2'}`}
+        className={`bg-white/90 backdrop-blur-sm shadow-xl border-0 flex flex-col justify-start items-center pt-6 pb-3 px-4 ${hasDescription && 'col-span-1 md:col-span-2'}`}
       >
         <Tooltip id='tooltip' className='max-w-80' />
         <div
           className={`grid ${hasDescription ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'} items-start justify-center mt-2`}
         >
-          <CardContent className='group flex flex-col items-center justify-between gap-4'>
+          <CardContent className='group flex flex-col items-center justify-between gap-6'>
             <div
               className={`rounded-full ${member.spin ? 'shadow-lg shadow-rose-500/60' : 'shadow-lg shadow-gray-500/60'} transition-all duration-300`}
             >
@@ -65,37 +65,31 @@ const TeamMember = ({ member, index = 0 }) => {
                 priority={false}
               />
             </div>
-            <div className='flex flex-col items-center gap-2'>
+            <div className='flex flex-col items-center gap-1'>
               <p className='text-center text-md sm:text-lg'>{member.name}</p>
               {member.profession && (
                 <em>
                   <Description size='text-sm sm:text-md text-center' text={member.profession.value} />
                 </em>
               )}
-              {member.experience && (
-                <div className='flex flex-col items-center justify-center gap-1  border-emerald-200 text-emerald-800 text-xs mt-2 px-5 py-3 rounded bg-emerald-400/10 min-w-44'>
-                  <div className='font-bold'>{member.experience.badge}</div>
-                  <div>{member.experience.title}</div>
-                </div>
-              )}
               {member.links && (
                 <div className='inline-flex gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
                   {member.links[0] && (
                     <a
-                      className='p-1 inline-flex items-center justify-center hover:text-gray-900'
+                      className='p-2 inline-flex items-center justify-center hover:text-purple-900'
                       href={member.links[0].href.value}
                       title={member.links[0].text.value}
                     >
-                      <Globe />
+                      <Globe size={20} />
                     </a>
                   )}
                   {member.links[1] && (
                     <a
-                      className='p-1 inline-flex items-center justify-center hover:text-gray-900'
+                      className='p-2 inline-flex items-center justify-center hover:text-purple-900'
                       href={member.links[1].href.value}
                       title={member.links[1].text.value}
                     >
-                      <FileBadge />
+                      <FileBadge size={20} />
                     </a>
                   )}
                 </div>

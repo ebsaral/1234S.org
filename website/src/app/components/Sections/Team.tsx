@@ -11,11 +11,12 @@ const Team = () => {
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-gray-500'>
-      <div className={`absolute inset-0 bg-gradient-to-b from-blue-400 to-orange-400/90 opacity-80'}`} />
-
+    <section
+      id={id}
+      className='relative max-w-screen mx-auto overflow-hidden bg-gradient-to-b from-gray-50 to-gray-200'
+    >
       <div className='max-w-4xl mx-auto px-4'>
-        <div className='relative mx-auto my-16 pb-1 rounded-2xl text-center'>
+        <div className='relative mx-auto mt-8 mb-12 pb-1 rounded-2xl text-center'>
           <CustomFlower />
 
           <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900  leading-tight overflow-ellipsis`}>

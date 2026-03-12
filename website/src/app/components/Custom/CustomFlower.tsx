@@ -14,9 +14,9 @@ export default function CustomFlower() {
           <defs>
             {/* Deep blue petals */}
             <linearGradient id='midnightPetals' x1='0%' y1='0%' x2='100%' y2='100%'>
-              <stop offset='0%' stopColor='#2563eb' />
-              <stop offset='50%' stopColor='#00ac42' />
-              <stop offset='100%' stopColor='#2563eb' />
+              <stop offset='0%' stopColor='#2a0a4a' />
+              <stop offset='50%' stopColor='#7c3aed' />
+              <stop offset='100%' stopColor='#2a0a4a' />
             </linearGradient>
           </defs>
         </svg>
