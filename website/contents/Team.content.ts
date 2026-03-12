@@ -41,8 +41,18 @@ const pageContent = {
         links: [
           {
             text: t({
-              en: 'View Details',
-              tr: 'Detayları İncele',
+              en: 'Website',
+              tr: 'İnternet Sitesi',
+            }),
+            href: t({
+              en: 'https://0.1234s.org',
+              tr: 'https://0.1234s.org',
+            }),
+          },
+          {
+            text: t({
+              en: 'Resume',
+              tr: 'Öz Geçmiş',
             }),
             href: t({
               en: 'https://0.1234s.org/resume',

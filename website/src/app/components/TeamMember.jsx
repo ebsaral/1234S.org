@@ -13,6 +13,8 @@ import { Tooltip } from 'react-tooltip';
 import remarkAttrs from 'remark-attrs';
 import remarkGfm from 'remark-gfm';
 
+import { FileBadge, Globe } from 'lucide-react';
+
 const TeamMember = ({ member, index = 0 }) => {
   const hasDescription = index === 0;
 
@@ -77,11 +79,26 @@ const TeamMember = ({ member, index = 0 }) => {
                 </div>
               )}
               {member.links && (
-                <p className='text-center text-sm sm:text-md'>
-                  <a className='underline underline-offset-2 hover:no-underline' href={member.links[0].href.value}>
-                    {member.links[0].text}
-                  </a>
-                </p>
+                <div className='inline-flex gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
+                  {member.links[0] && (
+                    <a
+                      className='p-1 inline-flex items-center justify-center hover:text-gray-900'
+                      href={member.links[0].href.value}
+                      title={member.links[0].text.value}
+                    >
+                      <Globe />
+                    </a>
+                  )}
+                  {member.links[1] && (
+                    <a
+                      className='p-1 inline-flex items-center justify-center hover:text-gray-900'
+                      href={member.links[1].href.value}
+                      title={member.links[1].text.value}
+                    >
+                      <FileBadge />
+                    </a>
+                  )}
+                </div>
               )}
             </div>
           </CardContent>
