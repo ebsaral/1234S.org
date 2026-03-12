@@ -31,6 +31,7 @@ const Header = ({ postCount }) => {
 
   const navItems = [
     { key: 'home', href: '/' },
+    { key: 'mission', href: '/mission' },
     {
       key: 'philosophy',
       href: '/philosophy',
@@ -42,7 +43,6 @@ const Header = ({ postCount }) => {
         { key: 'faq', hash: content.faq.hash.value },
       ],
     },
-    { key: 'mission', href: '/mission' },
     { key: 'blog', href: '/blog' },
   ];
 
