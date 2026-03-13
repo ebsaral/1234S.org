@@ -9,8 +9,8 @@ const metadataContent = {
       tr: 'Blog | 1234S.org',
     }),
     description: t({
-      en: 'Blog: Articles, researches, teories, examples, explanations...',
-      tr: 'Blog: Makaleler, araştırmalar, teoriler, örnekler, açıklamalar...',
+      en: 'Blog: Facts, ideas, articles, researches, examples, explanations...',
+      tr: 'Blog: Gerçekler, fikirler, makaleler, araştırmalar, teoriler, örnekler, açıklamalar...',
     }),
     applicationName: '1234S.org',
     authors: [

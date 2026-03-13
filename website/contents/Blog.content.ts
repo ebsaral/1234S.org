@@ -35,8 +35,8 @@ const pageContent = {
       tr: md('# Blog'),
     }),
     description: t({
-      en: md('Ideas, researches, articles, explanations, examples...'),
-      tr: md('Fikirler, araştırmalar, makaleler, açıklamalar, örnekler...'),
+      en: md('Facts, ideas, researches, articles, explanations, examples...'),
+      tr: md('Gerçekler, fikirler, araştırmalar, makaleler, açıklamalar, örnekler...'),
     }),
     labels: {
       search: t({
