@@ -3,7 +3,7 @@ name: modern-kingdoms
 title: Modern Kingdoms
 subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes.
 created: 2026-03-07
-updated: 2026-03-11
+updated: 2026-03-13
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -59,6 +59,8 @@ You can observe the oligarchic structure of the current system in a society, fro
 - Citizens who cannot find any job or investor may try to resolve their livelihood problems through illegal means. *Within the current system, where the entire governance model is essentially illegal, I am not sure who is actually guilty.*
 
 All of the actions described in the examples above are intertwined and ultimately affect the well-being of all citizens within the current system. In practice, the current legal system does not offer a permanent solution to any of the examples mentioned above. Because all legal processes are costly, many people who lack the necessary resources experience similar cycles repeatedly and struggle to find work or solutions. It can clearly be seen that the current system in which the market is free but citizens’ rights are close to slavery is not a democracy.
+
+**The wealthiest people in any country are the ones who commit/operate the most crimes.** This becomes obvious when their companies and structures are examined. The fact that these people can still have a voice, provide education, give awards, start companies or make investments is a shared shame for all of humanity. Staying silent about this situation continues to harm the health (well-being) of all societies.
 
 ---
 

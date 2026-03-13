@@ -3,7 +3,7 @@ name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim şekilleri ve rejimleri bulunuyor, fakat hepsi farklı boyutlardaki modern krallık yapılarıdır.
 created: 2026-03-07
-updated: 2026-03-11
+updated: 2026-03-13
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -60,6 +60,8 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 - Herhangi bir iş veya yatırımcı bulamayan vatandaşlar ise geçim sıkıntılarını yasadışı yollarla çözmeye çalışabiliyorlar. *Tüm yönetim modellerinin yasadışı olduğu güncel sistem içerisinde aslında kimin suçlu olduğuna emin değilim.*
 
 Yukarıdaki örneklerdeki eylemlerin hepsi iç içe geçmiş olarak güncel sistemdeki tüm vatandaşların sağlıklarına yansıyor. Güncel hukuk sisteminin, yukarıdaki örneklerin hiçbirine sunabileceği kalıcı bir çözüm pratikte bulunmuyor. Tüm hukuk süreçleri masraflı olduğu için, imkanı bulunmayan birçok insan benzer döngüleri deneyimleyerek iş veya çözüm bulmakta zorlanıyorlar. Piyasanın serbest olduğu fakat vatandaş haklarının köleliğe yakın olduğu güncel sistemin demokrasi olmadığı açıkça görülebilir.
+
+**Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkar. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) zarar vermeye devam ediyor.
 
 ---
 
