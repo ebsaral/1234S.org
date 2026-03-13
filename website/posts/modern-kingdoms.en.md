@@ -60,7 +60,7 @@ You can observe the oligarchic structure of the current system in a society, fro
 
 **All of the actions described in the examples above are intertwined and ultimately affect the well-being of all citizens within the current system.** In practice, the current legal system does not offer a permanent solution to any of the examples mentioned above. Because all legal processes are costly, many people who lack the necessary resources experience similar cycles repeatedly and struggle to find work or solutions. It can clearly be seen that the current system in which the market is free but citizens’ rights are close to slavery is not a democracy.
 
-**The wealthiest people in any country are the ones who commit/operate the most crimes.** This becomes obvious when their companies and structures are examined. The fact that these people can still have a voice, provide education, give awards, start companies or make investments is a shared shame for all of humanity. Staying silent about this situation continues to harm the health (well-being) of all societies.
+**The wealthiest people in any country are the ones who commit/operate the most crimes.** This is becoming obvious when their companies and structures are examined. The fact that these people can still have a voice, give education, present awards, build companies or make investments is a shared shame for all of humanity. Staying silent about this situation continues to harm the health (well-being) of all societies.
 
 ---
 

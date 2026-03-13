@@ -61,7 +61,7 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 
 **Yukarıdaki örneklerdeki eylemlerin hepsi iç içe geçmiş olarak güncel sistemdeki tüm vatandaşların sağlıklarına yansıyor.** Güncel hukuk sisteminin, yukarıdaki örneklerin hiçbirine sunabileceği kalıcı bir çözüm pratikte bulunmuyor. Tüm hukuk süreçleri masraflı olduğu için, imkanı bulunmayan birçok insan benzer döngüleri deneyimleyerek iş veya çözüm bulmakta zorlanıyorlar. Piyasanın serbest olduğu fakat vatandaş haklarının köleliğe yakın olduğu güncel sistemin demokrasi olmadığı açıkça görülebilir.
 
-**Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkar. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) zarar vermeye devam ediyor.
+**Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkıyor. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) zarar vermeye devam ediyor.
 
 ---
 
