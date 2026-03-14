@@ -1,6 +1,6 @@
 ---
 name: dogada-nasil-oynamaliyiz
-title: Doğada nasıl “oynamalıyız”?
+title: Doğada nasıl oynamalıyız?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapılabileceğine bakalım.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
@@ -95,7 +95,7 @@ Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizde
 
 Ortak yaşantılarımızda yalnızca bencil kalmayı seçmemiz, doğanın çevreyi gözetmesi gerektiği anlarda varlığımızı görmezden gelmesine vesile olabilir. Kendi çevremizi doğanın bütünlüğüne ulaştırmaya yönelik olumlu çabalarımızı devam ettirirsek, doğanın bütün potansiyelini *(ilahi takviyelerini)* değerlendirme şansını yakalayabiliriz. Bazı insanlar bu durumu üçüncü göze sahip olmak olarak adlandırabilir, bazıları Tanrı'nın ilahi koruması olarak görebilir; farklı ama özünde benzer yollardır.  
 
-Sonsuzluğa uzanan şansımıza ve *[belki]* ölümsüzlüğe ulaşabilmek için, Dünya'daki tüm canlı varlıkların eşitliğine ve özgürlüğüne sürekli katkıda bulunmamız gerekir. Doğada nasıl “oynanması” gerektiğini artık biliyoruz: **İyi olalım ki daha iyiye ulaşabilelim**.
+Sonsuzluğa uzanan şansımıza ve *[belki]* ölümsüzlüğe ulaşabilmek için, Dünya'daki tüm canlı varlıkların eşitliğine ve özgürlüğüne sürekli katkıda bulunmamız gerekir. Doğada nasıl *oynanması* gerektiğini artık biliyoruz: **İyi olalım ki daha iyiye ulaşabilelim**.
 
 Tarih boyunca, iş dünyasında, bilim alanlarında veya eğlence sektörlerindeki birçok bilinen figür kendilerine daha fazla şansı sunan doğal hediyelerini değerlendirdiler. Herhangi biri doğayla muazzam bir uyum yakaladığında ilham bulması kolaylaşır, etraflarındaki insanların duygularına ve ilgilerine içgüdüsel olarak hitap edebilir. Bu yeteneklere sahip olan insanlar genellikle yaşantılarının geçmiş dönemlerinde birçok zorluklarla baş etmek zorunda kalmışlardır.  
 
