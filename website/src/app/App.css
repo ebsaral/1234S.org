@@ -314,7 +314,11 @@ header {
 }
 
 .prose-custom-all {
-  @apply prose prose-custom sm:prose-custom-sm md:prose-custom-md lg:prose-custom-lg;
+  @apply prose prose-custom sm:prose-custom-sm md:prose-custom-md lg:prose-custom-lg [&_a]:decoration-2;
+}
+
+.prose-custom-blog {
+  @apply prose-custom-all prose-blog [&_a.tooltip-link]:font-normal [&_a.tooltip-link]:decoration-dashed [&_a.tooltip-link]:decoration-gray-700;
 }
 
 .project-support a {
