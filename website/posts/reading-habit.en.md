@@ -16,8 +16,6 @@ As can be understood from our article named [Modern Kingdoms](/en/modern-kingdom
 
 Since what appear to be coincidences in nature are actually relationships of cause and effect, we can recognize the similar textures of cultures in the harmony between changes in words and meanings. The method of reaching agreement through words in order to establish a balance between equality and freedom is called the art of politics. Any branch of art does not require special education beyond being in harmony with nature (reaching harmony).
 
----
-
 ## Perspectives
 
 Within the interconnectedness of nature, realities that appeal to our senses are carried into our imagination accompanied by words and their connotations. The different words woven in every culture attempt to encompass definitions that extend from individual reality to universal reality. This situation is not so much about the abilities of those who design languages as it is about the way the unity of nature reflects itself in the mind.
@@ -27,8 +25,6 @@ When we read any sentence, different meanings may appear in every mind due to th
 When the act of reading remains confined to alphabets, only words and books shape our imagination. In order for our perspective to expand along with our imagination, we must broaden the circle of meaning within the act of reading. Being able to read the feelings and actions of other living beings, read the details of all forms in nature, and read the connections between different meanings is necessary for us to better grasp the unity of the universe.
 
 In order for the circle of meaning in our minds to expand, we must make choices that positively include different perspectives. When we combine our imagination with the realities of nature and act in accordance with the balance of equality and freedom, the perspective within our imagination expands toward the realities of nature. Because this situation is experienced in many directions, the reverse is also possible: the expansion of the realities of nature toward the perspective within our imagination.
-
----
 
 ## The Language of Nature
 
