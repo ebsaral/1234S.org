@@ -1,32 +1,19 @@
 'use client';
 
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
 
 import { Flower2 } from 'lucide-react';
 
-import Markdown from 'react-markdown';
 import { Tooltip } from 'react-tooltip';
-import remarkAttrs from 'remark-attrs';
-import remarkGfm from 'remark-gfm';
-import CustomMarkdownLink from '../Custom/CustomMarkdownLink';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 
 const Story = () => {
   const id = 'story';
   const sectionKey = 'story';
   const content = useIntlayer(`${sectionKey}-section`);
 
-  const components = {
-    a: CustomMarkdownLink,
-  };
-
   return (
-    <MarkdownProvider
-      renderMarkdown={(markdown) => (
-        <Markdown remarkPlugins={[remarkGfm, remarkAttrs]} components={components}>
-          {markdown}
-        </Markdown>
-      )}
-    >
+    <MarkdownProvider>
       <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-purple-900 px-6 pb-28'>
         <div className='max-w-5xl mx-auto'>
           <div className='relative mx-auto mt-16 mb-6 pb-1 rounded-2xl text-center'>
@@ -44,7 +31,6 @@ const Story = () => {
             </h2>
           </div>
         </div>
-
         <Tooltip
           id='tooltip'
           className='!bg-white !text-purple-900 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100'
