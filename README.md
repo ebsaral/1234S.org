@@ -6,6 +6,6 @@ Founded with the aim of establishing **Logical Spirituality** as one of the worl
 
 Developed by [EBS](https://0.1234S.org).
 
-_Some parts of the website is enhanced with various free AI assistants._
+_Some coding parts of the website is enhanced with various free AI assistants._
 
 [stackshare.io](https://stackshare.io/ebsaral3651/1234stack)
