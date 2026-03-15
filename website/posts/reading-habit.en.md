@@ -3,6 +3,7 @@ name: reading-habit
 title: Reading Habit
 subtitle: The act of reading is usually binded to alphabets, words, or books. We need a broader focus. Because we don't know how to read nature.
 created: 2026-03-14
+updated: 2026-03-15
 image: /images/blog/hands-of-children.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -14,7 +15,7 @@ Every culture has alphabets through which it tries to reflect its ways of thinki
 
 As can be understood from our article named [Modern Kingdoms](/en/blog/modern-kingdoms), all forms of governance that have survived to the present represent either [monarchy](){data-tooltip-id="tooltip" data-tooltip-content="A form of government in which political authority is generally concentrated in a single person, usually through inheritance; rule by one."} or [oligarchy](){data-tooltip-id="tooltip" data-tooltip-content="A system of governance in which political power is concentrated in the hands of a small group; a narrowed form of aristocracy; rule by a few."}. Thus, it can be understood that the group of people shaping systems of thought across society through symbols have actually been people who do not wish for the sovereignty of the public. Because no country has yet been established where existence and opportunities are offered equally; in no country have internal and external conflicts been completely resolved.
 
-Since what appear to be coincidences in nature are actually relationships of cause and effect, we can recognize the similar textures of cultures in the harmony between changes in words and meanings. The method of reaching agreement through words in order to establish a balance between equality and freedom is called the art of politics. Any branch of art does not require special education beyond being in harmony with nature (reaching harmony).
+Since what appear to be coincidences in nature are actually cause-and-effect relationships, we can recognize the similar textures of cultures in the harmony between changes in words and meanings. The method of reaching agreement through words in order to establish a balance between equality and freedom is called the art of politics. Any branch of art does not require special education beyond being in harmony with nature (reaching harmony).
 
 ## Perspectives
 
@@ -36,7 +37,9 @@ Within the unity of nature, every living being reflects the Creator's perspectiv
 
 > Every situation that occurs in nature is a bundle of information.
 
-There are many people who consciously or unconsciously make use of their ability to read nature. Vision, a sixth sense, empathy, and similar abilities are natural gifts. Gaining knowledge by reading the meanings of actions that occur in nature requires focusing on details and living in accordance with the balance of nature. What is interpreted as revelation from the perspective of prophets is actually nothing more than the visibility of meanings in nature (inspiration), and it is a natural characteristic found in all human beings.
+There are many people who consciously or unconsciously make use of their ability to read nature. Vision, a sixth sense, empathy, and similar abilities are natural gifts. Gaining knowledge by reading the meanings of actions that occur in nature requires focusing on details and living in accordance with the balance of nature. What is interpreted as revelation from the perspective of prophets is actually nothing more than the visibility of meanings in nature (inspiration), and it is a natural characteristic found in all human beings. It is possible to attain these gifts not through solely thinking, but through feeling.
+
+A condition considered exceptional (a gift) in one living being is actually bestowed upon all living beings. For example, if a person who has lost half of their brain in an accident still has all their organs functioning, that person's luck is also present in all other living beings. To understand why that luck exists in that person, we need to focus on the details with a comprehensive (broad) perspective. The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which the Creator has given humanity as a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that the Creator has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. We have the chance to discover more by focusing on the fact that we came to this world to live.
 
 ---
 
