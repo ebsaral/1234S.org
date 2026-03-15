@@ -80,9 +80,7 @@ const Health = ({ id }: { id?: string }) => {
           {content.paragraph2}
         </article>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
-          {content.paragraph3}
-        </article>
+        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph3}</article>
 
         <article className='relative prose-custom-all max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
           {content.paragraph4}
