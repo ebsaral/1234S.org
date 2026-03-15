@@ -30,7 +30,6 @@ const Header = ({ postCount }) => {
   const isScrolled = scrollY > 50;
 
   const navItems = [
-    { key: 'home', href: '/' },
     { key: 'mission', href: '/mission' },
     {
       key: 'philosophy',
@@ -130,9 +129,11 @@ const Header = ({ postCount }) => {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between items-center py-4'>
           {/* Logo */}
-          <div
-            onClick={() => scrollToSection('#scroll-to-top')}
+          <Link
+            href={getLocalizedUrl('/', locale)}
+            aria-label={getItemTitle('home')}
             className='group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300'
+            prefetch={true}
           >
             <Image
               ref={ref}
@@ -150,7 +151,7 @@ const Header = ({ postCount }) => {
             >
               {content.webpage.title}
             </p>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className='hidden md:flex items-center space-x-10'>
