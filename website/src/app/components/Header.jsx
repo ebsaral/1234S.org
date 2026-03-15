@@ -133,6 +133,7 @@ const Header = ({ postCount }) => {
             href={getLocalizedUrl('/', locale)}
             aria-label={getItemTitle('home')}
             title={getItemTitle('home')}
+            onClick={() => setIsMenuOpen(false)}
             className='group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300'
             prefetch={true}
           >
