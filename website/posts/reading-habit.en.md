@@ -41,7 +41,7 @@ There are many people who consciously or unconsciously make use of their ability
 
 A condition considered exceptional (a gift) in one living being is actually bestowed upon all living beings. For example, if a person who has lost half of their brain in an accident still has all their organs functioning, that person's luck is also present in all other living beings. To understand why that luck exists in that person, we need to focus on the details with a comprehensive (broad) perspective.
 
-The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which the Creator has given humanity as a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that the Creator has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. We have the chance to discover more by focusing on the fact that we came to this world to live.
+The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which the Creator has given humanity a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that the Creator has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. We have the chance to discover more by focusing on the fact that we came to this world to live.
 
 ---
 
