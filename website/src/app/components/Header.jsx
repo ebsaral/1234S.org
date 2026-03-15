@@ -136,7 +136,6 @@ const Header = ({ postCount }) => {
             onClick={() => scrollToSection('#scroll-to-top')}
             className='group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300'
             prefetch={true}
-            scroll={false}
           >
             <Image
               ref={ref}
