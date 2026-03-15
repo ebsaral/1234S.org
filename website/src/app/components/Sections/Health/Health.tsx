@@ -84,6 +84,10 @@ const Health = ({ id }: { id?: string }) => {
           {content.paragraph3}
         </article>
 
+        <article className='relative prose-custom-all max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
+          {content.paragraph4}
+        </article>
+
         {/* Decorative Elements */}
         <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
       </section>
