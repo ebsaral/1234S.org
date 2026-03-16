@@ -4,15 +4,16 @@ title: Güncel Sağlık Uygulamalarındaki Yanlışlar
 subtitle: Daha iyi çözümler sunarak, küresel sağlık uygulamalarındaki yanlış anlaşılmaları, hataları ve hilekarlıkları düzeltebiliriz.
 image: /images/blog/sahadet-finger.jpg
 created: 2026-03-16
+updated: 2026-03-16
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
 ---
-Her hastalığın davranışlardan dolayı kaynaklanan bir sonuç olduğunu [Mantıksal Maneviyat](/maneviyat) öğretileriyle keşfettik. Diğer canlılarla paylaştığımız ortak yaşam yolculuğumuzda, sağlığımızı (şansımızı) kaybetmemize vesile olan eylemlerimizi iyileştirmemiz gerekir. Bu yüzden her bir hastalıktan edilen ders ile toplumdaki yanlış uygulamaları düzeltmemiz hepimizin sağlığı açısından zorunludur.
+Her hastalığın davranışlardan dolayı kaynaklanan bir sonuç olduğunu [Mantıksal Maneviyat](/maneviyat) öğretileriyle keşfettik. Diğer canlılarla paylaştığımız ortak yaşam yolculuğumuzda, sağlığımızı (şansımızı) kaybetmemize vesile olan eylemlerimizi iyileştirmemiz gerekir. Bu yüzden her bir hastalıktan edinen ders ile toplumdaki yanlış uygulamaları düzeltmemiz hepimizin sağlığı açısından zorunludur.
 
 Modern tıp uygulamalarında verilen ilaçlar ve tedavi yöntemleri geçici çözümler uygulamaktadır. Her bir ilacın yan etkileri bulunmaktadır. Eğer gerçekleştirilen olumsuz eylemler düzeltilmezse, ilaçların yan etkileri hastanın sağlığını daha kötü yapar ve olumsuz sonuçların vesile olduğu durumlar diğer organlara yansır. 
 
-Herhangi biri hastalandığında vücudu zayıf düşer. Bu yüzden hasta gerçekleştirdiği olumsuz eylemleri devam ettirmekte zorlanır. Bu yaşanan durum aslında hastaya doğal bir öğüt verme niteliğini taşır. Hastanın aldığı ilaçlar ise vücudunu uyuşturarak eylemlerin tekrarlanmasını zorlaştırır veya hastanın zihnini uyuşturarak davranışlarını hafifletir. Zarar veren ilaçları kullandıran doktor veya bakıcılar ise kendi organlarında *(yaşamlarında)* sorunlar yaşarlar.
+Herhangi biri hastalandığında vücudu zayıf düşer. Bu yüzden hasta gerçekleştirdiği olumsuz eylemleri devam ettirmekte zorlanır. Bu yaşanan durum aslında hastaya bir doğal öğüt verme niteliğini taşır. Hastanın aldığı ilaçlar ise vücudunu uyuşturarak eylemlerin tekrarlanmasını zorlaştırır veya hastanın zihnini uyuşturarak davranışlarını hafifletir. Zarar veren ilaçları kullandıran doktor veya bakıcılar ise kendi organlarında *(yaşamlarında)* sorunlar yaşarlar.
 
 Hastanın davranışlarında iyileşme gösterememesi hastalık sürecinin daha uzun sürmesine vesile olur; iyi gelmesi beklenen bir ilaç yan etkileriyle başka organlara zarar vermeye başlar. Bu yüzden güncel tıp yöntemlerinde istatistiksel bilgilere göre yapılan açıklamaların veya buluşların bir kesinliği yoktur. Herhangi bir ilacın yan etkisinin bulunması, doğanın dilindeki bir alt metin olarak ilacın kullanılmaması gerektiğini öğütler.
 
@@ -20,8 +21,7 @@ Her canlının çevresiyle olan ilişkileri farklıdır fakat vücutlarında den
 
 Yaşam döngülerimizde sadece kendimize veya kendi çevremize yatırım yapmamız, doğadaki adaletin sağlanabilmesi için genel sağlığımızı kaybetmemize vesile olur. Böylece sorumluluk almadığımız vakalardan dolayı kaynaklanan sonuçlarla yüzleşmek zorunda kalırız. Herhangi bir ülkedeki yönetim sorunlarına yönelik çözümler için sorumluluk alınmaması, tüm toplumun refahını kaybetmesine vesile olur. Bu durum herhangi bir aile içindeki yaşantıya benzer şekilde yansır.
 
-Şirketlerin gelir amaçlı uyguladıkları hilekarlıklar veya adaletsizlikler, vatandaşların tekrar eden biçimlerde sağlıklarını kaybetmelerine vesile olurlar. Siyasi parti yöneticilerinin, toplumun genel refahını kapsayımcı biçimde iyileştirmek yerine,  toplumu ayrıştıran politikaları uygulamaları toplum genelindeki stresin artmasına ve hasta sayısında yükselişe vesile olur. 
-
+Şirketlerin gelir amaçlı uyguladıkları hilekarlıklar veya adaletsizlikler, vatandaşların tekrar eden biçimlerde sağlıklarını kaybetmelerine vesile olurlar. Siyasi parti yöneticilerinin, toplumun genel refahını kapsayıcı biçimde iyileştirmek yerine, toplumu ayrıştıran politikalar uygulamaları toplum genelindeki stresin artmasına ve hasta sayısında yükselişe vesile olurlar. 
 
 **Güncel sağlık uygulamalarını iyileştirmemiz için gerçekleştirilmesi gereken eylemler:**
 
