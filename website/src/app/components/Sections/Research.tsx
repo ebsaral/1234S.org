@@ -76,7 +76,7 @@ const Research = () => {
 
   return (
     <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
-      <div className='max-w-5xl mx-auto w-full home-research pt-10'>
+      <div className='max-w-5xl mx-auto w-full pt-10 research'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
           {content.projects.title}
           {content.projects.description}
@@ -105,7 +105,7 @@ const Research = () => {
           </Link>
         </div>
 
-        <div className='max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className='research max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 '>
           {content.projects.items.map((item, index) => {
             const style = styles[index];
 

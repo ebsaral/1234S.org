@@ -28,7 +28,7 @@ const Home = () => {
         <div className='stars-box text-center text-white pt-20 pb-10 px-8 sm:px-10 lg:px-12'>
           <div className='stars' />
           <AnimatedLogo />
-          <article className='max-w-4xl mx-auto my-10 text-base sm:text-lg text-left leading-relaxed home-intro'>
+          <article className='max-w-4xl mx-auto my-10 text-base text-left leading-relaxed home-intro'>
             {content.intro}
           </article>
 

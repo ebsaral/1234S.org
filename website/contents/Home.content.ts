@@ -31,15 +31,13 @@ const pageContent = {
     },
     projects: {
       title: t({
-        en: md('## Our Research and Development Topics'),
-        tr: md('## Araştırma ve Geliştirme Konularımız'),
+        en: md('## Research and Development Topics'),
+        tr: md('## Araştırma ve Geliştirme Konuları'),
       }),
       description: t({
-        en: md(
-          `For more information on these topics which we are very well-versed in through the guidance of Logical Spirituality teachings, you can [contact](/contact) us.`,
-        ),
+        en: md(`You can [contact us](/contact) for more information on these topics in which we are very well-versed.`),
         tr: md(
-          `Mantıksal Maneviyat öğretilerinin rehberliğiyle detaylarına hakim olduğumuz bu konular için bizimle [iletişime](/iletisim) geçebilirsiz.`,
+          `Detaylarına hakim olduğumuz bu konular hakkında daha fazla bilgi almak için bizimle [iletişime geçebilirsiz](/iletisim).`,
         ),
       }),
       items: [

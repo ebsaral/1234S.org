@@ -337,35 +337,31 @@ header {
   @apply text-gray-300 no-underline;
 }
 
-.home-research h1 {
-  @apply text-gray-100 text-3xl sm:text-5xl font-semibold text-center;
-}
-
-.home-research a {
+.research a {
   @apply underline;
 }
 
-.home-research a:hover {
+.research a:hover {
   @apply text-gray-300 no-underline;
 }
 
-.home-research h3 {
+.research h3 {
   @apply text-amber-200;
 }
 
-.home-research h2 {
+.research h2 {
   @apply text-2xl sm:text-2xl lg:text-3xl font-bold text-left sm:text-center;
 }
 
-.home-research p {
+.research p {
   @apply text-base text-left sm:text-center;
 }
 
-.home-research .item h3 {
-  @apply text-lg sm:text-xl font-semibold;
+.research .item h3 {
+  @apply text-lg sm:text-xl text-left font-semibold;
 }
 
-.home-research .item p {
+.research .item p {
   @apply text-base text-left;
 }
 
