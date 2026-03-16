@@ -1,28 +1,29 @@
 'use client';
 
-import { Dispatch, RefObject, SetStateAction, useEffect, useState } from 'react';
+import { RefObject, useEffect, useRef, useState } from 'react';
 
 export const useScrollEffects = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [scrollDirection, setScrollDirection] = useState('down');
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const [scrollDirection, setScrollDirection] = useState<'up' | 'down'>('down');
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setScrollY(currentScrollY);
 
-      if (currentScrollY > lastScrollY) {
-        setScrollDirection('down');
-      } else {
-        setScrollDirection('up');
-      }
-      setLastScrollY(currentScrollY);
+      setScrollY(currentScrollY);
+      setScrollDirection(currentScrollY > lastScrollY.current ? 'down' : 'up');
+
+      lastScrollY.current = currentScrollY;
     };
 
+    lastScrollY.current = window.scrollY;
+    setScrollY(window.scrollY);
+
     window.addEventListener('scroll', handleScroll, { passive: true });
+
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollY]);
+  }, []);
 
   return { scrollY, scrollDirection };
 };
