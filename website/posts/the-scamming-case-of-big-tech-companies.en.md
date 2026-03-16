@@ -4,7 +4,7 @@ title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-13
+updated: 2026-03-16
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -43,7 +43,17 @@ The applications and devices that are connected to Artificial Intelligence of Bi
 
 Big Tech's massive hidden influence in social media filtering the posts or news in favor of their interests continues to block everybody's freedom to reach correct information. Even if you see a hashtag popular in a social media app, it may be only visible to your real life network to fool your mind into some kind of necessary action being taken about the topics you are interested in. This false perception strategy cause a lot of misunderstandings in social environments. This strategy also enables their devices to target any competitor in any environment. 
 
-In addition to large corporations extensively controlling our devices and influencing user behavior, it appears that many hardware failures presented as user error are actually software-generated: broken charging cables, screen pixels that are actually working but are shown as faulty, car parts that break due to adjustments in the suspension forces of a car during use, being able to shut down your car anytime, changes in hardware settings that affect your vehicle's fuel consumption, and much more… One of the cars I have tested this with is a 2011 model Fiat Fiorino; all these software control is already embedded in its hardware during production.
+In addition to large corporations extensively controlling our devices and influencing user behavior, it appears that many hardware failures presented as user error are actually software-generated: 
+- Broken charging cables due to intentional heat changes.
+- External devices or accessories that are low performant because of operating system blocks in devices.
+- Screen pixels that are actually working but are shown as faulty, as they are customer fault.
+- Car parts that break or seem broken due to adjustments in the suspension forces of a car during use.
+- Even though there were no problems with the vehicle's hardware, the changes made to the settings forced the vehicle to be taken to the service center. 
+- Being able to shut down your car anytime.
+- Changes in hardware settings that affect your vehicle's fuel consumption and to cause more spendings.
+and much more… 
+
+> One of the cars I have tested this with is a 2011 model Fiat Fiorino; all these software control is already embedded in its hardware during production.
 
 The software products of large tech companies *(YouTube, Google Maps, ChatGPT, Google Docs, Copilot, etc.)* can create different or unexpected results that can instantly influence our behavior. Deliberately presented translation errors, information and location changes allow misinformation to spread around users and trigger incorrect action choices. At the same time, they attempt to influence your choices, attention, or emotions by making subtle changes to the images and text on your screen at different frequencies and positions. Because all devices and applications work interconnectedly, the choices and presentations within their products can appear different than they actually are. I don't know which other software companies are also working with this central management system.
 
@@ -55,7 +65,7 @@ The influence of Big Tech corporations extends beyond simply producing individua
 
 While they grow a select few companies or individuals, they distract medium and small-sized businesses with short-term, temporary solutions by drawing them into the consumption cycle of their own ecosystems. They inflict physical and financial damage on their large competitors by controlling their software and hardware; then, by investing in those sectors, they can eliminate their major rivals.
 
-One of the deadly tactics widely used by Big Tech Corporations is to mark body cells with chemicals found in their devices and then release flies in the vicinity to sting the target individual. After each fly sting, the target person may experience serious health problems such as: redness, nausea, dizziness, swelling, tumor formation, dehydration, muscle spasms, heart attack, memory loss, and difficulty concentrating. Big corporate executives and political entities (parties, armies, terrorist organizations, mafias, etc.) have been using these and similar deadly methods on citizens for years. Unfortunately, it is currently not possible to know exactly which companies or organizations are responsible. However, Big Tech Corporations, possessing everyone's information and abusing everyone's devices illegally, control the whole economic system that encompasses the current political order. Instead of this widely used method, nano-magnetic products are used in some countries.
+One of the deadly tactics widely used by Big Tech Corporations is to mark body cells with chemicals found in their devices and then release flies in the vicinity to sting the target individual. After each fly sting, the target person may experience serious health problems such as: redness, nausea, dizziness, swelling, tumor formation, dehydration, muscle spasms, heart attack, memory loss, and difficulty concentrating. Big corporate executives and political entities (parties, armies, terrorist organizations, mafias, etc.) have been using these and similar deadly methods on citizens for years. Unfortunately, it is currently not possible to know exactly which companies or organizations are responsible. However, Big Tech Corporations, possessing everyone's information and abusing everyone's devices illegally, control the whole economic system that encompasses the current political order. Instead of this widely used method, nano-magnetic and like products are used in some countries.
 
 Large corporations have been using illegal strategies and practices for years to eliminate competitors by creating fear and/or fabricating unforeseen incidents. Unfortunately, some countries have positioned themselves as “superpowers” through marketing around these companies. In reality, there is no power in continuing illegal and harmful activities. While harming other countries, they are equally harming their own citizens.
 

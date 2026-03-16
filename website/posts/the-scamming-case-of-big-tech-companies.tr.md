@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-13
+updated: 2026-03-16
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -43,7 +43,18 @@ Büyük Teknoloji şirketlerinin yapay zekasına bağlı uygulamalar ve cihazlar
 
 Bu şirketlerinin sosyal medyada kendi çıkarları doğrultusunda paylaşımları veya haberleri filtreleyerek herkesin doğru bilgiye ulaşma özgürlüğünü engellemeye devam eden devasa gizli etkisi var. Sosyal medya uygulamasında popüler olarak gördüğünüz bir hashtag, aslında yalnızca gerçek hayattaki ağınızdaki insanlara görünür olabilir ve zihninizi ilgilendiğiniz konular hakkında gerekli eylemlerin zaten alındığı yanılgısına yönlendirebilir. Bu algı değiştirme stratejisi, sosyal ortamlarda birçok yanlış anlaşılmaya neden oluyor. Bu strateji, kullandığınız cihazların herhangi bir çevredeki herhangi bir rakibi hedef almasını sağlayabiliyor.
 
-Büyük şirketlerin cihazlarımızı kullanıcı davranışlarını etkileyen kapsamlı bir şekilde kontrol etmelerinin yanında, kullanıcı hatasıymış gibi gösterilen birçok donanım arızasının aslında yazılımsal olarak oluşturulduğu anlaşılıyor: Kırık şarj kabloları, aslında çalışır durumda olan ancak arızalı gösterilen ekran pikselleri, kullanım sırasında bir arabanın süspansiyon kuvvetlerindeki ayarlamalar nedeniyle kırılan araba parçaları, aracınızın istenilen zamanda kapatılıp açılabilmesi, aracınızın yakıt tüketimini etkileyecek donanım ayarlarındaki değişiklikleri ve daha niceleri… Test ettiğim araçlardan biri 2011 model bir Fiat Fiorino; tüm bu yazılımsal kontrol, üretim sırasında donanımına zaten gömülmüş durumda.
+Büyük şirketlerin cihazlarımızı kullanıcı davranışlarını etkileyen kapsamlı bir şekilde kontrol etmelerinin yanında, kullanıcı hatasıymış gibi gösterilen birçok donanım arızasının aslında yazılımsal olarak oluşturulduğu anlaşılıyor: 
+- Bilinçli ısı değişiklikleriyle kırılan şarj kabloları.
+- Cihazınıza takılan herhangi bir donanımın veya aksesuarın yazılımsal olarak düşük performansta kullandırılması.
+- Aslında çalışır durumda olan ancak arızalı gösterilen ekran pikselleri.
+- Kullanım sırasında bir arabanın süspansiyon kuvvetlerindeki ayarlamalar nedeniyle kırılan veya kırıkmış gibi gösterilen araba parçaları. 
+- Araç donanımlarında sorun olmamasına rağmen ayarlardaki değişikliklerle servise götürülmek zorunda bırakılması ve daha fazla harcama yaptırılması.
+- Aracınızın istenilen zamanda kapatılıp açılabilmesi.
+- Aracınızın yakıt tüketimini etkileyecek donanım ayarlarındaki değişiklikleri ve eklenen yapay yakıt masrafları. 
+
+ve daha niceleri…
+
+> Test ettiğim araçlardan biri 2011 model bir Fiat Fiorino; tüm bu yazılımsal kontrol, üretim sırasında donanımına zaten gömülmüş durumda.
 
 Büyük Teknoloji Şirketlerinin yazılım ürünleri *(YouTube, Google Maps, ChatGPT, Google Docs, Copilot, vb.)* içeriklerinde davranışlarımızı anlık olarak etkileyebilecek farklı veya beklenmedik sonuçları oluşturabiliyorlar. Bilinçli olarak sunulan çeviri hataları, bilgi ve konum değişiklikleriyle kullanıcıların çevrelerinde yanlış bilgilerin yayılmasını ve yanlış eylem seçimlerinin tetiklenmesini sağlıyorlar. Aynı zamanda, ekranınızdaki görseller ve metinlerde fark etmesi zor olan farklı frekanslarda ve pozisyonlarda değişiklikler yaparak seçimlerinizi, dikkatinizi veya duygularınızı etkilemeye çalışıyorlar. Tüm cihazları ve uygulamaları birbirlerine bağlı olarak çalıştıkları için, ürünlerinin içindeki seçimler ve sunumlar olduğundan farklı gösterilebiliyor. Hangi diğer yazılım şirketlerinin bu merkezi yönetim sistemiyle çalıştıklarını bilmiyorum.
 
@@ -55,7 +66,7 @@ Büyük Teknoloji Şirketlerinin etkileri, bireysel ürünler üretmelerinin öt
 
 Seçtikleri birkaç şirketi veya kişiyi büyütürken, orta ve küçük boyuttaki şirketleri ise kendi ekonomi sistemlerinin tüketim döngüsüne sokarak kısa vadeli geçici çözümlerle oyalıyorlar. Rakip oldukları büyük şirketleri ise yazılımlarını kontrol ettikleri donanımlar ile fiziksel ve maddi zararlara uğratıyorlar; daha sonra o sektörlere yatırım yaparak büyük rakipleri yok edebiliyorlar.
 
-Büyük Teknoloji Şirketlerinin yaygın olarak kullandıkları ölümcül taktiklerden biri, vücut hücrelerini cihazlarda bulunan kimyasallarla işaretleyerek hedef kişileri sokmaları için civardaki sinekleri serbest bırakmaktır. Her sinek sokmasından sonra, hedef kişi şu ciddi sağlık sorunlarıyla karşılaşabiliyor: kızarıklık, mide bulantısı, baş dönmesi, şişme, tümör oluşumu, dehidratasyon, kas spazmları, kalp krizi, hafıza kaybı ve dikkat dağınıklığı. Bu ve benzeri ölümcül yöntemleri büyük şirket yöneticileri ve siyasi oluşumlar (partiler, ordular, terör örgütleri, mafyalar, vs.) yıllardır vatandaşlar üzerinde kullanıyorlar. Haliyle hangi şirketlerin veya örgütlerin suçlu olduklarını bilmek şu an tam olarak mümkün değil. Büyük Teknoloji Şirketleri ise herkesin bilgilerine sahip olarak ve cihazları izinsiz şekilde yöneterek güncel politik düzeni kapsayan ekonomik sistemin tamamını (gizli bir şekilde) yönetiyorlar. Bu yaygın olarak kullanılan yöntemin yerine, bazı ülkelerde nano magnetik ürünler kullanılıyor. 
+Büyük Teknoloji Şirketlerinin yaygın olarak kullandıkları ölümcül taktiklerden biri, vücut hücrelerini cihazlarda bulunan kimyasallarla işaretleyerek hedef kişileri sokmaları için civardaki sinekleri serbest bırakmaktır. Her sinek sokmasından sonra, hedef kişi şu ciddi sağlık sorunlarıyla karşılaşabiliyor: kızarıklık, mide bulantısı, baş dönmesi, şişme, tümör oluşumu, dehidratasyon, kas spazmları, kalp krizi, hafıza kaybı ve dikkat dağınıklığı. Bu ve benzeri ölümcül yöntemleri büyük şirket yöneticileri ve siyasi oluşumlar (partiler, ordular, terör örgütleri, mafyalar, vs.) yıllardır vatandaşlar üzerinde kullanıyorlar. Haliyle hangi şirketlerin veya örgütlerin suçlu olduklarını bilmek şu an tam olarak mümkün değil. Büyük Teknoloji Şirketleri ise herkesin bilgilerine sahip olarak ve cihazları izinsiz şekilde yöneterek güncel politik düzeni kapsayan ekonomik sistemin tamamını (gizli bir şekilde) yönetiyorlar. Bu yaygın olarak kullanılan yöntemlerle birlikte, bazı ülkelerde nano magnetik ve benzeri ürünler kullanılıyor.
 
 Büyük şirketlerin yasadışı stratejileri ve uygulamaları, yıllardır korku faktörleri yaratarak ve/veya görünmez kaza vakaları oluşturarak rakipleri ortadan kaldırmak için kullanılıyorlar. Ne yazık ki, bazı ülkeler bu şekilde kendilerini bu şirketlerin etrafında pazarlama yoluyla “süper güç” olarak konumlandırdılar. Aslında, yasadışı ve zararlı faaliyetleri sürdürmenin hiçbir gücü olamaz. Diğer ülkelere zarar verirken, aynı şekilde kendi vatandaşlarına da zarar veriyorlar.
 
