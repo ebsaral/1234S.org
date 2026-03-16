@@ -1,0 +1,96 @@
+import { useEffect, useState } from 'react';
+import { useIntlayer } from 'react-intlayer';
+import useScreenSize, { ScreenSize } from '../../hooks/useScreenSize';
+
+const AnimatedLogo = () => {
+  const content = useIntlayer('home-page');
+  const screenSize = useScreenSize();
+
+  const [logoSize, setLogoSize] = useState(0);
+  const MAX_SIZE = 260;
+  const MID_SIZE = 220;
+  const MIN_SIZE = 180;
+  const IMG_MARGIN = 40;
+
+  const [svg, setSvg] = useState('');
+
+  useEffect(() => {
+    fetch(content.logo.src.value)
+      .then((r) => r.text())
+      .then(setSvg);
+  }, []);
+
+  useEffect(() => {
+    if (screenSize == ScreenSize.sm) {
+      setLogoSize(MIN_SIZE);
+    } else if (screenSize == ScreenSize.md) {
+      setLogoSize(MID_SIZE);
+    } else if (screenSize == ScreenSize.lg) {
+      setLogoSize(MID_SIZE);
+    } else if (screenSize == ScreenSize.xl) {
+      setLogoSize(MAX_SIZE);
+    } else if (screenSize == ScreenSize['2xl']) {
+      setLogoSize(MAX_SIZE);
+    } else {
+      setLogoSize(0);
+    }
+  }, [screenSize]);
+
+  const getOrbitOnCircleAnimation = () => {
+    if (screenSize == ScreenSize.sm) {
+      return 'animate-orbitOnCircle1';
+    } else if (screenSize == ScreenSize.md || screenSize == ScreenSize.lg) {
+      return 'animate-orbitOnCircle2';
+    } else if (screenSize == ScreenSize.xl || screenSize == ScreenSize['2xl']) {
+      return 'animate-orbitOnCircle3';
+    }
+    return 'animate-orbitOnCircle3';
+  };
+  return (
+    <div
+      className={`relative inline-flex items-center justify-center caret-transparent`}
+      style={{ minHeight: MAX_SIZE + IMG_MARGIN }}
+    >
+      <div className='absolute inset-0 rounded-full bg-blue-950 blur-3xl opacity-60 animate-[pulse_3s_ease-in-out_infinite] p-50' />
+      {screenSize != ScreenSize.z && (
+        <div className='m-10 intro-zoom-spin relative' style={{ width: logoSize, height: logoSize }}>
+          {/* RIPPLE RING */}
+          <div className='absolute inset-0 ripple-ring' />
+
+          {/* LOGO */}
+          <div className='absolute z-10 w-full h-full'>
+            <div dangerouslySetInnerHTML={{ __html: svg }} />
+          </div>
+
+          {/* clean svg on top */}
+          <div className='relative z-10' dangerouslySetInnerHTML={{ __html: svg }} />
+        </div>
+      )}
+
+      {/* Orbit container */}
+      <div className='absolute inset-0 flex items-center justify-center'>
+        {/* Dot 1 */}
+        <span className='absolute w-3 h-3 rounded-full bg-cyan-400 blur-sm animate-orbitSlow animate-glow' />
+        <span className='absolute w-2 h-2 rounded-full bg-blue-500 blur-sm animate-orbitMid animate-glow' />
+        <span className='absolute w-4 h-4 rounded-full bg-orange-400 blur-sm animate-orbitFast animate-glow' />
+        <span className='absolute w-2 h-2 rounded-full bg-yellow-400 blur-sm animate-orbitSlow animate-glow' />
+        <span
+          className='
+        absolute w-2.5 h-2.5 rounded-full bg-green-400 blur-sm
+        animate-orbitMid animate-glow
+        [animation-delay:-2s]
+      '
+        />
+        <span
+          className={`
+        absolute w-2 h-2 rounded-full bg-indigo-400 blur-sm
+        ${getOrbitOnCircleAnimation()} animate-glow
+        [animation-delay:-1s]
+      `}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default AnimatedLogo;
