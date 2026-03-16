@@ -131,9 +131,9 @@ const Header = ({ postCount }) => {
           {/* Logo */}
           <Link
             href={getLocalizedUrl('/', locale)}
-            aria-label={getItemTitle('home')}
             title={getItemTitle('home')}
-            onClick={() => scrollToSection('#scroll-to-top')}
+            aria-label={getItemTitle('home')}
+            onClick={() => setIsMenuOpen(false)}
             className='group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300'
             prefetch={true}
           >
