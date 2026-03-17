@@ -4,7 +4,7 @@ title: Doğada nasıl oynamalıyız?
 subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapılabileceğine bakalım.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-09
+updated: 2026-03-18
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -76,6 +76,8 @@ Zorluklarımızı olumlu biçimde karşıladığımızda, bize sıkıntı verenl
 > Doğada itibar, unvan, diploma, para ya da silah sandığımız anlamda bir güç değildir. Aksine, sağlıksız eylemlere itebilecek [kandırabilecek] vesile araçları olabilirler.
 
 ---
+
+Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimizi doğaya dürüstçe açan bir davranış modeli sergilersek, doğanın gizemleri de bize bir o kadar görünür olur ve şansımızı çevremizle birlikte şekillendiririz. Bu sürece *"kaderle dans etmek"* diyebiliriz.
 
 **Doğadaki adalete yönelik farkındalık kazandırmak ve benliğimizin ihtiyaçlarını dengeleyebilmemiz için birkaç örnek:**
 

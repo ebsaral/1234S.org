@@ -4,7 +4,7 @@ title: How to play in nature?
 subtitle: Life isn't a game for everyone yet. Let's have a look at what can be done to convert life into a game.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-09
+updated: 2026-03-18
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -76,6 +76,10 @@ The important thing is to take the right action when nature reveals its justice 
 > In nature, reputation, titles, diplomas, money or weapons do not have the meaning of power you assume. On the contrary, they may be tools to push [fool] you into taking unhealthy actions.
 
 ---
+
+Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimizi doğaya dürüstçe açan bir davranış modeli sergilersek, doğanın gizemleri de bize bir o kadar görünür olur ve şansımızı çevremizle birlikte şekillendiririz. 
+
+Our talents get shaped based on our interactions within nature. If we open up ourselves to nature's being in our behaviors, the mysteries of nature also reveals themselves for our existance and we shape our luck together with our environment. We can call this process *"dancing with destiny"*.
 
 **A few examples to build awareness about Justice in Nature, and to help balance the needs of our self:**
 
