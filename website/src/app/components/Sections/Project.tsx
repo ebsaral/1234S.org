@@ -4,6 +4,7 @@ import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
 import { Gift, Globe, HeartIcon, ImagePlay, Lightbulb, TreeDeciduous } from 'lucide-react';
 
+import { useEffect, useRef, useState } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Card, CardContent } from '../ui/card';
@@ -12,6 +13,37 @@ const Project = () => {
   const id = 'project';
   const sectionKey = 'project';
   const content = useIntlayer(`${sectionKey}-section`);
+
+  const refs = useRef<(HTMLDivElement | null)[]>([]);
+  const [visibleItems, setVisibleItems] = useState<boolean[]>(Array(content.items.length).fill(false));
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const index = Number(entry.target.getAttribute('data-index'));
+          setVisibleItems((prev) => {
+            const updated = [...prev];
+            updated[index] = entry.isIntersecting;
+            return updated;
+          });
+        });
+      },
+      {
+        threshold: 0.3, // trigger when 30% of the item is visible
+      },
+    );
+
+    refs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => {
+      refs.current.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
+    };
+  }, [content.items.length]);
 
   const getCaseIcon = (index: number) => {
     const icons = [HeartIcon, ImagePlay, Globe, Gift];
@@ -55,19 +87,29 @@ const Project = () => {
 
         <div className='max-w-5xl mx-auto relative top-0 flex flex-col items-center justify-start'>
           {content.items && (
-            <div className='grid md:grid-cols-2 gap-10 mb-12 mx-auto'>
+            <div className='grid md:grid-cols-2 gap-10 mb-12 mx-auto overflow-visible'>
               {content.items.map((example, index) => {
                 const IconComponent = getCaseIcon(index);
                 const title = example.title;
                 const content = example.subtitle;
 
                 return (
-                  <Card key={index} className='group bg-purple-100/50 backdrop-blur-sm shadow-xl border-0'>
+                  <Card
+                    key={index}
+                    ref={(el) => {
+                      refs.current[index] = el;
+                    }}
+                    data-index={index}
+                    style={{ willChange: 'transform' }}
+                    className={`group bg-purple-100/50 backdrop-blur-sm shadow-xl border-0 bg-gradient-to-br sm:bg-gradient-to-b from-purple-100/60 to-emerald-100/60  relative transform transition-all duration-700 ease-out transform-origin-center ${
+                      visibleItems[index] ? 'scale-100 translate-y-0' : 'scale-90 translate-y-4'
+                    }`}
+                  >
                     <CardContent className='p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line'>
                       <div className='sm:hidden sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-purple-100/90 sm:bg-emerald-900/90 absolute top-[-10px] left-[-10px] overflow-clip sm:static'>
                         <IconComponent className='text-emerald-900 sm:text-white' size={24} />
                       </div>
-                      <div className='hidden sm:visible sm:flex items-center justify-center opacity-100 w-12 h-12 rounded-full bg-emerald-900/90 group-hover:scale-110 transition-all duration-300'>
+                      <div className='hidden sm:visible sm:flex items-center justify-center opacity-100 w-12 h-12 rounded-full bg-emerald-900/90'>
                         <IconComponent className='text-white' size={24} />
                       </div>
                       <div className='col-span-6'>
