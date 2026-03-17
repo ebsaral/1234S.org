@@ -36,6 +36,11 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: '/mission',
+        destination: '/en/mission',
+        permanent: false,
+      },
+      {
         source: '/misyon',
         destination: '/tr/mission',
         permanent: false,
