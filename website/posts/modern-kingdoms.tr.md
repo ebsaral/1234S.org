@@ -3,7 +3,7 @@ name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim şekilleri ve rejimleri bulunuyor, fakat hepsi farklı boyutlardaki modern krallık yapılarıdır.
 created: 2026-03-07
-updated: 2026-03-13
+updated: 2026-03-17
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -39,6 +39,8 @@ Doğada bulunan her varlık tüm canlıların eşit olarak kullanımı içindir.
 
 **Her zaman küresel bir ekonomi sistemi vardır.** Herhangi bir ülkedeki büyük şirketler diğer ülkelerle stratejik ilişkiler içinde olurlar. Krallıkların geçmişte ve günümüzde çıkardığı bilinçli savaşlar, kendi ülkelerindeki rakiplerden kurtulmak için başvurdukları hilekarlıklardan yalnızca biridir. Savaşların ardından varlık paylaşımlarını benzer şekillerde devam ettirirler. Bazı krallar ise başarısız olarak yönetimi farklı krallara devretmek zorunda kalırlar. 
 
+**Güncel siyaset anlayışı geleneksel (monarşi/oligarşi) yönetim biçimlerini benimser.** Her ülkedeki şirketler, o ülkenin yönetiminde ekonomik paya sahip olurlar ve vatandaşları kendi aralarında paylaşırlar. Bu yüzden güncel savaşların hepsi aslında şirketler üzerinden yapılır fakat vatandaşlar askeri veya manevi duygular üzerinden kandırılırlar (oyalanırlar).
+
 > Güncel sistemdeki her şirket, aslında küresel oligarşi içinde bulunan farklı boyuttaki bir krallığı temsil eder.
 
 **Farklı grupların geçim sıkıntıları, farklı krallıkların kontrolü altında varlık göstermeye devam ediyor.** Şirketler arasındaki kavgalar ise tüm topluma olumsuz şekillerde yansır. Monarşi zamanından süregelen ilkel itibar koruma yöntemlerine benzer biçimlerde, şirketlerin ve grupların itibarları için toplumun genel egemenliği ve sağlığı bastırılır. Her şirket ve grup yapı itibarıyla oligarşik bir düzenin parçası oldukları için, benzer itibar kaygılarını paylaşmak zorunda oldukları hissine kapılırlar. Bu durum, temele yayılan çok sinsi bir pazarlama stratejisidir.
@@ -61,7 +63,14 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 
 **Yukarıdaki örneklerdeki eylemlerin hepsi iç içe geçmiş olarak güncel sistemdeki tüm vatandaşların sağlıklarına yansıyor.** Güncel hukuk sisteminin, yukarıdaki örneklerin hiçbirine sunabileceği kalıcı bir çözüm pratikte bulunmuyor. Tüm hukuk süreçleri masraflı olduğu için, imkanı bulunmayan birçok insan benzer döngüleri deneyimleyerek iş veya çözüm bulmakta zorlanıyorlar. Piyasanın serbest olduğu fakat vatandaş haklarının köleliğe yakın olduğu güncel sistemin demokrasi olmadığı açıkça görülebilir.
 
+**Vatandaşların tüm sıkıntıları her ülkenin kuruluşundan itibaren var olan temeldeki ekonomik adaletsizlikten kaynaklanır.** Geleneksel politika yaklaşımlarından dolayı, aslında şirketleri ve zenginleri hedef alan insanlar o ülkenin düşmanıymış gibi gösterilirler. Örneğin, Apple'ı suç işleyen büyük bir şirket olmasından dolayı düşman olarak gören biri, sanki Amerika'ya düşmanmış gibi gösterilebilir. Aslında bütün büyük şirketler küresel ekonomik paylara sahip oldukları için hem ekonomik geliri hem tüm suçları paylaşırlar.
+
 **Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkıyor. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) zarar vermeye devam ediyor.
+
+**[Yeni Siyaset](/misyon) anlayışında, tüm vatandaşların doğadaki eşitlik ve özgürlük ilkelerine uygun bir yaşam tarzına kavuşmaları zorunludur.** Tüm vatandaşların pazarlama hilelerinden arınarak gerçek demokrasi anlayışıyla yönetilmeleri beklenir. Bu yeni bakış açısıyla birlikte, tüm hükümetlerin tekrar yapılındırılmaları gerekir:
+- Hükümetler gerçek bilginin tek kaynağı haline getirilir. Sağlıklı, şeffaf, adil ve kapsayıcı çözümler kalıcı bir biçimde uygulamaya alınır.
+- Küresel huzurun amaçlandığı hükümet yapılarında, [WHO](https://www.who.int/) ve [UN](www.un.org) gibi zenginlerin veya şirketlerin menfaatleri için çalışan organizasyonlara, derneklere veya vakıflara gerek kalmaz.
+- Küresel işletme yapıları olan şirketlerin başka ülkelere yatırım yaparak el değiştirmeleri veya şekil değiştirmeye çalışmaları engellenir. Bu yüzden diğer ülkelerdeki huzurun da kalıcı olması önem taşır. 
 
 ---
 

@@ -3,7 +3,7 @@ name: modern-kingdoms
 title: Modern Kingdoms
 subtitle: There are different management styles and regimes in the world, but they are all structured as modern kingdoms in different sizes.
 created: 2026-03-07
-updated: 2026-03-13
+updated: 2026-03-17
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -38,11 +38,13 @@ Every being in nature exists for the equal use of all living things. Cycles of n
 
 **There is always a global economic system.** Major companies in any country maintain strategic relationships with other countries. Conscious wars instigated by kingdoms, past and present, are only one of the tricks used to eliminate domestic rivals. After wars, resource allocations continue in various and similar ways. Some rulers fail and are forced to transfer governance to other kingdoms.
 
+**Current political understanding embraces traditional (monarchy/oligarchy) management approach of governments.** Corporations in each country have an economic share in that country's governance and divide (abuse) the citizens between each other. Therefore, all current wars are essentially waged through corporations, but citizens are deceived (distracted) through military or moral sentiments.
+
 > Each company in the current system actually represents a kingdom of different scale within the global oligarchy.
 
 **The subsistence struggles of different groups continue under the control of various kingdoms.** Conflicts between companies have negative effects on society. Similar to primitive reputation protection methods from the monarchical era, the general sovereignty and health of society are suppressed to protect the reputations of companies and groups. Since each company and group structurally belongs to an oligarchic system, they feel compelled to share similar concerns about reputation. This forms a deeply insidious marketing strategy at the foundation level.
 
-You can observe the oligarchic structure of the current system in a society, from its smallest building block to its largest. To better understand the term Modern Kingdoms, we can think about examples from everyday life:
+You can observe the oligarchic structure of the current system in any society, from its smallest building block to its largest. To better understand the term Modern Kingdoms, we can think about examples from everyday life:
 
 - An orphaned child grows up in a government-run orphanage and, after being subjected to mistreatment, cannot find a solution in the places where they can file complaints. They cannot find another place to go, or they encounter similar practices when they do.
 
@@ -60,7 +62,14 @@ You can observe the oligarchic structure of the current system in a society, fro
 
 **All of the actions described in the examples above are intertwined and ultimately affect the well-being of all citizens within the current system.** In practice, the current legal system does not offer a permanent solution to any of the examples mentioned above. Because all legal processes are costly, many people who lack the necessary resources experience similar cycles repeatedly and struggle to find work or solutions. It can clearly be seen that the current system in which the market is free but citizens’ rights are close to slavery is not a democracy.
 
+**All the grievances of citizens come from the fundamental economic injustice that has existed since the founding of every country.** Due to traditional policy approaches, people who target corporations and the wealthy are portrayed as enemies of that country. For example, someone who sees Apple as an enemy because it is a large criminal company might be portrayed as an enemy of the USA. In reality, all large corporations share economic wealth and also all the crimes because they have a global economy network.
+
 **The wealthiest people in any country are the ones who commit/operate the most crimes.** This is becoming obvious when their companies and structures are examined. The fact that these people can still have a voice, give education, present awards, build companies or make investments is a shared shame for all of humanity. Staying silent about this situation continues to harm the health (well-being) of all societies.
+
+**Within the [New Politics](/mission) approach, it is essential that all citizens achieve a lifestyle in accordance with the principles of equality and freedom in nature.** All citizens are expected to be governed with a true realization of democracy, free from marketing ploys. With this new perspective, all governments need to be restructured:
+- Governments become the sole source of true information; healthy, transparent, fair, and inclusive solutions are permanently implemented.
+- In government structures aiming for global peace, there is no need for organizations, associations, or foundations that work for the interests of the wealthy or corporations, such as [WHO](https://www.who.int/) and [UN](www.un.org).
+- Companies with global business structures are prevented from changing ownership or reshaping themselves by investing into other countries. Therefore, the permanent peace in other countries is also important.
 
 ---
 
