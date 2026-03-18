@@ -59,21 +59,10 @@ const config: Config = {
         },
       },
       keyframes: {
-        'accordion-down': {
-          from: {
-            height: '0',
-          },
-          to: {
-            height: 'var(--radix-accordion-content-height)',
-          },
-        },
-        'accordion-up': {
-          from: {
-            height: 'var(--radix-accordion-content-height)',
-          },
-          to: {
-            height: '0',
-          },
+        jump: {
+          '0%': { transform: 'translateY(4px)' },
+          '30%': { transform: 'translateY(10px)' },
+          '100%': { transform: 'translateY(4px)' },
         },
         gradient: {
           '0%': { backgroundPosition: '0% 50%' },
@@ -139,6 +128,7 @@ const config: Config = {
         },
       },
       animation: {
+        jump: 'jump 2s linear infinite',
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         spin: 'spin 0.2s linear infinite',
