@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react';
-import { LuArrowBigRight, LuCircleDashed, LuCircleDot, LuCircleDotDashed } from 'react-icons/lu';
+import { FaAnglesRight } from 'react-icons/fa6';
+import { LuCircleDashed, LuCircleDot, LuCircleDotDashed } from 'react-icons/lu';
+import { RiInformation2Fill } from 'react-icons/ri';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-const Consequences = ({ className = '' }: { className?: string }) => {
+const Consequences = () => {
   const content = useIntlayer(`justice-section`);
 
   const ref = useRef<HTMLDivElement | null>(null);
@@ -88,18 +90,23 @@ const Consequences = ({ className = '' }: { className?: string }) => {
                   <span>{item.source}</span>
                 </div>
                 <div className=''>
-                  <LuArrowBigRight className='icon' />
+                  <FaAnglesRight className='icon animate-slide-to-right' />
                   <span>{item.means}</span>
                 </div>
                 <div className=''>
-                  <LuArrowBigRight className='icon' />
+                  <FaAnglesRight className='icon animate-slide-to-right' />
                   <span>{item.result}</span>
                 </div>
               </div>
             );
           })}
         </div>
-        <div className='text-base px-5 my-5 text-left'>{content.consequences.note}</div>
+        <div className='inline-flex items-start gap-2 text-base px-5 my-5 text-left'>
+          <div>
+            <RiInformation2Fill className='text-emerald-700' size={24} />
+          </div>
+          {content.consequences.note}
+        </div>
       </div>
     </MarkdownProvider>
   );
