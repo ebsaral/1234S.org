@@ -3,7 +3,7 @@
 import { useIntlayer } from 'next-intlayer';
 
 import FormattedText from '@/app/components/Custom/FormattedText';
-import { FileHeart } from 'lucide-react';
+import { LuFileHeart } from 'react-icons/lu';
 import ContactForm from '../Custom/ContactForm';
 
 const Contact = () => {
@@ -20,7 +20,7 @@ const Contact = () => {
           <div
             className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
           >
-            <FileHeart className='text-blue-600' size={40} />
+            <LuFileHeart className='text-blue-600' size={40} />
           </div>
 
           <h2

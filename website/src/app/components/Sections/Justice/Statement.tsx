@@ -5,7 +5,7 @@ import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-import { Sun, TreePine } from 'lucide-react';
+import { LuSun, LuTreePine } from 'react-icons/lu';
 
 const Statement = ({ className }: { className?: string }) => {
   const sectionKey = 'justice';
@@ -19,7 +19,7 @@ const Statement = ({ className }: { className?: string }) => {
 
         <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-14 bg-green-100/90 rounded-2xl text-center text-lg sm:text-xl'>
           {/* Background Icon */}
-          <Sun
+          <LuSun
             className='
           absolute
           -top-[120px] -left-24
@@ -32,7 +32,7 @@ const Statement = ({ className }: { className?: string }) => {
           select-none
         '
           />
-          <TreePine
+          <LuTreePine
             className='
           absolute
           -bottom-[25px] right-[4px]

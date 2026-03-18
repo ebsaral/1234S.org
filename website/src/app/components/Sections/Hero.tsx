@@ -1,9 +1,9 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { ArrowDown, Globe, Heart, Scale } from 'lucide-react';
 import { useIntlayer, useLocale } from 'next-intlayer';
 import { useEffect, useRef } from 'react';
+import { LuArrowDown, LuGlobe, LuHeart, LuScale } from 'react-icons/lu';
 import { useIntersectionObserver, useScrollEffects } from '../../hooks/useScrollEffects';
 
 const Hero = () => {
@@ -56,19 +56,19 @@ const Hero = () => {
           {/* Decorative Icons */}
           <div className='flex justify-center items-center gap-12 mb-4'>
             <div
-              className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
+              className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300Lu scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
             >
-              <Globe size={36} />
+              <LuGlobe size={36} />
             </div>
             <div
               className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-green-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
             >
-              <Scale size={36} />
+              <LuScale size={36} />
             </div>
             <div
               className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-rose-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
             >
-              <Heart size={36} />
+              <LuHeart size={36} />
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const Hero = () => {
           {/* Scroll Indicator */}
           <div className='flex flex-col items-center animate-bounce'>
             <p className='text-white/70 text-sm mb-2'>{content.scrollIndicator}</p>
-            <ArrowDown className='w-6 h-6 text-white/70' />
+            <LuArrowDown className='w-6 h-6 text-white/70' />
           </div>
         </div>
       </div>

@@ -4,10 +4,10 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
-import { ArrowDownWideNarrow, FileClock, FilePen, FilePlus } from 'lucide-react';
 import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { LuArrowDownWideNarrow, LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
 import Markdown from 'react-markdown';
 import readingTime from 'reading-time';
 import remarkGfm from 'remark-gfm';
@@ -91,7 +91,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
             <SearchBox placeholder={content.labels.search.value} onSearch={(value) => setSearchText(value)} />
 
             <div className='w-full max-w-md mx-auto flex items-center justify-center gap-2 sm:gap-5'>
-              <ArrowDownWideNarrow />
+              <LuArrowDownWideNarrow size={24} />
 
               <Filter
                 defaultValue={SortIn.DESC}
@@ -137,7 +137,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
 
                   <div className='mt-auto flex flex-row gap-4 sm:gap-6 text-xs text-gray-800'>
                     <div className='inline-flex items-center gap-1'>
-                      <FilePen size={14} />
+                      <LuFilePen size={14} />
                       {new Date(item.metadata.created).toLocaleString(locale, {
                         year: 'numeric',
                         month: 'short',
@@ -146,7 +146,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                     </div>
                     {item.metadata.updated && (
                       <div className='inline-flex items-center gap-1'>
-                        <FilePlus size={14} />
+                        <LuFilePlus size={14} />
                         <div className='text-center'>
                           {new Date(item.metadata.updated).toLocaleString(locale, {
                             year: 'numeric',
@@ -157,7 +157,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                       </div>
                     )}
                     <div className='inline-flex gap-1 items-center justify-center text-xs text-center'>
-                      <FileClock size={14} />
+                      <LuFileClock size={14} />
                       {content.labels.readingTime({ min: minutes })}
                     </div>
                   </div>

@@ -2,7 +2,7 @@
 
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 
-import { Gift, Globe, HeartIcon, ImagePlay, Lightbulb, TreeDeciduous } from 'lucide-react';
+import { LuGift, LuGlobe, LuHeart, LuImagePlay, LuLightbulb, LuTreeDeciduous } from 'react-icons/lu';
 
 import { useEffect, useRef, useState } from 'react';
 import Markdown from 'react-markdown';
@@ -46,8 +46,8 @@ const Project = () => {
   }, [content.items.length]);
 
   const getCaseIcon = (index: number) => {
-    const icons = [HeartIcon, ImagePlay, Globe, Gift];
-    const IconComponent = icons[index] || Lightbulb;
+    const icons = [LuHeart, LuImagePlay, LuGlobe, LuGift];
+    const IconComponent = icons[index] || LuLightbulb;
     return IconComponent;
   };
 
@@ -59,7 +59,7 @@ const Project = () => {
             <div
               className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110`}
             >
-              <TreeDeciduous
+              <LuTreeDeciduous
                 className='text-emerald-700 transition-all duration-500 ease-in-out group-hover:scale-125'
                 size={40}
               />

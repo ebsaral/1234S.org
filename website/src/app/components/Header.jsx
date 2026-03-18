@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { LuChevronDown, LuMenu, LuX } from 'react-icons/lu';
 import useHash from '../hooks/useHash';
 import { useMenu } from '../hooks/useMenu';
 import { useScrollEffects } from '../hooks/useScrollEffects';
@@ -245,7 +245,7 @@ const Header = ({ postCount }) => {
                   <span className='text-sm font-medium hidden sm:inline'>
                     {getLocaleName(availableLocales.find((item) => item === locale))}
                   </span>
-                  <ChevronDown size={14} className='opacity-70' />
+                  <LuChevronDown size={14} className='opacity-70' />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent
@@ -283,7 +283,7 @@ const Header = ({ postCount }) => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`md:hidden p-2 transition-colors duration-300 ${isScrolled ? 'text-gray-700' : 'text-white'}`}
             >
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMenuOpen ? <LuX size={24} /> : <LuMenu size={24} />}
             </button>
           </div>
         </div>

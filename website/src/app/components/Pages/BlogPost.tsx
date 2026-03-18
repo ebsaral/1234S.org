@@ -4,11 +4,12 @@ import { MarkdownRenderer, useIntlayer } from 'next-intlayer';
 
 import { LocalePostPair } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
-import { CircleChevronLeft, FilePen, FilePlus, HatGlasses } from 'lucide-react';
 import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
+import { FaRedhat } from 'react-icons/fa';
+import { LuCircleChevronLeft, LuFilePen, LuFilePlus } from 'react-icons/lu';
 
 import { Tooltip } from 'react-tooltip';
 import MarkdownProvider from '../Custom/MarkdownProvider';
@@ -69,7 +70,7 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
               prefetch={true}
             >
               <div className='inline-flex gap-2 text-sm'>
-                <CircleChevronLeft className='text-gray-800' size={20} />
+                <LuCircleChevronLeft className='text-gray-800' size={20} />
                 <span className='font-medium underline underline-offset-2 group-hover:no-underline'>
                   {content.labels.viewAll}
                 </span>
@@ -84,7 +85,7 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
 
             <div className='mt-2 grid grid-cols-2 sm:grid-cols-4 gap-4 items-center text-xs'>
               <p title={content.labels.author.value} className='inline-flex items-center gap-1'>
-                <HatGlasses size={14} />
+                <FaRedhat size={14} />
                 <span>
                   <strong>
                     <a href={item.metadata.authorUrl}>{item.metadata.authorName}</a>
@@ -93,7 +94,7 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
               </p>
               <p title={content.labels.published.value} className='inline-flex items-center sm:justify-center gap-1'>
                 <span>
-                  <FilePen size={14} />
+                  <LuFilePen size={14} />
                 </span>
                 <span>
                   {new Date(item.metadata.created).toLocaleString(locale, {
@@ -106,7 +107,7 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
 
               {item.metadata.updated && (
                 <p title={content.labels.updated.value} className='inline-flex items-center sm:justify-center gap-1'>
-                  <FilePlus size={14} />
+                  <LuFilePlus size={14} />
                   <span>
                     {new Date(item.metadata.updated).toLocaleString(locale, {
                       year: 'numeric',

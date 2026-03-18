@@ -1,4 +1,4 @@
-import { Pencil } from 'lucide-react';
+import { LuPencil } from 'react-icons/lu';
 
 const CustomPencil = () => {
   return (
@@ -15,7 +15,7 @@ const CustomPencil = () => {
           </linearGradient>
         </defs>
 
-        <Pencil stroke='url(#rainbow-gradient)' size={40} />
+        <LuPencil stroke='url(#rainbow-gradient)' size={40} />
       </svg>
     </div>
   );

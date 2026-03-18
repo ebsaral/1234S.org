@@ -1,10 +1,10 @@
 'use client';
 
-import { BellElectric } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
+import { LuBellElectric } from 'react-icons/lu';
 import { SocialIcon } from 'react-social-icons';
 
-import { Handshake } from 'lucide-react';
+import { LuHandshake } from 'react-icons/lu';
 
 import ContentLayout from '../ContentLayout';
 import JoinLink from '../Custom/Buttons/ContactLink';
@@ -18,7 +18,7 @@ const ServiceOptionsSection = () => {
     <ContentLayout
       sectionKey={sectionKey}
       id={id}
-      icon={Handshake}
+      icon={LuHandshake}
       iconColor='text-amber-600'
       backgroundColor='bg-amber-500'
       accentColor='from-amber-500 to-yellow-50'
@@ -40,7 +40,7 @@ const ServiceOptionsSection = () => {
       </div>
 
       <div className='max-w-2xl mx-auto flex items-center justify-center my-5'>
-        <BellElectric />
+        <LuBellElectric />
       </div>
 
       <div className={`max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-5`}>

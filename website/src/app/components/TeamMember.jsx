@@ -13,7 +13,7 @@ import { Tooltip } from 'react-tooltip';
 import remarkAttrs from 'remark-attrs';
 import remarkGfm from 'remark-gfm';
 
-import { FileBadge, Globe } from 'lucide-react';
+import { LuFileBadge, LuGlobe } from 'react-icons/lu';
 
 const TeamMember = ({ member, index = 0 }) => {
   const hasDescription = index === 0;
@@ -80,7 +80,7 @@ const TeamMember = ({ member, index = 0 }) => {
                       href={member.links[0].href.value}
                       title={member.links[0].text.value}
                     >
-                      <Globe size={20} />
+                      <LuGlobe size={20} />
                     </a>
                   )}
                   {member.links[1] && (
@@ -89,7 +89,7 @@ const TeamMember = ({ member, index = 0 }) => {
                       href={member.links[1].href.value}
                       title={member.links[1].text.value}
                     >
-                      <FileBadge size={20} />
+                      <LuFileBadge size={20} />
                     </a>
                   )}
                 </div>

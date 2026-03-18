@@ -1,6 +1,6 @@
 import classnames from 'classnames';
-import { ChevronDownIcon } from 'lucide-react';
 import { Select } from 'radix-ui';
+import { LuChevronDown } from 'react-icons/lu';
 
 const Filter = ({
   className,
@@ -19,7 +19,7 @@ const Filter = ({
         <Select.Trigger className='inline-flex items-center justify-between gap-2 rounded border px-3 py-2 text-sm bg-white hover:bg-gray-50'>
           <Select.Value />
           <Select.Icon>
-            <ChevronDownIcon />
+            <LuChevronDown />
           </Select.Icon>
         </Select.Trigger>
 

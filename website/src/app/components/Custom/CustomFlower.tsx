@@ -1,4 +1,4 @@
-import { Flower } from 'lucide-react';
+import { LuFlower } from 'react-icons/lu';
 
 export default function CustomFlower() {
   return (
@@ -22,7 +22,7 @@ export default function CustomFlower() {
         </svg>
 
         {/* Flower */}
-        <Flower
+        <LuFlower
           className='w-14 h-14 transition-all duration-700 ease-in-out group-hover:scale-110'
           stroke='url(#midnightPetals)'
           strokeWidth={2.2}

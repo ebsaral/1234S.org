@@ -9,8 +9,8 @@ import Consequences from '@/app/components/Sections/Justice/Consequences';
 import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
-import { Scale } from 'lucide-react';
 import { useEffect, useRef } from 'react';
+import { LuScale } from 'react-icons/lu';
 
 const Justice = ({ id }: { id?: string }) => {
   const sectionKey = 'justice';
@@ -30,10 +30,10 @@ const Justice = ({ id }: { id?: string }) => {
       <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
         <article className='prose-custom-all max-w-4xl mx-auto px-6'>
           <div className='w-full mx-auto text-center'>
-            <Scale className='relative -z-10 mx-auto text-green-200/80' size={250} />
+            <LuScale className='relative -z-10 mx-auto text-green-200/80' size={250} />
             <h2 className={`-mt-44 animate-sway `}>{content.title}</h2>
             <div className='mt-16 lg:-mt-2 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110'>
-              <Scale className='text-green-600' size={40} />
+              <LuScale className='text-green-600' size={40} />
             </div>
             <h3>
               <b>

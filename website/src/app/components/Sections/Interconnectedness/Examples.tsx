@@ -1,6 +1,6 @@
 'use client';
 
-import { Atom } from 'lucide-react';
+import { LuAtom } from 'react-icons/lu';
 import { useIntlayer } from 'react-intlayer';
 
 const Examples = ({ className = '' }: { className?: string }) => {
@@ -13,7 +13,7 @@ const Examples = ({ className = '' }: { className?: string }) => {
       <div className='flex flex-col'>
         <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
           <span className='font-bold text-2xl cursor-default animate-spin-slow'>
-            <Atom className='text-blue-900' size={32} />
+            <LuAtom className='text-blue-900' size={32} />
           </span>
         </div>
 

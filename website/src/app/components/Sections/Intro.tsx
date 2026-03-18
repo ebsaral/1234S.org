@@ -2,9 +2,10 @@
 
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
-import { CircleQuestionMark, Sparkles } from 'lucide-react';
 import { MarkdownProvider, useIntlayer } from 'next-intlayer';
 import { useEffect, useRef, useState } from 'react';
+import { LuSparkles } from 'react-icons/lu';
+import { PiQuestionFill } from 'react-icons/pi';
 
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -121,7 +122,7 @@ const Intro = ({ id }: { id?: string }) => {
         {/* Introduction */}
         <div className='mt-16 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
           <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
-            <CircleQuestionMark size={48} />
+            <PiQuestionFill size={48} />
           </span>
           <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
 
@@ -191,7 +192,7 @@ const Intro = ({ id }: { id?: string }) => {
 
               <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
                 <span className='font-bold text-2xl cursor-default'>
-                  <Sparkles className='text-gray-900' size={28} />
+                  <LuSparkles className='text-gray-900' size={28} />
                 </span>
               </div>
 

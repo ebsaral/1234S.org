@@ -2,7 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import { BellElectric, Handshake } from 'lucide-react';
+import { LuBellElectric, LuHandshake } from 'react-icons/lu';
 import { SocialIcon } from 'react-social-icons';
 import ContactLink from '../Custom/Buttons/ContactLink';
 import FormattedText from '../Custom/FormattedText';
@@ -21,7 +21,7 @@ const Service = () => {
           <div
             className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 transition-all duration-300 hover:scale-110`}
           >
-            <Handshake className='text-rose-600' size={40} />
+            <LuHandshake className='text-rose-600' size={40} />
           </div>
 
           <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900  leading-tight overflow-ellipsis`}>
@@ -36,7 +36,7 @@ const Service = () => {
 
         <div className={`max-w-2xl mx-auto flex flex-col items-center justify-center gap-5`}>
           <ContactLink className='peer p-4 min-w-52 order-2' />
-          <BellElectric className='peer-hover:animate-bell peer-active:animate-bell order-1' />
+          <LuBellElectric className='peer-hover:animate-bell peer-active:animate-bell order-1' />
         </div>
 
         {content.contact.enabled && (

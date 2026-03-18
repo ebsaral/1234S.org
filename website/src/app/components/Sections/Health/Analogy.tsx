@@ -1,18 +1,18 @@
 'use client';
 
 import {
-  Accessibility,
-  CandyOff,
-  CircleX,
-  EarOff,
-  Eye,
-  EyeOff,
-  HeartOff,
-  Play,
-  Smile,
-  Speech,
-  Stethoscope,
-} from 'lucide-react';
+  LuAccessibility,
+  LuCandyOff,
+  LuCircleX,
+  LuEarOff,
+  LuEye,
+  LuEyeOff,
+  LuHeartOff,
+  LuPlay,
+  LuSmile,
+  LuSpeech,
+  LuStethoscope,
+} from 'react-icons/lu';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -23,7 +23,7 @@ const Analogy = ({ className }: { className?: string }) => {
   const content = useIntlayer('health-section');
   // Icon mappings for health examples
   const getHealthExampleIcon = (index: number) => {
-    const IconComponent = [Speech, EyeOff, EarOff, HeartOff, Accessibility, CandyOff, CircleX];
+    const IconComponent = [LuSpeech, LuEyeOff, LuEarOff, LuHeartOff, LuAccessibility, LuCandyOff, LuCircleX];
     return IconComponent[index];
   };
 
@@ -34,7 +34,7 @@ const Analogy = ({ className }: { className?: string }) => {
         <Card className='bg-gradient-to-br from-rose-50 to-pink-100 border-0 shadow-xl'>
           <CardContent className='p-8'>
             <h3 className='relative text-2xl font-bold text-rose-900 mb-8 flex items-center gap-3'>
-              <Stethoscope className='absolute -left-12 rotate-12 text-rose-500' size={45} />
+              <LuStethoscope className='absolute -left-12 rotate-12 text-rose-500' size={45} />
               {content.analogy.title}
             </h3>
 
@@ -44,11 +44,11 @@ const Analogy = ({ className }: { className?: string }) => {
               </blockquote>
               <ul className='-ml-4 sm:ml-0 space-y-5 text-gray-900'>
                 <li className='flex items-start gap-4'>
-                  <Smile className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
+                  <LuSmile className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
                   <span>{content.analogy.items[0]}</span>
                 </li>
                 <li className='flex items-start gap-4'>
-                  <Eye className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
+                  <LuEye className='text-emerald-700 mt-1 flex-shrink-0' size={36} />
                   <span>{content.analogy.items[1]}</span>
                 </li>
               </ul>
@@ -56,7 +56,7 @@ const Analogy = ({ className }: { className?: string }) => {
 
             <div className='group relative text-rose-800 font-medium text-left sm:text-center bg-white/60 p-4 rounded-lg my-6 sm:mx-12 pb-5'>
               {content.analogy.subtitle}
-              <Play className='absolute left-1/2 -bottom-3 text-rose-600 fill-rose-500 -translate-x-1/2 rotate-90 group-hover:scale-110 transition-all duration-300' />
+              <LuPlay className='absolute left-1/2 -bottom-3 text-rose-600 fill-rose-500 -translate-x-1/2 rotate-90 group-hover:scale-110 transition-all duration-300' />
             </div>
             <div className='grid md:grid-cols-2 gap-6'>
               {content.analogy.examples.map((example, index) => {

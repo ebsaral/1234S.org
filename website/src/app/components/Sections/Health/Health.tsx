@@ -1,6 +1,6 @@
 'use client';
 
-import { Heart } from 'lucide-react';
+import { LuHeart } from 'react-icons/lu';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 
 import { Analogy } from '@/app/components/Sections/Health';
@@ -45,14 +45,14 @@ const Health = ({ id }: { id?: string }) => {
           <div className='mx-auto'>
             <div className='relative -top-0 flex flex-col items-center h-32 overflow-hidden'>
               <div className='relative -top-32'>
-                <Heart className='text-rose-600' size={250} />
+                <LuHeart className='text-rose-600' size={250} />
               </div>
             </div>
 
             <div
               className={`z-20 relative -mt-24  mb-0 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110`}
             >
-              <Heart className='text-rose-600' size={40} />
+              <LuHeart className='text-rose-600' size={40} />
             </div>
 
             <article className='prose-custom-all -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>

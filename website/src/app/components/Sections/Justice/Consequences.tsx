@@ -1,5 +1,5 @@
-import { ArrowBigRight, CircleDashed, CircleDot, CircleDotDashed } from 'lucide-react';
 import { useEffect, useRef } from 'react';
+import { LuArrowBigRight, LuCircleDashed, LuCircleDot, LuCircleDotDashed } from 'react-icons/lu';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -68,15 +68,15 @@ const Consequences = ({ className = '' }: { className?: string }) => {
         <div ref={ref} className='consequences'>
           <div className='header row '>
             <div className='text-blue-600'>
-              <CircleDot className='icon ' />
+              <LuCircleDot className='icon ' />
               <span>{content.consequences.labels.source}</span>
             </div>
             <div className='text-red-600'>
-              <CircleDotDashed className='icon ' />
+              <LuCircleDotDashed className='icon ' />
               <span>{content.consequences.labels.means}</span>
             </div>
             <div className='text-red-700'>
-              <CircleDashed className='icon ' />
+              <LuCircleDashed className='icon ' />
               <span>{content.consequences.labels.result}</span>
             </div>
           </div>
@@ -88,11 +88,11 @@ const Consequences = ({ className = '' }: { className?: string }) => {
                   <span>{item.source}</span>
                 </div>
                 <div className=''>
-                  <ArrowBigRight className='icon' />
+                  <LuArrowBigRight className='icon' />
                   <span>{item.means}</span>
                 </div>
                 <div className=''>
-                  <ArrowBigRight className='icon' />
+                  <LuArrowBigRight className='icon' />
                   <span>{item.result}</span>
                 </div>
               </div>

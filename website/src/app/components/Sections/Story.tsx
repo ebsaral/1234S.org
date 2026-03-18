@@ -2,7 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import { Flower2 } from 'lucide-react';
+import { LuFlower2 } from 'react-icons/lu';
 
 import { Tooltip } from 'react-tooltip';
 import MarkdownProvider from '../Custom/MarkdownProvider';
@@ -20,7 +20,7 @@ const Story = () => {
             <div
               className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110`}
             >
-              <Flower2
+              <LuFlower2
                 className='text-purple-800 transition-all duration-500 ease-in-out group-hover:scale-125'
                 size={40}
               />

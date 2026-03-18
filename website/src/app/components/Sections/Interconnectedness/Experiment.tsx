@@ -1,6 +1,6 @@
 'use client';
 
-import { BookOpenCheck, Cctv, DraftingCompass, Focus, ScanEye } from 'lucide-react';
+import { LuBookOpenCheck, LuCctv, LuDraftingCompass, LuFocus, LuScanEye } from 'react-icons/lu';
 import { useIntlayer } from 'react-intlayer';
 
 const Experiment = ({ className = '' }: { className?: string }) => {
@@ -8,16 +8,16 @@ const Experiment = ({ className = '' }: { className?: string }) => {
   function getExperimentStepIcon(index: number): import('react').ReactNode {
     const size = 32;
     if (index == 0) {
-      return <Cctv size={size} />;
+      return <LuCctv size={size} />;
     }
     if (index == 1) {
-      return <Focus size={size} />;
+      return <LuFocus size={size} />;
     }
     if (index == 2) {
-      return <BookOpenCheck size={size} />;
+      return <LuBookOpenCheck size={size} />;
     }
     if (index == 3) {
-      return <ScanEye size={size} />;
+      return <LuScanEye size={size} />;
     }
   }
   return (
@@ -27,7 +27,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
       <div className='flex flex-col'>
         <div className='relative -top-12 left-1/2 p-8 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all'>
           <span className='font-bold text-2xl cursor-default animate-spin-slow'>
-            <DraftingCompass className='text-purple-900' size={32} />
+            <LuDraftingCompass className='text-purple-900' size={32} />
           </span>
         </div>
         <h3 className='px-6 text-left text-purple-900 -mt-4'>

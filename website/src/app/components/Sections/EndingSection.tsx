@@ -1,8 +1,8 @@
 'use client';
 import { useMenu } from '@/app/hooks/useMenu';
-import { Lightbulb } from 'lucide-react';
 import { useIntlayer } from 'next-intlayer';
 import { useEffect, useRef } from 'react';
+import { LuLightbulb } from 'react-icons/lu';
 import { useIntersectionObserver } from '../../hooks/useScrollEffects';
 import { Card, CardContent } from '../ui/card';
 
@@ -27,7 +27,7 @@ const EndingSection = ({ id }: { id: string }) => {
           <CardContent className='group px-12 pt-2 pb-8'>
             <div className='relative -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
               <span className='font-bold text-2xl cursor-default'>
-                <Lightbulb className='text-gray-900' size={28} />
+                <LuLightbulb className='text-gray-900' size={28} />
               </span>
             </div>
 

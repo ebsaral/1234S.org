@@ -2,7 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
-import { HandCoins } from 'lucide-react';
+import { LuHandCoins } from 'react-icons/lu';
 
 import ContentLayout from '../ContentLayout';
 import Description from '../Custom/Description';
@@ -17,7 +17,7 @@ const ServiceTopicsSection = () => {
     <ContentLayout
       sectionKey={sectionKey}
       id={id}
-      icon={HandCoins}
+      icon={LuHandCoins}
       iconColor='text-rose-600'
       backgroundColor='bg-rose-500'
       accentColor='from-rose-500 to-yellow-50'
