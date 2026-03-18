@@ -75,8 +75,8 @@ const FAQ = ({ id }: { id?: string }) => {
           <div className='w-full mx-auto text-center'>
             <LuMessageCircleQuestion className='relative -z-10 mx-auto text-orange-200/80' size={250} />
             <h2 className={`-mt-44`}>{content.title}</h2>
-            <div className='mt-16 lg:-mt-2 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110'>
-              <LuMessageCircleQuestion className='text-orange-600' size={40} />
+            <div className='group mt-16 lg:-mt-2 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-orange-600'>
+              <LuMessageCircleQuestion className='transition-all duration-300 group-hover:scale-110' size={40} />
             </div>
           </div>
           <div className='prose-custom-all max-w-4xl mx-auto my-16 text-center'>{content.description}</div>

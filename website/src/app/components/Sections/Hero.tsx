@@ -3,7 +3,10 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntlayer, useLocale } from 'next-intlayer';
 import { useEffect, useRef } from 'react';
-import { LuArrowDown, LuGlobe, LuHeart, LuScale } from 'react-icons/lu';
+import { LiaBalanceScaleSolid } from 'react-icons/lia';
+import { LuArrowDown } from 'react-icons/lu';
+import { SlGlobe } from 'react-icons/sl';
+import { TiHeartFullOutline } from 'react-icons/ti';
 import { useIntersectionObserver, useScrollEffects } from '../../hooks/useScrollEffects';
 
 const Hero = () => {
@@ -55,20 +58,14 @@ const Hero = () => {
         <div>
           {/* Decorative Icons */}
           <div className='flex justify-center items-center gap-12 mb-4'>
-            <div
-              className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300Lu scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
-            >
-              <LuGlobe size={36} />
+            <div className='group inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-blue-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110'>
+              <SlGlobe className='group-hover:scale-110 transition-all duration-300' size={30} />
             </div>
-            <div
-              className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-green-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
-            >
-              <LuScale size={36} />
+            <div className='group inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-green-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110'>
+              <LiaBalanceScaleSolid className='group-hover:scale-110 transition-all duration-300' size={36} />
             </div>
-            <div
-              className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-rose-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110`}
-            >
-              <LuHeart size={36} />
+            <div className='group inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100/10 shadow-lg mb-8 text-rose-600 transition-all duration-300 scale-75 hover:scale-100 sm:scale-100 sm:hover:scale-110'>
+              <TiHeartFullOutline className='group-hover:scale-110 transition-all duration-300' size={36} />
             </div>
           </div>
 

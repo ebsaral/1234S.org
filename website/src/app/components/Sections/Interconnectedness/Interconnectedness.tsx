@@ -1,6 +1,6 @@
 'use client';
 
-import { LuGlobe } from 'react-icons/lu';
+import { SlGlobe } from 'react-icons/sl';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 
 import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
@@ -38,14 +38,14 @@ const Interconnectedness = ({ id }: { id: string }) => {
           <div className='mx-auto my-32 pb-1 bg-white/80 rounded-2xl'>
             <div className='relative -top-0 flex flex-col items-center h-32 overflow-hidden'>
               <div className='relative -top-32'>
-                <LuGlobe className='text-blue-200' size={250} />
+                <SlGlobe className='text-blue-200' size={250} />
               </div>
             </div>
 
             <div
-              className={`z-20 relative -mt-24  mb-0 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110`}
+              className={`group z-20 relative -mt-24  mb-0 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-blue-600`}
             >
-              <LuGlobe className='text-blue-600' size={40} />
+              <SlGlobe className='transition-all duration-300 group-hover:scale-110' size={40} />
             </div>
 
             <article className='prose-custom-all -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>
