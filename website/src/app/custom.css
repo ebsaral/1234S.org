@@ -164,12 +164,12 @@
   }
 }
 
-.link-underline {
-  text-decoration: underline;
+.link-underline a {
+  @apply underline;
 }
 
-.link-underline:hover {
-  color: white;
+.link-underline a:hover {
+  @apply no-underline;
 }
 
 .lines-box {
