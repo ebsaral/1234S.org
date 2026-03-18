@@ -31,7 +31,7 @@ const Examples = ({ className = '' }: { className?: string }) => {
             <p>{item.description}</p>
           </div>
         ))}
-        <div className='pl-0 sm:pl-6 flex flex-col items-center justify-start leading-relaxed text-left font-bold'>
+        <div className='pl-0 sm:pl-6 flex flex-col items-center justify-start leading-relaxed text-left font-medium'>
           <p className='text-2xl sm:text-3xl text-center mx-0 my-5 text-gray-600'>...</p>
           <p className='text-blue-800'>{content.examples.description}</p>
         </div>
