@@ -1,19 +1,15 @@
 'use client';
 
-import { FaRegFaceSmileBeam } from 'react-icons/fa6';
 import { GiHealthPotion } from 'react-icons/gi';
-import { PiArrowFatLinesDownFill, PiSmileyFill, PiWarningFill } from 'react-icons/pi';
+import { PiSmileyFill, PiWarningFill } from 'react-icons/pi';
 
 import {
   LuAccessibility,
   LuCandyOff,
   LuCircleX,
   LuEarOff,
-  LuEye,
   LuEyeOff,
   LuHeartOff,
-  LuPlay,
-  LuSmile,
   LuSpeech,
   LuStethoscope,
 } from 'react-icons/lu';
