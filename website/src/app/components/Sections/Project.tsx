@@ -30,7 +30,7 @@ const Project = () => {
         });
       },
       {
-        threshold: 0.3, // trigger when 30% of the item is visible
+        threshold: 0.2, // trigger when 20% of the item is visible
       },
     );
 
@@ -87,7 +87,7 @@ const Project = () => {
 
         <div className='max-w-5xl mx-auto relative top-0 flex flex-col items-center justify-start'>
           {content.items && (
-            <div className='grid md:grid-cols-2 gap-10 mb-12 mx-auto overflow-visible'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mb-12 mx-auto'>
               {content.items.map((example, index) => {
                 const IconComponent = getCaseIcon(index);
                 const title = example.title;
