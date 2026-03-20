@@ -8,11 +8,9 @@ const pageContent = {
       tr: 'Yeni Siyasetin Kökeni',
     }),
     support: t({
-      en: md(
-        'To contribute to this project, which we aim to develop as a philosophical movement, you can visit our [Contact](/contact) page.',
-      ),
+      en: md('To contribute to this philosophical movement, you can visit our [Contact](/contact) page.'),
       tr: md(
-        'Bir felsefi akım olarak ilerletmek istediğimiz bu projemize katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
+        'Bir felsefi akım olan bu projemize katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
       ),
     }),
     explanation: t({
