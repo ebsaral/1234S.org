@@ -68,7 +68,7 @@ const pageContent = {
     },
     interconnectedness: t({
       en: md(
-        'Shaped within [The Interconnectedness of Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
+        'Shaped with [The Interconnectedness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
       ),
       tr: md(
         '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
