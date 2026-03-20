@@ -46,11 +46,6 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
-        source: '/hizmet',
-        destination: '/tr/service',
-        permanent: false,
-      },
-      {
         source: '/iletisim',
         destination: '/tr/contact',
         permanent: false,

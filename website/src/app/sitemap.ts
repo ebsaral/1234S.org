@@ -31,7 +31,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
           ...multilingual,
         },
       },
-      priority: path === '/' ? 1.0 : path === '/service' ? 0.9 : path.startsWith('/blog/') ? 0.6 : 0.8,
+      priority: path === '/' ? 1.0 : path.startsWith('/blog/') ? 0.6 : 0.8,
       changeFrequency: path === '/' ? 'daily' : path.startsWith('/blog/') ? 'monthly' : 'weekly',
     }));
   });

@@ -17,7 +17,6 @@ interface NavigationContent {
   philosophy: Link;
   mission: Link;
   blog: Link;
-  service: Link;
   intro: SubLink;
   interconnectedness: SubLink;
   justice: SubLink;
@@ -64,12 +63,6 @@ const pageContent = {
       text: t({
         en: 'Blog',
         tr: 'Blog',
-      }),
-    },
-    service: {
-      text: t({
-        en: 'Services',
-        tr: 'Hizmetler',
       }),
     },
     intro: {
