@@ -25,8 +25,8 @@ const pageContent = {
     social: [
       {
         href: t({
-          en: 'https://x.com/1234S_en',
-          tr: 'https://x.com/1234S_tr',
+          en: 'https://www.x.com/1234S_en',
+          tr: 'https://www.x.com/1234S_tr',
         }),
         label: t({
           en: 'X (English)',
@@ -34,8 +34,14 @@ const pageContent = {
         }),
       },
       {
-        href: 'https://www.linkedin.com/company/1234s-org',
-        label: 'LinkedIn',
+        href: t({
+          en: 'https://www.instagram.com/logical.spirituality',
+          tr: 'https://www.instagram.com/mantiksal.maneviyat',
+        }),
+        label: t({
+          en: 'Instagram (English)',
+          tr: 'Instagram (Türkçe)',
+        }),
       },
     ],
     note: t({

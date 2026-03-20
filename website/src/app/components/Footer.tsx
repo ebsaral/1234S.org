@@ -2,9 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
-import { FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6';
-
-import { SocialIcon } from 'react-social-icons';
+import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import MarkdownProvider from './Custom/MarkdownProvider';
 
 const Footer = () => {
@@ -29,18 +27,19 @@ const Footer = () => {
                   <FaSquareXTwitter size={36} />
                 </a>
 
-                {/* LinkedIn */}
+                {/* Instagram */}
                 <a
                   className='hover:scale-110 transition-all duration-300 text-gray-100 opacity-90 hover:opacity-100'
                   href={content.social[1].href.value}
                   title={content.social[1].label.value}
                   aria-label={content.social[1].label.value}
                 >
-                  <FaLinkedin size={36} />
+                  <FaInstagram size={36} />
                 </a>
               </div>
             </div>
 
+            {/* Note */}
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
               <p className='text-center text-gray-300'>
                 <em>{content.note}</em>
@@ -53,12 +52,14 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
+              {/* Interconnectedness claim */}
               <div className='link-underline text-center text-xs'>{content.interconnectedness}</div>
 
+              {/* Development Links */}
               <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
                 <p className='link-underline text-center'>
                   <a
-                    className='text-gray-100 opacity-90 hover:opacity-100'
+                    className='text-gray-100 opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-300'
                     href={content.github.href.value}
                     title={content.github.label.value}
                     aria-label={content.github.label.value}
@@ -68,7 +69,7 @@ const Footer = () => {
                 </p>
                 <p className='link-underline text-center'>
                   <a
-                    className='text-gray-100 opacity-90 hover:opacity-100'
+                    className='text-gray-100 opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-300'
                     href={content.productHunt.href.value}
                     title={content.productHunt.label.value}
                     aria-label={content.productHunt.label.value}
