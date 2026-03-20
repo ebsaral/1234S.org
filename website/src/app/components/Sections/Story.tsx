@@ -35,7 +35,7 @@ const Story = () => {
           id='tooltip'
           className='!bg-white !text-purple-900 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100'
         />
-        <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
+        <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
           {content.description}
         </article>
 
