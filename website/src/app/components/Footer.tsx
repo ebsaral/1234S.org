@@ -57,26 +57,26 @@ const Footer = () => {
 
               {/* Development Links */}
               <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
-                <p className='link-underline text-center'>
+                <div className='link-underline text-center hover:scale-110 transition-all duration-300'>
                   <a
-                    className='text-gray-100 opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-300'
+                    className='text-gray-100 opacity-90 hover:opacity-100'
                     href={content.github.href.value}
                     title={content.github.label.value}
                     aria-label={content.github.label.value}
                   >
                     <FaGithub size={24} />
                   </a>
-                </p>
-                <p className='link-underline text-center'>
+                </div>
+                <div className='link-underline text-center hover:scale-110 transition-all duration-300'>
                   <a
-                    className='text-gray-100 opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-300'
+                    className='text-gray-100 opacity-90 hover:opacity-100'
                     href={content.productHunt.href.value}
                     title={content.productHunt.label.value}
                     aria-label={content.productHunt.label.value}
                   >
                     <FaProductHunt size={24} />
                   </a>
-                </p>
+                </div>
               </div>
               <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
                 <p>
