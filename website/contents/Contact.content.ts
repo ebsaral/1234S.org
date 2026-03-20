@@ -16,7 +16,7 @@ const pageContent = {
         en: 'Our e-mail address',
         tr: 'E-posta adresimiz',
       }),
-      href: 'ebsaral@icloud.com',
+      href: 'emin@1234S.org',
     },
     form: {
       title: t({
