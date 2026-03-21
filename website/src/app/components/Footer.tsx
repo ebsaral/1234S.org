@@ -39,13 +39,16 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Note */}
+            {/* Note & Links */}
             <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
               <p className='text-center text-gray-300'>
                 <em>{content.note}</em>
               </p>
-              <p className='text-sm font-medium link-underline hover:no-underline'>
-                <a className='text-gray-100' href={content.contact.href.value}>
+              <p className='flex flex-row items-center justify-center gap-3 sm:gap-5 text-sm font-medium link-underline'>
+                <a className='text-gray-100 hover:no-underline' href={content.career.href.value}>
+                  {content.career.label}
+                </a>
+                <a className='text-gray-100 hover:no-underline' href={content.contact.href.value}>
                   {content.contact.label}
                 </a>
               </p>

@@ -10,6 +10,7 @@ interface FooterContent {
   social: FooterLink[];
   note: string;
   contact: FooterLink;
+  career: FooterLink;
   github: FooterLink;
   productHunt: FooterLink;
   interconnectedness: string;
@@ -57,6 +58,13 @@ const pageContent = {
         en: '/contact',
         tr: '/iletisim',
       }),
+    },
+    career: {
+      label: t({
+        en: 'Join Us',
+        tr: 'Bize Katıl',
+      }),
+      href: 'https://1234s.breezy.hr',
     },
     github: {
       label: 'GitHub',
