@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-16
+updated: 2026-03-22
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -25,7 +25,9 @@ Modern uygulamalar arayüzler, sistem çağrıları, arka plan hizmetleri gibi k
 
 - Cihazınızla video kaydederken, seçtiğiniz kelimeler gerçek zamanlı olarak, kaydettikten sonra veya daha sonra dinlerken değiştirilebiliyor. Çektiğiniz içeriğin görsel kalitesi çevredeki ışığa aldırış etmeden değiştirilebiliyor. Çektiğiniz herhangi bir içeriğin görüntü, şekil ve ses kalitesi olduğundan farklı gösterilebiliyor.
 
-- Cihazlarınızdan farklı dozlarda istenilen zamanlarda çeşitli kimyasallar salgılanabiliyor veya dönüştürebiliyor. Bu kimyasallar duygu durumunuzu farklı şekillerde etkileyebiliyorlar: mutluluk, gerginlik, gevşeme, sinir, hassaslık, kaygı, öfke, ilgi duyma, tembellik ve dikkat dağınıklığı gibi duygular bunlardan birkaçına örnek olarak verilebilir. Aynı zamanda fiziksel olarak vücudunuzda bacak uyuşukluğu ve baş ağrısı gibi sonuçlara yol açabiliyorlar. Başka kimyasallar ile girdikleri tepkimelerde size fiziksel ve zihinsel olarak zarar verme oranları yükselebiliyor. Vücudunuzu hareket ettirdiğiniz anlarda sakatlık yaşama riskiniz yükseliyor. Vücudunuzda istenmeyen kilo değişiklikleri yaşanabiliyor. Bilgisayarınızı veya telefonunuzu kullanırken izlediğiniz içeriğe göre salınan kimyasallar değişebiliyor; tepki vermeniz beklenen içerikler ön plana çıkarılıyor. Bu kimyasalların ne olduklarını ise henüz bulamadım.
+- Cihazlarınızdan farklı dozlarda istenilen zamanlarda çeşitli kimyasallar salgılanabiliyor veya dönüştürebiliyor. Bu kimyasallar duygu durumunuzu farklı şekillerde etkileyebiliyorlar: mutluluk, gerginlik, gevşeme, sinir, hassaslık, kaygı, öfke, ilgi duyma, tembellik ve dikkat dağınıklığı gibi duygular bunlardan birkaçına örnek olarak verilebilir. Aynı zamanda fiziksel olarak vücudunuzda bacak uyuşukluğu, kas sorunları ve baş ağrısı gibi sonuçlara yol açabiliyorlar. Başka kimyasallar ile girdikleri tepkimelerde size fiziksel ve zihinsel olarak zarar verme oranları yükselebiliyor. Vücudunuzu hareket ettirdiğiniz anlarda sakatlık yaşama riskiniz yükseliyor. Vücudunuzda istenmeyen kilo değişiklikleri yaşanabiliyor. Bilgisayarınızı veya telefonunuzu kullanırken izlediğiniz içeriğe göre salınan kimyasallar değişebiliyor; tepki vermeniz beklenen içerikler ön plana çıkarılıyor. Bu kimyasalların ne olduklarını ise henüz bulamadım.
+
+> Örneğin, telefon, bilgisayar, televizyondan veya araçtan salınan kimyasalı solumanızın ardından hoparlörünüzün şarjı bitmiş gibi gösterilebiliyor. Böylece sizi şarja takmaya yönlendirerek eğilmeniz sağlanabiliyor ve vücudunuzda sakatlanma yaşamanız ihtimali denenebiliyor. 
 
 - Cihazlarınızdaki tüm özellikler kullanım esnasında kontrol edilebiliyorlar. Cihazınızın Wi-Fi, ekranındaki herhangi bir görüntü, görüntü kalitesi ve ışıklandırması, şarj seviyesi, hücresel veri veya konum gibi özellikleri, bulunduğunuz konumda hiçbir sorun olmamasına rağmen yazılımsal olarak, uygulamalarda sorun olmasa bile, gerçekte olduğundan farklı gösterilebiliyor. Cihazınızın istenilen özelliği güçsüz gösterilebiliyor veya devre dışı bırakılabiliyor. Deprem gibi büyük afetlerde cihazların bu tarz yollarla kapatılabiliyor olması büyük bir güvenlik sorunu teşkil ediyor.
 

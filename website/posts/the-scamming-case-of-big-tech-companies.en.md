@@ -4,7 +4,7 @@ title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-16
+updated: 2026-03-22
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -25,7 +25,9 @@ Here are some examples of layers controlled in different ways at the operating s
 
 - When recording video with your device, the words you choose can be changed in real time, after recording or when listening to it later. The visual quality of your recorded content can also be adjusted regardless of ambient light. Any content's visual and sound quality that you produce can be altered to appear different than original.
 
-- Your devices can release or produce various chemicals in different doses at specific times. These chemicals can affect your mood and body in different ways: happiness, tension, relaxation, nervousness, sensitivity, anxiety, anger, interest, laziness and distractibility are just a few examples. They can also cause physical effects such as leg numbness and headaches. Their potential for physical and mental harm increases when they react with other chemicals. The risk of injury increases when you move your body. Your body weight might have undesired changes. The chemicals released can also change depending on the content you're watching on your computer or phone; content that elicits a reaction is prioritized. I haven't yet been able to identify what these chemicals are.
+- Your devices can release or produce various chemicals in different doses at specific times. These chemicals can affect your mood and body in different ways: happiness, tension, relaxation, nervousness, sensitivity, anxiety, anger, interest, laziness and distractibility are just a few examples. They can also cause physical effects such as leg numbness, muscle issue and headaches. Their potential for physical and mental harm increases when they react with other chemicals. The risk of injury increases when you move your body. Your body weight might have undesired changes. The chemicals released can also change depending on the content you're watching on your computer or phone; content that elicits a reaction is prioritized. I haven't yet been able to identify what these chemicals are.
+
+> For example, after you inhale a chemical released from a phone, computer, television, or car, your speaker can be made to appear as if its battery is dead. This way, you can be tricked into bending down to plug it in so a possible injury cause on your body can be tried.
 
 - All features on your devices can be controlled during use. Features such as your device's Wi-Fi, screen image quality and lighting, charge level, cellular data, or location can be manipulated software-wise to appear different than they actually are, even if there are no problems in your location or application. A desired feature of your device can be shown as underpowered or disabled. The ability to shut down device features in this way during major disasters like earthquakes poses a significant security risk.
 
