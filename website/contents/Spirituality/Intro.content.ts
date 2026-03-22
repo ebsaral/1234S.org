@@ -10,8 +10,8 @@ const pageContent = {
         tr: 'Mantıksal',
       }),
       description: t({
-        en: 'Explains the cause-and-effect relationships in nature.',
-        tr: 'Doğadaki neden-sonuç ilişkilerini açıklar.',
+        en: "First time in history: Explains the cause-and-effect relationships in nature's details.",
+        tr: 'Tarihte ilk kez: Doğanın detaylarındaki neden-sonuç ilişkilerini açıklar.',
       }),
     },
     spirituality: {
@@ -26,10 +26,10 @@ const pageContent = {
     },
     paragraph1: t({
       en: md(
-        '**Logical Spirituality** is a system of thought that details the visible and invisible connections between living beings, centering on all feelings. It defines the principles of **Interconnectedness** and **Justice** around the conditions of *physical and mental health in nature* to understand universal truth starting from the perceptible individual reality.',
+        '**Logical Spirituality** is a system of thought that details the visible and invisible connections between living beings, centering on all feelings. It explains the principles of **Interconnectedness** and **Justice** around the conditions of physical and mental health in nature to understand universal truth starting from the perceptible individual reality.',
       ),
       tr: md(
-        '**Mantıksal Maneviyat** canlıların birbirleriyle olan görünür ve görünmez bağlarını, tüm hisleri odak noktasına alarak detaylandıran bir düşünce sistemidir. Hissedilebilen bireysel gerçekten yola çıkarak evrensel gerçeği anlayabilmek için, *doğadaki fiziksel ve zihinsel sağlık* koşullarının etrafında **Bütünlük** ve **Adalet** ilkelerini tanımlar.',
+        '**Mantıksal Maneviyat** canlıların birbirleriyle olan görünür ve görünmez bağlarını, tüm hisleri odak noktasına alarak detaylandıran bir düşünce sistemidir. Hissedilebilen bireysel gerçekten yola çıkarak evrensel gerçeği anlayabilmek için, doğadaki fiziksel ve zihinsel sağlık koşullarının etrafında **Bütünlük** ve **Adalet** ilkelerini açıklar.',
       ),
     }),
     paragraph2: t({
