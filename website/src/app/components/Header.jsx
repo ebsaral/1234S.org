@@ -43,7 +43,15 @@ const Header = ({ postCount }) => {
       ],
     },
     { key: 'blog', href: '/blog' },
+    { key: 'career', href: 'https://1234s.breezy.hr/p/38156cc935b9-topluluk-gonullusu-community-volunteer' },
   ];
+
+  const parseLocalizedUrl = (url) => {
+    if (url.startsWith('http')) {
+      return url;
+    }
+    return getLocalizedUrl(url, locale);
+  };
 
   // Spin logo on scroll
   useEffect(() => {
@@ -130,7 +138,7 @@ const Header = ({ postCount }) => {
         <div className='flex justify-between items-center py-4'>
           {/* Logo */}
           <Link
-            href={getLocalizedUrl('/', locale)}
+            href={parseLocalizedUrl('/')}
             title={getItemTitle('home')}
             aria-label={getItemTitle('home')}
             onClick={() => setIsMenuOpen(false)}
@@ -164,7 +172,7 @@ const Header = ({ postCount }) => {
                   className='relative group text-center text-sm font-medium transition-all duration-300'
                 >
                   <Link
-                    href={getLocalizedUrl(item.href, locale)}
+                    href={parseLocalizedUrl(item.href)}
                     aria-label={content[item.key].text.value}
                     title={getItemTitle(item.key)}
                     onClick={() => scrollToSection(item.href)}
@@ -204,7 +212,7 @@ const Header = ({ postCount }) => {
                       {item.children.map((childItem, index) => (
                         <li key={index}>
                           <Link
-                            href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
+                            href={parseLocalizedUrl(getItemHref(childItem.hash))}
                             aria-label={content[childItem.key].text.value}
                             title={content[childItem.key].text.value}
                             onClick={() => {
@@ -261,7 +269,7 @@ const Header = ({ postCount }) => {
                   >
                     <Link
                       className='flex items-center gap-3 w-full'
-                      href={getLocalizedUrl(pathWithoutLocale, item)}
+                      href={parseLocalizedUrl(pathWithoutLocale)}
                       key={item}
                       title={getLocaleName(item)}
                       aria-current={locale === item ? 'page' : undefined}
@@ -298,7 +306,7 @@ const Header = ({ postCount }) => {
                     <li>
                       <Link
                         key={item.key}
-                        href={getLocalizedUrl(item.href, locale)}
+                        href={parseLocalizedUrl(item.href)}
                         aria-label={content[item.key].text.value}
                         title={getItemTitle(item.key)}
                         onClick={() => scrollToSection(item.href)}
@@ -315,7 +323,7 @@ const Header = ({ postCount }) => {
                       <li key={index} className='pl-4'>
                         <Link
                           key={childItem.key}
-                          href={getLocalizedUrl(getItemHref(childItem.hash), locale)}
+                          href={parseLocalizedUrl(getItemHref(childItem.hash))}
                           aria-label={content[childItem.key].text.value}
                           title={content[childItem.key].text.value}
                           onClick={() => scrollToSection(`#${childItem.hash}`, childItem.hash)}

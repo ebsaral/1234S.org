@@ -24,6 +24,7 @@ interface NavigationContent {
   faq: SubLink;
   project: Link;
   contact: Link;
+  career: Link;
   language: string;
   flags: {
     [Locales.ENGLISH]: string;
@@ -110,6 +111,12 @@ const pageContent = {
       text: t({
         en: 'Contact',
         tr: 'İletişim',
+      }),
+    },
+    career: {
+      text: t({
+        en: 'Join Us',
+        tr: 'Bize Katıl',
       }),
     },
     language: t({
