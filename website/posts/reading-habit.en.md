@@ -3,7 +3,7 @@ name: reading-habit
 title: Reading Habit
 subtitle: The act of reading is usually binded to alphabets, words, or books. We need a broader focus. Because we don't know how to read nature.
 created: 2026-03-14
-updated: 2026-03-15
+updated: 2026-03-23
 image: /images/blog/hands-of-children.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -42,6 +42,8 @@ There are many people who consciously or unconsciously make use of their ability
 A condition considered exceptional (a gift) in one living being is actually bestowed upon all living beings. For example, if a person who has lost half of their brain in an accident still has all their organs functioning, that person's luck is also present in all other living beings. To understand why that luck exists in that person, we need to focus on the details with a comprehensive (broad) perspective.
 
 The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which the Creator has given humanity a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that the Creator has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. We have the chance to discover more by focusing on the fact that we came to this world to live.
+
+The Creator does not need symbols (languages) derived from the human mind to communicate with the living beings it has created. The language of nature is written in the body of every living being. As a reward for good deeds, we are accompanied by a healthy body and environment, along with our souls. As a response to our bad deeds, we continue our journey through life with an unhealthy body and environment. Every illness or accident tells us the consequences of our actions through the divine language in our bodies. The result of every negative action communicates with us through the purposes of the organs in our bodies. Therefore, the Creator's language in nature is, in fact, body language.
 
 ---
 
