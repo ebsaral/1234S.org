@@ -15,10 +15,10 @@ const pageContent = {
     }),
     explanation: t({
       en: md(
-        '**Within the guidance of the realities in nature, we can enable a fundamental transformation in politics that is the main source of every stress, disease and lack of opportunities.** Until we make our lives more harmonious with nature through the lessons learned from our life experiences, our various health problems will continue, almost as a result of natural selection. We can raise awareness so that people can see the logic in nature and together we can heal the recurring mistakes in our life cycles.',
+        '**Within the guidance of the realities in nature, we are fundamentally transforming politics that is the main source of every stress, disease and lack of opportunities.** Until we make our lives more harmonious with nature through the lessons learned from our life experiences, our various health problems will continue, almost as a result of natural selection. We can raise awareness so that people can see the logic in nature and together we can heal the recurring mistakes in our life cycles.',
       ),
       tr: md(
-        '**Doğadaki gerçekleri esas alarak, her stresin, hastalığın ve geçim sıkıntısının ana kaynağı olan siyasette köklü bir dönüşüm gerçekleştirebiliriz.** Yaşam deneyimlerimizden edindiğimiz derslerle yaşantılarımızı doğayla daha uyumlu hâle getirene dek, farklı biçimlerdeki sağlık sorunlarımız adeta doğal seçilimin bir sonucu gibi devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve yaşam döngülerimizde tekrarlanan hataları birlikte iyileştirebiliriz.',
+        '**Doğadaki gerçekleri esas alarak, her stresin, hastalığın ve geçim sıkıntısının ana kaynağı olan siyasette köklü bir dönüşüm gerçekleştiriyoruz.** Yaşam deneyimlerimizden edindiğimiz derslerle yaşantılarımızı doğayla daha uyumlu hâle getirene dek, farklı biçimlerdeki sağlık sorunlarımız adeta doğal seçilimin bir sonucu gibi devam edecektir. İnsanların doğadaki mantığı görebilmeleri için farkındalık kazandırabiliriz ve yaşam döngülerimizde tekrarlanan hataları birlikte iyileştirebiliriz.',
       ),
     }),
     items: [
