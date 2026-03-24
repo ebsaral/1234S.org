@@ -53,6 +53,7 @@ const Experiment = ({ className = '' }: { className?: string }) => {
         ))}
       </div>
       <p className='p-6 pt-0 text-purple-800 leading-relaxed text-left font-medium'>{content.experiment.description}</p>
+      <p className='p-6 pt-0 text-purple-800 leading-relaxed text-left font-semibold'>{content.experiment.note}</p>
     </article>
   );
 };

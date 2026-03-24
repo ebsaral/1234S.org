@@ -9,6 +9,7 @@ interface InterconnectednessContent {
     title: string;
     subtitle: string;
     description: string;
+    note: string;
     steps: {
       title: string;
       description: string;
@@ -65,6 +66,10 @@ export default {
       description: t({
         en: 'The color choices, movements, speech, and even thoughts of other living beings you have neither heard nor seen get reflected in every form of your work. In the details you observe, you can see that you are reflecting the traces of the beings around you, regardless of distance, through your own existence.',
         tr: 'Duymadığınız veya görmediğiniz diğer canlıların renk seçimleri, hareketleri, konuşmaları ve hatta düşünceleri bile eserinizin her biçimine yansır. İzlediğiniz detaylarda, kendi varlığınız aracılığıyla etrafınızdaki varlıkların izlerini de mesafe fark etmeksizin yansıttığınızı görebilirsiniz.',
+      }),
+      note: t({
+        en: 'Every creation is an outcome of every being; we, individually, are the producers only.',
+        tr: 'Her yaratım tüm canlıların varlığıyla açığa çıkar; bizler, bireysel olarak, yalnızca üreticileriz.',
       }),
       steps: [
         {
