@@ -1,10 +1,10 @@
 ---
 name: how-to-play-in-nature
 title: How to play in nature?
-subtitle: Life isn't a game for everyone yet. Let's have a look at what can be done to convert life into a game.
+subtitle: Life isn't a game for everyone yet. Let's have a deeper look at nature and understand what we can do to convert life into a game.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-18
+updated: 2026-03-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -93,9 +93,11 @@ Our talents get shaped based on our interactions within nature. If we open up ou
 
 - You probably have a great vision because you *(or your ancestors)* tried to find solutions to the problems in the lives of many living beings. Or, focusing on what was important for the healthy *(long-term)* existence of nature was prevented in the environments you lived in.  
 
-Around this awareness, **we can understand that every natural gift *(or talent)* is gained through social interactions with other living beings. By living in harmony with nature, we can ensure the improvement and continuity of our talents *(our gifts)*. When we do not care about the well-being of other beings, Justice in Nature also provides the necessary reinforcements to those beings.**  
+Around this awareness, we can understand that every natural gift *(or talent)* is gained or lost through social interactions with other living beings. By living in harmony with nature, we can ensure the improvement and continuity of our talents *(our gifts)*. When we do not care about the well-being of other beings, Justice in Nature also provides the necessary reinforcements to those beings.
 
-Therefore, we owe all our gifts, both directly and indirectly, to the living beings around us. Our talents continue to be shaped throughout our lives according to our choices. If we fail to remain on the positive side of nature's scale of justice, we may lose our talents and/or our health.
+In the essence of nature, every living being inherits all the gifts (talents). The talents we develop or inherit are those our parents could have realized but couldn't due to inequalities of opportunity. **In a system where opportunities are offered equally to everyone, every living being can acquire all their natural talents.** Repairing the inequalities of opportunity created by our ancestors will allow the entire society to easily access natural talents.
+
+In nature, there is no such thing "out of nowhere". Therefore, we owe all our gifts, both directly and indirectly, to the living beings around us. Our talents continue to be shaped throughout our lives according to our choices. If we fail to remain on the positive side of nature's scale of justice, we may lose our talents and/or our health.
 
 Choosing to remain purely selfish in our shared lives can cause nature to overlook our existence when it needs to care for the environment. If we continue our positive efforts to align our own environment with the integrity of nature, we can seize the opportunity to appreciate nature's full potential *(its divine support)*. Some people might call this having a third eye, others might see it as God's divine protection; these are different but essentially similar paths.
 

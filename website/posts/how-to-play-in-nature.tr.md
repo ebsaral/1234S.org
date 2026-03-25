@@ -1,10 +1,10 @@
 ---
 name: dogada-nasil-oynamaliyiz
 title: Doğada nasıl oynamalıyız?
-subtitle: Hayat henüz bir oyun değil. Hayatı bir oyuna çevirebilmek için neler yapılabileceğine bakalım.
+subtitle: Hayat henüz bir oyun değil. Doğayı daha derin bir bakış açısıyla ele alalım ve hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-18
+updated: 2026-03-25
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -91,9 +91,11 @@ Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimi
 
 - Muhtemelen harika bir vizyona sahipsiniz çünkü siz *(veya atalarınız)* birçok canlının yaşamındaki sorunları çözmek hususunda çözüm bulmaya çalıştınız. Veya, doğanın sağlıklı *(uzun vadeli)* varlığı için önemli olan şeylere odaklanmanız bulunduğunuz çevrelerde engellendi.  
 
-Bu farkındalığın etrafında, **her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını anlayabiliriz. Doğa ile uyum içinde yaşayarak yeteneklerimizin *(hediyelerimizin)* iyileşmesini ve sürekliliğini sağlayabiliriz. Diğer canlıların refahını umursamadığımızda, Doğadaki Adalet gerekli olan takviyeleri o canlılara da sunar.**  
+Bu farkındalığın etrafında, her doğal hediyenin *(veya yeteneğin)* diğer canlılarla olan sosyal etkileşimler yoluyla kazanıldığını veya kaybedildiğini anlayabiliriz. Doğa ile uyum içinde yaşayarak yeteneklerimizin *(hediyelerimizin)* iyileşmesini ve sürekliliğini sağlayabiliriz. Diğer canlıların refahını umursamadığımızda, Doğadaki Adalet gerekli olan takviyeleri o canlılara da sunar. 
 
-Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca seçimlerimize göre şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
+Doğanın özünde, her canlı kalıtımsal olarak bütün hediyelere (yeteneklere) sahiptir. Bizde oluşan veya bize aktarılan yetenekler, ebeveynlerimizin gerçekleştirebilecekleri fakat fırsat eşitsizliklerinden dolayı gerçekleştiremedikleri yeteneklerdir. **Fırsatların herkese eşit olarak sunulduğu bir yönetim sisteminde, her canlı tüm doğal yeteneklere kavuşabilir.** Atalarımızın yarattığı fırsat eşitsizliklerini onarmak, tüm toplumun doğal yeteneklere kolayca ulaşmasını sağlar.
+
+Doğada sebepsiz yere diye bir kavram yoktur. Dolayısıyla, tüm armağanlarımızı doğrudan ve dolaylı olarak çevremizdeki canlılara borçluyuz. Yeteneklerimiz hayatımız boyunca seçimlerimize göre şekillenmeye devam eder. Doğanın adalet ölçeğinde olumlu tarafta kalmayı başaramazsak, yeteneklerimizi ve/veya sağlığımızı kaybedebiliriz.
 
 Ortak yaşantılarımızda yalnızca bencil kalmayı seçmemiz, doğanın çevreyi gözetmesi gerektiği anlarda varlığımızı görmezden gelmesine vesile olabilir. Kendi çevremizi doğanın bütünlüğüne ulaştırmaya yönelik olumlu çabalarımızı devam ettirirsek, doğanın bütün potansiyelini *(ilahi takviyelerini)* değerlendirme şansını yakalayabiliriz. Bazı insanlar bu durumu üçüncü göze sahip olmak olarak adlandırabilir, bazıları Tanrı'nın ilahi koruması olarak görebilir; farklı ama özünde benzer yollardır.  
 
