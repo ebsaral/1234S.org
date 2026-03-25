@@ -2,13 +2,13 @@
 
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
 import { useEffect, useRef, useState } from 'react';
 import { LuSparkles } from 'react-icons/lu';
 import { PiQuestionFill } from 'react-icons/pi';
 
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { Tooltip } from 'react-tooltip';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 
 const Intro = ({ id }: { id?: string }) => {
   const content = useIntlayer('intro-section');
@@ -117,8 +117,12 @@ const Intro = ({ id }: { id?: string }) => {
   }, []);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
+        <Tooltip
+          id='tooltip'
+          className='!bg-gray-900 !text-white font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-90'
+        />
         {/* Introduction */}
         <div className='mt-16 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
           <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>

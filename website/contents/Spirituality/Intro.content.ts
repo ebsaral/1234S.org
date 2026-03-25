@@ -26,10 +26,10 @@ const pageContent = {
     },
     paragraph1: t({
       en: md(
-        '**Logical Spirituality** is a system of thought that details the visible and invisible connections between living beings, centering on all feelings. It explains the principles of **Interconnectedness** and **Justice** around the conditions of physical and mental health in nature to understand universal truth starting from the perceptible individual reality.',
+        '**Logical Spirituality** is [a system of thought](){data-tooltip-id="tooltip" data-tooltip-content="The set of principles that form the foundation of a science or field of knowledge; philosophy."} that details the visible and invisible connections between living beings, centering on all feelings. It explains the principles of **Interconnectedness** and **Justice** around the conditions of physical and mental health in nature to understand universal truth starting from the perceptible individual reality.',
       ),
       tr: md(
-        '**Mantıksal Maneviyat** canlıların birbirleriyle olan görünür ve görünmez bağlarını, tüm hisleri odak noktasına alarak detaylandıran bir düşünce sistemidir. Hissedilebilen bireysel gerçekten yola çıkarak evrensel gerçeği anlayabilmek için, doğadaki fiziksel ve zihinsel sağlık koşullarının etrafında **Bütünlük** ve **Adalet** ilkelerini açıklar.',
+        '**Mantıksal Maneviyat** canlıların birbirleriyle olan görünür ve görünmez bağlarını, tüm hisleri odak noktasına alarak detaylandıran [bir düşünce sistemidir](){data-tooltip-id="tooltip" data-tooltip-content="Bir bilimin veya bilgi alanının temelini oluşturan ilkeler bütünü; felsefe."}. Hissedilebilen bireysel gerçekten yola çıkarak evrensel gerçeği anlayabilmek için, doğadaki fiziksel ve zihinsel sağlık koşullarının etrafında **Bütünlük** ve **Adalet** ilkelerini açıklar.',
       ),
     }),
     paragraph2: t({
