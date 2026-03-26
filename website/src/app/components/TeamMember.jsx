@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { getAge } from '../lib/utils';
 import CustomMarkdownLink from './Custom/CustomMarkdownLink';
@@ -52,8 +53,11 @@ const TeamMember = ({ member, index = 0 }) => {
           className={`grid ${hasDescription ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'} items-start justify-center mt-2`}
         >
           <CardContent className='group flex flex-col items-center justify-between gap-6'>
-            <div
+            <Link
               className={`rounded-full ${member.spin ? 'shadow-lg shadow-rose-500/60' : 'shadow-lg shadow-gray-500/60'} transition-all duration-300`}
+              href={member.image.src.value}
+              alt={`${member.name.value}: ${member.title?.value}`}
+              title={imageTitle()}
             >
               <Image
                 className={`size-[120px] sm:size-[120px] rounded-full ${member.spin ? 'animate-spin hover:animate-spin-slow hover:scale-105' : 'hover:scale-105 transition-transform duration-300'}`}
@@ -64,7 +68,7 @@ const TeamMember = ({ member, index = 0 }) => {
                 height={member.image.size.value}
                 priority={false}
               />
-            </div>
+            </Link>
             <div className='flex flex-col items-center gap-1'>
               <p className='text-center text-md sm:text-lg'>{member.name}</p>
               {member.profession && (
@@ -75,22 +79,22 @@ const TeamMember = ({ member, index = 0 }) => {
               {member.links && (
                 <div className='inline-flex gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
                   {member.links[0] && (
-                    <a
+                    <Link
                       className='p-2 inline-flex items-center justify-center hover:text-purple-900'
                       href={member.links[0].href.value}
                       title={member.links[0].text.value}
                     >
                       <LuGlobe size={20} />
-                    </a>
+                    </Link>
                   )}
                   {member.links[1] && (
-                    <a
+                    <Link
                       className='p-2 inline-flex items-center justify-center hover:text-purple-900'
                       href={member.links[1].href.value}
                       title={member.links[1].text.value}
                     >
                       <LuFileBadge size={20} />
-                    </a>
+                    </Link>
                   )}
                 </div>
               )}
