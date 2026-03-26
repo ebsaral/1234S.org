@@ -35,7 +35,7 @@ const pageContent = {
       tr: md('# Blog'),
     }),
     description: t({
-      en: md('Ideas, researches, facts, explanations, examples to detail **The Root of New Politics** mission.'),
+      en: md('Ideas, researches, facts, explanations and examples to detail **The Root of New Politics** mission.'),
       tr: md('**Yeni Siyasetin Kökeni** misyonunu detaylandıran fikirler, araştırmalar, gerçekler, açıklamalar ve örnekler.'),
     }),
     labels: {
