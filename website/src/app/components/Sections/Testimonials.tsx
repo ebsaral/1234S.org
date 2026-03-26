@@ -9,6 +9,7 @@ export default function Testimonials() {
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const hasMounted = useRef(false);
   const autoSlideRef = useRef<NodeJS.Timeout | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const slideSec = 5;
@@ -31,8 +32,12 @@ export default function Testimonials() {
     };
   }, [activeIndex, isHovered]);
 
-  // Scroll active item into view
   useEffect(() => {
+    if (!hasMounted.current) {
+      hasMounted.current = true;
+      return; // skip scroll on initial render
+    }
+
     const container = containerRef.current;
     if (!container) return;
     const activeItem = container.children[activeIndex] as HTMLElement;
