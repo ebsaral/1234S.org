@@ -35,8 +35,8 @@ const pageContent = {
           tr: 'Bir Din Görevlisi',
         }),
         text: t({
-          en: "It means that all the people we’ve listened to, by saying 'the command comes from above,' were just ordinary servants like us. Wow!",
-          tr: 'Emir büyük yerden diyerek dinlediğimiz insanların hepsi bizim gibi sıradan birer kuldu demek. Vay be!',
+          en: "It means that all the people we’ve listened to, by saying 'the command comes from above,' were just ordinary servants like us.",
+          tr: "Demek ki, 'emir büyük yerden' diyerek dinlediğimiz insanların hepsi, bizim gibi sıradan kullardı.",
         }),
       },
       {
@@ -45,8 +45,8 @@ const pageContent = {
           tr: 'Bir Öğretmen',
         }),
         text: t({
-          en: 'It wasn’t ignorance that was shameful, it was refusing to learn. Now, not doing is shameful. Let them worry now!',
-          tr: 'Bilmemek değil, öğrenmemek ayıptı. Artık yapmamak ayıp oldu. Şimdi onlar düşünsün!',
+          en: 'It wasn’t ignorance that was shameful, it was refusing to learn. Now, not doing is also shameful.',
+          tr: 'Bilmemek değil, öğrenmemek ayıptı. Artık yapmamak da ayıp oldu.',
         }),
       },
       {
@@ -55,7 +55,7 @@ const pageContent = {
           tr: 'Bir Profesör',
         }),
         text: t({
-          en: 'After receiving all those awards and diplomas, seeing that what I thought I knew is actually what I don’t know hurts a bit.',
+          en: 'After receiving all those awards and diplomas, seeing what I thought I knew is actually what I don’t know hurts a bit.',
           tr: 'Aldığım o kadar ödülden ve diplomadan sonra bildiklerimin aslında bilmediklerim olduğunu görmem biraz acıtmadı değil.',
         }),
       },
@@ -115,8 +115,8 @@ const pageContent = {
           tr: 'Bir Sanatçı',
         }),
         text: t({
-          en: 'Honestly, being able to see that we’re not much different from the other citizens is quite eye-opening. Good luck!',
-          tr: 'Diğer vatandaşlardan pek bir farkımızın olmadığını görebilmek epey ufuk açıcı oldu açıkçası. Nasip!',
+          en: 'Honestly, being able to see that we’re not much different from the other citizens is quite eye-opening.',
+          tr: 'Diğer vatandaşlardan pek bir farkımızın olmadığını görebilmek epey ufuk açıcı oldu açıkçası.',
         }),
       },
       {
