@@ -63,7 +63,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section className='relative w-full pt-20 pb-10 px-4 bg-gradient-to-br from-indigo-100 via-white to-emerald-100'>
+    <section className='relative w-full pt-20 pb-10 bg-gradient-to-br from-indigo-100 via-white to-emerald-100'>
       {/* Glow background */}
       <div className='absolute inset-0 blur-3xl opacity-30 bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400' />
 
