@@ -9,8 +9,8 @@ const metadataContent = {
       tr: 'Blog | 1234S.org',
     }),
     description: t({
-      en: 'Ideas, researches, facts, examples, explanations...',
-      tr: 'Fikirler, araştırmalar, gerçekler, örnekler, açıklamalar...',
+      en: 'Ideas, researches, facts, explanations and examples to detail The Root of New Politics mission.',
+      tr: 'Yeni Siyasetin Kökeni misyonunu detaylandıran fikirler, araştırmalar, gerçekler, açıklamalar ve örnekler.',
     }),
     applicationName: '1234S.org',
     authors: [
