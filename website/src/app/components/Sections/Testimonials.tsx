@@ -40,8 +40,16 @@ export default function Testimonials() {
 
     const container = containerRef.current;
     if (!container) return;
+
     const activeItem = container.children[activeIndex] as HTMLElement;
-    activeItem?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    if (!activeItem) return;
+
+    // Calculate center scroll position
+    const containerRect = container.getBoundingClientRect();
+    const itemRect = activeItem.getBoundingClientRect();
+
+    const offset = itemRect.left - containerRect.left - (containerRect.width / 2 - itemRect.width / 2);
+    container.scrollBy({ left: offset, behavior: 'smooth' });
   }, [activeIndex]);
 
   // Keyboard navigation
