@@ -55,3 +55,13 @@ export interface HomePageContent {
     }[];
   };
 }
+
+export interface TestimonialsContent {
+  title: string;
+  items: {
+    name: string;
+    text: string;
+  }[];
+  prev: string;
+  next: string;
+}

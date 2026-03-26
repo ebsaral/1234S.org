@@ -10,6 +10,7 @@ import AnimatedLogo from '../Custom/AnimatedLogo';
 import Title from '../Custom/Title';
 import Research from '../Sections/Research';
 import Team from '../Sections/Team';
+import Testimonials from '../Sections/Testimonials';
 
 const Home = () => {
   const metadata = useIntlayer('page-metadata');
@@ -34,6 +35,7 @@ const Home = () => {
 
           <Research />
         </div>
+        <Testimonials />
         <Team />
       </main>
     </MarkdownProvider>
