@@ -4,7 +4,7 @@ title: The Scamming Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-25
+updated: 2026-03-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -55,8 +55,6 @@ In addition to large corporations extensively controlling our devices and influe
 - Changes in hardware settings that affect your vehicle's fuel consumption and to cause more spendings.
 and much more… 
 
-> One of the cars I have tested this with is a 2011 model Fiat Fiorino; all these software control is already embedded in its hardware during production.
-
 The software products of large tech companies *(YouTube, Google Maps, ChatGPT, Google Docs, Copilot, etc.)* can create different or unexpected results that can instantly influence our behavior. Deliberately presented translation errors, information and location changes allow misinformation to spread around users and trigger incorrect action choices. At the same time, they attempt to influence your choices, attention, or emotions by making subtle changes to the images and text on your screen at different frequencies and positions. Because all devices and applications work interconnectedly, the choices and presentations within their products can appear different than they actually are; the promotions of their political allies/partners are prioritized illegally. I don't know which other software companies are also working with this central management system.
 
 The devices we use are like both mental and physical weapons; they can be more harmful than we realize. Mental health problems resulting from deliberate sensory conditioning include tics, low self-esteem, paranoia/suspicion, hopelessness, anger, and fear. Remote changes to the settings of any device or vehicle can lead to suicides or fatal accidents. Although most devices have very high-quality hardware, malfunctions that don't actually exist are attributed to customer misuse. As a process in time, changes are being implemented that could cause permanent harm to any citizen or to the environment. 
@@ -76,6 +74,8 @@ Most invisible data transfers on devices are done via satellites. I do not yet k
 I hope you can finally understand the kind of global criminal network we're facing within the AI-powered Big Tech devices we use in our daily lives. It's also necessary to investigate how illicit private companies in modern countries form partnerships with monarchical governments. Together, these companies contribute to numerous illnesses and accidents, as well as global sustainability crises. Furthermore, their manipulation of the synchronization of nature for their own gain continues to hinder many opportunities for the public.
 
 The illegal business structures of Big Tech Companies can be discovered and stopped quickly by governments. The fact that no government has yet taken the necessary steps and that crimes are being tolerated continues to harm all citizens. It's important to understand that giant AI robots are merely distractions compared to these clandestine, illicit high-tech inventions in today's modern world. **I haven't yet found anyone, or any organization, interested in investigating and sharing this information with the public. I have been experiencing almost all of the problems I wrote above for more than 10 years.** 
+
+> Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, 2011 model Fiat Fiorino, Toshiba Satellite L755.
 
 If you know of anyone or any organization that could assist me with this matter, which concerns the health and safety of the society, please contact me: you can visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email me at [ebsaral@icloud.com](mailto:ebsaral@icloud.com).
 
