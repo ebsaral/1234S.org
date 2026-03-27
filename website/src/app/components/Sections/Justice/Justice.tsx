@@ -1,9 +1,6 @@
 'use client';
 
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useIntlayer } from 'next-intlayer';
 
 import Consequences from '@/app/components/Sections/Justice/Consequences';
 import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
@@ -11,6 +8,8 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
 import { LiaBalanceScaleSolid } from 'react-icons/lia';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
+import ReadingSuggestion from '../../Custom/ReadingSuggestion';
 
 const Justice = ({ id }: { id?: string }) => {
   const sectionKey = 'justice';
@@ -26,7 +25,7 @@ const Justice = ({ id }: { id?: string }) => {
   }, [isIntersecting]);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
         <article className='prose-custom-all max-w-4xl mx-auto px-6'>
           <div className='w-full mx-auto text-center'>
@@ -56,6 +55,7 @@ const Justice = ({ id }: { id?: string }) => {
           <Consequences />
         </div>
         <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph4}</article>
+        <ReadingSuggestion className='mb-24' content={content.reading} />
       </section>
     </MarkdownProvider>
   );

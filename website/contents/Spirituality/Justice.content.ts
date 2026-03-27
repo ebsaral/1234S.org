@@ -32,6 +32,7 @@ interface JusticeContent {
       result: string;
     }[];
   };
+  reading: string;
 }
 
 const pageContent = {
@@ -193,6 +194,14 @@ const pageContent = {
         tr: 'Olumlu eylemler (seçimler) ise doğadaki adaletin ödül olarak sunduğu sonuçlara vesile olur.',
       }),
     },
+    reading: t({
+      en: md(
+        'To better understand the importance of reading nature, please read our article titled **[Reading Habit](/en/blog/reading-habit)**.',
+      ),
+      tr: md(
+        'Doğayı okuyabilmenin önemini daha iyi anlayabilmek için, **[Okuma Alışkanlığı](/tr/blog/okuma-aliskanligi)** başlıklı yazımızı okuyunuz.',
+      ),
+    }),
   },
 } satisfies Dictionary<JusticeContent>;
 
