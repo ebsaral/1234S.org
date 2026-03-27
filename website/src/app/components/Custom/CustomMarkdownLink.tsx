@@ -4,9 +4,9 @@ import { ExtraProps } from 'react-markdown';
 type AnchorProps = ComponentProps<'a'> & ExtraProps;
 
 const CustomMarkdownLink = ({ href, children, node }: AnchorProps) => {
-  const tooltip = (node?.properties as any)?.['data-tooltip-id'];
-  const content = (node?.properties as any)?.['data-tooltip-content'];
-  const place = (node?.properties as any)?.['data-tooltip-place'] || 'top';
+  const tooltip = node?.properties?.['data-tooltip-id'];
+  const content = node?.properties?.['data-tooltip-content'];
+  const place = node?.properties?.['data-tooltip-place'] || 'top';
 
   if (tooltip && content) {
     return (
