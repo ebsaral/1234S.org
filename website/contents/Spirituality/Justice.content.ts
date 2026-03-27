@@ -56,7 +56,7 @@ const pageContent = {
     }),
     paragraph1: t({
       en: md(
-        'The Creator ensures justice in nature by intervening in the connections between our feelings; transforming beings into elements necessary for balance. The health conditions needed for the principles of equality and freedom allow harmony at different times and in various ways. For physical health to be used positively, the factors of chance and talent, which are the balancing tools of mental health, are shaped.',
+        'The Creator ensures the justice in nature by intervening in the connections between our feelings; transforming beings into elements necessary for balance. The health conditions needed for the principles of equality and freedom allow harmony at different times and in various ways. For physical health to be used positively, the factors of chance and talent, which are the balancing tools of mental health, are shaped.',
       ),
       tr: md(
         'Yaradan, hislerimiz arasındaki bağlara müdahale ederek doğadaki adaleti sağlar; varlıkları denge için gerekli unsurlara dönüştürür. Eşitlik ve özgürlük ilkeleri için ihtiyaç duyulan sağlık koşulları farklı zamanlarda ve şekillerde uyumu sağlar. Fiziksel ve zihinsel sağlığımızı olumlu bir biçimde kullanabilmemiz için denge araçları olan şans ve yetenek faktörleri şekillenir.',
@@ -80,10 +80,10 @@ const pageContent = {
     }),
     paragraph4: t({
       en: md(
-        '**Any teaching, knowledge or belief may not align with the balance of justice in nature.** Because the Creator always knows the true intentions behind our actions in nature, the consequences of our actions will manifest in our health when necessary. In situations where the justice of nature must prevail, no power or technology will ever exist to prevent it.',
+        'Any teaching, knowledge or belief may not align with the justice balance of nature. Because the Creator always knows the true intentions behind our actions in nature, the consequences of our actions will manifest in our health when necessary. In situations where the justice of nature must prevail, no power or technology will ever exist to prevent it.',
       ),
       tr: md(
-        '**Herhangi bir öğreti, bilgi veya inanış, doğadaki adalet dengesiyle örtüşmeyebilir.** Yaradan doğada gerçekleştirdiğimiz eylemlerimizin gerçek niyetlerini her zaman bildiği için, eylemlerimizin oluşturacağı sonuçlar sağlığımızda gerektiği zaman tezahür eder. Doğadaki adaletin tecelli etmesi gerektiği durumlarda önüne geçebilecek herhangi bir güç veya teknoloji hiçbir zaman var olmayacaktır.',
+        'Herhangi bir öğreti, bilgi veya inanış, doğadaki adalet dengesiyle örtüşmeyebilir. Yaradan, doğada gerçekleştirdiğimiz eylemlerimizin gerçek niyetlerini her zaman bildiği için, eylemlerimizin oluşturacağı sonuçlar sağlığımızda gerektiği zaman tezahür eder. Doğadaki adaletin tecelli etmesi gerektiği durumlarda önüne geçebilecek herhangi bir güç veya teknoloji hiçbir zaman var olmayacaktır.',
       ),
     }),
     equality: {
@@ -128,8 +128,8 @@ const pageContent = {
     }),
     consequences: {
       title: t({
-        en: 'You can understand how justice in nature generally applies punishment from this example table:',
-        tr: 'Doğadaki adaletin genel olarak nasıl cezalandırdığını bu örnek tablodan anlayabilirsiniz:',
+        en: 'You can understand how the justice in nature generally applies punishment from this example table.',
+        tr: 'Doğadaki adaletin genel olarak nasıl cezalandırdığını bu örnek tablodan anlayabilirsiniz.',
       }),
       labels: {
         source: t({

@@ -63,8 +63,8 @@ const Consequences = () => {
 
   return (
     <MarkdownProvider>
-      <div className='flex flex-col items-left gap-0'>
-        <div className='text-base px-5 mb-5 text-left'>{content.consequences.title}</div>
+      <div className='flex flex-col items-left gap-0 bg-gradient-to-br from-indigo-100 via-white to-red-100 p-4 rounded-2xl'>
+        <div className='text-base px-5 my-5 text-left '>{content.consequences.title}</div>
         <div ref={ref} className='consequences'>
           <div className='header row '>
             <div className='text-blue-600'>
@@ -96,9 +96,9 @@ const Consequences = () => {
             );
           })}
         </div>
-        <div className='inline-flex items-start gap-2 text-base px-5 my-5 text-left'>
-          <div>
-            <RiInformation2Fill className='text-emerald-700' size={24} />
+        <div className='inline-flex items-start gap-4 text-base p-5 text-left font-medium text-gray-900'>
+          <div className='flex items-center justify-center w-8 h-8 aspect-square'>
+            <RiInformation2Fill className='text-emerald-700 w-full h-full' />
           </div>
           {content.consequences.note}
         </div>
