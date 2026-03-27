@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import { FaAnglesRight } from 'react-icons/fa6';
-import { LuCircleDashed, LuCircleDot, LuCircleDotDashed } from 'react-icons/lu';
 import { RiInformation2Fill } from 'react-icons/ri';
 import { MarkdownProvider, useIntlayer } from 'react-intlayer';
 import Markdown from 'react-markdown';
@@ -70,15 +69,12 @@ const Consequences = () => {
         <div ref={ref} className='consequences'>
           <div className='header row '>
             <div className='text-blue-600'>
-              <LuCircleDot className='icon ' />
               <span>{content.consequences.labels.source}</span>
             </div>
             <div className='text-red-600'>
-              <LuCircleDotDashed className='icon ' />
               <span>{content.consequences.labels.means}</span>
             </div>
             <div className='text-red-700'>
-              <LuCircleDashed className='icon ' />
               <span>{content.consequences.labels.result}</span>
             </div>
           </div>
