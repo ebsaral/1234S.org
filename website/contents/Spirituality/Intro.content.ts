@@ -26,10 +26,10 @@ const pageContent = {
     },
     paragraph1: t({
       en: md(
-        '**Logical Spirituality** is [a system of thought](){data-tooltip-id="tooltip" data-tooltip-content="The set of principles that form the foundation of a science or field of knowledge; philosophy."} that details the visible and invisible connections between living beings, centering on all feelings. It explains the principles of **Interconnectedness** and **Justice** around the conditions of physical and mental health in nature to understand universal truth starting from the perceptible individual reality.',
+        '**Logical Spirituality**, to better understand the universal truth, is [a system of thought](){data-tooltip-id="tooltip" data-tooltip-content="The set of principles that form the foundation of a science or field of knowledge; philosophy."} that explains the visible and invisible bonds between living beings by centering on all feelings. It elaborates the perceptible individual reality around the broad observation of physical and mental health in nature through the principles of **Interconnectedness** and **Justice**.',
       ),
       tr: md(
-        '**Mantıksal Maneviyat** canlıların birbirleriyle olan görünür ve görünmez bağlarını, tüm hisleri odak noktasına alarak detaylandıran [bir düşünce sistemidir](){data-tooltip-id="tooltip" data-tooltip-content="Bir bilimin veya bilgi alanının temelini oluşturan ilkeler bütünü; felsefe."}. Hissedilebilen bireysel gerçekten yola çıkarak evrensel gerçeği anlayabilmek için, doğadaki fiziksel ve zihinsel sağlık koşullarının etrafında **Bütünlük** ve **Adalet** ilkelerini açıklar.',
+        '**Mantıksal Maneviyat**, evrensel gerçeği daha iyi anlayabilmek için, tüm hisleri odak noktasına alarak canlıların birbirleriyle olan görünür ve görünmez bağlarını açıklayan [bir düşünce sistemidir](){data-tooltip-id="tooltip" data-tooltip-content="Bir bilimin veya bilgi alanının temelini oluşturan ilkeler bütünü; felsefe."}. **Bütünlük** ve **Adalet** ilkeleriyle, doğadaki fiziksel ve zihinsel sağlık koşullarının kapsamlı gözlemi etrafında hissedilebilen bireysel gerçeği detaylandırır.',
       ),
     }),
     paragraph2: t({

@@ -9,8 +9,8 @@ const pageContent = {
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md('A link to the blog article about the importance of reading nature is added to Justice section.'),
-      tr: md('Doğayı okumanın önemini anlatan içeriğin bağlantısı Adalet kısmına eklendi.'),
+      en: md('The description text in Introduction section is updated.'),
+      tr: md('Giriş kısmındaki açıklama metni güncellendi.'),
     }),
   },
 } satisfies Dictionary;
