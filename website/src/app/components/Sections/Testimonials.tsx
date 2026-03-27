@@ -121,8 +121,21 @@ export default function Testimonials() {
             );
           })}
         </div>
+        {/* Slider Dots */}
+        <div className='flex justify-center gap-3 mt-4'>
+          {content.items.map((_, i) => {
+            const isActive = i === activeIndex;
+            return (
+              <button
+                key={i}
+                onClick={() => setActiveIndex(i)}
+                className={`w-3 h-3 rounded-full transition-colors ${isActive ? 'bg-indigo-600' : 'bg-gray-400/60'}`}
+              />
+            );
+          })}
+        </div>
         {/* Controls */}
-        <div className='mt-10 flex justify-center gap-4'>
+        <div className='mt-4 flex justify-center gap-4'>
           <button onClick={slidePrev} className='bg-white/80 hover:bg-white shadow px-4 py-2 rounded-lg'>
             ← {content.prev}
           </button>
