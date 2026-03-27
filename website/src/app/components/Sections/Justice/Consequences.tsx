@@ -1,9 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { FaAnglesRight } from 'react-icons/fa6';
 import { RiInformation2Fill } from 'react-icons/ri';
-import { MarkdownProvider, useIntlayer } from 'react-intlayer';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useIntlayer } from 'react-intlayer';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 
 const Consequences = () => {
   const content = useIntlayer(`justice-section`);
@@ -63,7 +62,7 @@ const Consequences = () => {
   }, []);
 
   return (
-    <MarkdownProvider renderMarkdown={(md) => <Markdown remarkPlugins={[remarkGfm]}>{md}</Markdown>}>
+    <MarkdownProvider>
       <div className='flex flex-col items-left gap-0'>
         <div className='text-base px-5 mb-5 text-left'>{content.consequences.title}</div>
         <div ref={ref} className='consequences'>
