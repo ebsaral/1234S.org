@@ -98,17 +98,24 @@ export default function Testimonials() {
                 className={`cursor-pointer flex-shrink-0 snap-center w-[85%] sm:w-[55%] lg:w-[30%] z-10`}
               >
                 <div
-                  className={`relative h-full p-8 rounded-3xl border backdrop-blur-xl transition-all ${
+                  className={`relative h-full p-8 rounded-3xl border backdrop-blur-xl transition-all flex flex-col ${
                     isActive
                       ? 'bg-white/90 border-indigo-300 shadow-2xl ring-2 ring-indigo-400'
                       : 'bg-white/60 border-white/40'
                   }`}
                 >
-                  {/* Glow */}
-                  <div className='absolute inset-0 rounded-3xl bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 opacity-10 blur-xl' />
+                  {/* Content wrapper */}
+                  <div className='flex flex-col justify-between h-full'>
+                    {/* Centered quote */}
+                    <div className='flex-1 flex items-center justify-center text-center'>
+                      <p className='text-lg text-gray-700 leading-relaxed max-w-md'>“{item.text}”</p>
+                    </div>
 
-                  <p className='text-lg text-gray-700 mb-6 leading-relaxed'>“{item.text}”</p>
-                  <div className='font-semibold text-indigo-600'>{item.name}</div>
+                    {/* Bottom name */}
+                    <div className='pt-6 text-center'>
+                      <div className='font-semibold text-indigo-600'>{item.name}</div>
+                    </div>
+                  </div>
                 </div>
               </motion.div>
             );
