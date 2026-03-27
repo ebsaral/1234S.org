@@ -1,15 +1,14 @@
 'use client';
 import { useMenu } from '@/app/hooks/useMenu';
-import { MarkdownRenderer, useIntlayer } from 'next-intlayer';
 
 import { LocalePostPair } from '@/app/lib/posts';
 import { getLocalizedUrl } from 'intlayer';
-import { useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { FaRedhat } from 'react-icons/fa';
 import { LuCircleChevronLeft, LuFilePen, LuFilePlus } from 'react-icons/lu';
+import { useIntlayer, useLocale } from 'react-intlayer';
 
 import { Tooltip } from 'react-tooltip';
 import MarkdownProvider from '../Custom/MarkdownProvider';
@@ -53,9 +52,9 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
     );
   }
   return (
-    <main>
-      <Title title={item.metadata.title + ' - ' + metadata.title.value} />
-      <MarkdownProvider>
+    <MarkdownProvider>
+      <main>
+        <Title title={item.metadata.title + ' - ' + metadata.title.value} />
         <section id={id} className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gray-50'>
           <div
             className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
@@ -143,9 +142,7 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
               </a>
             </div>
             <Tooltip id='tooltip' className='font-medium p-2 rounded-md shadow-lg max-w-xs' />
-            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto'>
-              <MarkdownRenderer>{item.content}</MarkdownRenderer>
-            </article>
+            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto'>{item.content}</article>
           </div>
           <div className='relative z-10 max-w-2xl mx-auto mt-10 flex items-center justify-center'>
             <Link
@@ -163,8 +160,8 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
             </Link>
           </div>
         </section>
-      </MarkdownProvider>
-    </main>
+      </main>
+    </MarkdownProvider>
   );
 };
 

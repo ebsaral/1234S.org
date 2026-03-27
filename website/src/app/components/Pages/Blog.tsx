@@ -4,10 +4,10 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
-import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { LuArrowDownWideNarrow, LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
+import { useIntlayer, useLocale } from 'react-intlayer';
 import readingTime from 'reading-time';
 import CustomPencil from '../Custom/CustomPencil';
 import Filter from '../Custom/Filter';
@@ -69,9 +69,9 @@ const Blog = ({ posts }: { posts: Post[] }) => {
   };
 
   return (
-    <main>
-      <Title title={metadata.title.value} />
-      <MarkdownProvider>
+    <MarkdownProvider>
+      <main>
+        <Title title={metadata.title.value} />
         <section
           id={id}
           className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100'
@@ -165,8 +165,8 @@ const Blog = ({ posts }: { posts: Post[] }) => {
             })}
           </div>
         </section>
-      </MarkdownProvider>
-    </main>
+      </main>
+    </MarkdownProvider>
   );
 };
 

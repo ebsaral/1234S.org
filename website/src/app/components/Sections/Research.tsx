@@ -1,12 +1,10 @@
 'use client';
 
 import { getLocalizedUrl } from 'intlayer';
-import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { useLocale } from 'react-intlayer';
-import MarkdownProvider from '../Custom/MarkdownProvider';
+import { useIntlayer, useLocale } from 'react-intlayer';
 
 type BeatStyle = {
   borderColor: string;
@@ -74,7 +72,7 @@ const Research = () => {
   }, [jamMode, content.projects.items.length]);
 
   return (
-    <MarkdownProvider>
+    <>
       <div className='max-w-5xl mx-auto w-full pt-10 research'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
           {content.projects.title}
@@ -121,10 +119,10 @@ const Research = () => {
                     ? {
                         border: `${JAM_CONFIG.borderWidth}px solid ${style.borderColor}`,
                         boxShadow: `
-                          0 0 ${glow}px ${style.glowColor},
-                          0 0 ${glow * 2}px ${style.glowColor},
-                          inset 0 0 ${glow / 2}px ${style.glowColor}
-                        `,
+                        0 0 ${glow}px ${style.glowColor},
+                        0 0 ${glow * 2}px ${style.glowColor},
+                        inset 0 0 ${glow / 2}px ${style.glowColor}
+                      `,
                         animation: `jamBeat ${style.duration}s ease-in-out ${style.delay}s infinite`,
                         transform: `scale(${style.scale})`,
                         willChange: 'transform, box-shadow',
@@ -170,7 +168,7 @@ const Research = () => {
             transform 0.15s ease;
         }
       `}</style>
-    </MarkdownProvider>
+    </>
   );
 };
 

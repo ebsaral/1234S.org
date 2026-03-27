@@ -2,22 +2,20 @@
 
 import { useIntlayer } from 'next-intlayer';
 import { LuSun, LuTreePine } from 'react-icons/lu';
-import MarkdownProvider from '../../Custom/MarkdownProvider';
 
 const Statement = ({ className }: { className?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <MarkdownProvider>
-      <section className={`relative mx-auto py-12 px-6 ${className}`}>
-        {/* fractal background */}
-        <div className='absolute inset-0 bg-effect opacity-70' />
+    <section className={`relative mx-auto py-12 px-6 ${className}`}>
+      {/* fractal background */}
+      <div className='absolute inset-0 bg-effect opacity-70' />
 
-        <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-14 bg-green-100/90 rounded-2xl text-center text-lg sm:text-xl'>
-          {/* Background Icon */}
-          <LuSun
-            className='
+      <article className='relative z-10 prose-custom-all max-w-4xl mx-auto py-4 px-14 bg-green-100/90 rounded-2xl text-center text-lg sm:text-xl'>
+        {/* Background Icon */}
+        <LuSun
+          className='
           absolute
           -top-[120px] -left-24
           z-20
@@ -28,9 +26,9 @@ const Statement = ({ className }: { className?: string }) => {
           pointer-events-none
           select-none
         '
-          />
-          <LuTreePine
-            className='
+        />
+        <LuTreePine
+          className='
           absolute
           -bottom-[25px] right-[4px]
           w-28 h-28
@@ -40,11 +38,10 @@ const Statement = ({ className }: { className?: string }) => {
           pointer-events-none
           select-none
         '
-          />
-          {content.statement}
-        </article>
-      </section>
-    </MarkdownProvider>
+        />
+        {content.statement}
+      </article>
+    </section>
   );
 };
 

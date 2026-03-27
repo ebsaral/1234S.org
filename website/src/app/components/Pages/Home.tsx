@@ -1,8 +1,8 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
+import { useIntlayer } from 'react-intlayer';
 
 import AnimatedLogo from '../Custom/AnimatedLogo';
 import MarkdownProvider from '../Custom/MarkdownProvider';

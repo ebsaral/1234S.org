@@ -10,7 +10,6 @@ import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
-import MarkdownProvider from '../../Custom/MarkdownProvider';
 import ReadingSuggestion from '../../Custom/ReadingSuggestion';
 import Quote from '../Quote';
 
@@ -32,65 +31,63 @@ const Health = ({ id }: { id?: string }) => {
   }, [isIntersecting]);
 
   return (
-    <MarkdownProvider>
-      <section id={id} ref={ref} className='relative max-w-screen mx-auto'>
-        {/* Background Color */}
-        <div className={`-z-10 absolute inset-0 bg-rose-50`} />
+    <section id={id} ref={ref} className='relative max-w-screen mx-auto'>
+      {/* Background Color */}
+      <div className={`-z-10 absolute inset-0 bg-rose-50`} />
 
-        {/* Gradient Overlay */}
-        <div className={`-z-10 absolute inset-0 bg-gradient-to-br from-rose-50 to-pink-50 opacity-80`} />
-        <Statement className='border-b-2 border-green-700/80' />
+      {/* Gradient Overlay */}
+      <div className={`-z-10 absolute inset-0 bg-gradient-to-br from-rose-50 to-pink-50 opacity-80`} />
+      <Statement className='border-b-2 border-green-700/80' />
 
-        <div className='relative max-w-4xl mx-auto px-4'>
-          {/* Header */}
-          <div className='mx-auto'>
-            <div className='relative -top-0 flex flex-col items-center h-32 overflow-hidden'>
-              <div className='relative -top-32'>
-                <LuHeart className='text-rose-600' size={250} />
-              </div>
+      <div className='relative max-w-4xl mx-auto px-4'>
+        {/* Header */}
+        <div className='mx-auto'>
+          <div className='relative -top-0 flex flex-col items-center h-32 overflow-hidden'>
+            <div className='relative -top-32'>
+              <LuHeart className='text-rose-600' size={250} />
             </div>
-
-            <div
-              className={`group z-20 relative -mt-24  mb-0 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-rose-600`}
-            >
-              <TiHeartFullOutline className='transition-all duration-300 group-hover:scale-110' size={40} />
-            </div>
-
-            <article className='prose-custom-all -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>
-              <h2 className='text-center mb-8'>{content.title}</h2>
-              <h3 className='text-center'>
-                <b>
-                  <em>{content.subtitle}</em>
-                </b>
-              </h3>
-            </article>
-
-            <Quote text={content.quote.value} />
           </div>
+
+          <div
+            className={`group z-20 relative -mt-24  mb-0 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-rose-600`}
+          >
+            <TiHeartFullOutline className='transition-all duration-300 group-hover:scale-110' size={40} />
+          </div>
+
+          <article className='prose-custom-all -mt-4 sm:-mt-10 md:-mt-12 lg:-mt-16 w-full mx-auto'>
+            <h2 className='text-center mb-8'>{content.title}</h2>
+            <h3 className='text-center'>
+              <b>
+                <em>{content.subtitle}</em>
+              </b>
+            </h3>
+          </article>
+
+          <Quote text={content.quote.value} />
         </div>
+      </div>
 
-        <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.description}</article>
+      <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.description}</article>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph1}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph1}</article>
 
-        <div className='relative max-w-5xl mx-auto px-4'>
-          <Analogy className='mx-auto' />
-        </div>
+      <div className='relative max-w-5xl mx-auto px-4'>
+        <Analogy className='mx-auto' />
+      </div>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 px-6 sm:px-10'>
-          {content.paragraph2}
-        </article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 px-6 sm:px-10'>
+        {content.paragraph2}
+      </article>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph3}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph3}</article>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph4}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph4}</article>
 
-        <ReadingSuggestion className='mt-12 mb-24 z-10' content={content.reading} />
+      <ReadingSuggestion className='mt-12 mb-24 z-10' content={content.reading} />
 
-        {/* Decorative Elements */}
-        <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
-      </section>
-    </MarkdownProvider>
+      {/* Decorative Elements */}
+      <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
+    </section>
   );
 };
 

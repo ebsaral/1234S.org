@@ -1,8 +1,8 @@
 'use client';
 
-import { useIntlayer } from 'next-intlayer';
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
 import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
+import { useIntlayer } from 'react-intlayer';
 import MarkdownProvider from './Custom/MarkdownProvider';
 
 const Footer = () => {

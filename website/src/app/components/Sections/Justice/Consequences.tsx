@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { FaAnglesRight } from 'react-icons/fa6';
 import { RiInformation2Fill } from 'react-icons/ri';
 import { useIntlayer } from 'react-intlayer';
-import MarkdownProvider from '../../Custom/MarkdownProvider';
 
 const Consequences = () => {
   const content = useIntlayer(`justice-section`);
@@ -62,48 +61,46 @@ const Consequences = () => {
   }, []);
 
   return (
-    <MarkdownProvider>
-      <div className='flex flex-col items-left gap-0 bg-gradient-to-br from-indigo-100 via-white to-red-100 p-4 rounded-2xl'>
-        <div className='text-base px-5 my-5 text-left '>{content.consequences.title}</div>
-        <div ref={ref} className='consequences'>
-          <div className='header row '>
-            <div className='text-blue-600'>
-              <span>{content.consequences.labels.source}</span>
-            </div>
-            <div className='text-red-600'>
-              <span>{content.consequences.labels.means}</span>
-            </div>
-            <div className='text-red-700'>
-              <span>{content.consequences.labels.result}</span>
-            </div>
+    <div className='flex flex-col items-left gap-0 bg-gradient-to-br from-indigo-100 via-white to-red-100 p-4 rounded-2xl'>
+      <div className='text-base px-5 my-5 text-left '>{content.consequences.title}</div>
+      <div ref={ref} className='consequences'>
+        <div className='header row '>
+          <div className='text-blue-600'>
+            <span>{content.consequences.labels.source}</span>
           </div>
+          <div className='text-red-600'>
+            <span>{content.consequences.labels.means}</span>
+          </div>
+          <div className='text-red-700'>
+            <span>{content.consequences.labels.result}</span>
+          </div>
+        </div>
 
-          {content.consequences.items.map((item, index) => {
-            return (
-              <div key={index} className='row row-item'>
-                <div className=''>
-                  <span>{item.source}</span>
-                </div>
-                <div className=''>
-                  <FaAnglesRight className='icon animate-slide-to-right' />
-                  <span>{item.means}</span>
-                </div>
-                <div className=''>
-                  <FaAnglesRight className='icon animate-slide-to-right' />
-                  <span>{item.result}</span>
-                </div>
+        {content.consequences.items.map((item, index) => {
+          return (
+            <div key={index} className='row row-item'>
+              <div className=''>
+                <span>{item.source}</span>
               </div>
-            );
-          })}
-        </div>
-        <div className='inline-flex items-start gap-4 text-base p-5 text-left font-medium text-gray-900'>
-          <div className='flex items-center justify-center w-8 h-8 aspect-square'>
-            <RiInformation2Fill className='text-emerald-700 w-full h-full' />
-          </div>
-          {content.consequences.note}
-        </div>
+              <div className=''>
+                <FaAnglesRight className='icon animate-slide-to-right' />
+                <span>{item.means}</span>
+              </div>
+              <div className=''>
+                <FaAnglesRight className='icon animate-slide-to-right' />
+                <span>{item.result}</span>
+              </div>
+            </div>
+          );
+        })}
       </div>
-    </MarkdownProvider>
+      <div className='inline-flex items-start gap-4 text-base p-5 text-left font-medium text-gray-900'>
+        <div className='flex items-center justify-center w-8 h-8 aspect-square'>
+          <RiInformation2Fill className='text-emerald-700 w-full h-full' />
+        </div>
+        {content.consequences.note}
+      </div>
+    </div>
   );
 };
 

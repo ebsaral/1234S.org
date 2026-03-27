@@ -1,13 +1,12 @@
 'use client';
 
-import { useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'react-intlayer';
 
 import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef, useState } from 'react';
 import { LuMessageCircleQuestion } from 'react-icons/lu';
-import MarkdownProvider from '../../Custom/MarkdownProvider';
 import AccordionItem from './AccordionItem';
 
 const HEADER_OFFSET = 96;
@@ -67,49 +66,47 @@ const FAQ = ({ id }: { id?: string }) => {
   };
 
   return (
-    <MarkdownProvider>
-      <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
-        <article className='prose-custom-all max-w-4xl mx-auto px-6'>
-          <div className='w-full mx-auto text-center'>
-            <LuMessageCircleQuestion className='relative -z-10 mx-auto text-orange-200/80' size={250} />
-            <h2 className={`-mt-44`}>{content.title}</h2>
-            <div className='group mt-16 lg:-mt-2 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-orange-600'>
-              <LuMessageCircleQuestion className='transition-all duration-300 group-hover:scale-110' size={40} />
-            </div>
+    <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
+      <article className='prose-custom-all max-w-4xl mx-auto px-6'>
+        <div className='w-full mx-auto text-center'>
+          <LuMessageCircleQuestion className='relative -z-10 mx-auto text-orange-200/80' size={250} />
+          <h2 className={`-mt-44`}>{content.title}</h2>
+          <div className='group mt-16 lg:-mt-2 mx-auto flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg transition-all duration-300 hover:scale-110 text-orange-600'>
+            <LuMessageCircleQuestion className='transition-all duration-300 group-hover:scale-110' size={40} />
           </div>
-          <div className='prose-custom-all max-w-4xl mx-auto my-16 text-center'>{content.description}</div>
-        </article>
-        <div className='max-w-4xl mx-auto mb-16 pl-4 sm:px-6 space-y-8' role='region' aria-label={content.title.value}>
-          {content.items.map((faq, i) => {
-            const isOpen = open.includes(i);
-            const panelId = `faq-panel-${i}`;
-            const buttonId = `faq-button-${i}`;
-
-            return (
-              <div key={i} className='scroll-mt-24'>
-                <AccordionItem
-                  key={i}
-                  ref={(el) => {
-                    itemRefs.current[i] = el;
-                  }}
-                  buttonRef={(el) => (buttonRefs.current[i] = el)}
-                  isOpen={isOpen}
-                  onToggle={() => toggle(i)}
-                  onOpened={() => handleOpened(i)}
-                  onKeyDown={(e) => onKeyDown(e, i)}
-                  question={faq.title}
-                  answer={faq.subtitle}
-                  panelId={panelId}
-                  buttonId={buttonId}
-                  index={i + 1}
-                />
-              </div>
-            );
-          })}
         </div>
-        <article className='prose-custom-all max-w-4xl mx-auto px-6 mb-16'>{content.contact}</article>
-      </section>
-    </MarkdownProvider>
+        <div className='prose-custom-all max-w-4xl mx-auto my-16 text-center'>{content.description}</div>
+      </article>
+      <div className='max-w-4xl mx-auto mb-16 pl-4 sm:px-6 space-y-8' role='region' aria-label={content.title.value}>
+        {content.items.map((faq, i) => {
+          const isOpen = open.includes(i);
+          const panelId = `faq-panel-${i}`;
+          const buttonId = `faq-button-${i}`;
+
+          return (
+            <div key={i} className='scroll-mt-24'>
+              <AccordionItem
+                key={i}
+                ref={(el) => {
+                  itemRefs.current[i] = el;
+                }}
+                buttonRef={(el) => (buttonRefs.current[i] = el)}
+                isOpen={isOpen}
+                onToggle={() => toggle(i)}
+                onOpened={() => handleOpened(i)}
+                onKeyDown={(e) => onKeyDown(e, i)}
+                question={faq.title}
+                answer={faq.subtitle}
+                panelId={panelId}
+                buttonId={buttonId}
+                index={i + 1}
+              />
+            </div>
+          );
+        })}
+      </div>
+      <article className='prose-custom-all max-w-4xl mx-auto px-6 mb-16'>{content.contact}</article>
+    </section>
   );
 };
 

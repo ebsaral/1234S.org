@@ -2,13 +2,12 @@
 
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
-import { useIntlayer } from 'next-intlayer';
 import { useEffect, useRef, useState } from 'react';
 import { LuSparkles } from 'react-icons/lu';
 import { PiQuestionFill } from 'react-icons/pi';
+import { useIntlayer } from 'react-intlayer';
 
 import { Tooltip } from 'react-tooltip';
-import MarkdownProvider from '../Custom/MarkdownProvider';
 
 const Intro = ({ id }: { id?: string }) => {
   const content = useIntlayer('intro-section');
@@ -117,97 +116,95 @@ const Intro = ({ id }: { id?: string }) => {
   }, []);
 
   return (
-    <MarkdownProvider>
-      <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
-        <Tooltip
-          id='tooltip'
-          className='!bg-gray-900 !text-white font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-90'
-        />
-        {/* Introduction */}
-        <div className='mt-16 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
-          <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
-            <PiQuestionFill size={48} />
-          </span>
-          <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
+    <section id={id} ref={ref} className='relative max-w-screen mx-auto overflow-hidden'>
+      <Tooltip
+        id='tooltip'
+        className='!bg-gray-900 !text-white font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-90'
+      />
+      {/* Introduction */}
+      <div className='mt-16 full-w-mx flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 via-red-200 to-green-200 rounded-2xl py-4'>
+        <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
+          <PiQuestionFill size={48} />
+        </span>
+        <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
 
-          <article
-            ref={articleRef}
-            className='relative prose-custom-all max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch justify-center text-gray-900 text-wrap mt-5'
-          >
-            {/* Rope + knots */}
-            <svg className='absolute inset-0 w-full h-full pointer-events-none'>
-              {/* shadow */}
-              <path
-                d={path}
-                fill='none'
+        <article
+          ref={articleRef}
+          className='relative prose-custom-all max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch justify-center text-gray-900 text-wrap mt-5'
+        >
+          {/* Rope + knots */}
+          <svg className='absolute inset-0 w-full h-full pointer-events-none'>
+            {/* shadow */}
+            <path
+              d={path}
+              fill='none'
+              stroke='rgba(0,0,0,0.25)'
+              strokeWidth={thin ? 3 : 5}
+              strokeLinecap='round'
+              transform='translate(1,2)'
+            />
+
+            {/* rope */}
+            <path d={path} fill='none' stroke='#5b5b5b' strokeWidth={thin ? 2.5 : 4} strokeLinecap='round' />
+
+            {/* knots */}
+            {knots.map((k, i) => (
+              <circle
+                key={i}
+                cx={k.x}
+                cy={k.y}
+                r={thin ? 3 : 4}
+                fill='#5b5b5b'
                 stroke='rgba(0,0,0,0.25)'
-                strokeWidth={thin ? 3 : 5}
-                strokeLinecap='round'
-                transform='translate(1,2)'
+                strokeWidth='1'
               />
+            ))}
+          </svg>
 
-              {/* rope */}
-              <path d={path} fill='none' stroke='#5b5b5b' strokeWidth={thin ? 2.5 : 4} strokeLinecap='round' />
+          <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
+            <span
+              ref={leftH3Ref}
+              className='relative max-w-max -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
+            >
+              <em>{content.logical.title}</em>
+            </span>
+            <p className='text-left'>{content.logical.description}</p>
+          </div>
 
-              {/* knots */}
-              {knots.map((k, i) => (
-                <circle
-                  key={i}
-                  cx={k.x}
-                  cy={k.y}
-                  r={thin ? 3 : 4}
-                  fill='#5b5b5b'
-                  stroke='rgba(0,0,0,0.25)'
-                  strokeWidth='1'
-                />
-              ))}
-            </svg>
+          <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
+            <span
+              ref={rightH3Ref}
+              className='max-w-max relative -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
+            >
+              <em>{content.spirituality.title}</em>
+            </span>
+            <p className='text-left'>{content.spirituality.description}</p>
+          </div>
+        </article>
+      </div>
 
-            <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <span
-                ref={leftH3Ref}
-                className='relative max-w-max -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
-              >
-                <em>{content.logical.title}</em>
+      <div className='max-w-5xl mx-auto mt-8 flex flex-col gap-4 items-center justify-center'>
+        {/* Description */}
+        <article className='prose-custom-all max-w-3xl mx-6'>{content.paragraph2}</article>
+
+        {/* Insight */}
+        <div className='mt-10 mx-4 sm:mx-16 lg:mx-20'>
+          <div className='stars-box rounded-xl gap-5'>
+            <div className='stars' />
+
+            <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
+              <span className='font-bold text-2xl cursor-default'>
+                <LuSparkles className='text-gray-900' size={28} />
               </span>
-              <p className='text-left'>{content.logical.description}</p>
             </div>
 
-            <div className='flex flex-col items-start justify-start text-left sm:text-center px-10 text-wrap'>
-              <span
-                ref={rightH3Ref}
-                className='max-w-max relative -left-3 sm:left-0 py-3 px-5 bg-black/80 text-gray-100 rounded-md text-xl'
-              >
-                <em>{content.spirituality.title}</em>
-              </span>
-              <p className='text-left'>{content.spirituality.description}</p>
-            </div>
-          </article>
-        </div>
-
-        <div className='max-w-5xl mx-auto mt-8 flex flex-col gap-4 items-center justify-center'>
-          {/* Description */}
-          <article className='prose-custom-all max-w-3xl mx-6'>{content.paragraph2}</article>
-
-          {/* Insight */}
-          <div className='mt-10 mx-4 sm:mx-16 lg:mx-20'>
-            <div className='stars-box rounded-xl gap-5'>
-              <div className='stars' />
-
-              <div className='relative -top-6 left-1/2 transform -translate-x-1/2 flex items-center justify-center bg-white rounded-full w-12 h-12'>
-                <span className='font-bold text-2xl cursor-default'>
-                  <LuSparkles className='text-gray-900' size={28} />
-                </span>
-              </div>
-
-              <blockquote className='max-w-4xl mx-auto pb-16 pt-12 px-6 sm:px-8 lg:px-10 text-center text-md sm:text-lg lg:text-xl font-normal whitespace-pre-line text-gray-100'>
-                {content.quote}
-              </blockquote>
-            </div>
+            <blockquote className='max-w-4xl mx-auto pb-16 pt-12 px-6 sm:px-8 lg:px-10 text-center text-md sm:text-lg lg:text-xl font-normal whitespace-pre-line text-gray-100'>
+              {content.quote}
+            </blockquote>
           </div>
         </div>
-      </section>
-    </MarkdownProvider>
+      </div>
+    </section>
   );
 };
 

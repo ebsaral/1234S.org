@@ -1,8 +1,9 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
+import { useIntlayer } from 'react-intlayer';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 import Title from '../Custom/Title';
 import Project from '../Sections/Project';
 import Story from '../Sections/Story';
@@ -15,11 +16,13 @@ const Mission = () => {
   }, []);
 
   return (
-    <main>
-      <Title title={content.title.value} />
-      <Story />
-      <Project />
-    </main>
+    <MarkdownProvider>
+      <main>
+        <Title title={content.title.value} />
+        <Story />
+        <Project />
+      </main>
+    </MarkdownProvider>
   );
 };
 
