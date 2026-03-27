@@ -1,4 +1,4 @@
-import { MarkdownProvider } from 'react-intlayer';
+import { MarkdownProvider } from 'react-intlayer/markdown';
 import Markdown from 'react-markdown';
 import remarkAttrs from 'remark-attrs';
 import remarkGfm from 'remark-gfm';
@@ -12,11 +12,9 @@ const MP = ({ children }: React.PropsWithChildren) => {
   return (
     <MarkdownProvider
       renderMarkdown={(markdown) => (
-        <>
-          <Markdown remarkPlugins={[remarkGfm, remarkAttrs]} components={components}>
-            {markdown}
-          </Markdown>
-        </>
+        <Markdown remarkPlugins={[remarkGfm, remarkAttrs]} components={components}>
+          {markdown}
+        </Markdown>
       )}
     >
       {children}
