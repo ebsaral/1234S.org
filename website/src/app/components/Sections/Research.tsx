@@ -1,13 +1,12 @@
 'use client';
 
 import { getLocalizedUrl } from 'intlayer';
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useLocale } from 'react-intlayer';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 
 type BeatStyle = {
   borderColor: string;
@@ -75,7 +74,7 @@ const Research = () => {
   }, [jamMode, content.projects.items.length]);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <div className='max-w-5xl mx-auto w-full pt-10 research'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
           {content.projects.title}

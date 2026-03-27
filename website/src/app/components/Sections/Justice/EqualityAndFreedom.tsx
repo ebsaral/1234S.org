@@ -1,14 +1,13 @@
 import { LuFerrisWheel, LuLoaderPinwheel } from 'react-icons/lu';
-import { MarkdownProvider, useIntlayer } from 'react-intlayer';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useIntlayer } from 'react-intlayer';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 import { Card, CardContent } from '../../ui/card';
 
 const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
   const content = useIntlayer(`justice-section`);
 
   return (
-    <MarkdownProvider renderMarkdown={(md) => <Markdown remarkPlugins={[remarkGfm]}>{md}</Markdown>}>
+    <MarkdownProvider>
       <div className={`grid md:grid-cols-2 gap-6 sm:gap-8 relative ${className}`}>
         {/* LEFT */}
         <Card className='bg-white/90 bg-gradient-to-b sm:bg-gradient-to-t from-green-100 to-green-50 backdrop-blur-sm shadow-xl border-0'>

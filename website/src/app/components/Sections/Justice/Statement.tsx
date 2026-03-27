@@ -1,18 +1,15 @@
 'use client';
 
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-
+import { useIntlayer } from 'next-intlayer';
 import { LuSun, LuTreePine } from 'react-icons/lu';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 
 const Statement = ({ className }: { className?: string }) => {
   const sectionKey = 'justice';
   const content = useIntlayer(`${sectionKey}-section`);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section className={`relative mx-auto py-12 px-6 ${className}`}>
         {/* fractal background */}
         <div className='absolute inset-0 bg-effect opacity-70' />

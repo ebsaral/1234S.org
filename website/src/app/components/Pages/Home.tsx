@@ -1,12 +1,11 @@
 'use client';
 
 import { useMenu } from '@/app/hooks/useMenu';
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
 import { useEffect } from 'react';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
 
 import AnimatedLogo from '../Custom/AnimatedLogo';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 import Title from '../Custom/Title';
 import Research from '../Sections/Research';
 import Team from '../Sections/Team';
@@ -23,7 +22,7 @@ const Home = () => {
   }, []);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <main>
         <Title title={metadata.title.value} />
         <div className='stars-box text-center text-white pt-20 pb-10 px-8 sm:px-10 lg:px-12'>

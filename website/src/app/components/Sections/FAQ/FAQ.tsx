@@ -1,15 +1,13 @@
 'use client';
 
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
-
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useIntlayer } from 'next-intlayer';
 
 import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef, useState } from 'react';
 import { LuMessageCircleQuestion } from 'react-icons/lu';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 import AccordionItem from './AccordionItem';
 
 const HEADER_OFFSET = 96;
@@ -69,7 +67,7 @@ const FAQ = ({ id }: { id?: string }) => {
   };
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section id={id} ref={ref} className='relative max-w-screen mx-auto pt-16 overflow-hidden'>
         <article className='prose-custom-all max-w-4xl mx-auto px-6'>
           <div className='w-full mx-auto text-center'>

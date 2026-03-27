@@ -4,15 +4,14 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
-import { MarkdownProvider, useIntlayer, useLocale } from 'next-intlayer';
+import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { LuArrowDownWideNarrow, LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
-import Markdown from 'react-markdown';
 import readingTime from 'reading-time';
-import remarkGfm from 'remark-gfm';
 import CustomPencil from '../Custom/CustomPencil';
 import Filter from '../Custom/Filter';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 import SearchBox from '../Custom/SearchBox';
 import Title from '../Custom/Title';
 
@@ -72,7 +71,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
   return (
     <main>
       <Title title={metadata.title.value} />
-      <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+      <MarkdownProvider>
         <section
           id={id}
           className='relative max-w-screen mx-auto overflow-hidden px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100'

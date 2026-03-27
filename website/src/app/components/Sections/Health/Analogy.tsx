@@ -14,10 +14,9 @@ import {
   LuStethoscope,
 } from 'react-icons/lu';
 
-import { MarkdownProvider, useIntlayer } from 'react-intlayer';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { useIntlayer } from 'react-intlayer';
 import FormattedText from '../../Custom/FormattedText';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 import { Card, CardContent } from '../../ui/card';
 
 const Analogy = ({ className }: { className?: string }) => {
@@ -29,7 +28,7 @@ const Analogy = ({ className }: { className?: string }) => {
   };
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <div className={`mx-auto grid gap-8 space-y-8 ${className}`}>
         {/* Organ-Action-Consequence Analogy Box */}
         <Card className='bg-gradient-to-br from-rose-50 to-pink-100 border-0 shadow-xl text-rose-700'>

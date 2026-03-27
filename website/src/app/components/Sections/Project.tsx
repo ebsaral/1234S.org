@@ -1,12 +1,11 @@
 'use client';
 
-import { MarkdownProvider, useIntlayer } from 'next-intlayer';
+import { useIntlayer } from 'next-intlayer';
 
 import { LuGift, LuGlobe, LuHeart, LuImagePlay, LuLightbulb, LuTreeDeciduous } from 'react-icons/lu';
 
 import { useEffect, useRef, useState } from 'react';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import MarkdownProvider from '../Custom/MarkdownProvider';
 import { Card, CardContent } from '../ui/card';
 
 const Project = () => {
@@ -52,7 +51,7 @@ const Project = () => {
   };
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-white px-6'>
         <div className='max-w-5xl mx-auto'>
           <div className='relative mx-auto  mb-6 pb-1 rounded-2xl text-center'>
