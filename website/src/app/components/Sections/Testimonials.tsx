@@ -6,6 +6,7 @@ import { useIntlayer } from 'react-intlayer';
 export default function Testimonials() {
   const sectionKey = 'testimonials';
   const content = useIntlayer(`${sectionKey}-section`);
+  const [items] = useState(() => content.items.sort(() => Math.random() - 0.5));
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -35,7 +36,7 @@ export default function Testimonials() {
   useEffect(() => {
     if (!hasMounted.current) {
       hasMounted.current = true;
-      return; // skip scroll on initial render
+      return; // initial render
     }
 
     const container = containerRef.current;
@@ -87,7 +88,7 @@ export default function Testimonials() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          {content.items.map((item, i) => {
+          {(items as typeof content.items).map((item, i) => {
             const isActive = i === activeIndex;
             return (
               <motion.div
