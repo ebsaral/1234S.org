@@ -2,7 +2,7 @@
 
 import { LuHeart } from 'react-icons/lu';
 import { TiHeartFullOutline } from 'react-icons/ti';
-import { MarkdownProvider, useIntlayer } from 'react-intlayer';
+import { useIntlayer } from 'react-intlayer';
 
 import { Analogy } from '@/app/components/Sections/Health';
 import { Statement } from '@/app/components/Sections/Justice';
@@ -10,8 +10,9 @@ import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
-import Markdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { FcReading } from 'react-icons/fc';
+import { Tooltip } from 'react-tooltip';
+import MarkdownProvider from '../../Custom/MarkdownProvider';
 import Quote from '../Quote';
 
 const Health = ({ id }: { id?: string }) => {
@@ -32,10 +33,16 @@ const Health = ({ id }: { id?: string }) => {
   }, [isIntersecting]);
 
   return (
-    <MarkdownProvider renderMarkdown={(markdown) => <Markdown remarkPlugins={[remarkGfm]}>{markdown}</Markdown>}>
+    <MarkdownProvider>
       <section id={id} ref={ref} className='relative max-w-screen mx-auto'>
         {/* Background Color */}
         <div className={`-z-10 absolute inset-0 bg-rose-50`} />
+
+        {/* Tooltip */}
+        <Tooltip
+          id='tooltip'
+          className='!bg-gray-900 !text-gray-50 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100 z-20'
+        />
 
         {/* Gradient Overlay */}
         <div className={`-z-10 absolute inset-0 bg-gradient-to-br from-rose-50 to-pink-50 opacity-80`} />
@@ -83,9 +90,14 @@ const Health = ({ id }: { id?: string }) => {
 
         <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph3}</article>
 
-        <article className='relative prose-custom-all max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
-          {content.paragraph4}
-        </article>
+        <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph4}</article>
+
+        <div className='relative prose-custom-all flex flex-row gap-4 items-center  max-w-4xl mx-auto pb-24 px-6 sm:px-10'>
+          <div className='flex items-center justify-center w-16 h-16'>
+            <FcReading className='w-full h-full' />
+          </div>
+          {content.reading}
+        </div>
 
         {/* Decorative Elements */}
         <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
