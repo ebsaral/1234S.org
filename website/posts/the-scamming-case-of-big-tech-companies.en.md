@@ -75,7 +75,7 @@ I hope you can finally understand the kind of global criminal network we're faci
 
 The illegal business structures of Big Tech Companies can be discovered and stopped quickly by governments. The fact that no government has yet taken the necessary steps and that crimes are being tolerated continues to harm all citizens. It's important to understand that giant AI robots are merely distractions compared to these clandestine, illicit high-tech inventions in today's modern world. **I haven't yet found anyone, or any organization, interested in investigating and sharing this information with the public. I have been experiencing almost all of the problems I wrote above for more than 10 years.** 
 
-> Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, 2011 model Fiat Fiorino, Toshiba Satellite L755.
+> All of these software control mechanisms are integrated into the hardware of devices and vehicles at the factory level. The products I have personally tested and used to confirm my findings include: Apple iMac, Apple MacBook Pro (both older and newer generations), iPhone 4S, iPhone 11 Pro, 2011 Fiat Fiorino, and Toshiba Satellite L755.
 
 If you know of anyone or any organization that could assist me with this matter, which concerns the health and safety of the society, please contact me: you can visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email me at [ebsaral@icloud.com](mailto:ebsaral@icloud.com).
 

@@ -76,7 +76,7 @@ Günlük hayatımızda kullandığımız yapay zekâ destekli Büyük Teknoloji 
 
 Büyük Teknoloji Şirketlerinin yasadışı işletme yapıları hükümetler tarafından hızlıca bulunabilir ve durdurulabilirler. Hiçbir hükümetin gerekli adımları henüz atmaması ve suçların işlenmesine göz yumulması tüm vatandaşlara zarar vermeye devam ediyor. Dev yapay zekâ robotlarının, günümüz modern dünyasındaki bu gizli yasadışı yüksek teknoloji icatlarıyla karşılaştırıldığında sadece dikkat dağıtıcı unsurlar olduklarının bilinmesi gerekiyor. **Henüz konunun araştırılmasına ve kamuoyuyla paylaşılmasına ilgi gösteren bir kişi veya kurum bulamadım. Yukarıda yazdığım sorunların neredeyse tamamını 10 yıldan fazladır deneyimliyorum.**
 
-> Test ettiğim araçlardan biri 2011 model bir Fiat Fiorino; tüm bu yazılımsal kontrol, üretim sırasında donanımına zaten gömülmüş durumda.
+> Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, 2011 model Fiat Fiorino, Toshiba Satellite L755.
 
 Toplumun sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili bana yardımcı olabileceğini düşündüğünüz biri veya bir kurum varsa, lütfen benimle iletişime geçiniz: [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz, [iletişim formunu](/iletisim) veya [ebsaral@icloud.com](mailto:ebsaral@icloud.com) adresini kullanabilirsiniz.
 
