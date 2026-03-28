@@ -3,6 +3,7 @@
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
 import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { useIntlayer } from 'react-intlayer';
+import CountdownClock from './Custom/CountdownClock';
 import MarkdownProvider from './Custom/MarkdownProvider';
 
 const Footer = () => {
@@ -59,7 +60,7 @@ const Footer = () => {
               <div className='link-underline text-center text-xs'>{content.interconnectedness}</div>
 
               {/* Development Links */}
-              <div className='flex flex-row items-center justify-center gap-3 sm:gap-5'>
+              <div className='flex flex-row items-center justify-center gap-3 sm:gap-5 mt-4'>
                 <div className='link-underline text-center hover:scale-110 transition-all duration-300'>
                   <a
                     className='text-gray-100 opacity-90 hover:opacity-100'
@@ -87,6 +88,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
+            <CountdownClock className='mb-10 max-w-sm' targetDate={new Date('2026-09-16T23:59:59')} />
           </div>
         </div>
       </footer>

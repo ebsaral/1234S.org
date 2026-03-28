@@ -65,3 +65,11 @@ export interface TestimonialsContent {
   prev: string;
   next: string;
 }
+
+export interface CountdownContent {
+  title: string;
+  days: string;
+  hours: string;
+  minutes: string;
+  seconds: string;
+}
