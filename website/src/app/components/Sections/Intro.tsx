@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { LuSparkles } from 'react-icons/lu';
 import { PiQuestionFill } from 'react-icons/pi';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import { Tooltip } from 'react-tooltip';
 
@@ -126,7 +127,9 @@ const Intro = ({ id }: { id?: string }) => {
         <span className='relative -top-10 flex items-center justify-center bg-gray-900 rounded-full w-12 h-12 hover:scale-110 duration-300 transition-all text-white font-bold cursor-default'>
           <PiQuestionFill size={48} />
         </span>
-        <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>{content.paragraph1}</article>
+        <article className='prose-custom-all max-w-3xl mx-6 text-gray-900'>
+          <MarkdownRenderer>{content.paragraph1.value}</MarkdownRenderer>
+        </article>
 
         <article
           ref={articleRef}
@@ -185,7 +188,9 @@ const Intro = ({ id }: { id?: string }) => {
 
       <div className='max-w-5xl mx-auto mt-8 flex flex-col gap-4 items-center justify-center'>
         {/* Description */}
-        <article className='prose-custom-all max-w-3xl mx-6'>{content.paragraph2}</article>
+        <article className='prose-custom-all max-w-3xl mx-6'>
+          <MarkdownRenderer>{content.paragraph2.value}</MarkdownRenderer>
+        </article>
 
         {/* Insight */}
         <div className='mt-10 mx-4 sm:mx-16 lg:mx-20'>
@@ -199,7 +204,7 @@ const Intro = ({ id }: { id?: string }) => {
             </div>
 
             <blockquote className='max-w-4xl mx-auto pb-16 pt-12 px-6 sm:px-8 lg:px-10 text-center text-md sm:text-lg lg:text-xl font-normal whitespace-pre-line text-gray-100'>
-              {content.quote}
+              <MarkdownRenderer>{content.quote.value}</MarkdownRenderer>
             </blockquote>
           </div>
         </div>

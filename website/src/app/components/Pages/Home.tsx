@@ -3,6 +3,7 @@
 import { useMenu } from '@/app/hooks/useMenu';
 import { useEffect } from 'react';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import AnimatedLogo from '../Custom/AnimatedLogo';
 import MarkdownProvider from '../Custom/MarkdownProvider';
@@ -29,7 +30,7 @@ const Home = () => {
           <div className='stars' />
           <AnimatedLogo />
           <article className='max-w-4xl mx-auto my-10 text-base text-left leading-relaxed home-intro'>
-            {content.intro}
+            <MarkdownRenderer>{content.intro.value}</MarkdownRenderer>
           </article>
 
           <Research />

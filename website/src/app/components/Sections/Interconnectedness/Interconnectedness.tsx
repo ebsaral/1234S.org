@@ -2,6 +2,7 @@
 
 import { SlGlobe } from 'react-icons/sl';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
 import { useMenu } from '@/app/hooks/useMenu';
@@ -57,17 +58,17 @@ const Interconnectedness = ({ id }: { id: string }) => {
           <Quote text={content.quote.value} />
 
           <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
-            {content.description}
-            {content.paragraph1}
+            <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
+            <MarkdownRenderer>{content.paragraph1.value}</MarkdownRenderer>
           </article>
 
           <Examples className='max-w-4xl mx-auto mt-16 mb-6 -ml-6 mr-6' />
 
           <article className='prose-custom-all max-w-4xl mx-auto my-12 px-6 sm:px-10'>
-            {content.paragraph2}
-            {content.paragraph3}
-            {content.paragraph4}
-            {content.paragraph5}
+            <MarkdownRenderer>{content.paragraph2.value}</MarkdownRenderer>
+            <MarkdownRenderer>{content.paragraph3.value}</MarkdownRenderer>
+            <MarkdownRenderer>{content.paragraph4.value}</MarkdownRenderer>
+            <MarkdownRenderer>{content.paragraph5.value}</MarkdownRenderer>
           </article>
 
           <Experiment className='max-w-4xl mx-auto mt-20 mb-6 ml-6 -mr-6' />

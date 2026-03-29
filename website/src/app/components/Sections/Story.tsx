@@ -1,8 +1,8 @@
 'use client';
 
-import { useIntlayer } from 'react-intlayer';
-
+import { useIntlayer } from 'next-intlayer';
 import { LuFlower2 } from 'react-icons/lu';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import { Tooltip } from 'react-tooltip';
 
@@ -34,7 +34,7 @@ const Story = () => {
         className='!bg-white !text-purple-900 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100'
       />
       <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
-        {content.description}
+        <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
       </article>
 
       <div className='absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-transparent' />

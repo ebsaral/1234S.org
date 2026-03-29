@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useIntlayer, useLocale } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 type BeatStyle = {
   borderColor: string;
@@ -75,8 +76,8 @@ const Research = () => {
     <>
       <div className='max-w-5xl mx-auto w-full pt-10 research'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
-          {content.projects.title}
-          {content.projects.description}
+          <MarkdownRenderer>{content.projects.title.value}</MarkdownRenderer>
+          <MarkdownRenderer>{content.projects.description.value}</MarkdownRenderer>
         </div>
 
         {/* JAM BUTTON */}
@@ -130,8 +131,8 @@ const Research = () => {
                     : undefined
                 }
               >
-                {item.title}
-                {item.subtitle}
+                <MarkdownRenderer>{item.title.value}</MarkdownRenderer>
+                <MarkdownRenderer>{item.subtitle.value}</MarkdownRenderer>
               </div>
             );
           })}

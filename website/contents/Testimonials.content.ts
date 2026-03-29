@@ -1,4 +1,4 @@
-import { md, t, type Dictionary } from 'intlayer';
+import { t, type Dictionary } from 'intlayer';
 import { TestimonialsContent } from './types';
 
 const pageContent = {

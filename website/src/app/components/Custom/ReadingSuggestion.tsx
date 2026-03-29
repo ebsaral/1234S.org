@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { FcReading } from 'react-icons/fc';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Tooltip } from 'react-tooltip';
 
 export default function ReadingSuggestion({ className, content }: { className?: string; content: string | ReactNode }) {
@@ -15,7 +16,7 @@ export default function ReadingSuggestion({ className, content }: { className?: 
       <div className='flex items-center justify-center w-16 h-16 aspect-square p-2 bg-emerald-200 rounded-full'>
         <FcReading className='w-full h-full' />
       </div>
-      {content}
+      <MarkdownRenderer>{content}</MarkdownRenderer>
     </div>
   );
 }

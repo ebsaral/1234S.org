@@ -5,6 +5,7 @@ import { useIntlayer } from 'react-intlayer';
 import { LuGift, LuGlobe, LuHeart, LuImagePlay, LuLightbulb, LuTreeDeciduous } from 'react-icons/lu';
 
 import { useEffect, useRef, useState } from 'react';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Card, CardContent } from '../ui/card';
 
 const Project = () => {
@@ -78,7 +79,9 @@ const Project = () => {
         </div>
       </div>
 
-      <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left'>{content.explanation}</article>
+      <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left'>
+        <MarkdownRenderer>{content.explanation.value}</MarkdownRenderer>
+      </article>
 
       <div className='max-w-5xl mx-auto relative top-0 flex flex-col items-center justify-start'>
         {content.items && (
@@ -111,7 +114,9 @@ const Project = () => {
                       <h3 className='text-left sm:text-center text-xl font-bold text-emerald-900 mt-6 sm:mt-3 mb-5 sm:mb-5'>
                         {title}
                       </h3>
-                      <article className='custom-prose-all'>{content}</article>
+                      <article className='custom-prose-all'>
+                        <MarkdownRenderer>{content.value}</MarkdownRenderer>
+                      </article>
                     </div>
                   </CardContent>
                 </Card>
@@ -121,7 +126,7 @@ const Project = () => {
         )}
       </div>
       <article className='custom-prose-all project-support max-w-5xl mx-auto text-center items-center mt-8 mb-16'>
-        {content.support}
+        <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
       </article>
     </section>
   );

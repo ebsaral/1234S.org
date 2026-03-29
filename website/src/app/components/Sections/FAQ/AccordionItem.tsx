@@ -1,4 +1,5 @@
 import { forwardRef, ReactNode, useEffect, useRef, useState } from 'react';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 type Props = {
   isOpen: boolean;
@@ -6,8 +7,8 @@ type Props = {
   onToggle: () => void;
   onOpened: () => void;
   onKeyDown: (e: React.KeyboardEvent) => void;
-  question: ReactNode;
-  answer: ReactNode;
+  question: string;
+  answer: string;
   panelId: string;
   buttonId: string;
   buttonRef: (el: HTMLButtonElement | null) => void;
@@ -45,7 +46,7 @@ const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
           >
             <div className='inline-flex gap-1'>
               {index && index + ')'}
-              {question}
+              <MarkdownRenderer>{question}</MarkdownRenderer>
             </div>
             <div className={`text-2xl leading-none transition-transform duration-300 ${isOpen ? 'rotate-45' : ''}`}>
               +
@@ -68,7 +69,7 @@ const AccordionItem = forwardRef<HTMLDivElement, Props>(function AccordionItem(
                 isOpen ? 'translate-y-0' : '-translate-y-2'
               }`}
             >
-              {answer}
+              <MarkdownRenderer>{answer}</MarkdownRenderer>
             </article>
           </div>
         </div>

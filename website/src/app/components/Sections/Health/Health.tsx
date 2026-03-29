@@ -3,6 +3,7 @@
 import { LuHeart } from 'react-icons/lu';
 import { TiHeartFullOutline } from 'react-icons/ti';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import { Analogy } from '@/app/components/Sections/Health';
 import { Statement } from '@/app/components/Sections/Justice';
@@ -67,23 +68,31 @@ const Health = ({ id }: { id?: string }) => {
         </div>
       </div>
 
-      <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.description}</article>
+      <article className='prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
+        <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
+      </article>
 
-      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph1}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
+        <MarkdownRenderer>{content.paragraph1.value}</MarkdownRenderer>
+      </article>
 
       <div className='relative max-w-5xl mx-auto px-4'>
         <Analogy className='mx-auto' />
       </div>
 
       <article className='relative prose-custom-all max-w-4xl mx-auto mt-12 px-6 sm:px-10'>
-        {content.paragraph2}
+        <MarkdownRenderer>{content.paragraph2.value}</MarkdownRenderer>
       </article>
 
-      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph3}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
+        <MarkdownRenderer>{content.paragraph3.value}</MarkdownRenderer>
+      </article>
 
-      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>{content.paragraph4}</article>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
+        <MarkdownRenderer>{content.paragraph4.value}</MarkdownRenderer>
+      </article>
 
-      <ReadingSuggestion className='mt-12 mb-24 z-10' content={content.reading} />
+      <ReadingSuggestion className='mt-12 mb-24 z-10' content={content.reading.value} />
 
       {/* Decorative Elements */}
       <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />

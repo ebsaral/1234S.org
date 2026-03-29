@@ -15,6 +15,7 @@ import {
 } from 'react-icons/lu';
 
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import FormattedText from '../../Custom/FormattedText';
 import { Card, CardContent } from '../../ui/card';
 
@@ -53,7 +54,7 @@ const Analogy = ({ className }: { className?: string }) => {
           </div>
 
           <div className='flex flex-col items-center relative font-medium text-left sm:text-center bg-white/60 p-4 rounded-lg my-6 sm:mx-12 pb-5'>
-            {content.analogy.subtitle}
+            <MarkdownRenderer>{content.analogy.subtitle.value}</MarkdownRenderer>
             <GiHealthPotion className='animate-jump absolute -bottom-3' size={30} />
           </div>
           <div className='grid md:grid-cols-2 gap-6'>

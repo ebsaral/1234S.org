@@ -3,6 +3,7 @@
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
 import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import CountdownClock from './Custom/CountdownClock';
 import MarkdownProvider from './Custom/MarkdownProvider';
 
@@ -57,7 +58,9 @@ const Footer = () => {
 
             <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
               {/* Interconnectedness claim */}
-              <div className='link-underline text-center text-xs'>{content.interconnectedness}</div>
+              <div className='link-underline text-center text-xs'>
+                <MarkdownRenderer>{content.interconnectedness.value}</MarkdownRenderer>
+              </div>
 
               {/* Development Links */}
               <div className='flex flex-row items-center justify-center gap-3 sm:gap-5 mt-4'>

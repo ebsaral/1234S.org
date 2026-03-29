@@ -1,5 +1,6 @@
 import { LuFerrisWheel, LuLoaderPinwheel } from 'react-icons/lu';
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Card, CardContent } from '../../ui/card';
 
 const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
@@ -13,14 +14,12 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
           <article className='prose-custom-all'>
             <div className='text-2xl font-bold text-blue-900 mb-4 flex items-center gap-3'>
               <LuFerrisWheel size={40} className='text-purple-600 mt-7' />
-              {content.equality.title}
+              <MarkdownRenderer>{content.equality.title.value}</MarkdownRenderer>
             </div>
 
-            <strong>
-              <em>{content.equality.subtitle}</em>
-            </strong>
+            <MarkdownRenderer>{content.equality.subtitle.value}</MarkdownRenderer>
 
-            {content.equality.description}
+            <MarkdownRenderer>{content.equality.description.value}</MarkdownRenderer>
           </article>
         </CardContent>
       </Card>
@@ -31,14 +30,12 @@ const EqualityAndFreedom = ({ className = '' }: { className?: string }) => {
           <article className='prose-custom-all'>
             <div className='text-2xl font-bold text-purple-900 mb-4 flex items-center gap-3'>
               <LuLoaderPinwheel size={40} className='text-blue-600 mt-6 animate-spinSlow' />
-              {content.freedom.title}
+              <MarkdownRenderer>{content.freedom.title.value}</MarkdownRenderer>
             </div>
 
-            <strong>
-              <em>{content.freedom.subtitle}</em>
-            </strong>
+            <MarkdownRenderer>{content.freedom.subtitle.value}</MarkdownRenderer>
 
-            {content.freedom.description}
+            <MarkdownRenderer>{content.freedom.description.value}</MarkdownRenderer>
           </article>
         </CardContent>
       </Card>

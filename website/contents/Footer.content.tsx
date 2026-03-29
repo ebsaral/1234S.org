@@ -1,4 +1,4 @@
-import { md, t, type Dictionary } from 'intlayer';
+import { t, type Dictionary } from 'intlayer';
 
 interface FooterLink {
   href: string;
@@ -75,12 +75,8 @@ const pageContent = {
       href: 'https://www.producthunt.com/products/1234s-org-a-philosophical-movement',
     },
     interconnectedness: t({
-      en: md(
-        'Shaped with [The Interconnectedness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
-      ),
-      tr: md(
-        '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
-      ),
+      en: 'Shaped with [The Interconnectedness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
+      tr: '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
     }),
   },
 } satisfies Dictionary<FooterContent>;

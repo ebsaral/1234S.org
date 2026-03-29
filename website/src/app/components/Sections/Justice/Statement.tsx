@@ -1,7 +1,8 @@
 'use client';
 
-import { useIntlayer } from 'next-intlayer';
 import { LuSun, LuTreePine } from 'react-icons/lu';
+import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 const Statement = ({ className }: { className?: string }) => {
   const sectionKey = 'justice';
@@ -39,7 +40,7 @@ const Statement = ({ className }: { className?: string }) => {
           select-none
         '
         />
-        {content.statement}
+        <MarkdownRenderer>{content.statement.value}</MarkdownRenderer>
       </article>
     </section>
   );

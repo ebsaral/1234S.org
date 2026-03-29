@@ -1,4 +1,4 @@
-import { md, t, type Dictionary } from 'intlayer';
+import { t, type Dictionary } from 'intlayer';
 
 interface InterconnectednessContent {
   title: string;
@@ -48,12 +48,8 @@ export default {
       tr: 'Tıpkı bir vücuttaki organların birbirlerine bağımlı olması gibi, tüm canlılar da görünür ve görünmez bağlar aracılığıyla birbirlerine bağımlıdır.',
     }),
     description: t({
-      en: md(
-        'We all strive to live in harmony with nature within a tiny area in the boundless universe that we define as Earth. To better understand the harmony between our minds and bodies, we need to consider our observations from a broader perspective, as a small reflection of nature.',
-      ),
-      tr: md(
-        'Hepimiz, sınırsız evrenin içinde küçücük bir alan olan ve Dünya olarak tanımladığımız bir bütünde, doğayı hissederek yaşamaya çalışıyoruz. Zihnimizin vücudumuzla olan uyumunu daha iyi kavrayabilmek için, doğanın küçük bir iz düşümü olarak, gözlemlerimizi daha geniş bir bakış açısıyla ele almamız gerekiyor.',
-      ),
+      en: 'We all strive to live in harmony with nature within a tiny area in the boundless universe that we define as Earth. To better understand the harmony between our minds and bodies, we need to consider our observations from a broader perspective, as a small reflection of nature.',
+      tr: 'Hepimiz, sınırsız evrenin içinde küçücük bir alan olan ve Dünya olarak tanımladığımız bir bütünde, doğayı hissederek yaşamaya çalışıyoruz. Zihnimizin vücudumuzla olan uyumunu daha iyi kavrayabilmek için, doğanın küçük bir iz düşümü olarak, gözlemlerimizi daha geniş bir bakış açısıyla ele almamız gerekiyor.',
     }),
     experiment: {
       title: t({
@@ -116,44 +112,24 @@ export default {
       ],
     },
     paragraph1: t({
-      en: md(
-        'Rather than egocentric approaches, we can gain awareness of the depth of our connection with nature by giving attention to the details of our environment and creations. Because every action reflects the details of the life around it. Every movement, sound, thought, and work of art is interconnected in harmony with the balance of nature.',
-      ),
-      tr: md(
-        'Benmerkezci yaklaşımlardan ziyade, çevremizin ve yaratımlarımızın ayrıntılarına dikkat ederek doğayla olan bağımızın derinliğine yönelik farkındalık kazanabiliriz. Çünkü gerçekleştirilen her eylem aynı zamanda çevresindeki yaşamın detaylarını yansıtır. Her hareket, ses, düşünce ve sanat eseri doğadaki dengeyle uyumlu bir biçimde birbirine bağlıdır.',
-      ),
+      en: 'Rather than egocentric approaches, we can gain awareness of the depth of our connection with nature by giving attention to the details of our environment and creations. Because every action reflects the details of the life around it. Every movement, sound, thought, and work of art is interconnected in harmony with the balance of nature.',
+      tr: 'Benmerkezci yaklaşımlardan ziyade, çevremizin ve yaratımlarımızın ayrıntılarına dikkat ederek doğayla olan bağımızın derinliğine yönelik farkındalık kazanabiliriz. Çünkü gerçekleştirilen her eylem aynı zamanda çevresindeki yaşamın detaylarını yansıtır. Her hareket, ses, düşünce ve sanat eseri doğadaki dengeyle uyumlu bir biçimde birbirine bağlıdır.',
     }),
     paragraph2: t({
-      en: md(
-        "**Mind mediates human imagination as a mixture of different symbols. Intelligence, on the other hand, is the ultimate outcome of life experiences in the mind. Mental and physical development is shaped in a similar context throughout a person's life.**",
-      ),
-      tr: md(
-        '**Akıl, farklı sembollerin bir karışımı olarak insanın hayal gücüne aracılık eder. Zekâ ise zihindeki yaşam tecrübesinin son ucudur. Zihinsel ve fiziksel gelişim insanın tüm yaşam sürecinde benzer bağlamda şekil alır.**',
-      ),
+      en: "**Mind mediates human imagination as a mixture of different symbols. Intelligence, on the other hand, is the ultimate outcome of life experiences in the mind. Mental and physical development is shaped in a similar context throughout a person's life.**",
+      tr: '**Akıl, farklı sembollerin bir karışımı olarak insanın hayal gücüne aracılık eder. Zekâ ise zihindeki yaşam tecrübesinin son ucudur. Zihinsel ve fiziksel gelişim insanın tüm yaşam sürecinde benzer bağlamda şekil alır.**',
     }),
     paragraph3: t({
-      en: md(
-        'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are all-round. Our senses, which can make invisible connections with each other visible, prove the interconnectedness of life to us in different ways.',
-      ),
-      tr: md(
-        'Hislerimiz, zamanın ve mekanın ötesinde, iç içe geçmiş bir biçimde birbirimize yansır. Haliyle yaşam bağlarımız çok yönlüdür. Birbirimizle olan görünmez bağları görünür kılabilen duyularımız, farklı şekillerde yaşamın bütünlüğünü bize kanıtlar.',
-      ),
+      en: 'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are all-round. Our senses, which can make invisible connections with each other visible, prove the interconnectedness of life to us in different ways.',
+      tr: 'Hislerimiz, zamanın ve mekanın ötesinde, iç içe geçmiş bir biçimde birbirimize yansır. Haliyle yaşam bağlarımız çok yönlüdür. Birbirimizle olan görünmez bağları görünür kılabilen duyularımız, farklı şekillerde yaşamın bütünlüğünü bize kanıtlar.',
     }),
     paragraph4: t({
-      en: md(
-        'By gaining the interconnected perspective, we can also understand how the journey of life, which begins in the womb, takes shape. Because the ways (actions) parents form connections with their environment and the choices of living beings in that environment are also reflected in the genetic sequence of a baby. Every baby, as a small reflection of nature, visibly carries the traces of both their near and distant surroundings.',
-      ),
-      tr: md(
-        'Bütünlük bakış açısını kazandığımızda, rahimde başlayan yaşam yolculuğunun nasıl şekil aldığını da anlayabiliriz. Çünkü ebeveynlerin çevreleriyle olan bağ kurma biçimleri (eylemleri) ve çevredeki canlıların seçimleri de bir bebeğin genlerindeki dizilime yansır. Her bebek, doğanın küçük bir iz düşümü olarak, hem yakın hem uzak çevresinin izlerini görünür biçimde taşır.',
-      ),
+      en: 'By gaining the interconnected perspective, we can also understand how the journey of life, which begins in the womb, takes shape. Because the ways (actions) parents form connections with their environment and the choices of living beings in that environment are also reflected in the genetic sequence of a baby. Every baby, as a small reflection of nature, visibly carries the traces of both their near and distant surroundings.',
+      tr: 'Bütünlük bakış açısını kazandığımızda, rahimde başlayan yaşam yolculuğunun nasıl şekil aldığını da anlayabiliriz. Çünkü ebeveynlerin çevreleriyle olan bağ kurma biçimleri (eylemleri) ve çevredeki canlıların seçimleri de bir bebeğin genlerindeki dizilime yansır. Her bebek, doğanın küçük bir iz düşümü olarak, hem yakın hem uzak çevresinin izlerini görünür biçimde taşır.',
     }),
     paragraph5: t({
-      en: md(
-        'Throughout our lives, we are all shaped both mentally and physically by our own actions and the actions of those around us. Every living being is a work of art by the Creator in nature. Any work of art we dislike is actually an outcome of our own sequential choices. Every living being holds thousands of choices and stories in their details.',
-      ),
-      tr: md(
-        "Hepimiz tüm yaşantımız boyunca kendi eylemlerimiz ve çevremizdekilerin eylemleri doğrultusunda zihinsel ve fiziksel olarak şekil alırız. Her canlı Yaradan'ın doğadaki birer sanat eseridir. Hoşumuza gitmeyen herhangi bir eser, aslında kendi ardışık seçimlerimizin birer sonucudur. Her canlının detaylarında binlerce seçim ve hikâye mevcuttur.",
-      ),
+      en: 'Throughout our lives, we are all shaped both mentally and physically by our own actions and the actions of those around us. Every living being is a work of art by the Creator in nature. Any work of art we dislike is actually an outcome of our own sequential choices. Every living being holds thousands of choices and stories in their details.',
+      tr: "Hepimiz tüm yaşantımız boyunca kendi eylemlerimiz ve çevremizdekilerin eylemleri doğrultusunda zihinsel ve fiziksel olarak şekil alırız. Her canlı Yaradan'ın doğadaki birer sanat eseridir. Hoşumuza gitmeyen herhangi bir eser, aslında kendi ardışık seçimlerimizin birer sonucudur. Her canlının detaylarında binlerce seçim ve hikâye mevcuttur.",
     }),
     examples: {
       title: t({

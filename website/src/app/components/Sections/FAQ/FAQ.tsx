@@ -1,6 +1,7 @@
 'use client';
 
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import useHash from '@/app/hooks/useHash';
 import { useMenu } from '@/app/hooks/useMenu';
@@ -95,8 +96,8 @@ const FAQ = ({ id }: { id?: string }) => {
                 onToggle={() => toggle(i)}
                 onOpened={() => handleOpened(i)}
                 onKeyDown={(e) => onKeyDown(e, i)}
-                question={faq.title}
-                answer={faq.subtitle}
+                question={faq.title.value}
+                answer={faq.subtitle.value}
                 panelId={panelId}
                 buttonId={buttonId}
                 index={i + 1}
@@ -105,7 +106,9 @@ const FAQ = ({ id }: { id?: string }) => {
           );
         })}
       </div>
-      <article className='prose-custom-all max-w-4xl mx-auto px-6 mb-16'>{content.contact}</article>
+      <article className='prose-custom-all max-w-4xl mx-auto px-6 mb-16'>
+        <MarkdownRenderer>{content.contact.value}</MarkdownRenderer>
+      </article>
     </section>
   );
 };

@@ -1,6 +1,7 @@
 'use client';
 
 import { useIntlayer } from 'react-intlayer';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 
 import Consequences from '@/app/components/Sections/Justice/Consequences';
 import EqualityAndFreedom from '@/app/components/Sections/Justice/EqualityAndFreedom';
@@ -8,6 +9,7 @@ import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
 import { LiaBalanceScaleSolid } from 'react-icons/lia';
+import ExampleBox from '../../Custom/ExampleBox';
 import ReadingSuggestion from '../../Custom/ReadingSuggestion';
 
 const Justice = ({ id }: { id?: string }) => {
@@ -38,22 +40,27 @@ const Justice = ({ id }: { id?: string }) => {
             </b>
           </h3>
         </div>
-        <div className='max-w-4xl mx-auto'>{content.description}</div>
+        <div className='max-w-4xl mx-auto'>
+          <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
+        </div>
       </article>
       <div className='max-w-5xl mx-auto py-8 px-6'>
         <EqualityAndFreedom />
       </div>
 
       <article className='prose-custom-all max-w-4xl mx-auto p-6'>
-        {content.paragraph1}
-        {content.paragraph2}
-        {content.paragraph3}
+        <MarkdownRenderer>{content.paragraph1.value}</MarkdownRenderer>
+        <MarkdownRenderer>{content.paragraph2.value}</MarkdownRenderer>
+        <ExampleBox className='my-8' title={content.examples.title.value} content={content.examples.items[0].value} />
+        <MarkdownRenderer>{content.paragraph3.value}</MarkdownRenderer>
       </article>
       <div className='max-w-5xl mx-auto px-6'>
         <Consequences />
       </div>
-      <article className='prose-custom-all max-w-4xl mx-auto p-6'>{content.paragraph4}</article>
-      <ReadingSuggestion className='mb-24' content={content.reading} />
+      <article className='prose-custom-all max-w-4xl mx-auto p-6'>
+        <MarkdownRenderer>{content.paragraph4.value}</MarkdownRenderer>
+      </article>
+      <ReadingSuggestion className='mb-24' content={content.reading.value} />
     </section>
   );
 };

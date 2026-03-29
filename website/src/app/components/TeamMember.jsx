@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Tooltip } from 'react-tooltip';
 
 import { LuFileBadge, LuGlobe } from 'react-icons/lu';
@@ -86,7 +87,7 @@ const TeamMember = ({ member, index = 0 }) => {
         <CardContent className='flex flex-col justify-center items-center gap-4 pt-0'>
           {member.description && (
             <div className='flex flex-col gap-4 text-sm sm:text-md text-gray-800 leading-relaxed text-left'>
-              {member.description}
+              <MarkdownRenderer>{member.description.value}</MarkdownRenderer>
             </div>
           )}
         </CardContent>
