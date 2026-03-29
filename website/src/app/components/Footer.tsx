@@ -4,7 +4,6 @@ import { FaGithub, FaProductHunt } from 'react-icons/fa';
 import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { useIntlayer } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
-import CountdownClock from './Custom/CountdownClock';
 import MarkdownProvider from './Custom/MarkdownProvider';
 
 const Footer = () => {
@@ -91,7 +90,6 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <CountdownClock className='mb-10 max-w-sm' targetDate={new Date('2026-09-16T23:59:59')} />
           </div>
         </div>
       </footer>
