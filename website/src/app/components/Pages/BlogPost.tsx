@@ -10,6 +10,7 @@ import { FaRedhat } from 'react-icons/fa';
 import { LuCircleChevronLeft, LuFilePen, LuFilePlus } from 'react-icons/lu';
 import { useIntlayer, useLocale } from 'react-intlayer';
 
+import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Tooltip } from 'react-tooltip';
 import MarkdownProvider from '../Custom/MarkdownProvider';
 import Title from '../Custom/Title';
@@ -142,7 +143,9 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
               </a>
             </div>
             <Tooltip id='tooltip' className='font-medium p-2 rounded-md shadow-lg max-w-xs' />
-            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto'>{item.content}</article>
+            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto'>
+              <MarkdownRenderer>{item.content}</MarkdownRenderer>
+            </article>
           </div>
           <div className='relative z-10 max-w-2xl mx-auto mt-10 flex items-center justify-center'>
             <Link
