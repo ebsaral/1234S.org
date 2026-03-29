@@ -1,6 +1,6 @@
 ---
-name: buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi
-title: Büyük Teknoloji Şirketlerinin Dolandırıcılık Vakası!
+name: buyuk-teknoloji-sirketlerinin-tecavuz-vakasi
+title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
@@ -87,6 +87,6 @@ Karşılaştığım her sorun, onların doğal olarak cezalandırılmalarına yo
 
 > Yaşatılan olumsuzluklardan ve fırsat eşitsizliklerinden dolayı, ilahi takviyeler olan doğal hediyelere ulaşabiliyoruz. [Öz Geçmiş](https://0.1234S.org/ozgecmis)'imdeki bazı örnekleri inceleyebilirsiniz.
 
-Ne yazık ki, bu şirketlerden dolayı her vatandaş zarara uğramaya devam ediyor. Çünkü hastalıkların ve felaketlerin (doğadaki cezaların) çoğu bu şirketlerin ürünlerindeki suç teşkil eden yazılımsal değişikliklerinden ve manipülasyonlarından kaynaklanıyor.
+Ne yazık ki, bu şirketlerden dolayı her vatandaş zarara uğramaya devam ediyor. Çünkü hastalıkların ve felaketlerin (doğadaki cezaların) çoğu bu şirketlerin ürünlerindeki suç teşkil eden yazılımsal değişikliklerinden ve manipülasyonlarından kaynaklanıyor. **Bu büyük teknoloji şirketleri, her gün vücuduma tecavüz etmeye devam ediyorlar.**
 
 **Hem doğal hem yasal olarak geleceğimize göz kulak olmaya devam edelim!**

@@ -1,6 +1,6 @@
 ---
-name: the-scamming-case-of-big-tech-companies
-title: The Scamming Case of Big Tech Companies!
+name: the-rape-case-of-big-tech-companies
+title: The Rape Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
@@ -86,6 +86,6 @@ Every problem I encounter naturally leads to them being punished, and in this wa
 
 > Due to the struggles and lack of opportunities forced upon us, we are able to reach natural gifts that are divine reinforcements. You can review some examples in [my Resume](https://0.1234S.org/resume).
 
-Unfortunately, every citizen is deeply suffering because of these companies. Most of the diseases and disasters (natural punishments) are tied to the software based criminal behaviors and manipulations in their products.
+Unfortunately, every citizen is deeply suffering because of these companies. Most of the diseases and disasters (natural punishments) are tied to the software based criminal behaviors and manipulations in their products. **My body is still getting raped everyday by those companies.**
 
 **Let's keep an eye on our future, both legally and naturally!**
