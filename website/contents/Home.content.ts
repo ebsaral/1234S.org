@@ -12,8 +12,8 @@ const pageContent = {
       src: '/logos/logo.svg',
     },
     intro: t({
-      en: "1234S.org is founded with the aim of establishing [**Logical Spirituality**](/spirituality) as one of the world's leading philosophical movements, embracing the principles of **Interconnectedness, Justice and Health in Nature** revealed through its teachings. We continue our work to develop, disseminate, and sustain efforts that improve the mental and physical well-being of individuals, society, and the natural environment.",
-      tr: "1234S.org, dünyanın sayılı felsefi akımlarından biri olmasını amaçladığımız [**Mantıksal Maneviyat**](/maneviyat)'ın öğretileriyle birlikte açığa çıkan **Doğada Bütünlük, Adalet ve Sağlık** ilkelerini benimseyerek kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.",
+      en: "1234S.org is founded to explain the world's most valuable knowledge through [**Logical Spirituality**](/spirituality). We continue to develop, disseminate, and sustain our work that improves the mental and physical health of individuals, society, and the natural environment.",
+      tr: '1234S.org, dünyanın en değerli bilgilerini [**Mantıksal Maneviyat**](/maneviyat) vasıtasıyla açıklamak için kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.',
     }),
     jamButton: {
       enable: t({
