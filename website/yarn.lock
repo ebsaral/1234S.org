@@ -2,35 +2,35 @@
 # yarn lockfile v1
 
 
-"@ai-sdk/anthropic@3.0.63":
-  version "3.0.63"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/anthropic/-/anthropic-3.0.63.tgz#b7e6ce31a805bf8fc3373e0c9e41c80055da2e10"
-  integrity sha512-SiLosFr0FfKfrNpAAj8mD/i3S5YBB/z5orb1DH3pN1yATuBNjjPMLnRE4P3Dn7Y5cQsro0uzw5g5117hkShWoQ==
+"@ai-sdk/anthropic@3.0.64":
+  version "3.0.64"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/anthropic/-/anthropic-3.0.64.tgz#755e310e74a4ab364108df39e491d7fa9c5f6bd3"
+  integrity sha512-rwLi/Rsuj2pYniQXIrvClHvXDzgM4UQHHnvHTWEF14efnlKclG/1ghpNC+adsRujAbCTr6gRsSbDE2vEqriV7g==
   dependencies:
     "@ai-sdk/provider" "3.0.8"
     "@ai-sdk/provider-utils" "4.0.21"
 
-"@ai-sdk/gateway@3.0.77":
-  version "3.0.77"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/gateway/-/gateway-3.0.77.tgz#a2fb0ef31efa414d946568ee4ee7c4ad13504c8f"
-  integrity sha512-UdwIG2H2YMuntJQ5L+EmED5XiwnlvDT3HOmKfVFxR4Nq/RSLFA/HcchhwfNXHZ5UJjyuL2VO0huLbWSZ9ijemQ==
+"@ai-sdk/gateway@3.0.83":
+  version "3.0.83"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/gateway/-/gateway-3.0.83.tgz#214812d3a2f15447adf4ee81d3ed77dd137b41b3"
+  integrity sha512-LvlWujbSdEkTBXBLFtF7GS6riXdHhH0O+DpDrCaNQvXeHmSF2jKsOg7JWXiCgygAHM5cWFAO3JYmZp83DjiuBQ==
   dependencies:
     "@ai-sdk/provider" "3.0.8"
     "@ai-sdk/provider-utils" "4.0.21"
     "@vercel/oidc" "3.1.0"
 
-"@ai-sdk/google@3.0.52":
-  version "3.0.52"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/google/-/google-3.0.52.tgz#cd626cd5d68e39fdbe022d718fdcdd44e1a28088"
-  integrity sha512-HiFB4VlHnv55k9xIbgQW9tHw5OsLXzbAghnDUqrnk/S94QpQuyrDwLSDsk/tUkxJeT00B+wvhL1y6/SARdLeXw==
+"@ai-sdk/google@3.0.53":
+  version "3.0.53"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/google/-/google-3.0.53.tgz#3dc30808593e774d8068b46f6ac2ab4ff15e88f8"
+  integrity sha512-uz8tIlkDgQJG9Js2Wh9JHzd4kI9+hYJqf9XXJLx60vyN5mRIqhr49iwR5zGP5Gl8odp2PeR3Gh2k+5bh3Z1HHw==
   dependencies:
     "@ai-sdk/provider" "3.0.8"
     "@ai-sdk/provider-utils" "4.0.21"
 
-"@ai-sdk/openai@3.0.47":
-  version "3.0.47"
-  resolved "https://registry.yarnpkg.com/@ai-sdk/openai/-/openai-3.0.47.tgz#5c92835c24c61a1802d1d0628c8f12eb31e964d2"
-  integrity sha512-bRsb2sDN5u+pKO3Kdr0flpxtL+cPwQ2uCo/pVyzIbj2I4AkKAokJHhw5JWLVOeEwdlYzWfmv+hzaiGarzUcTFQ==
+"@ai-sdk/openai@3.0.48":
+  version "3.0.48"
+  resolved "https://registry.yarnpkg.com/@ai-sdk/openai/-/openai-3.0.48.tgz#38d4690648929703b78672add7e3e21628715d57"
+  integrity sha512-ALmj/53EXpcRqMbGpPJPP4UOSWw0q4VGpnDo7YctvsynjkrKDmoneDG/1a7VQnSPYHnJp6tTRMf5ZdxZ5whulg==
   dependencies:
     "@ai-sdk/provider" "3.0.8"
     "@ai-sdk/provider-utils" "4.0.21"
@@ -801,35 +801,35 @@
   resolved "https://registry.yarnpkg.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz#a81ffb00e69267cd0a1d626eaedb8a8430b2b2f8"
   integrity sha512-+29YMsqY2/9eFEiW93eqWnuLcWcufowXewwSNIT6UwZdUUCrM3oFjMWH/Z6/TMmb4hlFenmfAVbpWeup2jryCw==
 
-"@intlayer/ai@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-8.6.0.tgz#6c5dc1fd880015c5bc192841b8e9995ea1c36b18"
-  integrity sha512-DQG0a6z9o4GY1tcrV4iApApRuyuNeR0Np3bXiR8bnQiuJ9vyZcHeNBwsdbEoKiIj2HBtf3d6SgQnsWO83yxZrQ==
+"@intlayer/ai@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/ai/-/ai-8.6.4.tgz#5104b096827ec5d3ce7d44ccfdec02d438ff86b9"
+  integrity sha512-zRUfTKs6JH5TqNOi7zI+6eqsKM/CK75/JC/BSM6VMFjpYrQdbM9fN9gu2jXx0qXBdokxf1VEY8C6HKVXWBOPLw==
   dependencies:
-    "@ai-sdk/anthropic" "3.0.63"
-    "@ai-sdk/google" "3.0.52"
-    "@ai-sdk/openai" "3.0.47"
-    "@intlayer/api" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/types" "8.6.0"
+    "@ai-sdk/anthropic" "3.0.64"
+    "@ai-sdk/google" "3.0.53"
+    "@ai-sdk/openai" "3.0.48"
+    "@intlayer/api" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/types" "8.6.4"
     "@toon-format/toon" "2.1.0"
-    ai "6.0.133"
+    ai "6.0.141"
     zod "4.3.6"
 
-"@intlayer/api@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-8.6.0.tgz#080e2e1ac9a00384b00bdda8475a85fb1d624ee4"
-  integrity sha512-6KmxmqV1roV3+BWLThk4R7Wf+iwcLztVJt1N0o069DY5tJJcKEAicfAoBaipDi/Kw+ppKx7Pdb+vq/LkeQxBcQ==
+"@intlayer/api@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/api/-/api-8.6.4.tgz#50daf5667300f3805020a57b13a87cdc7fa771d8"
+  integrity sha512-KRmQtyyM1awxvCV4hEit4wyD2R/TYtSDSt9YnCgmrCnycTInYir2Qk5JXQsfTWr2hGcTZTN6z38lcN8xEAW5OQ==
   dependencies:
-    "@intlayer/config" "8.6.0"
-    "@intlayer/types" "8.6.0"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/types" "8.6.4"
     defu "6.1.4"
 
-"@intlayer/babel@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/babel/-/babel-8.6.0.tgz#e985d28d136ca4a23be2d57a780f85c7a9c8da6d"
-  integrity sha512-6yXbi46RfSauL2lirM53hh+Rk8XQ0wRpzw8wsxqHiT68oCiGFqufAcaJU/83+KnUDJ50mjoaGflMbLQBtFKxlw==
+"@intlayer/babel@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/babel/-/babel-8.6.4.tgz#9d2ff6f292d7cc500a10559e275ab9afdf0afd0b"
+  integrity sha512-BmdjvAK9c4om58JQ9quBDaClzIUtxkbRopmMt7ZXgYLn0vC4QCPy3Mld4ERrB/zz8qNAkJH7UFrTNV4honxfyg==
   dependencies:
     "@babel/core" "7.29.0"
     "@babel/generator" "7.29.1"
@@ -837,137 +837,137 @@
     "@babel/plugin-syntax-jsx" "7.28.6"
     "@babel/traverse" "7.29.0"
     "@babel/types" "7.29.0"
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
     "@types/babel__core" "7.20.5"
     "@types/babel__generator" "7.27.0"
     "@types/babel__traverse" "7.28.0"
 
-"@intlayer/chokidar@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-8.6.0.tgz#1036bc19c55a1f18d6ad22794030bdfca9dd9643"
-  integrity sha512-CjRggizq8KpNX54B2WfCbc8IugDDXd8Xc5C1WMfnFWlszQjH7P2Ia/Ku55oyf8pVkQDLIAJ5mDJuR4aRb+A/NQ==
+"@intlayer/chokidar@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/chokidar/-/chokidar-8.6.4.tgz#af54f3c1270053501ec7ae0964f404ff9213151c"
+  integrity sha512-k6MALOonrN6NDnMuTdPB0xDZNn2UmnXOFS/vTjfkmTq77GBUjBQN+uV8w/56NCRxlCK0jNe4VfJTUm+Axz2DRA==
   dependencies:
-    "@babel/parser" "7.29.0"
-    "@intlayer/api" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/remote-dictionaries-entry" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/api" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/remote-dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
     chokidar "3.6.0"
     defu "6.1.4"
     fast-glob "3.3.3"
     recast "^0.23.11"
-    simple-git "3.32.3"
+    simple-git "3.33.0"
     zod-to-ts "2.0.0"
 
-"@intlayer/cli@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-8.6.0.tgz#37dc9de15a8aa6c40a9b59f884762fcc92a0c465"
-  integrity sha512-mEw8frM3vOUWb4S62cokcpNuD/6LW73Vmb4FWZbzlz0ib/UUl+ysLnxecp2YrklKL/1l1RCnwaQgROsJbsGTrg==
+"@intlayer/cli@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/cli/-/cli-8.6.4.tgz#19aa25b54f651989767b2d022b5fdd81748afcdb"
+  integrity sha512-Qyrtwi6oLhw5ac7HD8wBZlyCP/WyrqzXKJhRvW6KE6rDxnfu7bvlNr7Wg+vo8ghZtcFKyutDlQqtOTc78mUVsg==
   dependencies:
     "@clack/prompts" "0.11.0"
-    "@intlayer/ai" "8.6.0"
-    "@intlayer/api" "8.6.0"
-    "@intlayer/babel" "8.6.0"
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/remote-dictionaries-entry" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/ai" "8.6.4"
+    "@intlayer/api" "8.6.4"
+    "@intlayer/babel" "8.6.4"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/remote-dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
     commander "14.0.3"
     enquirer "^2.4.1"
     eventsource "4.1.0"
     fast-glob "3.3.3"
 
-"@intlayer/config@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-8.6.0.tgz#8f2215832a9894ef569fd0a6605ed5ad5743c175"
-  integrity sha512-hYVF29qTLZSUE4LacQhnCWBrqhJ5uOArlasjAfrmz+r2itwBQgekwOj2o6CGzEm2f1P7mKN8bvGvEeJDEIA5Sg==
+"@intlayer/config@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/config/-/config-8.6.4.tgz#e32d8ad45827120caf41a37c7263853813fa3f3e"
+  integrity sha512-jtfUImvn63DhOwjHIFj2zEyoHNLnY2wd4pFA+0WDGKufqMuRwjpyIeEH0sZj4kpfId+/mUzIRaWV+Peyc1muVQ==
   dependencies:
-    "@intlayer/types" "8.6.0"
+    "@intlayer/types" "8.6.4"
     defu "6.1.4"
     dotenv "17.3.1"
     esbuild "0.27.4"
     json5 "2.2.3"
     zod "4.3.6"
 
-"@intlayer/core@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-8.6.0.tgz#bf84ff503a365c2600340ec4336471f9c0c348f4"
-  integrity sha512-wEIvZ7UaXEqXy1OAlQcOURe1EFg6PF5X6N7kgR3SbFIIukuCE5mTDzVbKwD3unxivc75HEoQ2XWCJQLUoegVJQ==
+"@intlayer/core@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/core/-/core-8.6.4.tgz#b79ad3809ee0d423f5b5ad72b1a2258544b3de62"
+  integrity sha512-Q8XIiI022p7aqwqDA8nFxYV3SjQCfJkY3QxaQDaPVEdn+gNtSyockckGo7dsns+EvtxRRSDiDLShXSXbVqXhMQ==
   dependencies:
-    "@intlayer/api" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/api" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
     defu "6.1.4"
 
-"@intlayer/dictionaries-entry@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-8.6.0.tgz#6c8135e58d55fb0744dd68b8d07cd3c2dc705ba0"
-  integrity sha512-WKu4jqWG2EnYkLN315uPKJZQUmG75scMz+jnm6bdjfW3zr0ZhPTwuVlCE23T66qGS/1vfL2D0wNIBObuJbO09g==
+"@intlayer/dictionaries-entry@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/dictionaries-entry/-/dictionaries-entry-8.6.4.tgz#6902003703f470f899e2b916001cebe954002ba9"
+  integrity sha512-0MfyGXKAeYFAX4dhu4dXVT4FunghU2zeSR9pTCE7ObfYbSA7QKn4bQNqAlpbU0Rhw5xF626lWCpRyPDA0r0N0w==
   dependencies:
-    "@intlayer/config" "8.6.0"
+    "@intlayer/config" "8.6.4"
 
-"@intlayer/editor-react@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-8.6.0.tgz#e3ae15b94c4e797844c46bf77ceab5ca1627c779"
-  integrity sha512-aiY5ecPDomVWO0ACx3nrLHRribUG7rpRnANWF7yBYrNs6X5Mk+MKalcg21mAKP1O+WdeI7X7CHljb/Eu4nNOug==
+"@intlayer/editor-react@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor-react/-/editor-react-8.6.4.tgz#8b50c1dc4b1bd70902bd66c725b5c875fb56d6b7"
+  integrity sha512-pfrcXQDUNr5Tqu5e1yjiygNN+BZLgdIfXYAOO9F54KtgpZeliiFbOjpA2pr9B0jqAuH8/28CRFoa7gRvipBt+g==
   dependencies:
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/editor" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/editor" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
 
-"@intlayer/editor@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-8.6.0.tgz#d894b1c24c86b2791e9038509c6047fe9f015791"
-  integrity sha512-JoQlLf4snN/59PmyIPa8Ihcpv8vminGGdt3MbjpjK/jRmSXlUjU+rbYWiqLd1tBb9WTW60IU1PRAKHOajOLHsw==
+"@intlayer/editor@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/editor/-/editor-8.6.4.tgz#99eb4e99b2346761c6df8f820f8aaf87e151f38c"
+  integrity sha512-ZV9r/kxzVq64YX9bwKFdFnrWFFfMGfTvSSDJdkbY9kJireySEWGERaz0xcC6GtMVC5esf4/Ytuw4htYTFPOnvg==
   dependencies:
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
     lit "^3.3.2"
 
-"@intlayer/remote-dictionaries-entry@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-8.6.0.tgz#4981e4065ab064ea76d09f3113cf73a7402e89ef"
-  integrity sha512-cZyZweNn39aX0HnYK0HCtR4N8uvXpo47r9e14jf7GE45BvAOEYHlg6dxtIWdquagEz8nAjGHvGWOuBidqtlWwA==
+"@intlayer/remote-dictionaries-entry@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/remote-dictionaries-entry/-/remote-dictionaries-entry-8.6.4.tgz#74f1f2fdba3ebeaacae7962a7469bad16d504ce9"
+  integrity sha512-uTens9VnL7WAtw1iRvvriKjOpH17DGgBgtnsX4V3gsWGNifdEdXIOpl3Z6E0tNtwhFNSd5lSJ211u579LnFLcw==
   dependencies:
-    "@intlayer/config" "8.6.0"
+    "@intlayer/config" "8.6.4"
 
-"@intlayer/types@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-8.6.0.tgz#f31c51d6f595279d3d5afaae60cba620758ec24b"
-  integrity sha512-SpdEs7NXapbaR3/ie40kaVSzAPYfhKplWteVfhh3Z0wL4VWQ0UBtmGGe8nUojp2kBWxG8AmHa6/w5furbfpptA==
+"@intlayer/types@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/types/-/types-8.6.4.tgz#0186b6fb3f6b67ec38e818c964cb18f577092be3"
+  integrity sha512-DW8dF/uJ7YpVkTtxiWGLsOytszcb+XuZ8Fa/PQqDCgdT1vE7CZwj/clxF8/HdjARQyaTsrSYe1QYPQCfXHiUeg==
 
-"@intlayer/unmerged-dictionaries-entry@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-8.6.0.tgz#62234f41abac64ed6935302c8f64697679a64a16"
-  integrity sha512-EAqC4spMeWY2b6nD9AcIWAbM6G2AA8blSM0Nhej3RItQx0K9z+t3apI8LLGKWdDvZlTv2MZCxJxqk2cVgzFiVQ==
+"@intlayer/unmerged-dictionaries-entry@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/unmerged-dictionaries-entry/-/unmerged-dictionaries-entry-8.6.4.tgz#746596b23980da95ebe9431859f893905c62c3b9"
+  integrity sha512-kEAV3rBN+sOVXh3DPijT3OYXxSArP3EHQYXOuHL/9nXhVMgSJa27RT/FQwk0l8tDCip5tdkFbEh9nMT/ql0Jiw==
   dependencies:
-    "@intlayer/config" "8.6.0"
+    "@intlayer/config" "8.6.4"
 
-"@intlayer/webpack@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-8.6.0.tgz#47ce107f710493e664bf6b1e15f8fd19d5759a45"
-  integrity sha512-XVm3Uj1dJr0S80U/lmnzomIgJIbZ4z1fDuQIuIOeDgINL7VN8CbWO4WkxXdaOTJ1u0q79QxRTBTgQ/BFKuuXYA==
+"@intlayer/webpack@8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@intlayer/webpack/-/webpack-8.6.4.tgz#7b75e8760a37955a0ef9445a9c056469c6f28228"
+  integrity sha512-Szx93sVM2VcHYzGQ34HeT07NlMoIH5G/btg5EjhK9BprTn/iCesu2zNJPcTdQ1pkdfmhoSmvwOtcRQjYYHuwLg==
   dependencies:
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/types" "8.6.0"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
     fast-glob "3.3.3"
     webpack "5.105.4"
     webpack-dev-server "5.2.3"
@@ -2730,12 +2730,12 @@ acorn@^8.16.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.16.0.tgz#4ce79c89be40afe7afe8f3adb902a1f1ce9ac08a"
   integrity sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==
 
-ai@6.0.133:
-  version "6.0.133"
-  resolved "https://registry.yarnpkg.com/ai/-/ai-6.0.133.tgz#1fd29930baefcf65adcfbfd974517ff70fa5d51e"
-  integrity sha512-8YBTQdRtIpa7gLKWLvUHLnKxI5lEyV1z9o20+8uDjMs4EOGuv62fQivHD/Yi7SBidzEhAORjCBcQrQ5Lu2V0Vw==
+ai@6.0.141:
+  version "6.0.141"
+  resolved "https://registry.yarnpkg.com/ai/-/ai-6.0.141.tgz#c476280ae69b13ad11f2671e49a24ac0412a0b54"
+  integrity sha512-+GomGQWaId3xN0wcugUW/H7xMMaFkID2PiS7K/Wugj45G3efv0BXhQ3psRZoQVoRbOpdNoUqcK/KTB+FR4h6qg==
   dependencies:
-    "@ai-sdk/gateway" "3.0.77"
+    "@ai-sdk/gateway" "3.0.83"
     "@ai-sdk/provider" "3.0.8"
     "@ai-sdk/provider-utils" "4.0.21"
     "@opentelemetry/api" "1.9.0"
@@ -4360,28 +4360,28 @@ fast-uri@^3.0.0, fast-uri@^3.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.0.tgz#66eecff6c764c0df9b762e62ca7edcfb53b4edfa"
   integrity sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==
 
-fastify-intlayer@8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/fastify-intlayer/-/fastify-intlayer-8.6.0.tgz#5a6dcdb5ee874adfbb5764ff08d6e4d2a226540c"
-  integrity sha512-7ey/WdqbxzVxP5vAucVoByVK6zl6O9WX1YLZmLHQ60wANVCEkJHuvmgOKyHQtjN6QliusVNyWpXhMsZSv1PH/Q==
+fastify-intlayer@8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/fastify-intlayer/-/fastify-intlayer-8.6.4.tgz#59a192044fddb54cffcdc97eeb8d0037a881674e"
+  integrity sha512-1bpEL7A6+UER2xvPu3LUpzAT1b0lRSNhT1kJghxe35tlUp2eKQu0pB2VNUQsFvaR6RHnsZfVFizkwJmohLiwpg==
   dependencies:
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/types" "8.6.0"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/types" "8.6.4"
     cls-hooked "4.2.2"
     fastify-plugin "5.1.0"
-    intlayer "8.6.0"
+    intlayer "8.6.4"
 
 fastify-plugin@5.1.0, fastify-plugin@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-5.1.0.tgz#7083e039d6418415f9a669f8c25e72fc5bf2d3e7"
   integrity sha512-FAIDA8eovSt5qcDgcBvDuX/v0Cjz0ohGhENZ/wpc3y+oZCY2afZ9Baqql3g/lC+OHRnciQol4ww7tuthOb9idw==
 
-fastify@5.8.2:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-5.8.2.tgz#c0e4209a2abe69b54789505b6b47133769cef89c"
-  integrity sha512-lZmt3navvZG915IE+f7/TIVamxIwmBd+OMB+O9WBzcpIwOo6F0LTh0sluoMFk5VkrKTvvrwIaoJPkir4Z+jtAg==
+fastify@5.8.4:
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-5.8.4.tgz#9ad9ebeea57980cf8722b5c44ca27ea9255cf2d5"
+  integrity sha512-sa42J1xylbBAYUWALSBoyXKPDUvM3OoNOibIefA+Oha57FryXKKCZarA1iDntOCWp3O35voZLuDg2mdODXtPzQ==
   dependencies:
     "@fastify/ajv-compiler" "^4.0.5"
     "@fastify/error" "^4.0.0"
@@ -4936,10 +4936,10 @@ internal-slot@^1.1.0:
     hasown "^2.0.2"
     side-channel "^1.1.0"
 
-intlayer-editor@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/intlayer-editor/-/intlayer-editor-8.6.0.tgz#1cf8d653f7bbcb6c3155d2ea58a7aa6a4779d9e6"
-  integrity sha512-ELvV6neRvGOM6ohe2wO9k/J7sdi5Y/lcMJxtOs/FDvUwTfrAxR5Et0qdeEowb+M7zMdoDE9ba8aHVn1HJswKVA==
+intlayer-editor@^8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/intlayer-editor/-/intlayer-editor-8.6.4.tgz#a5061ef2696d5604acfe7fbbd98f9900c1fc1b47"
+  integrity sha512-HtmWhsLiM2QYuJudBKp2ER7Rc1dHzD31TMkEdRJCno4mwb4HT1Gikb5chlmkw59joCL9hi2yRVN526xFned09g==
   dependencies:
     "@fastify/compress" "8.3.1"
     "@fastify/cookie" "11.0.2"
@@ -4947,22 +4947,22 @@ intlayer-editor@^8.6.0:
     "@fastify/formbody" "8.0.2"
     "@fastify/helmet" "13.0.2"
     "@fastify/static" "9.0.0"
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/unmerged-dictionaries-entry" "8.6.0"
-    fastify "5.8.2"
-    fastify-intlayer "8.6.0"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/unmerged-dictionaries-entry" "8.6.4"
+    fastify "5.8.4"
+    fastify-intlayer "8.6.4"
     mime "4.1.0"
 
-intlayer@8.6.0, intlayer@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-8.6.0.tgz#5d4a223be283257dcb1ea18803c45ad3cb7c4a2f"
-  integrity sha512-wn2ISgfbSGHXGN1wxKXJV4qgRifogCHBnHRZXRz5P6MQZYzk5q4XVYaZbUizefIRtv6R4SmYEh+Hl3JkKZGbrg==
+intlayer@8.6.4, intlayer@^8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/intlayer/-/intlayer-8.6.4.tgz#725540a0a40b1d30c66a5acf45655c89e22e4db0"
+  integrity sha512-iO1JlCrvo38L4zKQACQLNz+JTfMYf9V5FV/jvbnJ7kaRbMDH/CdXC797ClnYwZDQB2NjxHfjjd8SGKi37i+CDg==
   dependencies:
-    "@intlayer/cli" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/types" "8.6.0"
+    "@intlayer/cli" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/types" "8.6.4"
 
 ipaddr.js@1.9.1:
   version "1.9.1"
@@ -6225,20 +6225,20 @@ next-font@^2.0.2:
   resolved "https://registry.yarnpkg.com/next-font/-/next-font-2.0.2.tgz#336d64dffddcde18fb6e14398e838fd47ecd9d66"
   integrity sha512-u3FO5PED0L1sGNfyRwalKEI/RGyoyTLEmxsUsbfXK4DnzuvTYZQ5matcbNUjtEgIy3MdVFJYSJuFMQ58SQtI6w==
 
-"next-intlayer@^8.6.0  ":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-8.6.0.tgz#99d2d31f1a41c8e743cf1c59e03a34280a3a6490"
-  integrity sha512-KCsecipgfHO00vUC0CslBzt45FQdu7+S5KBHT5hukLKF+dK8R/xI3NnoRD+/mLgvJAw5E2vz95pclcvU5MKXvQ==
+next-intlayer@^8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/next-intlayer/-/next-intlayer-8.6.4.tgz#3c2b5c3afc4d90eeab55055f3db0ea8c66874e44"
+  integrity sha512-9DimlfNElXwmJH5s0aFNgeJoqccDuiYC6EmQTuzJwIO39CkU8OCslcUG49zX7JdxDL6XgcIm052+C0S1dRQhsA==
   dependencies:
-    "@intlayer/chokidar" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    "@intlayer/webpack" "8.6.0"
+    "@intlayer/chokidar" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    "@intlayer/webpack" "8.6.4"
     defu "6.1.4"
     node-loader "2.1.0"
-    react-intlayer "8.6.0"
+    react-intlayer "8.6.4"
 
 next@16.2.1:
   version "16.2.1"
@@ -6888,19 +6888,19 @@ react-icons@^5.6.0:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.6.0.tgz#27bcc4acbc836e762548d76041cf9b9fef4e3837"
   integrity sha512-RH93p5ki6LfOiIt0UtDyNg/cee+HLVR6cHHtW3wALfo+eOHTp8RnU2kRkI6E+H19zMIs03DyxUG/GfZMOGvmiA==
 
-react-intlayer@8.6.0, react-intlayer@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-8.6.0.tgz#de62714b0b7cdd59abf92e0abe4e63e6170b102a"
-  integrity sha512-PFYJR0i6aNkseP40s6bNFI6wZpRO4szN0T2fSrWf2ruk2DWAzAY742xaKjlAS94wgvXOEnP6s0qN6s1AaIGYIA==
+react-intlayer@8.6.4, react-intlayer@^8.6.4:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/react-intlayer/-/react-intlayer-8.6.4.tgz#1b1baae9bbab472e3c966795d26105999fbd8d30"
+  integrity sha512-+sNIY6zstHbj/6QCuETcwJO7G6E5FWtTYkLupuGV1+g09LY95b8E5QfvXEQPC/XzndXplBRUbyQ13+UDVDWjEA==
   dependencies:
-    "@intlayer/api" "8.6.0"
-    "@intlayer/config" "8.6.0"
-    "@intlayer/core" "8.6.0"
-    "@intlayer/dictionaries-entry" "8.6.0"
-    "@intlayer/editor" "8.6.0"
-    "@intlayer/editor-react" "8.6.0"
-    "@intlayer/types" "8.6.0"
-    intlayer "8.6.0"
+    "@intlayer/api" "8.6.4"
+    "@intlayer/config" "8.6.4"
+    "@intlayer/core" "8.6.4"
+    "@intlayer/dictionaries-entry" "8.6.4"
+    "@intlayer/editor" "8.6.4"
+    "@intlayer/editor-react" "8.6.4"
+    "@intlayer/types" "8.6.4"
+    intlayer "8.6.4"
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
@@ -7512,10 +7512,10 @@ signal-exit@^4.0.1, signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-git@3.32.3:
-  version "3.32.3"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.32.3.tgz#1dd6030fd03df4533a9e5a941314335e6265055d"
-  integrity sha512-56a5oxFdWlsGygOXHWrG+xjj5w9ZIt2uQbzqiIGdR/6i5iococ7WQ/bNPzWxCJdEUGUCmyMH0t9zMpRJTaKxmw==
+simple-git@3.33.0:
+  version "3.33.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.33.0.tgz#b903dc70f5b93535a4f64ff39172da43058cfb88"
+  integrity sha512-D4V/tGC2sjsoNhoMybKyGoE+v8A60hRawKQ1iFRA1zwuDgGZCBJ4ByOzZ5J8joBbi4Oam0qiPH+GhzmSBwbJng==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
