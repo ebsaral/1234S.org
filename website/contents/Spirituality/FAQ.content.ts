@@ -154,6 +154,16 @@ const pageContent = {
       },
       {
         title: t({
+          en: "In your writings, it's said that no living creature can harm another without reason in nature. Then why are some animals that are specially bred allowed to be slaughtered?",
+          tr: 'Doğada hiçbir canlının diğer canlıya sebepsiz yere zarar veremeyeceğini yazmışsınız. Öyleyse özel olarak beslenen hayvanlar neden kesilebiliyorlar?',
+        }),
+        subtitle: t({
+          en: "By observing human life and how animals hunt each other, we've realized that no living creature can harm another without reason. There are still some things that aren't fully understood. For example, I could mention cows harming insects, but that would be a hypothetical answer. I believe we'll find the complete answer to this question in the future. The correct answer is: I don't know.",
+          tr: 'İnsanların yaşantılarını ve hayvanların birbirlerini avlama yöntemlerini gözlemleyerek, herhangi bir canlının diğer canlıya sebepsiz yere zarar veremediğini fark ettik. Henüz tam olarak anlaşılmayan bazı durumlar mevcut. Örnek olarak, ineklerin böceklere zarar vermesini yazabilirim fakat uydurma bir cevap olur. Bu sorunun tam cevabını ilerleyen zamanlarda bulabileceğimizi düşünüyorum. Doğru cevap: Bilmiyorum.',
+        }),
+      },
+      {
+        title: t({
           en: 'Where might we be going?',
           tr: 'Nereye gidiyor olabiliriz?',
         }),
