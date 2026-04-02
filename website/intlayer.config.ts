@@ -62,7 +62,15 @@ const config: IntlayerConfig = {
         en: '/[locale]/blog/how-to-play-in-nature',
         tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
       },
+      '/[locale]/blog/zorluklar-seviyeler-oduller-ve-cezalar': {
+        en: '/[locale]/blog/how-to-play-in-nature',
+        tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
+      },
       '/[locale]/blog/the-scamming-case-of-big-tech-companies': {
+        en: '/[locale]/blog/the-rape-case-of-big-tech-companies',
+        tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi',
+      },
+      '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi': {
         en: '/[locale]/blog/the-rape-case-of-big-tech-companies',
         tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi',
       },
