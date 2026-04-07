@@ -2,6 +2,7 @@
 
 import { useIntlayer } from 'next-intlayer';
 
+import Link from 'next/link';
 import CustomFlower from '../Custom/CustomFlower';
 import TeamMember from '../TeamMember';
 
@@ -33,7 +34,16 @@ const Team = () => {
         </div>
       )}
 
-      <div className='sea -mt-28 sm:-mt-28 z-0'>
+      <div className='relative z-10 flex items-center justify-center max-w-4xl mx-auto mt-10'>
+        <Link
+          href={content.cofounder.href.value}
+          className={`text-center font-medium p-4 b-1 border-gray-900 text-gray-100 bg-gray-800 hover:bg-gray-900 ring-1 ring-gray-200 ring-offset-1 rounded-lg transition-all duration-200 ease-in-out`}
+        >
+          {content.cofounder.label}
+        </Link>
+      </div>
+
+      <div className='sea -mt-24 z-0'>
         <div className='wave back' />
         <div className='wave' />
       </div>

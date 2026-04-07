@@ -8,6 +8,13 @@ const pageContent = {
       en: 'Our Team',
       tr: 'Ekibimiz',
     }),
+    cofounder: {
+      label: t({
+        en: 'Become our co-founder!',
+        tr: 'Kurucu ortağımız olun!',
+      }),
+      href: 'https://1234s.breezy.hr/p/38156cc935b9-topluluk-gonullusu-community-volunteer',
+    },
     members: [
       {
         name: 'Emin Buğra Saral',

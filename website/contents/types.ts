@@ -31,6 +31,10 @@ export interface TeamMember {
 
 export interface TeamContent {
   title: string;
+  cofounder: {
+    label: string;
+    href: string;
+  };
   members: TeamMember[];
   contact: string;
   note: string;
