@@ -25,23 +25,30 @@ When the existence of the Creator was told in stories and mythologies that sprea
 
 One day al-Khiḍr withdraws to a dark cave on a deserted mountain. When night falls, the cave is surrounded by wolf howls. Shortly after, hungry and wild-looking wolves come to the entrance of the cave. In this situation, which would normally be deadly for a human, al-Khiḍr does not show the slightest fear; he sits silently and continues to contemplate.
 
-Questions that should be asked:
+**Questions that should be asked, and answers that explain how every being has the same chance:**
 
 1. Why did al-Khiḍr withdraw to a deserted cave?
+
+Having performed many helpful acts in society, he wanted to be alone to rest and reflect. Because everyone in stress consulted al-Khiḍr or asked for his help directly or indirectly.
+
 2. Why did the wolves find that cave?
+
+It was a divine supplement that allowed him to meet the feelings of other animals as both a warning (lesson) and a reward. It was a coincidence that depicted the relationship of the people around him with him.  
+*Without knowing the details, it is difficult to guess what behaviors the wolves reflected in that era and culture. It is just a chain of life experiences that only al-Khiḍr could see (read).*
+
 3. Why did the wolves not attack al-Khiḍr?
+
+Because al-Khiḍr did not attack or harm any living being, the destructive side of justice in nature was not a threat to him.
+
 4. Why did the Creator show value to al-Khiḍr?
+
+Al-Khiḍr's feelings were strengthened because he was sharing and helpful. With the empathy he developed by opening himself (sharing) to other beings in nature, the door to divine supplements opened to him that much more.
+
 5. Why did al-Khiḍr not explain the divine value given to him to society?
 
-Answers that explain how every being has the same chance:
-1. Having performed many helpful acts in society, he wanted to be alone to rest and reflect. Because everyone in stress consulted al-Khiḍr or asked for his help directly or indirectly.
-2. It was a divine supplement that allowed him to meet the feelings of other animals as both a warning (lesson) and a reward. It was a coincidence that depicted the relationship of the people around him with him.  
-*Without knowing the details, it is difficult to guess what behaviors the wolves reflected in that era and culture. It is just a chain of life experiences that only al-Khiḍr could see (read).*
-3. Because al-Khiḍr did not attack or harm any living being, the destructive side of justice in nature was not a threat to him.
-4. Al-Khiḍr's feelings were strengthened because he was sharing and helpful. With the empathy he developed by opening himself (sharing) to other beings in nature, the door to divine supplements opened to him that much more.
-5. If al-Khiḍr had explained/could have explained why he was lucky, the value he received might have diminished and he could have been harmed. Because everyone could solve their own problems on their own.
+If al-Khiḍr had explained/could have explained why he was lucky, the value he received might have diminished and he could have been harmed. Because everyone could solve their own problems on their own.
 
-If al-Khiḍr's reason of death was known, it would be easier to see what mistake he made and which rules of nature he did not follow.
+> If al-Khiḍr's reason of death was known, it would be easier to see what mistake he made and which rules of nature he did not follow.
 
 ---
 
