@@ -65,7 +65,7 @@ Doğanın adalet terazisi her varlığın içinde zaten mevcuttur. Doğada olağ
 
 Doğanın öz varlığına tam olarak kavuşmak bizi birer “kukla” [hizmetkâr] gibi hissettirebilir. Bu durumda, kuklalar dünyasında yalnızca birer “usta kukla” olduğumuzu sevgiyle fark etmeliyiz. Sadece doğanın rehberliğini tam bir bilinçle hissedecek kadar şanslı olmuşuzdur.
 
-> Doğa, bizim düşünebileceğimizden daha yaratıcıdır; sıkıldığımızda bile bize eğlenceli sürprizler sunar. Tanrı [Yaradan] asla korkulacak bir olgu değildir. Korktuğumuz bir varlık veya olgu varsa, bunun sebebi geçmişte yapılan seçimlerdir. Tüm korkuları aşabilmek ise yapıcı cesaret gerektirir.
+> Doğa, bizim düşünebileceğimizden daha yaratıcıdır; sıkıldığımızda bile bize eğlenceli sürprizler sunar. Tanrı [Tanrı] asla korkulacak bir olgu değildir. Korktuğumuz bir varlık veya olgu varsa, bunun sebebi geçmişte yapılan seçimlerdir. Tüm korkuları aşabilmek ise yapıcı cesaret gerektirir.
 
 ### Cezalar
 
@@ -83,7 +83,7 @@ Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimi
 
 - Muhtemelen güzel bir sesiniz var çünkü siz *(veya atalarınız)* başkalarının sesinin duyulmasına yardımcı oldunuz. Veya, sesiniz haksız yere engellendi ve çevrenizi bereketlendirmek için size güzel bir ses verildi.
 
-- Muhtemelen çok yaratıcısınız çünkü siz *(veya atalarınız)* diğer insanlara olumlu yaşam fırsatları sağladınız ve engel olmadınız. Veya, yaratıcılığınızı yansıtmanız engellendi ve hediyeleriniz Yaradan sayesinde doğal olarak artırıldı.
+- Muhtemelen çok yaratıcısınız çünkü siz *(veya atalarınız)* diğer insanlara olumlu yaşam fırsatları sağladınız ve engel olmadınız. Veya, yaratıcılığınızı yansıtmanız engellendi ve hediyeleriniz Tanrı sayesinde doğal olarak artırıldı.
 
 - Muhtemelen uzun boylusunuz çünkü siz *(veya atalarınız)* birinin daha iyi ve sağlıklı bir yaşam sürmesini sağladınız… Veya, doğduğunuz sosyal koşullarda yükselmeniz engellendi.
 
@@ -111,11 +111,11 @@ Doğuştan gelen yetenekler bir tür hipnoz veya şeytan tüyünden ibaret deği
 
 ---
 
-**Yaradan hepimizi sever; bir tarafın cezalandırılması, O'nun diğer taraftakilere olan sevgisindendir.**
+**Tanrı hepimizi sever; bir tarafın cezalandırılması, O'nun diğer taraftakilere olan sevgisindendir.**
 
 Amaçlarımız doğrultusunda, doğanın rehberliğiyle uyumlu hale gelerek tüm yeteneklerimizi (doğal armağanlarımızı) kolayca kazanabiliriz. Doğanın içsel bilgeliğini net bir şekilde anladığımızda, eğitim sistemimiz kapsayıcı fırsatların önünü açabilir:
 
-- İnsanlar Yaradan'ın doğadaki sanatını kolayca kavrayabilirler; ne zaman isterlerse, doğanın prensipleriyle uyumlu bir biçimde istedikleri birey olabilirler.
+- İnsanlar Tanrı'nın doğadaki sanatını kolayca kavrayabilirler; ne zaman isterlerse, doğanın prensipleriyle uyumlu bir biçimde istedikleri birey olabilirler.
 
 - Minimal fiziksel veya zihinsel çaba ile birkaç gün veya hafta içinde istenilen kariyer değişikliği yapılabilir. Her canlının değerli olduğu bir yaşam düzeninde uzun saatler boyunca çalışmaya gerek kalmayabilir.
 

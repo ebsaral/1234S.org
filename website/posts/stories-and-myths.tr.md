@@ -11,13 +11,13 @@ published: true
 ---
 Evrenin içerisinde anlam arayışımız çerçevesinde yıllar boyunca farklı kültürlerin kendilerini yansıtma biçimleri oldu. Dünyanın neresinde olursa olsun, farklı simaların benzer hikayelerini [okuduk](/tr/blog/okuma-aliskanligi). Coğrafyanın karakteristik özellikleri, her kültürde değişik renk kombinasyonlarıyla yaratıcılığı ortaya çıkardı.
 
-Doğanın kanunları yorumlanırken, güçlünün güçsüzü yok ettiğine yönelik gözlemlere şahit olduk.Yaradan'ın fırsat eşitsizliklerine yönelik açığa çıkardığı ilham kaynakları her seferinde bireysel başarılar olarak yorumlandı. Zaman geçtikçe, güç kavramı bireysel olmaktan çıkıp tek tanrı veya ilahi güç yorumlamalarıyla buluştu.
+Doğanın kanunları yorumlanırken, güçlünün güçsüzü yok ettiğine yönelik gözlemlere şahit olduk.Tanrı'nın fırsat eşitsizliklerine yönelik açığa çıkardığı ilham kaynakları her seferinde bireysel başarılar olarak yorumlandı. Zaman geçtikçe, güç kavramı bireysel olmaktan çıkıp tek tanrı veya ilahi güç yorumlamalarıyla buluştu.
 
-Yaşatılan/yaşanan adaletsizliklerin bitirilmemesinden dolayı, toplumların içinde oluşan ilahi takviyeler alınacak kararlara şekil vermeye devam etti. İnsanların güçsüzlüğünü hastalıklar, hava değişimleri ve doğal afetlerde görebilme fırsatı elde ettik. Fakat ilahi takviylere ulaşan insanlar kendilerini Yaradan'ın yeryüzündeki yansıması olarak görmek yerine, diğer canlılardan daha önemli oldukları kanısına kapıldılar.
+Yaşatılan/yaşanan adaletsizliklerin bitirilmemesinden dolayı, toplumların içinde oluşan ilahi takviyeler alınacak kararlara şekil vermeye devam etti. İnsanların güçsüzlüğünü hastalıklar, hava değişimleri ve doğal afetlerde görebilme fırsatı elde ettik. Fakat ilahi takviylere ulaşan insanlar kendilerini Tanrı'nın yeryüzündeki yansıması olarak görmek yerine, diğer canlılardan daha önemli oldukları kanısına kapıldılar.
 
-Mitolojilerde daha değerli olduğu düşünülen figürler, toplumların Yaradan'ı görmesini zorlaştıran karakterlere dönüştürüldüler. Sorumluluk alarak kendilerine bahşedilen yaratıcılığı değerlendiren ve toplumlarını geliştiren liderler, kendilerini kuralları belirleyici olarak tanımladılar. Haliyle ilham olması gereken ilahi takviyelerine, diğer canlıların yaşantılarını kontrol etme gafletiyle yaklaştılar. Her kontrol etme biçimi daha sonraki liderin oluşmasına vesile oldu ve doğada tekrarlanan hatalardan oluşan döngüler benzer hikayelerle devam etti.
+Mitolojilerde daha değerli olduğu düşünülen figürler, toplumların Tanrı'yı görmesini zorlaştıran karakterlere dönüştürüldüler. Sorumluluk alarak kendilerine bahşedilen yaratıcılığı değerlendiren ve toplumlarını geliştiren liderler, kendilerini kuralları belirleyici olarak tanımladılar. Haliyle ilham olması gereken ilahi takviyelerine, diğer canlıların yaşantılarını kontrol etme gafletiyle yaklaştılar. Her kontrol etme biçimi daha sonraki liderin oluşmasına vesile oldu ve doğada tekrarlanan hatalardan oluşan döngüler benzer hikayelerle devam etti.
 
-Toplum geneline yayılan hikayeler ve mitolojilerde Yaradan'ın varlığı anlatılırken nasıl var olduğu detaylandırılmadı ve mistik özellikler yaratılan figürler üzerinden yorumlandı. Kader, şansın varlığı ve ilahi müdahaleler anlatıldı, fakat gerekçelere yeterince odaklanılmadı. Hikayelerdeki karakterler toplum genelinden daha değerli gösterildikleri için, hikayeleri okuyanlar kendi yaşantılarındaki detayları göremedi. Böylece tüm topluma gönderilen sorumluluk liderlerde kalmaya devam etti.
+Toplum geneline yayılan hikayeler ve mitolojilerde Tanrı'nın varlığı anlatılırken nasıl var olduğu detaylandırılmadı ve mistik özellikler yaratılan figürler üzerinden yorumlandı. Kader, şansın varlığı ve ilahi müdahaleler anlatıldı, fakat gerekçelere yeterince odaklanılmadı. Hikayelerdeki karakterler toplum genelinden daha değerli gösterildikleri için, hikayeleri okuyanlar kendi yaşantılarındaki detayları göremedi. Böylece tüm topluma gönderilen sorumluluk liderlerde kalmaya devam etti.
 
 **Örnek bir hikaye üzerinden ilerleyerek gözden kaçırılan detayları ve sorulmayan soruları inceleyelim:**
 
@@ -39,7 +39,7 @@ Hem uyarı (ders) hem ödül niteliğinde, diğer hayvanların hisleriyle buluş
 
 Hızır hiçbir canlıya saldırmadığı veya zarar vermediği için, doğadaki adaletin yıkıcı tarafı ona tehdit olmadı.
 
-4. Yaradan, Hızır'a neden değer gösterdi?
+4. Tanrı, Hızır'a neden değer gösterdi?
 
 Hızır'ın paylaşımcı ve yardımsever olmasından dolayı hisleri kuvvetlendirildi. Kendisini doğadaki diğer canlılara açtığı (paylaştığı) kadar gelişen empati duygusuyla, ilahi takviyelerin kapısı ona bir o kadar açıldı.
 
