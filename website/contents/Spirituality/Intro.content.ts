@@ -29,7 +29,7 @@ const pageContent = {
       tr: '**Mantıksal Maneviyat**, evrensel gerçeği daha iyi anlayabilmek için, tüm hisleri odak noktasına alarak canlıların birbirleriyle olan görünür ve görünmez bağlarını açıklayan [bir düşünce sistemidir](){data-tooltip-id="tooltip" data-tooltip-content="Bir bilimin veya bilgi alanının temelini oluşturan ilkeler bütünü; felsefe."}. **Bütünlük** ve **Adalet** ilkeleriyle, doğadaki fiziksel ve zihinsel sağlık koşullarının kapsamlı gözlemi etrafında hissedilebilen bireysel gerçeği detaylandırır.',
     }),
     paragraph2: t({
-      en: 'Beyond the divisions that have settled into human consciousness throughout our shared history, every living being shares nature as a common essence. In the laws of nature, regardless of species, age, gender, race, or class, every being is treated **equally**. In the eyes of the Creator, **every life is sacred** and possesses intrinsic **freedom**.',
+      en: 'Beyond the divisions that have settled into human consciousness throughout our shared history, every living being shares nature as a common essence. In the laws of nature, regardless of species, age, gender, race, or class, every being is treated **equally**. In the eyes of The God, **every life is sacred** and possesses intrinsic **freedom**.',
       tr: "Ortak geçmişimiz boyunca insan bilincine yerleşen ayrımların ötesinde, her canlı varlık ortak bir öz olan doğayı paylaşır. Doğa kanunlarında cins, yaş, cinsiyet, ırk ve sınıf fark etmeksizin her canlı **eşit** muamele görür. Tanrı'nın nezdinde **her yaşam kutsaldır** ve içsel bir **özgürlüğe** sahiptir.",
     }),
     quote: t({

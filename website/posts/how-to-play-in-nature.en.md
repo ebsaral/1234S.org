@@ -65,7 +65,7 @@ Nature's justice scale already exist in every being. Here are a few ordinary, my
 
 Fully connecting with the essence of nature can make us feel like mere “puppets” [servants]. In this case, we must lovingly realize that in this world of puppets, we are merely “master puppets”. We have simply been fortunate enough to feel nature's guidance with complete awareness.
 
-> Nature is more creative than we can imagine; it offers us enjoyable surprises even when we are bored. God [the Creator] is never something to be feared. If there is a being or phenomenon we fear, it is because of choices made in the past. Overcoming all fears requires constructive bravery.
+> Nature is more creative than we can imagine; it offers us enjoyable surprises even when we are bored. God [The God] is never something to be feared. If there is a being or phenomenon we fear, it is because of choices made in the past. Overcoming all fears requires constructive bravery.
 
 ### Punishments
 
@@ -85,7 +85,7 @@ Our talents get shaped based on our interactions within nature. If we open up ou
 
 - You probably have a beautiful voice because you *(or your ancestors)* helped others have their voices heard. Or, perhaps your voice was unjustly suppressed, and you were given a beautiful voice to enrich your environment.
 
-- You are probably very creative because you *(or your ancestors)* provided positive life opportunities to others and did not stand in their way. Or, your creativity was prevented from being expressed, and your gifts were naturally increased thanks to the Creator.
+- You are probably very creative because you *(or your ancestors)* provided positive life opportunities to others and did not stand in their way. Or, your creativity was prevented from being expressed, and your gifts were naturally increased thanks to The God.
 
 - You are probably tall because you *(or your ancestors)* helped someone live a better and healthier life… Or, your rise was prevented within the social conditions you were born into.
 
@@ -113,11 +113,11 @@ Innate talents are not a kind of hypnosis or magical charm; they are nature's wa
 
 ---
 
-**The Creator loves us all; one side being punished is its love for the other sides.**
+**The God loves us all; one side being punished is its love for the other sides.**
 
 By aligning ourselves with the guidance of nature in line with our goals, we can easily gain all our talents (natural gifts). When we fully understand the wisdom of nature, our education system can open the way for inclusive opportunities:
 
-- People can easily comprehend the Creator's art in nature; whenever they wish, they can become the person they want in harmony with the principles of nature.
+- People can easily comprehend The God's art in nature; whenever they wish, they can become the person they want in harmony with the principles of nature.
 
 - Desired career changes could be made within a few days or weeks with minimal physical or mental effort. In a life system where every being is valued, it may no longer be necessary to work long hours.
 

@@ -128,7 +128,7 @@ export default {
       tr: 'Bütünlük bakış açısını kazandığımızda, rahimde başlayan yaşam yolculuğunun nasıl şekil aldığını da anlayabiliriz. Çünkü ebeveynlerin çevreleriyle olan bağ kurma biçimleri (eylemleri) ve çevredeki canlıların seçimleri de bir bebeğin genlerindeki dizilime yansır. Her bebek, doğanın küçük bir iz düşümü olarak, hem yakın hem uzak çevresinin izlerini görünür biçimde taşır.',
     }),
     paragraph5: t({
-      en: 'Throughout our lives, we are all shaped both mentally and physically by our own actions and the actions of those around us. Every living being is a work of art by the Creator in nature. Any work of art we dislike is actually an outcome of our own sequential choices. Every living being holds thousands of choices and stories in their details.',
+      en: 'Throughout our lives, we are all shaped both mentally and physically by our own actions and the actions of those around us. Every living being is a work of art by The God in nature. Any work of art we dislike is actually an outcome of our own sequential choices. Every living being holds thousands of choices and stories in their details.',
       tr: "Hepimiz tüm yaşantımız boyunca kendi eylemlerimiz ve çevremizdekilerin eylemleri doğrultusunda zihinsel ve fiziksel olarak şekil alırız. Her canlı Tanrı'nın doğadaki birer sanat eseridir. Hoşumuza gitmeyen herhangi bir eser, aslında kendi ardışık seçimlerimizin birer sonucudur. Her canlının detaylarında binlerce seçim ve hikâye mevcuttur.",
     }),
     examples: {
