@@ -3,6 +3,7 @@ name: hikayeler-ve-mitolojiler
 title: Hikayeler ve Mitolojiler
 subtitle: Her kültürün kendi zihin yapısını yansıttığı farklı hikayeler ve mitolojiler bulunuyor. Detayların bağlanmasıyla birlikte benzerliklerini fark edebiliriz.
 created: 2026-04-09
+updated: 2026-04-09
 image: /images/blog/fishing-man.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -14,7 +15,7 @@ Doğanın kanunları yorumlanırken, güçlünün güçsüzü yok ettiğine yön
 
 Yaşatılan/yaşanan adaletsizliklerin bitirilmemesinden dolayı, toplumların içinde oluşan ilahi takviyeler alınacak kararlara şekil vermeye devam etti. İnsanların güçsüzlüğünü hastalıklar, hava değişimleri ve doğal afetlerde görebilme fırsatı elde ettik. Fakat ilahi takviylere ulaşan insanlar kendilerini Yaradan'ın yeryüzündeki yansıması olarak görmek yerine, diğer canlılardan daha önemli oldukları kanısına kapıldılar.
 
-Mitolojilerde daha değerli olduğu düşünülen figürler, toplumların Yaradan'ı görmesini zorlaştıran karakterlere dönüştürüldüler. Sorumluluk alarak kendilerine bahşedilen yaratıcılığı değerlendiren ve toplumlarını geliştiren liderler, kendilerini kuralları belirleyici olarak tanımladılar. Haliyle ilham olması gereken ilahi takviyelerine, diğer canlıların yaşantılarını kontrol etme gafletiyle yaklaştılar. Her kontrol etme biçimi daha sonraki liderin oluşmasına vesile oldu ve tekrarlanan hatalardan oluşan döngüler benzer hikayelerle devam etti.
+Mitolojilerde daha değerli olduğu düşünülen figürler, toplumların Yaradan'ı görmesini zorlaştıran karakterlere dönüştürüldüler. Sorumluluk alarak kendilerine bahşedilen yaratıcılığı değerlendiren ve toplumlarını geliştiren liderler, kendilerini kuralları belirleyici olarak tanımladılar. Haliyle ilham olması gereken ilahi takviyelerine, diğer canlıların yaşantılarını kontrol etme gafletiyle yaklaştılar. Her kontrol etme biçimi daha sonraki liderin oluşmasına vesile oldu ve doğada tekrarlanan hatalardan oluşan döngüler benzer hikayelerle devam etti.
 
 Toplum geneline yayılan hikayeler ve mitolojilerde Yaradan'ın varlığı anlatılırken nasıl var olduğu detaylandırılmadı ve mistik özellikler yaratılan figürler üzerinden yorumlandı. Kader, şansın varlığı ve ilahi müdahaleler anlatıldı, fakat gerekçelere yeterince odaklanılmadı. Hikayelerdeki karakterler toplum genelinden daha değerli gösterildikleri için, hikayeleri okuyanlar kendi yaşantılarındaki detayları göremedi. Böylece tüm topluma gönderilen sorumluluk liderlerde kalmaya devam etti.
 
@@ -35,7 +36,7 @@ Her canlının aynı şansa nasıl sahip olduğunun anlaşılmasını sağlayan 
 1. Toplumda epey yardımsever eylemler gerçekleştirmesinden dolayı yorgunluğunu gidermek ve düşünmek için yalnız kalmak istedi. Çünkü her başı sıkışan Hızır'a danıştı veya ondan yardım istedi.
 2. Hem uyarı (ders) hem ödül niteliğinde, diğer hayvanların hisleriyle buluşmasını sağlayan ilahi bir takviyeydi. Etrafındaki insanların onunla olan ilişkisini betimleyen bir tesadüftü.  
 *Kurtların o dönemde ve kültürde toplumdaki hangi davranışları yansıttıklarını, detayları bilmeden tahmin etmek zordur. Sadece Hızır'ın görebileceği (okuyabileceği) bir yaşam tecrübesi zinciridir.*
-3. Çünkü Hızır hiçbir canlıya saldırmadı veya zarar vermedi. Bu yüzden, doğadaki adaletin yıkıcı tarafı ona tehdit olmadı.
+3. Hızır hiçbir canlıya saldırmadığı veya zarar vermediği için, doğadaki adaletin yıkıcı tarafı ona tehdit olmadı.
 4. Hızır'ın paylaşımcı ve yardımsever olmasından dolayı hisleri kuvvetlendirildi. Kendisini doğadaki diğer canlılara açtığı (paylaştığı) kadar gelişen empati duygusuyla, ilahi takviyelerin kapısı ona bir o kadar açıldı.
 5. Eğer Hızır neden şanslı olduğunu açıklasaydı/açıklayabilseydi, gördüğü değer azalabilir ve zarar görebilirdi. Çünkü herkes kendi sorununu kendi başına çözebilirdi.
 
@@ -43,4 +44,4 @@ Hazreti Hızır'ın ölüm şekli bilinseydi, nasıl bir yanlış yaptığı ve 
 
 ---
 
-[Doğada Nasıl Oynamalıyız](/tr/blog/dogada-nasil-oynamaliyiz) isimli yazımızı okuyarak doğadaki şansınızın size neler anlatmak istediğini daha iyi görebilirsiniz (okuyabilirsiniz). 🎡
+[Doğada Nasıl Oynamalıyız](/tr/blog/dogada-nasil-oynamaliyiz) isimli içeriği okuyarak doğadaki şansınızın size neler anlatmak istediğini daha iyi görebilirsiniz (okuyabilirsiniz). 🎡
