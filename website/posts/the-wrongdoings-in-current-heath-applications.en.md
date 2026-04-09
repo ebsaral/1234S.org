@@ -26,5 +26,5 @@ The fraudulent or unfair practices carried out by companies for profits lead cit
 
 - We must understand and educate every citizen in the global system about why diseases occur and which actions need to be improved.
 - We must develop and improve living standards in ways that align with the principles of nature so that the actions carried out after treatments are not repeated.
-- We must end the fraudulent practices of companies in order to create conditions where the use of medication is not necessary. ([see: The Scamming Case of Big Tech Companies!](/en/blog/the-scamming-case-of-big-tech-companies))
+- We must end the fraudulent practices of companies in order to create conditions where the use of medication is not necessary. ([see: The Rape Case of Big Tech Companies!](/en/blog/the-rape-case-of-big-tech-companies))
 - We must ensure that political decisions are made comprehensively to protect public health; we must remain faithful to the principles of equality and freedom in nature that the Creator has granted to all living beings.
