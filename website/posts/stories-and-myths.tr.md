@@ -1,7 +1,7 @@
 ---
 name: hikayeler-ve-mitolojiler
-title: Hikayeler ve Mitolojiler
-subtitle: Her kültürün kendi zihin yapısını yansıttığı farklı hikayeler ve mitolojiler bulunuyor. Detayların bağlanmasıyla birlikte benzerliklerini fark edebiliriz.
+title: Hikâyeler ve Mitolojiler
+subtitle: Her kültürün kendi zihin yapısını yansıttığı farklı hikâyeler ve mitolojiler bulunuyor. Detayların bağlanmasıyla birlikte benzerliklerini fark edebiliriz.
 created: 2026-04-09
 updated: 2026-04-09
 image: /images/blog/fishing-man.jpg
