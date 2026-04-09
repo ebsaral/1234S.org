@@ -1,6 +1,6 @@
 ---
 name: dogada-nasil-oynamaliyiz
-title: Doğada nasıl oynamalıyız?
+title: Doğada Nasıl Oynamalıyız
 subtitle: Hayat henüz bir oyun değil. Doğayı daha derin bir bakış açısıyla ele alalım ve hayatı bir oyuna çevirebilmek için neler yapabileceğimize bakalım.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15

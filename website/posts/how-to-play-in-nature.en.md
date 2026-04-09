@@ -1,6 +1,6 @@
 ---
 name: how-to-play-in-nature
-title: How to play in nature?
+title: How to Play in Nature
 subtitle: Life isn't a game for everyone yet. Let's have a deeper look at nature and understand what we can do to convert life into a game.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
