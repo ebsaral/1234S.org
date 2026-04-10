@@ -9,10 +9,8 @@ const pageContent = {
       tr: insert('Son içerik güncelleme: {{date}}'),
     }),
     reason: t({
-      en: md(
-        'A new question has been added to the Frequently Asked Questions section, and answers to some questions have been expanded.',
-      ),
-      tr: md('Sıkça Sorulan Sorular kısmına yeni bir soru eklendi ve bazı soruların cevapları genişletildi.'),
+      en: md('The answer about fasting is expanded in Frequently Asked Questions section.'),
+      tr: md('Sıkça Sorulan Sorular kısmındaki oruç ile ilgili sorunun cevabına ekleme yapıldı.'),
     }),
   },
 } satisfies Dictionary;
