@@ -1,7 +1,7 @@
 'use client';
 
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
-import { FaInstagram, FaSquareXTwitter } from 'react-icons/fa6';
+import { FaInstagram, FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6';
 import { useIntlayer } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import MarkdownProvider from './Custom/MarkdownProvider';
@@ -18,12 +18,22 @@ const Footer = () => {
             {/* Social Media section */}
             <div className='flex flex-col gap-8 items-center justify-center mt-4'>
               <div className='flex justify-center items-center gap-4'>
-                {/* X (Twitter) */}
+                {/* LinkedIn */}
                 <a
                   className='hover:scale-110 transition-all duration-300 text-gray-100 opacity-90 hover:opacity-100'
                   href={content.social[0].href.value}
                   title={content.social[0].label.value}
                   aria-label={content.social[0].label.value}
+                >
+                  <FaLinkedin size={36} />
+                </a>
+
+                {/* X (Twitter) */}
+                <a
+                  className='hover:scale-110 transition-all duration-300 text-gray-100 opacity-90 hover:opacity-100'
+                  href={content.social[1].href.value}
+                  title={content.social[1].label.value}
+                  aria-label={content.social[1].label.value}
                 >
                   <FaSquareXTwitter size={36} />
                 </a>
@@ -31,9 +41,9 @@ const Footer = () => {
                 {/* Instagram */}
                 <a
                   className='hover:scale-110 transition-all duration-300 text-gray-100 opacity-90 hover:opacity-100'
-                  href={content.social[1].href.value}
-                  title={content.social[1].label.value}
-                  aria-label={content.social[1].label.value}
+                  href={content.social[2].href.value}
+                  title={content.social[2].label.value}
+                  aria-label={content.social[2].label.value}
                 >
                   <FaInstagram size={36} />
                 </a>

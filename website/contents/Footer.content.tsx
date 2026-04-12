@@ -25,6 +25,10 @@ const pageContent = {
     }),
     social: [
       {
+        href: 'https://www.linkedin.com/company/1234s-org',
+        label: 'LinkedIn',
+      },
+      {
         href: t({
           en: 'https://www.x.com/1234S_en',
           tr: 'https://www.x.com/1234S_tr',
