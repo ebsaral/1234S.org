@@ -4,7 +4,7 @@ title: How to Play in Nature
 subtitle: Life isn't a game for everyone yet. Let's have a deeper look at nature and understand what we can do to convert life into a game.
 image: /images/blog/dandelion-at-sky.jpg
 created: 2025-11-15
-updated: 2026-03-25
+updated: 2026-04-14
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -39,7 +39,7 @@ Congratulations! Your first challenge is already completed at your birth. :) If 
 
 When you face any challenge in your life journey, your intentions and reactions will continuously define your luck in nature. Your opportunities could be taken away [then back to surface in a different body] if you continuously repeat similar mistakes of being selfish, destructive and harmful. On the other hand, these attributes will continuously contribute to your luck positively: Empathy, honesty, kindness, positivity, assistance, support, caring, sharing, affirmative bravery, respecting the right to live…
 
-**In nature's eyes, asking for our rights for equality & freedom can never be questioned: This is why diseases and disasters still exist to protect us from each other.** With this remark in mind, everyone has different challenges & risks in their environments.
+**In nature's eyes, asking for our rights for equality & freedom can never be questioned: This is why diseases, accidents and disasters still exist to protect us from each other.** With this remark in mind, everyone has different challenges & risks in their environments.
 
 Some cultural settings have more challenges than others. At each challenge, you should try your best to follow nature's equation [hopefully in a timeless manner] at your possible (re)actions. Based on your life goals, challenges may follow in different shapes; therefore you may unfortunately need patience.
 
@@ -65,13 +65,13 @@ Nature's justice scale already exist in every being. Here are a few ordinary, my
 
 Fully connecting with the essence of nature can make us feel like mere “puppets” [servants]. In this case, we must lovingly realize that in this world of puppets, we are merely “master puppets”. We have simply been fortunate enough to feel nature's guidance with complete awareness.
 
-> Nature is more creative than we can imagine; it offers us enjoyable surprises even when we are bored. God [The God] is never something to be feared. If there is a being or phenomenon we fear, it is because of choices made in the past. Overcoming all fears requires constructive bravery.
+> Nature is more creative than we can imagine; it offers us enjoyable surprises even when we are bored. The God is never something to be feared. If there is a being or phenomenon we fear, it is because of our collective choices made in the past. Overcoming all fears requires constructive bravery.
 
 ### Punishments
 
 If you tackle we challenges positively, the responsibles for our discomfort will be punished in nature when the time is right; their health and wealth will continue to decrease in different shapes based on your purpose. Still, we shouldn't always wait for nature's usual punishment. Instead of draining all our energy on the existing legal systems, we should choose paths that allow us to reach lasting solutions by prioritizing our own peace and trusting in nature.
 
-The important thing is to take the right action when nature reveals its justice against our opponents. Being a better person than your opponent is an easy gateway to more rewards in nature. In the current system we are forced to live in, a lot of wrongdoers continue to appoint wrong people to effective positions because people are not aware of the justice in nature. 
+Nature is everybody's shared living space and every being has the right to reach all opportunities freely. We need to take the right action when nature reveals its justice against those who block our opportunities. Being a better person than your opponent is an easy gateway to more rewards in nature. In the current system we are forced to live in, a lot of wrongdoers continue to appoint wrong people to effective positions because people are not aware of the justice in nature. 
 
 > In nature, reputation, titles, diplomas, money or weapons do not have the meaning of power you assume. On the contrary, they may be tools to push [fool] you into taking unhealthy actions.
 
