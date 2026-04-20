@@ -1,11 +1,12 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { useIntlayer } from 'react-intlayer';
+import { useIntlayer, useLocale } from 'react-intlayer';
 
 export default function Testimonials() {
   const sectionKey = 'testimonials';
-  const content = useIntlayer(`${sectionKey}-section`);
+  const { locale } = useLocale();
+  const content = useIntlayer(`${sectionKey}-section`, locale);
   const [items] = useState(() => content.items.sort(() => Math.random() - 0.5));
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -62,6 +63,8 @@ export default function Testimonials() {
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
   }, []);
+
+  useEffect(() => {}, [locale]);
 
   return (
     <section className='relative w-full pt-20 pb-10 px-4 bg-gradient-to-br from-indigo-100 via-white to-emerald-100'>
