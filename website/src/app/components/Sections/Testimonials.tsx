@@ -7,8 +7,6 @@ export default function Testimonials() {
   const sectionKey = 'testimonials';
   const { locale } = useLocale();
   const content = useIntlayer(`${sectionKey}-section`, locale);
-  const [items] = useState(() => content.items.sort(() => Math.random() - 0.5));
-
   const [activeIndex, setActiveIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const hasMounted = useRef(false);
@@ -64,8 +62,6 @@ export default function Testimonials() {
     return () => window.removeEventListener('keydown', handleKey);
   }, []);
 
-  useEffect(() => {}, [locale]);
-
   return (
     <section className='relative w-full pt-20 pb-10 px-4 bg-gradient-to-br from-indigo-100 via-white to-emerald-100'>
       {/* Glow background */}
@@ -91,7 +87,7 @@ export default function Testimonials() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          {(items as typeof content.items).map((item, i) => {
+          {content.items.map((item, i) => {
             const isActive = i === activeIndex;
             return (
               <motion.div
