@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-26
+updated: 2026-04-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -60,6 +60,8 @@ Büyük Teknoloji Şirketlerinin yazılım ürünleri *(YouTube, Google Maps, Ch
 
 Kullandığımız cihazlar hem zihinsel hem de fiziksel bir silaha benziyorlar; sanıldığından daha zararlı olabiliyorlar. Kasıtlı duyusal şartlandırmalardan kaynaklanan zihinsel sorunlar arasında tik oluşumu, özgüven eksikliği, paranoya / şüphe, umutsuzluk, öfke ve korku yer alıyor. Herhangi bir cihazın veya aracın ayarlarında uzaktan yapılan değişiklikler intiharlara veya ölümcül kazalara sebep olabiliyorlar. Çoğu cihazın donanım kalitesi çok yüksek olmasına rağmen, aslında var olmayan arızalar müşterilerin yanlış kullanımı olarak gösteriliyor. Bir süreç halinde, herhangi bir vatandaşa veya çevreye kalıcı zararlar verebilecek değişiklikler uygulanıyor.
 
+Cihazlarla deneyimlediğiniz sorunların yanında, ağzınızın içinde salınan sıvı kimyasalların aslında diş kanal tedavisinde ve/veya diş dolgusunda enjekte edilen/yerleştirilen malzemeler vasıtasıyla gerçekleştiğini fark edebiliriz. Konunun detaylarına girildiğinde, zincirleme reaksiyonların nasıl gerçekleştirildiğini ve vücudumuzdaki sorunları daha iyi anlayabiliriz. Birçok yapay hastalığın/rahatsızlığın ana kaynağı, diş tedavisinde kullanılan malzemeler ve onlardan salınan kimyasallar olabilir. Cihazlarla senkronize olup olmadıkları veya nasıl senkronize oldukları ise henüz çözülebilmiş değil.
+
 Bir platform sahibi kendi hizmetlerini işletim sistemine daha derinlemesine entegre ettiğinde ve/veya sistem davranışlarını kendi ürünleri için önceliklendirerek optimize ettiğinde, temel kaliteleri karşılaştırılabilir olsa bile rakip hizmetler daha yavaş, daha az güvenilir veya daha az kullanışlı gösterilebiliyor. Büyük teknoloji şirketlerinin kendi ekosistemlerini tehdit edebilecek herhangi bir düşünceyi, fikri, ürünü, kişiyi veya davranışı gerçekten uzak bir şekilde yansıtabilme veya platformlarında görünmez kılma imkanları bulunuyor.
 
 Büyük Teknoloji Şirketlerinin etkileri, bireysel ürünler üretmelerinin ötesine geçerek piyasaların işleyişine ve rekabetin nasıl geliştiğine kadar uzanıyor. Aynı kuruluş grubunun platformu, pazarı ve kendi rakip hizmetlerini kontrol etmesi durumunda, çıkar çatışmalarından kaçınmak zorlaşıyor. Böylece kendi gelirlerine ve ürünlerine rakip çıkmasını hukuk dışı uygulamalarla neredeyse imkansız hale getiriyorlar. Bu şirketlerin son zamanlardaki yapay zeka gelişmelerini hızla piyasaya sürmekte rahat olmaları şaşırtıcı değil; çünkü kendi ekosistemleri altında herhangi bir rakip olacağını veya kalacağını düşünmüyorlar. Bu tarz yasadışı yönetim sistemleriyle rakip firmaları şantaj yaparak veya tehdit ederek oldukça ucuz fiyatlara satın alabiliyorlar veya kapatabiliyorlar.
@@ -78,7 +80,7 @@ Büyük Teknoloji Şirketlerinin yasadışı işletme yapıları hükümetler ta
 
 > Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, 2011 model Fiat Fiorino, Toshiba Satellite L755.
 
-Toplumun sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili bana yardımcı olabileceğini düşündüğünüz biri veya bir kurum varsa, lütfen benimle iletişime geçiniz: [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz, [iletişim formunu](/iletisim) veya [ebsaral@icloud.com](mailto:ebsaral@icloud.com) adresini kullanabilirsiniz.
+Toplumun sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili bana yardımcı olabileceğini düşündüğünüz biri veya bir kurum varsa, lütfen benimle iletişime geçiniz: [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz, [iletişim formunu](/iletisim) veya [emin@1234S.org](mailto:emin@1234s.org) adresini kullanabilirsiniz.
 
 ---
 
@@ -87,6 +89,6 @@ Karşılaştığım her sorun, onların doğal olarak cezalandırılmalarına yo
 
 > Yaşatılan olumsuzluklardan ve fırsat eşitsizliklerinden dolayı, ilahi takviyeler olan doğal hediyelere ulaşabiliyoruz. [Öz Geçmiş](https://0.1234S.org/ozgecmis)'imdeki bazı örnekleri inceleyebilirsiniz.
 
-Ne yazık ki, bu şirketlerden dolayı her vatandaş zarara uğramaya devam ediyor. Çünkü hastalıkların ve felaketlerin (doğadaki cezaların) çoğu bu şirketlerin ürünlerindeki suç teşkil eden yazılımsal değişikliklerinden ve manipülasyonlarından kaynaklanıyor. **Bu büyük teknoloji şirketleri, her gün vücuduma tecavüz etmeye devam ediyorlar.**
+Ne yazık ki, bu şirketlerden dolayı her vatandaş zarara uğramaya devam ediyor. Çünkü hastalıkların ve felaketlerin (doğadaki cezaların) çoğu bu şirketlerin ürünlerindeki suç teşkil eden yazılımsal değişikliklerinden ve manipülasyonlarından kaynaklanıyor. **Bu büyük teknoloji şirketleri, her gün vücutlarımıza tecavüz etmeye devam ediyorlar.**
 
 **Hem doğal hem yasal olarak geleceğimize göz kulak olmaya devam edelim!**

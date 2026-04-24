@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-03-26
+updated: 2026-04-24
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -59,6 +59,8 @@ The software products of large tech companies *(YouTube, Google Maps, ChatGPT, G
 
 The devices we use are like both mental and physical weapons; they can be more harmful than we realize. Mental health problems resulting from deliberate sensory conditioning include tics, low self-esteem, paranoia/suspicion, hopelessness, anger, and fear. Remote changes to the settings of any device or vehicle can lead to suicides or fatal accidents. Although most devices have very high-quality hardware, malfunctions that don't actually exist are attributed to customer misuse. As a process in time, changes are being implemented that could cause permanent harm to any citizen or to the environment. 
 
+In addition to the problems you experience with the devices, you may realize that the liquid chemicals released in your mouth are actually caused by the materials injected/placed during root canal treatment and/or dental fillings. By diving into the details, we can better understand how chain reactions occur and the problems they cause in our bodies. Many artificial illnesses/disorders may originate from the materials used in dental treatment and the chemicals released from them. Whether or how these chemicals are synchronized with the devices is still unknown.
+
 When a platform owner integrates its services more deeply into the operating system and/or optimizes system behavior by prioritizing it for its own products, competing services can be portrayed as slower, less reliable, or less useful, even if their core qualities are comparable. Large tech companies have the ability to portray any thought, idea, product, person, or behavior that could threaten their ecosystem in a way that is far from reality, or to make it invisible on their platforms.
 
 The influence of Big Tech corporations extends beyond simply producing individual products, influencing how markets function and how competition evolves. When the same group of organizations controls a platform, market, and even competing services, avoiding conflicts of interest becomes difficult. They thus make it nearly impossible for competitors to emerge, using illegal practices to increase their revenue and products. It's no surprise that these companies are comfortable rapidly launching recent AI advancements, as they don't believe any competitors will exist or remain within their ecosystems. With these illegal management systems, they can acquire or destroy competing companies at very low prices by blackmailing or threatening them.
@@ -77,7 +79,7 @@ The illegal business structures of Big Tech Companies can be discovered and stop
 
 > All of these software control mechanisms are integrated into the hardware of devices and vehicles at the factory level. The products I have personally tested and used to confirm my findings include: Apple iMac, Apple MacBook Pro (both older and newer generations), iPhone 4S, iPhone 11 Pro, 2011 Fiat Fiorino, and Toshiba Satellite L755.
 
-If you know of anyone or any organization that could assist me with this matter, which concerns the health and safety of the society, please contact me: you can visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email me at [ebsaral@icloud.com](mailto:ebsaral@icloud.com).
+If you know of anyone or any organization that could assist me with this matter, which concerns the health and safety of the society, please contact me: you can visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email me at [emin@1234S.org](mailto:emin@1234s.org).
 
 ---
 
@@ -86,6 +88,6 @@ Every problem I encounter naturally leads to them being punished, and in this wa
 
 > Due to the struggles and lack of opportunities forced upon us, we are able to reach natural gifts that are divine reinforcements. You can review some examples in [my Resume](https://0.1234S.org/resume).
 
-Unfortunately, every citizen is deeply suffering because of these companies. Most of the diseases and disasters (natural punishments) are tied to the software based criminal behaviors and manipulations in their products. **My body is still getting raped everyday by those companies.**
+Unfortunately, every citizen is deeply suffering because of these companies. Most of the diseases and disasters (natural punishments) are tied to the software based criminal behaviors and manipulations in their products. **Our bodies are still getting raped everyday by those companies.**
 
 **Let's keep an eye on our future, both legally and naturally!**
