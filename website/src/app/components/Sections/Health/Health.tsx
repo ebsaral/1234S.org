@@ -92,7 +92,8 @@ const Health = ({ id }: { id?: string }) => {
         <MarkdownRenderer>{content.paragraph4.value}</MarkdownRenderer>
       </article>
 
-      <ReadingSuggestion className='mt-12 mb-24 z-10' content={content.reading.value} />
+      <ReadingSuggestion className='mt-12 mb-12 z-10' content={content.reading.value} />
+      <ReadingSuggestion className='mb-24 z-10' content={content.reading2.value} />
 
       {/* Decorative Elements */}
       <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />

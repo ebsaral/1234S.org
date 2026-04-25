@@ -97,6 +97,10 @@ const pageContent = {
       en: 'To better understand how the justice in nature is reflected in [our health](){data-tooltip-id="tooltip" data-tooltip-content="Mental and physical health; luck and talents; environmental health."}, please read our article titled **[How to play in nature](/en/blog/how-to-play-in-nature)**.',
       tr: 'Doğadaki adaletin [sağlığımıza](){data-tooltip-id="tooltip" data-tooltip-content="Zihinsel ve fiziksel sağlık; şans ve yetenekler; çevre sağlığı."} nasıl yansıdığını daha iyi anlayabilmek için, **[Doğada nasıl oynamalıyız](/tr/blog/dogada-nasil-oynamaliyiz)** başlıklı yazımızı okuyunuz.',
     }),
+    reading2: t({
+      en: 'Because the causes of diseases in our bodies are both inward and outward, you can understand that all the diseases we experience also reflect the injustices in the system of governance we live in by reading our article titled **[The Rape Case of Big Tech Companies!](/tr/blog/the-rape-case-of-big-tech-companies)**.',
+      tr: 'Vücudumuzdaki hastalıkların oluşma sebepleri hem içe hem dışa yönelik olduğu için, deneyimlediğimiz tüm hastalıkların aynı zamanda içinde bulunduğumuz yönetim şeklindeki adaletsizlikleri yansıttıklarını **[Büyük Teknoloji Şirketlerinin Tecavüz Vakası!](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi)** başlıklı yazımızı okuyarak anlayabilirsiniz.',
+    }),
   },
 } satisfies Dictionary;
 
