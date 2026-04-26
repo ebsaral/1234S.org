@@ -25,8 +25,8 @@ const pageContent = {
         tr: 'Organ-Eylem-Sonuç Benzetmesi',
       }),
       quote: t({
-        en: 'The functions of the organs in our body help explain the consequences of the actions we perform in a community and society. The health conditions and functions of our organs come together to provide us with a silent guide. Depending on the outcomes of how we use our organs, we either become ill or healthier.',
-        tr: 'Vücudumuzdaki organların işlevleri, bir toplulukta ve toplumda gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunarlar. Organlarımızı kullanırken vesile oldukları sonuçlara göre hastalanır veya daha sağlıklı oluruz.',
+        en: 'The functions of the organs in our body help explain the consequences of the sequential actions we perform in an environment (community/society/nature). The health conditions and functions of our organs come together to provide us with a silent guide. Depending on the outcomes of how we use our organs, we either become ill or healthier.',
+        tr: 'Vücudumuzdaki organların işlevleri, bir çevrede (toplulukta/toplumda/doğada) gerçekleştirdiğimiz eylemlerin sonuçlarını açıklamaya yardımcı olur. Organlarımızın sağlık durumları ve işleyiş amaçları bir araya gelerek bize sessiz bir rehber sunarlar. Organlarımızı kullanırken vesile oldukları sonuçlara göre hastalanır veya daha sağlıklı oluruz.',
       }),
       subtitle: t({
         en: 'Under normal conditions, no living being becomes ill. Therefore, we need to reconstruct the concept of ‘normal’ imposed on us by traditional politics in a way that aligns with the principles of nature.\n\nBy examining these examples, you can better observe the functions and health conditions of the organs in your own body.',
