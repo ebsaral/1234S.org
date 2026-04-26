@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-04-24
+updated: 2026-04-26
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -59,7 +59,7 @@ The software products of large tech companies *(YouTube, Google Maps, ChatGPT, G
 
 The devices we use are like both mental and physical weapons; they can be more harmful than we realize. Mental health problems resulting from deliberate sensory conditioning include tics, low self-esteem, paranoia/suspicion, hopelessness, anger, and fear. Remote changes to the settings of any device or vehicle can lead to suicides or fatal accidents. Although most devices have very high-quality hardware, malfunctions that don't actually exist are attributed to customer misuse. As a process in time, changes are being implemented that could cause permanent harm to any citizen or to the environment. 
 
-In addition to the problems you experience with the devices, you may realize that the liquid chemicals released in your mouth are actually caused by the materials injected/placed during root canal treatment and/or dental fillings. By diving into the details, we can better understand how chain reactions occur and the problems they cause in our bodies. Many artificial illnesses/disorders may originate from the materials used in dental treatment and the chemicals released from them. Whether or how these chemicals are synchronized with the devices is still unknown.
+In addition to the problems you experience with dental devices, you may realize that the liquid chemicals released in your mouth are actually caused by the materials injected/placed during root canal treatment and/or dental fillings. By delving into the details, we can better understand how chain reactions occur and the problems in our bodies. Over the years, I've noticed that many of the reactions and illnesses in my body, experienced under various conditions, stem from chemicals secreted in my mouth. I still taste the same chemical (metallic) injected during fillings at different times, and I sometimes experience problems in my mouth. The main source of many artificial illnesses/discomforts may be the materials used in dental treatment and the chemicals released from them. Whether or how the biological mechanism in our mouths synchronizes with other devices is still not fully uncovered. You may experience this mechanism in your body projecting images or thoughts you haven't considered onto your eyes. To test this, you can engage in intense physical activity. You might notice an image (or sequential images) reflected in your eyesight that you wouldn't normally think about. This can lead to the illusion and unwanted direction in your thought patterns. It is not yet clear whether and how everything we see with our own eyes is recorded by the central artificial intelligence system.
 
 When a platform owner integrates its services more deeply into the operating system and/or optimizes system behavior by prioritizing it for its own products, competing services can be portrayed as slower, less reliable, or less useful, even if their core qualities are comparable. Large tech companies have the ability to portray any thought, idea, product, person, or behavior that could threaten their ecosystem in a way that is far from reality, or to make it invisible on their platforms.
 
