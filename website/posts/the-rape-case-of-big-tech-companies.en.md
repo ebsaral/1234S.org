@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-04-29
+updated: 2026-05-01
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -27,7 +27,7 @@ Here are some examples of layers controlled in different ways at the operating s
 
 - Your devices can release or produce various chemicals in different doses at specific times. These chemicals can affect your mood and body in different ways: happiness, tension, relaxation, nervousness, sensitivity, anxiety, anger, hunger, interest, laziness and distractibility are just a few examples. They can also harm your physical health in the form of drowsiness, sleepiness, dizziness, memory problems, eye irritation, changes in body temperature, leg numbness, muscle issue, stomach pain, halitosis (bad breath), quick body hair growth, hair loss, and headaches. The chemical's potential for physical and mental harm increases when they react with other (daily used) chemicals; the risk of injury can be increased when you move your body; your body weight might have been applied to undesired changes. The chemicals released can also be changed depending on the content you're watching on your computer or phone; content that elicits a reaction gets prioritized. I haven't yet been able to identify what these chemicals/drugs are.
 
-> For example, after you inhale a chemical released from a phone, computer, television, or car, your speaker can be made to appear as if its battery is dead. This way, you can be tricked into bending down to plug it in so a possible injury cause on your body can be tried.
+> For example, after your interacts with a chemical released from a phone, computer, television, or car, your speaker can be made to appear as if its battery is dead. This way, you can be tricked into bending down to plug it in so a possible injury cause on your body can be tried.
 
 - All features on your devices can be controlled during use. Features such as your device's Wi-Fi, screen image quality and lighting, charge level, cellular data, or location can be manipulated software-wise to appear different than they actually are, even if there are no problems in your location or application. A desired feature of your device can be shown as underpowered or disabled. The ability to shut down device features in this way during major disasters like earthquakes poses a significant security risk.
 
@@ -43,7 +43,7 @@ All features I've mentioned are embedded in during the production of these devic
 
 The applications and devices that are connected to Artificial Intelligence of Big Tech form an alliance of threat to every citizen in every country. A device can know if there are harmful substances in your body, then display motivation posts in their social media or change sound levels to motivate you into doing sport activities that may cause health problems or attacks. Some of those substances are produced by your daily used devices. This strategy is often used on any kind of company or project that could be seen as a competitor. Their devices continue to commit crimes worldwide, hidden from public.
 
-Big Tech's massive hidden influence in social media filtering the posts or news in favor of their interests continues to block everybody's freedom to reach correct information. Even if you see a hashtag popular in a social media app, it may be only visible to your real life network to fool your mind into some kind of necessary action being taken about the topics you are interested in. This false perception strategy cause a lot of misunderstandings in social environments. This strategy also enables their devices to target any competitor in any environment. 
+Big Tech's massive hidden influence in social media filtering the posts or news in favor of their interests continues to block everybody's freedom to reach correct information. Even if you see a hashtag popular in a social media app, it may be only visible to your real life network to fool your mind into some kind of necessary action being taken about the topics you are interested in. When you seek information, you are presented with data that aligns with the companies' global policies. Much of the statistics and information is presented in a manipulated (altered) form. This false perception strategy cause a lot of misunderstandings in social environments. This strategy also enables their devices to target any competitor in any environment. 
 
 In addition to large corporations extensively controlling our devices and influencing user behavior, it appears that many hardware failures presented as user error are actually software-generated: 
 - Broken charging cables due to intentional heat changes.

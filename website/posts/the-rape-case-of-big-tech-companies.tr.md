@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-04-29
+updated: 2026-05-01
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -27,7 +27,7 @@ Modern uygulamalar arayüzler, sistem çağrıları, arka plan hizmetleri gibi k
 
 - Cihazlarınızdan farklı dozlarda istenilen zamanlarda çeşitli kimyasallar salgılanabiliyor veya dönüştürebiliyor. Bu kimyasallar duygu durumunuzu farklı şekillerde etkileyebiliyorlar: mutluluk, gerginlik, gevşeme, hassaslık, kaygı, öfke, açlık, ilgi duyma, tembellik ve dikkat dağınıklığı gibi duygular bunlardan birkaçına örnek olarak verilebilir. Aynı zamanda fiziksel olarak vücudunuzda bacak uyuşukluğu, kas ağrıları, ağız kokusu, baş ağrısı, sersemlik, uyku, baş dönmesi, hafızada zorluk, göz yanması, vücut ısısında değişiklik, mide yanması, hızlı kıl uzaması ve saç kaybı gibi hasarlar oluşturabiliyorlar. Başka kimyasallar ile girdikleri tepkimelerde size fiziksel ve zihinsel olarak zarar verme oranlarını yükseltebiliyorlar; vücudunuzu hareket ettirdiğiniz anlarda sakatlık yaşama riskinizi artırabiliyorlar; vücudunuzda istenmeyen kilo değişiklikleri yaşatabiliyorlar. Bilgisayarınızı veya telefonunuzu kullanırken izlediğiniz içeriğe göre salınan kimyasallar değişebiliyor; tepki vermeniz beklenen içerikler ön plana çıkarılıyor. Bu kimyasalların/uyuşturucuların ne olduklarını ise henüz bulamadım.
 
-> Örneğin, telefon, bilgisayar, televizyondan veya araçtan salınan kimyasalı solumanızın ardından hoparlörünüzün şarjı bitmiş gibi gösterilebiliyor. Böylece sizi şarja takmaya yönlendirerek eğilmeniz sağlanabiliyor ve vücudunuzda sakatlanma yaşamanız ihtimali denenebiliyor. 
+> For example, chemicals released while using a phone, computer, television, or driving can enter your body and then be manipulated to appear as if your speaker's battery is dead. This way, you can be tricked into bending down to plug it in, potentially causing an injury.
 
 - Cihazlarınızdaki tüm özellikler kullanım esnasında kontrol edilebiliyorlar. Cihazınızın Wi-Fi, ekranındaki herhangi bir görüntü, görüntü kalitesi ve ışıklandırması, şarj seviyesi, hücresel veri veya konum gibi özellikleri, bulunduğunuz konumda hiçbir sorun olmamasına rağmen yazılımsal olarak, uygulamalarda sorun olmasa bile, gerçekte olduğundan farklı gösterilebiliyor. Cihazınızın istenilen özelliği güçsüz gösterilebiliyor veya devre dışı bırakılabiliyor. Deprem gibi büyük afetlerde cihazların bu tarz yollarla kapatılabiliyor olması büyük bir güvenlik sorunu teşkil ediyor.
 
@@ -43,7 +43,7 @@ Bahsettiğim tüm özellikler bu ürünlerin üretim süreçlerinde entegre edil
 
 Büyük Teknoloji şirketlerinin yapay zekasına bağlı uygulamalar ve cihazlar, her ülkedeki her vatandaşa yönelik bir tehdit oluşturuyor. Herhangi bir cihaz, vücudunuzda zararlı maddelerin olup olmadığı bilgisine sahip olarak sosyal medyada motivasyon paylaşımlarını sunabilir, sağlık sorunlarına veya ataklara neden olabilecek spor aktiviteleri yapmanız için cihazınızın ses seviyelerini değiştirebilir. Bu maddelerin bazıları günlük hayatınızda kullandığınız cihazlar tarafından salınıyor. Bu strateji, rakip olarak görülebilecek her türlü şirket veya projeye karşı sıklıkla kullanılıyor. Cihazları, kamuoyundan bu özellikler gizlenerek dünya çapında suç işlemeye devam ediyor.
 
-Bu şirketlerinin sosyal medyada kendi çıkarları doğrultusunda paylaşımları veya haberleri filtreleyerek herkesin doğru bilgiye ulaşma özgürlüğünü engellemeye devam eden devasa gizli etkisi var. Sosyal medya uygulamasında popüler olarak gördüğünüz bir hashtag, aslında yalnızca gerçek hayattaki ağınızdaki insanlara görünür olabilir ve zihninizi ilgilendiğiniz konular hakkında gerekli eylemlerin zaten alındığı yanılgısına yönlendirebilir. Bu algı değiştirme stratejisi, sosyal ortamlarda birçok yanlış anlaşılmaya neden oluyor. Bu strateji, kullandığınız cihazların herhangi bir çevredeki herhangi bir rakibi hedef almasını sağlayabiliyor.
+Bu şirketlerinin sosyal medyada kendi çıkarları doğrultusunda paylaşımları veya haberleri filtreleyerek herkesin doğru bilgiye ulaşma özgürlüğünü engellemeye devam eden devasa gizli etkisi var. Sosyal medya uygulamasında popüler olarak gördüğünüz bir hashtag, aslında yalnızca gerçek hayattaki ağınızdaki insanlara görünür olabilir ve zihninizi ilgilendiğiniz konular hakkında gerekli eylemlerin zaten alındığı yanılgısına yönlendirebilir. Herhangi bir bilgiye ulaşmak istediğinizde, şirketlerin küresel politikasına uygun bilgiler önünüze çıkarılıyor. Çoğu istatistik ve bilgi manipüle edilmiş (değiştirilmiş) bir biçimde size yansıtılıyor. Bu algı değiştirme stratejisi, sosyal ortamlarda birçok yanlış anlaşılmaya neden oluyor. Bu strateji, kullandığınız cihazların herhangi bir çevredeki herhangi bir rakibi hedef almasını sağlayabiliyor.
 
 Büyük şirketlerin cihazlarımızı kullanıcı davranışlarını etkileyen kapsamlı bir şekilde kontrol etmelerinin yanında, kullanıcı hatasıymış gibi gösterilen birçok donanım arızasının aslında yazılımsal olarak oluşturulduğu anlaşılıyor: 
 - Bilinçli ısı değişiklikleriyle kırılan şarj kabloları.
