@@ -22,17 +22,17 @@ I chose computer engineering, a profession I felt would be the profession of the
 
 To avoid repeating the negative experiences I had, I wanted to carry out my social projects. Instead of focusing on personal projects, I started implementing my ideas aimed at improving the entire society, but this led to both health problems and financial losses. I encountered similar problems each time. I continued to improve my life experiences by trying to be a good person. I tried to experience firsthand what I heard or learned from others.
 
-When I was using drugs, I was warned that because my brother had schizophrenia, I could also develop the same problem. I didn't respect the warnings; I tried.
+When I was using drugs, I was warned that because my brother had schizophrenia, I could also develop the same problem. I didn't respect; I tried.
 
-When people around me were harming other living beings, I was warned not to interfere. I didn't respect the warnings; I tried.
+When people around me were harming other living beings, I was warned not to interfere. I didn't respect; I tried.
 
-When I was facing depression, I was warned that traveling abroad alone could harm me. I didn't respect the warnings; I tried.
+When I was facing depression, I was warned that traveling abroad alone could harm me. I didn't respect; I tried.
 
-I was warned that stopping my medication on my own would be detrimental to my health. I didn't respect the warnings; I tried.
+I was warned that stopping my medication on my own would be detrimental to my health. I didn't respect; I tried.
 
-When I reacted against my bosses' injustices, I was warned that I could lose my job. I didn't respect the warnings; I tried.
+When I reacted against my bosses' injustices, I was warned that I could lose my job. I didn't respect; I tried.
 
-I was warned to stay out of politics and just focus on my own work. I didn't respect the warnings; I tried...
+I was warned to stay out of politics and just focus on my own work. I didn't respect; I tried...
 
 Years later, I was able to discover the natural (fundamental) truths we should really respect. I was able to unravel almost all the trickery in the political arena, the root of all diseases. I realized that the key principle of success behind the knowledge I gained and the fears I overcame wasn't solely dependent on me. I understood that I needed to be a better person for the people who needed what I discovered.
 
