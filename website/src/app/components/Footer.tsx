@@ -1,7 +1,7 @@
 'use client';
 
 import { FaGithub, FaProductHunt } from 'react-icons/fa';
-import { FaInstagram, FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6';
+import { FaFacebook, FaInstagram, FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6';
 import { useIntlayer } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import MarkdownProvider from './Custom/MarkdownProvider';
@@ -46,6 +46,16 @@ const Footer = () => {
                   aria-label={content.social[2].label.value}
                 >
                   <FaInstagram size={36} />
+                </a>
+
+                {/* Facebook */}
+                <a
+                  className='hover:scale-110 transition-all duration-300 text-gray-100 opacity-90 hover:opacity-100'
+                  href={content.social[3].href.value}
+                  title={content.social[3].label.value}
+                  aria-label={content.social[3].label.value}
+                >
+                  <FaFacebook size={36} />
                 </a>
               </div>
             </div>

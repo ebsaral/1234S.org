@@ -48,6 +48,16 @@ const pageContent = {
           tr: 'Instagram (Türkçe)',
         }),
       },
+      {
+        href: t({
+          en: '#available-only-in-turkish',
+          tr: 'https://www.facebook.com/mantiksal.maneviyat',
+        }),
+        label: t({
+          en: 'Facebook (Available only in Turkish)',
+          tr: 'Facebook (Türkçe)',
+        }),
+      },
     ],
     note: t({
       en: 'Do not forget to follow our social media accounts!',
