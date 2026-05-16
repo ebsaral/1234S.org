@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { useIntlayer } from 'react-intlayer';
 import MarkdownProvider from '../Custom/MarkdownProvider';
 import Title from '../Custom/Title';
+import Action from '../Sections/Action';
 import Project from '../Sections/Project';
 import Story from '../Sections/Story';
 
@@ -21,6 +22,7 @@ const Mission = () => {
         <Title title={content.title.value} />
         <Story />
         <Project />
+        <Action />
       </main>
     </MarkdownProvider>
   );

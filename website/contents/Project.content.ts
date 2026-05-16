@@ -8,8 +8,8 @@ const pageContent = {
       tr: 'Yeni Siyasetin Kökeni',
     }),
     support: t({
-      en: 'To contribute to this philosophical movement, you can visit our [Contact](/contact) page.',
-      tr: 'Bir felsefi akım olan bu projemize katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
+      en: 'To contribute to the development and proceeding of this philosophical movement, you can visit our [Contact](/contact) page.',
+      tr: 'Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
     }),
     explanation: t({
       en: '**Within the guidance of the realities in nature, we are fundamentally transforming politics that is the main source of every stress, disease and lack of opportunities.** Until we make our lives more harmonious with nature through the lessons learned from our life experiences, our various health problems will continue, almost as a result of natural selection. We can raise awareness so that people can see the logic in nature and together we can heal the recurring mistakes in our life cycles.',
