@@ -125,9 +125,6 @@ const Project = () => {
           </div>
         )}
       </div>
-      <article className='custom-prose-all project-support max-w-5xl mx-auto text-center items-center mt-8 mb-16'>
-        <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
-      </article>
     </section>
   );
 };

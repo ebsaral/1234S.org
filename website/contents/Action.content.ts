@@ -14,8 +14,8 @@ const pageContent = {
           tr: 'Hukuki süreç ve kamuoyunun bilgilendirilmesi',
         }),
         subtitle: t({
-          en: 'Initiating legal proceedings and following up on the necessary regulations to ensure compliance regarding [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies). Informing the public about the illegal business practices of those companies throughout the entire legal process.',
-          tr: '[Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi) hakkında yasal işlemlerin başlatılması için dava açılması ve gerekli düzenlemelerin uygulanması için sürecin takip edilmesi. Tüm dava sürecinde, şirketlerin uyguladıkları yasal olmayan iş modelleri hakkında kamuoyunun bilgilendirilmesi.',
+          en: '- Initiating legal proceedings and following up on the necessary regulations to ensure compliance regarding [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies).\n- Compensating all citizens for the financial and moral damages caused by companies.\n- Informing the public about the illegal business practices of those companies throughout the entire legal process.',
+          tr: '- [Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi) hakkında yasal işlemlerin başlatılması için dava açılması.\n- Şirketlerin yaşattıkları maddi ve manevi hasarların tüm vatandaşlara tazminat olarak geri ödenmesi.\n- Tüm dava sürecinde, şirketlerin uyguladıkları yasal olmayan iş modelleri hakkında kamuoyunun bilgilendirilmesi.',
         }),
         status: {
           key: 'on-hold',
@@ -27,12 +27,12 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'Analyzing health situations',
-          tr: 'Sağlık durumlarının incelenmesi',
+          en: 'Improving health conditions',
+          tr: 'Sağlık durumlarının iyileştirilmesi',
         }),
         subtitle: t({
-          en: 'Analyzing changes in the health status of citizens after removing biological devices connected to the illicit global economy via artificial intelligence. Sharing the findings transparently and reliably with the public.',
-          tr: 'Yasa dışı küresel ekonomiye yapay zeka vasıtasıyla bağlanmış olan biyolojik cihazların vücutlarımızdan çıkartılmalarının ardından, vatandaşların sağlık durumlarındaki değişikliklerin analiz edilmesi. Gözlemlerin şeffaf ve güvenilir bir şekilde kamuoyu ile paylaşılması.',
+          en: '- Analyzing changes in the health status of citizens after removing biological devices connected to the illicit global economy via artificial intelligence.\n- Ensuring that all compensation paid by companies being used to improve public health and preventing possible fraud methods.\n- Sharing all reports transparently and honestly, in details, with the public.',
+          tr: '- Yasa dışı küresel ekonomiye yapay zeka vasıtasıyla bağlanmış olan biyolojik cihazların vücutlarımızdan çıkartılmalarının ardından, vatandaşların sağlık durumlarındaki değişikliklerin analiz edilmesi.\n- Şirketlerin ödedikleri tüm tazminatın halkın sağlığını iyileştirmek için kullanılması ve tekrarlanabilecek hilekarlıkların önüne geçilmesi.\n- Raporların şeffaf ve dürüst bir şekilde, detaylarıyla birlikte, kamuoyu ile paylaşılması.',
         }),
         status: {
           key: 'not-started',
@@ -48,8 +48,8 @@ const pageContent = {
           tr: 'Sağlık sektörünün dönüştürülmesi',
         }),
         subtitle: t({
-          en: 'Proving the validity of our teachings in patient treatment methods and transitioning to a healthy global health model that will end the use of pharmaceuticals.',
-          tr: 'Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
+          en: '- Proving the validity of our teachings in patient treatment methods and transitioning to a healthy global health model that will end the use of pharmaceuticals.',
+          tr: '- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
         }),
         status: {
           key: 'not-started',
@@ -65,8 +65,8 @@ const pageContent = {
           tr: 'İş modellerinin geliştirilmesi',
         }),
         subtitle: t({
-          en: 'By implementing control mechanisms against illegal business models, giving wing to healthy (sustainable) business models.',
-          tr: 'Yasa dışı iş modellerini kontrol eden mekanizmaların devreye alınmalarıyla birlikte, sağlıklı iş modellerinin önlerinin açılması.',
+          en: '- By implementing control mechanisms against illegal business models, giving wing to healthy (sustainable) business models.',
+          tr: '- Yasa dışı iş modellerini kontrol eden mekanizmaların devreye alınmalarıyla birlikte, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.',
         }),
         status: {
           key: 'not-started',
@@ -82,8 +82,8 @@ const pageContent = {
           tr: 'Fırsat eşitliğinin sağlanması',
         }),
         subtitle: t({
-          en: 'By introducing healthy business models, eliminating inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
-          tr: 'Sağlıklı iş modellerinin kullanıma sunulmasıyla birlikte, rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
+          en: '- Impoving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
+          tr: '- Rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
         }),
         status: {
           key: 'not-started',
@@ -94,6 +94,10 @@ const pageContent = {
         },
       },
     ],
+    support: t({
+      en: 'To contribute to the development and proceeding of this philosophical movement, you can visit our <u>**Contact**</u> page. You can help us reach individuals and/or organizations that can assist with any of the action plans.',
+      tr: 'Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz. Eylem planlarından herhangi birine yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz.',
+    }),
   },
 } satisfies Dictionary;
 

@@ -38,6 +38,7 @@
     "react-toastify": "^11.0.5",
     "react-tooltip": "^5.30.0",
     "reading-time": "^1.5.0",
+    "rehype-raw": "^7.0.0",
     "remark-attrs": "^1.0.0",
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.3.1",
