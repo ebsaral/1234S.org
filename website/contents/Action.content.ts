@@ -95,8 +95,8 @@ const pageContent = {
       },
     ],
     support: t({
-      en: 'To contribute to the development and proceeding of this philosophical movement, you can visit our <u>**Contact**</u> page. You can help us reach individuals and/or organizations that can assist with any of the action plans.',
-      tr: 'Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz. Eylem planlarından herhangi birine yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz.',
+      en: 'To contribute to the development and proceeding of this philosophical movement, you can visit our <u>**Contact**</u> page. You can help us reach individuals and/or organizations that can assist with any step in our action plan.',
+      tr: 'Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz. Eylem planımızdaki herhangi bir adıma yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz.',
     }),
   },
 } satisfies Dictionary;
