@@ -82,7 +82,7 @@ const pageContent = {
           tr: 'Fırsat eşitliğinin sağlanması',
         }),
         subtitle: t({
-          en: '- Impoving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
+          en: '- Improving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
           tr: '- Rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
         }),
         status: {
