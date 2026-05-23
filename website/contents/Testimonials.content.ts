@@ -135,8 +135,8 @@ const pageContent = {
           tr: 'Sistematik Hilekârlıkların Bir Mağduru',
         }),
         text: t({
-          en: "The lack of sufficient life experience in my family unfairly lowered the quality of our life for years. The experience I've gained through my personal efforts never seems to find the necessary value in their lives.",
-          tr: 'Ailemin yeterli yaşam tecrübesinin olmaması yaşam kalitemize haksız yere yıllarca düşürdü. Benim kişisel çabalarımla edindiğim tecrübem ise yaşantılarında gereken değeri bulmakta zorlanıyor.',
+          en: "The lack of sufficient life experience in my family unfairly lowered the quality of our lives for years. The experience I've gained through my personal efforts never seems to find the necessary value in their lives.",
+          tr: 'Ailemin yeterli hayat tecrübesinin olmaması yaşam kalitemizi yıllarca haksız yere düşürdü. Benim kişisel çabalarımla edindiğim tecrübem ise yaşantılarında gereken değeri bulmakta zorlanıyor.',
         }),
       },
     ],
