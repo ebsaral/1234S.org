@@ -4,10 +4,10 @@ import { PlacesType } from 'react-tooltip';
 
 type AnchorProps = ComponentProps<'a'> & ExtraProps;
 
-const CustomMarkdownLink = ({ href, children, node }: AnchorProps) => {
-  const tooltip = node?.properties?.['data-tooltip-id'];
-  const content = node?.properties?.['data-tooltip-content'];
-  const place = node?.properties?.['data-tooltip-place'] || 'top';
+const CustomMarkdownLink = ({ href, children, ...props }: AnchorProps) => {
+  const tooltip = props['data-tooltip-id'];
+  const content = props['data-tooltip-content'];
+  const place = props['data-tooltip-place'] || 'top';
 
   if (tooltip && content) {
     return (
