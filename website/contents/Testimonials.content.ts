@@ -129,6 +129,16 @@ const pageContent = {
           tr: 'Doğanın detaylarında tüm şifaların kolayca ulaşılabilir olduklarını görebilmek umut veren bir bilgi oldu. Sağlık olsun, ne diyelim.',
         }),
       },
+      {
+        name: t({
+          en: 'A Victim of Systematic Frauds',
+          tr: 'Sistematik Hilekârlıkların Bir Mağduru',
+        }),
+        text: t({
+          en: "The lack of sufficient life experience in my family unfairly lowered the quality of our life for years. The experience I've gained through my personal efforts never seems to find the necessary value in their lives.",
+          tr: 'Ailemin yeterli yaşam tecrübesinin olmaması yaşam kalitemize haksız yere yıllarca düşürdü. Benim kişisel çabalarımla edindiğim tecrübem ise yaşantılarında gereken değeri bulmakta zorlanıyor.',
+        }),
+      },
     ],
     prev: t({
       en: 'Prev',
