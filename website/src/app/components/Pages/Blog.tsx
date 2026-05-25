@@ -14,16 +14,6 @@ import MarkdownProvider from '../Custom/MarkdownProvider';
 import SearchBox from '../Custom/SearchBox';
 import Title from '../Custom/Title';
 
-enum SortBy {
-  Created = 'created',
-  Updated = 'updated',
-}
-
-enum SortIn {
-  ASC = 'asc',
-  DESC = 'desc',
-}
-
 const Blog = ({ posts }: { posts: Post[] }) => {
   const metadata = useIntlayer('blog-page-metadata');
 
@@ -32,8 +22,6 @@ const Blog = ({ posts }: { posts: Post[] }) => {
   const sectionKey = 'blog';
   const content = useIntlayer(`${sectionKey}-section`);
   const { locale } = useLocale();
-  const [sortBy, setSortBy] = useState(SortBy.Updated);
-  const [sortIn, setSortIn] = useState(SortIn.DESC);
   const [searchText, setSearchText] = useState('');
 
   const fuse = new Fuse<Post>(posts, {
@@ -46,23 +34,14 @@ const Blog = ({ posts }: { posts: Post[] }) => {
     setActiveMenu({ root: 'blog' });
   }, []);
 
-  useEffect(() => {}, [locale, sortBy]);
-
   const getItems = () => {
     const searchedPosts: Post[] = searchText ? fuse.search(searchText).map((r) => r.item) : posts;
     const items = searchedPosts.filter((post) => post.metadata.locale == locale);
     const sorted = items.sort((a, b) => {
-      const aDate = sortBy === SortBy.Created ? a.metadata.created : (a.metadata.updated ?? a.metadata.created);
-      const bDate = sortBy === SortBy.Created ? b.metadata.created : (b.metadata.updated ?? b.metadata.created);
-      if (sortIn === SortIn.DESC) {
-        return new Date(bDate).getTime() - new Date(aDate).getTime();
-      } else {
-        return new Date(aDate).getTime() - new Date(bDate).getTime();
-      }
+      const aDate = a.metadata.updated ?? a.metadata.created;
+      const bDate = b.metadata.updated ?? b.metadata.created;
+      return new Date(bDate).getTime() - new Date(aDate).getTime();
     });
-
-    if (searchText) {
-    }
 
     return sorted;
   };
