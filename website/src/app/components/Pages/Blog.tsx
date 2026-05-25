@@ -108,7 +108,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.metadata.slug}`, locale)}
                   title={item.metadata.title}
-                  className='relative flex flex-col sm:flex-row w-full gap-6 sm:gap-12 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
+                  className='relative flex flex-col sm:flex-row w-full gap-6 sm:gap-14 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
                   <Image
                     ref={(el) => {
