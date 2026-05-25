@@ -24,6 +24,10 @@ const pageContent = {
         en: 'Take it easy, champ.',
         tr: 'Sakin ol şampiyon.',
       }),
+      image: t({
+        en: '/images/dance.png',
+        tr: '/images/dans.png',
+      }),
     },
     projects: {
       title: t({

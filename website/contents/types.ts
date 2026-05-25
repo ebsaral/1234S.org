@@ -49,6 +49,7 @@ export interface HomePageContent {
   jamButton: {
     enable: string;
     disable: string;
+    image: string;
   };
   projects: {
     title: string;

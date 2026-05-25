@@ -93,7 +93,7 @@ const Research = () => {
           <Link hidden={!jamMode} href={getLocalizedUrl('/mission', locale)} prefetch>
             <Image
               className='relative -mt-6'
-              src='/images/dance.png'
+              src={content.jamButton.image.value}
               title={content.jamButton.disable.value}
               alt={content.jamButton.disable.value}
               height={150}
