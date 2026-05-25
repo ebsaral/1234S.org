@@ -62,8 +62,8 @@ const pageContent = {
     },
     blog: {
       text: t({
-        en: 'Blog',
-        tr: 'Blog',
+        en: 'Our Story',
+        tr: 'Hikâyemiz',
       }),
     },
     intro: {
