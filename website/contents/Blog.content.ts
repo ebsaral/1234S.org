@@ -31,12 +31,16 @@ const pageContent = {
       tr: 'Aradığınız içerik mevcut değil veya henüz Türkçeye çevirisi yapılmadı.',
     }),
     title: t({
-      en: md('# Blog'),
-      tr: md('# Blog'),
+      en: md('# Our Story'),
+      tr: md('# Hikâyemiz'),
     }),
     description: t({
-      en: md('Ideas, researches, facts, explanations and examples to detail **The Root of New Politics** mission.'),
-      tr: md('**Yeni Siyasetin Kökeni** misyonunu detaylandıran fikirler, araştırmalar, gerçekler, açıklamalar ve örnekler.'),
+      en: md(
+        'Ideas, researches, facts, explanations and examples to detail the mission of being [**The Root of New Politics**](/mission).',
+      ),
+      tr: md(
+        '[**Yeni Siyasetin Kökeni**](/misyon) olma misyonunu detaylandıran fikirler, araştırmalar, gerçekler, açıklamalar ve örnekler.',
+      ),
     }),
     labels: {
       search: t({
