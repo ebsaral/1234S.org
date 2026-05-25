@@ -6,11 +6,10 @@ import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { LuArrowDownWideNarrow, LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
+import { LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
 import { useIntlayer, useLocale } from 'react-intlayer';
 import readingTime from 'reading-time';
 import CustomPencil from '../Custom/CustomPencil';
-import Filter from '../Custom/Filter';
 import MarkdownProvider from '../Custom/MarkdownProvider';
 import SearchBox from '../Custom/SearchBox';
 import Title from '../Custom/Title';
@@ -88,27 +87,6 @@ const Blog = ({ posts }: { posts: Post[] }) => {
           </article>
           <div className='max-w-4xl mx-auto mb-8 flex flex-col items-center justify-center gap-4'>
             <SearchBox placeholder={content.labels.search.value} onSearch={(value) => setSearchText(value)} />
-
-            <div className='w-full max-w-md mx-auto flex items-center justify-center gap-2 sm:gap-5'>
-              <LuArrowDownWideNarrow size={24} />
-
-              <Filter
-                defaultValue={SortIn.DESC}
-                onChange={(value) => setSortIn(value as SortIn)}
-                values={[
-                  { value: SortIn.DESC, label: content.labels.desc.value },
-                  { value: SortIn.ASC, label: content.labels.asc.value },
-                ]}
-              />
-              <Filter
-                defaultValue={SortBy.Updated}
-                onChange={(value) => setSortBy(value as SortBy)}
-                values={[
-                  { value: SortBy.Updated, label: content.labels.byUpdateDate.value },
-                  { value: SortBy.Created, label: content.labels.byCreateDate.value },
-                ]}
-              />
-            </div>
           </div>
 
           <div className='max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
