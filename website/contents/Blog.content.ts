@@ -35,12 +35,8 @@ const pageContent = {
       tr: md('# Hikâyemiz'),
     }),
     description: t({
-      en: md(
-        'Ideas, researches, facts, explanations and examples to detail the mission of being [**The Root of New Politics**](/mission).',
-      ),
-      tr: md(
-        '[**Yeni Siyasetin Kökeni**](/misyon) olma misyonunu detaylandıran fikirler, araştırmalar, gerçekler, açıklamalar ve örnekler.',
-      ),
+      en: md('Explanations and examples to detail our mission of being [**The Root of New Politics**](/mission).'),
+      tr: md('[**Yeni Siyasetin Kökeni**](/misyon) olma misyonumuzu detaylandıran açıklamalar ve örnekler.'),
     }),
     labels: {
       search: t({
