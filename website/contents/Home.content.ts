@@ -17,7 +17,7 @@ const pageContent = {
     }),
     jamButton: {
       enable: t({
-        en: "Let's dance!",
+        en: 'One more time!',
         tr: 'O zaman dans!',
       }),
       disable: t({
