@@ -5,25 +5,14 @@ import { Post } from '@/app/lib/posts';
 import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
-import { LuArrowDownWideNarrow, LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
+import { useEffect, useRef, useState } from 'react';
+import { LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
 import { useIntlayer, useLocale } from 'react-intlayer';
 import readingTime from 'reading-time';
 import CustomPencil from '../Custom/CustomPencil';
-import Filter from '../Custom/Filter';
 import MarkdownProvider from '../Custom/MarkdownProvider';
 import SearchBox from '../Custom/SearchBox';
 import Title from '../Custom/Title';
-
-enum SortBy {
-  Created = 'created',
-  Updated = 'updated',
-}
-
-enum SortIn {
-  ASC = 'asc',
-  DESC = 'desc',
-}
 
 const Blog = ({ posts }: { posts: Post[] }) => {
   const metadata = useIntlayer('blog-page-metadata');
@@ -33,9 +22,38 @@ const Blog = ({ posts }: { posts: Post[] }) => {
   const sectionKey = 'blog';
   const content = useIntlayer(`${sectionKey}-section`);
   const { locale } = useLocale();
-  const [sortBy, setSortBy] = useState(SortBy.Updated);
-  const [sortIn, setSortIn] = useState(SortIn.DESC);
   const [searchText, setSearchText] = useState('');
+
+  const refs = useRef<(HTMLImageElement | null)[]>([]);
+  const [visibleItems, setVisibleItems] = useState<boolean[]>(Array(posts.length).fill(false));
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const index = Number(entry.target.getAttribute('data-index'));
+          setVisibleItems((prev) => {
+            const updated = [...prev];
+            updated[index] = entry.isIntersecting;
+            return updated;
+          });
+        });
+      },
+      {
+        threshold: 0.2, // trigger when X of the item is visible
+      },
+    );
+
+    refs.current.forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => {
+      refs.current.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
+      });
+    };
+  }, [searchText]);
 
   const fuse = new Fuse<Post>(posts, {
     keys: ['metadata.title', 'metadata.subtitle', 'content'], // fields to search
@@ -47,23 +65,14 @@ const Blog = ({ posts }: { posts: Post[] }) => {
     setActiveMenu({ root: 'blog' });
   }, []);
 
-  useEffect(() => {}, [locale, sortBy]);
-
   const getItems = () => {
     const searchedPosts: Post[] = searchText ? fuse.search(searchText).map((r) => r.item) : posts;
     const items = searchedPosts.filter((post) => post.metadata.locale == locale);
     const sorted = items.sort((a, b) => {
-      const aDate = sortBy === SortBy.Created ? a.metadata.created : (a.metadata.updated ?? a.metadata.created);
-      const bDate = sortBy === SortBy.Created ? b.metadata.created : (b.metadata.updated ?? b.metadata.created);
-      if (sortIn === SortIn.DESC) {
-        return new Date(bDate).getTime() - new Date(aDate).getTime();
-      } else {
-        return new Date(aDate).getTime() - new Date(bDate).getTime();
-      }
+      const aDate = a.metadata.updated ?? a.metadata.created;
+      const bDate = b.metadata.updated ?? b.metadata.created;
+      return new Date(bDate).getTime() - new Date(aDate).getTime();
     });
-
-    if (searchText) {
-    }
 
     return sorted;
   };
@@ -88,30 +97,9 @@ const Blog = ({ posts }: { posts: Post[] }) => {
           </article>
           <div className='max-w-4xl mx-auto mb-8 flex flex-col items-center justify-center gap-4'>
             <SearchBox placeholder={content.labels.search.value} onSearch={(value) => setSearchText(value)} />
-
-            <div className='w-full max-w-md mx-auto flex items-center justify-center gap-2 sm:gap-5'>
-              <LuArrowDownWideNarrow size={24} />
-
-              <Filter
-                defaultValue={SortIn.DESC}
-                onChange={(value) => setSortIn(value as SortIn)}
-                values={[
-                  { value: SortIn.DESC, label: content.labels.desc.value },
-                  { value: SortIn.ASC, label: content.labels.asc.value },
-                ]}
-              />
-              <Filter
-                defaultValue={SortBy.Updated}
-                onChange={(value) => setSortBy(value as SortBy)}
-                values={[
-                  { value: SortBy.Updated, label: content.labels.byUpdateDate.value },
-                  { value: SortBy.Created, label: content.labels.byCreateDate.value },
-                ]}
-              />
-            </div>
           </div>
 
-          <div className='max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 content-between justify-items-center gap-10'>
+          <div className='max-w-4xl mx-auto grid grid-cols-1 content-between justify-items-center gap-10'>
             {getItems().map((item, index) => {
               const stats = readingTime(item.content);
               const minutes = Math.max(1, Math.round(stats.minutes));
@@ -119,45 +107,52 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                 <a
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.metadata.slug}`, locale)}
-                  className='relative group flex flex-col w-full gap-5 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
+                  title={item.metadata.title}
+                  className='relative flex flex-col sm:flex-row w-full gap-6 sm:gap-14 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
                   <Image
-                    className='sm:h-36 group-hover:scale-105 transition-all duration-300 rounded-lg'
+                    ref={(el) => {
+                      refs.current[index] = el;
+                    }}
+                    data-index={index}
+                    className={`relative w-80 h-44 sm:h-64 object-cover transition-all rounded-lg transform duration-700 ease-out transform-origin-center ${
+                      visibleItems[index] ? 'scale-110 sm:scale-105' : 'scale-100'
+                    }`}
                     src={item.metadata.image}
-                    width={200}
-                    height={200}
+                    width={400}
+                    height={400}
                     alt={item.metadata.title}
                   />
-                  <h3 className='font-bold text-lg text-center  line-clamp-2 inline-flex items-center'>
-                    {item.metadata.title}
-                  </h3>
+                  <div className='relative sm:h-full flex flex-col gap-5 items-center sm:items-start'>
+                    <h3 className='font-bold text-xl sm:text-4xl text-center sm:text-left'>{item.metadata.title}</h3>
 
-                  <p className='text-sm'>{item.metadata.subtitle}</p>
+                    <p className='text-sm sm:text-lg'>{item.metadata.subtitle}</p>
 
-                  <div className='mt-auto flex flex-row gap-4 sm:gap-6 text-xs text-gray-800'>
-                    <div className='inline-flex items-center gap-1'>
-                      <LuFilePen size={14} />
-                      {new Date(item.metadata.created).toLocaleString(locale, {
-                        year: 'numeric',
-                        month: 'short',
-                        day: '2-digit',
-                      })}
-                    </div>
-                    {item.metadata.updated && (
+                    <div className='mt-auto flex flex-row gap-4 sm:gap-6 text-xs sm:text-sm text-gray-800'>
                       <div className='inline-flex items-center gap-1'>
-                        <LuFilePlus size={14} />
-                        <div className='text-center'>
-                          {new Date(item.metadata.updated).toLocaleString(locale, {
-                            year: 'numeric',
-                            month: 'short',
-                            day: '2-digit',
-                          })}
-                        </div>
+                        <LuFilePen size={14} />
+                        {new Date(item.metadata.created).toLocaleString(locale, {
+                          year: 'numeric',
+                          month: 'short',
+                          day: '2-digit',
+                        })}
                       </div>
-                    )}
-                    <div className='inline-flex gap-1 items-center justify-center text-xs text-center'>
-                      <LuFileClock size={14} />
-                      {content.labels.readingTime({ min: minutes })}
+                      {item.metadata.updated && (
+                        <div className='inline-flex items-center gap-1'>
+                          <LuFilePlus size={14} />
+                          <div className='text-center'>
+                            {new Date(item.metadata.updated).toLocaleString(locale, {
+                              year: 'numeric',
+                              month: 'short',
+                              day: '2-digit',
+                            })}
+                          </div>
+                        </div>
+                      )}
+                      <div className='inline-flex gap-1 items-center justify-center text-xs text-center'>
+                        <LuFileClock size={14} />
+                        {content.labels.readingTime({ min: minutes })}
+                      </div>
                     </div>
                   </div>
                 </a>
