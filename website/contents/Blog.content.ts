@@ -35,7 +35,7 @@ const pageContent = {
       tr: md('# Hikâyemiz'),
     }),
     description: t({
-      en: md('Explanations and examples to detail our mission of being [**The Root of New Politics**](/mission).'),
+      en: md('Explanations and examples to elaborate our mission to be [**The Root of New Politics**](/mission).'),
       tr: md('[**Yeni Siyasetin Kökeni**](/misyon) olma misyonumuzu detaylandıran açıklamalar ve örnekler.'),
     }),
     labels: {
