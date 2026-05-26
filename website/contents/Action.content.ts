@@ -20,25 +20,25 @@ const pageContent = {
         status: {
           key: 'on-hold',
           text: t({
-            en: 'On Hold',
-            tr: 'Beklemede',
+            en: 'Being Kept Waiting / Getting Blocked',
+            tr: 'Bekletiliyor / Engelleniyor',
           }),
         },
       },
       {
         title: t({
           en: 'Improving health conditions',
-          tr: 'Sağlık durumlarının iyileştirilmesi',
+          tr: 'Sağlık koşullarının iyileştirilmesi',
         }),
         subtitle: t({
           en: '- Analyzing changes in the health status of citizens after removing biological devices connected to the illicit global economy via artificial intelligence.\n- Ensuring that all compensation paid by companies being used to improve public health and preventing possible fraud methods.\n- Sharing all reports transparently and honestly, in details, with the public.',
-          tr: '- Yasa dışı küresel ekonomiye yapay zeka vasıtasıyla bağlanmış olan biyolojik cihazların vücutlarımızdan çıkartılmalarının ardından, vatandaşların sağlık durumlarındaki değişikliklerin analiz edilmesi.\n- Şirketlerin ödedikleri tüm tazminatın halkın sağlığını iyileştirmek için kullanılması ve tekrarlanabilecek hilekarlıkların önüne geçilmesi.\n- Raporların şeffaf ve dürüst bir şekilde, detaylarıyla birlikte, kamuoyu ile paylaşılması.',
+          tr: '- Yasa dışı küresel ekonomiye yapay zekâ vasıtasıyla bağlanmış olan biyolojik cihazların vücutlarımızdan çıkartılmalarının ardından, vatandaşların sağlık durumlarındaki değişikliklerin analiz edilmesi.\n- Şirketlerin ödedikleri tüm tazminatın halkın sağlığını iyileştirmek için kullanılması ve tekrarlanabilecek hilekârlıkların önüne geçilmesi.\n- Raporların şeffaf ve dürüst bir şekilde, detaylarıyla birlikte, kamuoyu ile paylaşılması.',
         }),
         status: {
           key: 'not-started',
           text: t({
             en: 'Not Started',
-            tr: 'Başlamadı',
+            tr: 'Başlatılmadı',
           }),
         },
       },
@@ -55,7 +55,7 @@ const pageContent = {
           key: 'not-started',
           text: t({
             en: 'Not Started',
-            tr: 'Başlamadı',
+            tr: 'Başlatılmadı',
           }),
         },
       },
@@ -65,14 +65,14 @@ const pageContent = {
           tr: 'İş modellerinin geliştirilmesi',
         }),
         subtitle: t({
-          en: '- By implementing control mechanisms against illegal business models, giving wing to healthy (sustainable) business models.',
-          tr: '- Yasa dışı iş modellerini kontrol eden mekanizmaların devreye alınmalarıyla birlikte, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.',
+          en: '- By implementing block mechanisms against business models that cause harm in public, giving wing to healthy (sustainable) business models.',
+          tr: '- Halkın sağlığına zarar veren iş modellerini engelleyen mekanizmaları devreye alarak, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.',
         }),
         status: {
           key: 'not-started',
           text: t({
             en: 'Not Started',
-            tr: 'Başlamadı',
+            tr: 'Başlatılmadı',
           }),
         },
       },
@@ -89,7 +89,7 @@ const pageContent = {
           key: 'not-started',
           text: t({
             en: 'Not Started',
-            tr: 'Başlamadı',
+            tr: 'Başlatılmadı',
           }),
         },
       },
