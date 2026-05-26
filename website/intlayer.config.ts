@@ -116,7 +116,7 @@ const config: IntlayerConfig = {
   log: {
     mode: 'verbose',
   },
-  build: {
+  dictionary: {
     importMode: 'dynamic',
   },
 };
