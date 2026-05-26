@@ -7,6 +7,7 @@ import { getLocalizedUrl } from 'intlayer';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { LuFileClock, LuFilePen, LuFilePlus } from 'react-icons/lu';
+import { PiWarningCircleFill } from 'react-icons/pi';
 import { useIntlayer, useLocale } from 'react-intlayer';
 import readingTime from 'reading-time';
 import CustomPencil from '../Custom/CustomPencil';
@@ -158,6 +159,10 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                 </a>
               );
             })}
+          </div>
+          <div className='max-w-4xl mx-auto flex flex-row items-center justify-center gap-2 mt-14'>
+            <PiWarningCircleFill size={32} />
+            {content.note}
           </div>
         </section>
       </main>

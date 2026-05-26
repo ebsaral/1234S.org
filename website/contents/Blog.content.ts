@@ -21,6 +21,7 @@ type BlogPageContent = {
     label: string;
     href: typeof insert;
   };
+  note: string;
 };
 
 const pageContent = {
@@ -93,6 +94,10 @@ const pageContent = {
       }),
       href: insert('https://github.com/ebsaral/1234S.org/commits/main/website/posts/{{slug}}.{{locale}}.md'),
     },
+    note: t({
+      en: 'The contents are still getting updated to express the topics better.',
+      tr: 'Konuların daha iyi ifade edilebilmesi için içerikler hâlâ güncelleniyor.',
+    }),
   },
 } satisfies Dictionary<BlogPageContent>;
 
