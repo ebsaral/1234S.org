@@ -56,8 +56,8 @@ const pageContent = {
     },
     mission: {
       text: t({
-        en: 'Mission',
-        tr: 'Misyon',
+        en: 'Our Mission',
+        tr: 'Misyonumuz',
       }),
     },
     blog: {
