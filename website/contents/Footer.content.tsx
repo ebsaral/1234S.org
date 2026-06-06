@@ -50,11 +50,11 @@ const pageContent = {
       },
       {
         href: t({
-          en: '#available-only-in-turkish',
+          en: 'https://www.facebook.com/1234S.org',
           tr: 'https://www.facebook.com/mantiksal.maneviyat',
         }),
         label: t({
-          en: 'Facebook (Available only in Turkish)',
+          en: 'Facebook (English)',
           tr: 'Facebook (Türkçe)',
         }),
       },
