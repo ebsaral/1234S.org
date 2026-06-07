@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-06-06
+updated: 2026-06-07
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -82,7 +82,7 @@ We need to find the companies that manufacture the biological mechanisms inside 
 
 The illegal business structures of Big Tech Companies can be discovered and stopped quickly by governments. The fact that no government has yet taken the necessary steps and that crimes are being tolerated continues to harm all citizens. It's important to understand that giant AI robots are merely distractions compared to these clandestine, illicit high-tech inventions in today's modern world. **I haven't yet found anyone, or any organization, interested in investigating and sharing this information with the public. I have been experiencing almost all of the problems I wrote above for more than 10 years.** In government structures where bribery and fraud are common, it is important that experts are selected from many different organizations and independent research organizations to investigate this big crime model.
 
-> All of these software control mechanisms are integrated into the hardware of devices and vehicles at the factory level. The products I have personally tested and used to confirm my findings include: Apple iMac, Apple MacBook Pro (both older and newer generations), iPhone 4S, iPhone 11 Pro, 2011 Fiat Fiorino, and Toshiba Satellite L755.
+> All of these software control mechanisms are integrated into the hardware of devices and vehicles at the factory level. The products I have personally tested and used to confirm my findings include: Apple iMac, Apple MacBook Pro (both older and newer generations), iPhone 4S, iPhone 11 Pro, iPhone 15, 2011 Fiat Fiorino, and Toshiba Satellite L755.
 
 Me, my family, my friends, and all citizens continuously and still experience the issues and damages listed above. If you know of anyone or any organization that could dive into details and assist me with this matter, which concerns the health and safety of the society, please contact me: you can visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email me at [emin@1234S.org](mailto:emin@1234s.org). 
 

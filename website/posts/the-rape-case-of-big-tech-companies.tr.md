@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-06-06
+updated: 2026-06-07
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 published: true
@@ -82,7 +82,7 @@ Ağzımızın içindeki biyolojik mekanizmanın üretici şirketlerini bulmak ve
 
 Büyük Teknoloji Şirketlerinin yasa dışı işletme yapıları hükümetler tarafından hızlıca bulunabilir ve durdurulabilirler. Hiçbir hükümetin gerekli adımları henüz atmaması ve suçların işlenmesine göz yumulması tüm vatandaşlara zarar vermeye devam ediyor. Dev yapay zekâ robotlarının, günümüz modern dünyasındaki bu gizli yasa dışı yüksek teknoloji icatlarıyla karşılaştırıldığında sadece dikkat dağıtıcı unsurlar olduklarının bilinmesi gerekiyor. **Henüz konunun araştırılmasına ve kamuoyuyla paylaşılmasına ilgi gösteren bir kişi veya kurum bulamadım. Yukarıda yazdığım sorunların neredeyse tamamını 10 yıldan fazladır deneyimliyorum.** Rüşvet ve sahtekarlık olaylarının yaygın olduğu hükümet yapılarında, bu büyük suç modelini araştıracak bilirkişilerin birçok farklı kuruluşlardan ve bağımsız araştırma organizasyonlarından seçilmeleri önem arz ediyor.
 
-> Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, 2011 model Fiat Fiorino, Toshiba Satellite L755.
+> Tüm bu yazılım kontrolleri fabrika çıkışlı olarak cihaz/araç donanımlarına entegre edilmiş durumdalar. Bizzat test ettiğim ve bulgularımı doğruladığım ürünler: Apple iMac, Apple MacBook Pro (eski ve yeni nesil), iPhone 4S, iPhone 11 Pro, iPhone 15, 2011 model Fiat Fiorino, Toshiba Satellite L755.
 
 Ben, ailem, arkadaşlarım ve tüm vatandaşlar yukarıda listelenen sorunları ve zararları sürekli olarak ve hâlâ yaşıyoruz. Toplumun sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili detayları öğrenmek isterseniz ve bana yardımcı olabileceğini düşündüğünüz biri veya bir kurum varsa, lütfen benimle iletişime geçiniz: [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz, [iletişim formunu](/iletisim) veya [emin@1234S.org](mailto:emin@1234s.org) adresini kullanabilirsiniz.
 
