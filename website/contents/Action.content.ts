@@ -52,10 +52,10 @@ const pageContent = {
           tr: '- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
         }),
         status: {
-          key: 'not-started',
+          key: 'on-hold',
           text: t({
-            en: 'Not Started',
-            tr: 'Başlatılmadı',
+            en: 'Getting prepared',
+            tr: 'Hazırlanılıyor',
           }),
         },
       },
