@@ -10,6 +10,7 @@ import { LuChevronDown, LuMenu, LuX } from 'react-icons/lu';
 import useHash from '../hooks/useHash';
 import { useMenu } from '../hooks/useMenu';
 import { useScrollEffects } from '../hooks/useScrollEffects';
+import { getFlagIcon } from '../lib/helpers';
 import { Button } from './ui/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from './ui/dropdown-menu';
 
@@ -249,7 +250,7 @@ const Header = ({ postCount }) => {
                       : 'text-white/90 hover:text-white hover:bg-white/10 border border-white/20'
                   }`}
                 >
-                  <span className='text-base'>{content.flags[availableLocales.find((item) => item === locale)]}</span>
+                  <span className='text-base'>{getFlagIcon(availableLocales.find((item) => item === locale))}</span>
                   <span className='text-sm font-medium hidden sm:inline'>
                     {getLocaleName(availableLocales.find((item) => item === locale))}
                   </span>
@@ -276,7 +277,7 @@ const Header = ({ postCount }) => {
                       onClick={() => handleLocaleChange(item)}
                       replace
                     >
-                      <span className='text-lg'>{content.flags[item]}</span>
+                      <span className='text-lg'>{getFlagIcon(item)}</span>
                       <span>{getLocaleName(item)}</span>
                       {locale === item && <div className='ml-auto w-2 h-2 bg-emerald-500 rounded-full'></div>}
                     </Link>
