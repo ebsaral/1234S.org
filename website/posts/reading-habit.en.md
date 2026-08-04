@@ -19,7 +19,7 @@ Since what appear to be coincidences in nature are actually cause-and-effect rel
 
 ## Perspectives
 
-Within the interconnectedness of nature, realities that appeal to our senses are carried into our imagination accompanied by words and their connotations. The different words woven in every culture attempt to encompass definitions that extend from individual reality to universal reality. This situation is not so much about the abilities of those who design languages as it is about the way the unity of nature reflects itself in the mind.
+Within the wholeness of nature, realities that appeal to our senses are carried into our imagination accompanied by words and their connotations. The different words woven in every culture attempt to encompass definitions that extend from individual reality to universal reality. This situation is not so much about the abilities of those who design languages as it is about the way the unity of nature reflects itself in the mind.
 
 When we read any sentence, different meanings may appear in every mind due to the connotations of words. The meanings of words may change over time. For this reason, all human symbols are merely products of imagination. When we focus only on symbols that originate in the human mind and distance ourselves from the effort to comprehend the unity of nature, our imagination becomes limited.
 

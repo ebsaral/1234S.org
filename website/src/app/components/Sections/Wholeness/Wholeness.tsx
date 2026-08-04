@@ -4,14 +4,14 @@ import { SlGlobe } from 'react-icons/sl';
 import { useIntlayer } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 
-import { Examples, Experiment } from '@/app/components/Sections/Interconnectedness';
+import { Examples, Experiment } from '@/app/components/Sections/Wholeness';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
 import Quote from '../Quote';
 
-const Interconnectedness = ({ id }: { id: string }) => {
-  const sectionKey = 'interconnectedness';
+const Wholeness = ({ id }: { id: string }) => {
+  const sectionKey = 'wholeness';
   const content = useIntlayer(`${sectionKey}-section`);
   const ref = useRef<HTMLDivElement | null>(null);
   const [isIntersecting] = useIntersectionObserver(ref);
@@ -81,4 +81,4 @@ const Interconnectedness = ({ id }: { id: string }) => {
   );
 };
 
-export default Interconnectedness;
+export default Wholeness;

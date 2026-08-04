@@ -51,7 +51,7 @@ const pageContent = {
       tr: 'Doğadaki Mantık',
     }),
     description: t({
-      en: `While Interconnectedness details the bonds in our lives through our feelings, the justice in nature provides the balance between our bonds. **Justice proves itself in the vitality and health conditions of living beings.**\n\nEvery entity contains meanings composed of different sets of feelings and serves as a means for us to perform good or bad actions. Every action we take brings its own consequences, whether positive or negative. The God always knows our true intention and guides the necessary outcome in our lives. **No being can escape the cause-and-effect relationship.**`,
+      en: `While Wholeness details the bonds in our lives through our feelings, the justice in nature provides the balance between our bonds. **Justice proves itself in the vitality and health conditions of living beings.**\n\nEvery entity contains meanings composed of different sets of feelings and serves as a means for us to perform good or bad actions. Every action we take brings its own consequences, whether positive or negative. The God always knows our true intention and guides the necessary outcome in our lives. **No being can escape the cause-and-effect relationship.**`,
       tr: `Bütünlük yaşamımızdaki bağları hislerimizle detaylandırırken, doğadaki adalet bağlarımız arasındaki dengeyi sağlar. **Adalet, canlılığın ve canlıların sağlık durumlarında kendini kanıtlar.**\n\nHer varlık farklı his kümelerinden oluşan anlamlar barındırır ve iyi ya da kötü eylemler gerçekleştirmemize vesile olur. Her eylemimiz olumlu veya olumsuz olarak kendi sonuçlarını beraberinde getirir. Tanrı gerçek niyetimizi her zaman bilir ve yaşamımızda gerekli olan sonucu bize doğru çeker. **Sebep-sonuç ilişkisinden hiçbir canlı kaçamaz.**`,
     }),
     paragraph1: t({
@@ -92,7 +92,7 @@ const pageContent = {
         tr: '***Ortak Sağlık, Aynı Yasalar***',
       }),
       description: t({
-        en: 'Within the scope of Interconnectedness, just as the positive development of a being provides benefits to its surroundings, the pain felt by one affects the health of all around it.',
+        en: 'Within the scope of Wholeness, just as the positive development of a being provides benefits to its surroundings, the pain felt by one affects the health of all around it.',
         tr: 'Bütünlük kapsamında, bir canlının olumlu gelişiminin etrafına faydalar sağlaması gibi, birinin hissettiği acı da tüm çevresinin sağlığını etkiler.',
       }),
     },

@@ -9,7 +9,7 @@ const metadataContent = {
       tr: 'Misyonumuz | 1234S.org',
     }),
     description: t({
-      en: 'The Mission of 1234S.org: Extending the Application of Logical Spirituality for a Better Life through Interconnectedness, Justice, and Health.',
+      en: 'The Mission of 1234S.org: Extending the Application of Logical Spirituality for a Better Life through Wholeness, Justice, and Health.',
       tr: "1234S.org'un Amacı: Bütünlük, Adalet ve Sağlık Yoluyla Daha İyi Bir Yaşam İçin Mantıksal Maneviyat'ın Uygulanma Kapsamını Genişletmek.",
     }),
     applicationName: '1234S.org',
@@ -21,7 +21,7 @@ const metadataContent = {
     ],
     generator: 'Next.js',
     keywords: t({
-      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature',
+      en: 'spirituality, logic, philosophy, logical, wholeness, wholeness, health, unity, justice, nature',
       tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa',
     }),
     referrer: 'origin',

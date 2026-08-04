@@ -9,7 +9,7 @@ const metadataContent = {
       tr: '1234S.org',
     }),
     description: t({
-      en: 'A Comprehensive View of Spirituality Together with the Logic of Nature: Interconnectedness, Justice, Health.',
+      en: 'A Comprehensive View of Spirituality Together with the Logic of Nature: Wholeness, Justice, Health.',
       tr: 'Doğanın Mantığıyla Birlikte Maneviyata Kapsamlı Bir Bakış: Bütünlük, Adalet, Sağlık.',
     }),
     applicationName: '1234S.org',
@@ -21,7 +21,7 @@ const metadataContent = {
     ],
     generator: 'Next.js',
     keywords: t({
-      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature',
+      en: 'spirituality, logic, philosophy, logical, wholeness, wholeness, health, unity, justice, nature',
       tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa',
     }),
     referrer: 'origin',

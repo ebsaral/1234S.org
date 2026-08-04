@@ -4,9 +4,9 @@ import EndingSection from '@/app/components/Sections/EndingSection';
 import { FAQ } from '@/app/components/Sections/FAQ';
 import { Health } from '@/app/components/Sections/Health';
 import Hero from '@/app/components/Sections/Hero';
-import { Interconnectedness } from '@/app/components/Sections/Interconnectedness';
 import Intro from '@/app/components/Sections/Intro';
 import { Justice } from '@/app/components/Sections/Justice';
+import { Wholeness } from '@/app/components/Sections/Wholeness';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useEffect } from 'react';
 import { useIntlayer } from 'react-intlayer';
@@ -27,7 +27,7 @@ const Philosophy = () => {
         <Title title={content.title.value} />
         <Hero />
         <Intro id={navigation.intro.hash.value} />
-        <Interconnectedness id={navigation.interconnectedness.hash.value} />
+        <Wholeness id={navigation.wholeness.hash.value} />
         <Justice id={navigation.justice.hash.value} />
         <Health id={navigation.health.hash.value} />
         <EndingSection id='ending' />

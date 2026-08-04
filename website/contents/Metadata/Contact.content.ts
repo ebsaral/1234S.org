@@ -21,7 +21,7 @@ const metadataContent = {
     ],
     generator: 'Next.js',
     keywords: t({
-      en: 'spirituality, logic, philosophy, logical, interconnectedness, wholeness, health, unity, justice, nature, support, membership',
+      en: 'spirituality, logic, philosophy, logical, wholeness, health, unity, justice, nature, support, membership',
       tr: 'maneviyat, mantık, felsefe, mantıksal, birbirine bağlılık, bütünlük, bütünsellik, sağlık, birlik, adalet, doğa, destek, üyelik',
     }),
     referrer: 'origin',

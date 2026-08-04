@@ -76,9 +76,9 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
-              {/* Interconnectedness claim */}
+              {/* Wholeness claim */}
               <div className='link-underline text-center text-xs'>
-                <MarkdownRenderer>{content.interconnectedness.value}</MarkdownRenderer>
+                <MarkdownRenderer>{content.wholeness.value}</MarkdownRenderer>
               </div>
 
               {/* Development Links */}

@@ -18,7 +18,7 @@ interface NavigationContent {
   mission: Link;
   blog: Link;
   intro: SubLink;
-  interconnectedness: SubLink;
+  wholeness: SubLink;
   justice: SubLink;
   health: SubLink;
   faq: SubLink;
@@ -73,9 +73,9 @@ const pageContent = {
       }),
       hash: 'a',
     },
-    interconnectedness: {
+    wholeness: {
       text: t({
-        en: 'Interconnectedness',
+        en: 'Wholeness',
         tr: 'Bütünlük',
       }),
       hash: 'b',

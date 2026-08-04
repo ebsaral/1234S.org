@@ -13,7 +13,7 @@ interface FooterContent {
   career: FooterLink;
   github: FooterLink;
   productHunt: FooterLink;
-  interconnectedness: string;
+  wholeness: string;
 }
 
 const pageContent = {
@@ -88,8 +88,8 @@ const pageContent = {
       label: 'Product Hunt',
       href: 'https://www.producthunt.com/products/1234s-org-a-philosophical-movement',
     },
-    interconnectedness: t({
-      en: 'Shaped with [The Interconnectedness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
+    wholeness: t({
+      en: 'Shaped with [The Wholeness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
       tr: '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
     }),
   },

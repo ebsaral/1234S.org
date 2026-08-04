@@ -4,7 +4,7 @@ import { LuAtom } from 'react-icons/lu';
 import { useIntlayer } from 'react-intlayer';
 
 const Examples = ({ className = '' }: { className?: string }) => {
-  const content = useIntlayer('interconnectedness-section');
+  const content = useIntlayer('wholeness-section');
 
   return (
     <article

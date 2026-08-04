@@ -25,7 +25,7 @@ const pageContent = {
       }),
     },
     paragraph1: t({
-      en: '**Logical Spirituality**, to better understand the universal truth, is [a system of thought](){data-tooltip-id="tooltip" data-tooltip-content="The set of principles that form the foundation of a science or field of knowledge; philosophy."} that explains the visible and invisible bonds between living beings by centering on all feelings. It elaborates the perceptible individual reality around the broad observation of physical and mental health in nature through the principles of **Interconnectedness** and **Justice**.',
+      en: '**Logical Spirituality**, to better understand the universal truth, is [a system of thought](){data-tooltip-id="tooltip" data-tooltip-content="The set of principles that form the foundation of a science or field of knowledge; philosophy."} that explains the visible and invisible bonds between living beings by centering on all feelings. It elaborates the perceptible individual reality around the broad observation of physical and mental health in nature through the principles of **Wholeness** and **Justice**.',
       tr: '**Mantıksal Maneviyat**, evrensel gerçeği daha iyi anlayabilmek için, tüm hisleri odak noktasına alarak canlıların birbirleriyle olan görünür ve görünmez bağlarını açıklayan [bir düşünce sistemidir](){data-tooltip-id="tooltip" data-tooltip-content="Bir bilimin veya bilgi alanının temelini oluşturan ilkeler bütünü; felsefe."}. **Bütünlük** ve **Adalet** ilkeleriyle, doğadaki fiziksel ve zihinsel sağlık koşullarının kapsamlı gözlemi etrafında hissedilebilen bireysel gerçeği detaylandırır.',
     }),
     paragraph2: t({

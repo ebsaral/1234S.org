@@ -1,6 +1,6 @@
 # 1234S.org
 
-Founded by [Emin Buğra Saral](https://0.1234S.org) to explain the world's most valuable knowledge through [Logical Spirituality](https://www.1234s.org/spirituality) by embracing the principles of **Interconnectedness, Justice and Health in Nature** revealed through its teachings.
+Founded by [Emin Buğra Saral](https://0.1234S.org) to explain the world's most valuable knowledge through [Logical Spirituality](https://www.1234s.org/spirituality) by embracing the principles of **Wholeness, Justice and Health in Nature** revealed through its teachings.
 
 ## Mission: The Root of New Politics
 

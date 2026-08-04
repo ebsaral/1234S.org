@@ -36,7 +36,7 @@ const Header = ({ postCount }) => {
       href: '/philosophy',
       children: [
         { key: 'intro', hash: content.intro.hash.value },
-        { key: 'interconnectedness', hash: content.interconnectedness.hash.value },
+        { key: 'wholeness', hash: content.wholeness.hash.value },
         { key: 'justice', hash: content.justice.hash.value },
         { key: 'health', hash: content.health.hash.value },
         { key: 'faq', hash: content.faq.hash.value },

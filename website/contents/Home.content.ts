@@ -81,7 +81,7 @@ const pageContent = {
         },
         {
           title: t({
-            en: '### Patterns of Interconnectedness',
+            en: '### Patterns of Wholeness',
             tr: '### Bütünlük İçindeki Düzen',
           }),
           subtitle: t({

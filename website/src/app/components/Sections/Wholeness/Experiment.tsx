@@ -4,7 +4,7 @@ import { LuBookOpenCheck, LuCctv, LuDraftingCompass, LuFocus, LuScanEye } from '
 import { useIntlayer } from 'react-intlayer';
 
 const Experiment = ({ className = '' }: { className?: string }) => {
-  const content = useIntlayer('interconnectedness-section');
+  const content = useIntlayer('wholeness-section');
   function getExperimentStepIcon(index: number): import('react').ReactNode {
     const size = 32;
     if (index == 0) {

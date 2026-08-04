@@ -107,7 +107,7 @@ Throughout history, many well-known figures in business, science, or the enterta
 
 People who are seen as “fools” or “naive” according to social standards can naturally reach the luck thus talents they need to achieve a fair balance in their lives when they make positive *(good)* choices. Some of these talented individuals can remain deeply connected to the natural world they originally belong to while continuing to create extraordinary things.
 
-Innate talents are not a kind of hypnosis or magical charm; they are nature's way of guiding individuals toward their own heaven due to inequalities of opportunity in social life. The Interconnected principle of nature, however, expects everyone to be aligned with universal equality and freedom.
+Innate talents are not a kind of hypnosis or magical charm; they are nature's way of guiding individuals toward their own heaven due to inequalities of opportunity in social life. The Wholeness principle of nature, however, expects everyone to be aligned with universal equality and freedom.
 
 > Most of the time, famous individuals choose to focus on their own version of “paradise”; they prioritize their personal achievements rather than dealing with the more important issues at the center of politics. Politics is a responsibility that should be shared by the entire society.
 

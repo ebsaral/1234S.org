@@ -1,6 +1,6 @@
 import { t, type Dictionary } from 'intlayer';
 
-interface InterconnectednessContent {
+interface WholenessContent {
   title: string;
   subtitle: string;
   quote: string;
@@ -32,10 +32,10 @@ interface InterconnectednessContent {
 }
 
 export default {
-  key: 'interconnectedness-section',
+  key: 'wholeness-section',
   content: {
     title: t({
-      en: 'Interconnectedness',
+      en: 'Wholeness',
       tr: 'Bütünlük',
     }),
     subtitle: t({
@@ -120,11 +120,11 @@ export default {
       tr: '**Akıl, farklı sembollerin bir karışımı olarak insanın hayal gücüne aracılık eder. Zekâ ise zihindeki yaşam tecrübesinin son ucudur. Zihinsel ve fiziksel gelişim insanın tüm yaşam sürecinde benzer bağlamda şekil alır.**',
     }),
     paragraph3: t({
-      en: 'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are all-round. Our senses, which can make invisible connections with each other visible, prove the interconnectedness of life to us in different ways.',
+      en: 'Our emotions, beyond time and space, reflect onto each other in an intertwined manner. Consequently, our life connections are all-round. Our senses, which can make invisible connections with each other visible, prove the wholeness of life to us in different ways.',
       tr: 'Hislerimiz, zamanın ve mekanın ötesinde, iç içe geçmiş bir biçimde birbirimize yansır. Haliyle yaşam bağlarımız çok yönlüdür. Birbirimizle olan görünmez bağları görünür kılabilen duyularımız, farklı şekillerde yaşamın bütünlüğünü bize kanıtlar.',
     }),
     paragraph4: t({
-      en: 'By gaining the interconnected perspective, we can also understand how the journey of life, which begins in the womb, takes shape. Because the ways (actions) parents form connections with their environment and the choices of living beings in that environment are also reflected in the genetic sequence of a baby. Every baby, as a small reflection of nature, visibly carries the traces of both their near and distant surroundings.',
+      en: 'By gaining the wholeness perspective, we can also understand how the journey of life, which begins in the womb, takes shape. Because the ways (actions) parents form connections with their environment and the choices of living beings in that environment are also reflected in the genetic sequence of a baby. Every baby, as a small reflection of nature, visibly carries the traces of both their near and distant surroundings.',
       tr: 'Bütünlük bakış açısını kazandığımızda, rahimde başlayan yaşam yolculuğunun nasıl şekil aldığını da anlayabiliriz. Çünkü ebeveynlerin çevreleriyle olan bağ kurma biçimleri (eylemleri) ve çevredeki canlıların seçimleri de bir bebeğin genlerindeki dizilime yansır. Her bebek, doğanın küçük bir iz düşümü olarak, hem yakın hem uzak çevresinin izlerini görünür biçimde taşır.',
     }),
     paragraph5: t({
@@ -198,4 +198,4 @@ export default {
       }),
     },
   },
-} satisfies Dictionary<InterconnectednessContent>;
+} satisfies Dictionary<WholenessContent>;
