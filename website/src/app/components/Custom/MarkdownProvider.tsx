@@ -12,11 +12,15 @@ const MP = ({ children }: React.PropsWithChildren) => {
 
   return (
     <MarkdownProvider
-      renderMarkdown={(markdown) => (
-        <Markdown remarkPlugins={[remarkGfm, remarkAttrs]} rehypePlugins={[rehypeRaw]} components={components}>
-          {markdown}
-        </Markdown>
-      )}
+      renderMarkdown={(markdown) => {
+        const content = typeof markdown === 'string' ? markdown : ((markdown as { content?: string }).content ?? '');
+
+        return (
+          <Markdown remarkPlugins={[remarkGfm, remarkAttrs]} rehypePlugins={[rehypeRaw]} components={components}>
+            {content}
+          </Markdown>
+        );
+      }}
     >
       {children}
     </MarkdownProvider>
