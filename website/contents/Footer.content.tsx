@@ -89,8 +89,8 @@ const pageContent = {
       href: 'https://www.producthunt.com/products/1234s-org-a-philosophical-movement',
     },
     wholeness: t({
-      en: 'Shaped with [The Wholeness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\nThank you for being a part of this movement. ❤️',
-      tr: '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
+      en: 'Shaped with [The Wholeness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\n\nThank you for being a part of this movement. ❤️',
+      tr: '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\n\nBu akımın bir parçası olduğunuz için teşekkürler. ❤️',
     }),
   },
 } satisfies Dictionary<FooterContent>;

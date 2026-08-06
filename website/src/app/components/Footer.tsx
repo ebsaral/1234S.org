@@ -77,7 +77,7 @@ const Footer = () => {
 
             <div className='flex flex-col gap-3 items-center justify-center text-gray-300 text-xs whitespace-pre-line'>
               {/* Wholeness claim */}
-              <div className='link-underline text-center text-xs'>
+              <div className='link-underline text-center text-xs leading-relaxed'>
                 <MarkdownRenderer>{content.wholeness.value}</MarkdownRenderer>
               </div>
 
