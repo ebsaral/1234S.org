@@ -2,7 +2,6 @@
 
 import { useMenu } from '@/app/hooks/useMenu';
 import { Post } from '@/app/lib/posts';
-import Fuse from 'fuse.js';
 import { getLocalizedUrl } from 'intlayer';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
@@ -12,7 +11,6 @@ import { useIntlayer, useLocale } from 'react-intlayer';
 import readingTime from 'reading-time';
 import CustomPencil from '../Custom/CustomPencil';
 import MarkdownProvider from '../Custom/MarkdownProvider';
-import SearchBox from '../Custom/SearchBox';
 import Title from '../Custom/Title';
 
 const Blog = ({ posts }: { posts: Post[] }) => {
@@ -23,7 +21,6 @@ const Blog = ({ posts }: { posts: Post[] }) => {
   const sectionKey = 'blog';
   const content = useIntlayer(`${sectionKey}-section`);
   const { locale } = useLocale();
-  const [searchText, setSearchText] = useState('');
 
   const refs = useRef<(HTMLImageElement | null)[]>([]);
   const [visibleItems, setVisibleItems] = useState<boolean[]>(Array(posts.length).fill(false));
@@ -54,21 +51,14 @@ const Blog = ({ posts }: { posts: Post[] }) => {
         if (ref) observer.unobserve(ref);
       });
     };
-  }, [searchText]);
-
-  const fuse = new Fuse<Post>(posts, {
-    keys: ['metadata.title', 'metadata.subtitle', 'content'], // fields to search
-    threshold: 0.2, // fuzzy search tolerance (0 = exact, 1 = very fuzzy)
-    ignoreLocation: true, // prevents Fuse from scoring low just because the word is far into the string.
-  });
+  }, []);
 
   useEffect(() => {
     setActiveMenu({ root: 'blog' });
   }, []);
 
   const getItems = () => {
-    const searchedPosts: Post[] = searchText ? fuse.search(searchText).map((r) => r.item) : posts;
-    const items = searchedPosts.filter((post) => post.metadata.locale == locale);
+    const items = posts.filter((post) => post.metadata.locale == locale);
     const sorted = items.sort((a, b) => {
       return a.metadata.order - b.metadata.order;
     });
@@ -94,9 +84,6 @@ const Blog = ({ posts }: { posts: Post[] }) => {
               {content.description}
             </div>
           </article>
-          <div className='max-w-4xl mx-auto mb-8 flex flex-col items-center justify-center gap-4'>
-            <SearchBox placeholder={content.labels.search.value} onSearch={(value) => setSearchText(value)} />
-          </div>
 
           <div className='max-w-4xl mx-auto grid grid-cols-1 content-between justify-items-center gap-10'>
             {getItems().map((item, index) => {
