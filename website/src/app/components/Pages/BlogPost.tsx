@@ -10,12 +10,21 @@ import { FaRedhat } from 'react-icons/fa';
 import { LuCircleChevronLeft, LuFilePen, LuFilePlus } from 'react-icons/lu';
 import { useIntlayer, useLocale } from 'react-intlayer';
 
+import { FaAnglesLeft, FaAnglesRight } from 'react-icons/fa6';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Tooltip } from 'react-tooltip';
 import MarkdownProvider from '../Custom/MarkdownProvider';
 import Title from '../Custom/Title';
 
-const BlogPost = ({ post }: { post: LocalePostPair }) => {
+const BlogPost = ({
+  post,
+  prevPost,
+  nextPost,
+}: {
+  post: LocalePostPair;
+  prevPost: LocalePostPair | null;
+  nextPost: LocalePostPair | null;
+}) => {
   const id = 'blog';
   const sectionKey = 'blog';
   const { locale } = useLocale();
@@ -30,6 +39,9 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
   useEffect(() => {}, [locale]);
 
   const item = post[locale];
+
+  const prevItem = prevPost ? prevPost[locale] : null;
+  const nextItem = nextPost ? nextPost[locale] : null;
 
   if (!item) {
     return (
@@ -131,25 +143,74 @@ const BlogPost = ({ post }: { post: LocalePostPair }) => {
                 </a>
               )}
             </div>
-            <div className='relative w-full max-w-[600px] aspect-[3/2] my-10'>
-              <a href={item.metadata.image} title={item.metadata.title}>
-                <Image
-                  className='rounded-lg object-cover hover:scale-105 transition-all duration-300'
-                  src={item.metadata.image}
-                  alt={item.metadata.title}
-                  title={item.metadata.title}
-                  fill
-                />
-              </a>
-            </div>
+
             <Tooltip id='tooltip' className='font-medium p-2 rounded-md shadow-lg max-w-xs' />
-            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto'>
+            <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto w-full'>
               <MarkdownRenderer>{item.content}</MarkdownRenderer>
             </article>
           </div>
-          <div className='relative z-10 max-w-2xl mx-auto mt-10 flex items-center justify-center'>
+          <div className='absolute z-10 h-[2px] my-2 bg-red-200/80 w-full mx-auto right-0 left-0' />
+          <div className='relative z-10 max-w-2xl mx-auto mt-10 flex flex-col items-center justify-center gap-4'>
+            <div className='flex flex-col sm:flex-row gap-12 sm:gap-8 md:gap-28 items-center sm:items-start justify-center'>
+              {prevItem && (
+                <div className='flex flex-col items-center justify-start'>
+                  <div className='w-full text-left text-md text-red-600/80'>{content.labels.prev.value}</div>
+
+                  <Link
+                    className='flex flex-col gap-2 group relative'
+                    href={getLocalizedUrl(`/blog/${prevItem.metadata.slug}`, locale)}
+                  >
+                    <div className='relative mx-auto w-[250px] aspect-[3/2] my-4'>
+                      <FaAnglesLeft
+                        title={content.labels.prev.value}
+                        className='absolute -left-8 top-1/2 icon animate-slide-to-left'
+                      />
+                      <Image
+                        className='rounded-lg object-cover group-hover:scale-105 transition-all duration-300'
+                        src={prevItem.metadata.image}
+                        alt={prevItem.metadata.title}
+                        title={prevItem.metadata.title}
+                        fill
+                      />
+                    </div>
+
+                    <div className='font-semibold text-center w-[250px] text-wrap'>{prevItem.metadata.title}</div>
+                    <div className='text-left w-[250px] text-wrap text-sm'>{prevItem.metadata.subtitle}</div>
+                  </Link>
+                </div>
+              )}
+
+              {nextItem && (
+                <div className='flex flex-col items-center justify-start'>
+                  <div className='w-full text-right text-md  text-red-600/80'>{content.labels.next.value}</div>
+                  <Link
+                    className='flex flex-col gap-2 group relative'
+                    href={getLocalizedUrl(`/blog/${nextItem.metadata.slug}`, locale)}
+                  >
+                    <div className='relative mx-auto w-[250px] aspect-[3/2] my-4'>
+                      <Image
+                        className='rounded-lg object-cover group-hover:scale-105 transition-all duration-300'
+                        src={nextItem.metadata.image}
+                        alt={nextItem.metadata.title}
+                        title={nextItem.metadata.title}
+                        fill
+                      />
+                      <FaAnglesRight
+                        title={content.labels.next.value}
+                        className='absolute -right-8 top-1/2 icon animate-slide-to-right'
+                      />
+                    </div>
+
+                    <div className='font-semibold text-center w-[250px] text-wrap'>{nextItem.metadata.title}</div>
+                    <div className='text-left w-[250px] text-wrap text-sm'>{nextItem.metadata.subtitle}</div>
+                  </Link>
+                </div>
+              )}
+            </div>
+          </div>
+          <div className='relative z-10 max-w-2xl mx-auto mt-12 flex items-center justify-center'>
             <Link
-              className='group'
+              className='group text-gray-800'
               href={getLocalizedUrl('/blog', locale)}
               aria-label={content.labels.viewAll.value}
               title={content.labels.viewAll.value}

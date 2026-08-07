@@ -7,8 +7,11 @@ created: 2026-03-16
 updated: 2026-03-16
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 3
 published: true
 ---
+![Güncel Sağlık Uygulamalarındaki Yanlışlar](/images/blog/sahadet-finger.jpg)
+
 Her hastalığın davranışlardan dolayı kaynaklanan bir sonuç olduğunu [Mantıksal Maneviyat](/maneviyat) öğretileriyle keşfettik. Diğer canlılarla paylaştığımız ortak yaşam yolculuğumuzda, sağlığımızı (şansımızı) kaybetmemize vesile olan eylemlerimizi iyileştirmemiz gerekir. Bu yüzden her bir hastalıktan edinen ders ile toplumdaki yanlış uygulamaları düzeltmemiz hepimizin sağlığı açısından zorunludur.
 
 Modern tıp uygulamalarında verilen ilaçlar ve tedavi yöntemleri geçici çözümler uygulamaktadır. Her bir ilacın yan etkileri bulunmaktadır. Eğer gerçekleştirilen olumsuz eylemler düzeltilmezse, ilaçların yan etkileri hastanın sağlığını daha kötü yapar ve olumsuz sonuçların vesile olduğu durumlar diğer organlara yansır. 

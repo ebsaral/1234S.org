@@ -4,11 +4,14 @@ title: Reading Habit
 subtitle: The act of reading is usually binded to alphabets, words, or books. We need a broader focus. Because we don't know how to read nature.
 created: 2026-03-14
 updated: 2026-03-23
-image: /images/blog/hands-of-children.jpg
+image: /images/blog/dandelion-at-sky.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 4
 published: true
 ---
+![Reading Habit](/images/blog/dandelion-at-sky.jpg)
+
 ## Introduction
 
 Every culture has alphabets through which it tries to reflect its ways of thinking with unique symbols. For years we have experienced the thinking *games* formed when letters come together and present themselves as words. We can observe that mental transformations are reflected in the changes of symbols. The disagreements and agreements of communities continue to echo in our minds through the shared sounds of words.

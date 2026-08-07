@@ -6,8 +6,11 @@ image: /images/blog/sahadet-finger.jpg
 created: 2026-03-16
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 3
 published: true
 ---
+![The Wrongdoings in Current Health Applications](/images/blog/sahadet-finger.jpg)
+
 We have discovered through the teachings of [Logical Spirituality](/spirituality) that every disease is a consequence arising from behaviors. In the shared journey of life that we experience with other living beings, we must improve the actions that cause us to lose our health *(luck)*. Therefore, correcting the wrong practices in society through the lessons learned from each disease is necessary for the health of all of us.
 
 The medications and treatment methods used in modern health applications provide temporary solutions. Every medication has side effects. If the negative actions that were performed are not corrected, the side effects of medications worsen the patient's health, and the situations caused by these negative outcomes begin to affect other organs.

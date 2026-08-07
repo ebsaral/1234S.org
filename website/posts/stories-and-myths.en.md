@@ -7,8 +7,11 @@ updated: 2026-04-09
 image: /images/blog/fishing-man.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 6
 published: true
 ---
+![Stories and Myths](/images/blog/fishing-man.jpg)
+
 Within our search for meaning in the Universe, different cultures have had their own ways of reflecting themselves over the years. No matter where on Earth, we have [read](/en/blog/reading-habit) similar stories of different faces. The characteristic features of geography brought creativity to life with various color combinations in each culture.
 
 While interpreting the laws of nature, we witnessed observations that the strong destroyed the weak. The inspirational sources revealed by The God regarding inequality of opportunity were interpreted as individual successes each time. Over time, the concept of power ceased to be personal and met interpretations of a single god or divine force.

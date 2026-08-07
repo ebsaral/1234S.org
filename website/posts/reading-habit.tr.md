@@ -4,11 +4,14 @@ title: Okuma Alışkanlığı
 subtitle: Okuma eylemi genellikle alfabelere, kelimelere ve kitaplara yönelik kullanılıyor. Daha geniş bir odaklanmaya ihtiyacımız var. Çünkü doğayı okumayı bilmiyoruz.
 created: 2026-03-14
 updated: 2026-03-23
-image: /images/blog/hands-of-children.jpg
+image: /images/blog/dandelion-at-sky.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 4
 published: true
 ---
+![Okuma Alışkanlığı](/images/blog/dandelion-at-sky.jpg)
+
 ## Giriş
 
 Her kültürün kendine özgü sembollerle düşünce biçimlerini yansıtmaya çalıştığı alfabeleri bulunuyor. Harflerin yan yana gelmeleriyle birlikte oluşan ve kelimeler ile sergilenen düşünsel *oyunları* yıllardır deneyimliyoruz. Zihinsel dönüşümlerin sembollerdeki değişimlere yansıdığını görebiliyoruz. Toplulukların fikir ayrılıkları ve uzlaşmaları, kelimelerin ortak sesleriyle zihnimizde yankılanmaya devam ediyor.
@@ -16,7 +19,6 @@ Her kültürün kendine özgü sembollerle düşünce biçimlerini yansıtmaya �
 [Çağımızın Krallıkları](/tr/blog/cagimizin-kralliklari) isimli yazımızda da anlaşılabileceği üzere, günümüze kadar gelen tüm yönetim biçimleri [monarşi](){data-tooltip-id="tooltip" data-tooltip-content="Siyasi otoritenin genellikle miras yolu ile bir kişinin üzerinde toplandığı devlet düzeni veya rejim; tek erklik."} veya [oligarşi](){data-tooltip-id="tooltip" data-tooltip-content="Siyasal gücün birkaç kişilik bir grubun elinde toplandığı yönetim, aristokrasinin daralmış biçimi; takım erki."} düzenlerini temsil ediyorlar. Böylece toplumun geneline yayılan düşünce sistemlerini, semboller aracılığıya oluşturan toplulukların aslında halkın egemenliğini istemeyen insanlar olduğu anlaşılabiliyor. Çünkü varlıkların ve fırsatların eşit olarak sunulduğu hiçbir ülke henüz kurulmadı; hiçbir ülkede yaşanan iç ve dış çatışmalar sona erdirilmedi.
 
 Doğadaki tesadüflerin aslında bir sebep-sonuç ilişkisi olmasından dolayı, kelimeler ve anlamlar arasındaki değişikliklerin birbirleriyle uyumunda kültürlerin benzer dokularını fark edebiliyoruz. Eşitlik ve özgürlük dengesinin kurulabilmesi için kelimeler aracılığıyla uzlaşma yöntemine politika sanatı (siyaset) deniyor. Herhangi bir sanat dalı ise doğayla uyumlu olmak (uyum yakalamak) dışında özel bir eğitim gerektirmiyor.
-
 
 ## Bakış Açıları
 

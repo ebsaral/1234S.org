@@ -1,12 +1,13 @@
 ---
 name: the-rape-case-of-big-tech-companies
 title: The Rape Case of Big Tech Companies!
-subtitle: Ever wondered why some companies scale far faster than others even when they seem to follow the same investor playbook?
+subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
 updated: 2026-06-07
 authorName: Emin Buğra Saral
-authorUrl: https://0.1234S.org 
+authorUrl: https://0.1234S.org
+order: 1
 published: true
 ---
 Having been a victim of large corporations and some politicians they work with for over 10 years in different countries, I want to share the scams I've discovered with the public. As a computer engineer, I want to focus specifically on large technology companies and their frauds that allow them to grow at an extraordinary rate.

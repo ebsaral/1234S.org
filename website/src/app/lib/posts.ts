@@ -16,6 +16,7 @@ export type PostMeta = {
   updated?: string;
   authorName: string;
   authorUrl: string;
+  order: number;
   published: boolean;
   locale: LocalesValues;
 };
@@ -31,6 +32,7 @@ const getMetadata = (slug: string, locale: LocalesValues, data: Record<string, s
     updated: data.updated ?? null,
     authorName: data.authorName,
     authorUrl: data.authorUrl,
+    order: Number(data.order) || 0,
     published: Boolean(data.published),
     locale,
   };
@@ -56,6 +58,55 @@ export function getAllPosts(): Post[] {
   // Filter out unpublished
   return posts.filter((post) => post.metadata.published);
 }
+
+const getOrderedPosts = (): Post[] => {
+  const allPosts = getAllPosts();
+  return allPosts.sort((a, b) => a.metadata.order - b.metadata.order);
+};
+
+export const getNextPost = (post: Post): Post | null => {
+  const items = getOrderedPosts().filter((item) => item.metadata.locale === post.metadata.locale);
+  const currentIndex = items.findIndex((item) => item.metadata.slug === post.metadata.slug);
+  if (currentIndex < items.length - 1) {
+    return items[currentIndex + 1];
+  }
+  return null;
+};
+
+export const getPrevPost = (post: Post): Post | null => {
+  const items = getOrderedPosts().filter((item) => item.metadata.locale === post.metadata.locale);
+  const currentIndex = items.findIndex((item) => item.metadata.slug === post.metadata.slug);
+  if (currentIndex > 0) {
+    return items[currentIndex - 1];
+  }
+  return null;
+};
+
+export const getPrevPosts = (postPair: LocalePostPair): LocalePostPair => {
+  const prevPosts: LocalePostPair = {} as LocalePostPair;
+  for (const locale of availableLocales) {
+    const post = postPair[locale as LocalesValues];
+    if (post) {
+      prevPosts[locale as LocalesValues] = getPrevPost(post);
+    } else {
+      prevPosts[locale as LocalesValues] = null;
+    }
+  }
+  return prevPosts;
+};
+
+export const getNextPosts = (postPair: LocalePostPair): LocalePostPair => {
+  const nextPosts: LocalePostPair = {} as LocalePostPair;
+  for (const locale of availableLocales) {
+    const post = postPair[locale as LocalesValues];
+    if (post) {
+      nextPosts[locale as LocalesValues] = getNextPost(post);
+    } else {
+      nextPosts[locale as LocalesValues] = null;
+    }
+  }
+  return nextPosts;
+};
 
 export type Post = {
   content: string;

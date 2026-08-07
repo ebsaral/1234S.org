@@ -70,9 +70,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
     const searchedPosts: Post[] = searchText ? fuse.search(searchText).map((r) => r.item) : posts;
     const items = searchedPosts.filter((post) => post.metadata.locale == locale);
     const sorted = items.sort((a, b) => {
-      const aDate = a.metadata.updated ?? a.metadata.created;
-      const bDate = b.metadata.updated ?? b.metadata.created;
-      return new Date(bDate).getTime() - new Date(aDate).getTime();
+      return a.metadata.order - b.metadata.order;
     });
 
     return sorted;
@@ -109,14 +107,17 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.metadata.slug}`, locale)}
                   title={item.metadata.title}
-                  className='relative flex flex-col sm:flex-row w-full gap-6 sm:gap-14 items-center bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
+                  className='relative group flex flex-col md:flex-row w-full gap-6 md:gap-14 items-center md:items-start bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
                 >
+                  <div className='absolute group-hover:bg-gray-900 transition-all transform duration-700 w-12 h-12 flex items-center justify-center -top-2 -left-2 lg:-top-5 lg:-left-5 text-sm sm:text-lg text-gray-100 p-2 bg-gray-700 rounded-full'>
+                    {item.metadata.order}
+                  </div>
                   <Image
                     ref={(el) => {
                       refs.current[index] = el;
                     }}
                     data-index={index}
-                    className={`relative w-80 h-44 sm:h-64 object-cover transition-all rounded-lg transform duration-700 ease-out transform-origin-center ${
+                    className={`relative w-80 h-44 sm:h-full object-cover transition-all rounded-lg transform duration-700 ease-out transform-origin-center ${
                       visibleItems[index] ? 'scale-110 sm:scale-105' : 'scale-100'
                     }`}
                     src={item.metadata.image}
@@ -125,7 +126,9 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                     alt={item.metadata.title}
                   />
                   <div className='relative sm:h-full flex flex-col gap-5 items-center sm:items-start'>
-                    <h3 className='font-bold text-xl sm:text-4xl text-center sm:text-left'>{item.metadata.title}</h3>
+                    <h3 className='font-bold text-xl sm:text-4xl text-center sm:text-left !leading-[1.4] md:-mt-3'>
+                      {item.metadata.title}
+                    </h3>
 
                     <p className='text-sm sm:text-lg'>{item.metadata.subtitle}</p>
 

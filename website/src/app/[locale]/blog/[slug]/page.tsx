@@ -1,5 +1,5 @@
 import BlogPost from '@/app/components/Pages/BlogPost';
-import { getPost } from '@/app/lib/posts';
+import { getNextPosts, getPost, getPrevPosts } from '@/app/lib/posts';
 import { getIntlayer, getMultilingualUrls } from 'intlayer';
 import type { Metadata } from 'next';
 import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
@@ -42,7 +42,8 @@ export const generateMetadata = async ({ params }: LocalPromiseParams<{ slug: st
 
 const Page: NextPageIntlayer<{ slug: string }> = async ({ params }) => {
   const { slug } = await params;
-  return <BlogPost post={getPost(slug)} />;
+  const post = getPost(slug);
+  return <BlogPost post={post} prevPost={getPrevPosts(post)} nextPost={getNextPosts(post)} />;
 };
 
 export default Page;

@@ -1,12 +1,13 @@
 ---
 name: buyuk-teknoloji-sirketlerinin-tecavuz-vakasi
 title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
-subtitle: Bazı şirketlerin, aynı yatırımcı stratejilerini izliyor gibi görünseler bile, neden diğerlerinden çok daha hızlı büyüdüklerini hiç merak ettiniz mi?
+subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-06-07
+updated: 2026-08-07
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 1
 published: true
 ---
 10 yıldan fazla bir süredir büyük şirketlerin ve birlikte çalıştıkları bazı politikacıların yasa dışı eylemlerinin farklı ülkelerde mağduru olmamın sonucunda keşfettiğim dolandırıcılıkları kamuoyuyla paylaşmak istiyorum. Bir bilgisayar mühendisi olduğum için, özellikle büyük teknoloji firmalarına ve onların olağanüstü hızda büyümelerini sağlayan hilekârlıklarına odaklanmak istiyorum.
