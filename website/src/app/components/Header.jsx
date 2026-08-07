@@ -88,7 +88,12 @@ const Header = ({ postCount }) => {
   useEffect(() => {}, [activeMenu]);
 
   const scrollToSection = (href, hash) => {
-    const element = document.querySelector(href);
+    let element;
+    try {
+      element = document.querySelector(href);
+    } catch (error) {
+      return;
+    }
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
