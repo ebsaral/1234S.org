@@ -57,7 +57,7 @@ const config: IntlayerConfig = {
         tr: '/[locale]/maneviyat',
       },
       ...blogPostRewrite,
-      // Removed posts
+      // Removed or renamed posts
       '/[locale]/blog/challenges-levels-rewards-and-punishments': {
         en: '/[locale]/blog/how-to-play-in-nature',
         tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
@@ -73,6 +73,14 @@ const config: IntlayerConfig = {
       '/[locale]/blog/buyuk-teknoloji-sirketlerinin-dolandiricilik-vakasi': {
         en: '/[locale]/blog/the-rape-case-of-big-tech-companies',
         tr: '/[locale]/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi',
+      },
+      '/[locale]/blog/beggary': {
+        en: '/[locale]/blog/modern-kingdoms',
+        tr: '/[locale]/blog/cagimizin-kralliklari',
+      },
+      '/[locale]/blog/dilencilik': {
+        en: '/[locale]/blog/modern-kingdoms',
+        tr: '/[locale]/blog/cagimizin-kralliklari',
       },
     }),
   },
