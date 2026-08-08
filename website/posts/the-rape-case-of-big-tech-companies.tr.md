@@ -21,7 +21,7 @@ published: true
 Yazının sonlarına doğru bu sorulara verilen cevapları okuyabilirsiniz.
 
 - Ülke veya şirket yönetiminde sürekli istikrarsızlık yaşanmasına rağmen seçimler neden beklenen sonuçları vermiyor?
-- Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden gelişiyor?
+- Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden oluşuyor?
 - Farklı tedavi yöntemleri uygulanmasına rağmen hastalıklar neden tekrarlıyor, biçim değiştiriyor veya belirtilerinde tutarsızlıklar görülüyor?
 - Bağımlılıklarla ilgili neden doğal olmayan veya beklenmeyen deneyimler yaşanıyor?
 - İlişkilerde beklenmeyen sorunlar neden ortaya çıkıyor? Gerekli emek gösterilmesine rağmen neden istenilen sonuçlara ulaşılamıyor?
@@ -35,7 +35,7 @@ Amazon, Google, IBM, Apple, Microsoft, Meta, Fiat, BMW, Tesla ve benzeri şirket
 
 ### Vücutlarımızdaki Biyolojik Cihazlar
 
-Henüz vücudumuza nasıl yerleştirildiklerini ve nasıl bir çalışma mekanizmasına sahip olduklarını tam olarak bilmediğimiz biyolojik cihazlarla yaşıyoruz. Her vatandaşın dahil olduğu küresel ekonomi modelinin merkezinde bu cihazlar bulunuyor ve merkezî yapay zeka sistemine bağlı oldukları görülebiliyor. Bu cihazları basitçe "çip" olarak adlandırmak yanlış olabilir. Nasıl bir yapıya sahip olduklarını tam olarak anlayabilmemiz için bu araştırmanın detaylandırılması ve üretici/geliştirici firmaların sorgulanmaları gerekiyor.
+Henüz vücudumuza nasıl yerleştirildiklerini ve nasıl bir çalışma mekanizmasına sahip olduklarını tam olarak bilmediğimiz biyolojik cihazlarla yaşıyoruz. Her vatandaşın dahil olduğu küresel ekonomi modelinin merkezinde bu cihazlar bulunuyor ve merkezî yapay zeka sistemine bağlılar. Bu cihazları basitçe "çip" olarak adlandırmak yanlış olabilir. Nasıl bir yapıya sahip olduklarını tam olarak anlayabilmemiz için bu araştırmanın detaylandırılması ve üretici/geliştirici firmaların sorgulanmaları gerekiyor.
 
 Türkiye, Fransa, Amerika ve Almanya gibi farklı ülkelerdeki vatandaşlarla yaşadığım deneyimlerin karşılaştırılmalarıyla, biyolojik cihazların vücutlarımızdaki varlığı kanıtlanmış oldu. Vücutlarımızı neredeyse tamamen kontrol altına alan bu cihazların embriyo, cenin (fetal), bebeklik veya çocukluk döneminde yaptırılan aşılarla bir bağlantılarının olup olmadığı ise henüz bilinmiyor. Vücutlarımızdaki cihazların işleyiş şekilleri, teknoloji şirketlerinin ürünleri ile uyum (senkronizasyon) içinde olduklarını ve veri alışverişinde bulunduklarını kanıtlıyor.
 
