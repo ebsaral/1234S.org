@@ -78,14 +78,14 @@ const Blog = ({ posts }: { posts: Post[] }) => {
             className={`z-10 absolute inset-0 top-0 h-[70px] bg-gradient-to-br from-gray-800 to-gray-500 opacity-80'}`}
           />
           <article className='prose-custom-all max-w-4xl mx-auto text-gray-900 [&_p:last-child]:font-medium'>
-            <div className='relative mx-auto mb-2 pb-1 rounded-2xl text-center'>
+            <div className='relative mx-auto mb-8 pb-1 rounded-2xl text-center'>
               <CustomPencil />
               {content.title}
               {content.description}
             </div>
           </article>
 
-          <div className='max-w-4xl mx-auto grid grid-cols-1 content-between justify-items-center gap-10'>
+          <div className='max-w-4xl mx-auto grid grid-cols-1 content-between justify-items-center gap-16'>
             {getItems().map((item, index) => {
               const stats = readingTime(item.content);
               const minutes = Math.max(1, Math.round(stats.minutes));
@@ -94,9 +94,9 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                   key={`item-${index}`}
                   href={getLocalizedUrl(`/blog/${item.metadata.slug}`, locale)}
                   title={item.metadata.title}
-                  className='relative group flex flex-col md:flex-row w-full gap-6 md:gap-14 items-center md:items-start bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 rounded-lg'
+                  className='relative group flex flex-col md:flex-row w-full gap-6 md:gap-14 items-center md:items-start bg-gray-100/90 hover:bg-gray-100 active:bg-gray-100 p-8 md:pb-16 rounded-lg'
                 >
-                  <div className='absolute group-hover:bg-gray-900 transition-all transform duration-700 w-12 h-12 flex items-center justify-center -top-2 -left-2 lg:-top-5 lg:-left-5 text-sm sm:text-lg text-gray-100 p-2 bg-gray-700 rounded-full'>
+                  <div className='absolute z-10 bg-gray-900 transition-all transform duration-700 w-12 h-12 flex items-center justify-center -top-6 left-1/2 -translate-x-1/2 text-sm sm:text-lg text-gray-100 p-2 border-[2px] border-gray-100 rounded-full'>
                     {item.metadata.order}
                   </div>
                   <Image
@@ -104,7 +104,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                       refs.current[index] = el;
                     }}
                     data-index={index}
-                    className={`relative w-80 h-44 sm:h-full object-cover transition-all rounded-lg transform duration-700 ease-out transform-origin-center ${
+                    className={`relative mt-4 w-80 h-44 sm:h-full object-cover transition-all rounded-lg transform duration-700 ease-out transform-origin-center ${
                       visibleItems[index] ? 'scale-110 sm:scale-105' : 'scale-100'
                     }`}
                     src={item.metadata.image}
@@ -112,7 +112,7 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                     height={400}
                     alt={item.metadata.title}
                   />
-                  <div className='relative sm:h-full flex flex-col gap-5 items-center sm:items-start'>
+                  <div className='relative mt-4 lg:mt-6 sm:h-full flex flex-col gap-5 items-center sm:items-start'>
                     <h3 className='font-bold text-xl sm:text-4xl text-center sm:text-left !leading-[1.4] md:-mt-3'>
                       {item.metadata.title}
                     </h3>
