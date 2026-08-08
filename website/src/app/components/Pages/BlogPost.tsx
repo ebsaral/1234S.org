@@ -159,6 +159,7 @@ const BlogPost = ({
                   <Link
                     className='flex flex-col gap-2 group relative'
                     href={getLocalizedUrl(`/blog/${prevItem.metadata.slug}`, locale)}
+                    prefetch={true}
                   >
                     <div className='relative mx-auto w-[250px] aspect-[3/2] my-4'>
                       <FaAnglesLeft
@@ -186,6 +187,7 @@ const BlogPost = ({
                   <Link
                     className='flex flex-col gap-2 group relative'
                     href={getLocalizedUrl(`/blog/${nextItem.metadata.slug}`, locale)}
+                    prefetch={true}
                   >
                     <div className='relative mx-auto w-[250px] aspect-[3/2] my-4'>
                       <Image
