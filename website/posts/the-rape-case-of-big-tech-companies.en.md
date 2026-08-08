@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-07
+updated: 2026-08-08
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -32,7 +32,7 @@ You can find the answers to these questions toward the end of the article.
 
 ## Global Economic Model (Centralized Artificial Intelligence System)
 
-Companies such as Amazon, Google, IBM, Apple, Microsoft, Fiat, BMW, Tesla, and others do more than manufacture products. According to the claims presented here, they operate an economic system that provides them with structural advantages. These companies control their operating systems, application marketplaces, cloud infrastructures, hardware, and developer tools without regard for their customers' permissions, consent, or health. Together with their product ecosystems, they allegedly operate platforms that function like private digital economies, where software is tightly integrated with hardware, in an unlawful manner.
+Companies such as Amazon, Google, IBM, Apple, Microsoft, Meta Fiat, BMW, Tesla, and others do more than manufacture products. According to the claims presented here, they operate an economic system that provides them with structural advantages. These companies control their operating systems, application marketplaces, cloud infrastructures, hardware, and developer tools without regard for their customers' permissions, consent, or health. Together with their product ecosystems, they allegedly operate platforms that function like private digital economies, where software is tightly integrated with hardware, in an unlawful manner.
 
 ### Biological Devices Inside Our Bodies
 
@@ -121,7 +121,7 @@ Using all of our personal information, every feature of our devices can allegedl
 
 ![Google Translate fraud](/images/blog/google-translate-fraud.jpg "Google Translate can produce a completely incorrect English translation of a text written in Georgian. While the original text conveys a meaning similar to 'this website is currently under construction,' the translation may instead read, 'The most important thing in the world is to be happy.'")
 
-The software products of major technology companies—such as Windows, iOS, Android, YouTube, Google Maps, ChatGPT, Google Docs, and Copilot—are described as being capable of directing our behavior and influencing our work in real time. Deliberately introduced translation errors, modified information, and altered location data can allegedly cause users to spread misinformation within their communities. When combined with the device said to exist within our bodies, this mechanism for controlling the flow of information is described as capable of triggering choices and actions that are harmful to individuals, society, and the environment.
+The software products of major technology companies—such as Windows, iOS, Android, Facebook, Instagram, TikTok, YouTube, Google Maps, ChatGPT, Google Docs, and Copilot—are described as being capable of directing our behavior and influencing our work in real time. Deliberately introduced translation errors, modified information, and altered location data can allegedly cause users to spread misinformation within their communities. When combined with the device said to exist within our bodies, this mechanism for controlling the flow of information is described as capable of triggering choices and actions that are harmful to individuals, society, and the environment.
 
 Because all devices and applications are connected to one another, the choices and presentations within these products can allegedly be made to appear different from reality, with only partners or supporters aligned with the political strategies of the illegal global economic model being promoted. It is argued that virtually every piece of information we attempt to obtain in any environment is created, modified, and directed according to the strategies of these companies.
 
@@ -133,9 +133,9 @@ A hashtag that appears popular on social media or across the internet may, accor
 
 ### Fraud: Education, Science, and Governance
 
-According to the claims presented here, scientific facts are created, modified, developed, and marketed within the framework of the illegal global economic model connected to the centralized artificial intelligence system. Because the statistics produced through scientific studies are alleged to be developed in accordance with the political strategies of this system, all resulting definitions are described as emerging from a large-scale fraudulent scheme. As a result, much of the work carried out over many years in fields such as spirituality, psychology, sociology, philosophy, medicine, economics, and the arts is argued to be inconsistent with objective reality.
+According to the claims presented here, scientific facts are created, modified, developed, and marketed within the framework of the illegal global economic model connected to the centralized artificial intelligence system. Because the statistics produced through scientific studies are alleged to be developed in accordance with the political strategies of this system, all resulting definitions are described as emerging from a large-scale fraudulent scheme. As a result, much of the work carried out over many years in fields such as spirituality, psychology, sociology, history, philosophy, medicine, economics, and the arts is argued to be inconsistent with objective reality.
 
-By keeping people's sense of self under control, the document claims that society's perception of what is "normal" is kept disconnected from reality. As a result, people are said to misjudge their priorities and waste their time. According to these claims, nearly all illnesses observed in society and the environment originate from this illegal global economic model. The current global system is described as making it difficult to recognize and understand objective reality.
+By keeping people's sense of self under control, the document claims that society's perception of what is "normal" is kept disconnected from reality. As a result, people are said to misjudge their priorities, make spendings, obey, and waste their time. Nearly all illnesses observed in society and the environment originate from this illegal global economic model. The current global system is described as making it difficult to recognize and understand universal reality.
 
 ### The Rape: Health Issues, Occupational and Personal Safety, and Violations of Privacy
 
@@ -198,7 +198,7 @@ According to the claims presented here, in order to keep a particular leader in 
 **Why do diseases recur, change form, or exhibit inconsistent symptoms despite different treatment methods being applied?**  
 **Why do people experience unnatural or unexpected phenomena related to addictions?**  
 
-According to these claims, nearly all illnesses originate from the biological devices allegedly implanted into our bodies. Some accidents are described as resulting from technological devices being directed outside our control. These biological devices, presented as the primary source of social unrest and humanity's disconnection from nature, are claimed to cause diseases to develop or change in form.
+Nearly all illnesses originate from the biological devices allegedly implanted into our bodies. Some accidents are resulting from technological devices being directed outside our control. These biological devices, presented as the primary source of social unrest and humanity's disconnection from nature, cause diseases to develop or change in form.
 
 Although it is claimed that everyone possesses the same devices and is subjected to similar forms of interference, some people appear to suffer harm while others do not. According to the document, this can be better understood through the [Justice](/spirituality#c) principle of [Logical Spirituality](/spirituality).
 
@@ -217,11 +217,14 @@ It is important to recognize that giant AI robots are merely a distraction when 
 
 ## Seeking Support
 
-I still seek individuals and organizations that may be able to assist me with this matter, which concerns public health and public safety:
+All claims made here have been proven through comparison with enourmous real-life experiences. My individual studies are ongoing to gather more examples and information.
+
+I still seek individuals and organizations that may be able to assist me with this case, which concerns public health and public safety:
 
 - To identify, investigate in detail, and publicly document the alleged effects of the device within our bodies.
 - To determine how the devices within our bodies can be removed and to begin appropriate treatments.
 - To build international public awareness regarding this case and initiate legal proceedings against the companies and individuals allegedly responsible so that appropriate sanctions can be imposed.
 - To take preventive measures regarding this issue and help lead a global transformation in the healthcare sector.
+- To expose to the frauds of tech and software companies and lead a global transformation in this sector. 
 
 For contact, please visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email [emin@1234S.org](mailto:emin@1234S.org).

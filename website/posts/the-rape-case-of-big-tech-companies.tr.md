@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-07
+updated: 2026-08-08
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 1
@@ -31,7 +31,7 @@ Yazının sonlarına doğru bu sorulara verilen cevapları okuyabilirsiniz.
 
 ## Küresel Ekonomi Modeli (Merkezî Yapay Zekâ Sistemi)
 
-Amazon, Google, IBM, Apple, Microsoft, Fiat, BMW, Tesla ve benzeri şirketler sadece ürün üretmekle kalmıyorlar, kendilerine yapısal avantaj sağlayan bir ekonomi sistemini işletiyorlar. Bu şirketler işletim sistemlerini, uygulama pazarlarını, bulut altyapılarını, donanımlarını ve geliştirici araçlarını müşterilerinin izinlerini, rızalarını ve sağlıklarını umursamadan kontrol ediyorlar. Sahip oldukları ürün katmanlarıyla birlikte özel dijital ekonomiler gibi işleyen, yazılımları donanımlarına sıkıca entegre edilmiş platformları yasa dışı bir şekilde yönetiyorlar.
+Amazon, Google, IBM, Apple, Microsoft, Meta, Fiat, BMW, Tesla ve benzeri şirketler sadece ürün üretmekle kalmıyorlar, kendilerine yapısal avantaj sağlayan bir ekonomi sistemini işletiyorlar. Bu şirketler işletim sistemlerini, uygulama pazarlarını, bulut altyapılarını, donanımlarını ve geliştirici araçlarını müşterilerinin izinlerini, rızalarını ve sağlıklarını umursamadan kontrol ediyorlar. Sahip oldukları ürün katmanlarıyla birlikte özel dijital ekonomiler gibi işleyen, yazılımları donanımlarına sıkıca entegre edilmiş platformları yasa dışı bir şekilde yönetiyorlar.
 
 ### Vücutlarımızdaki Biyolojik Cihazlar
 
@@ -119,7 +119,7 @@ Kişisel bilgilerimizin tamamı kullanılarak, cihazlarımızdaki tüm özellikl
 
 ![Google Çeviri sahtekârlığı](/images/blog/google-translate-fraud.jpg "Google Çeviri, Gürcüce olan bir metni İngilizce'ye tamamen yanlış çevirebiliyor. Orijinal metin 'bu websitesi şu an yapım aşamasındadır' minvalinde bir anlam taşırken, çevirisi ise 'dünyadaki en önemli şey mutlu olmaktır' olarak yapılabiliyor.")
 
-Büyük Teknoloji Şirketlerinin Windows, iOS, Android, YouTube, Google Maps, ChatGPT, Google Docs ve Copilot gibi yazılım ürünleri davranışlarımızı ve üretimlerimizi anlık olarak yönlendirebiliyorlar. Bilinçli olarak sunulan çeviri hataları, bilgi ve konum değişiklikleriyle kullanıcıların bulundukları çevrelerde yanlış bilgiler yaymalarını sağlayabiliyorlar. Bilgi akışındaki kontrol mekanizması vücudumuzdaki cihazla birleştiğinde birey, toplum ve çevre sağlığına zararlı eylem seçimlerini tetikleyebiliyorlar.
+Büyük Teknoloji Şirketlerinin Windows, iOS, Android, Facebook, Instagram, TikTok, YouTube, Google Maps, ChatGPT, Google Docs ve Copilot gibi yazılım ürünleri davranışlarımızı ve üretimlerimizi anlık olarak yönlendirebiliyorlar. Bilinçli olarak sunulan çeviri hataları, bilgi ve konum değişiklikleriyle kullanıcıların bulundukları çevrelerde yanlış bilgiler yaymalarını sağlayabiliyorlar. Bilgi akışındaki kontrol mekanizması vücudumuzdaki cihazla birleştiğinde birey, toplum ve çevre sağlığına zararlı eylem seçimlerini tetikleyebiliyorlar.
 
 Tüm cihazlar ve uygulamalar birbirlerine bağlı olarak çalıştıkları için, ürünlerin içindeki seçimler ve sunumlar olduğundan farklı gösterilebiliyor; sadece yasa dışı küresel ekonomi modelinin politik stratejilerine yönelik partnerler veya destekçiler öne çıkarılıyorlar. Herhangi bir ortamda elde etmeye çalıştığımız her türlü bilginin, şirketlerin stratejileri doğrultusunda oluşturulduğunu, değiştirildiğini ve yönlendirildiğini fark edebilirsiniz.
 
@@ -131,9 +131,9 @@ Sosyal medya uygulamalarında veya internet mecralarında popüler olarak görd�
 
 ### Dolandırıcılık: Eğitim, Bilim ve Yönetim
 
-Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin etrafında bilimsel gerçekler oluşturuluyor, değiştiriliyor, geliştiriliyor ve pazarlanıyor. Bilimsel çalışmalarda elde edilen istatistikler bu sistemin politik stratejilerine uygun olarak geliştirildikleri için, tüm tanımlamalar büyük bir sahtekârlık düzenininden çıkmış oluyor. Uzun yıllar boyunca oluşturulan mevcut bilgi ve bilim zemininde, maneviyat, psikoloji, sosyoloji, felsefe, tıp, ekonomi ve sanat gibi alanlarda yapılan çalışmaların çoğu evrensel gerçek ile bağdaşmıyor. 
+Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin etrafında bilimsel gerçekler oluşturuluyor, değiştiriliyor, geliştiriliyor ve pazarlanıyor. Bilimsel çalışmalarda elde edilen istatistikler bu sistemin politik stratejilerine uygun olarak geliştirildikleri için, tüm tanımlamalar büyük bir sahtekârlık düzenininden çıkmış oluyor. Uzun yıllar boyunca oluşturulan mevcut bilgi ve bilim zemininde, maneviyat, psikoloji, sosyoloji, tarih, felsefe, tıp, ekonomi ve sanat gibi alanlarda yapılan çalışmaların çoğu evrensel gerçek ile bağdaşmıyor. 
 
-İnsanların benliği kontrol altında tutularak, toplumların "normal" algısı gerçeklerden uzak tutuluyor. Böylece insanların önceliklerini yanlış belirlemeleri ve vakit kaybetmeleri sağlanıyor. Toplumda ve çevrede görülen hastalıkların neredeyse tamamı bu yasa dışı küresel ekonomi modelinden kaynaklanıyor. Mevcut küresel sistem evrensel gerçeğin görülmesini ve anlaşılmasını zorlaştırıyor.
+İnsanların benliği kontrol altında tutularak, toplumların "normal" algısı gerçeklerden uzak tutuluyor. Böylece insanların önceliklerini yanlış belirlemeleri, harcama yapmaları, boyun eğmeleri ve vakit kaybetmeleri sağlanıyor. Toplumda ve çevrede görülen hastalıkların neredeyse tamamı bu yasa dışı küresel ekonomi modelinden kaynaklanıyor. Mevcut küresel sistem evrensel gerçeğin görülmesini ve anlaşılmasını zorlaştırıyor.
 
 ### Tecavüz: Sağlık Sorunları, İş ve Can Güvenliği, Özel Hayatın İhlali
 
@@ -234,11 +234,14 @@ Dev yapay zekâ robotlarının, günümüz modern dünyasındaki bu gizli yasa d
 
 ## Destek Arayışı
 
-Toplum sağlığını ve güvenliğini ilgilendiren bu konuyla ilgili bana yardımcı olabilecek kişi ve kurum arayışım devam ediyor:
+Buradaki iddialar gerçek hayat tecrübeleri ile karşılaştırmalı olarak kanıtlanmıştır. Daha fazla örneğe ve bilgiye ulaşmak için bireysel çalışmalarım devam ediyor.
+
+Toplum sağlığını ve güvenliğini ilgilendiren bu vakayla ilgili bana yardımcı olabilecek kişi ve kurum arayışım devam ediyor:
 
 - Vücudumuzdaki cihazın etkilerinin tespit edilerek detaylıca araştırmak ve kamuoyuna sunmak.
 - Vücudumuzdaki cihazların nasıl çıkarılacaklarını bulmak ve tedavilere başlamak.
 - Vakayla ilgili uluslararası kamuoyu oluşturmak ve gereken yaptırımların uygulanması için şirketlere/sorumlulara davalar açmak.
 - Konuyla ilgili önleyici tedbirler alarak sağlık sektöründeki küresel dönüşüme öncülük etmek.
+- Teknoloji şirketlerinin hilekârlıklarını ortaya çıkarmak ve sektörde küresel dönüşüme öncülük etmek.
 
 İletişim için [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz, [iletişim formunu](/iletisim) veya [emin@1234S.org](mailto:emin@1234s.org) adresini kullanabilirsiniz.
