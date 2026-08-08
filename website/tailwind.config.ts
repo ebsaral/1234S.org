@@ -69,6 +69,11 @@ const config: Config = {
           '30%': { transform: 'translateX(10px)' },
           '100%': { transform: 'translateX(4px)' },
         },
+        slideToLeft: {
+          '0%': { transform: 'translateX(-4px)' },
+          '30%': { transform: 'translateX(-10px)' },
+          '100%': { transform: 'translateX(-4px)' },
+        },
         gradient: {
           '0%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
@@ -135,6 +140,7 @@ const config: Config = {
       animation: {
         jump: 'jump 2s linear infinite',
         'slide-to-right': 'slideToRight 2s linear infinite',
+        'slide-to-left': 'slideToLeft 2s linear infinite',
         spin: 'spin 0.2s linear infinite',
         'spin-slow': 'spin 3s linear infinite',
         gradient: 'gradient 6s ease infinite',

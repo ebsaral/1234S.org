@@ -7,8 +7,11 @@ updated: 2026-04-09
 image: /images/blog/fishing-man.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 6
 published: true
 ---
+![Hikâyeler ve Mitolojiler](/images/blog/fishing-man.jpg)
+
 Evrenin içerisinde anlam arayışımız çerçevesinde yıllar boyunca farklı kültürlerin kendilerini yansıtma biçimleri oldu. Dünyanın neresinde olursa olsun, farklı simaların benzer hikayelerini [okuduk](/tr/blog/okuma-aliskanligi). Coğrafyanın karakteristik özellikleri, her kültürde değişik renk kombinasyonlarıyla yaratıcılığı ortaya çıkardı.
 
 Doğanın kanunları yorumlanırken, güçlünün güçsüzü yok ettiğine yönelik gözlemlere şahit olduk.Tanrı'nın fırsat eşitsizliklerine yönelik açığa çıkardığı ilham kaynakları her seferinde bireysel başarılar olarak yorumlandı. Zaman geçtikçe, güç kavramı bireysel olmaktan çıkıp tek tanrı veya ilahi güç yorumlamalarıyla buluştu.

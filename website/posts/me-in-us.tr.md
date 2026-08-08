@@ -1,14 +1,21 @@
 ---
-name: saygi
-title: Saygı
-subtitle: Gerçeğimizi özgürlük etrafında şekillendirmeliyiz. Bu yüzden saygı duyduğumuz kavramları hislerimizi baz alarak tekrar düşünmemiz gerekiyor.
-created: 2026-05-05
-updated: 2026-05-12
-image: /images/blog/emre-and-chicken.jpg
+name: bizdeki-ben
+title: Bizdeki Ben
+subtitle: ...
+created: 2026-08-05
+image: /images/blog/smoking-sisha.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 7
 published: true
 ---
+
+![Bizdeki Ben](/images/blog/smoking-sisha.jpg)
+
+## Saygı
+
+![Saygı](/images/blog/emre-and-chicken.jpg)
+
 Her kelimenin zihinde farklı bir anlamı olabilir. Yaşam tecrübelerimizde zihnimizdeki anlamları bir heykeltıraş misali çevremizle birlikte şekillendiririz. Bu yüzden hislere odaklı olan *sevgi* ve *saygı* gibi kelimeler her zihinde farklı anlam kümelerini barındırır. 
 
 Zamanla birlikte vücudumuzun doğada yaşlanıyor olması herhangi bir saygı unsurunu taşımaz. Yaşantımız içerisinde aynı çevredeki benzer eylemleri (hatıraları) tekrarlıyor olduğumuzda, yaşam deneyimi kazanmak yerine ezbere (tekrarlayan) bir hayat yaşarız.
@@ -48,3 +55,17 @@ Annem, babam, kardeşim ve arkadaşlarım gibi milyonlarca insan var. Kardeşimi
 Yıllar boyunca, kardeşim onlarca doktara gösterildi ve hocaya götürüldü. Onun kurduğu cümleleri tercüme edebilecek bilgilere ve tecrübeye ulaşmak için, farkında olmadan yıllarca zorluk yaşadım. Kendime atfettiğim meraklı, inatçı ve becerikli olma yeteneklerini değerlendirerek attığım adımların sadece benim yolumdan ibaret olmadığını sonunda anladım.
 
 Zihnimizdeki ve vücudumuzdaki engellerin tamamının politikanın merkezinde olduğunu görebilmem için korkunun etrafındaki saygı çemberlerine karşı cesaret göstermem gerekti. Doğal yeteneklerim ise benim kişisel başarım olarak değil, doğayı birlikte paylaştığım insanların ihtiyaçlarından doğdu. Bu yüzden, **saygının, doğal bir gereksinim olarak, özgürlük etrafında yeniden tanımlanması zorunludur**.
+
+## Bazı hisler satın alınamaz
+
+![Bazı hisler satın alınamaz](/images/blog/flying-car.jpg)
+
+Geçtiğimiz günlerde, zihnimi dinlendirmek için göl kenarındaki bir yere arabayla yolculuğa çıktım. Dağların arasında, yüksek rakımda yer alan, Uzungöl isimli bir yerdi. Birkaç saat sonra geri dönmeye karar verdim, ancak tek şeritli bir yolda uzun bir trafik kuyruğuna takıldım. Trafiğin en önünde büyük bir yolcu otobüsü vardı. Onun ardından kuyruk oluşturan 20 küsür aracın ardında tek başıma ilerliyordum. Yol çok virajlı olduğu için sollama yapmak gerçekten zordu.
+
+Bir araba trafiği sollamaya çalıştı, ancak karşıdan gelen trafiği görünce kendi şeridine geri dönmek zorunda kaldı. Başka bir araba da aynı şeyi denedi, ancak fazla ilerleyemeyerek kuyruğa geri girdi. Kendi kendime *"Ben bile sollamaya çalışmıyorum, siz ne yapıyorsunuz ki?"* diye zihnimde kıkırdadım.
+
+Doğru anı bekledim. O hissi duyacağıma güvendim: İlerlemem gerektiğinde vücudumu tetikleyecek olan his. Birkaç dakika sonra beklediğim his vücuduma yayıldığında ve uzuvlarıma ipucu verdiğinde, neredeyse imkansız görünen o uzun sollamayı gerçekleştirmeye başladım. Virajların etrafını göremememe ve kısa bir tünelden geçmeme rağmen, o araç kuyruğunun tamamını tek seferde geçebildim. Eski bir araç kullanıyordum fakat sonuç güvenliydi.
+
+Beni mutlu eden şey sadece arabaları tek seferde geçebilmek değil, içten içe kaza yapmayacağımı veya ölmeyeceğimi bilmekti. Bu güven duygusu, arabadaki ıssızlığın verdiği sakinlikle birlikte, gerçekten yalnız olmadığımı hatırlatan güzel bir duyguydu. İlginç olan şu ki, bu duygunun herkesin ruhunda var olduğunu biliyorum. Çünkü hiçbir kaza *öylesine veya sebepsiz* olmaz.
+
+Umarım bir gün herkes içinde barındırdıkları bu ilahi sezgiyi fark edebilir. Çünkü bana bahşedilen bu güven duygusunu hiçbir maddi varlıkla değişmem.

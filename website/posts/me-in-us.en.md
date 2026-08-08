@@ -1,14 +1,21 @@
 ---
-name: respect
-title: Respect
-subtitle: We need to shape our reality around freedom. That's why we need to rethink the definitions we respect by placing them on our feelings. 
-created: 2026-05-05
-updated: 2026-05-12
-image: /images/blog/emre-and-chicken.jpg
+name: me-in-us
+title: Me in Us
+subtitle: ...
+created: 2026-08-05
+image: /images/blog/smoking-sisha.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
+order: 7
 published: true
 ---
+
+![Me in Us](/images/blog/smoking-sisha.jpg)
+
+## Respect
+
+![Respect](/images/blog/emre-and-chicken.jpg)
+
 Every word can have a different meaning in the mind. In our life experiences, we shape the meanings in our minds like sculptors, together with our environment. Therefore, words like *love* and *respect*, which are based on feelings, draws different meaning circles in every mind.
 
 The fact that our bodies age naturally over time doesn't hold a definition of respect. When we repeat similar actions (memories) in the same environment throughout our lives, we live a life of rote learning (repetition) instead of gaining life experience.
@@ -48,3 +55,17 @@ There are millions of people like my mother, father, brother, and friends. Withi
 Over the years, my brother was taken to dozens of doctors and religious figures. Unwittingly, I've struggled for years to gain the knowledge and experience to translate the sentences he constructed. In the end, I realized that the steps I took, utilizing my self-attributed qualities of curiosity, stubbornness, and resourcefulness, weren't only for my own path.
 
 I had to show courage against the circles of respect surrounding fear to see that all the disabilities in our minds and bodies are at the heart of politics. My natural talents haven't arisen from my personal achievements, but from the needs of the people with whom I share nature. Therefore, **respect, as a natural need, must be redefined around freedom.**
+
+## Some feelings cannot be bought
+
+![Some feelings cannot be bought](/images/blog/flying-car.jpg)
+
+A few days ago, to clear my mind, I went for a drive to a lakeside. It was a place called Uzungöl, nestled high in the mountains. After a few hours, I decided to head back, but I got stuck in a long traffic jam on a single-lane road. A large passenger bus was at the front of the line, followed by about 20 other cars. I was following that road; very winding, making overtaking incredibly difficult.
+
+One car tried to overtake, but had to return to its lane when it saw oncoming traffic. Another car tried the same thing, but couldn't get very far and rejoined the queue. I chuckled to myself, *"Even I'm not trying to overtake, what are you guys doing?"*
+
+I waited for the right moment. I trusted that feeling: the sensation that would trigger my body to move forward. A few minutes later, when the feeling I was waiting for spread through my body and gave my limbs the signal, I began to undertake that seemingly impossible long overtake. Despite not being able to see around the curves and having to go through a short tunnel, I managed to pass the entire queue of cars in one go. I was driving an old car, but the result was safe.
+
+What made me happy wasn't just being able to overtake the cars in one go, but knowing deep down that I wouldn't have an accident or die. This feeling of security, combined with the tranquility of my solitude in the car, was a beautiful feeling that reminded me I wasn't truly alone. Interestingly, I know this feeling exists in everyone's soul. Because no accident happens *just because without a reason*.
+
+I hope that one day everyone can recognize this divine intuition they carry within themselves. Because I wouldn't trade this feeling of trust granted to me for any material possession.

@@ -16,6 +16,8 @@ type BlogPageContent = {
     author: string;
     viewAll: string;
     readingTime: typeof insert;
+    prev: string;
+    next: string;
   };
   history: {
     label: string;
@@ -77,8 +79,8 @@ const pageContent = {
         tr: 'Yazar',
       }),
       viewAll: t({
-        en: 'All blog posts',
-        tr: 'Tüm içerikler',
+        en: 'View all blog posts',
+        tr: 'Tüm içerikleri gör',
       }),
       readingTime: insert(
         t({
@@ -86,6 +88,14 @@ const pageContent = {
           tr: '{{min}} dk',
         }),
       ),
+      prev: t({
+        en: 'Previous Post',
+        tr: 'Önceki İçerik',
+      }),
+      next: t({
+        en: 'Next Post',
+        tr: 'Sonraki İçerik',
+      }),
     },
     history: {
       label: t({
