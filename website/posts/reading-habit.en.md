@@ -3,18 +3,16 @@ name: reading-habit
 title: Reading Habit
 subtitle: The act of reading is usually binded to alphabets, words, or books. We need a broader focus. Because we don't know how to read nature.
 created: 2026-03-14
-updated: 2026-03-23
+updated: 2026-08-09
 image: /images/blog/dandelion-at-sky.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 4
 published: true
 ---
-![Reading Habit](/images/blog/dandelion-at-sky.jpg)
-
-## Introduction
-
 Every culture has alphabets through which it tries to reflect its ways of thinking with unique symbols. For years we have experienced the thinking *games* formed when letters come together and present themselves as words. We can observe that mental transformations are reflected in the changes of symbols. The disagreements and agreements of communities continue to echo in our minds through the shared sounds of words.
+
+![Reading Habit](/images/blog/dandelion-at-sky.jpg)
 
 As can be understood from our article named [Modern Kingdoms](/en/blog/modern-kingdoms), all forms of governance that have survived to the present represent either [monarchy](){data-tooltip-id="tooltip" data-tooltip-content="A form of government in which political authority is generally concentrated in a single person, usually through inheritance; rule by one."} or [oligarchy](){data-tooltip-id="tooltip" data-tooltip-content="A system of governance in which political power is concentrated in the hands of a small group; a narrowed form of aristocracy; rule by a few."}. Thus, it can be understood that the group of people shaping systems of thought across society through symbols have actually been people who do not wish for the sovereignty of the public. Because no country has yet been established where existence and opportunities are offered equally; in no country have internal and external conflicts been completely resolved.
 
@@ -38,16 +36,24 @@ The actions we perform while trying to bring the perspective in our own minds cl
 
 Within the unity of nature, every living being reflects The God's perspective in the smallest building blocks. Therefore, when we speak with someone, we are also speaking with ourselves, our past, our future, and those near and far around us. Each meaning we add to our meaning circle, our life experience, can be read in the natural reflections of our own actions and in those around us. The meanings within our meaning circle are formed by people, stories, places, dreams, goals, and the forms of nature.
 
-> Every situation that occurs in nature is a bundle of information.
+> Every situation that occurs in nature is a bundle of information. The more curious you engage with nature, the more knowledge reveals itself to you.
 
 There are many people who consciously or unconsciously make use of their ability to read nature. Vision, a sixth sense, empathy, and similar abilities are natural gifts. Gaining knowledge by reading the meanings of actions that occur in nature requires focusing on details and living in accordance with the balance of nature. What is interpreted as revelation from the perspective of prophets is actually nothing more than the visibility of meanings in nature (inspiration), and it is a natural characteristic found in all human beings. It is possible to attain these gifts not through solely thinking, but through feeling.
 
+Knowing something doesn't mean understanding it. To understand, you have to feel. Someone who has never seen fire before cannot understand what fire feels like simply by reading a description of it in a book or hearing a story about it. We do not need to be completely burned to fully understand fire. We only need to get closer. Throughout their lives, people have opportunities to understand all kinds of feelings. The only feeling they cannot understand is the feeling of being born, because they do not remember it. It is somewhat similar to not knowing how the world (or the universe) came into existence.
+
 A condition considered exceptional (a gift) in one living being is actually bestowed upon all living beings. For example, if a person who has lost half of their brain in an accident still has all their organs functioning, that person's luck is also present in all other living beings. To understand why that luck exists in that person, we need to focus on the details with a comprehensive (broad) perspective.
 
-The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which The God has given humanity a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that The God has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. We have the chance to discover more by focusing on the fact that we came to this world to live.
+The brain is not a vast, complex, and difficult-to-understand organ as is commonly believed; it is simple and an organ through which The God has given humanity a lesson. It is not the mechanism within our brain that helps us understand nature, but the ability to understand the senses that The God has given us. Therefore, mind and intelligence are actually nothing more than products of human imagination. Researching the brain leads nowhere; it only wastes time. Because it's similar to reading a book. We have the chance to discover more by focusing on the fact that we came to this world to live.
 
-The God does not need symbols (languages) derived from the human mind to communicate with the living beings it has created. The language of nature is written in the body of every living being. As a reward for good deeds, we are accompanied by a healthy body and environment, along with our souls. As a response to our bad deeds, we continue our journey through life with an unhealthy body and environment. Every illness or accident tells us the consequences of our actions through the divine language in our bodies. The result of every negative action communicates with us through the purposes of the organs in our bodies. Therefore, The God's language in nature is, in fact, body language.
+The God does not need symbols (languages) derived from the human mind to communicate with the living beings it has created. The language of nature is written in the body of every living being. As a reward for good deeds, we are accompanied by a healthy body and environment, along with our souls. As a response to our bad deeds, we continue our journey through life with an unhealthy body and environment. Every illness or accident tells us the consequences of our actions through the divine language in our bodies. The result of every negative action communicates with us through the purposes of the organs in our bodies. Therefore, The God's language in nature is, in fact, body language for people.
 
----
+Within the current global ecosystem, where artificial intelligence constantly exploits information, the parameters (data) in nature vary in accordance with the principles of equality and freedom. The *super* computers humanity has invented are merely a simple subset of The God's mathematics (equation). The belief among those in management that they can create a political intelligence capable of changing or controlling the fate of societies is a recurring historical cycle in which The God offers all of humanity an opportunity for transformation while simultaneously mocking human intelligence.
 
-I wish for you to be lucky enough that a meaning gateway opens to you where even the sounds you hear from people speaking different languages can give you knowledge. 🤗
+### Reading Fortune
+
+On the journey of destiny, everyone has equal opportunities and chances. Our destiny is also shaped by the choices we have made in the past. Choices made with good intentions have positive consequences for both the individual and their surroundings. Since nothing in nature is random, every choice we make is compatible with the next step. Therefore, any imagined work we create with good intentions, or any situation we interpret, will ultimately lead us to the same result we would reach by interpreting tarot cards.
+
+If you wish, you can create your own fortune-telling practice at home by drawing many different images or shapes with different meanings; you do not need a special card, a special fortune, or a special intermediary. You can also write many different texts and compare them with your memories, allowing you to see that the coincidences along your journey through life emerge from your own hand, independent of time.
+
+When people who interpret or have others interpret such things do so without good intentions, negative outcomes arise. People with greater life experience may, as a reflection of their good intentions, possess more comprehensive and accurate interpretive abilities. Artificial intelligence has no ability to read intentions. Any marketing that suggests otherwise is merely an illusion. Reading fortune in nature may be enabled only because the managers are trying to block our freedom with their so-called intelligence and power.
