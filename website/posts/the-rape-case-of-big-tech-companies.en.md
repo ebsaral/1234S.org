@@ -132,11 +132,14 @@ A hashtag that appears popular on social media or across the internet may often 
 
 ## Crimes Committed and Harm Caused
 
-### Fraud: Education, Science, and Governance
+### Fraud: Education, Science, and Governance/Management
 
 Scientific facts are created, modified, developed, and marketed within the framework of the illegal global economic model connected to the centralized artificial intelligence system. Because the statistics produced through scientific studies are be developed in accordance with the political strategies of this system, all resulting definitions are  emerging from a large-scale fraudulent scheme. As a result, much of the work carried out over many years in fields such as spirituality, psychology, sociology, history, philosophy, medicine, economics, and the arts is inconsistent with our shared universal reality.
 
 By keeping people's sense of self under control, society's perception of what is "normal" is kept disconnected from reality. As a result, people misjudge their priorities, make spendings, obey, and waste their time. Nearly all diseases observed in society and the environment originate from this illegal global economic model. The current global system is making it difficult to recognize and understand universal reality.
+
+While the biological devices can control our lives, it can also give strength to abilities. The features to reflect visuals onto our eyes, make us hear voices, or control our muscles is used to gather all kind of intelligence and attention. Any kind of information or attention becomes easily accessable to those who are in this illegal global network. Those business people, artists, or managers can easily cheat in any condition and gain a massive amount of unfair luck among other people. Although many people get a share of the global pie, it is estimated that the number of people who possess all the technological features is quite small.
+
 
 ### The Rape: Health Issues, Occupational and Personal Safety, and Violations of Privacy
 

@@ -136,6 +136,9 @@ Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modeli
 
 İnsanların benliği kontrol altında tutularak, toplumların "normal" algısı gerçeklerden uzak tutuluyor. Böylece insanların önceliklerini yanlış belirlemeleri, harcama yapmaları, boyun eğmeleri ve vakit kaybetmeleri sağlanıyor. Toplumda ve çevrede görülen hastalıkların neredeyse tamamı bu yasa dışı küresel ekonomi modelinden kaynaklanıyor. Mevcut küresel sistem evrensel gerçeğin görülmesini ve anlaşılmasını zorlaştırıyor.
 
+Biyolojik cihazlar hayatlarımızı kontrol edebildikleri gibi, yeteneklere güç de katabiliyorlar. Görselleri gözlerimize yansıtma, sesleri duymamızı sağlama veya kaslarımızı kontrol etme özellikleri, her türlü bilgiyi ve ilgiyi toplamak için kullanılıyor. Her türlü bilgi veya ilgi, bu yasadışı küresel ağda bulunanlar için kolayca erişilebilir hale geliyor. Bu iş insanları, sanatçılar veya yöneticiler her koşulda kolayca hile yapabiliyor ve diğer insanlar arasında büyük bir haksız avantaj elde edebiliyorlar. Küresel pastadan pay alan birçok insan olmasına rağmen, tüm özelliklere sahip olan kişilerin sayısının epey az olduğu tahmin ediliyor.
+
+
 ### Tecavüz: Sağlık Sorunları, İş ve Can Güvenliği, Özel Hayatın İhlali
 
 İnsanların vücutlarına rızaları olmadan biyolojik cihazlar yerleştirilmesi ve sağlıklarının kontrol edilmesi birçok ülkenin iç ve dış hukukunun ihlal edildiğini gösteriyor. Hangi ülkenin hukuku uygulanacağı olayın gerçekleştiği yere göre değişebilir fakat ihlal edilen hususların genel çerçevesi şöyledir:
