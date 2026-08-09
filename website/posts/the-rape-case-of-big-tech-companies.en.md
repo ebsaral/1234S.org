@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-08
+updated: 2026-08-09
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -82,6 +82,7 @@ By analyzing thousands of situations over different periods of time, I have been
 - It can alter the erection, size, and appearance of our sexual organs. It can create feelings of attraction and preferences that could change our sexual orientation.
 - By linking together thoughts and feelings generated at different moments like a chain, it can cause us to form new perceptions or ideas about a particular subject. These perceptions may not align with the realities we want or expect. It prioritizes perceptions and ideas intended to make us waste time or become distracted.
 - It can cause us to spend money on a person or product, such as through purchases or gifts. Likewise, it can create the desire to spend excessive amounts of time with a particular person or product.
+- Data such as what we touch, how we touch it, and how strongly we touch it, is synchronized in real-time with other devices and people through this biological device. We can observe this easily when we focus on the reactions of other people's bodies to our hand movements. Therefore, it is seen that all the data from our bodies is being transferred to a central artificial intelligence system. It can be easily observed that the real source of facial recognition, retina scanning, and fingerprint recognition technologies in the phones is our bodies, not the technology in the phones themselves.
 
 When these examples are considered as a whole, we can understand the kind of control mechanism that exists within our bodies. We are living within a global economic model in which all of our choices are controlled, as though we were semi-biological humanoid robotic products. We should expose this situation, which is contrary to the shared ethical values of all societies, gain a better understanding of its effects, and eliminate it by taking the necessary measures.
 
