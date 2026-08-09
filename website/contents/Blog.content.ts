@@ -38,8 +38,12 @@ const pageContent = {
       tr: md('# Hikâyemiz'),
     }),
     description: t({
-      en: md('Explanations and examples to elaborate our mission to be [**The Root of New Politics**](/mission).'),
-      tr: md('[**Yeni Siyasetin Kökeni**](/misyon) olma misyonumuzu detaylandıran açıklamalar ve örnekler.'),
+      en: md(
+        "Here is a personal yet universal story we are all carrying forward together, whether we are aware of it or not.  \nLet's continue to draw a detailed picture of why we all need [**The Root of New Politics**](/mission) mission.",
+      ),
+      tr: md(
+        'İşte karşınızda, farkında olsak da olmasak da hep birlikte ileriye taşıdığımız, kişisel olduğu kadar evrensel bir hikâye!  \nGelin, neden hepimizin [**Yeni Siyasetin Kökeni**](/misyon) misyonuna ihtiyaç duyduğumuzu ayrıntılı bir şekilde resmetmeye devam edelim.',
+      ),
     }),
     labels: {
       search: t({
