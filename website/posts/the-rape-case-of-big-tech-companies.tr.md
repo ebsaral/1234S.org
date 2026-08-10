@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-09
+updated: 2026-08-10
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 1
@@ -84,6 +84,8 @@ Bu biyolojik cihazın vücudumuzda kontrol ettiği özellikleri, farklı zaman d
 - Bu biyolojik cihaz aracılığıyla, elimizin neye dokunduğu, ne şekilde dokunduğu, ne kadar şiddetle dokunduğu gibi bilgilerin verileri diğer cihazlarla ve insanlarla anlık olarak uyumlu (senkronize) oluyor. El hareketlerimize göre çevremizdeki insanların vücutlarındaki tepkimeleri gözlemlediğimizde bu durumu fark edebiliyoruz. Haliyle vücudumuzun tüm verisinin merkezî yapay zeka sistemine aktarıldığı anlaşılıyor. Telefonlardaki yüz, retina ve parmak okuma teknolojilerinin asıl kaynağının vücudumuz olduğu ve telefonlardaki teknoloji olmadığı kolayca görülebiliyor.
 
 Bu örnekleri bir bütün olarak yorumladığımızda, nasıl bir kontrol mekanizmasını vücutlarımızda taşıdığımızı anlayabiliriz. Yarı biyolojik insanımsı robot ürünler misali, tüm seçimlerimizin kontrol edildiği bir küresel ekonomi modeli içerisinde yaşıyoruz. Tüm toplumların ortak etik değerlerine aykırı olan bu durumu açığa çıkarmalı, etkilerini daha iyi anlamalı ve gerekli önlemleri alarak ortadan kaldırmalıyız.
+
+![Elimde yaşadığım görünür sorunlar](/images/blog/hand-close-up.jpg "Avuç içimde bazen oluşan ve kendiliğinden geçen deri sorunlarından bir örnek.")
 
 ### Teknolojik Aletler ve Yazılımlar
 

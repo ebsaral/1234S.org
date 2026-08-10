@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-09
+updated: 2026-08-10
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -85,6 +85,8 @@ By analyzing thousands of situations over different periods of time, I have been
 - Data such as what we touch, how we touch it, and how strongly we touch it, is synchronized in real-time with other devices and people through this biological device. We can observe this easily when we focus on the reactions of other people's bodies to our hand movements. Therefore, it is seen that all the data from our bodies is being transferred to a central artificial intelligence system. It can be easily observed that the real source of facial recognition, retina scanning, and fingerprint recognition technologies in the phones is our bodies, not the technology in the phones themselves.
 
 When these examples are considered as a whole, we can understand the kind of control mechanism that exists within our bodies. We are living within a global economic model in which all of our choices are controlled, as though we were semi-biological humanoid robotic products. We should expose this situation, which is contrary to the shared ethical values of all societies, gain a better understanding of its effects, and eliminate it by taking the necessary measures.
+
+![Problems seen in my hand](/images/blog/hand-close-up.jpg "An example skin issue in my palm that appears and disappears from time to time.")
 
 ### Technological Devices and Software
 
