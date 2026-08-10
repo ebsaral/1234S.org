@@ -83,9 +83,9 @@ Bu biyolojik cihazın vücudumuzda kontrol ettiği özellikleri, farklı zaman d
 - Herhangi bir kişi veya ürün için para ve hediye gibi finansal harcamalar yapmamız sağlanabiliyor. Benzer şekilde, bir kişi veya ürün ile fazla vakit geçirme isteği oluşturulabiliyor.
 - Bu biyolojik cihaz aracılığıyla, elimizin neye dokunduğu, ne şekilde dokunduğu, ne kadar şiddetle dokunduğu gibi bilgilerin verileri diğer cihazlarla ve insanlarla anlık olarak uyumlu (senkronize) oluyor. El hareketlerimize göre çevremizdeki insanların vücutlarındaki tepkimeleri gözlemlediğimizde bu durumu fark edebiliyoruz. Haliyle vücudumuzun tüm verisinin merkezî yapay zeka sistemine aktarıldığı anlaşılıyor. Telefonlardaki yüz, retina ve parmak okuma teknolojilerinin asıl kaynağının vücudumuz olduğu ve telefonlardaki teknoloji olmadığı kolayca görülebiliyor.
 
-Bu örnekleri bir bütün olarak yorumladığımızda, nasıl bir kontrol mekanizmasını vücutlarımızda taşıdığımızı anlayabiliriz. Yarı biyolojik insanımsı robot ürünler misali, tüm seçimlerimizin kontrol edildiği bir küresel ekonomi modeli içerisinde yaşıyoruz. Tüm toplumların ortak etik değerlerine aykırı olan bu durumu açığa çıkarmalı, etkilerini daha iyi anlamalı ve gerekli önlemleri alarak ortadan kaldırmalıyız.
-
 ![Elimde yaşadığım görünür sorunlar](/images/blog/hand-close-up.jpg "Avuç içimde bazen oluşan ve kendiliğinden geçen deri sorunlarından bir örnek.")
+
+Bu örnekleri bir bütün olarak yorumladığımızda, nasıl bir kontrol mekanizmasını vücutlarımızda taşıdığımızı anlayabiliriz. Yarı biyolojik insanımsı robot ürünler misali, tüm seçimlerimizin kontrol edildiği bir küresel ekonomi modeli içerisinde yaşıyoruz. Tüm toplumların ortak etik değerlerine aykırı olan bu durumu açığa çıkarmalı, etkilerini daha iyi anlamalı ve gerekli önlemleri alarak ortadan kaldırmalıyız.
 
 ### Teknolojik Aletler ve Yazılımlar
 
