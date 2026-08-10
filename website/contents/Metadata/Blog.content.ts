@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'blog-page-metadata',
   content: {
     title: t({
-      en: 'Blog | 1234S.org',
-      tr: 'Blog | 1234S.org',
+      en: 'Our Story | 1234S.org',
+      tr: 'Hikâyemiz | 1234S.org',
     }),
     description: t({
       en: 'Ideas, researches, facts, explanations and examples to detail The Root of New Politics mission.',
