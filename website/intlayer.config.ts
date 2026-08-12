@@ -82,6 +82,14 @@ const config: IntlayerConfig = {
         en: '/[locale]/blog/modern-kingdoms',
         tr: '/[locale]/blog/cagimizin-kralliklari',
       },
+      '/[locale]/blog/journey-of-luck': {
+        en: '/[locale]/blog/how-to-play-in-nature',
+        tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
+      },
+      '/[locale]/blog/sansin-yolculugu': {
+        en: '/[locale]/blog/how-to-play-in-nature',
+        tr: '/[locale]/blog/dogada-nasil-oynamaliyiz',
+      },
     }),
   },
   log: {
