@@ -4,23 +4,25 @@ title: How to Play in Nature
 subtitle: Life isn't a game for everyone yet. Let's have a deeper look at nature and understand what we can do to convert life into a game.
 image: /images/blog/hands-of-children.jpg
 created: 2025-11-15
-updated: 2026-04-14
+updated: 2026-08-12
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 5
 published: true
 ---
-![How to Play in Nature](/images/blog/hands-of-children.jpg)
-
 The world revolves around its Sun in circles. Nature evolves by balancing its being. We, as living beings, continue our existence by repeating similar circles. At each repetition, our life circles overlap with each other in a timeless manner. Yet we define our limited time with our own perspectives.
+
+![How to Play in Nature](/images/blog/hands-of-children.jpg "The game table of my nephew and niece.")
 
 There are still wars, irreversible pains, bloody actions, and many diseases... Despite all this, there is a path to our healthy future in the equality and freedom of all living beings. Even if walking this path may not seem easy, compared to our long shared history on Earth, it is actually much easier than we could imagine.
 
-Perspectives tend to move forward or backward within our approaching methods to present: Our thinking shifts between positive and negative understandings. While any understanding can be based on assumptions built upon past experiences, a positive mindset tries to challenge its thinking for taking better decisions and actions.
+What we interpret as death from our personal perspectives exists in nature as transformation. Perspectives tend to move forward or backward within our approaching methods to present: Our thinking shifts between positive and negative understandings. While any understanding can be based on assumptions built upon past experiences, a positive mindset tries to challenge its thinking for taking better decisions and actions.
 
-Any thinking can be influenced by its invisible ties to nature in different forms. In fact, thinking only tries to reflect our feelings outwards via predefined symbols. Thinking's capacity is limited to defined meanings and gained experiences in varying shapes of feelings. Nature contains symbols that may not be defined yet in *y*our common life experiences thus awareness. Expanding the circle of meaning in our mind through positive perspectives is like opening a door to the existence of the universe.
+Any thinking can be influenced by its invisible ties to nature in different forms; tries to reflect our feelings outwards via predefined symbols. Thinking's capacity is limited to defined meanings and gained experiences in varying shapes of feelings. Nature contains symbols that may not be defined yet in *y*our common life experiences thus awareness.
 
-Nature behaves as an interconnected entity and often resembles what we might call *reaching infinity*. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. Many cultural and systemic obstacles can disrupt every individual's chance that may extend toward infinity — even before they are born.  
+Expanding the circle of meaning in our mind through positive perspectives is like opening a door to the existence of the universe. The meanings of the symbols we invent to communicate with each other must always be in harmony with the balance of equality and freedom in nature. Otherwise, each sentence constructed contains a contradiction in meaning and reveal a deception (incompatibility). Sentences in balance with nature always prevail.
+
+Nature behaves as an interconnected entity and often resembles what we might call *reaching infinity or to live eternity*. Life is a gift to all living things. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. The [illegal global economic system](/en/blog/the-rape-case-of-big-tech-companies) we are all involved in prevents the natural evolution and fair distribution of gifts.
 
 Within nature's balance of fairness, every punishment *(negativity)* can turn into a reward *(positivity)* for every living being. Every ability is actually a natural gift. Some abilities are gained with minimal effort in order to protect us from the negativities that occur in our lives.
 
@@ -40,15 +42,15 @@ Nature's repeating circles have interconnected steps: **Challenges / Rewards / P
 
 Congratulations! Your first challenge is already completed at your birth. :) If your luck's path was already eased previously by your ancestors, you were born into an already rich environment. While money is a temporary and illusional power for most of us, nature is still there to let you have a rich life experience and gain your full luck back.
 
-When you face any challenge in your life journey, your intentions and reactions will continuously define your luck in nature. Your opportunities could be taken away [then back to surface in a different body] if you continuously repeat similar mistakes of being selfish, destructive and harmful. On the other hand, these attributes will continuously contribute to your luck positively: Empathy, honesty, kindness, positivity, assistance, support, caring, sharing, affirmative bravery, respecting the right to live…
+When you face any challenge in your life journey, your intentions and reactions will continuously define your luck in nature. Your opportunities could be taken away if you continuously repeat similar mistakes of being selfish, destructive and harmful. On the other hand, these attributes will continuously contribute to your luck positively: Empathy, honesty, kindness, positivity, assistance, support, caring, sharing, affirmative bravery, respecting the right to live…
 
 **In nature's eyes, asking for our rights for equality & freedom can never be questioned: This is why diseases, accidents and disasters still exist to protect us from each other.** With this remark in mind, everyone has different challenges & risks in their environments.
 
-Some cultural settings have more challenges than others. At each challenge, you should try your best to follow nature's equation [hopefully in a timeless manner] at your possible (re)actions. Based on your life goals, challenges may follow in different shapes; therefore you may unfortunately need patience.
+Some cultural settings have more challenges than others. At each challenge, you should try your best to follow nature's equation [hopefully in a timeless manner] at your possible (re)actions. Based on your life goals, challenges may follow in different shapes; therefore you may unfortunately need patience. Our luck is continuously shaped by the way we interact with nature.
 
 ### Rewards
 
-There are not levels in nature: Life isn't a game for everyone. When we follow nature's equation, we can gain more luck [opportunities] continuously. This is why we must keep moving and take more actions by trusting nature's being and justice scale.
+There are not levels (hierarchy) in nature. When we follow nature's equation, we can gain more luck [opportunities] continuously. This is why we must keep moving and take more actions by trusting nature's being and justice scale.
 
 When we get to a higher stage in nature's eyes after being a good example, our luck circle will continue to expand and there will be more possible paths to follow. Being spontaneous with good intentions is one of the best [peaceful] methods to unlock nature's possibilities. “Blame Game” is not a good choice because all roadblocks we have today have been created by all of our ancestors in the past.
 
@@ -58,11 +60,11 @@ While we *climb ladders* in nature's opportunities, our talents can also be boos
 
 Nature's justice scale already exist in every being. Here are a few ordinary, mystrical and exciting examples in nature:
 
-- It's not easy to be killed at a certain stage. For example, a poison doesn't cause fatal harm; one might suffer, but not be annihilated. In the past, some myths, due to misunderstandings, preferred to call such figures “God” or “Prophet”. Yet they were only empowered to continue spreading good. In reality, every human being has the same opportunities and is worthy of divine reinforcement; because nature protects every being according to the equation of its balance.
+- It's not easy to be killed at a certain stage. For example, a poison doesn't cause fatal harm; one might suffer, but not be annihilated. In the past, some myths, due to misunderstandings, preferred to call such figures “God” or “Prophet”. Yet they were only not killed to continue spreading good. In reality, every human being has the same opportunities and is worthy of divine reinforcement; because nature protects every being according to the equation of its balance.
 
 - At a certain stage, any harm misses its target and reflects directly back on the perpetrator. It's like a mirror; a reflection like water squeezed into flesh... Balancing emotions is difficult at this stage; because maintaining good intentions is necessary to stay on the positive side. By continuing to soften the harmful actions encountered with positive responses, [thanks to the negativity] a stronger divine protection is achieved. It should never be forgotten that one is “just a servant” in all circumstances; one must continue to remain good.
 
-- At a certain stage, even minimal exercise and effort can help achieve the desired body shape. Unfair adversities encountered reflect positively on physical health and abilities.
+- At a certain stage, even minimal exercise and effort can help achieve the desired body shape. Unfair adversities encountered reflect positively on physical health and abilities. However, this is being prevented in unnatural ways within the current illegal global economy system.
 
 - At a certain stage, the emotions of those around you can be felt more deeply. As the circle of opportunity widens, empathy with the whole world becomes easier. Within the concept of time, the journey of life can become more comprehensive through feelings.
 
@@ -80,25 +82,11 @@ Nature is everybody's shared living space and every being has the right to reach
 
 ---
 
-Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimizi doğaya dürüstçe açan bir davranış modeli sergilersek, doğanın gizemleri de bize bir o kadar görünür olur ve şansımızı çevremizle birlikte şekillendiririz. 
+Our talents get shaped based on our interactions within nature. If we open up ourselves to nature's being in our behaviors with honesty and good intention, the mysteries of nature also reveal themselves to our existance and we shape our luck together with our environment. We can call this process *"dancing with destiny"*.
 
-Our talents get shaped based on our interactions within nature. If we open up ourselves to nature's being in our behaviors, the mysteries of nature also reveals themselves for our existance and we shape our luck together with our environment. We can call this process *"dancing with destiny"*.
+Every natural gift (or talent) is shaped through social interactions with other living beings around us. By living in harmony with nature, we can ensure the improvement and continuity of our talents (gifts). When we disregard the well-being of other living beings, Justice in Nature provides them with the necessary reinforcements.
 
-**A few examples to build awareness about Justice in Nature, and to help balance the needs of our self:**
-
-- You probably have a beautiful voice because you *(or your ancestors)* helped others have their voices heard. Or, perhaps your voice was unjustly suppressed, and you were given a beautiful voice to enrich your environment.
-
-- You are probably very creative because you *(or your ancestors)* provided positive life opportunities to others and did not stand in their way. Or, your creativity was prevented from being expressed, and your gifts were naturally increased thanks to The God.
-
-- You are probably tall because you *(or your ancestors)* helped someone live a better and healthier life… Or, your rise was prevented within the social conditions you were born into.
-
-- You are probably very good at mathematics because you *(or your ancestors)* helped solve someone's struggles in life… Or, you needed to solve the problems within the environment you lived in.
-
-- You probably have a great vision because you *(or your ancestors)* tried to find solutions to the problems in the lives of many living beings. Or, focusing on what was important for the healthy *(long-term)* existence of nature was prevented in the environments you lived in.  
-
-Around this awareness, we can understand that every natural gift *(or talent)* is gained or lost through social interactions with other living beings. By living in harmony with nature, we can ensure the improvement and continuity of our talents *(our gifts)*. When we do not care about the well-being of other beings, Justice in Nature also provides the necessary reinforcements to those beings.
-
-In the essence of nature, every living being inherits all the gifts (talents). The talents we develop or inherit are those our parents could have realized but couldn't due to inequalities of opportunity. **In a system where opportunities are offered equally to everyone, every living being can acquire all their natural talents.** Repairing the inequalities of opportunity created by our ancestors will allow the entire society to easily access natural talents.
+The talents we develop or inherit are those our parents could have realized but couldn't due to inequalities of opportunity. **In a system where opportunities are offered equally to everyone, every living being can acquire all their natural talents.** Repairing the inequalities of opportunity created by our ancestors will allow the entire society to easily access natural talents.
 
 In nature, there is no such thing "out of nowhere". Therefore, we owe all our gifts, both directly and indirectly, to the living beings around us. Our talents continue to be shaped throughout our lives according to our choices. If we fail to remain on the positive side of nature's scale of justice, we may lose our talents and/or our health.
 
@@ -106,29 +94,13 @@ Choosing to remain purely selfish in our shared lives can cause nature to overlo
 
 To reach our luck that extends toward infinity and *[maybe]* immortality, we must continuously contribute to the equality and freedom of all living beings on Earth. We now know how to *play* in nature: **Let's be good so that we may reach better**.
 
-Throughout history, many well-known figures in business, science, or the entertainment industry have evaluated their natural gifts that provided them with greater chances. When someone achieves tremendous harmony with nature, it becomes easier for them to find inspiration and to instinctively appeal to the emotions and interests of the people around them. People with such abilities have often had to deal with many difficulties in earlier periods of their lives.  
-
-People who are seen as “fools” or “naive” according to social standards can naturally reach the luck thus talents they need to achieve a fair balance in their lives when they make positive *(good)* choices. Some of these talented individuals can remain deeply connected to the natural world they originally belong to while continuing to create extraordinary things.
+Throughout history, many well-known figures in business, science, or the entertainment industry have evaluated their natural gifts that provided them with greater chances. When someone achieves tremendous harmony with nature, it becomes easier for them to find inspiration and to instinctively appeal to the emotions and interests of the people around them. All inventions stem from inspirations given to us by The God because they are needed in that environment (or the world).
 
 Innate talents are not a kind of hypnosis or magical charm; they are nature's way of guiding individuals toward their own heaven due to inequalities of opportunity in social life. The Wholeness principle of nature, however, expects everyone to be aligned with universal equality and freedom.
 
 > Most of the time, famous individuals choose to focus on their own version of “paradise”; they prioritize their personal achievements rather than dealing with the more important issues at the center of politics. Politics is a responsibility that should be shared by the entire society.
 
----
-
-**The God loves us all; one side being punished is its love for the other sides.**
-
-By aligning ourselves with the guidance of nature in line with our goals, we can easily gain all our talents (natural gifts). When we fully understand the wisdom of nature, our education system can open the way for inclusive opportunities:
-
-- People can easily comprehend The God's art in nature; whenever they wish, they can become the person they want in harmony with the principles of nature.
-
-- Desired career changes could be made within a few days or weeks with minimal physical or mental effort. In a life system where every being is valued, it may no longer be necessary to work long hours.
-
-- People could easily focus entirely on their talents, dreams, and goals instead of tracking their salaries.
-
-If we do not address the fundamental problems in our shared life, this wisdom cannot go beyond being romanticized in conversations, songs, and movies. I hope we can put an end to the hypocritical system we are forced to live in. Because the current system continues to make us sick, and we continue to lose our natural resources.
-
-**Remember: Every goal pursued with good intentions is accompanied by nature's generosity! ❤️**
+**The God loves us all; one side being punished is its love for the other sides. Every goal pursued with good intentions is accompanied by nature's generosity! ❤️**
 
 ## Journey of Luck
 
@@ -150,6 +122,4 @@ If you know that another player is thirsty, even choosing green instead of blue 
 
 A player who wins a round while playing UNO is the one who had the best intentions in that round. The person with the highest score at the end of the game is the best person in that game. Since nothing in nature is random, you should remember how good a person you are when your luck is favorable. Being aware of the divine power that determines which card you choose in the games you play becomes a factor that beautifies your journey. When you lose one or several rounds of the game, continue to preserve your good intentions.
 
-The next time you play UNO or another game, you can try observing the intentions that shape your journey of luck. **Remember, the saying “may the good one win” is a meaningful statement that applies to all games and throughout the entire game.**
-
-I wish everyone good luck! 💚
+The next time you play UNO or another game, you can try observing the intentions that shape your journey of luck. **Remember, the saying “may the good one win” is a meaningful statement that applies to all games and throughout the entire game.** I wish everyone good luck! 💚
