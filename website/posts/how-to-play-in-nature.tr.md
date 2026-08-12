@@ -36,8 +36,6 @@ Doğanın adalet terazisinde iyi kalmak ve olumlu ilerlemek kolay değildir. Sor
 
 Bütünlük çerçevesinde hepimiz uyum içinde yaşadığımız için, her adımın sorumluluğu hayat yolculuğumuzdaki herkesi kapsar. Her döngüde ya doğanın özüne doğru genişleriz ya da sorumluluğumuz başkalarına aktarılır. Bazı zorluklar doğada olumlu anlamları beraberinde getirir, bazıları ise sürekli doğru seçimler yapmayı ve yoğun çaba göstermeyi gerektirir.
 
-Doğanın bütünlüğündeki her adımda tekrarlayan döngüler: **Zorluklar / Ödüller (Hediyeler) / Cezalar.** 
-
 ### Zorluklar
 
 Tebrikler! Zor olan ilk adımı doğduğunda attın. :) Eğer şans yolculuğun ataların tarafından geçmişte biraz olsun kolaylaştırıldıysa, zaten görece zengin bir ortama doğmuş olabilirsin. Para çoğumuz için geçici ve çoğu zaman yanıltıcı bir güç olsa bile, doğa sana zengin bir yaşam deneyimi sunmak ve şansını bütünüyle geri kazandırmak için hep var olmaya devam eder.
@@ -84,7 +82,7 @@ Doğa tüm canlıların ortam yaşam alanıdır ve herkesin tüm fırsatlara do�
 
 Doğayla kurduğumuz iletişime göre yeteneklerimiz şekil alır. Eğer kendimizi doğaya dürüstçe ve iyi niyetle açan bir davranış modeli sergilersek, doğanın gizemleri de bize bir o kadar görünür olur ve şansımızı çevremizle birlikte şekillendiririz. Bu sürece *"kaderle dans etmek"* diyebiliriz. 
 
-Her doğal hediyen *(veya yetenek)* diğer canlılarla olan sosyal etkileşimler yoluyla şekil alır.  Doğa ile uyum içinde yaşayarak yeteneklerimizin *(hediyelerimizin)* iyileşmesini ve sürekliliğini sağlayabiliriz. Diğer canlıların refahını umursamadığımızda, Doğadaki Adalet gerekli olan takviyeleri o canlılara da sunar. 
+Her doğal hediyen *(veya yetenek)* diğer canlılarla olan sosyal etkileşimler yoluyla şekil alır.  Doğa ile uyum içinde yaşayarak hediyelerimizin *(yeteneklerimizin)* iyileşmesini ve sürekliliğini sağlayabiliriz. Diğer canlıların refahını umursamadığımızda, Doğadaki Adalet gerekli olan takviyeleri o canlılara da sunar. 
 
 Kendimizde oluşan veya bize aktarılan yetenekler, ebeveynlerimizin gerçekleştirebilecekleri fakat fırsat eşitsizliklerinden dolayı gerçekleştiremedikleri yeteneklerdir. **Fırsatların herkese eşit olarak sunulduğu bir yönetim sisteminde, her canlı tüm doğal yeteneklere kavuşabilir.** Atalarımızın yarattığı fırsat eşitsizliklerini onarmak, tüm toplumun doğal yeteneklere kolayca ulaşmasını sağlar.
 

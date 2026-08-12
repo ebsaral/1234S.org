@@ -36,8 +36,6 @@ It's not always easy to stay good on nature's justice scale and move forward pos
 
 Since we all live in harmony, the responsibility of each step contains everyone in *y*our life journey. At each iteration, your circle will either expand to reach nature's being or your responsibility is shifted to others. Some of *y*our challenges already carry positive meanings in nature; others may require a lot of tackling efforts in continuous choices of actions.
 
-Nature's repeating circles have interconnected steps: **Challenges / Rewards / Punishments**.
-
 ### Challenges
 
 Congratulations! Your first challenge is already completed at your birth. :) If your luck's path was already eased previously by your ancestors, you were born into an already rich environment. While money is a temporary and illusional power for most of us, nature is still there to let you have a rich life experience and gain your full luck back.
@@ -84,7 +82,7 @@ Nature is everybody's shared living space and every being has the right to reach
 
 Our talents get shaped based on our interactions within nature. If we open up ourselves to nature's being in our behaviors with honesty and good intention, the mysteries of nature also reveal themselves to our existance and we shape our luck together with our environment. We can call this process *"dancing with destiny"*.
 
-Every natural gift (or talent) is shaped through social interactions with other living beings around us. By living in harmony with nature, we can ensure the improvement and continuity of our talents (gifts). When we disregard the well-being of other living beings, Justice in Nature provides them with the necessary reinforcements.
+Every natural gift (or talent) is shaped through social interactions with other living beings around us. By living in harmony with nature, we can ensure the improvement and continuity of our gifts (talents). When we disregard the well-being of other living beings, Justice in Nature provides them with the necessary reinforcements.
 
 The talents we develop or inherit are those our parents could have realized but couldn't due to inequalities of opportunity. **In a system where opportunities are offered equally to everyone, every living being can acquire all their natural talents.** Repairing the inequalities of opportunity created by our ancestors will allow the entire society to easily access natural talents.
 
