@@ -39,10 +39,10 @@ const pageContent = {
     }),
     description: t({
       en: md(
-        "Here is a personal yet universal story we are all carrying forward together, whether we are aware of it or not.  \nLet's continue to draw a detailed picture of why we all need [**The Root of New Politics**](/mission) mission.",
+        "Here is a personal yet universal story we are all carrying forward together, whether we are aware of it or not. Let's continue to draw a detailed picture of why we all need [**The Root of New Politics**](/mission) mission.",
       ),
       tr: md(
-        'İşte karşınızda, farkında olsak da olmasak da hep birlikte ileriye taşıdığımız, kişisel olduğu kadar evrensel bir hikâye!  \nGelin, neden hepimizin [**Yeni Siyasetin Kökeni**](/misyon) misyonuna ihtiyaç duyduğumuzu ayrıntılı bir şekilde resmetmeye devam edelim.',
+        'İşte karşınızda, farkında olsak da olmasak da hep birlikte ileriye taşıdığımız, kişisel olduğu kadar evrensel bir hikâye! Gelin, neden hepimizin [**Yeni Siyasetin Kökeni**](/misyon) misyonuna ihtiyaç duyduğumuzu ayrıntılı bir şekilde resmetmeye devam edelim.',
       ),
     }),
     labels: {
