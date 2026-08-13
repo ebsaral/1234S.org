@@ -221,7 +221,7 @@ Herhangi bir yöneticinin yönetimde tutulması için muhalif veya rakip olan ke
 
 Toplum içinde kargaşa ve ayrılmalar oluşturularak değiştirilmesi gereken yöneticilerin lehine olan toplumsal yönlendirmeler uygulanabiliyor. Sosyal medyada görünür olmayı başaran rakiplere karşı duygusal olarak ilgi oluşmaması sağlanabiliyor. Hiç ilgi oluşmaması beklenen yöneticiye yönelik duygusal bir sevgi oluşması sağlanabiliyor.
 
-Bazı insanlar veya ürünler, duygu ve bağımlılıkların vücudumuzdaki cihazla kontrol altına alınmasından dolayı daha fazla ilgi çekiyorlar. Ürünleri daha fazla satıyor, diğer insanlar daha fazla takip ediyor. Bazen delicesine o insanlar veya ürünler savunulabiliyor. Bu sağlıksız bağımlılık duygularının hepsi yapay. 
+Bazı insanlar veya ürünler, duygu ve bağımlılıkların vücudumuzdaki cihazla kontrol altına alınmasından dolayı daha fazla ilgi çekiyorlar. Ürünleri daha fazla satıyor, diğer insanlar daha fazla takip ediyor. Bazen delicesine o insanlar veya ürünler savunulabiliyor. Bu sağlıksız bağımlılık duygularının hepsi vücudumuzdaki yapay zekâ teknolojisine bağlı. 
 
 **Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden gelişiyor?**  
 **Farklı tedavi yöntemleri uygulanmasına rağmen hastalıklar neden tekrarlıyor, biçim değiştiriyor veya belirtilerinde tutarsızlıklar görülüyor?**  

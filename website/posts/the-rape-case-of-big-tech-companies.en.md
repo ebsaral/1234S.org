@@ -204,7 +204,7 @@ In order to keep a particular leader in power, individuals or groups considered 
 
 Social unrest and divisions can be created within society, allowing public opinion to be directed in favor of leaders who would otherwise be expected to be replaced. Emotional interest in political rivals who gain visibility on social media can be suppressed, while emotional attachment to a leader who would not ordinarily be expected to receive such support can be encouraged.
 
-Some people or products attract more attention because emotions and addictions are controlled by devices in our bodies. They sell more products, and more people follow them. Sometimes, people defend those people or products frantically. All of these unhealthy feelings of addiction are artificial.
+Some people or products attract more attention because emotions and addictions are controlled by devices in our bodies. They sell more products, and more people follow them. Sometimes, people defend those people or products frantically. All of these unhealthy addictive feelings are linked to artificial intelligence technology in our bodies.
 
 **Why do illnesses or accidents still occur despite preventive measures being taken? Why do mental and physical problems develop?**  
 **Why do diseases recur, change form, or exhibit inconsistent symptoms despite different treatment methods being applied?**  
