@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-10
+updated: 2026-08-13
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 1
@@ -21,6 +21,7 @@ published: true
 Yazının sonlarına doğru bu sorulara verilen cevapları okuyabilirsiniz.
 
 - Ülke veya şirket yönetiminde sürekli istikrarsızlık yaşanmasına rağmen seçimler neden beklenen sonuçları vermiyor?
+- Neden bazı insanlar (sanatçılar, şirket sahipleri, futbolcular, vb.) veya ürünler (kıyafet, araba, yazılım, inanç, vb.) diğerlerinden daha fazla ilgi görüyor?
 - Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden oluşuyor?
 - Farklı tedavi yöntemleri uygulanmasına rağmen hastalıklar neden tekrarlıyor, biçim değiştiriyor veya belirtilerinde tutarsızlıklar görülüyor?
 - Bağımlılıklarla ilgili neden doğal olmayan veya beklenmeyen deneyimler yaşanıyor?
@@ -213,9 +214,14 @@ Yasa dışı küresel ekonomi modelini yöneten şirket ve kurumlar uluslararas�
 
 ## Sorulara Genel Cevaplar
 
-**Ülke veya şirket yönetiminde sürekli istikrarsızlık yaşanmasına rağmen seçimler neden beklenen sonuçları vermiyor?**
+**Ülke veya şirket yönetiminde sürekli istikrarsızlık yaşanmasına rağmen seçimler neden beklenen sonuçları vermiyor?**  
+**Neden bazı insanlar (sanatçılar, şirket sahipleri, futbolcular, vb.) veya ürünler (kıyafet, araba, yazılım, inanç, vb.) diğerlerinden daha fazla ilgi görüyor?**
 
-Herhangi bir yöneticinin yönetimde tutulması için muhalif veya rakip olan kesimlerin sağlıklarında, yaşamlarında ve güvenliklerinde sorunlar yaşatılabiliyor. Yasa dışı olarak vücudumuza yerleştirilen biyolojik cihazlar aracılığıyla zehirlenmeler, kalp krizi gibi vücut sorunları, trafik kazaları, uçak kazaları ve teknik aksaklıklar gerçekleştirilebiliyor. Toplum içinde kargaşa ve ayrılmalar oluşturularak değiştirilmesi gereken yöneticilerin lehine olan toplumsal yönlendirmeler uygulanabiliyor. Sosyal medyada görünür olmayı başaran rakiplere karşı duygusal olarak ilgi oluşmaması sağlanabiliyor. Hiç ilgi oluşmaması beklenen yöneticiye yönelik duygusal bir sevgi oluşması sağlanabiliyor.
+Herhangi bir yöneticinin yönetimde tutulması için muhalif veya rakip olan kesimlerin sağlıklarında, yaşamlarında ve güvenliklerinde sorunlar yaşatılabiliyor. Yasa dışı olarak vücudumuza yerleştirilen biyolojik cihazlar aracılığıyla zehirlenmeler, kalp krizi gibi vücut sorunları, trafik kazaları, uçak kazaları ve teknik aksaklıklar gerçekleştirilebiliyor.
+
+Toplum içinde kargaşa ve ayrılmalar oluşturularak değiştirilmesi gereken yöneticilerin lehine olan toplumsal yönlendirmeler uygulanabiliyor. Sosyal medyada görünür olmayı başaran rakiplere karşı duygusal olarak ilgi oluşmaması sağlanabiliyor. Hiç ilgi oluşmaması beklenen yöneticiye yönelik duygusal bir sevgi oluşması sağlanabiliyor.
+
+Bazı insanlar veya ürünler, duygu ve bağımlılıkların vücudumuzdaki cihazla kontrol altına alınmasından dolayı daha fazla ilgi çekiyorlar. Ürünleri daha fazla satıyor, diğer insanlar daha fazla takip ediyor. Bazen delicesine o insanlar veya ürünler savunulabiliyor. Bu sağlıksız bağımlılık duygularının hepsi yapay. 
 
 **Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden gelişiyor?**  
 **Farklı tedavi yöntemleri uygulanmasına rağmen hastalıklar neden tekrarlıyor, biçim değiştiriyor veya belirtilerinde tutarsızlıklar görülüyor?**  

@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-10
+updated: 2026-08-13
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -22,6 +22,7 @@ For more than a decade, I have been a victim of the unlawful actions of major co
 You can find the answers to these questions toward the end of this article.
 
 - Why do elections fail to produce the expected results despite persistent instability in the governance of countries or companies?
+- Why do some people (artists, business owners, footballers, etc.) or products (clothing, cars, software, beliefs, etc.) receive more attention than others?
 - Why do illnesses or accidents still occur despite preventive measures being taken? Why do mental and physical problems occur?
 - Why do diseases recur, change form, or present inconsistent symptoms despite different treatment methods being applied?
 - Why do people experience unnatural or unexpected phenomena related to addictions?
@@ -196,9 +197,14 @@ Some of the offenses include:
 
 ## General Answers to the Questions
 
-**Why do elections fail to produce the expected results despite persistent instability in the governance of countries or companies?**
+**Why do elections fail to produce the expected results despite persistent instability in the governance of countries or companies?**  
+**Why do some people (artists, business owners, footballers, etc.) or products (clothing, cars, software, beliefs, etc.) receive more attention than others?**
 
-In order to keep a particular leader in power, individuals or groups considered opponents or rivals may be subjected to health, safety, and security problems. Through the biological devices implanted into our bodies without consent, it is claimed that poisonings, heart attacks, physical ailments, traffic accidents, aircraft accidents, and technical malfunctions can be induced. Social unrest and divisions can be created within society, allowing public opinion to be directed in favor of leaders who would otherwise be expected to be replaced. Emotional interest in political rivals who gain visibility on social media can be suppressed, while emotional attachment to a leader who would not ordinarily be expected to receive such support can be encouraged.
+In order to keep a particular leader in power, individuals or groups considered opponents or rivals may be subjected to health, safety, and security problems. Through the biological devices implanted into our bodies without consent, it is claimed that poisonings, heart attacks, physical ailments, traffic accidents, aircraft accidents, and technical malfunctions can be induced.
+
+Social unrest and divisions can be created within society, allowing public opinion to be directed in favor of leaders who would otherwise be expected to be replaced. Emotional interest in political rivals who gain visibility on social media can be suppressed, while emotional attachment to a leader who would not ordinarily be expected to receive such support can be encouraged.
+
+Some people or products attract more attention because emotions and addictions are controlled by devices in our bodies. They sell more products, and more people follow them. Sometimes, people defend those people or products frantically. All of these unhealthy feelings of addiction are artificial.
 
 **Why do illnesses or accidents still occur despite preventive measures being taken? Why do mental and physical problems develop?**  
 **Why do diseases recur, change form, or exhibit inconsistent symptoms despite different treatment methods being applied?**  
