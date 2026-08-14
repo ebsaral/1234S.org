@@ -4,7 +4,7 @@ title: How to Play in Nature
 subtitle: Life isn't a game for everyone yet. Let's have a deeper look at nature and understand what we can do to convert life into a game.
 image: /images/blog/hands-of-children.jpg
 created: 2025-11-15
-updated: 2026-08-12
+updated: 2026-08-14
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 5
@@ -20,7 +20,7 @@ What we interpret as death from our personal perspectives exists in nature as tr
 
 Any thinking can be influenced by its invisible ties to nature in different forms; tries to reflect our feelings outwards via predefined symbols. Thinking's capacity is limited to defined meanings and gained experiences in varying shapes of feelings. Nature contains symbols that may not be defined yet in *y*our common life experiences thus awareness.
 
-Expanding the circle of meaning in our mind through positive perspectives is like opening a door to the existence of the universe. The meanings of the symbols we invent to communicate with each other must always be in harmony with the balance of equality and freedom in nature. Otherwise, each sentence constructed contains a contradiction in meaning and reveal a deception (incompatibility). Sentences in balance with nature always prevail.
+Expanding the circle of meaning in our mind through positive perspectives is like opening a door to the existence of the universe. The meanings of the symbols we invent to communicate with each other must always be in harmony with the balance of equality and freedom in nature. Otherwise, each sentence constructed contains a contradiction in meaning and reveal a deception (incompatibility). Meanings in balance with nature always prevail.
 
 Nature behaves as an interconnected entity and often resembles what we might call *reaching infinity or to live eternity*. Life is a gift to all living things. Every human being is born with gifts within their self that are worthy of reaching nature's full potential. The [illegal global economic system](/en/blog/the-rape-case-of-big-tech-companies) we are all involved in prevents the natural evolution and fair distribution of gifts.
 
