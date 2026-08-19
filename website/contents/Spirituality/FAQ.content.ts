@@ -104,16 +104,6 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'What do tarot cards, fortune-telling, and the like represent in nature?',
-          tr: 'Tarot kartları, fal bakımı vb. doğada neyi temsil ediyor?',
-        }),
-        subtitle: t({
-          en: 'On the journey of destiny, everyone has equal opportunities and chances. Our destiny is also shaped according to our past choices. The results of choices made with good intentions are reflected positively both on the individual and on their environment. Since nothing in nature is *random*, every choice we make is aligned with the next step. Therefore, any imagined work we create with good intentions, or any situation we interpret, will reach the same conclusion as when interpreting it with tarot cards. If you wish, you can create your own fortune at home by drawing many pictures or shapes with different meanings; you do not need a special card, a special reading, or a special intermediary. At the same time, by writing many different texts and comparing them to your memories, you can see that the coincidences in your life journey are independent of time and are the result of your own actions. When the people who interpret or have interpretations done are not well-intentioned, negative outcomes are reached. As a return for their good intentions, people with more life experience may have broader and more accurate interpretive abilities. You can understand the journey of destiny better by reading [Journey of Luck](/en/blog/journey-of-luck) in our blog.',
-          tr: 'Kader yolculuğunda herkes eşit fırsatlara ve şansa sahiptir. Kaderimiz aynı zamanda geçmişteki seçimlerimize göre şekil alır. İyi niyetle yapılan seçimlerin sonucu hem bireye hem çevresine olumlu olarak yansır. Doğada *rastgele* bir şey olmadığı için, yapacağımız her seçim bir sonraki adım ile uyumlu olur. Bu yüzden, iyi niyetle çizdiğimiz herhangi bir hayal ürünü eser veya yorumladığımız herhangi bir durum, tarot kartlarıyla yorumladığımız sonuca ulaşır. Dilerseniz farklı anlamlarda birçok resim veya şekil çizerek kendi falınızı siz de evinizde oluşturabilirsiniz; özel bir karta, özel bir fala, özel bir aracıya ihtiyacınız yok. Aynı zamanda, birçok farklı metin yazarak hatıralarınızla karşılaştırabilir ve yaşam yolculuğunuzdaki tesadüflerin zamandan bağımsız bir şekilde kendi elinizden çıktığını görebilirsiniz. Yorumlama yapan veya yaptıran insanların iyi niyetli olmadıkları durumlarda olumsuz sonuçlara ulaşılır. Yaşam tecrübesi daha fazla olan insanların iyi niyetlerinin karşılığı olarak yorumlama yetenekleri daha kapsamlı ve isabetli olabilir. [Şansın Yolculuğu](/tr/blog/sansin-yolculugu) isimli yazımızı okuyarak kader yolculuğunu daha iyi anlayabilirsiniz.',
-        }),
-      },
-      {
-        title: t({
           en: 'What do special days, zodiac signs, and the like represent in nature?',
           tr: 'Özel günler, burçlar vb. doğada neyi temsil ediyor?',
         }),
