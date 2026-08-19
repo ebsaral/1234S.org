@@ -8,6 +8,7 @@ import { Examples, Experiment } from '@/app/components/Sections/Wholeness';
 import { useMenu } from '@/app/hooks/useMenu';
 import { useIntersectionObserver } from '@/app/hooks/useScrollEffects';
 import { useEffect, useRef } from 'react';
+import ReadingSuggestion from '../../Custom/ReadingSuggestion';
 import Quote from '../Quote';
 
 const Wholeness = ({ id }: { id: string }) => {
@@ -74,6 +75,8 @@ const Wholeness = ({ id }: { id: string }) => {
           <Experiment className='max-w-4xl mx-auto mt-20 mb-6 ml-6 -mr-6' />
         </div>
       </div>
+
+      <ReadingSuggestion className='-mt-24 mb-24 z-10' content={content.reading.value} />
 
       {/* Decorative Elements */}
       <div className='-z-10 absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />

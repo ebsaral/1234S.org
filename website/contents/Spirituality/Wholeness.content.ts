@@ -29,6 +29,7 @@ interface WholenessContent {
       description: string;
     }[];
   };
+  reading: string;
 }
 
 export default {
@@ -197,5 +198,9 @@ export default {
         tr: 'Ortak yaşantımızı tekrar yorumlayarak bu örnekleri detaylandırabiliriz. Zihnimizin odak noktasını duyularımızla harmanladığımızda birçok ortak noktayı fark edebiliriz. Eylemlerimizde özgür olamayıp basmakalıp seçimler yapmamız ise birbirimizle olan ilahi bağlarımızı görmemizi zorlaştırır.',
       }),
     },
+    reading: t({
+      en: 'To better understand the importance of reading nature, please read our article **[Reading Habit](/en/blog/reading-habit)**.',
+      tr: 'Doğayı okuyabilmenin önemini daha iyi anlayabilmek için, **[Okuma Alışkanlığı](/tr/blog/okuma-aliskanligi)** başlıklı yazımızı okuyunuz.',
+    }),
   },
 } satisfies Dictionary<WholenessContent>;

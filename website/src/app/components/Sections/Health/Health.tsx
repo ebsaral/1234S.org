@@ -76,7 +76,7 @@ const Health = ({ id }: { id?: string }) => {
         <MarkdownRenderer>{content.paragraph1.value}</MarkdownRenderer>
       </article>
 
-      <ReadingSuggestion className='my-10 z-10' content={content.reading2.value} />
+      <ReadingSuggestion className='my-10 z-10' content={content.reading.value} />
 
       <div className='relative max-w-5xl mx-auto px-4'>
         <Analogy className='mx-auto' />
@@ -90,11 +90,9 @@ const Health = ({ id }: { id?: string }) => {
         <MarkdownRenderer>{content.paragraph3.value}</MarkdownRenderer>
       </article>
 
-      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10'>
+      <article className='relative prose-custom-all max-w-4xl mx-auto px-6 sm:px-10 mb-16 z-10'>
         <MarkdownRenderer>{content.paragraph4.value}</MarkdownRenderer>
       </article>
-
-      <ReadingSuggestion className='mt-12 mb-12 z-10' content={content.reading.value} />
 
       {/* Decorative Elements */}
       <div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent' />
