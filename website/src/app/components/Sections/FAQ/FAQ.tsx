@@ -76,7 +76,9 @@ const FAQ = ({ id }: { id?: string }) => {
             <LuMessageCircleQuestion className='transition-all duration-300 group-hover:scale-110' size={40} />
           </div>
         </div>
-        <div className='prose-custom-all max-w-4xl mx-auto my-16 text-center'>{content.description}</div>
+        <div className='prose-custom-all max-w-4xl mx-auto my-16 text-center'>
+          <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
+        </div>
       </article>
       <div className='max-w-4xl mx-auto mb-16 pl-4 sm:px-6 space-y-8' role='region' aria-label={content.title.value}>
         {content.items.map((faq, i) => {

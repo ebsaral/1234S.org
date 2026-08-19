@@ -18,8 +18,8 @@ const pageContent = {
       tr: 'Sıkça Sorulan Sorular',
     }),
     description: t({
-      en: "Our summarized answers to the common questions have appeared in the mind throughout some civilizations, with the guidance of Logical Spirituality's teachings.",
-      tr: 'Mantıksal Maneviyat öğretilerinin rehberliğinde, bazı kültürlerin zihinlerde oluşturduğu genel sorulara verdiğimiz özet cevaplar.',
+      en: 'You can find our summarized answers to the common questions have appeared in the mind throughout some civilizations. For detailed explanations, you can read the articles in [Our Story](/en/blog) page.',
+      tr: 'Bazı kültürlerin zihinlerde oluşturduğu genel sorulara verdiğimiz özet cevapları burada bulabilirsiniz. Detaylı açıklamalar için [Hikâyemiz](/tr/blog) sayfasındaki içerikleri okuyabilirsiniz.',
     }),
     items: [
       {
