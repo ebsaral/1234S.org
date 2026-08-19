@@ -6,7 +6,7 @@ import { Tooltip } from 'react-tooltip';
 export default function ReadingSuggestion({ className, content }: { className?: string; content: string }) {
   return (
     <div
-      className={`relative prose-custom-all flex flex-row gap-6 items-center max-w-xl px-6 sm:px-10 bg-purple-200/50 p-4 rounded-2xl mx-4 sm:mx-auto ${className}`}
+      className={`relative prose-custom-all text-gray-900 flex flex-row gap-6 items-center max-w-xl px-6 sm:px-10 bg-purple-200/50 p-4 rounded-2xl mx-4 sm:mx-auto ${className}`}
     >
       {/* Tooltip */}
       <Tooltip
