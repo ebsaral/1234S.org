@@ -85,6 +85,11 @@ const Blog = ({ posts }: { posts: Post[] }) => {
             </div>
           </article>
 
+          <div className='max-w-4xl mx-auto flex flex-row items-center justify-center gap-2 -mt-4 mb-16'>
+            <PiWarningCircleFill size={32} />
+            {content.note}
+          </div>
+
           <div className='max-w-4xl mx-auto grid grid-cols-1 content-between justify-items-center gap-16'>
             {getItems().map((item, index) => {
               const stats = readingTime(item.content);
@@ -149,10 +154,6 @@ const Blog = ({ posts }: { posts: Post[] }) => {
                 </a>
               );
             })}
-          </div>
-          <div className='max-w-4xl mx-auto flex flex-row items-center justify-center gap-2 mt-14'>
-            <PiWarningCircleFill size={32} />
-            {content.note}
           </div>
         </section>
       </main>
