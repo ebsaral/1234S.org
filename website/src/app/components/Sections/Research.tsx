@@ -74,10 +74,9 @@ const Research = () => {
 
   return (
     <>
-      <div className='max-w-5xl mx-auto w-full pt-10 research'>
+      <div className='max-w-5xl mx-auto w-full py-16 px-6 research'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
           <MarkdownRenderer>{content.projects.title.value}</MarkdownRenderer>
-          <MarkdownRenderer>{content.projects.description.value}</MarkdownRenderer>
         </div>
 
         {/* JAM BUTTON */}
@@ -85,25 +84,28 @@ const Research = () => {
           <button
             hidden={jamMode}
             onClick={() => setJamMode((v) => !v)}
-            className='px-6 py-3 rounded-lg bg-purple-800 hover:bg-purple-700 transition-all duration-300 font-semibold shadow-lg'
+            className='px-6 py-3 rounded-lg bg-purple-800 hover:bg-purple-700 transition-all duration-300 font-semibold shadow-lg my-6'
           >
             {jamMode ? content.jamButton.disable.value : content.jamButton.enable.value}
           </button>
 
-          <Link hidden={!jamMode} href={getLocalizedUrl('/mission', locale)} prefetch>
+          <button hidden={!jamMode} onClick={() => setJamMode((v) => !v)}>
             <Image
               className='relative -mt-6'
               src={content.jamButton.image.value}
               title={content.jamButton.disable.value}
               alt={content.jamButton.disable.value}
-              height={150}
-              width={150}
+              height={120}
+              width={120}
               preload
             />
-          </Link>
+          </button>
         </div>
 
-        <div className='research max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 '>
+        <div
+          className='research max-w-5xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'
+          onClick={() => jamMode && setJamMode((v) => !v)}
+        >
           {content.projects.items.map((item, index) => {
             const style = styles[index];
 
@@ -138,6 +140,12 @@ const Research = () => {
           })}
         </div>
       </div>
+      <Link
+        href={getLocalizedUrl('/blog', locale)}
+        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 -mb-16 top-2 text-lg font-semibold text-purple-900 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
+      >
+        <div className='max-w-4xl mx-auto text-center'>{content.storyButton.label}</div>
+      </Link>
 
       <style jsx global>{`
         @keyframes jamBeat {

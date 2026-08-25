@@ -49,8 +49,12 @@ const config: IntlayerConfig = {
         tr: '/[locale]/iletisim',
       },
       '/[locale]/mission': {
-        en: '/[locale]/mission',
-        tr: '/[locale]/misyon',
+        en: '/[locale]#mission',
+        tr: '/[locale]#mission',
+      },
+      '/[locale]/misyon': {
+        en: '/[locale]#mission',
+        tr: '/[locale]#mission',
       },
       '/[locale]/philosophy': {
         en: '/[locale]/spirituality',

@@ -15,7 +15,6 @@ interface NavigationContent {
   };
   home: Link;
   philosophy: Link;
-  mission: Link;
   blog: Link;
   intro: SubLink;
   wholeness: SubLink;
@@ -52,12 +51,6 @@ const pageContent = {
       text: t({
         en: 'Logical Spirituality',
         tr: 'Mantıksal Maneviyat',
-      }),
-    },
-    mission: {
-      text: t({
-        en: 'Our Mission',
-        tr: 'Misyonumuz',
       }),
     },
     blog: {

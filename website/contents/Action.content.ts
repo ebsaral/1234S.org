@@ -4,8 +4,8 @@ const pageContent = {
   key: 'action-section',
   content: {
     title: t({
-      en: 'Action Plan',
-      tr: 'Eylem Planı',
+      en: 'Our Action Plan',
+      tr: 'Eylem Planımız',
     }),
     items: [
       {

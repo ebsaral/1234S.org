@@ -76,20 +76,6 @@ const Action = () => {
         </div>
       </div>
 
-      <div className='max-w-5xl mx-auto mt-10 mb-16 flex flex-row gap-3 items-center justify-center'>
-        {content.items.map((item, index) => {
-          return (
-            <div
-              key={`action-item-${index}`}
-              className={`text-white bg-rose-700 font-bold text-xl w-8 h-8 rounded-full flex items-center justify-center ${getProcessClass(item.status.key.value)}`}
-              title={item.status.text.value}
-            >
-              {index + 1}
-            </div>
-          );
-        })}
-      </div>
-
       <div className='max-w-5xl mx-auto relative my-10 flex flex-col items-center justify-start'>
         {content.items && (
           <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mb-12 mx-auto'>
@@ -114,14 +100,18 @@ const Action = () => {
                     <div className='sm:hidden sm:col-span-1 flex items-center justify-center w-24 h-24 -z-10 sm:opacity-100 sm:w-12 sm:h-12 rounded-full bg-purple-100/80 sm:bg-rose-700/90 absolute top-[-10px] left-[-10px] overflow-clip sm:static'>
                       <div className='text-rose-700 font-bold text-2xl'>{index + 1}</div>
                     </div>
-                    <div className='hidden sm:visible sm:flex items-center justify-center absolute left-[-10px] top-[-10px] opacity-100 w-12 h-12 rounded-full bg-rose-700/90'>
+                    <div
+                      className={`hidden sm:visible sm:flex items-center justify-center absolute left-[-10px] top-[-10px] opacity-100 w-12 h-12 rounded-full bg-rose-700/90 ${getProcessClass(example.status.key.value)}`}
+                    >
                       <div className='text-white font-bold text-2xl'>{index + 1}</div>
                     </div>
                     <div className='col-span-6'>
-                      <h3 className='text-left sm:text-center text-xl font-bold text-rose-700 mt-8 sm:mt-0'>{title}</h3>
+                      <h3 className={`text-left sm:text-center text-xl font-bold text-rose-700 mt-8 sm:mt-0`}>
+                        {title}
+                      </h3>
 
-                      <div className='text-left sm:text-center italic text-sm mt-4'>{status.text}</div>
-                      <article className='prose-custom-all mt-[-12]'>
+                      <div className={`text-left sm:text-center italic text-sm mt-4 `}>{status.text}</div>
+                      <article className='prose-custom-all mt-[-12] text-left'>
                         <MarkdownRenderer>{content.value}</MarkdownRenderer>
                       </article>
                     </div>
@@ -148,7 +138,7 @@ const Action = () => {
                         size={80}
                       />
                     </div>
-                    <article className='prose-custom-all'>
+                    <article className='prose-custom-all text-left'>
                       <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
                     </article>
                   </div>
