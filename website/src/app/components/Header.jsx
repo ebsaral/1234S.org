@@ -31,7 +31,6 @@ const Header = ({ postCount }) => {
   const isScrolled = scrollY > 50;
 
   const navItems = [
-    { key: 'mission', href: '/mission' },
     {
       key: 'philosophy',
       href: '/philosophy',

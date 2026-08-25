@@ -11,9 +11,13 @@ const pageContent = {
       }),
       src: '/logos/logo.svg',
     },
-    intro: t({
-      en: "1234S.org is founded to explain the world's most valuable knowledge through [**Logical Spirituality**](/spirituality). We continue to develop, disseminate, and sustain our work that improves the mental and physical health of individuals, society, and the natural environment.",
-      tr: '1234S.org, dünyanın en değerli bilgilerini [**Mantıksal Maneviyat**](/maneviyat) vasıtasıyla açıklamak için kuruldu. Bireyin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirecek çalışmalarımızı geliştirmeye, yaygınlaştırmaya ve süreklilik kazandırmaya devam ediyoruz.',
+    title: t({
+      en: "The World's Most Valuable Knowledge!",
+      tr: 'Dünyanın En Değerli Bilgileri!',
+    }),
+    description: t({
+      en: 'We continue our work to improve the mental and physical health of individuals, society, and the natural environment.',
+      tr: 'Bireylerin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirmek için çalışmalarımıza devam ediyoruz.',
     }),
     jamButton: {
       enable: t({
@@ -29,10 +33,16 @@ const pageContent = {
         tr: '/images/dans.png',
       }),
     },
+    storyButton: {
+      label: t({
+        en: 'Read Our Story',
+        tr: 'Hikâyemizi Okuyun',
+      }),
+    },
     projects: {
       title: t({
-        en: '## Research and Development Topics',
-        tr: '## Araştırma ve Geliştirme Konuları',
+        en: '## Our Research and Development Topics',
+        tr: '## Araştırma ve Geliştirme Konularımız',
       }),
       description: t({
         en: 'You can [contact us](/contact) for more information on these topics in which we are very well-versed.',
