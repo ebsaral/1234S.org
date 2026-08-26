@@ -33,7 +33,7 @@ const Home = () => {
           <div className='stars' />
           <AnimatedLogo />
 
-          <h1 className='text-xl sm:text-2xl lg:text-3xl font-bold leading-tight overflow-ellipsis text-white'>
+          <h1 className='text-xl sm:text-2xl lg:text-3xl font-bold leading-tight overflow-ellipsis text-white px-6'>
             {content.title}
           </h1>
 
