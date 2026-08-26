@@ -39,6 +39,7 @@ const TeamMember = ({ member, index = 0 }) => {
           <Link
             className={`rounded-full ${member.spin ? 'shadow-lg shadow-rose-500/60' : 'shadow-lg shadow-gray-500/60'} transition-all duration-300`}
             href={member.image.src.value}
+            target='_blank'
             alt={`${member.name.value}: ${member.title?.value}`}
             title={imageTitle()}
           >
@@ -63,20 +64,22 @@ const TeamMember = ({ member, index = 0 }) => {
               <div className='inline-flex gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
                 {member.links[0] && (
                   <Link
-                    className='p-2 inline-flex items-center justify-center hover:text-purple-900'
+                    className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
                     href={member.links[0].href.value}
                     title={member.links[0].text.value}
                   >
                     <LuGlobe size={20} />
+                    {member.links[0].text.value}
                   </Link>
                 )}
                 {member.links[1] && (
                   <Link
-                    className='p-2 inline-flex items-center justify-center hover:text-purple-900'
+                    className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
                     href={member.links[1].href.value}
                     title={member.links[1].text.value}
                   >
                     <LuFileBadge size={20} />
+                    {member.links[1].text.value}
                   </Link>
                 )}
               </div>
