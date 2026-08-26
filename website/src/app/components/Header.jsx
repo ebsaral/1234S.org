@@ -4,6 +4,7 @@ import { getLocaleName, getLocalizedUrl } from 'intlayer';
 import { useIntlayer, useLocale } from 'next-intlayer';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
 import { LuChevronDown, LuMenu, LuX } from 'react-icons/lu';
@@ -16,6 +17,8 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 
 const Header = ({ postCount }) => {
   const { scrollY } = useScrollEffects();
+  const pathname = usePathname();
+
   const ref = useRef(null);
   const lastScroll = useRef(scrollY);
   const velocity = useRef(0);
@@ -133,6 +136,17 @@ const Header = ({ postCount }) => {
     return value;
   };
 
+  const handleLogoClick = (e) => {
+    setIsMenuOpen(false);
+    if (pathname === '/' || pathname === `/${locale}`) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-100 ${
@@ -146,7 +160,7 @@ const Header = ({ postCount }) => {
             href={parseLocalizedUrl('/')}
             title={getItemTitle('home')}
             aria-label={getItemTitle('home')}
-            onClick={() => setIsMenuOpen(false)}
+            onClick={(e) => handleLogoClick(e)}
             className='group flex flex-row justify-end items-center rounded-md cursor-pointer transition-colors duration-300'
             prefetch={true}
           >
