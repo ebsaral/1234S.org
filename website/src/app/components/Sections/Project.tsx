@@ -53,7 +53,7 @@ const Project = () => {
   return (
     <section id={id} className='relative max-w-screen mx-auto overflow-hidden bg-white px-6'>
       <div className='max-w-5xl mx-auto'>
-        <div className='relative mx-auto mt-10 mb-6 pb-1 rounded-2xl text-center'>
+        <div className='relative mx-auto mt-4 mb-6 pb-1 rounded-2xl text-center'>
           <div
             className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110`}
           >
@@ -68,9 +68,7 @@ const Project = () => {
           </h2>
 
           {content.message && (
-            <div className='max-w-4xl mx-auto mt-16 text-center flex flex-col lg:flex-row items-center gap-6'>
-              <div className='text-xl sm:text-3xl lg:text-3xl text-gray-900'>{content.message.title}</div>
-
+            <div className='max-w-4xl mx-auto mt-16 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
               <div className='text-lg sm:text-xl lg:text-2xl bg-emerald-700 text-white py-4 px-8 rounded-xl'>
                 {content.message.description}
               </div>
@@ -125,6 +123,12 @@ const Project = () => {
           </div>
         )}
       </div>
+
+      {content.message && (
+        <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
+          <div className='text-xl sm:text-3xl lg:text-3xl text-gray-900'>{content.message.title}</div>
+        </div>
+      )}
     </section>
   );
 };
