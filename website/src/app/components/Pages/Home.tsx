@@ -37,7 +37,7 @@ const Home = () => {
             {content.title}
           </h1>
 
-          <article className='max-w-5xl mx-auto mt-12 mb-16 text-base text-center leading-relaxed home-intro !px-6 sm:!px-6 md:!px-6 lg:!px-16'>
+          <article className='max-w-5xl mx-auto mt-12 mb-28 text-base text-center leading-relaxed home-intro !px-6 sm:!px-6 md:!px-6 lg:!px-16'>
             <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
           </article>
 
