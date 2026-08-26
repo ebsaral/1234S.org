@@ -109,7 +109,7 @@ const pageContent = {
       href: insert('https://github.com/ebsaral/1234S.org/commits/main/website/posts/{{slug}}.{{locale}}.md'),
     },
     note: t({
-      en: 'The contents are still getting updated to express the topics more understandable.',
+      en: 'The contents are still getting updated to express the topics more clearly.',
       tr: 'Konuların daha anlaşılır ifade edilebilmesi için içerikler hâlâ güncelleniyor.',
     }),
   },
