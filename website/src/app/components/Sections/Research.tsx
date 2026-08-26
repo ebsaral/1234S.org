@@ -119,7 +119,7 @@ const Research = () => {
       </div>
       <Link
         href={getLocalizedUrl('/blog', locale)}
-        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mb-14 text-lg font-semibold text-purple-900 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
+        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mb-14 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
       >
         <div className='max-w-4xl mx-auto text-center'>{content.storyButton.label}</div>
       </Link>
