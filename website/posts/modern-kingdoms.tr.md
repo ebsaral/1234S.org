@@ -69,7 +69,7 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 
 **Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkıyor. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) ve çevreye zarar vermeye devam ediyor.
 
-Pratikte gerçek bir "biz" kavramı yok. Mevcut düzende, bir başkanın vatandaşlar hakkında konuşurken "biz" demesi bir yalandır. Bir yöneticinın "biz" demesi de yalandır. Bir komutanın "biz" demesi de yalandır. Çünkü vatandaşlar, ait olduklarını sandıkları yerde aynı haklara ve eşitliğe sahip değiller. Doğanın gerçeklerinde, gerçek ve samimi bir "biz"e ancak özgürlüğü herkese eşit olarak dağıtarak ulaşabiliriz. O zamana kadar, "biz" derken yeryüzündeki herkesi kastetmiyorsak birbirimize yalan söylüyor olacağız ve doğa bizi dengelemeye devam edecek.
+Pratikte gerçek bir "biz" kavramı yok. Mevcut düzende, bir başkanın vatandaşlar hakkında konuşurken "biz" demesi bir yalandır. Bir yöneticinin "biz" demesi de yalandır, bir komutanın "biz" demesi de... Çünkü vatandaşlar, ait olduklarını sandıkları yerde aynı haklara ve eşitliğe sahip değiller. Doğanın gerçeklerinde, gerçek ve samimi bir "biz"e ancak özgürlüğü herkese eşit olarak dağıtarak ulaşabiliriz. O zamana kadar, "biz" derken yeryüzündeki herkesi kastetmiyorsak birbirimize yalan söylüyor olacağız ve doğa bizi dengelemeye devam edecek.
 
 **[Yeni Siyaset](/misyon) anlayışında, tüm vatandaşların doğadaki eşitlik ve özgürlük ilkelerine uygun bir yaşam tarzına kavuşmaları zorunludur.** 
 
