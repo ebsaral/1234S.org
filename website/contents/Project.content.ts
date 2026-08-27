@@ -59,8 +59,8 @@ const pageContent = {
     ],
     message: {
       title: t({
-        en: 'Justice in Nature is in constant motion! What are we waiting for?',
-        tr: 'Doğadaki Adalet sürekli hareket halinde! Neyi bekliyoruz?',
+        en: 'Justice in Nature is in constant motion!  \n**What are we waiting for?**',
+        tr: 'Doğadaki Adalet sürekli hareket halinde!  \n**Neyi bekliyoruz?**',
       }),
       description: t({
         en: 'Better health. More luck. Countless opportunities.',

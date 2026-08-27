@@ -125,8 +125,8 @@ const Project = () => {
       </div>
 
       {content.message && (
-        <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
-          <div className='text-xl sm:text-3xl lg:text-3xl text-gray-900'>{content.message.title}</div>
+        <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6 text-xl sm:text-3xl lg:text-3xl text-gray-900 [&_strong]:font-semibold'>
+          <MarkdownRenderer>{content.message.title.value}</MarkdownRenderer>
         </div>
       )}
     </section>
