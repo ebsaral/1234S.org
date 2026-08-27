@@ -3,7 +3,7 @@ name: modern-kingdoms
 title: Modern Kingdoms
 subtitle: There are different forms of governance and transformation processes all over the world. The fact that every private company in the current global economy represents a form of kingdom proves that a true republican regime has yet to be established.
 created: 2026-03-07
-updated: 2026-08-08
+updated: 2026-08-27
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -68,6 +68,8 @@ You can observe the oligarchic structure of the current system in any society, f
 **All the grievances of citizens come from the fundamental economic injustice that has existed since the founding of every country.** Due to traditional policy approaches, people who target corporations and the wealthy are portrayed as enemies of that country. For example, someone who sees Apple as an enemy because it is a large criminal company might be portrayed as an enemy of the USA. In reality, all large corporations share economic wealth and also all the crimes because they have a global economy network.
 
 **The wealthiest people in any country are the ones who commit/operate the most crimes.** This is becoming obvious when their companies and structures are examined. The fact that these people can still have a voice, give education, present awards, build companies or make investments is a shared shame for all of humanity. Staying silent about this situation continues to harm the health (well-being) of all societies and nature.
+
+There is not a real concept of "we" in practice. In the current system, it is a lie for a president to say "we" when speaking about citizens. When a manager says "we", it's also a lie. When a commander says "we", it's also a lie. Because citizens do not have the same rights and equality where they assume they belong. In the realities of nature, we can only reach a real and sincere "we" by distributing freedom equally to everyone. Until then, we will be lying to each other if we don't mean everyone on Earth by "we" and nature will keep balancing us.
 
 **Within the [New Politics](/mission) approach, it is essential that all citizens achieve a lifestyle in accordance with the principles of equality and freedom in nature.**
 

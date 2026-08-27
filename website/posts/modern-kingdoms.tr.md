@@ -3,7 +3,7 @@ name: cagimizin-kralliklari
 title: Çağımızın Krallıkları
 subtitle: Dünyanın her yerinde farklı yönetim biçimleri ve dönüşüm süreçleri bulunuyor.  Mevcut küresel ekonomi içerisinde her özel şirketin bir çeşit krallığı temsil etmesi, gerçek anlamda bir cumhuriyet rejiminin henüz kurulmadığını kanıtlıyor.
 created: 2026-03-07
-updated: 2026-08-08
+updated: 2026-08-27
 image: /images/blog/ex-on-nails.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -68,6 +68,8 @@ Bir toplumun en küçük yapıtaşından en büyük yapıtaşına kadar mevcut s
 **Vatandaşların tüm sıkıntıları her ülkenin kuruluşundan itibaren var olan temeldeki ekonomik adaletsizlikten kaynaklanır.** Geleneksel politika yaklaşımlarından dolayı, aslında şirketleri ve zenginleri hedef alan insanlar o ülkenin düşmanıymış gibi gösterilirler. Örneğin, Apple'ı suç işleyen büyük bir şirket olmasından dolayı düşman olarak gören biri, sanki Amerika'ya düşmanmış gibi gösterilebilir. Aslında bütün büyük şirketler küresel ekonomik paylara sahip oldukları için hem ekonomik geliri hem tüm suçları paylaşırlar.
 
 **Herhangi bir ülkedeki en zengin insanlar en çok suç işleyen/işleten insanlardır.** Şirketleri ve yapıları incelenmeye alındığında bu durum açıkça ortaya çıkıyor. Bu insanların hala söz sahibi olmaları, eğitim vermeleri, ödül vermeleri, şirket açmaları veya yatırım yapmaları tüm insanlığın paylaştığı ortak bir utançtır. Bu duruma karşı sessiz kalınması tüm toplumların sağlığına (iyiliğine) ve çevreye zarar vermeye devam ediyor.
+
+Pratikte gerçek bir "biz" kavramı yok. Mevcut düzende, bir başkanın vatandaşlar hakkında konuşurken "biz" demesi bir yalandır. Bir yöneticinın "biz" demesi de yalandır. Bir komutanın "biz" demesi de yalandır. Çünkü vatandaşlar, ait olduklarını sandıkları yerde aynı haklara ve eşitliğe sahip değiller. Doğanın gerçeklerinde, gerçek ve samimi bir "biz"e ancak özgürlüğü herkese eşit olarak dağıtarak ulaşabiliriz. O zamana kadar, "biz" derken yeryüzündeki herkesi kastetmiyorsak birbirimize yalan söylüyor olacağız ve doğa bizi dengelemeye devam edecek.
 
 **[Yeni Siyaset](/misyon) anlayışında, tüm vatandaşların doğadaki eşitlik ve özgürlük ilkelerine uygun bir yaşam tarzına kavuşmaları zorunludur.** 
 
