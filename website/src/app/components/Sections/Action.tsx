@@ -111,7 +111,7 @@ const Action = () => {
                       </h3>
 
                       <div className={`text-left sm:text-center italic text-sm mt-4 `}>{status.text}</div>
-                      <article className='prose-custom-all mt-[-12] text-left'>
+                      <article className='prose-custom-all mt-[-12] text-left [&_ul]:list-disc [&_li]:-mb-3'>
                         <MarkdownRenderer>{content.value}</MarkdownRenderer>
                       </article>
                     </div>
