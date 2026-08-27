@@ -61,7 +61,7 @@ const TeamMember = ({ member, index = 0 }) => {
               </em>
             )}
             {member.links && (
-              <div className='flex flex-col sm:flex-row gap-2 sm:gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
+              <div className='flex flex-col sm:flex-row mt-2 gap-2 sm:gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
                 {member.links[0] && (
                   <Link
                     className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
