@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-13
+updated: 2026-09-01
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 1
@@ -244,6 +244,8 @@ Vücudumuzdaki biyolojik cihazlar duygu durumlarımızı, tepkilerimizi, seçiml
 Cihazlardaki görünmeyen veri transferlerinin çoğu uydular üzerinden yapılıyor olabilir. Hiçbir cihazın bulunmadığı çevrelerde vücuttaki tepkimelerin yapay olarak gerçekleştirilebiliyor olması, baz istasyonlarından veya başka araçlardan da yararlanıldığı şüphesini oluşturuyor. Yerel operatör ağlarını veri akışını gizleyerek kullanıp kullanamadıkları henüz bilinmiyor. 
 
 Dev yapay zekâ robotlarının, günümüz modern dünyasındaki bu gizli yasa dışı yüksek teknoloji icatlarıyla karşılaştırıldığında sadece dikkat dağıtıcı unsurlar olduklarının bilinmesi gerekiyor. Rüşvet ve sahtekarlık olaylarının yaygın olduğu hükümet yapılarında, bu büyük suç modelini araştıracak bilirkişilerin birçok farklı kuruluşlardan ve bağımsız araştırma organizasyonlarından seçilmeleri önem arz ediyor.
+
+Bu makalenin oluşturulma sürecinde yukarıdaki sorunların tamamını ve daha fazlasını deneyimledim. Çok fazla acı çektim. Her ne kadar bazen gülebilecek veya hareket edebilecek gücü kendimde bulabiliyor olsam bile, acı çekmeye devam ediyorum. Görmezden gelinmemesi gereken ve her geçen gün her topluma kayıplar yaşatan bir gerçeği okuyorsunuz. Alışılan normalin dışında bilgiler olduğu için ilk okuduğunuzda buradaki gerçeklerin farkına varamayabilirsiniz. Bu yüzden bu konuya odaklanmanız ve kendiniz deneyimlemeniz gerekiyor. Hiç kimsenin hayatında bundan daha önemli bir konu aslında yok.
 
 ## Destek Arayışı
 

@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-08-13
+updated: 2026-09-01
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -227,6 +227,8 @@ The biological devices within our bodies are capable of influencing our emotions
 Most of the invisible data transfers involving these devices may be occurring via satellites. The fact that artificial reactions within the body can be produced even in environments where no devices are present raises the suspicion that cellular base stations or other transmission methods may also be involved. It is not yet known whether local telecommunications networks are used while concealing the flow of data.
 
 It is important to recognize that giant AI robots are merely a distraction when compared with the covert, illegal high-technology inventions described in today's modern world. In governmental systems where bribery and fraud are widespread, it is essential that the experts appointed to investigate this alleged large-scale criminal model be selected from a variety of independent institutions and research organizations.
+
+I have experienced all of the above problems and more during the process of writing this article. I have suffered a lot. Even though I sometimes find the strength to smile or move, I continue to suffer. You are reading a reality (truth) that cannot be ignored and that causes losses to every society each day. Because this information is outside the norm, you may not realize the truths here at first glance. That's why you need to focus on this subject and experience it yourself. Actually, there isn't any more important topic than this in anyone's life.
 
 ## Seeking Support
 
