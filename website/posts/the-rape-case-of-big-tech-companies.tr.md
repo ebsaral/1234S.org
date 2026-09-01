@@ -178,29 +178,6 @@ Biyolojik cihazlar hayatlarımızı kontrol edebildikleri gibi, yeteneklere gü�
 - Özgür irade ve rıza ilkesi.
 - İşkence ve insanlık dışı muamelenin yasaklanması.
 
-
-**Birleşmiş Milletler tarafından kabul edilen İnsan Hakları Evrensel Bildirgesi:**
-
-- Madde 3: Yaşam ve güvenlik hakkı.
-- Madde 5: İşkence yasağı.
-- Madde 12: Özel hayatın korunması.
-
-**Avrupa Konseyi kapsamında kabul edilen Avrupa İnsan Hakları Sözleşmesi:**
-
-- Madde 2: Yaşam hakkı.
-- Madde 3: İşkence yasağı.
-- Madde 8: Özel hayatın korunması.
-
-**Birleşmiş Milletler Medeni ve Siyasi Haklara İlişkin Uluslararası Sözleşme (ICCPR):**
-
-- Yaşam hakkı.
-- Mahremiyet hakkı.
-- İşkence yasağı.
-- Avrupa Konseyi İnsan Hakları ve Biyotıp Sözleşmesi (Oviedo Sözleşmesi).
-- Tıbbi müdahalelerde özgür ve bilgilendirilmiş rıza zorunluluğu.
-- İnsan vücudunun korunması.
-- İnsan onurunun korunması.
-
 ### Haksız Rekabet ve Aldatmacalar
 
 Yasa dışı küresel ekonomi modelini yöneten şirket ve kurumlar uluslararası düzeyde ciddi yaptırımların uygulanması gereken bir yapıyı işletiyorlar.
