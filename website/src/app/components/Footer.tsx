@@ -105,6 +105,9 @@ const Footer = () => {
                 </div>
               </div>
               <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
+                <img src={content.badge.release.img} alt={content.badge.release.alt.value} className='w-20 h-auto' />
+              </div>
+              <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
                 <p>
                   {new Date().getFullYear()} © {content.name}
                 </p>

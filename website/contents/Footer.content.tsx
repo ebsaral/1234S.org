@@ -92,6 +92,18 @@ const pageContent = {
       en: 'Shaped with [The Wholeness in Nature](/spirituality#b), you may find pieces from your own being reflected on this website.\n\n🩸 Thank you for being a part of this movement. ❤️',
       tr: '[Doğadaki Bütünlük](/maneviyat#b) çerçevesinde şekil alan kendi benliğinizden kesitleri bu internet sitesinin içeriğine yansımış halde bulabilirsiniz.\n\n🩸 Bu akımın bir parçası olduğunuz için teşekkürler. ❤️',
     }),
+    badge: {
+      release: {
+        img: t({
+          en: 'https://img.shields.io/github/v/release/ebsaral/1234S.org?label=release',
+          tr: 'https://img.shields.io/github/v/release/ebsaral/1234S.org?label=sürüm',
+        }),
+        alt: t({
+          en: '1234S.org Latest Release',
+          tr: '1234S.org Son Sürüm',
+        }),
+      },
+    },
   },
 } satisfies Dictionary<FooterContent>;
 
