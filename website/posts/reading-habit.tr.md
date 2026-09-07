@@ -12,7 +12,7 @@ published: true
 ---
 Her kültürün kendine özgü sembollerle düşünce biçimlerini yansıtmaya çalıştığı alfabeleri bulunuyor. Harflerin yan yana gelmeleriyle birlikte oluşan ve kelimeler ile sergilenen düşünsel *oyunları* yıllardır deneyimliyoruz. Zihinsel dönüşümlerin sembollerdeki değişimlere yansıdığını görebiliyoruz. Toplulukların fikir ayrılıkları ve uzlaşmaları, kelimelerin ortak sesleriyle zihnimizde yankılanmaya devam ediyor.
 
-![Okuma Alışkanlığı](/images/blog/dandelion-at-sky.jpg)
+![Okuma Alışkanlığı](/images/blog/dandelion-at-sky.jpg "Karahindibaya fısıldayan bir ağaç.")
 
 [Çağımızın Krallıkları](/tr/blog/cagimizin-kralliklari) isimli yazımızda da anlaşılabileceği üzere, günümüze kadar gelen tüm yönetim biçimleri [monarşi](){data-tooltip-id="tooltip" data-tooltip-content="Siyasi otoritenin genellikle miras yolu ile bir kişinin üzerinde toplandığı devlet düzeni veya rejim; tek erklik."} veya [oligarşi](){data-tooltip-id="tooltip" data-tooltip-content="Siyasal gücün birkaç kişilik bir grubun elinde toplandığı yönetim, aristokrasinin daralmış biçimi; takım erki."} düzenlerini temsil ediyorlar. Böylece toplumun geneline yayılan düşünce sistemlerini, semboller aracılığıya oluşturan toplulukların aslında halkın egemenliğini istemeyen insanlar olduğu anlaşılabiliyor. Çünkü varlıkların ve fırsatların eşit olarak sunulduğu hiçbir ülke henüz kurulmadı; hiçbir ülkede yaşanan iç ve dış çatışmalar sona erdirilmedi.
 

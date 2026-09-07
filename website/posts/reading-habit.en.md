@@ -12,7 +12,7 @@ published: true
 ---
 Every culture has alphabets through which it tries to reflect its ways of thinking with unique symbols. For years we have experienced the thinking *games* formed when letters come together and present themselves as words. We can observe that mental transformations are reflected in the changes of symbols. The disagreements and agreements of communities continue to echo in our minds through the shared sounds of words.
 
-![Reading Habit](/images/blog/dandelion-at-sky.jpg)
+![Reading Habit](/images/blog/dandelion-at-sky.jpg "A tree whispering to a dandelion.")
 
 As can be understood from our article named [Modern Kingdoms](/en/blog/modern-kingdoms), all forms of governance that have survived to the present represent either [monarchy](){data-tooltip-id="tooltip" data-tooltip-content="A form of government in which political authority is generally concentrated in a single person, usually through inheritance; rule by one."} or [oligarchy](){data-tooltip-id="tooltip" data-tooltip-content="A system of governance in which political power is concentrated in the hands of a small group; a narrowed form of aristocracy; rule by a few."}. Thus, it can be understood that the group of people shaping systems of thought across society through symbols have actually been people who do not wish for the sovereignty of the public. Because no country has yet been established where existence and opportunities are offered equally; in no country have internal and external conflicts been completely resolved.
 
