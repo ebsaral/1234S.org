@@ -10,7 +10,7 @@ authorUrl: https://0.1234S.org
 order: 6
 published: true
 ---
-![Hikâyeler ve Mitolojiler](/images/blog/fishing-man.jpg)
+![Hikâyeler ve Mitolojiler](/images/blog/fishing-man.jpg "Trabzon'un sahilindeki farklı dinleniş yöntemleri.")
 
 Evrenin içerisinde anlam arayışımız çerçevesinde yıllar boyunca farklı kültürlerin kendilerini yansıtma biçimleri oldu. Dünyanın neresinde olursa olsun, farklı simaların benzer hikayelerini [okuduk](/tr/blog/okuma-aliskanligi). Coğrafyanın karakteristik özellikleri, her kültürde değişik renk kombinasyonlarıyla yaratıcılığı ortaya çıkardı.
 

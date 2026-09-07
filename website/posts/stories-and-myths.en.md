@@ -10,7 +10,7 @@ authorUrl: https://0.1234S.org
 order: 6
 published: true
 ---
-![Stories and Myths](/images/blog/fishing-man.jpg)
+![Stories and Myths](/images/blog/fishing-man.jpg "Different ways of relaxing in Trabzon's coast.")
 
 Within our search for meaning in the Universe, different cultures have had their own ways of reflecting themselves over the years. No matter where on Earth, we have [read](/en/blog/reading-habit) similar stories of different faces. The characteristic features of geography brought creativity to life with various color combinations in each culture.
 
