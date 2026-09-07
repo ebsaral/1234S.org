@@ -102,7 +102,7 @@ Innate talents are not a kind of hypnosis or magical charm; they are nature's wa
 
 ## Journey of Luck
 
-![Journey of Luck](/images/blog/cicos-yellow-friend.jpg)
+![Journey of Luck](/images/blog/cicos-yellow-friend.jpg "Cico's yellow friend.")
 
 **Through the principle of Wholeness within the teachings of Logical Spirituality, we explained that every living being is connected to one another through visible and invisible bonds.** Within the harmony of nature, every action we choose is aligned with both our previous and our future choices. The balance within the connection between our actions is maintained by the principle of Justice in Nature. The consequences of the intentions behind our earlier choices are reflected in our next actions. In this journey of life, we interpret the negative situations we encounter as bad luck, and the positive ones as being lucky.
 
