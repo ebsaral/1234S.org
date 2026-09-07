@@ -13,7 +13,7 @@ published: true
 
 Bir bütün olarak devinim gösteren doğanın içerisinde farklı inançlara ve amaçlara sahip topluluklar oluştu. Yol ayrılıklarına sebep olan adımlar ise birbirine benzer olan sonuçlara yol açtı. Güç algısına yönelik keşiflerin bazıları ilahi, diğerleri ise doğanın bahşettiklerinin yanlış kullanımlarından ibaret oldu.
 
-![Çağımızın Krallıkları](/images/blog/ex-on-nails.jpg)
+![Çağımızın Krallıkları](/images/blog/ex-on-nails.jpg "'Çivi çiviyi söker' misali, paslanmış çivilerle EX.")
 
 Doğadaki her seçim özünde ilahi bir güce bağlıdır. Buna rağmen, merkezcil yönetimlerin çoğunluğu kendi liderlerini oluştururlar. Doğadaki dengenin sağlanması için bazı liderler ilahi takviyeler sayesinde daha iyi olan seçimlerin önünü açabilirler. İstisna olan mistik (doğal) durumlar ise yönetim sistemlerinde yaşanan olumsuzlukların olumlu bir çıkış yolu bulamamasından kaynaklanır.
 

@@ -13,7 +13,7 @@ published: true
 
 Within the nature that moves as a whole, communities with different beliefs and purposes emerged. The steps that led to crossroads resulted in outcomes that were often similar. Some discoveries regarding the perception of power were divine, while others stemmed from the misuse of nature's offerings.
 
-![Modern Kingdoms](/images/blog/ex-on-nails.jpg)
+![Modern Kingdoms](/images/blog/ex-on-nails.jpg "EX with rusted nails, like 'one nail drives out another.'")
 
 Every choice in nature is fundamentally connected to a divine force. Nevertheless, most centralized governments appoint their own leaders. To maintain balance in nature, some leaders can open the way for better choices through divine support. Exceptional mystical (natural) cases occur when negative aspects within governance systems cannot find a positive resolution.
 
