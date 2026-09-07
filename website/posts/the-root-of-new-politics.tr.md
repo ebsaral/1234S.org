@@ -9,6 +9,6 @@ authorUrl: https://0.1234S.org
 order: 8
 published: true
 ---
-![Yeni Siyasetin Kökeni](/images/blog/mountain-view.jpg)
+![Yeni Siyasetin Kökeni](/images/blog/mountain-view.jpg "Sümela Manastırı'nın önündeki bir kaya fidanının manzarası.")
 
 Yakında...

@@ -9,6 +9,6 @@ authorUrl: https://0.1234S.org
 order: 8
 published: true
 ---
-![The Root of New Politics](/images/blog/mountain-view.jpg)
+![The Root of New Politics](/images/blog/mountain-view.jpg "The view of a rock plant in front of Sumela Monastery.")
 
 Soon...
