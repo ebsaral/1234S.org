@@ -10,11 +10,11 @@ order: 7
 published: true
 ---
 
-![Bizdeki Ben](/images/blog/smoking-sisha.jpg)
+![Bizdeki Ben](/images/blog/smoking-sisha.jpg "Münih'teki bir kafede ben.")
 
 ## Saygı
 
-![Saygı](/images/blog/emre-and-chicken.jpg)
+![Saygı](/images/blog/emre-and-chicken.jpg "Kardeşim Yunus Emre'nin gençliği.")
 
 Her kelimenin zihinde farklı bir anlamı olabilir. Yaşam tecrübelerimizde zihnimizdeki anlamları bir heykeltıraş misali çevremizle birlikte şekillendiririz. Bu yüzden hislere odaklı olan *sevgi* ve *saygı* gibi kelimeler her zihinde farklı anlam kümelerini barındırır. 
 
@@ -58,7 +58,7 @@ Zihnimizdeki ve vücudumuzdaki engellerin tamamının politikanın merkezinde ol
 
 ## Bazı hisler satın alınamaz
 
-![Bazı hisler satın alınamaz](/images/blog/flying-car.jpg)
+![Bazı hisler satın alınamaz](/images/blog/flying-car.jpg "Oyuncak bir arabayla evden uçmayı temsil eden bir fotoğraf.")
 
 Geçtiğimiz günlerde, zihnimi dinlendirmek için göl kenarındaki bir yere arabayla yolculuğa çıktım. Dağların arasında, yüksek rakımda yer alan, Uzungöl isimli bir yerdi. Birkaç saat sonra geri dönmeye karar verdim, ancak tek şeritli bir yolda uzun bir trafik kuyruğuna takıldım. Trafiğin en önünde büyük bir yolcu otobüsü vardı. Onun ardından kuyruk oluşturan 20 küsür aracın ardında tek başıma ilerliyordum. Yol çok virajlı olduğu için sollama yapmak gerçekten zordu.
 

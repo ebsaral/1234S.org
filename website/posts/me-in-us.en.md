@@ -10,11 +10,11 @@ order: 7
 published: true
 ---
 
-![Me in Us](/images/blog/smoking-sisha.jpg)
+![Me in Us](/images/blog/smoking-sisha.jpg "Me in a cafe in Munich.")
 
 ## Respect
 
-![Respect](/images/blog/emre-and-chicken.jpg)
+![Respect](/images/blog/emre-and-chicken.jpg "My brother Yunus Emre's youth.")
 
 Every word can have a different meaning in the mind. In our life experiences, we shape the meanings in our minds like sculptors, together with our environment. Therefore, words like *love* and *respect*, which are based on feelings, draws different meaning circles in every mind.
 
@@ -58,7 +58,7 @@ I had to show courage against the circles of respect surrounding fear to see tha
 
 ## Some feelings cannot be bought
 
-![Some feelings cannot be bought](/images/blog/flying-car.jpg)
+![Some feelings cannot be bought](/images/blog/flying-car.jpg "A photo representing flying out of the house in a toy car.")
 
 A few days ago, to clear my mind, I went for a drive to a lakeside. It was a place called Uzungöl, nestled high in the mountains. After a few hours, I decided to head back, but I got stuck in a long traffic jam on a single-lane road. A large passenger bus was at the front of the line, followed by about 20 other cars. I was following that road; very winding, making overtaking incredibly difficult.
 
