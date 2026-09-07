@@ -144,7 +144,7 @@ const BlogPost = ({
               )}
             </div>
 
-            <Tooltip id='tooltip' className='font-medium p-2 rounded-md shadow-lg max-w-xs' />
+            <Tooltip id='tooltip' className='relative z-10 font-medium p-2 rounded-md shadow-lg max-w-xs' />
             <article className='prose-custom-blog text-gray-900 max-w-2xl mx-auto w-full'>
               <MarkdownRenderer>{item.content}</MarkdownRenderer>
             </article>
