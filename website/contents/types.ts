@@ -41,6 +41,11 @@ export interface TeamContent {
 }
 
 export interface HomePageContent {
+  title: string;
+  description: string;
+  storyButton: {
+    label: string;
+  };
   logo: {
     title: string;
     src: string;

@@ -35,6 +35,7 @@ interface JusticeContent {
       means: string;
       result: string;
     }[];
+    note: string;
   };
   reading: string;
 }

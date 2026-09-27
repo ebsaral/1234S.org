@@ -14,6 +14,12 @@ interface FooterContent {
   github: FooterLink;
   productHunt: FooterLink;
   wholeness: string;
+  badge: {
+    release: {
+      img: string;
+      alt: string;
+    };
+  };
 }
 
 const pageContent = {
