@@ -44,29 +44,12 @@ const pageContent = {
       },
       {
         title: t({
-          en: 'Transforming health sector',
-          tr: 'Sağlık sektörünün dönüştürülmesi',
+          en: 'Transforming business models',
+          tr: 'İş modellerinin dönüştürülmesi',
         }),
         subtitle: t({
-          en: '- Proving the validity of our teachings in patient treatment methods and transitioning to a healthy global health model that will end the use of pharmaceuticals.',
-          tr: '- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
-        }),
-        status: {
-          key: 'on-hold',
-          text: t({
-            en: 'Getting prepared',
-            tr: 'Hazırlanılıyor',
-          }),
-        },
-      },
-      {
-        title: t({
-          en: 'Developing business models',
-          tr: 'İş modellerinin geliştirilmesi',
-        }),
-        subtitle: t({
-          en: '- By implementing block mechanisms against business models that cause harm in public, giving wing to healthy (sustainable) business models.',
-          tr: '- Halkın sağlığına zarar veren iş modellerini engelleyen mekanizmaları devreye alarak, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.',
+          en: '- By implementing block mechanisms against business models that cause harm in public, giving wing to healthy (sustainable) business models.\n- Proving the validity of our teachings in patient treatment methods and transitioning to a healthy global health model that will end the use of pharmaceuticals.',
+          tr: '- Halkın sağlığına zarar veren iş modellerini engelleyen mekanizmaları devreye alarak, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.\n- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
         }),
         status: {
           key: 'not-started',
@@ -82,8 +65,8 @@ const pageContent = {
           tr: 'Fırsat eşitliğinin sağlanması',
         }),
         subtitle: t({
-          en: '- Improving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
-          tr: '- Rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
+          en: '- Ensuring all business models are free of scientific and management frauds.\n- Improving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
+          tr: '- Tüm iş modellerinin bilimsel ve yönetimsel sahtekârlıklardan arınmış olmalarını sağlamak.\n- Rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
         }),
         status: {
           key: 'not-started',
@@ -95,8 +78,8 @@ const pageContent = {
       },
     ],
     support: t({
-      en: 'You can help us reach individuals and/or organizations that can assist with any step in our action plan. To contribute to the development and proceeding of this philosophical movement, you can visit our <u>**Contact**</u> page.',
-      tr: 'Eylem planımızdaki herhangi bir adıma yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz. Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz.',
+      en: 'You can help us reach individuals and/or organizations that can assist with any step in our action plan. To contribute to the development and proceeding of this philosophical movement that handles all steps above together, you can visit our <u>**Contact**</u> page.',
+      tr: 'Eylem planımızdaki herhangi bir adıma yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz. Tüm adımları bir bütün olarak ele alan bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz.',
     }),
   },
 } satisfies Dictionary;

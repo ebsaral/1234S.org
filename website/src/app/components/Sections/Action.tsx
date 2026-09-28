@@ -119,34 +119,34 @@ const Action = () => {
                 </Card>
               );
             })}
-            <Card
-              ref={(el) => {
-                refs.current[content.items.length] = el;
-              }}
-              data-index={content.items.length}
-              style={{ willChange: 'transform' }}
-              className={`group bg-purple-100/50 backdrop-blur-sm shadow-xl border-0 bg-gradient-to-br sm:bg-gradient-to-b from-white to-purple-100/60  relative transform transition-all duration-700 ease-out transform-origin-center ${
-                visibleItems[content.items.length] ? 'scale-100 translate-y-0' : 'scale-90 translate-y-4'
-              }`}
-            >
-              <CardContent className='p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line'>
-                <Link href={getLocalizedUrl('contact', locale)}>
-                  <div className='col-span-6'>
-                    <div className='flex items-center justify-center text-xl font-bold text-rose-700 mb-8 mt-[-5]'>
-                      <GiLifeSupport
-                        className='text-rose-700 transition-all duration-500 ease-in-out group-hover:scale-125'
-                        size={80}
-                      />
-                    </div>
-                    <article className='prose-custom-all text-left'>
-                      <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
-                    </article>
-                  </div>
-                </Link>
-              </CardContent>
-            </Card>
           </div>
         )}
+        <Card
+          ref={(el) => {
+            refs.current[content.items.length] = el;
+          }}
+          data-index={content.items.length}
+          style={{ willChange: 'transform' }}
+          className={`group bg-purple-100/50 backdrop-blur-sm shadow-xl border-0 bg-gradient-to-br sm:bg-gradient-to-b from-white to-purple-100/60  relative transform transition-all duration-700 ease-out transform-origin-center ${
+            visibleItems[content.items.length] ? 'scale-100 translate-y-0' : 'scale-90 translate-y-4'
+          }`}
+        >
+          <CardContent className='p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line'>
+            <Link href={getLocalizedUrl('contact', locale)}>
+              <div className='col-span-6'>
+                <div className='flex items-center justify-center text-xl font-bold text-rose-700 mb-8 mt-[-5]'>
+                  <GiLifeSupport
+                    className='text-rose-700 transition-all duration-500 ease-in-out group-hover:scale-125'
+                    size={80}
+                  />
+                </div>
+                <article className='prose-custom-all text-left'>
+                  <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
+                </article>
+              </div>
+            </Link>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );
