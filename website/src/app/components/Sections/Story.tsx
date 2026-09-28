@@ -39,6 +39,16 @@ const Story = () => {
       <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
         <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
       </article>
+      <div className='max-w-xl mx-auto text-center text-white font-semibold'>
+        {content.items.map((item, index) => (
+          <div key={index} className='flex flex-col gap-1 mb-4'>
+            <div className='font-bold'>{item.title.value}</div>
+            <div className='text-sm'>{item.description.value}</div>
+          </div>
+        ))}
+      </div>
+
+      <div className='text-xs mb-4'>{content.itemsNote.value}</div>
       <Link
         href={getLocalizedUrl('/spirituality', locale)}
         className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mt-5 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95'
