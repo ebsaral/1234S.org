@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "intlayer:build": "intlayer build",
-    "dev": "intlayer watch --with next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
