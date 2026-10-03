@@ -4,7 +4,7 @@ title: The Rape Case of Big Tech Companies!
 subtitle: "A major scandal that concerns every citizen: The damages to public health and environment caused by the illicit global economic model that is linked to a centralized artificial intelligence system."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-09-01
+updated: 2026-10-03
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org
 order: 1
@@ -144,6 +144,7 @@ By keeping people's sense of self under control, society's perception of what is
 
 While the biological devices can control our lives, it can also give strength to abilities. The features to reflect visuals onto our eyes, make us hear voices, or control our muscles is used to gather all kind of intelligence and attention. Any kind of information or attention becomes easily accessable to those who are in this illegal global network. Those business people, artists, or managers can easily cheat in any condition and gain a massive amount of unfair luck among other people. Although many people get a share of the global pie, it is estimated that the number of people who possess all the technological features is quite small.
 
+> Even though they are not among the few who own the centralized system, those who notice certain advanced features —unaware that they have become puppets of artificial intelligence— believe they are benefiting from a great fortune and exploit the people around them using these very features. Deluding themselves into thinking they are administrators, shareholders, or kings —and thus partners in the system— they play their part in the cycle of consumption for a short term.
 
 ### The Rape: Health Issues, Occupational and Personal Safety, and Violations of Privacy
 
@@ -199,19 +200,20 @@ Some of the offenses include:
 ## General Answers to the Questions
 
 **Why do elections fail to produce the expected results despite persistent instability in the governance of countries or companies?**  
+
+In order to keep a particular leader in power, individuals or groups considered opponents or rivals may be subjected to health, safety, and security problems. Through the biological devices implanted into our bodies without consent, it is claimed that poisonings, heart attacks, physical ailments, traffic accidents, aircraft accidents, and technical malfunctions can be induced. It can be observed that artificial disasters such as winds, storms, rain, floods, and hurricanes are being created through weather manipulations that are not yet fully understood.
+
+Social unrest and divisions can be created within society, allowing public opinion to be directed in favor of leaders who would otherwise be expected to be replaced. Emotional interest in political rivals who gain visibility on social media can be suppressed, while emotional attachment to a leader who would not ordinarily be expected to receive such support can be encouraged. The information we encounter on social media or in daily life can be artificially altered and how we interpret it can be implanted in our minds as it is our own thought or belief.
+
 **Why do some people (artists, business owners, footballers, etc.) or products (clothing, cars, software, beliefs, etc.) receive more attention than others?**
 
-In order to keep a particular leader in power, individuals or groups considered opponents or rivals may be subjected to health, safety, and security problems. Through the biological devices implanted into our bodies without consent, it is claimed that poisonings, heart attacks, physical ailments, traffic accidents, aircraft accidents, and technical malfunctions can be induced.
-
-Social unrest and divisions can be created within society, allowing public opinion to be directed in favor of leaders who would otherwise be expected to be replaced. Emotional interest in political rivals who gain visibility on social media can be suppressed, while emotional attachment to a leader who would not ordinarily be expected to receive such support can be encouraged.
-
-Some people or products attract more attention because emotions and addictions are controlled by devices in our bodies. They sell more products, and more people follow them. Sometimes, people defend those people or products frantically. All of these unhealthy addictive feelings are linked to artificial intelligence technology in our bodies.
+All people or products attract less or more attention because all emotions and addictions are controlled by the artificial intelligence technology in our bodies. They sell less or more products, and less or more people follow them. Sometimes, people defend those people or products frantically. All of these unhealthy addictive feelings are instantaneously linked to artificial intelligence technology in our bodies.
 
 **Why do illnesses or accidents still occur despite preventive measures being taken? Why do mental and physical problems develop?**  
 **Why do diseases recur, change form, or exhibit inconsistent symptoms despite different treatment methods being applied?**  
 **Why do people experience unnatural or unexpected phenomena related to addictions?**  
 
-Nearly all illnesses originate from the biological devices implanted into our bodies. Some accidents are resulting from technological devices being directed outside our control. These biological devices, the primary source of social unrest and humanity's disconnection from nature, cause diseases to develop or change in form.
+Nearly all illnesses originate from the artificial intelligence implanted into our bodies. Some accidents are resulting from technological devices being directed outside our control. These biological devices, the primary source of social unrest and humanity's disconnection from nature, cause diseases to develop or change in form.
 
 Although everyone possesses the same devices and is subjected to similar forms of interference, some people appear to suffer harm while others do not. This can be better understood through the [Justice](/spirituality#c) principle of [Logical Spirituality](/spirituality).
 
@@ -220,7 +222,11 @@ Although everyone possesses the same devices and is subjected to similar forms o
 **Why do actions that conflict with conscience occur in the environment around you? Why do unexpected emotional changes or developments incompatible with peaceful policies take place?**  
 **Why does the number of customers fail to reach the expected level despite the quality of a product? Why do users encounter unexplained problems or choose not to use your product?**  
 
-The biological devices within our bodies are capable of influencing our emotions, reactions, decisions, desires, and intentions. Because they also affect the mental and physical well-being of the people around us in similar ways, problems may arise or recur despite our efforts.
+The artificial intelligence technologies within and around our bodies are controlling our emotional states, speech, thoughts, reactions, choices, desires, and wishes. The fact that the mental and physical states of the people around us are similarly affected causes various problems to arise or previously experienced problems to recur despite our own efforts.
+
+Since many aspects of our lives, from our position within society to the opportunities available to us in any area of interest, are under the control of the artificial intelligence within our bodies, the outcomes we seek or expect remain beyond our control.
+
+Similarly, our physical and mental abilities, as well as the achievements we attain, are also connected to and influenced by the AI technologies within and around our bodies. This indicates that a person's control over their own abilities, efforts, and outcomes is limited or nonexistent.
 
 ## Notes
 

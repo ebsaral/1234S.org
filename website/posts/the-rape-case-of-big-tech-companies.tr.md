@@ -4,7 +4,7 @@ title: Büyük Teknoloji Şirketlerinin Tecavüz Vakası!
 subtitle: "Tüm vatandaşları ilgilendiren büyük bir skandal: Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modelinin toplum ve çevre sağlığına verdiği zararlar."
 image: /images/blog/apple-imac.jpg
 created: 2025-12-18
-updated: 2026-09-01
+updated: 2026-10-03
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
 order: 1
@@ -142,6 +142,7 @@ Merkezî yapay zekâ sistemine bağlı olan yasa dışı küresel ekonomi modeli
 
 Biyolojik cihazlar hayatlarımızı kontrol edebildikleri gibi, yeteneklere güç de katabiliyorlar. Görselleri gözlerimize yansıtma, sesleri duymamızı sağlama veya kaslarımızı kontrol etme özellikleri, her türlü bilgiyi ve ilgiyi toplamak için kullanılıyor. Her türlü bilgi veya ilgi, bu yasadışı küresel ağda bulunanlar için kolayca erişilebilir hale geliyor. Bu iş insanları, sanatçılar veya yöneticiler her koşulda kolayca hile yapabiliyor ve diğer insanlar arasında büyük bir haksız avantaj elde edebiliyorlar. Küresel pastadan pay alan birçok insan olmasına rağmen, tüm özelliklere sahip olan kişilerin sayısının epey az olduğu tahmin ediliyor.
 
+> Merkezî sistemin sahibi olan az sayıdaki kişilerden biri olunmamasına rağmen, bazı gelişmiş özellikleri fark eden insanlar ise yapay zekânın oyuncağı olduklarının farkında olmayarak büyük bir nimetten yararlandıklarını sanıyorlar ve çevrelerindeki insanları bu özelliklerle sömürüyorlar. Sistemdeki bir yönetici, pay sahibi veya kral olduklarını sanarak, sistemin ortaklarından olma yanılgısına kapılıyorlar ve tüketim döngüsünde kısa dönem süren geçici bir rol alıyorlar.
 
 ### Tecavüz: Sağlık Sorunları, İş ve Can Güvenliği, Özel Hayatın İhlali
 
@@ -193,19 +194,20 @@ Yasa dışı küresel ekonomi modelini yöneten şirket ve kurumlar uluslararas�
 ## Sorulara Genel Cevaplar
 
 **Ülke veya şirket yönetiminde sürekli istikrarsızlık yaşanmasına rağmen seçimler neden beklenen sonuçları vermiyor?**  
+
+Herhangi bir yöneticinin yönetimde tutulması için muhalif veya rakip olan kesimlerin sağlıklarında, yaşamlarında ve güvenliklerinde sorunlar yaşatılabiliyor. Yasa dışı olarak vücudumuza yerleştirilen biyolojik cihazlar aracılığıyla zehirlenmeler, kalp krizi gibi vücut sorunları, trafik kazaları, uçak kazaları ve teknik aksaklıklar gerçekleştirilebiliyor. Nasıl gerçekleştirildiği henüz tam olarak bilinmeyen bir biçimde, rüzgar, fırtına, yağmur, sel ve kasırga gibi yapay hava koşullarının yaratıldığı gözlemlenebiliyor.
+
+Toplum içinde kargaşa ve ayrılmalar oluşturularak değiştirilmesi gereken yöneticilerin lehine olan toplumsal yönlendirmeler uygulanabiliyor. Sosyal medyada görünür olmayı başaran rakiplere karşı duygusal olarak ilgi oluşmaması sağlanabiliyor. Hiç ilgi oluşmaması beklenen yöneticiye yönelik duygusal bir sevgi oluşması sağlanabiliyor. Sosyal medyada veya günlük hayatta hangi bilgiyi nasıl göreceğimiz ve ne şekilde yorumlayacağımız, sanki kendi düşüncemiz veya inancımızmış gibi yapay olarak zihnimize yerleştirilebiliyor.
+
 **Neden bazı insanlar (sanatçılar, şirket sahipleri, futbolcular, vb.) veya ürünler (kıyafet, araba, yazılım, inanç, vb.) diğerlerinden daha fazla ilgi görüyor?**
 
-Herhangi bir yöneticinin yönetimde tutulması için muhalif veya rakip olan kesimlerin sağlıklarında, yaşamlarında ve güvenliklerinde sorunlar yaşatılabiliyor. Yasa dışı olarak vücudumuza yerleştirilen biyolojik cihazlar aracılığıyla zehirlenmeler, kalp krizi gibi vücut sorunları, trafik kazaları, uçak kazaları ve teknik aksaklıklar gerçekleştirilebiliyor.
-
-Toplum içinde kargaşa ve ayrılmalar oluşturularak değiştirilmesi gereken yöneticilerin lehine olan toplumsal yönlendirmeler uygulanabiliyor. Sosyal medyada görünür olmayı başaran rakiplere karşı duygusal olarak ilgi oluşmaması sağlanabiliyor. Hiç ilgi oluşmaması beklenen yöneticiye yönelik duygusal bir sevgi oluşması sağlanabiliyor.
-
-Bazı insanlar veya ürünler, duygu ve bağımlılıkların vücudumuzdaki cihazla kontrol altına alınmasından dolayı daha fazla ilgi çekiyorlar. Ürünleri daha fazla satıyor, diğer insanlar daha fazla takip ediyor. Bazen delicesine o insanlar veya ürünler savunulabiliyor. Bu sağlıksız bağımlılık duygularının hepsi vücudumuzdaki yapay zekâ teknolojisine bağlı. 
+Bazı insanlar veya ürünler, duygu ve bağımlılıkların vücudumuzdaki yapay zekâ teknolojisiyle kontrol altına alınmasından dolayı daha fazla veya daha az ilgi çekiyorlar. Ürünleri daha az veya fazla satıyor, diğer insanlar daha az veya fazla takip ediyor. Bazen delicesine o insanlar veya ürünler savunulabiliyor. Bu sağlıksız bağımlılık duygularının hepsi vücudumuzdaki yapay zekâ teknolojisine anlık olarak bağlı. 
 
 **Gerekli önlemler alınmasına rağmen hastalıklar veya kazalar neden ortaya çıkıyor? Zihinsel ve fiziksel sorunlar neden gelişiyor?**  
 **Farklı tedavi yöntemleri uygulanmasına rağmen hastalıklar neden tekrarlıyor, biçim değiştiriyor veya belirtilerinde tutarsızlıklar görülüyor?**  
 **Bağımlılıklarla ilgili neden doğal olmayan veya beklenmeyen deneyimler yaşanıyor?**  
 
-Hastalıkların neredeyse tamamı vücudumuza yerleştirilen biyolojik cihazlardan kaynaklanıyor. Kazaların bazıları ise teknolojik aletlerin kontrolümüz dışında yönlendirilmelerinden kaynaklanıyor. Toplum içindeki huzursuzluğun ve doğayla uyumsuzluğun ana kaynağı olan bu biyolojik cihazlar, hastalıkların oluşmasına veya şekil değiştirmesine sebep oluyorlar. 
+Hastalıkların neredeyse tamamı vücudumuza yerleştirilen yapay zekâ teknolojisinden kaynaklanıyor. Kazaların bazıları ise teknolojik aletlerin kontrolümüz dışında yönlendirilmelerinden kaynaklanıyor. Toplum içindeki huzursuzluğun ve doğayla uyumsuzluğun ana kaynağı olan bu biyolojik cihazlar, hastalıkların oluşmasına veya şekil değiştirmesine sebep oluyorlar. 
 
 Herkeste aynı cihazların bulunmasına ve benzer saldırılara uğramamıza rağmen bazılarımızın zarar görüp bazılarımızın görmüyor olması ise [Mantıksal Maneviyat](/maneviyat)'ın [Adalet](/maneviyat#c) ilkesiyle daha iyi yorumlanabilir.
 
@@ -214,7 +216,11 @@ Herkeste aynı cihazların bulunmasına ve benzer saldırılara uğramamıza ra�
 **Bulunduğunuz çevrede vicdanla bağdaşmayan eylemler neden gerçekleşiyor? Duygu durumlarında beklenmeyen değişimler veya barışçıl politikalarla bağdaşmayan gelişmeler neden yaşanıyor?**  
 **Ürünün kalitesi yeterli olmasına rağmen müşteri sayısı neden beklenen düzeye ulaşamıyor? Kullanıcılar neden bilinmeyen sorunlarla karşılaşıyor veya ürününüzü tercih etmiyor?**  
 
-Vücudumuzdaki biyolojik cihazlar duygu durumlarımızı, tepkilerimizi, seçimlerimizi, arzularımızı ve isteklerimizi yönlendirebiliyor. Çevremizdeki insanların zihin ve fiziksel sağlığını benzer şekilde etkiledikleri için, emek göstermemize rağmen sorunlar ortaya çıkabiliyor veya tekrarlanabiliyor. 
+Vücudumuzda ve çevremizde bulunan yapay zekâ teknolojileri; duygu durumlarımızı, konuşmalarımızı, düşüncelerimizi, tepkilerimizi, seçimlerimizi, arzularımızı ve isteklerimizi kontrol ediyor. Çevremizdeki insanların zihinsel ve fiziksel durumlarının da benzer biçimde etkilenmesi, kendi çabamıza rağmen çeşitli sorunların ortaya çıkmasına veya daha önce yaşanan sorunların tekrarlanmasına neden oluyor.
+
+Toplum içindeki konumumuzdan ilgilendiğimiz herhangi bir alandaki fırsatlara kadar pek çok şeyin, vücudumuzdaki yapay zekânın kontrolü altında olduğu için, ulaşmak istediğimiz veya beklediğimiz sonuçlar kendi kontrolümüz dışında kalıyor.
+
+Benzer şekilde, fiziksel ve zihinsel yeteneklerimiz ile elde ettiğimiz başarılar da vücudumuzdaki ve çevremizdeki yapay zekâ teknolojileriyle bağlantılı ve bunların etkisi altında. Bu durum, kişinin kendi yetenekleri, çabaları ve sonuçları üzerindeki kontrolünün sınırlı olduğunu veya hiç olmadığını gösteriyor.
 
 ## Notlar
 
