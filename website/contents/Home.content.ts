@@ -55,8 +55,8 @@ const pageContent = {
             tr: '### Bütünlük İçindeki Düzen',
           }),
           subtitle: t({
-            en: "How various disciplines are interconnected within small and large life cycles that repeat in similar patterns across all communities. How to understand and translate nature's universal language better through symbols developed by the human mind for every living being's daily life.",
-            tr: 'Çeşitli disiplinlerin, tüm topluluklarda benzer örüntülerle tekrarlanan küçük ve büyük yaşam döngüleri içinde nasıl birbirlerine bağlı oldukları. Her canlının günlük yaşamı için, insan zekâsının geliştirdiği sembollerle doğanın evrensel dilini nasıl daha iyi anlaşılacağı ve tercüme edileceği.',
+            en: 'How various disciplines are interconnected within small and large life cycles that repeat in similar patterns across all communities. How to understand and translate nature\'s universal language better through symbols developed by the [human intelligence](){data-tooltip-id="tooltip" data-tooltip-content="Intelligence is defined as the life experience of a living being. It is one of the abilities bestowed by nature, yet it is not a tool for superiority. It cannot be measured through tests or without fully understanding the individual."} for every living being\'s daily life.',
+            tr: 'Çeşitli disiplinlerin, tüm topluluklarda benzer örüntülerle tekrarlanan küçük ve büyük yaşam döngüleri içinde, nasıl birbirlerine bağlı oldukları. Her canlının günlük yaşamı için, [insan zekâsı](){data-tooltip-id="tooltip" data-tooltip-content="Bir canlının yaşam tecrübesine zekâ denir. Doğada bahşedilen yeteneklerden biridir fakat bir üstünlük aracı değildir. Herhangi bir insanı tamamen anlamadan veya test yoluyla ölçülemez."}nın geliştirdiği sembollerle doğanın evrensel dilinin nasıl daha iyi anlaşılacağı ve tercüme edileceği.',
           }),
         },
         {
@@ -66,7 +66,7 @@ const pageContent = {
           }),
           subtitle: t({
             en: "How to fix to all global issues permanently with honest, inclusive, innovative, simple, visionary, comprehensive, and sustainable solutions, without postpoing society's peace anymore. Reinterpretation of historical events and current developments in our lives, from global changes to personal life experiences.",
-            tr: 'Toplumun huzurunu daha fazla ertelemeksizin, dürüst, yenilikçi, basit, vizyoner, kapsayıcı, kapsamlı ve sürdürülebilir çözümlerle bütün küresel sorunları kalıcı bir biçimde nasıl çözüleceği. Küresel değişimlerden kişisel yaşam deneyimlerine kadar tarihi olayların ve yaşantımızdaki güncel gelişmelerin yeniden yorumlanması.',
+            tr: 'Toplumun huzurunu daha fazla ertelemeksizin, dürüst, yenilikçi, basit, vizyoner, kapsayıcı, kapsamlı ve sürdürülebilir çözümlerle bütün küresel sorunların kalıcı bir biçimde nasıl çözüleceği. Küresel değişimlerden kişisel yaşam deneyimlerine kadar tarihi olayların ve yaşantımızdaki güncel gelişmelerin yeniden yorumlanması.',
           }),
         },
 

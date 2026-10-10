@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useIntlayer, useLocale } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
+import { Tooltip } from 'react-tooltip';
 
 type BeatStyle = {
   borderColor: string;
@@ -77,6 +78,11 @@ const Research = () => {
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
           <MarkdownRenderer>{content.projects.title.value}</MarkdownRenderer>
         </div>
+
+        <Tooltip
+          id='tooltip'
+          className='relative z-10 !bg-white !text-gray-900 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100'
+        />
 
         <div
           className='research max-w-5xl mx-auto mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8'
