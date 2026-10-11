@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Tooltip } from 'react-tooltip';
 
+import { TbBrandYcombinator } from 'react-icons/tb';
 import { LuFileBadge, LuGlobe } from 'react-icons/lu';
 import { getAge } from '../lib/utils';
 import Description from './Custom/Description';
@@ -61,27 +62,41 @@ const TeamMember = ({ member, index = 0 }) => {
               </em>
             )}
             {member.links && (
-              <div className='flex flex-col sm:flex-row mt-2 gap-2 sm:gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
-                {member.links[0] && (
-                  <Link
-                    className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
-                    href={member.links[0].href.value}
-                    title={member.links[0].text.value}
-                  >
-                    <LuGlobe size={20} />
-                    {member.links[0].text.value}
-                  </Link>
-                )}
-                {member.links[1] && (
-                  <Link
-                    className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
-                    href={member.links[1].href.value}
-                    title={member.links[1].text.value}
-                  >
-                    <LuFileBadge size={20} />
-                    {member.links[1].text.value}
-                  </Link>
-                )}
+              <div className='flex flex-col mt-2 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
+                <div className='flex flex-col sm:flex-row mt-2 gap-2 sm:gap-4 items-center justify-center text-center'>
+                  {member.links[0] && (
+                    <Link
+                      className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
+                      href={member.links[0].href.value}
+                      title={member.links[0].text.value}
+                    >
+                      <LuGlobe size={20} />
+                      {member.links[0].text.value}
+                    </Link>
+                  )}
+                  {member.links[1] && (
+                    <Link
+                      className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
+                      href={member.links[1].href.value}
+                      title={member.links[1].text.value}
+                    >
+                      <LuFileBadge size={20} />
+                      {member.links[1].text.value}
+                    </Link>
+                  )}
+                </div>
+                <div className='flex flex-col mt-2 gap-2 sm:gap-4 items-center justify-center text-center'>
+                  {member.links[2] && (
+                    <Link
+                      className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
+                      href={member.links[2].href.value}
+                      title={member.links[2].text.value}
+                    >
+                      <TbBrandYcombinator size={20} />
+                      {member.links[2].text.value}
+                    </Link>
+                  )}
+                </div>
               </div>
             )}
           </div>

@@ -52,6 +52,13 @@ const pageContent = {
               tr: 'https://0.1234s.org/ozgecmis',
             }),
           },
+          {
+            text: t({
+              en: 'Match Me on Y Combinator!',
+              tr: "Y Combinator'da Eşleşelim! (İng.)",
+            }),
+            href: 'https://www.startupschool.org/cofounder-matching/candidate/KfZfRGyVR',
+          },
         ],
       },
     ],
