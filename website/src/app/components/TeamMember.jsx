@@ -85,18 +85,6 @@ const TeamMember = ({ member, index = 0 }) => {
                     </Link>
                   )}
                 </div>
-                <div className='flex flex-col mt-2 gap-2 sm:gap-4 items-center justify-center text-center'>
-                  {member.links[2] && (
-                    <Link
-                      className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
-                      href={member.links[2].href.value}
-                      title={member.links[2].text.value}
-                    >
-                      <TbBrandYcombinator size={20} />
-                      {member.links[2].text.value}
-                    </Link>
-                  )}
-                </div>
               </div>
             )}
           </div>
@@ -110,6 +98,18 @@ const TeamMember = ({ member, index = 0 }) => {
           )}
         </CardContent>
       </div>
+      {member.links && member.links[2] && (
+        <div className='flex flex-col my-2 gap-2 sm:gap-4 items-center justify-center text-center text-sm sm:text-md font-thin [&>a]:text-gray-800'>
+          <Link
+            className='p-2 inline-flex gap-1 items-center justify-center hover:text-purple-900'
+            href={member.links[2].href.value}
+            title={member.links[2].text.value}
+          >
+            <TbBrandYcombinator size={20} />
+            {member.links[2].text.value}
+          </Link>
+        </div>
+      )}
     </Card>
   );
 };
