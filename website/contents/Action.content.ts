@@ -20,8 +20,8 @@ const pageContent = {
         status: {
           key: 'on-hold',
           text: t({
-            en: 'Being Kept Waiting / Getting Blocked',
-            tr: 'Bekletiliyor / Engelleniyor',
+            en: 'Getting Blocked',
+            tr: 'Engelleniyor',
           }),
         },
       },
