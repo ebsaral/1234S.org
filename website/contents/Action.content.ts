@@ -7,6 +7,10 @@ const pageContent = {
       en: 'Our Action Plan',
       tr: 'Eylem Planımız',
     }),
+    complaintLink: t({
+      en: 'The complaint file [WHRC 37992](/files/WHRC_37992.pdf) has been sent to [UN Human Rights Council](https://www.ohchr.org/) on October 16, 2026.',
+      tr: '[WHRC 37992](/files/WHRC_37992.pdf) (İng.) dosya numaralı şikâyet, 16 Ekim 2026 tarihinde [BM İnsan Hakları Konseyi](https://www.ohchr.org/)’ne gönderilmiştir.',
+    }),
     items: [
       {
         title: t({
