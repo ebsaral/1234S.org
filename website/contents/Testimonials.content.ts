@@ -141,8 +141,8 @@ const pageContent = {
       },
     ],
     chatTitle: t({
-      en: 'A WhatsApp chat with a close friend',
-      tr: 'Yakın bir arkadaşla olan bir WhatsApp sohbeti',
+      en: 'WhatsApp chat with a friend',
+      tr: 'Bir arkadaşımla WhatsApp sohbeti',
     }),
     chat: [
       {
