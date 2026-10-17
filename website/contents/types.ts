@@ -71,6 +71,10 @@ export interface TestimonialsContent {
     name: string;
     text: string;
   }[];
+  chatTitle: string;
+  chat: {
+    text: string;
+  }[];
   prev: string;
   next: string;
 }

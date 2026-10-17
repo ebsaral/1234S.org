@@ -144,6 +144,79 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
+      <div className='mt-12'>
+        {/* CSS block enforcing permanent OS scrollbar visibility */}
+        <style>{`
+    /* Force permanent scrollbar space allocation */
+    .chat-scroll-container {
+      overflow-y: scroll !important;
+      scrollbar-gutter: stable !important; /* Prevents layout shifting and keeps scroll bar space reserved */
+      scrollbar-width: thin !important;
+      scrollbar-color: #4f46e5 #f3f4f6 !important;
+    }
+
+    /* WebKit Browsers (Chrome, Safari, Edge) Override */
+    .chat-scroll-container::-webkit-scrollbar {
+      -webkit-appearance: none !important;
+      width: 10px !important;
+      height: 10px !important;
+      display: block !important;
+    }
+
+    .chat-scroll-container::-webkit-scrollbar-track {
+      background: #f3f4f6 !important;
+      border-radius: 6px !important;
+    }
+
+    .chat-scroll-container::-webkit-scrollbar-thumb {
+      background-color: #4f46e5 !important;
+      border-radius: 6px !important;
+      border: 2px solid #f3f4f6 !important;
+      min-height: 40px !important;
+    }
+
+    .chat-scroll-container::-webkit-scrollbar-thumb:hover {
+      background-color: #4338ca !important;
+    }
+  `}</style>
+
+        {/* 1. Fixed height card container with hidden overflow */}
+        <div
+          className='mx-auto max-w-2xl bg-white rounded-lg shadow-lg flex flex-col overflow-hidden'
+          style={{ height: '450px', maxHeight: '450px' }}
+        >
+          {/* 2. Header */}
+          <div className='bg-indigo-600 text-white p-4 flex-none flex items-center justify-between h-14'>
+            <span className='font-semibold'>{content.chatTitle}</span>
+          </div>
+
+          {/* 3. Outer wrapper controlling vertical space */}
+          <div className='relative flex-1 w-full min-h-0'>
+            {/* 4. Scrollable Container */}
+            <div className='absolute inset-0 p-4 chat-scroll-container'>
+              {content.chat.map((chatItem, index) => (
+                <div key={index} className={`flex items-start mb-4 ${index % 2 === 0 ? '' : 'justify-end'}`}>
+                  {index % 2 === 0 && (
+                    <div className='flex h-10 w-10 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none mr-2'>
+                      EY
+                    </div>
+                  )}
+                  <div
+                    className={`p-2 rounded-lg max-w-xs whitespace-pre-line ${index % 2 === 0 ? 'bg-gray-200' : 'bg-indigo-600 text-white'}`}
+                  >
+                    {chatItem.text}
+                  </div>
+                  {index % 2 !== 0 && (
+                    <div className='flex h-10 w-10 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'>
+                      EBS
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
