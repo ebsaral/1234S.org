@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { useIntlayer, useLocale } from 'react-intlayer';
 
@@ -207,11 +208,13 @@ export default function Testimonials() {
                     {chatItem.text}
                   </div>
                   {index % 2 !== 0 && (
-                    <img
+                    <Image
                       src='/images/people/eminbugrasaral-2025-with-spoon.jpg'
                       alt='EBS'
                       title='EBS'
-                      className='flex h-12 w-12 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'
+                      width={48}
+                      height={48}
+                      className='flex shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'
                     />
                   )}
                 </div>
