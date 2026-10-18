@@ -28,7 +28,7 @@ const pageContent = {
           day: 28,
         },
         image: {
-          src: '/eminbugrasaral-2025.jpg',
+          src: '/images/people/eminbugrasaral-2025-with-spoon.jpg',
           size: 120,
         },
         links: [

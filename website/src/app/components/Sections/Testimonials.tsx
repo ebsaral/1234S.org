@@ -208,7 +208,7 @@ export default function Testimonials() {
                   </div>
                   {index % 2 !== 0 && (
                     <img
-                      src='/eminbugrasaral-2025.jpg'
+                      src='/images/people/eminbugrasaral-2025-with-spoon.jpg'
                       alt='EBS'
                       title='EBS'
                       className='flex h-12 w-12 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'
