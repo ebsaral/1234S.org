@@ -71,10 +71,12 @@ export interface TestimonialsContent {
     name: string;
     text: string;
   }[];
-  chatTitle: string;
-  chat: {
-    text: string;
-  }[];
+  chatBox: {
+    title: string;
+    items: {
+      text: string;
+    }[];
+  };
   prev: string;
   next: string;
 }

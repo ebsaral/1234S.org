@@ -187,17 +187,17 @@ export default function Testimonials() {
         >
           {/* 2. Header */}
           <div className='bg-indigo-600 text-white p-4 flex-none flex items-center justify-between h-14'>
-            <span className='font-semibold'>{content.chatTitle}</span>
+            <span className='font-semibold'>{content.chatBox.title}</span>
           </div>
 
           {/* 3. Outer wrapper controlling vertical space */}
           <div className='relative flex-1 w-full min-h-0'>
             {/* 4. Scrollable Container */}
             <div className='absolute inset-0 p-4 chat-scroll-container'>
-              {content.chat.map((chatItem, index) => (
+              {content.chatBox.items.map((chatItem, index) => (
                 <div key={index} className={`flex items-start mb-4 ${index % 2 === 0 ? '' : 'justify-end'}`}>
                   {index % 2 === 0 && (
-                    <div className='flex h-10 w-10 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none mr-2'>
+                    <div className='flex h-12 w-12 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none mr-2'>
                       EY
                     </div>
                   )}
@@ -207,9 +207,12 @@ export default function Testimonials() {
                     {chatItem.text}
                   </div>
                   {index % 2 !== 0 && (
-                    <div className='flex h-10 w-10 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'>
-                      EBS
-                    </div>
+                    <img
+                      src='/eminbugrasaral-2025.jpg'
+                      alt='EBS'
+                      title='EBS'
+                      className='flex h-12 w-12 shrink-0 aspect-square items-center justify-center rounded-full bg-indigo-600 font-semibold text-white uppercase select-none ml-2'
+                    />
                   )}
                 </div>
               ))}
