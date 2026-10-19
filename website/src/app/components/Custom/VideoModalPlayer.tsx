@@ -84,7 +84,7 @@ export default function VideoModalPlayer({ videoSrc, thumbnailSrc, title = 'Vide
       <div
         onClick={handleOpen}
         className={`group relative cursor-pointer overflow-hidden rounded-xl shadow-lg ${
-          isShort ? 'aspect-[9/16] max-w-[280px] mx-auto' : 'aspect-video w-full'
+          isShort ? 'aspect-[9/16] max-w-lg mx-auto' : 'aspect-video w-full'
         }`}
       >
         <img src={displayThumbnail} alt={title} className='h-full w-full object-cover' />
