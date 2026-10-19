@@ -35,12 +35,12 @@ const Team = () => {
         </div>
       )}
 
-      <div className='relative z-10 flex items-center justify-center max-w-4xl mx-auto mt-10'>
+      <div className='relative z-10 flex items-center justify-center max-w-4xl mx-auto my-10'>
         <Link
           href={content.cofounder.href.value}
-          className={`text-center font-medium p-4 b-1 border-gray-900 text-gray-100 bg-gray-800 hover:bg-gray-900 ring-1 ring-gray-200 ring-offset-1 rounded-lg transition-all duration-200 ease-in-out`}
+          className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
         >
-          {content.cofounder.label}
+          <div className='max-w-4xl mx-auto text-center'>{content.cofounder.label}</div>
         </Link>
       </div>
 
