@@ -28,7 +28,7 @@ function isYouTubeShort(url: string): boolean {
 
 function getYouTubeEmbedUrl(url: string): string {
   const videoId = extractYouTubeId(url);
-  return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&enablejsapi=1&rel=0&cc_load_policy=0&cc_lang_pref=ignore`;
+  return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=0&playsinline=1&enablejsapi=1&rel=0&cc_load_policy=0&cc_lang_pref=ignore`;
 }
 
 function getYouTubeThumbnail(url: string): string {
