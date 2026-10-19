@@ -26,10 +26,13 @@ function extractYouTubeId(url: string): string {
   return match && match[1].length === 11 ? match[1] : url;
 }
 
-/** Helper to format YouTube embed URL with autoplay and captions disabled */
+/** Helper to format YouTube embed URL with autoplay and captions forcefully disabled */
 function getYouTubeEmbedUrl(url: string): string {
   const videoId = extractYouTubeId(url);
-  return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&cc_load_policy=0`;
+
+  // cc_load_policy=0 requests captions off
+  // cc_lang_pref=ignore prevents default track loading if YouTube overrides policy
+  return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&cc_load_policy=0&cc_lang_pref=ignore`;
 }
 
 /** Helper to generate standard YouTube thumbnail URL if custom thumbnail is omitted */
@@ -50,14 +53,11 @@ export default function VideoModalPlayer({ videoSrc, thumbnailSrc, title = 'Vide
   return (
     <div className='relative'>
       {/* Thumbnail Trigger */}
-      <div
-        onClick={handleOpen}
-        className='group relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-[1.02]'
-      >
+      <div onClick={handleOpen} className='group relative cursor-pointer overflow-hidden rounded-xl shadow-lg'>
         <img src={displayThumbnail} alt={title} className='aspect-video h-auto w-full object-cover' />
         {/* Play Button Overlay */}
         <div className='absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/40'>
-          <div className='flex h-14 w-14 items-center justify-center rounded-full bg-white/90 text-black shadow-xl transition-transform group-hover:scale-110'>
+          <div className='flex h-14 w-14 items-center justify-center rounded-full bg-white/90 text-black shadow-xl transition-transform duration-500 group-hover:scale-[1.5]'>
             <span className='ml-1 text-xl'>▶</span>
           </div>
         </div>
