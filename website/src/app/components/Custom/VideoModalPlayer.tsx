@@ -1,13 +1,13 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 interface VideoModalPlayerProps {
   /**
-   * Video URL supports:
-   * - YouTube Shorts: https://youtube.com/shorts/VIDEO_ID
-   * - Standard Watch: https://www.youtube.com/watch?v=VIDEO_ID
-   * - Short Links: https://youtu.be/VIDEO_ID
+- Video URL supports:
+- YouTube Shorts: https://youtube.com/shorts/VIDEO_ID
+- Standard Watch: https://www.youtube.com/watch?v=VIDEO_ID
+- Short Links: https://youtu.be/VIDEO_ID
    */
   videoSrc: string;
   thumbnailSrc?: string;
@@ -40,7 +40,7 @@ export default function VideoModalPlayer({ videoSrc, thumbnailSrc, title = 'Vide
     if (containerRef.current) {
       const elem = containerRef.current as any;
       if (elem.requestFullscreen) {
-        elem.requestFullscreen().catch(() => {});
+        elem.requestFullscreen().catch((err: Error) => console.warn('Fullscreen blocked:', err));
       } else if (elem.webkitRequestFullscreen) {
         elem.webkitRequestFullscreen();
       }
@@ -48,11 +48,20 @@ export default function VideoModalPlayer({ videoSrc, thumbnailSrc, title = 'Vide
   };
 
   const handleOpen = () => {
-    // Open modal state
     setIsOpen(true);
   };
 
+  // Trigger auto-fullscreen once the container ref mounts into the DOM
+  useEffect(() => {
+    if (isOpen) {
+      requestFullscreen();
+    }
+  }, [isOpen]);
+
   const handleClose = () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(() => {});
+    }
     setIsOpen(false);
   };
 
@@ -86,7 +95,7 @@ export default function VideoModalPlayer({ videoSrc, thumbnailSrc, title = 'Vide
               }}
               className='flex h-12 px-4 items-center justify-center rounded-full bg-white/10 text-sm font-medium text-white transition-colors hover:bg-white/20 focus:outline-none'
             >
-              ⛶ Fullscreen
+              ⛶
             </button>
 
             <button
