@@ -45,7 +45,11 @@ const Team = () => {
       </div>
 
       <div>
-        <VideoModalPlayer videoSrc='https://youtube.com/shorts/-lVOTM2TiFE' title='YouTube Video' />
+        <VideoModalPlayer
+          videoSrc='https://youtube.com/shorts/-lVOTM2TiFE'
+          title='YouTube Video'
+          thumbnailSrc='/images/ebs-video-thumbnail-ai.png'
+        />
       </div>
 
       <div className='sea -mt-24 z-0'>
