@@ -5,6 +5,7 @@ import { useIntlayer } from 'next-intlayer';
 import Link from 'next/link';
 import CustomFlower from '../Custom/CustomFlower';
 import TeamMember from '../TeamMember';
+import VideoModalPlayer from '../Custom/VideoModalPlayer';
 
 const Team = () => {
   const id = 'team';
@@ -41,6 +42,10 @@ const Team = () => {
         >
           {content.cofounder.label}
         </Link>
+      </div>
+
+      <div>
+        <VideoModalPlayer videoSrc='https://youtube.com/shorts/-lVOTM2TiFE' title='YouTube Video' />
       </div>
 
       <div className='sea -mt-24 z-0'>
