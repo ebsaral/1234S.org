@@ -45,8 +45,8 @@ const pageContent = {
         tr: '## Araştırma ve Geliştirme Konularımız',
       }),
       description: t({
-        en: 'You can [contact us](/contact) for more information on these topics in which we are very well-versed.',
-        tr: 'Detaylarına hakim olduğumuz bu konular hakkında daha fazla bilgi almak için bizimle [iletişime geçebilirsiz](/iletisim).',
+        en: "Reality doesn't depend on what we believe. It is our responsibility to shape our beliefs to understand the reality and, ultimately, the truth. We can either choose to stay ignorant or try to understand it.",
+        tr: "Gerçek, neye inandığımıza bağlı değildir. Gerçekliği ve nihayetinde doğruyu anlamak için inançlarımızı şekillendirmek bizim sorumluluğumuzdur. Ya bihaber kalmayı seçebilir ya da O'nu anlamaya çalışabiliriz.",
       }),
       items: [
         {
