@@ -42,7 +42,7 @@ const pageContent = {
           tr: 'Tanrı ≈ Bilimsel Gerçekler',
         }),
         description: t({
-          en: 'As we free ourselves from the frauds in scientific truths, we better understand the God.',
+          en: 'As we free ourselves from the frauds in scientific truths, we better understand The God.',
           tr: "Bilimsel gerçeklerdeki sahtekârlıklardan arındıkça, Tanrı'yı daha iyi anlarız.",
         }),
       },
