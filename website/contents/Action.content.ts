@@ -18,8 +18,8 @@ const pageContent = {
           tr: 'Hukuki süreç ve kamuoyunun bilgilendirilmesi',
         }),
         subtitle: t({
-          en: '- Researching [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies) and filing lawsuits to initiate legal proceedings.\n- Compensating all citizens for the financial and moral damages caused by companies.\n- Informing the public about the illegal business practices of those companies throughout the entire legal process.',
-          tr: "- [Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi)'nın araştırılması ve yasal işlemlerin başlatılması için davalar açılması.\n- Şirketlerin yaşattıkları maddi ve manevi hasarların tüm vatandaşlara tazminat olarak geri ödenmesi.\n- Tüm dava sürecinde, şirketlerin uyguladıkları yasal olmayan iş modelleri hakkında kamuoyunun bilgilendirilmesi.",
+          en: '- Announcing [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies) to the public and filing lawsuits to initiate legal proceedings.\n- Compensating all citizens for the financial and moral damages caused by companies.\n- Informing the public about the illegal business practices of those companies throughout the entire legal process.',
+          tr: "- [Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi)'nın kamuoyuna duyurulması ve yasal işlemlerin başlatılması için davalar açılması.\n- Şirketlerin yaşattıkları maddi ve manevi hasarların tüm vatandaşlara tazminat olarak geri ödenmesi.\n- Tüm dava sürecinde, şirketlerin uyguladıkları yasal olmayan iş modelleri hakkında kamuoyunun bilgilendirilmesi.",
         }),
         status: {
           key: 'on-hold',
