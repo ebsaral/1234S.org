@@ -5,8 +5,8 @@ const metadataContent = {
   key: 'page-metadata',
   content: {
     title: t({
-      en: '1234S.org',
-      tr: '1234S.org',
+      en: '1234S.org | The Root of New Politics',
+      tr: '1234S.org | Yeni Siyasetin Kökeni',
     }),
     description: t({
       en: 'A Comprehensive View of Spirituality Together with the Logic of Nature: Wholeness, Justice, Health.',
