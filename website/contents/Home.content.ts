@@ -19,6 +19,22 @@ const pageContent = {
       en: 'We continue our work to improve the mental and physical health of individuals, society, and the natural environment.',
       tr: 'Bireylerin, toplumun ve doğal çevrenin zihinsel ve fiziksel sağlığını iyileştirmek için çalışmalarımıza devam ediyoruz.',
     }),
+    video: {
+      src: t({
+        en: 'https://youtu.be/xSRXGfIS2Cc',
+        tr: 'https://youtu.be/2J4HR1k9j3Q',
+      }),
+      thumbnail: t({
+        en: '/images/intro-video-thumbnail-en.png',
+        tr: '/images/intro-video-thumbnail-tr.png',
+      }),
+      button: {
+        label: t({
+          en: 'Watch the Video',
+          tr: 'Videoyu İzle',
+        }),
+      },
+    },
     jamButton: {
       enable: t({
         en: 'One more time!',

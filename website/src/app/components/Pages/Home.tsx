@@ -14,6 +14,7 @@ import Research from '../Sections/Research';
 import Story from '../Sections/Story';
 import Team from '../Sections/Team';
 import Testimonials from '../Sections/Testimonials';
+import VideoModalPlayer from '../Custom/VideoModalPlayer';
 
 const Home = () => {
   const metadata = useIntlayer('page-metadata');
@@ -37,9 +38,19 @@ const Home = () => {
             {content.title}
           </h1>
 
-          <article className='max-w-5xl mx-auto mt-12 mb-28 text-base text-center leading-relaxed home-intro !px-6 sm:!px-6 md:!px-6 lg:!px-16'>
+          <article className='max-w-5xl mx-auto mt-12 mb-12 text-base text-center leading-relaxed home-intro !px-6 sm:!px-6 md:!px-6 lg:!px-16'>
             <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
           </article>
+
+          <div className='max-w-4xl mx-auto px-5 md:px-0'>
+            <VideoModalPlayer
+              isModal={false}
+              autoPlay={false}
+              videoSrc={content.video.src.value}
+              title='YouTube Video'
+              thumbnailSrc={content.video.thumbnail.value}
+            />
+          </div>
 
           <Story />
           <Research />

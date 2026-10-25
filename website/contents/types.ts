@@ -43,6 +43,13 @@ export interface TeamContent {
 export interface HomePageContent {
   title: string;
   description: string;
+  video: {
+    src: string;
+    thumbnail: string;
+    button: {
+      label: string;
+    };
+  };
   storyButton: {
     label: string;
   };
