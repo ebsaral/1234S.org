@@ -45,7 +45,7 @@ const Home = () => {
           <div className='max-w-4xl mx-auto px-5 md:px-0'>
             <VideoModalPlayer
               isModal={false}
-              autoPlay={false}
+              autoPlay={true}
               videoSrc={content.video.src.value}
               title='YouTube Video'
               thumbnailSrc={content.video.thumbnail.value}
