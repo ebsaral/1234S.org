@@ -64,6 +64,10 @@ const pageContent = {
           tr: 'Facebook (Türkçe)',
         }),
       },
+      {
+        href: 'https://www.youtube.com/@1234s-org',
+        label: 'YouTube',
+      },
     ],
     note: t({
       en: 'Do not forget to follow our social media accounts!',
