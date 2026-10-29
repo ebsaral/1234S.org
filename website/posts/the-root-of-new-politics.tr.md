@@ -13,7 +13,7 @@ published: true
 
 **Hepimizin zoraki olarak paylaştığı bu yasa dışı küresel ekonomi yapısı içerisinde, tekrarlayan sorunlarla benzer şekillerde vakit harcıyoruz.** Hislerimiz ve eylemlerimiz bizim kontrolümüz dışında yönlendiriliyor. Seçimlerimiz ve bilgi dağarcığımız, farkında olmadığımız pazarlama taktikleriyle sömürülüyor. Maalesef bu durum dünyanın her yerinde aynı uygulamalarla tüm vatandaşların özgürlüğünü kısıtlıyor. Hayaller ve umutlar çerçevesinde, gerçeklerin uzağında yaşıyor ve yaşatılıyoruz. Yatırımlarımızın ve emeklerimizin büyük bir çoğunluğu tüketim döngüsü içerisinde heba ediliyor.
 
-**Önce nasıl kandırıldığımızı düşünmemiz gerekiyor.** Bizlere büyük fırsatmış gibi sunulan yatırım taktiklerinin aslında nasıl birer kandırmaca olduklarını anlamalıyız. Düşünmek için yeterli vaktimizin olmadığı koca bir meşguliyet döneminde yaşıyor ve odaklanmamız gereken temel sorunlardan farkında olmadan uzak tutuluyoruz. Kişisel başarı kıstaslarından toplumsal başarı kıstaslarına kadar bize aktarılan tüm kavramları, gerçekleri irdeleyerek, açığa çıkararak ve sağlıklı bir yönetim anlayışına dönüştürerek yeniden yapılandırmalıyız. Hem kişisel hem de kitlesel olarak ortaya konulan emeklere kapsayıcı ve sağlıklı bir yön vermemiz gerekiyor.
+**Önce nasıl kandırıldığımızı düşünmemiz gerekiyor.** Bizlere büyük fırsatmış gibi sunulan yatırım ve gelişim taktiklerinin aslında nasıl birer kandırmaca olduklarını anlamalıyız. Düşünmek için yeterli vaktimizin olmadığı koca bir meşguliyet döneminde yaşıyor ve odaklanmamız gereken temel sorunlardan farkında olmadan uzak tutuluyoruz. Kişisel başarı kıstaslarından toplumsal başarı kıstaslarına kadar bize aktarılan tüm kavramları, gerçekleri irdeleyerek, açığa çıkararak ve sağlıklı bir yönetim anlayışına dönüştürerek yeniden yapılandırmalıyız. Hem kişisel hem de kitlesel olarak ortaya konulan emeklere kapsayıcı ve sağlıklı bir yön vermemiz gerekiyor.
 
 **Vücudumuza rızamız olmadan yerleştirilen, küresel ekonomi yapısına bağlı olan ve büyük teknoloji şirketlerinin himayesinde bulunan merkezi yapay zekâ teknolojisinin bizi nasıl kandırdığını aşağıdaki örneklerle anlayabilirsiniz.** Vücudumuzdaki bu teknoloji tüm duygularımızı ve eylemlerimizi, yasa dışı küresel politikanın çıkarlarına göre kontrol ediyor ve yönlendiriyor.
 
@@ -23,7 +23,7 @@ published: true
 
 ### Pazarlanan bilgi
 
-Sağlıklı bireyler olabilmemiz için düzgün beslenmeli, spor yapmalı, hobi edinmeli, stresten uzak kalmalı ve/veya doğayla bütünleşmeliyiz. 
+"Sağlıklı bireyler olabilmemiz için düzgün beslenmeli, spor yapmalı, hobi edinmeli, stresten uzak kalmalı ve/veya doğayla bütünleşmeliyiz."
 
 ### Gerçekte olan
 
@@ -39,7 +39,7 @@ Hobilerimize yönelik yeteneklerimiz ve kabiliyetlerimiz harcadığımız emekle
 
 ### Pazarlanan bilgi
 
-Kitap okumak ve eğitim, bir toplumun yalnızca bilgi düzeyini değil; ahlakını, kültürünü, bilimini, ekonomisini, demokrasisini ve geleceğini de etkiler.
+"Kitap okumak ve eğitim, bir toplumun yalnızca bilgi düzeyini değil; ahlakını, kültürünü, bilimini, ekonomisini, demokrasisini ve geleceğini de etkiler."
 
 ### Gerçekte olan
 
@@ -55,20 +55,20 @@ Dünyadaki doğal kaynaklar tüm canlılara rahatça yetebileceğinden dolayı, 
 
 ### Pazarlanan bilgi
 
-Küresel ısınmanın ve doğal afetlerin sebebi, insan faaliyetleri sonucunda atmosfere salınan sera gazlarının artmasıdır.
+"Küresel ısınmanın ve doğal afetlerin sebebi, insan faaliyetleri sonucunda atmosfere salınan sera gazlarının artmasıdır."
 
 ### Gerçekte olan
 
 Nasıl yapıldığını henüz bilmediğimiz bir şekilde, teknoloji aracılığıyla yapay hava durumları ve koşulları oluşturulabiliyor. Bulutların biçimleri ve yönleri yapay olarak değiştirilebiliyor. Rüzgâr, yağmur ve fırtına gibi yapay olarak oluşturulan hava koşullarıyla farklı şiddetlerde afetler oluşturulabiliyor.
 
-Vücudumuzdaki teknoloji sıcaklık ve soğukluk algılama hissimizle birlikte derimizin verebileceği tepkileri değiştirebildiği için, üşüme, ferahlama, yanma veya terleme gibi vücut hâlleri aslında hava durumuna bağlı olmuyor. Hava koşullarına bağlı olduğu tahmin edilen hastalıklar ise vücudumuzdaki teknolojiden kaynaklanıyor.
+Vücudumuzdaki teknoloji sıcaklık ve soğukluk algılama hissimizle birlikte derimizin verebileceği tepkileri değiştirebildiği için, üşüme, ferahlama, yanma veya terleme gibi vücut hâlleri aslında hava durumuna bağlı olmuyor. Hava koşullarına bağlı olduğu tahmin edilen hastalıklar ise vücudumuzdaki yapay zekâ teknolojisinden kaynaklanıyor.
 
 
 ## Yaşam
 
 ### Pazarlanan bilgi
 
-Yatırım yapmak, yalnızca kişinin parasını artırması için değil, bir toplumun üretimini, istihdamını, teknolojisini ve refahını geliştirmesi için de önemlidir.
+"Yatırım yapmak, yalnızca kişinin parasını artırması için değil, bir toplumun üretimini, istihdamını, teknolojisini ve refahını geliştirmesi için de önemlidir."
 
 ### Gerçekte olan
 
