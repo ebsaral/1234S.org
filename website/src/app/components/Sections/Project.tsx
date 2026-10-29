@@ -1,17 +1,20 @@
 'use client';
 
-import { useIntlayer } from 'react-intlayer';
+import { useIntlayer, useLocale } from 'react-intlayer';
 
 import { LuGift, LuGlobe, LuHeart, LuImagePlay, LuLightbulb, LuTreeDeciduous } from 'react-icons/lu';
 
 import { useEffect, useRef, useState } from 'react';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Card, CardContent } from '../ui/card';
+import Link from 'next/link';
+import { getLocalizedUrl } from 'intlayer';
 
 const Project = () => {
   const id = 'mission';
   const sectionKey = 'project';
   const content = useIntlayer(`${sectionKey}-section`);
+  const { locale } = useLocale();
 
   const refs = useRef<(HTMLDivElement | null)[]>([]);
   const [visibleItems, setVisibleItems] = useState<boolean[]>(Array(content.items.length).fill(false));
@@ -129,6 +132,13 @@ const Project = () => {
           <MarkdownRenderer>{content.message.title.value}</MarkdownRenderer>
         </div>
       )}
+
+      <Link
+        href={getLocalizedUrl('/blog/the-root-of-new-politics', locale)}
+        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mb-14 border-2 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
+      >
+        <div className='max-w-4xl mx-auto text-center'>{content.readMoreButton.value}</div>
+      </Link>
     </section>
   );
 };

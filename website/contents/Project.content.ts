@@ -67,6 +67,10 @@ const pageContent = {
         tr: 'Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.',
       }),
     },
+    readMoreButton: t({
+      en: 'Read The Details',
+      tr: 'Detayları Okuyun',
+    }),
   },
 } satisfies Dictionary;
 
