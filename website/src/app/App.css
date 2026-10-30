@@ -358,7 +358,7 @@ header {
 }
 
 .research .item h3 {
-  @apply text-lg sm:text-xl text-left;
+  @apply text-2xl sm:text-xl lg:text-3xl text-left font-thin;
 }
 
 .research .item p {
