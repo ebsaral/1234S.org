@@ -92,6 +92,6 @@ Küresel ekonomi aslında bütün vatandaşlara ait olduğu için eğitim ile ek
 
 - Teknoloji aracılığıyla doğaya verilen zararları, dolayısıyla küresel ısınmayı, tamamen ortadan kaldırmalıyız. Canlıların doğayla gerçekçi bir bütünlüğe kavuşmalarını sağlamalıyız.
 
-- Bir süreç halinde iyileştirilen toplum sağlığıyla birlikte, dünyanın her yerinde refah içinde yaşanabilmesini sağlamalıyız. [Mantıksal Maneviyat](/maneviyat) öğretileri eşliğinde, hiçbir toplumun bir daha kandırılmamasını sağlamalı ve stresiz olanaklar sunmalıyız.
+- Bir süreç halinde iyileştirilen toplum sağlığıyla birlikte, dünyanın her yerinde refah içinde yaşanabilmesini sağlamalıyız. [Mantıksal Maneviyat](/maneviyat) öğretileri eşliğinde, hiçbir toplumun bir daha kandırılmamasını sağlamalı ve stressiz olanaklar sunmalıyız.
 
 Bu misyonumuzda bize destek olmak için [iletişim](/iletisim) sayfamızı veya sosyal medya hesaplarımızı ziyaret edebilirsiniz.
