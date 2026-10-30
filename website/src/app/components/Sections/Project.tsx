@@ -83,7 +83,7 @@ const Project = () => {
       </article>
 
       {content.message && (
-        <div className='max-w-4xl mx-auto mb-2 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
+        <div className='max-w-4xl mx-auto mb-10 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
           <div className='text-lg sm:text-xl lg:text-2xl text-white py-4 px-8 rounded-xl bg-emerald-700'>
             {content.message.description}
           </div>
