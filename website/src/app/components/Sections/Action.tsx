@@ -144,10 +144,7 @@ const Action = () => {
               <Link href={getLocalizedUrl('contact', locale)}>
                 <div className='col-span-6'>
                   <div className='flex items-center justify-center text-xl font-bold text-rose-700 mb-8 mt-[-5]'>
-                    <GiLifeSupport
-                      className='text-rose-700 transition-all duration-500 ease-in-out group-hover:scale-125'
-                      size={80}
-                    />
+                    <GiLifeSupport className='text-rose-700 transition-all animate-softGlow' size={80} />
                   </div>
                   <article className='prose-custom-all text-left'>
                     <MarkdownRenderer>{content.support.value}</MarkdownRenderer>

@@ -117,6 +117,10 @@ const config: Config = {
           '0%,100%': { opacity: '0.4', transform: 'scale(0.8)' },
           '50%': { opacity: '1', transform: 'scale(1.3)' },
         },
+        pulseSoftGlow: {
+          '0%,100%': { opacity: '0.9' },
+          '50%': { opacity: '1', transform: 'scale(1.5)' },
+        },
         sway: {
           '0%': { transform: 'rotate(7deg)' },
           '50%': { transform: 'rotate(-7deg)' },
@@ -153,6 +157,7 @@ const config: Config = {
         orbitMid: 'orbit2 7s linear infinite',
         orbitFast: 'orbit3 4s linear infinite',
         glow: 'pulseGlow 2s ease-in-out infinite',
+        softGlow: 'pulseSoftGlow 3s ease-in-out infinite',
         sway: 'sway 3s linear infinite',
         bell: 'sway 0.15s linear infinite',
         spinSlow: 'spinSlow 1.2s linear infinite',
