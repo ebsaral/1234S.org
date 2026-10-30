@@ -52,8 +52,8 @@ const pageContent = {
       tr: '= (eşittir) , ≈ (yaklaşık olarak eşittir)',
     }),
     visit: t({
-      en: 'Read Logical Spirituality',
-      tr: "Mantıksal Maneviyat'ı Okuyun",
+      en: 'Learn Logical Spirituality',
+      tr: "Mantıksal Maneviyat'ı Öğrenin",
     }),
   },
 } satisfies Dictionary;

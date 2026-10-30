@@ -72,8 +72,8 @@ const pageContent = {
       }),
     },
     readMoreButton: t({
-      en: 'Read The Details',
-      tr: 'Detayları Okuyun',
+      en: 'See The Details',
+      tr: 'Detayları Görün',
     }),
   },
 } satisfies Dictionary;

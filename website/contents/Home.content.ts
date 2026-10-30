@@ -51,8 +51,8 @@ const pageContent = {
     },
     storyButton: {
       label: t({
-        en: 'Read Our Story',
-        tr: 'Hikâyemizi Okuyun',
+        en: 'Understand Our Story',
+        tr: 'Hikâyemizi Anlayın',
       }),
     },
     projects: {
