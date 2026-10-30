@@ -134,7 +134,7 @@ const Project = () => {
         )}
       </div>
 
-      <ReadingSuggestion className='mt-2 mb-10 z-10' content={content.reading.value} />
+      <ReadingSuggestion className='mt-2 mb-10 z-10 text-left' content={content.reading.value} />
 
       {content.message && (
         <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6 text-xl sm:text-3xl lg:text-3xl text-gray-900 [&_strong]:font-semibold'>
