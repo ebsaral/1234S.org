@@ -9,6 +9,7 @@ import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Card, CardContent } from '../ui/card';
 import Link from 'next/link';
 import { getLocalizedUrl } from 'intlayer';
+import ReadingSuggestion from '../Custom/ReadingSuggestion';
 
 const Project = () => {
   const id = 'mission';
@@ -133,12 +134,7 @@ const Project = () => {
         )}
       </div>
 
-      <Link
-        href={getLocalizedUrl('/blog/the-root-of-new-politics', locale)}
-        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 my-8 border-2 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
-      >
-        <div className='max-w-4xl mx-auto text-center'>{content.readMoreButton.value}</div>
-      </Link>
+      <ReadingSuggestion className='mt-2 mb-10 z-10' content={content.reading.value} />
 
       {content.message && (
         <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6 text-xl sm:text-3xl lg:text-3xl text-gray-900 [&_strong]:font-semibold'>
