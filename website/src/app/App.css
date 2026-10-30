@@ -427,3 +427,16 @@ header {
 .tooltip-link {
   @apply underline underline-offset-2 decoration-dashed;
 }
+
+@keyframes loading {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.animate-loading {
+  animation: loading 2s linear infinite;
+}

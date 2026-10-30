@@ -66,13 +66,23 @@ const Project = () => {
             />
           </div>
 
+          <div
+            className={`text-3xl sm:text-5xl lg:text-6xl font-thin text-emerald-700 leading-tight overflow-ellipsis mb-10`}
+          >
+            {content.subtitle.value}
+          </div>
+
           <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold text-emerald-700 leading-tight overflow-ellipsis`}>
             {content.title.value}
           </h2>
 
           {content.message && (
             <div className='max-w-4xl mx-auto mt-16 text-center flex flex-col lg:flex-row items-center justify-center gap-6'>
-              <div className='text-lg sm:text-xl lg:text-2xl bg-emerald-700 text-white py-4 px-8 rounded-xl'>
+              <div
+                className='text-lg sm:text-xl lg:text-2xl text-white py-4 px-8 rounded-xl
+                  bg-gradient-to-r from-emerald-900 via-emerald-500 to-emerald-900
+                  bg-[length:200%_100%] animate-loading'
+              >
                 {content.message.description}
               </div>
             </div>

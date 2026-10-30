@@ -7,6 +7,10 @@ const pageContent = {
       en: 'The Root of New Politics',
       tr: 'Yeni Siyasetin Kökeni',
     }),
+    subtitle: t({
+      en: 'Our Mission',
+      tr: 'Misyonumuz',
+    }),
     support: t({
       en: 'To contribute to the development and proceeding of this philosophical movement, you can visit our [Contact](/contact) page.',
       tr: 'Bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için [İletişim](/iletisim) sayfamızı ziyaret edebilirsiniz.',
