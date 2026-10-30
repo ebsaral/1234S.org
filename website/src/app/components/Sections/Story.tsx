@@ -5,7 +5,6 @@ import { useIntlayer, useLocale } from 'next-intlayer';
 import Link from 'next/link';
 import { LuFlower2 } from 'react-icons/lu';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
-
 import { Tooltip } from 'react-tooltip';
 
 const Story = () => {
@@ -15,48 +14,80 @@ const Story = () => {
   const { locale } = useLocale();
 
   return (
-    <section id={id} className='relative max-w-screen mx-auto bg-blue-950 pb-[68px] px-6 border-t-2  border-white'>
-      <div className=' max-w-5xl mx-auto'>
+    <section id={id} className='relative max-w-screen mx-auto bg-blue-950 pb-[68px] px-6 border-t-2 border-white'>
+      <div className='max-w-5xl mx-auto'>
         <div className='relative mx-auto -mt-[74px] mb-6 pb-1 rounded-2xl text-center'>
-          <div
-            className={`z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110`}
-          >
+          <div className='z-20 relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-lg my-8 group transition-all duration-300 hover:scale-110'>
             <LuFlower2
               className='text-blue-950 transition-all duration-500 ease-in-out group-hover:scale-125'
               size={40}
             />
           </div>
 
-          <h2 className={`text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight overflow-ellipsis text-white`}>
+          <h2 className='text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight overflow-ellipsis text-white'>
             {content.title}
           </h2>
         </div>
       </div>
+
       <Tooltip
         id='tooltip'
         className='!bg-white !text-blue-900 font-medium p-2 rounded-md shadow-lg max-w-xs !opacity-100'
       />
+
       <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
         <MarkdownRenderer>{content.description.value}</MarkdownRenderer>
       </article>
-      <div className='max-w-xl mx-auto text-center text-white font-semibold'>
-        {content.items.map((item, index) => (
-          <div key={index} className='flex flex-col gap-1 mb-4'>
-            <div className='font-bold'>{item.title.value}</div>
-            <div className='text-sm'>{item.description.value}</div>
+
+      {/* Nested Truth Sets */}
+      <div className='max-w-xl mx-auto py-8 px-2'>
+        {/* Universe Set */}
+        <div className='relative rounded-[80%/10%] border-2 border-amber-400 bg-amber-400/[0.06] p-5 sm:p-7 shadow-[0_0_25px_rgba(245,199,107,0.12)] animate-[fadeIn_1s_ease-out_both]'>
+          <div className='text-center font-bold text-amber-300 text-base sm:text-lg'>
+            {content.items[0].title.value}
           </div>
-        ))}
+
+          {content.items[0].description.value && (
+            <p className='text-center text-sm text-slate-300 mt-2'>{content.items[0].description.value}</p>
+          )}
+
+          {/* Nature Set */}
+          <div className='mt-7 rounded-[65%/10%] border-2 border-emerald-400 bg-emerald-400/[0.07] p-5 sm:p-7 animate-[fadeIn_1s_ease-out_0.5s_both]'>
+            <div className='text-center font-bold text-emerald-300 text-base sm:text-lg'>
+              {content.items[1].title.value}
+            </div>
+
+            <p className='text-center text-sm text-slate-300 mt-2 leading-relaxed'>
+              {content.items[1].description.value}
+            </p>
+
+            {/* Science Set */}
+            <div className='mt-6 rounded-[45%/10%] border-2 border-sky-400 bg-sky-400/[0.10] p-5 animate-[fadeIn_1s_ease-out_1s_both]'>
+              <div className='text-center font-bold text-sky-300 text-base sm:text-lg'>
+                {content.items[2].title.value}
+              </div>
+
+              <p className='text-center text-sm text-slate-200 mt-3 leading-relaxed'>
+                {content.items[2].description.value}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Legend */}
+        <div className='text-center text-xs text-slate-400 mt-6'>{content.itemsNote.value}</div>
       </div>
 
-      <div className='text-xs mb-4'>{content.itemsNote.value}</div>
-      <Link
-        href={getLocalizedUrl('/spirituality', locale)}
-        className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mt-5 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95'
-      >
-        <div className='max-w-4xl mx-auto text-center'>{content.visit}</div>
-      </Link>
+      <div className='text-center'>
+        <Link
+          href={getLocalizedUrl('/spirituality', locale)}
+          className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mt-5 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95'
+        >
+          <div className='max-w-4xl mx-auto text-center'>{content.visit}</div>
+        </Link>
+      </div>
 
-      <div className='absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent' />
+      <div className='absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent pointer-events-none' />
     </section>
   );
 };
