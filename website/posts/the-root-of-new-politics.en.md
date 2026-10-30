@@ -3,6 +3,7 @@ name: the-root-of-new-politics
 title: The Root of New Politics
 subtitle: It is time to create a world order that protects individual freedoms, ensures the fair distribution of social prosperity, and enables humanity to freely determine its own future.
 created: 2026-10-29
+updated: 2026-10-31
 image: /images/blog/mountain-view.jpg
 authorName: Emin Buğra Saral
 authorUrl: https://0.1234S.org 
@@ -11,7 +12,7 @@ published: true
 ---
 ![The Root of New Politics](/images/blog/mountain-view.jpg "The view of a rock plant in front of Sumela Monastery.")
 
-**Within this illicit global economic system that we are all forced to share, we spend our time struggling with recurring problems in similar ways.** Our feelings and actions are being directed beyond our control. Our choices and knowledge are fooled through marketing tactics we are unaware of. Unfortunately, the same practices are used around the world to restrict the freedom of all citizens. We are made to live, and live our lives, far removed from actual reality, surrounded by dreams and hopes. Most of our investments and efforts are wasted in the cycle of consumption.
+**Within this illicit global economic system that we are all forced to share, we spend our time struggling with recurring problems in similar ways.** Our feelings and actions are being directed beyond our control. Our choices and knowledge are fooled through marketing tactics we are unaware of. Unfortunately, the same practices are used around the world to restrict the freedom of all citizens. We are made to live far removed from actual reality, surrounded by dreams and hopes. Most of our investments and efforts are wasted in the cycle of consumption.
 
 **First, we need to reflect on how we are being deceived.** We must understand how investment and development strategies presented to us as great opportunities are actually forms of deception. We live in an age of constant distraction, with little time to think, and are unknowingly kept away from the fundamental problems that deserve our attention. We must reconsider and rebuild all the concepts presented to us, from personal measures of success to societal ones, by examining the facts, exposing underlying realities, and transforming them into a better approach to governance. We need to give the efforts of individuals and society as a whole an inclusive and constructive direction.
 
@@ -45,9 +46,9 @@ Because our talents and abilities in our hobbies do not necessarily correspond t
 
 In this era when access to information is so easy, education is not the fundamental cause of immorality. The technology that controls our emotions, physical characteristics, abilities, choices, lives, and minds prevents improvements in the moral standards of global society from being achieved or sustained.
 
-Centralized artificial intelligence technology, which is a major obstacle to improving public health, causes the scientific communities to remain preoccupied with misinformation. The failure to establish functioning democracy is rooted from the artificial control mechanism governed by technology.
+Centralized artificial intelligence technology, which is a major obstacle to improving public health, causes the scientific community to remain preoccupied with misinformation. The failure to establish a functioning democracy is rooted in the artificial control mechanism governed by technology.
 
-Since the world's natural resources could adequately provide for all living beings, scientific research needs to be directed in a positive, sustainable, and inclusive manner. By understanding the fact that the existing global economy system is fundamentally immoral and illegal, societies may gain the opportunity to understand the causes of past mistakes and make better choices.
+Since the world's natural resources could adequately provide for all living beings, scientific research needs to be directed in a positive, sustainable, and inclusive manner. By understanding that the existing global economic system is fundamentally immoral and illegal, societies may gain the opportunity to understand the causes of past mistakes and make better choices.
 
 > Reading can broaden an individual's intellectual horizons, while education can help transform ideas into knowledge, skills, and productivity. Reading books is not a prerequisite for acquiring knowledge. Communicating information honestly, reliably, and clearly is essential to the well-being of society.
 
@@ -59,9 +60,9 @@ Since the world's natural resources could adequately provide for all living bein
 
 ### What is actually happening
 
-The artificial weather patterns and conditions can be created through technology in ways that we do not yet fully understand. Cloud formations and their directions can be altered artificially. The artificially created weather conditions, such as wind, rain, and storms, can produce disasters of varying severity.
+Artificial weather patterns and conditions can be created through technology in ways that we do not yet fully understand. Cloud formations and their directions can be altered artificially. Artificially created weather conditions, such as wind, rain, and storms, can produce disasters of varying severity.
 
-Because the technology within our bodies alters our perception of hot and cold, as well as our skin's responses, physical sensations such as feeling cold, feeling refreshed, burning, or sweating do not actually depend on the weather. Illnesses are not related to weather conditions instead originate from the artificial intelligence technology within our bodies.
+Because the technology within our bodies alters our perception of hot and cold, as well as our skin's responses, physical sensations such as feeling cold, feeling refreshed, burning, or sweating do not actually depend on the weather. Illnesses are not related to weather conditions; instead, they originate from the artificial intelligence technology within our bodies.
 
 ## Life
 
