@@ -35,16 +35,21 @@ const Team = () => {
         </div>
       )}
 
-      <div className='relative z-10 flex items-center justify-center max-w-4xl mx-auto my-10'>
+      <div
+        id='join'
+        className='max-w-2xl mx-auto px-8 sm:px-8 mt-10 text-center text-gray-700 leading-relaxed flex flex-col items-center justify-center'
+      >
+        <div className='max-w-2xl font-bold text-lg sm:text-xl text-left sm:text-center'>{content.cofounder.title}</div>
+        <div className='max-w-lg mt-4 text-sm sm:text-base text-left'>{content.cofounder.description}</div>
         <Link
           href={content.cofounder.href.value}
-          className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '
+          className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 w-fit mt-6'
         >
           <div className='max-w-4xl mx-auto text-center'>{content.cofounder.label}</div>
         </Link>
       </div>
 
-      <div>
+      <div className='mt-8'>
         <VideoModalPlayer
           videoSrc='https://youtube.com/shorts/-lVOTM2TiFE'
           title='YouTube Video'

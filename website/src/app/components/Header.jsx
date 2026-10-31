@@ -46,7 +46,7 @@ const Header = ({ postCount }) => {
       ],
     },
     { key: 'blog', href: '/blog' },
-    { key: 'career', href: 'https://1234s.breezy.hr/p/38156cc935b9-topluluk-gonullusu-community-volunteer' },
+    { key: 'career', href: '#team' },
   ];
 
   const parseLocalizedUrl = (url) => {

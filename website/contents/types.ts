@@ -34,6 +34,8 @@ export interface TeamContent {
   cofounder: {
     label: string;
     href: string;
+    title: string;
+    description: string;
   };
   members: TeamMember[];
   contact: string;

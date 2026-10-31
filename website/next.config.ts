@@ -50,6 +50,16 @@ const nextConfig: NextConfig = {
         destination: '/tr/contact',
         permanent: false,
       },
+      {
+        source: '/join',
+        destination: '/en#team',
+        permanent: false,
+      },
+      {
+        source: '/katil',
+        destination: '/tr#team',
+        permanent: false,
+      },
     ];
   },
 };

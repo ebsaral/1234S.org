@@ -13,7 +13,18 @@ const pageContent = {
         en: 'Become our co-founder!',
         tr: 'Kurucu ortağımız olun!',
       }),
-      href: 'https://1234s.breezy.hr/p/38156cc935b9-topluluk-gonullusu-community-volunteer',
+      href: t({
+        en: '/contact',
+        tr: '/iletisim',
+      }),
+      title: t({
+        en: 'Would you like to lead the Logical Spirituality movement? ',
+        tr: 'Mantıksal Maneviyat akımına liderlik etmek ister misiniz?',
+      }),
+      description: t({
+        en: 'We are excited to collaborate with like-minded individuals and/or organisations. If you are interested in sustainable and fair solutions that consider the well-being of every individual and society, please reach out to us.',
+        tr: 'Benzer düşüncelere sahip bireyler ve/veya kuruluşlarla iş birliği yapmaktan heyecan duyuyoruz. Her bireyin ve toplumun refahını göz önünde bulunduran sürdürülebilir ve adil çözümlerle ilgileniyorsanız, lütfen bizimle iletişime geçin.',
+      }),
     },
     members: [
       {

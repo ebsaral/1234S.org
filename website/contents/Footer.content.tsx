@@ -88,7 +88,10 @@ const pageContent = {
         en: 'Join Us',
         tr: 'Bize Katıl',
       }),
-      href: 'https://1234s.breezy.hr/p/38156cc935b9-topluluk-gonullusu-community-volunteer',
+      href: t({
+        en: '/en#team',
+        tr: '/tr#team',
+      }),
     },
     github: {
       label: 'GitHub',
