@@ -18,8 +18,8 @@ const pageContent = {
           tr: 'Hukuki süreç ve kamuoyunun bilgilendirilmesi',
         }),
         subtitle: t({
-          en: '- Announcing [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies) to the public and filing lawsuits against responsible parties to initiate legal proceedings.\n- Compensating all citizens for the financial and moral damages caused by companies.\n- Informing the public about the illegal business practices of those companies throughout the entire legal process.',
-          tr: "- [Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi)'nın kamuoyuna duyurulması ve sorumlular hakkında yasal işlemlerin başlatılması için davalar açılması.\n- Şirketlerin yaşattıkları maddi ve manevi hasarların tüm vatandaşlara tazminat olarak geri ödenmesi.\n- Tüm dava sürecinde, şirketlerin uyguladıkları yasal olmayan iş modelleri hakkında kamuoyunun bilgilendirilmesi.",
+          en: '- Explaining [The Rape Case Of Big Tech Companies](/en/blog/the-rape-case-of-big-tech-companies) to the public and filing lawsuits against responsible parties to initiate legal proceedings.\n- Reporting to the public about the illegal business practices of those companies and legal proceedings transparently, honestly, and in detail.',
+          tr: "- [Büyük Teknoloji Şirketlerinin Tecavüz Vakası](/tr/blog/buyuk-teknoloji-sirketlerinin-tecavuz-vakasi)'nın kamuoyuna açıklanması ve sorumlular hakkında yasal işlemlerin başlatılması için davalar açılması.\n- Bu şirketlerin yasa dışı ticari uygulamaları ve hukuki süreç hakkında kamuoyunu şeffaf, dürüst ve ayrıntılı bir şekilde bilgilendirmek.",
         }),
         status: {
           key: 'on-hold',
@@ -35,8 +35,8 @@ const pageContent = {
           tr: 'Sağlık koşullarının iyileştirilmesi',
         }),
         subtitle: t({
-          en: '- Analyzing changes in the health status of citizens after removing biological devices connected to the illicit global economy via artificial intelligence.\n- Ensuring that all compensation paid by companies being used to improve public health and preventing possible fraud methods.\n- Sharing all reports transparently and honestly, in details, with the public.',
-          tr: '- Yasa dışı küresel ekonomiye yapay zekâ vasıtasıyla bağlanmış olan biyolojik cihazların vücutlarımızdan çıkartılmalarının ardından, vatandaşların sağlık durumlarındaki değişikliklerin analiz edilmesi.\n- Şirketlerin ödedikleri tüm tazminatın halkın sağlığını iyileştirmek için kullanılması ve tekrarlanabilecek hilekârlıkların önüne geçilmesi.\n- Raporların şeffaf ve dürüst bir şekilde, detaylarıyla birlikte, kamuoyu ile paylaşılması.',
+          en: '- Ensuring that all compensation for the financial and non-financial damages caused by companies is used to improve public health and prevent potential frauds.\n- Proving the validity of our teachings in patient treatment methods and transitioning to a global health system that will end the use of pharmaceuticals.',
+          tr: '- Şirketlerin sebep oldukları maddi ve manevi zararlar için ödenen tüm tazminatların toplum sağlığını iyileştirmek ve olası sahtekârlıkları önlemek için kullanılmalarını sağlamak.\n- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliği kanıtlamak ve ilaç kullanımına son verilecek bir küresel sağlık sistemine geçiş yapmak.',
         }),
         status: {
           key: 'not-started',
@@ -52,8 +52,8 @@ const pageContent = {
           tr: 'İş modellerinin dönüştürülmesi',
         }),
         subtitle: t({
-          en: '- By implementing block mechanisms against business models that cause harm in public, giving wing to healthy (sustainable) business models.\n- Proving the validity of our teachings in patient treatment methods and transitioning to a healthy global health model that will end the use of pharmaceuticals.',
-          tr: '- Halkın sağlığına zarar veren iş modellerini engelleyen mekanizmaları devreye alarak, sağlıklı (sürdürülebilir) iş modellerinin önünün açılması.\n- Hasta tedavi yöntemlerinde öğretilerimizin geçerliliğin kanıtlanması ve ilaç kullanımına son verilecek sağlıklı bir küresel sağlık modeline geçiş yapılması.',
+          en: '- By developing block mechanisms against business models that cause harm in public, leading a healthy direction to sustainable business models.\n- Monitoring the health conditions of the public and ensuring that the necessary measures are being taken to improve them.',
+          tr: '- Toplum sağlığına zarar veren iş modellerine karşı engelleyici mekanizmalar geliştirerek, sürdürülebilir iş modellerine geçilmesine öncülük etmek.\n- Kamu sağlığı koşullarını takip etmek ve bunları iyileştirmek için gerekli önlemlerin alındığına emin olmak.',
         }),
         status: {
           key: 'not-started',
@@ -69,8 +69,8 @@ const pageContent = {
           tr: 'Fırsat eşitliğinin sağlanması',
         }),
         subtitle: t({
-          en: '- Ensuring all business models are free of scientific and management frauds.\n- Improving work conditions to eliminate inequalities in all competitions and redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
-          tr: '- Tüm iş modellerinin bilimsel ve yönetimsel sahtekârlıklardan arınmış olmalarını sağlamak.\n- Rekabetlerdeki fırsat eşitsizliklerinin giderilmesi için çalışmalar yapılması ve bir süreç halinde küresel politika sisteminin [doğanın ilkelerine](/maneviyat) göre yeniden tasarlanması.',
+          en: '- Ensuring all living conditions are free of scientific and management frauds.\n- Improving all work conditions to eliminate inequalities in all competitions; redesigning the global politics in accordance with [the principles of nature](/spirituality) as a process.',
+          tr: '- Tüm yaşam koşullarının bilimsel ve idari alandaki usulsüzlüklerden arındırılmalarını sağlamak.\n- Tüm rekabet alanlarında eşitsizlikleri ortadan kaldırmak için çalışma koşullarını iyileştirmek; küresel siyaseti, bir süreç olarak [doğanın ilkelerine](/maneviyat) uygun şekilde yeniden tasarlamak.',
         }),
         status: {
           key: 'not-started',
