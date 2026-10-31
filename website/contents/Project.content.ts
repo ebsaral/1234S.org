@@ -71,10 +71,16 @@ const pageContent = {
         tr: 'Daha iyi sağlık. Daha fazla şans. Sayısız fırsat.',
       }),
     },
-    reading: t({
-      en: 'Read our article **[The Root of New Politics](/en/blog/the-root-of-new-politics)** to see more examples.',
-      tr: 'Daha fazla örnek görmek için **[Yeni Siyasetin Kökeni](/tr/blog/yeni-siyasetin-kokeni)** başlıklı yazımızı okuyabilirsiniz. ',
-    }),
+    reading: {
+      href: t({
+        en: '/en/blog/the-root-of-new-politics',
+        tr: '/tr/blog/yeni-siyasetin-kokeni',
+      }),
+      text: t({
+        en: 'Read The Details',
+        tr: 'Detayları Okuyun',
+      }),
+    },
   },
 } satisfies Dictionary;
 

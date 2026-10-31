@@ -1,6 +1,6 @@
 'use client';
 
-import { useIntlayer, useLocale } from 'react-intlayer';
+import { useIntlayer } from 'react-intlayer';
 
 import { LuGift, LuGlobe, LuHeart, LuImagePlay, LuLightbulb, LuTreeDeciduous } from 'react-icons/lu';
 
@@ -8,14 +8,12 @@ import { useEffect, useRef, useState } from 'react';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import { Card, CardContent } from '../ui/card';
 import Link from 'next/link';
-import { getLocalizedUrl } from 'intlayer';
-import ReadingSuggestion from '../Custom/ReadingSuggestion';
+import { FcReading } from 'react-icons/fc';
 
 const Project = () => {
   const id = 'mission';
   const sectionKey = 'project';
   const content = useIntlayer(`${sectionKey}-section`);
-  const { locale } = useLocale();
 
   const refs = useRef<(HTMLDivElement | null)[]>([]);
   const [visibleItems, setVisibleItems] = useState<boolean[]>(Array(content.items.length).fill(false));
@@ -134,7 +132,16 @@ const Project = () => {
         )}
       </div>
 
-      <ReadingSuggestion className='mt-2 mb-10 z-10 text-left' content={content.reading.value} />
+      <Link
+        href={content.reading.href.value}
+        className='group relative prose-custom-all text-gray-900 flex flex-row items-center gap-6 min-w-xl w-fit px-6 sm:px-10 bg-purple-200/50 p-4 rounded-2xl mx-auto mt-2 mb-10 z-10 text-left'
+      >
+        <div className='group-hover:scale-110 transition-all duration-300 flex items-center justify-center w-16 h-16 aspect-square p-2 bg-emerald-200 rounded-full shrink-0'>
+          <FcReading className='w-full h-full' />
+        </div>
+
+        <div className='text-lg sm:text-xl lg:text-2xl group-hover:underline'>{content.reading.text.value}</div>
+      </Link>
 
       {content.message && (
         <div className='max-w-5xl mx-auto mt-8 mb-8 text-center flex flex-col lg:flex-row items-center justify-center gap-6 text-xl sm:text-3xl lg:text-3xl text-gray-900 [&_strong]:font-semibold'>
