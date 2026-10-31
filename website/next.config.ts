@@ -37,12 +37,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/mission',
-        destination: '/en/mission',
+        destination: '/en#mission',
         permanent: false,
       },
       {
         source: '/misyon',
-        destination: '/tr/mission',
+        destination: '/tr#mission',
         permanent: false,
       },
       {
