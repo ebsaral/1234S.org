@@ -36,6 +36,14 @@ export interface TeamContent {
     href: string;
     title: string;
     description: string;
+    example: {
+      href: string;
+      text: string;
+      source: {
+        label: string;
+        href: string;
+      };
+    };
   };
   members: TeamMember[];
   contact: string;

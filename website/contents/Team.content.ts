@@ -25,6 +25,23 @@ const pageContent = {
         en: 'We are excited to collaborate with like-minded individuals and/or organisations. If you are interested in sustainable and fair solutions that consider the well-being of every individual and society, please reach out to us.',
         tr: 'Benzer düşüncelere sahip bireyler ve/veya kuruluşlarla iş birliği yapmaktan heyecan duyuyoruz. Her bireyin ve toplumun refahını göz önünde bulunduran sürdürülebilir ve adil çözümlerle ilgileniyorsanız, lütfen bizimle iletişime geçin.',
       }),
+      example: {
+        href: t({
+          en: '/files/MIT-Solve-2027/Global_Economic_Prosperity_Challenge.pdf',
+          tr: '/files/MIT-Solve-2027/Global_Economic_Prosperity_Challenge_translation_TR.pdf',
+        }),
+        text: t({
+          en: 'Read our solution sent to MIT Solve Challenge.',
+          tr: "MIT Solve Yarışması'na gönderdiğimiz çözümü okuyun.",
+        }),
+        source: {
+          label: t({
+            en: 'MIT Solve 2027 Challenge',
+            tr: 'MIT Solve 2027 Yarışması (İng.)',
+          }),
+          href: 'https://solve.mit.edu/challenges/2027-global-economic-prosperity-challenge',
+        },
+      },
     },
     members: [
       {
