@@ -242,4 +242,4 @@ Toplum sağlığını ve güvenliğini ilgilendiren bu vakayla ilgili bana yard�
 - Konuyla ilgili önleyici tedbirler alarak sağlık sektöründeki küresel dönüşüme öncülük etmek.
 - Teknoloji şirketlerinin hilekârlıklarını ortaya çıkarmak ve sektörde küresel dönüşüme öncülük etmek.
 
-İletişim için [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilir, [iletişim formunu](/iletisim) kullanabilir veya [emin@1234S.org](mailto:emin@1234s.org) adresine yazabilirsiniz.
+İletişim için [emin@1234S.org](mailto:emin@1234s.org)'a e-posta gönderebilir veya [0.1234S.org](https://0.1234S.org) adresini ziyaret edebilirsiniz.

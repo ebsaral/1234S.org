@@ -95,4 +95,4 @@ Küresel ekonomi aslında bütün vatandaşlara ait olduğu için eğitimle ekon
 
 - Toplum sağlığını aşamalı olarak iyileştirerek dünyanın her yerinde refah içinde yaşanmasını sağlamalıyız. [Mantıksal Maneviyat](/maneviyat) öğretileri eşliğinde hiçbir toplumun bir daha kandırılmamasını sağlamalı ve stressiz olanaklar sunmalıyız.
 
-Bu misyonumuzda bize destek olmak için [iletişim](/iletisim) sayfamızı veya sosyal medya hesaplarımızı ziyaret edebilirsiniz.
+Bu misyonumuzda bize destek olmak için [bilgi@1234s.org](mailto:bilgi@1234s.org)'a e-posta gönderebilir ve sosyal medya hesaplarımızı ziyaret edebilirsiniz.

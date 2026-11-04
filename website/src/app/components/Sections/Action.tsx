@@ -2,8 +2,6 @@
 
 import { useIntlayer } from 'react-intlayer';
 
-import { getLocalizedUrl } from 'intlayer';
-import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { FaBuildingShield } from 'react-icons/fa6';
 import { GiLifeSupport } from 'react-icons/gi';
@@ -141,16 +139,14 @@ const Action = () => {
             }`}
           >
             <CardContent className='p-8 flex flex-col sm:items-center gap-4 whitespace-pre-line'>
-              <Link href={getLocalizedUrl('contact', locale)}>
-                <div className='col-span-6'>
-                  <div className='flex items-center justify-center text-xl font-bold text-rose-700 mb-8 mt-[-5]'>
-                    <GiLifeSupport className='text-rose-700 transition-all animate-softGlow' size={80} />
-                  </div>
-                  <article className='prose-custom-all text-left'>
-                    <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
-                  </article>
+              <div className='col-span-6'>
+                <div className='flex items-center justify-center text-xl font-bold text-rose-700 mb-8 mt-[-5]'>
+                  <GiLifeSupport className='text-rose-700 transition-all animate-softGlow' size={80} />
                 </div>
-              </Link>
+                <article className='prose-custom-all text-left'>
+                  <MarkdownRenderer>{content.support.value}</MarkdownRenderer>
+                </article>
+              </div>
             </CardContent>
           </Card>
         </div>

@@ -14,8 +14,8 @@ const pageContent = {
         tr: 'Kurucu ortağımız olun!',
       }),
       href: t({
-        en: '/contact',
-        tr: '/iletisim',
+        en: 'mailto:info@1234s.org?subject=Logical Spirituality co-foundership',
+        tr: 'mailto:bilgi@1234s.org?subject=Mantıksal Maneviyat kurucu ortaklığı',
       }),
       title: t({
         en: 'Would you like to lead the Logical Spirituality movement? ',

@@ -174,8 +174,8 @@ const pageContent = {
       },
     ],
     contact: t({
-      en: 'You can [contact us](/contact) to understand Logical Spirituality in depth and find answers to your questions. We continue to improve our teachings after each question or debate.',
-      tr: "Mantıksal Maneviyat'ın detaylarını daha iyi anlamak ve sorularınıza cevap bulmak için [bizimle iletişime geçebilirsiniz](/iletisim). Her sorulan soruyla veya tartışmayla birlikte öğretilerimizi geliştirmeye devam ediyoruz.",
+      en: 'You can send an e-mail to [info@1234s.org](mailto:info@1234s.org) to understand Logical Spirituality in depth and find answers to your questions. We continue to improve our teachings after each question or debate.',
+      tr: "Mantıksal Maneviyat'ın detaylarını daha iyi anlamak ve sorularınıza cevap bulmak için [bilgi@1234s.org](mailto:bilgi@1234s.org) adresine e-posta gönderebilirsiniz. Her sorulan soruyla veya tartışmayla birlikte öğretilerimizi geliştirmeye devam ediyoruz.",
     }),
   },
 } satisfies Dictionary<FAQContent>;

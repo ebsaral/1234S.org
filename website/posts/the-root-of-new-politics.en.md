@@ -94,4 +94,4 @@ Since the global economy belongs to all citizens, there is no genuine connection
 
 - Alongside the gradual improvement of public health, we must make it possible for people everywhere in the world to live in prosperity. Guided by the teachings of [Logical Spirituality](/spirituality), we must ensure that no society is deceived again and create opportunities for people to live with less stress.
 
-To support our mission, please visit our [contact](/contact) page or follow us on social media.
+To support our mission, please send an e-mail to [info@1234s.org](mailto:info@1234s.org) and follow us on social media.

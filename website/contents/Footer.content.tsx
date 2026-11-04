@@ -75,12 +75,12 @@ const pageContent = {
     }),
     contact: {
       label: t({
-        en: 'Contact',
-        tr: 'İletişim',
+        en: 'info@1234s.org',
+        tr: 'bilgi@1234s.org',
       }),
       href: t({
-        en: '/contact',
-        tr: '/iletisim',
+        en: 'mailto:info@1234s.org',
+        tr: 'mailto:bilgi@1234s.org',
       }),
     },
     career: {

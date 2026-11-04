@@ -248,4 +248,4 @@ I still seek individuals and organizations that may be able to assist me with th
 - To take preventive measures regarding this issue and help lead a global transformation in the healthcare sector.
 - To expose the frauds of tech and software companies and lead a global transformation in this sector.
 
-For contact, please visit [0.1234S.org](https://0.1234S.org), use the [contact form](/contact), or email [emin@1234S.org](mailto:emin@1234S.org).
+For contact, please send an e-mail to [emin@1234S.org](mailto:emin@1234S.org) or visit [0.1234S.org](https://0.1234S.org).

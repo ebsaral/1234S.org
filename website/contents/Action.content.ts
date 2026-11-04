@@ -82,8 +82,8 @@ const pageContent = {
       },
     ],
     support: t({
-      en: 'You can help us reach individuals and/or organizations that can assist with any step in our action plan. To contribute to the development and proceeding of this philosophical movement that handles all steps above together, you can visit our <u>**Contact**</u> page.',
-      tr: 'Eylem planımızdaki herhangi bir adıma yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz. Tüm adımları bir bütün olarak ele alan bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için <u>**İletişim**</u> sayfamızı ziyaret edebilirsiniz.',
+      en: 'You can help us reach individuals and/or organizations that can assist with any step in our action plan. To contribute to the development and proceeding of this philosophical movement that handles all steps above together, you can send an e-mail to [info@1234s.org](mailto:info@1234s.org).',
+      tr: 'Eylem planımızdaki herhangi bir adıma yardım edebilecek kişi ve/veya kurumlara ulaşmamızı sağlayabilirsiniz. Tüm adımları bir bütün olarak ele alan bu felsefi akımın geliştirilmesine ve ilerlemesine katkıda bulunmak için [bilgi@1234s.org](mailto:bilgi@1234s.org) adresine e-posta gönderebilirsiniz.',
     }),
   },
 } satisfies Dictionary;

@@ -44,10 +44,6 @@ const config: IntlayerConfig = {
   routing: {
     mode: 'prefix-all',
     rewrite: nextjsRewrite({
-      '/[locale]/contact': {
-        en: '/[locale]/contact',
-        tr: '/[locale]/iletisim',
-      },
       '/[locale]/mission': {
         en: '/[locale]#mission',
         tr: '/[locale]#mission',
