@@ -20,6 +20,7 @@ interface FooterContent {
       alt: string;
     };
   };
+  viewAssets: FooterLink;
 }
 
 const pageContent = {
@@ -116,6 +117,16 @@ const pageContent = {
           tr: '1234S.org Son Sürüm',
         }),
       },
+    },
+    viewAssets: {
+      label: t({
+        en: 'File Explorer',
+        tr: 'Dosya Gezgini',
+      }),
+      href: t({
+        en: '/en/assets',
+        tr: '/tr/assets',
+      }),
     },
   },
 } satisfies Dictionary<FooterContent>;

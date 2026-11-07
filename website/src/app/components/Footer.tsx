@@ -5,6 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaSquareXTwitter, FaYoutube } from
 import { useIntlayer } from 'react-intlayer';
 import { MarkdownRenderer } from 'react-intlayer/markdown';
 import MarkdownProvider from './Custom/MarkdownProvider';
+import Link from 'next/link';
 
 const Footer = () => {
   const content = useIntlayer('footer-section');
@@ -114,8 +115,11 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
+              <div className='flex flex-col items-center justify-center gap-3 sm:gap-5 link-underline'>
                 <img src={content.badge.release.img} alt={content.badge.release.alt.value} className='w-20 h-auto' />
+                <Link href={content.viewAssets.href.value} className=' text-gray-100 hover:no-underline'>
+                  {content.viewAssets.label}
+                </Link>
               </div>
               <div className='flex flex-col items-center justify-center gap-3 sm:gap-5'>
                 <p>
