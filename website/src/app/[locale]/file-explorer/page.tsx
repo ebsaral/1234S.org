@@ -6,9 +6,9 @@ import { LocalPromiseParams, type NextPageIntlayer } from 'next-intlayer';
 export const generateMetadata = async ({ params }: LocalPromiseParams): Promise<Metadata> => {
   const { locale } = await params;
 
-  const metadata = getIntlayer('assets-page-metadata', locale);
+  const metadata = getIntlayer('file-explorer-page-metadata', locale);
 
-  const url = 'https://www.1234s.org/assets';
+  const url = 'https://www.1234s.org/file-explorer';
   const multilingualUrls = getMultilingualUrls(url);
 
   return {

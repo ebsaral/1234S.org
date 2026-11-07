@@ -56,6 +56,10 @@ const config: IntlayerConfig = {
         en: '/[locale]/spirituality',
         tr: '/[locale]/maneviyat',
       },
+      '/[locale]/file-explorer': {
+        en: '/[locale]/file-explorer',
+        tr: '/[locale]/dosya-gezgini',
+      },
       ...blogPostRewrite,
       // Removed or renamed posts
       '/[locale]/blog/challenges-levels-rewards-and-punishments': {

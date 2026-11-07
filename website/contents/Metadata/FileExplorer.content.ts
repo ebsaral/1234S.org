@@ -2,7 +2,7 @@ import { type Dictionary, t } from 'intlayer';
 import { Metadata } from 'next';
 
 const metadataContent = {
-  key: 'assets-page-metadata',
+  key: 'file-explorer-page-metadata',
   content: {
     title: t({
       en: 'File Explorer | 1234S.org',

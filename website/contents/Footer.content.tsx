@@ -124,8 +124,8 @@ const pageContent = {
         tr: 'Dosya Gezgini',
       }),
       href: t({
-        en: '/en/assets',
-        tr: '/tr/assets',
+        en: '/file-explorer',
+        tr: '/dosya-gezgini',
       }),
     },
   },

@@ -4,7 +4,7 @@ import type { MetadataRoute } from 'next';
 
 const BASE_URL = 'https://www.1234s.org';
 
-const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/assets'];
+const STATIC_PATHS = ['/', '/philosophy', '/mission', '/blog', '/file-explorer'];
 
 function getBlogSlugs(): string[] {
   const slugs = new Set(getAllPosts().map((post) => post.metadata.slug));

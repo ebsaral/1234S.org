@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: '/dosya-gezgini',
+        destination: '/tr/file-explorer',
+        permanent: false,
+      },
+      {
         source: '/sss',
         destination: '/tr/philosophy#faq',
         permanent: false,

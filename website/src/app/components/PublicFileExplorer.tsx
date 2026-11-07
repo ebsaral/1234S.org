@@ -89,38 +89,60 @@ function TreeItem({ node, locale }: TreeItemProps) {
 }
 
 export default function PublicFileExplorer() {
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Prevent router actions from executing prior to client-side mount initialization
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const { locale } = useLocale();
   const content = useIntlayer('public-file-explorer');
-  const metadata = useIntlayer('assets-page-metadata');
+  const metadata = useIntlayer('file-explorer-page-metadata');
 
   const [data, setData] = useState<FileNode[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!isMounted) return;
+
+    let ignore = false;
     async function fetchFiles() {
       setIsLoading(true);
       try {
         const response = await fetch(`/api/public-files?locale=${locale}`);
-        if (!response.ok) throw new Error(content.fetchError.value);
         const result = await response.json();
-        setData(result.tree);
+        if (!ignore) setData(result.tree);
       } catch (err: any) {
         setError(err.message || content.unknownError.value);
       } finally {
-        setIsLoading(false);
+        if (!ignore) setIsLoading(false);
       }
     }
 
     fetchFiles();
-  }, [locale, content.fetchError.value, content.unknownError.value]);
+    return () => {
+      ignore = true;
+    };
+  }, [locale, isMounted]);
 
-  if (isLoading) {
-    return <div className='p-6 text-sm text-slate-500 animate-pulse'>{content.loading}</div>;
+  if (!isMounted || isLoading) {
+    return (
+      <div className='relative w-full mx-auto overflow-hidden px-2 sm:px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100. min-h-screen text-sm text-slate-500 animate-pulse'>
+        <div className='max-w-4xl mx-auto mt-4 sm:mt-16 px-3 sm:px-4 py-3 bg-slate-50 border-b border-slate-200 flex justify-between items-center rounded-t-lg'>
+          {content.loading}
+        </div>
+      </div>
+    );
   }
 
   if (error) {
-    return <div className='p-4 text-sm text-red-600 bg-red-50 rounded-md border border-red-200'>{error}</div>;
+    return (
+      <div className='relative w-full mx-auto overflow-hidden px-2 sm:px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100. min-h-screen p-4 text-sm text-red-600 bg-red-50 rounded-md border border-red-200'>
+        <div className='max-w-4xl mx-auto'> {error}</div>
+      </div>
+    );
   }
 
   return (
@@ -128,7 +150,7 @@ export default function PublicFileExplorer() {
       <main>
         <Title title={metadata.title.value} />
 
-        <div className='relative w-full mx-auto overflow-hidden px-2 sm:px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100 min-h-screen'>
+        <div className='relative w-full mx-auto overflow-hidden px-2 sm:px-4 py-16 bg-gradient-to-br from-gray-400 to-green-100. min-h-screen'>
           <div className='max-w-4xl mx-auto mt-4 sm:mt-16 px-3 sm:px-4 py-3 bg-slate-50 border-b border-slate-200 flex justify-between items-center rounded-t-lg'>
             <h2 className='text-sm font-semibold text-slate-800'>{content.title}</h2>
             <span className='text-xs text-slate-500 font-mono'>

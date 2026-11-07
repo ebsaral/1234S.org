@@ -4,7 +4,7 @@ const publicFileExplorerContent = {
   key: 'public-file-explorer',
   content: {
     title: t({
-      en: 'Files Explorer',
+      en: 'File Explorer',
       tr: 'Dosya Gezgini',
     }),
     columnsHeader: t({
