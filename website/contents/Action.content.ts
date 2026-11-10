@@ -7,9 +7,13 @@ const pageContent = {
       en: 'Our Action Plan',
       tr: 'Eylem Planımız',
     }),
-    complaintLink: t({
-      en: 'The complaint file [WHRC 37992](/files/WHRC_37992.pdf) has been sent to [UN Human Rights Council](https://www.ohchr.org/) on October 16, 2026.',
-      tr: '[WHRC 37992](/files/WHRC_37992_TR_translation.pdf) (Çeviri) dosya numaralı şikâyet, 16 Ekim 2026 tarihinde [BM İnsan Hakları Konseyi](https://www.ohchr.org/)’ne gönderilmiştir.',
+    UNComplaint: t({
+      en: 'On October 16, 2026, the complaint file [WHRC 37992](/files/WHRC_37992.pdf) has been sent to [UN Human Rights Council](https://www.ohchr.org/).',
+      tr: '16 Ekim 2026 tarihinde, [WHRC 37992](/files/WHRC_37992_TR_translation.pdf) (Çeviri) dosya numaralı şikâyet [BM İnsan Hakları Konseyi](https://www.ohchr.org/)’ne gönderilmiştir.',
+    }),
+    yargitayComplaint: t({
+      en: 'On November 6, 2026, the [Complaint for Annulment in the Interest of Law (in Turkish)](/files/Complaints/2026-11-06-Yargitay-Kanun-Yararina-Bozma.pdf) has been sent to the Ministry of Justice of the Republic of Türkiye to be submitted to the presidency of the judicial council.',
+      tr: "6 Kasım 2026 tarihinde, Yargıtay'a ulaştırılması için [Kanun Yararına Bozma dilekçesi](/files/Complaints/2026-11-06-Yargitay-Kanun-Yararina-Bozma.pdf) Türkiye Cumhuriyeti Adalet Bakanlığı'na gönderilmiştir.",
     }),
     items: [
       {
