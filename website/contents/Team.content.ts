@@ -27,8 +27,8 @@ const pageContent = {
       }),
       example: {
         href: t({
-          en: '/files/MIT-Solve-2027/Global_Economic_Prosperity_Challenge.pdf',
-          tr: '/files/MIT-Solve-2027/Global_Economic_Prosperity_Challenge_translation_TR.pdf',
+          en: '/files/Applications/MIT-Solve-2027-Global_Economic_Prosperity_Challenge.pdf',
+          tr: '/files/Applications/MIT-Solve-2027-Global_Economic_Prosperity_Challenge_translation_TR.pdf',
         }),
         text: t({
           en: 'Read our solution sent to MIT Solve Challenge.',
