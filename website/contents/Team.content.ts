@@ -32,7 +32,7 @@ const pageContent = {
         }),
         text: t({
           en: 'Read our solution sent to MIT Solve Challenge.',
-          tr: "MIT Solve Yarışması'na gönderdiğimiz çözümü okuyun.",
+          tr: "MIT Solve Yarışması'na gönderdiğimiz çözümü okuyun. (Çeviri)",
         }),
         source: {
           label: t({
