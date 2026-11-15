@@ -46,9 +46,6 @@ function TreeItem({ node, locale }: TreeItemProps) {
             <span className='text-amber-500 shrink-0'>📁</span>
             <span className='truncate'>{node.name}</span>
           </div>
-          <span className='text-xs text-slate-400 font-mono pl-6 sm:pl-0 shrink-0'>
-            {formatDate(node.updatedAt, locale)}
-          </span>
         </div>
         {isOpen && node.children && (
           <ul className='pl-2 sm:pl-4 border-l border-slate-200 ml-2 sm:ml-4 my-1 space-y-0.5'>
@@ -81,7 +78,6 @@ function TreeItem({ node, locale }: TreeItemProps) {
         {/* Right: File Size and Modified Date */}
         <div className='flex items-center gap-3 sm:gap-4 pl-6 sm:pl-4 shrink-0 justify-between sm:justify-end'>
           <span className='text-xs text-slate-400 font-mono'>{formatBytes(node.size)}</span>
-          <span className='text-xs text-slate-400 font-mono'>{formatDate(node.updatedAt, locale)}</span>
         </div>
       </div>
     </li>

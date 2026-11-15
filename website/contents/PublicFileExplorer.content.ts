@@ -8,8 +8,8 @@ const publicFileExplorerContent = {
       tr: 'Dosya Gezgini',
     }),
     columnsHeader: t({
-      en: 'Name / Size / Last Modified',
-      tr: 'Ad / Boyut / Son Değiştirilme',
+      en: 'Name / Size',
+      tr: 'Ad / Boyut',
     }),
     loading: t({
       en: 'Loading files and metadata...',
