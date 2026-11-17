@@ -74,9 +74,15 @@ const Research = () => {
 
   return (
     <>
-      <div className='max-w-5xl mx-auto w-full py-16 px-6 research'>
+      <div className='max-w-5xl mx-auto w-full py-16 px-6'>
         <div className='max-w-4xl mx-auto flex flex-col gap-5'>
-          <MarkdownRenderer>{content.projects.title.value}</MarkdownRenderer>
+          <h2 className='text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight overflow-ellipsis text-white'>
+            {content.projects.title.value}
+          </h2>
+        </div>
+
+        <div className='max-w-4xl mx-auto mt-12 -mb-4 text-left text-gray-100'>
+          <MarkdownRenderer>{content.projects.description.value}</MarkdownRenderer>
         </div>
 
         <Tooltip
@@ -121,11 +127,11 @@ const Research = () => {
             );
           })}
         </div>
-        <div className='max-w-4xl mx-auto mt-12 -mb-4 [&>p]:text-lg text-gray-300 text-center'>
-          <MarkdownRenderer>{content.projects.description.value}</MarkdownRenderer>
-        </div>
       </div>
 
+      <div className='max-w-4xl mx-auto prose-custom-all px-6 -mt-6 mb-12 text-left text-gray-100 [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold '>
+        <MarkdownRenderer>{content.projects.criticism.value}</MarkdownRenderer>
+      </div>
       <Link
         href={getLocalizedUrl('/blog', locale)}
         className='relative z-10 inline-flex items-center justify-center rounded-full bg-white px-7 py-3 mb-14 text-lg font-semibold text-blue-950 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-purple-100 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50 active:translate-y-0 active:scale-95 '

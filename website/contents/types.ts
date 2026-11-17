@@ -75,6 +75,7 @@ export interface HomePageContent {
   projects: {
     title: string;
     description: string;
+    criticism: string;
     items: {
       title: string;
       subtitle: string;
