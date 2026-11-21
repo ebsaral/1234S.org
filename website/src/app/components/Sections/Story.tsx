@@ -78,6 +78,10 @@ const Story = () => {
         <div className='text-center text-xs text-slate-400 mt-6'>{content.itemsNote.value}</div>
       </div>
 
+      <article className='prose-custom-all max-w-4xl mx-auto my-12 text-left text-white [&_a]:text-white [&_a]:font-semibold [&_a.tooltip-link]:!text-white [&_a.tooltip-link]:font-semibold'>
+        <MarkdownRenderer>{content.explanation.value}</MarkdownRenderer>
+      </article>
+
       <div className='text-center'>
         <Link
           href={getLocalizedUrl('/spirituality', locale)}
